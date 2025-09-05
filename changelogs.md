@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.14.0 - Pembaruan Aturan Kerja (Prompt Granular)
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Menambahkan aturan baru ke `GEMINI.md` untuk selalu menyisipkan prompt gambar tersembunyi setelah setiap paragraf/adegan kunci.
+
+---
+
 ## v0.13.0 - Restrukturisasi Prompt Gambar Granular
 *Tanggal: 2025-09-05*
 
