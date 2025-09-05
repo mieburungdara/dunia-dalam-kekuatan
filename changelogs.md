@@ -4,13 +4,6 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
-## v0.41.0 - Penambahan Navbar dan Footer
-*Tanggal: 2025-09-05*
-
-- **Ditambahkan**: Mengintegrasikan navbar dan footer sederhana menggunakan komponen Bootstrap ke `index.html` untuk struktur halaman yang lebih lengkap.
-
----
-
 ## v0.40.0 - Pembaruan Atribut Bahasa HTML
 *Tanggal: 2025-09-05*
 
@@ -216,7 +209,7 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 - **Ditambahkan**: Membuat layout Jekyll kustom (`_layouts/default.html`) untuk secara otomatis menampilkan galeri gambar di setiap halaman bab.
 - **Diperbarui**: Logika situs sekarang akan mencari dan menampilkan semua file gambar yang ada di dalam folder bab yang bersangkutan.
-- **Diperbarui**: Menambahkan aturan baru ke `GEMINI.md` mengenai fitur ini.
+- **Diperbarui**: Menambahkan aturan baru ke `GEMINI.md` mengenai fungsionalitas galeri otomatis ini.
 
 ---
 
