@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.31.0 - Penulisan Ulang Bab 1 (Pendalaman)
+*Tanggal: 2025-09-05*
+
+- **Ditulis Ulang**: Melakukan penulisan ulang Bab 1 secara ekstensif untuk memperdalam dan memperpanjang adegan setiap karakter sesuai standar detail yang baru.
+- **Diperbarui**: Menyesuaikan semua prompt gambar di Bab 1 agar selaras dengan narasi yang lebih kaya.
+
+---
+
 ## v0.30.0 - Penulisan Ulang Bab 1 (Detail Karakter)
 *Tanggal: 2025-09-05*
 
