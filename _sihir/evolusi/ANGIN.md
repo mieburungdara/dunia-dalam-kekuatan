@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tingkat Penguasaan Elemen: Angin
+title: "Tingkat Penguasaan Elemen: Angin"
 ---
 # 🌪️ Tingkat Penguasaan Elemen: Angin
 

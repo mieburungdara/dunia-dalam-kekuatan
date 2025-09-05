@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Energi Dasar: Aether
+title: "Energi Dasar: Aether"
 ---
 ## 1. Energi Dasar: **Aether**
 

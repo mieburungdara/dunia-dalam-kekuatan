@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tingkat Penguasaan Elemen: Tanah
+title: "Tingkat Penguasaan Elemen: Tanah"
 ---
 # ⛰️ Tingkat Penguasaan Elemen: Tanah
 

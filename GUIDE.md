@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Panduan Cerita: Lima Jiwa di Bumi Lain
+title: "Panduan Cerita: Lima Jiwa di Bumi Lain"
 ---
 # Panduan Cerita: Lima Jiwa di Bumi Lain
 

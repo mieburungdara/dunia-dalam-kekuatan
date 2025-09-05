@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tingkat Penguasaan Elemen: Kegelapan
+title: "Tingkat Penguasaan Elemen: Kegelapan"
 ---
 # 🌑 Tingkat Penguasaan Elemen: Kegelapan
 

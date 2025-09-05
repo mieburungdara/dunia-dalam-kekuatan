@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tingkat Penguasaan Elemen: Cahaya
+title: "Tingkat Penguasaan Elemen: Cahaya"
 ---
 # ✨ Tingkat Penguasaan Elemen: Cahaya
 

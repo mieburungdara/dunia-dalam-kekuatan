@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tingkat Penguasaan Elemen: Air
+title: "Tingkat Penguasaan Elemen: Air"
 ---
 # 💧 Tingkat Penguasaan Elemen: Air
 
