@@ -1,0 +1,22 @@
+# Directory Overview
+
+This directory contains the foundational documents for a fantasy novel project titled "Dunia dalam Kekuatan" (The World in Power). The story revolves around a simple shepherd named Ardan who is chosen by fate to become the "Fates Shepherd" and unite 12 legendary zodiac guardians to fight against a rising darkness.
+
+The project is structured as a collection of Markdown files that detail the plot, characters, world-building rules, and specific skills or abilities within the story's universe.
+
+# Key Files
+
+*   **`README.md`**: Provides a brief, narrative introduction to the story's protagonist, Ardan, and the initial premise of his journey.
+*   **`GUIDE.md`**: This is a crucial file acting as a guide for an AI writer. It establishes the core plot points, character personalities (Ardan, Aries, Taurus), the story's timeline, and the fundamental rules of the world to ensure narrative consistency.
+*   **`WORLDBUILDING.md`**: Details the fantasy world's mechanics. It explains the primary energy source ("Aether"), the system of magic, the concept of "Skills" (physical, spiritual, unique), powerful "Relics" with associated curses, and the different factions that exist within the world.
+*   **`SKILL_LIST.md`**: An empty file likely intended to list and describe the various skills and powers that characters can possess.
+*   **Character/Skill Files**: The directory contains numerous other Markdown files (e.g., `Bulls_Might.md`, `Fates_Shepherd.md`, `langkah_bayangan.md`) that appear to be detailed descriptions of individual skills, powers, or character-specific abilities.
+
+# Usage
+
+The contents of this directory are used for the creative development and writing of a fantasy novel. The files serve as a "single source of truth" to maintain consistency in the story's lore, characters, and plot.
+
+When working on this project, it is important to:
+1.  Adhere to the rules and character traits defined in `GUIDE.md` and `WORLDBUILDING.md`.
+2.  Use the individual skill files as a reference for character abilities.
+3.  Update the `SKILL_LIST.md` as new skills are conceptualized.
