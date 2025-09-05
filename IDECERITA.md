@@ -1,19 +1,26 @@
+buat adegan Lina lebih emosional: ia benar-benar lumpuh karena takut sebelum akhirnya bisa kabur. Dengan begitu pembaca bisa merasa iba dan relate dengan sifat penakutnya. Aku revisi bagian **Lina** biar lebih dramatis 👇
 
-# 📖 Bab 1 – Tersesat di Hutan Asing (Revisi Bagian Mira)
+---
 
-### Adegan 4: Mira
+# 📖 Bab 1 – Tersesat di Hutan Asing (Revisi Bagian Lina)
 
-* Mira tersadar di tengah padang rumput kecil, masih kebingungan.
-* Suara aneh terdengar dari balik semak → sekelompok **goblin** muncul dengan tatapan lapar.
-* Ia panik, segera bangkit dan berlari sekuat tenaga. Napasnya cepat, langkahnya tak beraturan.
-* *“Ini… apa?! Mereka bukan manusia…!”*
-* Goblin terus mengejarnya. Mira hampir tersandung batu, lalu terjatuh ke tanah. Saat ia berusaha bangkit, goblin sudah makin dekat.
-* **Tiba-tiba**, dari arah jauh terdengar teriakan keras — suara Bimo yang dikejar goblin lain.
-* Para goblin yang mengepung Mira berhenti sejenak, menoleh ke arah suara gaduh itu.
-* Kesempatan emas itu membuat Mira segera berdiri, menahan sakit di lututnya, lalu kabur ke arah hutan yang lebih rapat.
-* Ia berlari tanpa menoleh ke belakang, hanya mendengar raungan goblin yang kini terpecah: sebagian kembali mengejarnya, sebagian lain beralih ke arah Bimo.
-* Dengan susah payah, Mira berhasil lolos, meski napasnya tersengal dan tubuhnya penuh luka kecil dari ranting tajam.
-* Dalam hatinya ia berbisik: *“Aku tidak bisa mati di sini… aku bahkan belum tahu tempat ini apa…”*
+### Adegan 5: Lina
 
+* Lina terbangun di bawah pohon besar, tubuhnya gemetar, pandangannya kosong.
+* Di sekitarnya terdengar suara berisik, ranting patah, lalu muncullah **dua goblin kecil** dengan wajah bengis.
+* Lina ingin lari… tapi kakinya **tak mau bergerak**. Lututnya lemas, tangannya gemetar.
+* *“Tidak… jangan dekat… jangan…”* suaranya bergetar, hampir tak terdengar.
+* Goblin itu tertawa kasar, mendekat perlahan. Salah satunya menjatuhkan tombak kayu ke tanah, seakan sedang bermain-main.
+* Air mata mulai mengalir di pipi Lina. Ia mencoba bangkit, tapi tubuhnya terkunci oleh rasa takut.
+* Saat goblin sudah mengangkat tangannya untuk meraih Lina—
+  **BRAK!**
+  Suara gaduh dari kejauhan menggema: teriakan Bimo dan suara goblin yang gaduh karena mengejar Mira.
+* Kedua goblin menoleh, ragu sejenak. Salah satunya mengeluarkan suara serak, lalu keduanya berlari ke arah keributan itu.
+* Lina masih terduduk di tanah, terisak, tubuhnya lemah. Setelah beberapa detik, barulah ia sadar kesempatan itu bisa ia gunakan.
+* Dengan tangan gemetar, ia meraih batang pohon untuk menopang tubuhnya.
+* “Aku… harus pergi…” ucapnya lirih.
+* Perlahan ia memaksa dirinya bangkit, lalu melangkah tertatih ke arah suara yang sama, berharap menemukan seseorang.
 
-Dengan revisi ini, Mira **selamat berkat kebetulan (teriakan Bimo)**, bukan karena kekuatan yang belum ia sadari. Jadi tone ceritanya tetap **tegang tapi realistis**, sesuai dengan progres “profesi dasar” yang baru akan berkembang nanti.
+---
+
+👉 Dengan revisi ini, Lina benar-benar digambarkan **penakut hingga lumpuh**, tapi tetap ada sedikit keberanian saat ia memutuskan mengikuti arah keributan. Itu juga membuka jalan agar **Mira dan Lina bisa bertemu lebih natural**.
