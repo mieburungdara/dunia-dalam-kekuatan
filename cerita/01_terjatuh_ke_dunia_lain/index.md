@@ -12,16 +12,16 @@ dark fantasy forest at night, five brilliant pillars of white light shoot up int
 ```
 {% endcomment %}
 
-Arga tersadar dengan kepala pusing. Ia sempat melihat sisa-sisa cahaya memudar dari tubuhnya. Logika mahasiswa tekniknya segera bekerja, mencoba memproses data: pohon aneh, lumut berpendar, dua bulan. "Mimpi," gumamnya. Tiba-tiba, suara cekikikan tajam terdengar. Dari balik semak, sesosok goblin muncul, matanya tertuju padanya, jelas tertarik oleh cahaya tadi. Kepanikan mengalahkan logika. Arga meraih ranting kayu terdekat dan lari tanpa arah.
+Arga tersungkur di tanah berumput, napasnya berat. Ia sempat melihat sisa-sisa cahaya memudar dari tubuhnya. *"Bukan mimpi…"* pikirnya, mencoba menalar. Tiba-tiba, dari balik semak, seekor goblin kecil muncul, kulit hijau kusam dan mata merah menyala, jelas tertarik oleh cahaya tadi. Arga refleks mundur, meraih ranting pohon besar di tanah dan menggenggamnya erat. Namun, dari berbagai arah, lebih banyak goblin muncul. *"Lawan satu mungkin bisa, tapi melawan semuanya? Mustahil,"* logikanya berteriak. Tanpa pikir panjang, Arga berbalik dan berlari sekuat tenaga ke dalam hutan.
 
 {% comment %}
-### Prompt: Arga Ditemukan
+### Prompt: Keputusan Rasional Arga
 ```
-close-up shot on a young male anime hero (Arga) with a terrified and analytical expression, the faint magical glow around his body is fading. In the background, a small, menacing green goblin with a rusty dagger emerges from the bushes, drawn by the light -- style anime style, key visual, official art, by Wit Studio, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a tense moment, a young male anime hero (Arga) stands his ground, gripping a large tree branch as a weapon, facing down a single goblin. His expression shifts from defiance to dawning horror as more goblins emerge from the shadows, surrounding him. He then turns and flees into the dark woods -- style anime style, key visual, official art, by Wit Studio, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Di tempat lain, Bimo mendarat di tepi sungai. "Wow, efek visualnya keren," kelakarnya, melihat cahaya di tubuhnya menghilang. Insting gamer-nya aktif saat melihat goblin mendekat. Tanpa pikir panjang, ia melempar batu dan tepat mengenai kepala si goblin, yang langsung berteriak marah dan memanggil teman-temannya. "Oke, waktunya kabur!" seru Bimo, berlari menyusuri sungai, dikejar gerombolan goblin.
+Di tempat lain, Bimo mendarat di tepi sungai. "Wow, efek visualnya keren," kelakarnya, melihat cahaya di tubuhnya menghilang. Insting gamer-nya aktif saat melihat goblin mendekat. Tanpa pikir panjang, ia melempar batu dan tepat mengenai kepala si goblin, yang langsung berteriak marah dan memanggil teman-temannya. "Oke, waktunya kabur!" seru Bimo, berlari menyusuri sungai, dikejar oleh gerombolan goblin.
 
 {% comment %}
 ### Prompt: Bimo si Pembuat Onar

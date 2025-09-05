@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.28.0 - Revisi Alur Cerita Bab 1 (Arga)
+*Tanggal: 2025-09-05*
+
+- **Ditulis Ulang**: Merevisi adegan Arga di Bab 1 untuk menunjukkan proses berpikirnya yang lebih logis dan realistis sebelum memutuskan untuk kabur.
+- **Diperbarui**: Menyesuaikan prompt gambar untuk adegan Arga agar cocok dengan revisi.
+
+---
+
 ## v0.27.0 - Integrasi Konsep Cerita Baru & Aturan Revisi
 *Tanggal: 2025-09-05*
 
