@@ -170,6 +170,9 @@ collections:
   worldbuilding: # Added custom collection for worldbuilding
     output: true
     permalink: /:collection/:name/
+  faq:
+    output: true
+    permalink: /faq/:path/
 
 defaults:
   # Removed the specific scope for _posts to avoid conflict with our _cerita collection.
