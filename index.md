@@ -4,10 +4,9 @@ Selamat datang di dunia Eryndor. Ini adalah kisah tentang lima orang asing dari 
 
 ## Daftar Isi
 
-### Cerita Utama
-
-{% for chapter in site.cerita %}
-{% if chapter.basename == "index.md" %}
-- [{{ chapter.title }}]({{ chapter.url | relative_url }})
-{% endif %}
+<ul>
+{% assign sorted_chapters = site.cerita | sort: 'path' %}
+{% for chapter in sorted_chapters %}
+  <li><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></li>
 {% endfor %}
+</ul>
