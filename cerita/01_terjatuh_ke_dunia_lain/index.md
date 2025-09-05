@@ -39,16 +39,16 @@ a tense scene, a young female anime hero (Mira) in modern clothes has fallen in 
 ```
 {% endcomment %}
 
-Lina, yang paling pemalu, menangis dalam diam di bawah pohon raksasa. Saat mendengar suara goblin mendekat, kata-kata dari novel fantasi favoritnya terucap dari bibirnya tanpa sadar. Percikan api kecil muncul dari ujung jarinya, cukup untuk membuat goblin itu melompat kaget. Mengambil kesempatan, Lina berlari, mengikuti suara keributan yang ia harap adalah manusia lain.
+Lina terbangun di bawah pohon besar, tubuhnya gemetar hebat. Saat dua goblin kecil muncul dari balik semak dengan tawa kasar, kakinya seolah terpaku di tanah. Lututnya lemas, tak mau bergerak. "Tidak… jangan dekat…" bisiknya lirih, air mata mulai mengalir di pipinya. Saat salah satu goblin mengangkat tangan untuk meraihnya, suara gaduh dari kejauhan—teriakan Bimo dan gerombolan yang mengejarnya—membuat kedua goblin itu menoleh. Mereka ragu sejenak, lalu berlari ke arah keributan itu, meninggalkan Lina yang masih terduduk lumpuh karena takut. Setelah beberapa detik, barulah ia memaksa dirinya berdiri dan melangkah tertatih, mengikuti arah suara gaduh itu.
 
 {% comment %}
-### Prompt: Api Pertama Lina
+### Prompt: Lina yang Lumpuh Ketakutan
 ```
-a shy young female anime hero (Lina) with glasses, cowering under a giant tree. Her eyes are wide with surprise as a tiny, flickering flame dances on her fingertip, illuminating the scared faces of approaching goblins -- style anime style, key visual, official art, by Kyoto Animation, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+close-up, emotional shot of a terrified young female anime hero (Lina) with glasses, tears streaming down her face, frozen in fear at the base of a giant tree. Two menacing goblins are reaching for her, but are distracted by a commotion happening off-screen -- style anime style, key visual, official art, by Kyoto Animation, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Di tengah reruntuhan kuno, Raka, dengan naluri prajuritnya, menggunakan lempengan batu sebagai perisai darurat melawan serangan goblin. Fisiknya tidak sekuat dulu, napasnya tersengal, tetapi disiplin tempurnya tetap tajam. Ia berhasil menjatuhkan satu goblin dengan pukulan terarah. Di saat yang sama, Arga dan Bimo yang sedang dikejar-kejar, berlari masuk ke area reruntuhan. Tak lama kemudian, Mira dan Lina juga tiba dari sisi lain, keduanya tampak kelelahan. Kelimanya akhirnya bertemu, orang-orang asing di dunia asing, terpojok oleh musuh yang sama.
+Di tengah reruntuhan kuno, Raka, dengan naluri prajuritnya, menggunakan lempengan batu sebagai perisai darurat melawan serangan goblin. Fisiknya tidak sekuat dulu, napasnya tersengal, tetapi disiplin tempurnya tetap tajam. Ia berhasil menjatuhkan satu goblin dengan pukulan terarah. Di saat yang sama, Arga dan Bimo yang sedang dikejar-kejar, berlari masuk ke area reruntuhan. Tak lama kemudian, Mira dan Lina juga tiba dari sisi lain, keduanya tampak kelelahan dan ketakutan. Kelimanya akhirnya bertemu, orang-orang asing di dunia asing, terpojok oleh musuh yang sama.
 
 {% comment %}
 ### Prompt: Pertemuan di Reruntuhan

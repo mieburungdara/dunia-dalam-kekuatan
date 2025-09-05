@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.26.0 - Revisi Alur Cerita Bab 1 (Lina)
+*Tanggal: 2025-09-05*
+
+- **Ditulis Ulang**: Merevisi bagian cerita Lina di Bab 1 agar lebih emosional dan dramatis, di mana ia lumpuh karena takut sebelum akhirnya melarikan diri.
+- **Diperbarui**: Menyesuaikan prompt gambar untuk adegan Lina agar cocok dengan revisi.
+
+---
+
 ## v0.25.0 - Implementasi Anti-Cache
 *Tanggal: 2025-09-05*
 
