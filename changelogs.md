@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.7.0 - Integrasi Prompt Gambar per Bab
+*Tanggal: 2025-09-05*
+
+- **Ditambahkan**: Menyisipkan catatan prompt gambar yang relevan di setiap file bab (dari intro hingga bab 9). Catatan ini disembunyikan dari pembaca dan hanya berfungsi sebagai panduan untuk penulis.
+
+---
+
 ## v0.6.0 - Perubahan Gaya Visual Gambar
 *Tanggal: 2025-09-05*
 
