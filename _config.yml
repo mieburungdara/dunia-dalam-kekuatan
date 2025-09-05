@@ -7,4 +7,3 @@ exclude:
 collections:
   cerita:
     output: true
-    sort_by: path
