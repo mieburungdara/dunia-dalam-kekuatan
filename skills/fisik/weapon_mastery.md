@@ -1,0 +1,45 @@
+# Weapon Mastery
+
+**Kategori:** Fisik
+
+---
+
+## Deskripsi Singkat
+> *"Senjata hanyalah perpanjangan dari kehendakku."*
+
+Pengguna memiliki bakat alami untuk menguasai senjata apa pun yang mereka sentuh. Baik itu pedang, tombak, busur, atau bahkan senjata eksotis yang belum pernah mereka lihat sebelumnya, mereka dapat menggunakannya dengan tingkat kemahiran yang tinggi seolah-olah telah berlatih selama bertahun-tahun.
+
+---
+
+## Mekanisme Skill
+*   **Aktivasi:** Pasif
+*   **Biaya:** Tidak ada.
+*   **Jangkauan:** Diri sendiri.
+*   **Durasi:** Permanen.
+
+---
+
+## Batasan & Kelemahan
+*   Hanya memberikan kemahiran teknis, bukan kekuatan atau kecepatan. Pengguna tetap harus melatih atribut fisiknya.
+*   Tidak berlaku untuk Relic yang memiliki kesadaran dan memilih pemiliknya sendiri. Pengguna tetap harus membuktikan diri layak bagi Relic tersebut.
+
+---
+
+## Evolusi Skill
+*   **Novice:** Mampu menggunakan senjata umum (pedang, perisai) dengan baik.
+*   **Adept:** Mampu menggunakan hampir semua jenis senjata dengan mahir.
+*   **Master:** Mampu melemparkan senjata apa pun dengan akurasi mematikan atau menggunakan benda-benda di sekitar sebagai senjata improvisasi yang efektif.
+*   **Ascendant:** *Living Weapon*. Pengguna mampu menyalurkan sebagian kecil dari Aether atau jiwa mereka ke dalam senjata, memberinya ketajaman atau kekuatan magis sementara, atau bahkan membuatnya bergerak sesuai kehendak dalam jangkauan pendek.
+
+---
+
+## Sinergi & Konflik
+*   **Sinergi:** Sangat kuat jika digabungkan dengan *Ancient Martial Arts* untuk mengeksekusi teknik senjata yang rumit, atau dengan *Shadow Step* untuk melakukan serangan kejutan.
+*   **Konflik:** Tidak ada konflik langsung.
+
+---
+
+## Lore & Sejarah
+Skill ini sering dikaitkan dengan dewa perang atau pahlawan legendaris yang dikenal mampu memenangkan pertempuran seorang diri melawan ribuan musuh. Salah satu cerita yang paling terkenal adalah tentang seorang Ratu Prajurit yang mengalahkan pasukan musuh hanya dengan menggunakan alat-alat pertanian setelah pasukannya dilucuti.
+
+---
