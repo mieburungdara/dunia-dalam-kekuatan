@@ -22,3 +22,7 @@ When working on this project, it is important to:
 2.  When creating a new skill, **always follow the template in `SKILL_PATTERN.md`**.
 3.  Use the individual skill files as a reference for character abilities.
 4.  Update the `SKILL_LIST.md` as new skills are conceptualized.
+
+# Konfigurasi
+
+- **Bahasa**: Selalu gunakan Bahasa Indonesia untuk semua percakapan.
