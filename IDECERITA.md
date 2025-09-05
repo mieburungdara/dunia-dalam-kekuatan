@@ -1,4 +1,3 @@
----
 
 # 📖 Bab 1 – Tersesat di Hutan Asing (Revisi Bagian Mira)
 
@@ -16,6 +15,5 @@
 * Dengan susah payah, Mira berhasil lolos, meski napasnya tersengal dan tubuhnya penuh luka kecil dari ranting tajam.
 * Dalam hatinya ia berbisik: *“Aku tidak bisa mati di sini… aku bahkan belum tahu tempat ini apa…”*
 
----
 
 Dengan revisi ini, Mira **selamat berkat kebetulan (teriakan Bimo)**, bukan karena kekuatan yang belum ia sadari. Jadi tone ceritanya tetap **tegang tapi realistis**, sesuai dengan progres “profesi dasar” yang baru akan berkembang nanti.
