@@ -8,6 +8,12 @@ categories:
 ---
 # Sudut Pandang: Mira
 
-Mira, seorang calon dokter, terbangun di padang rumput dan langsung melakukan pemeriksaan diri. "Tidak ada patah tulang, hanya beberapa lecet," gumamnya. Cahaya yang memudar dari tubuhnya membuatnya bingung, tapi fokusnya adalah bertahan hidup.
+Mira, seorang calon dokter, tersentak bangun di padang rumput yang asing. Hal pertama yang ia lakukan adalah pemeriksaan diri secara sistematis. Jemarinya meraba setiap sendi, setiap tulang, mencari tanda-tanda cedera. "Tidak ada patah tulang, hanya beberapa lecet dan memar ringan," gumamnya, lega sekaligus bingung. Cahaya aneh yang memudar dari tubuhnya, meninggalkan sensasi kesemutan, membuatnya mengerutkan kening. Ini di luar pemahamannya, tapi fokus utamanya adalah bertahan hidup.
 
-Saat sekelompok goblin datang, ia langsung berlari. Fisiknya yang tidak terlatih membuatnya cepat lelah dan terjatuh. Saat para goblin mendekat, teriakan Bimo dari kejauhan memecah keheningan, memberi Mira kesempatan untuk kabur ke hutan yang lebih rapat, menuju ke arah reruntuhan yang tampak aman.
+Bau amis dan geraman rendah menarik perhatiannya. Sekelompok goblin, lebih kurus dan lebih buas dari yang pernah ia bayangkan, muncul dari balik semak belukar. Instingnya berteriak: lari! Ia langsung berlari, paru-parunya terasa terbakar dalam hitungan detik. Fisiknya yang terbiasa dengan buku dan laboratorium, bukan lari maraton, membuatnya cepat lelah dan tersandung akar pohon, jatuh tersungkur.
+
+Para goblin mendekat, mata merah mereka berkilat-kilat, taring-taring kotor menyeringai. Mira mencoba bangkit, tapi kakinya terasa lemas. Kepanikan mulai mencengkeramnya. Ia bisa melihat detail kulit mereka yang kasar, bau busuk yang menusuk hidung. Tepat saat salah satu goblin mengulurkan tangan kurusnya, sebuah teriakan melengking memecah keheningan hutan. Teriakan itu begitu nyaring dan konyol, membuat para goblin terkesiap dan sejenak mengalihkan perhatian.
+
+Itu adalah teriakan Bimo.
+
+Kesempatan itu tidak disia-siakan Mira. Dengan sisa tenaga, ia merangkak, lalu berlari tertatih-tatih ke arah suara itu, menuju hutan yang lebih rapat. Di kejauhan, siluet reruntuhan kuno tampak menjanjikan perlindungan. Ia terus berlari, napasnya terengah-engah, tapi pikirannya mulai menganalisis: makhluk-makhluk ini, lingkungan ini, semuanya baru. Ada banyak hal yang harus dipelajari jika ia ingin bertahan.
