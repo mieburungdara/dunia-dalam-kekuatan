@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.13.0 - Restrukturisasi Prompt Gambar Granular
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Merombak total sistem prompt gambar. Prompt sekarang disisipkan setelah setiap paragraf/adegan kunci di semua bab, bukan satu prompt di akhir.
+- **Diperbarui**: Membuat prompt baru yang lebih kontekstual dan spesifik untuk setiap adegan di semua bab cerita.
+
+---
+
 ## v0.12.0 - Peningkatan Kejelasan Prompt Gambar
 *Tanggal: 2025-09-05*
 
