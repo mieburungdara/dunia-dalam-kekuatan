@@ -26,3 +26,4 @@ When working on this project, it is important to:
 # Konfigurasi
 
 - **Bahasa**: Selalu gunakan Bahasa Indonesia untuk semua percakapan.
+- **Otomatisasi Git**: Setelah setiap perubahan file berhasil, segera jalankan `git add .`, `git commit`, dan `git push` secara otomatis.
