@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.36.0 - Penambahan Atribut Karakter (Zodiak & MBTI)
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Menambahkan informasi Zodiak dan MBTI untuk setiap karakter di `GUIDE.md`, `KARAKTER_DESKRIPSI.md`, dan `KARAKTER_ALTERNATIF.md` untuk memperdalam kepribadian mereka.
+
+---
+
 ## v0.35.0 - Restrukturisasi Bab dengan Sub-Bab
 *Tanggal: 2025-09-05*
 

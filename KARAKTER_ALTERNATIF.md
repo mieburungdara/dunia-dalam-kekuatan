@@ -1,5 +1,6 @@
 ### 1. **Arga (Laki-laki, 22 tahun)**
 
+* **Arketipe**: Virgo / INTJ (The Architect)
 * **Kepribadian**: Rasional, skeptis, selalu mempertanyakan logika dunia baru.
 * **Latar**: Mahasiswa teknik di Bumi.
 * **Profesi di Eryndor**: Swordman pemula.
@@ -8,6 +9,7 @@
 
 ### 2. **Bimo (Laki-laki, 19 tahun)**
 
+* **Arketipe**: Sagittarius / ENFP (The Campaigner)
 * **Kepribadian**: Ceria, optimis, agak ceroboh.
 * **Latar**: Anak SMA, gamer.
 * **Profesi di Eryndor**: Archer.
@@ -16,6 +18,7 @@
 
 ### 3. **Raka (Laki-laki, 27 tahun)**
 
+* **Arketipe**: Taurus / ISFJ (The Defender)
 * **Kepribadian**: Tenang, pelindung, seperti kakak besar.
 * **Latar**: Mantan tentara di Bumi.
 * **Profesi di Eryndor**: Tank/Guardian.
@@ -24,6 +27,7 @@
 
 ### 4. **Mira (Perempuan, 20 tahun)**
 
+* **Arketipe**: Capricorn / ESTJ (The Executive)
 * **Kepribadian**: Cerdas, ambisius, perfeksionis.
 * **Latar**: Mahasiswi kedokteran.
 * **Profesi di Eryndor**: Healer.
@@ -32,8 +36,9 @@
 
 ### 5. **Lina (Perempuan, 18 tahun)**
 
+* **Arketipe**: Pisces / INFP (The Mediator)
 * **Kepribadian**: Pemalu, sensitif, penuh rasa ingin tahu.
-* **Latar**: Siswi SMA yang suka membaca novel fantasi.
+* **Latar**: Siswi SMA yang suka novel fantasi.
 * **Profesi di Eryndor**: Mage pemula.
 * **Kelebihan**: Imajinasi tinggi, intuisi sihir kuat.
 * **Kelemahan**: Tidak percaya diri, gampang panik.

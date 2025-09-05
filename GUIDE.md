@@ -15,26 +15,31 @@ Mereka tidak langsung menjadi pahlawan, melainkan harus memulai dari nol sebagai
 ## Karakter Utama
 
 1.  **Arga (Laki-laki, 22 tahun) - Swordman Pemula**
+    *   **Arketipe**: Virgo / INTJ (The Architect)
     *   **Kepribadian**: Rasional, skeptis, selalu mempertanyakan logika dunia baru.
     *   **Latar**: Mahasiswa teknik di Bumi.
     *   **Peran**: Ahli strategi tidak resmi dalam grup.
 
 2.  **Bimo (Laki-laki, 19 tahun) - Archer Pemula**
+    *   **Arketipe**: Sagittarius / ENFP (The Campaigner)
     *   **Kepribadian**: Ceria, optimis, agak ceroboh.
     *   **Latar**: Anak SMA, gamer.
     *   **Peran**: Pengintai dengan insting tajam.
 
 3.  **Raka (Laki-laki, 27 tahun) - Tank Pemula**
+    *   **Arketipe**: Taurus / ISFJ (The Defender)
     *   **Kepribadian**: Tenang, pelindung, figur kakak.
     *   **Latar**: Mantan tentara di Bumi.
     *   **Peran**: Pelindung utama grup (Tank).
 
 4.  **Mira (Perempuan, 20 tahun) - Healer Pemula**
+    *   **Arketipe**: Capricorn / ESTJ (The Executive)
     *   **Kepribadian**: Cerdas, ambisius, perfeksionis.
     *   **Latar**: Mahasiswi kedokteran.
     *   **Peran**: Penyembuh dan analis.
 
 5.  **Lina (Perempuan, 18 tahun) - Mage Pemula**
+    *   **Arketipe**: Pisces / INFP (The Mediator)
     *   **Kepribadian**: Pemalu, sensitif, imajinatif.
     *   **Latar**: Siswi SMA yang suka novel fantasi.
     *   **Peran**: Pengguna sihir dengan potensi tersembunyi.
