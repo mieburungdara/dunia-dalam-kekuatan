@@ -7,3 +7,5 @@ exclude:
 collections:
   cerita:
     output: true
+    permalink: /:collection/:path/
+    sort_by: path
