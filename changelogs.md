@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.29.0 - Revisi Alur Cerita Bab 1 (Bimo)
+*Tanggal: 2025-09-05*
+
+- **Ditulis Ulang**: Merevisi adegan Bimo di Bab 1 untuk lebih menonjolkan kepribadiannya yang ceria dan optimis seperti seorang gamer.
+- **Diperbarui**: Menyesuaikan prompt gambar untuk adegan Bimo agar cocok dengan revisi.
+
+---
+
 ## v0.28.0 - Revisi Alur Cerita Bab 1 (Arga)
 *Tanggal: 2025-09-05*
 

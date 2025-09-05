@@ -21,12 +21,12 @@ a tense moment, a young male anime hero (Arga) stands his ground, gripping a lar
 ```
 {% endcomment %}
 
-Di tempat lain, Bimo mendarat di tepi sungai. "Wow, efek visualnya keren," kelakarnya, melihat cahaya di tubuhnya menghilang. Insting gamer-nya aktif saat melihat goblin mendekat. Tanpa pikir panjang, ia melempar batu dan tepat mengenai kepala si goblin, yang langsung berteriak marah dan memanggil teman-temannya. "Oke, waktunya kabur!" seru Bimo, berlari menyusuri sungai, dikejar oleh gerombolan goblin.
+Di tempat lain, Bimo jatuh ke tanah berumput sambil menepuk-nepuk baju sekolahnya. "Gila! Kayak masuk game isekai!" serunya, matanya berbinar melihat cahaya memudar dari tubuhnya. Kegembiraannya terusik saat seekor goblin muncul. "WOI! Monster low level!" teriaknya, bukannya takut. Ia meraih sebatang kayu. "Beginner weapon!" Dengan percaya diri, ia memukul goblin itu hingga terjatuh. Tapi kemudian, lima goblin lain muncul. Wajah Bimo pucat. "Eh, kok banyak? Oke, tutorial stage artinya disuruh kabur!" Ia pun menabrak celah di antara para goblin dan lari tunggang langgang sambil tertawa panik.
 
 {% comment %}
-### Prompt: Bimo si Pembuat Onar
+### Prompt: Bimo si Gamer Optimis
 ```
-dynamic action shot, a cheerful but panicked young male anime hero (Bimo) is sprinting away along a riverbank, chased by a comical mob of angry goblins, he looks over his shoulder with a cheeky grin -- style anime style, key visual, official art, by Studio Trigger, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a comical action scene, a cheerful anime hero (Bimo) with an overly confident grin knocks down a single goblin with a wooden stick. His smile instantly turns to panic as five more goblins appear from the bushes, and he immediately turns to run away screaming with a comical expression -- style anime style, key visual, official art, by Studio Trigger, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
