@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.24.0 - Debugging Cache GitHub Pages
+*Tanggal: 2025-09-05*
+
+- **Diperbaiki**: Memulai proses perbaikan cache dengan menonaktifkan tema kustom untuk sementara waktu guna memaksa server melakukan build ulang total.
+
+---
+
 ## v0.23.0 - Demonstrasi Daftar Isi Dinamis
 *Tanggal: 2025-09-05*
 
