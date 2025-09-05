@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.33.0 - Penonaktifan Fitur Prompt Gambar
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Menonaktifkan sementara fitur pembuatan prompt gambar dengan memberi komentar pada aturan terkait di `GEMINI.md` untuk fokus pada pengembangan cerita.
+
+---
+
 ## v0.32.0 - Revisi Alur Cerita Bab 1 (Bimo, Pendalaman)
 *Tanggal: 2025-09-05*
 

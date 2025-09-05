@@ -29,9 +29,13 @@ When working on this project, it is important to:
 - **Otomatisasi Git**: Setelah setiap perubahan file berhasil, segera jalankan `git add .`, `git commit`, dan `git push` secara otomatis.
 - **Metode Revisi**: Revisi cerita adalah proses **penggabungan**, bukan penggantian. Pertahankan narasi yang ada sambil mengintegrasikan ide-ide baru dari file revisi.
 - **Struktur Bab Dinamis**: Gunakan sistem Koleksi Jekyll (`collections`) untuk `cerita`. Setiap bab baru harus memiliki `title` di dalam *front matter* agar muncul di daftar isi secara otomatis.
-- **Prompt Gambar**: Untuk setiap bab atau konten cerita baru, selalu buat dan sisipkan prompt gambar yang relevan sebagai catatan penulis tersembunyi (`{% comment %}`).
-- **Prompt Granular**: Alih-alih satu prompt per bab, sisipkan prompt gambar tersembunyi setelah setiap paragraf atau adegan kunci untuk memberikan panduan visual yang detail.
-- **Sinkronisasi Prompt**: Jika sebuah bab cerita ditulis ulang atau diubah, prompt gambar yang ada di dalamnya juga harus diperbarui untuk mencerminkan perubahan cerita.
 - **Konsistensi Cerita**: Setiap kali mengubah atau menulis ulang sebuah bagian cerita, lakukan pemeriksaan silang dengan `GUIDE.md` dan bab-bab lain untuk memastikan tidak ada konflik plot, karakter, atau aturan dunia.
 - **Tampilan Gambar Otomatis**: Setiap halaman bab di situs harus secara otomatis menampilkan semua gambar yang ada di dalam folder bab tersebut, diurutkan berdasarkan nama file.
 - **Anti-Cache**: Situs dikonfigurasi untuk selalu memuat versi terbaru dan tidak menyimpan cache di browser.
+
+<!-- 
+### Fitur Gambar (Nonaktif Sementara)
+- **Prompt Gambar**: Untuk setiap bab atau konten cerita baru, selalu buat dan sisipkan prompt gambar yang relevan sebagai catatan penulis tersembunyi (`{% comment %}`).
+- **Prompt Granular**: Alih-alih satu prompt per bab, sisipkan prompt gambar tersembunyi setelah setiap paragraf atau adegan kunci untuk memberikan panduan visual yang detail.
+- **Sinkronisasi Prompt**: Jika sebuah bab cerita ditulis ulang atau diubah, prompt gambar yang ada di dalamnya juga harus diperbarui untuk mencerminkan perubahan cerita.
+-->
