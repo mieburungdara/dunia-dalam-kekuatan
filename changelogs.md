@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.39.0 - Perbaikan Daftar Isi Dinamis
+*Tanggal: 2025-09-05*
+
+- **Diperbaiki**: Memperbarui logika daftar isi di `index.md` untuk secara akurat menampilkan bab-bab dari koleksi `cerita` dengan memfilter hanya file `index.md` di setiap direktori bab.
+
+---
+
 ## v0.38.0 - Perubahan Alur Kerja & Atribut Karakter
 *Tanggal: 2025-09-05*
 

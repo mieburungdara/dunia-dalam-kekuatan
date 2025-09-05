@@ -7,5 +7,7 @@ Selamat datang di dunia Eryndor. Ini adalah kisah tentang lima orang asing dari 
 ### Cerita Utama
 
 {% for chapter in site.cerita %}
+{% if chapter.basename == "index.md" %}
 - [{{ chapter.title }}]({{ chapter.url | relative_url }})
+{% endif %}
 {% endfor %}
