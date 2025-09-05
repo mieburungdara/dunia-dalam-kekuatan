@@ -30,25 +30,25 @@ dynamic action shot, a cheerful but panicked young male anime hero (Bimo) is spr
 ```
 {% endcomment %}
 
-Mira membuka matanya di padang rumput kecil yang dikelilingi hutan. Kedamaian itu hanya sesaat. Sekelompok goblin perlahan mengepungnya. Ia berlari, tetapi gaunnya tersangkut akar pohon dan ia terjatuh. Saat salah satu goblin menerjang, keputusasaan memicu sesuatu dalam dirinya. Cahaya hangat keemasan meledak dari telapak tangannya, mendorong mundur para goblin yang terkejut. Mira menatap tangannya, gemetar antara takut dan takjub. "Sihir?"
+Mira membuka matanya di padang rumput kecil yang dikelilingi hutan. "Ini… apa?!" bisiknya, melihat flora dan fauna yang mustahil. Kedamaian itu hanya sesaat. Sekelompok goblin muncul dari semak-semak dengan tatapan lapar. Mira segera bangkit dan berlari sekuat tenaga, napasnya cepat dan panik. Saat ia hampir terjatuh, teriakan keras dari kejauhan—suara Bimo—membuat para goblin yang mengepungnya berhenti sejenak. Kesempatan itu ia gunakan untuk kabur ke hutan yang lebih rapat, berhasil lolos dengan napas tersengal dan beberapa goresan di lengan.
 
 {% comment %}
-### Prompt: Cahaya Mira
+### Prompt: Mira yang Terpojok
 ```
-a beautiful and magical scene, a young female anime hero (Mira) is on the ground, surrounded by goblins. A brilliant, warm golden light erupts from her outstretched hands, creating a protective barrier that dazzles and pushes back the creatures -- style anime style, key visual, official art, by Kyoto Animation, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a tense scene, a young female anime hero (Mira) in modern clothes has fallen in a grassy field, looking back in terror at a group of snarling goblins closing in on her. In the background, a subtle hint of another commotion distracts the goblins for a split second -- style anime style, key visual, official art, by A-1 Pictures, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Lina, yang paling pemalu, menangis dalam diam di bawah pohon raksasa. Saat mendengar suara goblin mendekat, kata-kata dari novel fantasi favoritnya terucap dari bibirnya tanpa sadar. Percikan api kecil muncul dari ujung jarinya, cukup untuk membuat goblin itu melompat kaget. Mengambil kesempatan, Lina berlari, mengikuti suara teriakan yang ia harap adalah manusia lain. Tak lama, ia menemukan Mira, dan keduanya lari bersama, saling memberi kekuatan dalam ketakutan.
+Lina, yang paling pemalu, menangis dalam diam di bawah pohon raksasa. Saat mendengar suara goblin mendekat, kata-kata dari novel fantasi favoritnya terucap dari bibirnya tanpa sadar. Percikan api kecil muncul dari ujung jarinya, cukup untuk membuat goblin itu melompat kaget. Mengambil kesempatan, Lina berlari, mengikuti suara keributan yang ia harap adalah manusia lain.
 
 {% comment %}
 ### Prompt: Api Pertama Lina
 ```
-a shy young female anime hero (Lina) with glasses, cowering under a giant tree. Her eyes are wide with surprise as a tiny, flickering flame dances on her fingertip, illuminating the scared faces of approaching goblins -- style anime style, key visual, official art, by A-1 Pictures, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a shy young female anime hero (Lina) with glasses, cowering under a giant tree. Her eyes are wide with surprise as a tiny, flickering flame dances on her fingertip, illuminating the scared faces of approaching goblins -- style anime style, key visual, official art, by Kyoto Animation, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Di tengah reruntuhan kuno, Raka, dengan naluri prajuritnya, menggunakan lempengan batu sebagai perisai darurat melawan serangan goblin. Fisiknya tidak sekuat dulu, napasnya tersengal, tetapi disiplin tempurnya tetap tajam. Ia berhasil menjatuhkan satu goblin dengan pukulan terarah. Di saat yang sama, Arga dan Bimo yang sedang dikejar-kejar, berlari masuk ke area reruntuhan, membawa serta gerombolan goblin. Tak lama kemudian, Mira dan Lina juga tiba dari sisi lain. Kelimanya akhirnya bertemu, orang-orang asing di dunia asing, terpojok oleh musuh yang sama.
+Di tengah reruntuhan kuno, Raka, dengan naluri prajuritnya, menggunakan lempengan batu sebagai perisai darurat melawan serangan goblin. Fisiknya tidak sekuat dulu, napasnya tersengal, tetapi disiplin tempurnya tetap tajam. Ia berhasil menjatuhkan satu goblin dengan pukulan terarah. Di saat yang sama, Arga dan Bimo yang sedang dikejar-kejar, berlari masuk ke area reruntuhan. Tak lama kemudian, Mira dan Lina juga tiba dari sisi lain, keduanya tampak kelelahan. Kelimanya akhirnya bertemu, orang-orang asing di dunia asing, terpojok oleh musuh yang sama.
 
 {% comment %}
 ### Prompt: Pertemuan di Reruntuhan
@@ -57,12 +57,12 @@ wide action shot inside ancient ruins, five young anime heroes (3 male, 2 female
 ```
 {% endcomment %}
 
-Pertarungan itu kacau balau. Raka menjadi benteng manusia, menahan serangan. Arga, dengan ranting kayunya, mencoba meniru gerakan pedang. Bimo melempari batu dengan akurasi mengejutkan. Di tengah, Mira berusaha fokus untuk mengeluarkan cahaya penyembuhnya, sementara Lina berhasil menciptakan percikan-percikan api kecil untuk mengalihkan perhatian. Itu tidak cantik, tetapi itu berhasil. Mereka berhasil memukul mundur para goblin.
+Pertarungan itu kacau balau. Raka menjadi benteng manusia, menahan serangan. Arga, dengan ranting kayunya, mencoba meniru gerakan pedang. Bimo melempari batu dengan akurasi mengejutkan. Mira dan Lina, masih gemetar, bersembunyi di belakang Raka, terlalu takut untuk melakukan apa pun. Kerja sama mereka belum terbentuk, hanya insting bertahan hidup yang kacau. Dengan keberuntungan semata, mereka berhasil membuat para goblin mundur untuk sementara waktu.
 
 {% comment %}
 ### Prompt: Pertarungan Pertama yang Kacau
 ```
-a chaotic battle scene, the five heroes fight together clumsily. The strong male hero (Raka) acts as a human shield, the strategic male hero (Arga) swings a tree branch like a sword, the cheerful male hero (Bimo) throws rocks, the kind female hero (Mira) emits a faint healing glow, and the shy female hero (Lina) shoots small fire sparks -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a chaotic battle scene, the five heroes fight together clumsily and realistically. The strong male hero (Raka) acts as a human shield, the strategic male hero (Arga) swings a tree branch like a sword, the cheerful male hero (Bimo) throws rocks. The two female heroes (Mira and Lina) are cowering behind the tank hero, looking terrified -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 

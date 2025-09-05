@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.21.0 - Revisi Alur Cerita Bab 1
+*Tanggal: 2025-09-05*
+
+- **Ditulis Ulang**: Merevisi bagian cerita Mira di Bab 1 agar lebih realistis, di mana ia selamat karena kebetulan, bukan karena sihir.
+- **Diperbarui**: Menyesuaikan adegan pertarungan dan prompt gambar yang relevan untuk mencerminkan perubahan alur.
+
+---
+
 ## v0.20.0 - Implementasi Daftar Isi Dinamis
 *Tanggal: 2025-09-05*
 
