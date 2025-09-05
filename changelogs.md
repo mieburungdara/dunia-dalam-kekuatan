@@ -4,6 +4,15 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.4.0 - Perbaikan Alur Pengguna
+*Tanggal: 2025-09-05*
+
+- **Ditambahkan**: File perkenalan cerita baru di `cerita/00_intro.md`.
+- **Diubah**: Halaman utama (`index.md`) sekarang mengarah ke file perkenalan baru.
+- **Diubah**: File `GUIDE.md` sekarang disembunyikan dari situs publik untuk menghindari kebingungan.
+
+---
+
 ## v0.3.0 - Konfigurasi dan Otomatisasi
 *Tanggal: 2025-09-05*
 

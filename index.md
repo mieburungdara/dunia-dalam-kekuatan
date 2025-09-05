@@ -4,7 +4,7 @@ Selamat datang di dunia Eryndor. Ini adalah kisah tentang lima orang asing dari 
 
 ## Daftar Isi
 
-*   [Pendahuluan](GUIDE.md)
+*   [Pendahuluan](cerita/00_intro.md)
 
 ### Cerita Utama
 

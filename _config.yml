@@ -2,3 +2,6 @@ remote_theme: devich/quick@0.0.1
 
 title: Dunia dalam Kekuatan
 description: Sebuah novel fantasi oleh I T Rerek
+
+exclude:
+  - GUIDE.md
