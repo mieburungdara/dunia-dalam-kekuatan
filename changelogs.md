@@ -4,6 +4,15 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.27.0 - Integrasi Konsep Cerita Baru & Aturan Revisi
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Mengintegrasikan konsep "Pilar Cahaya" dari `REVISI.md` ke dalam `GUIDE.md` dan narasi Bab 1.
+- **Diperbarui**: Menyesuaikan prompt gambar di Bab 1 untuk mencerminkan konsep baru.
+- **Diperbarui**: Menambahkan aturan kerja baru di `GEMINI.md` yang menyatakan bahwa revisi cerita adalah proses penggabungan, bukan penggantian.
+
+---
+
 ## v0.26.0 - Revisi Alur Cerita Bab 1 (Lina)
 *Tanggal: 2025-09-05*
 

@@ -6,7 +6,9 @@ Dokumen ini adalah panduan utama untuk menjaga konsistensi alur, karakter, dan d
 
 ### Premis Utama
 
-Lima orang asing dari Bumi secara misterius terlempar ke **Bumi Eryndor**, sebuah dunia paralel yang dipenuhi sihir, monster, dan kerajaan kuno. Mereka tidak langsung menjadi pahlawan, melainkan harus memulai dari nol sebagai petualang pemula (Rank F) dengan profesi dasar, berjuang untuk bertahan hidup sambil mengungkap takdir mereka yang terikat pada ramalan kuno.
+Lima orang asing dari Bumi secara misterius terlempar ke **Bumi Eryndor**, sebuah dunia paralel yang dipenuhi sihir, monster, dan kerajaan kuno. Saat mereka tiba, tubuh masing-masing memancarkan **pilar cahaya yang menjulang ke langit**, sebuah fenomena magis yang menarik perhatian para penghuni dunia, baik yang jinak maupun yang buas. Cahaya ini menjadi penanda kedatangan mereka, sekaligus suar yang mengundang bahaya.
+
+Mereka tidak langsung menjadi pahlawan, melainkan harus memulai dari nol sebagai petualang pemula (Rank F) dengan profesi dasar, berjuang untuk bertahan hidup sambil mengungkap takdir mereka yang terikat pada ramalan kuno.
 
 ---
 
@@ -41,8 +43,8 @@ Lima orang asing dari Bumi secara misterius terlempar ke **Bumi Eryndor**, sebua
 
 ## Aturan Dunia & Alur Awal
 
+*   **Pemicu Insiden**: Kedatangan mereka ditandai **Pilar Cahaya** yang menarik perhatian makhluk primitif seperti goblin, yang menganggapnya sebagai pertanda mangsa atau harta.
 *   **Setting**: Cerita dimulai di **Kerajaan Valdoria** dan **Monsterland** di sekitarnya.
 *   **Sistem Profesi**: Semua orang memulai dari "Profesi Dasar" dan peringkat terendah (**Rank F**) di **Guild Petualang**.
-*   **Konflik Utama**: Ada ramalan tentang **"Lima Jiwa Asing"** yang akan mengubah takdir dunia, entah sebagai pahlawan atau bencana. Akibatnya, mereka diawasi oleh berbagai pihak.
-*   **Tujuan Awal**: Bertahan hidup, menyelesaikan misi-misi kecil, dan perlahan meningkatkan kemampuan mereka dari nol.
-*   **Pemicu Cerita**: Penemuan **Relic** pertama yang membuktikan bahwa mereka adalah orang-orang dalam ramalan.
+*   **Konflik Utama**: Ada ramalan tentang **"Lima Jiwa Asing"**. Fenomena cahaya kedatangan mereka menjadi bukti awal ramalan ini, membuat mereka diawasi oleh berbagai pihak, termasuk yang jauh lebih berbahaya dari goblin.
+*   **Tujuan Awal**: Bertahan hidup, lari dari kejaran goblin, dan mencari tahu apa yang terjadi pada mereka.

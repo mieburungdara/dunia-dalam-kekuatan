@@ -27,6 +27,7 @@ When working on this project, it is important to:
 
 - **Bahasa**: Selalu gunakan Bahasa Indonesia untuk semua percakapan.
 - **Otomatisasi Git**: Setelah setiap perubahan file berhasil, segera jalankan `git add .`, `git commit`, dan `git push` secara otomatis.
+- **Metode Revisi**: Revisi cerita adalah proses **penggabungan**, bukan penggantian. Pertahankan narasi yang ada sambil mengintegrasikan ide-ide baru dari file revisi.
 - **Struktur Bab Dinamis**: Gunakan sistem Koleksi Jekyll (`collections`) untuk `cerita`. Setiap bab baru harus memiliki `title` di dalam *front matter* agar muncul di daftar isi secara otomatis.
 - **Prompt Gambar**: Untuk setiap bab atau konten cerita baru, selalu buat dan sisipkan prompt gambar yang relevan sebagai catatan penulis tersembunyi (`{% comment %}`).
 - **Prompt Granular**: Alih-alih satu prompt per bab, sisipkan prompt gambar tersembunyi setelah setiap paragraf atau adegan kunci untuk memberikan panduan visual yang detail.
