@@ -4,6 +4,15 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.25.0 - Implementasi Anti-Cache
+*Tanggal: 2025-09-05*
+
+- **Ditambahkan**: Membuat komponen `_includes/cache_buster.html` dan `_includes/head.html` untuk menyisipkan meta tag anti-cache di setiap halaman.
+- **Diperbarui**: Situs sekarang akan menginstruksikan browser untuk selalu memuat versi terbaru, mengatasi masalah cache.
+- **Diperbarui**: Menambahkan aturan baru ke `GEMINI.md` mengenai fitur ini.
+
+---
+
 ## v0.24.0 - Debugging Cache GitHub Pages
 *Tanggal: 2025-09-05*
 
