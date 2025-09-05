@@ -3,6 +3,14 @@
 Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
+
+## v0.6.0 - Perubahan Gaya Visual Gambar
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Mengubah `IMAGE_PROMPT_PATTERN.md` untuk menghasilkan gambar dengan gaya visual anime, menggantikan gaya *digital painting* sebelumnya.
+
+---
+
 ## v0.5.0 - Panduan Gambar
 *Tanggal: 2025-09-05*
 
