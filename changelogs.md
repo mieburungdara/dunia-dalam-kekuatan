@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.16.0 - Perbaikan Logika Galeri Gambar
+*Tanggal: 2025-09-05*
+
+- **Diperbaiki**: Memperbaiki bug pada `_layouts/default.html` yang menyebabkan galeri gambar tidak menemukan gambar di dalam folder bab yang benar.
+- **Diperbarui**: Logika pencarian gambar sekarang menggunakan variabel `page.dir` yang lebih akurat.
+
+---
+
 ## v0.15.0 - Implementasi Galeri Gambar Otomatis
 *Tanggal: 2025-09-05*
 
