@@ -1,10 +1,6 @@
-Tentu, dengan senang hati saya akan membuatkan daftar skill berdasarkan aturan dunia yang telah Anda tetapkan. Skill ini dibagi menjadi tiga kategori utama: **Fisik, Rohani, dan Unik**, yang terinspirasi dari dokumen `WORLDBUILDING.md` Anda untuk memastikan semuanya terasa menyatu dengan dunia yang Anda ciptakan.
-
-Berikut adalah daftar skill yang bisa Anda gunakan:
-
----
 
 ### ⚔️ Skill Fisik
+
 Kemampuan yang berfokus pada kekuatan, kecepatan, dan ketahanan tubuh. Umumnya diperoleh melalui latihan fisik yang sangat keras atau pengalaman tempur yang ekstrem.
 
 | Nama Skill | Deskripsi Singkat |
@@ -17,6 +13,7 @@ Kemampuan yang berfokus pada kekuatan, kecepatan, dan ketahanan tubuh. Umumnya d
 | **[Adaptasi Tempur]** | Kemampuan tubuh untuk beradaptasi secara cepat terhadap ancaman fisik, misalnya meningkatkan resistensi terhadap racun setelah terpapar, atau menguatkan tulang setelah patah. |
 
 ### ✨ Skill Rohani
+
 Kemampuan yang terhubung dengan kepekaan terhadap **Aether**, jiwa, dan dunia gaib. Seringkali dimiliki oleh para **Channeler** atau mereka yang memiliki bakat spiritual.
 
 | Nama Skill | Deskripsi Singkat |
@@ -29,6 +26,7 @@ Kemampuan yang terhubung dengan kepekaan terhadap **Aether**, jiwa, dan dunia ga
 | **[Penjejak Memori]** | Dengan menyentuh sebuah objek, pengguna bisa melihat "memori" atau kejadian penting yang pernah dialami objek tersebut (psikometri). |
 
 ### 🌟 Skill Unik
+
 Kemampuan langka yang dibawa sejak lahir dan biasanya hanya dimiliki oleh satu individu di dunia pada satu waktu. Skill ini seringkali menjadi penentu sejarah.
 
 | Nama Skill | Deskripsi Singkat |
