@@ -4,6 +4,15 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.10.0 - Restrukturisasi Folder Cerita
+*Tanggal: 2025-09-05*
+
+- **Diubah**: Merestrukturisasi direktori `cerita/`. Setiap bab sekarang berada di dalam foldernya sendiri untuk manajemen aset yang lebih baik.
+- **Diubah**: Memindahkan semua file bab ke dalam folder masing-masing dan menamainya `index.md`.
+- **Diperbarui**: Memperbarui semua tautan di halaman utama (`index.md`) untuk mencerminkan struktur folder yang baru.
+
+---
+
 ## v0.9.0 - Pembaruan Aturan Kerja Lanjutan
 *Tanggal: 2025-09-05*
 
