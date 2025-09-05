@@ -3,6 +3,12 @@
 Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
+## v0.5.0 - Panduan Gambar
+*Tanggal: 2025-09-05*
+
+- **Ditambahkan**: File `IMAGE_PROMPT_PATTERN.md` untuk memberikan panduan dan prompt siap pakai dalam membuat gambar yang konsisten secara visual.
+
+---
 
 ## v0.4.0 - Perbaikan Alur Pengguna
 *Tanggal: 2025-09-05*
