@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chapter
 title: Bab 2 - Desa Pertama
 chapter_title: Desa Pertama
 order: 0

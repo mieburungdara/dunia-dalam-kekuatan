@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: chapter
 title: 1.1 - Logika di Tengah Kepanikan
 chapter_title: Terjatuh ke Dunia Lain
 order: 1
