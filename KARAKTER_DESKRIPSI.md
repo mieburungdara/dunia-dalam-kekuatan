@@ -6,7 +6,7 @@ Seorang mahasiswa teknik yang rasional dan skeptis, Arga selalu mempertanyakan l
 
 ### 2. **Bimo (19) - Sagittarius / ENFP**
 
-Bimo adalah seorang gamer SMA yang ceria, optimis, namun agak ceroboh. Sebagai seorang Archer di Eryndor, instingnya yang tajam dan kemampuannya untuk belajar dengan cepat membuatnya menjadi aset berharga. Sayangnya, sifat gegabahnya sering membuatnya mudah tertipu oleh musuh.
+Bimo adalah seorang gamer SMA yang ceria dan optimis, namun dikenal sebagai si pemalas di kelompoknya. Ia selalu mencari jalan pintas dan menghindari pekerjaan berat jika memungkinkan. Sebagai seorang Archer di Eryndor, instingnya yang tajam dan kemampuannya untuk belajar dengan cepat seringkali bertentangan dengan sifat malasnya, membuatnya menjadi karakter yang tak terduga. Sifat gegabahnya juga sering membuatnya mudah tertipu.
 
 ### 3. **Raka (27) - Taurus / ISFJ**
 
@@ -14,7 +14,7 @@ Raka adalah mantan tentara yang tenang dan memiliki jiwa pelindung, menjadikanny
 
 ### 4. **Mira (20) - Capricorn / ESTJ**
 
-Mira adalah seorang mahasiswi kedokteran yang cerdas, ambisius, dan perfeksionis. Sebagai seorang Healer di Eryndor, kemampuan analitisnya dan bakat penyembuh alaminya sangat berharga. Namun, sikapnya yang kaku dan kecenderungannya untuk meremehkan orang yang dianggapnya bodoh seringkali menimbulkan konflik.
+Mira adalah seorang mahasiswi kedokteran yang cerdas dan ambisius. Sebagai seorang Healer, kemampuan analitisnya sangat berharga. Namun, sifat perfeksionis dan keras kepalanya seringkali membuatnya menjadi menjengkelkan. Ia sulit menerima masukan karena merasa paling tahu, dan kecenderungannya untuk meremehkan anggota lain yang dianggapnya tidak logis sering menjadi sumber konflik dan beban bagi tim.
 
 ### 5. **Lina (18) - Pisces / INFP**
 

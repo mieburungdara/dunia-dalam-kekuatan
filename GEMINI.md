@@ -26,12 +26,19 @@ When working on this project, it is important to:
 # Konfigurasi
 
 - **Bahasa**: Selalu gunakan Bahasa Indonesia untuk semua percakapan.
-- **Otomatisasi Git**: Setelah setiap perubahan file berhasil, segera jalankan `git add .`, `git commit`, dan `git push` secara otomatis.
+- **Alur Kerja Git**: Tunggu perintah "commit" dari pengguna. Saat diperintahkan, perbarui `changelogs.md` terlebih dahulu, baru jalankan `git add .`, `git commit`, dan `git push`.
 - **Metode Revisi**: Revisi cerita adalah proses **penggabungan**, bukan penggantian. Pertahankan narasi yang ada sambil mengintegrasikan ide-ide baru dari file revisi.
 - **Struktur Bab Dinamis**: Gunakan sistem Koleksi Jekyll (`collections`) untuk `cerita`. Setiap bab baru harus memiliki `title` di dalam *front matter* agar muncul di daftar isi secara otomatis.
 - **Konsistensi Cerita**: Setiap kali mengubah atau menulis ulang sebuah bagian cerita, lakukan pemeriksaan silang dengan `GUIDE.md` dan bab-bab lain untuk memastikan tidak ada konflik plot, karakter, atau aturan dunia.
 - **Tampilan Gambar Otomatis**: Setiap halaman bab di situs harus secara otomatis menampilkan semua gambar yang ada di dalam folder bab tersebut, diurutkan berdasarkan nama file.
 - **Anti-Cache**: Situs dikonfigurasi untuk selalu memuat versi terbaru dan tidak menyimpan cache di browser.
+
+# Gaya Penulisan
+
+- **Pronomina**: Gunakan "aku, kamu, kau, kita". Hindari "loe, gue", kecuali untuk dialog atau monolog internal karakter tertentu (seperti Bimo) dalam adegan yang bersifat komedi/santai.
+- **Paragraf**: Setiap adegan baru dimulai di paragraf baru.
+- **Dialog**: Gunakan tanda kutip (“”) dan pisahkan tiap pembicara.
+- **Deskripsi & Aksi**: Gabungkan dengan narasi, buat agar lebih terasa dan dapat dibayangkan.
 
 <!-- 
 ### Fitur Gambar (Nonaktif Sementara)

@@ -22,9 +22,9 @@ Mereka tidak langsung menjadi pahlawan, melainkan harus memulai dari nol sebagai
 
 2.  **Bimo (Laki-laki, 19 tahun) - Archer Pemula**
     *   **Arketipe**: Sagittarius / ENFP (The Campaigner)
-    *   **Kepribadian**: Ceria, optimis, agak ceroboh.
+    *   **Kepribadian**: Ceria dan optimis, namun cenderung pemalas dan agak ceroboh.
     *   **Latar**: Anak SMA, gamer.
-    *   **Peran**: Pengintai dengan insting tajam.
+    *   **Peran**: Pengintai dengan insting tajam yang selalu mencari jalan pintas.
 
 3.  **Raka (Laki-laki, 27 tahun) - Tank Pemula**
     *   **Arketipe**: Taurus / ISFJ (The Defender)
@@ -34,9 +34,9 @@ Mereka tidak langsung menjadi pahlawan, melainkan harus memulai dari nol sebagai
 
 4.  **Mira (Perempuan, 20 tahun) - Healer Pemula**
     *   **Arketipe**: Capricorn / ESTJ (The Executive)
-    *   **Kepribadian**: Cerdas, ambisius, perfeksionis.
+    *   **Kepribadian**: Cerdas, ambisius, perfeksionis, dan sangat keras kepala.
     *   **Latar**: Mahasiswi kedokteran.
-    *   **Peran**: Penyembuh dan analis.
+    *   **Peran**: Penyembuh dan analis yang seringkali memaksakan kehendaknya.
 
 5.  **Lina (Perempuan, 18 tahun) - Mage Pemula**
     *   **Arketipe**: Pisces / INFP (The Mediator)

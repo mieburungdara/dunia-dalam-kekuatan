@@ -1,5 +1,3 @@
-# remote_theme: devich/quick@0.0.1
-
 title: Dunia dalam Kekuatan
 description: Sebuah novel fantasi oleh I T Rerek
 
@@ -10,9 +8,3 @@ collections:
   cerita:
     output: true
     sort_by: path
-
-# Vercel
-
-vercel:
-  # enable vercel analytics
-  analytics: true

@@ -10,11 +10,11 @@
 ### 2. **Bimo (Laki-laki, 19 tahun)**
 
 * **Arketipe**: Sagittarius / ENFP (The Campaigner)
-* **Kepribadian**: Ceria, optimis, agak ceroboh.
+* **Kepribadian**: Ceria, optimis, namun cenderung pemalas dan agak ceroboh.
 * **Latar**: Anak SMA, gamer.
 * **Profesi di Eryndor**: Archer.
-* **Kelebihan**: Insting tajam, cepat belajar.
-* **Kelemahan**: Sering gegabah, gampang tertipu.
+* **Kelebihan**: Insting tajam, cepat belajar, selalu mencari cara termudah.
+* **Kelemahan**: Sering gegabah, gampang tertipu, menghindari pekerjaan berat.
 
 ### 3. **Raka (Laki-laki, 27 tahun)**
 
@@ -28,11 +28,11 @@
 ### 4. **Mira (Perempuan, 20 tahun)**
 
 * **Arketipe**: Capricorn / ESTJ (The Executive)
-* **Kepribadian**: Cerdas, ambisius, perfeksionis.
+* **Kepribadian**: Cerdas, ambisius, perfeksionis, dan keras kepala.
 * **Latar**: Mahasiswi kedokteran.
 * **Profesi di Eryndor**: Healer.
-* **Kelebihan**: Analitis, penyembuh alami.
-* **Kelemahan**: Kadang terlalu kaku, suka meremehkan yang dianggap bodoh.
+* **Kelebihan**: Analitis, penyembuh alami, punya standar tinggi.
+* **Kelemahan**: Sangat kaku, sulit menerima masukan, dan sering meremehkan orang lain, membuatnya jadi beban dalam dinamika tim.
 
 ### 5. **Lina (Perempuan, 18 tahun)**
 

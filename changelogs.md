@@ -4,6 +4,24 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.38.0 - Perubahan Alur Kerja & Atribut Karakter
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Alur kerja Git diubah menjadi manual, menunggu perintah `commit` dari pengguna. Aturan terkait diperbarui di `GEMINI.md`.
+- **Diperbarui**: Menambahkan panduan gaya penulisan baru (pronomina, paragraf, dialog) ke `GEMINI.md`.
+- **Diperbarui**: Menambahkan sifat "pemalas" pada Bimo dan "keras kepala" pada Mira di semua file karakter.
+- **Diperbaiki**: Mengoreksi penggunaan pronomina di Bab 1.
+
+---
+
+## v0.37.0 - Refactoring Tema ke Bootstrap 5
+*Tanggal: 2025-09-05*
+
+- **Diubah**: Menghapus `remote_theme` dari `_config.yml`.
+- **Ditambahkan**: Membuat layout `default.html` baru menggunakan Bootstrap 5 dari CDN untuk kontrol penuh atas tampilan situs.
+
+---
+
 ## v0.36.0 - Penambahan Atribut Karakter (Zodiak & MBTI)
 *Tanggal: 2025-09-05*
 
