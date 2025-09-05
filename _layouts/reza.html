@@ -14,25 +14,22 @@ layout: page
   <div class="post-list-container">
     {{ content }}
 
-    {% assign current_chapter_title = page.chapter_title %}
-    {% assign current_order = page.order %}
-
-    {% assign chapter_sub_babs = site.cerita | where: "chapter_title", current_chapter_title | sort: "order" %}
+    {% assign all_sub_babs = site.cerita | sort: "chapter_title" | sort: "order" %}
 
     {% assign prev_sub_bab = nil %}
     {% assign next_sub_bab = nil %}
 
-    {% for sub_bab in chapter_sub_babs %}
-      {% if sub_bab.order == current_order %}
+    {% for sub_bab in all_sub_babs %}
+      {% if sub_bab.url == page.url %}
         {% assign current_index = forloop.index0 %}
         {% if current_index > 0 %}
           {% assign prev_index = current_index | minus: 1 %}
-          {% assign prev_sub_bab = chapter_sub_babs[prev_index] %}
+          {% assign prev_sub_bab = all_sub_babs[prev_index] %}
         {% endif %}
-        {% assign last_index = chapter_sub_babs.size | minus: 1 %}
+        {% assign last_index = all_sub_babs.size | minus: 1 %}
         {% if current_index < last_index %}
           {% assign next_index = current_index | plus: 1 %}
-          {% assign next_sub_bab = chapter_sub_babs[next_index] %}
+          {% assign next_sub_bab = all_sub_babs[next_index] %}
         {% endif %}
       {% endif %}
     {% endfor %}
