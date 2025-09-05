@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: default
 title: 1.6 - Lima Titik Cahaya
 chapter_title: Terjatuh ke Dunia Lain
 order: 6

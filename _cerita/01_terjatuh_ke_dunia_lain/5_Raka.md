@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: default
 title: 1.5 - Insting Seorang Prajurit
 chapter_title: Terjatuh ke Dunia Lain
 order: 5

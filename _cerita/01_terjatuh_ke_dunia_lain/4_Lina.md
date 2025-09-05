@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: default
 title: 1.4 - Lumpuh oleh Imajinasi
 chapter_title: Terjatuh ke Dunia Lain
 order: 4
