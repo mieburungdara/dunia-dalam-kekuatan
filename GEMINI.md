@@ -40,9 +40,3 @@ When working on this project, it is important to:
 - **Dialog**: Gunakan tanda kutip (“”) dan pisahkan tiap pembicara.
 - **Deskripsi & Aksi**: Gabungkan dengan narasi, buat agar lebih terasa dan dapat dibayangkan.
 
-<!-- 
-### Fitur Gambar (Nonaktif Sementara)
-- **Prompt Gambar**: Untuk setiap bab atau konten cerita baru, selalu buat dan sisipkan prompt gambar yang relevan sebagai catatan penulis tersembunyi (`{% comment %}`).
-- **Prompt Granular**: Alih-alih satu prompt per bab, sisipkan prompt gambar tersembunyi setelah setiap paragraf atau adegan kunci untuk memberikan panduan visual yang detail.
-- **Sinkronisasi Prompt**: Jika sebuah bab cerita ditulis ulang atau diubah, prompt gambar yang ada di dalamnya juga harus diperbarui untuk mencerminkan perubahan cerita.
--->
