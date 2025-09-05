@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.17.0 - Fokus Ulang Cerita ke Bab 1
+*Tanggal: 2025-09-05*
+
+- **Dihapus**: Menghapus semua bab (termasuk intro) kecuali Bab 1 untuk memfokuskan kembali alur cerita.
+- **Diperbarui**: Memperbarui halaman utama (`index.md`) untuk hanya menampilkan tautan ke Bab 1.
+
+---
+
 ## v0.16.0 - Perbaikan Logika Galeri Gambar
 *Tanggal: 2025-09-05*
 
