@@ -1,62 +1,57 @@
-# 🌍 Premis Utama
-Lima orang acak dari Bumi tiba-tiba **terlempar ke dunia baru** (fantasi penuh sihir / pasca-apokaliptik / dunia paralel penuh monster).  
-Mereka tidak saling kenal sebelumnya, tapi sekarang harus bertahan hidup bersama.  
+# 🌍 Dunia Baru: Bumi Paralel
+Sebuah dunia yang mirip Bumi, namun dipenuhi **monster, sihir, dan kerajaan**.  
+Masyarakat di dunia ini terbagi dalam **profesi** layaknya sistem kelas RPG.  
 
-Setiap orang mendapat **“peran” atau “kekuatan unik”** di dunia baru ini, sesuai dengan **kepribadian dan latar belakang mereka di Bumi**.  
-
----
-
-# 👥 Karakter Utama
-
-## 1. 🧑‍💼 Raka (Laki-laki, 27 tahun) – *Si Pemimpin Terpaksa*
-- **Dari Bumi**: Pegawai kantoran yang ambisius, tapi sering kehilangan arah.  
-- **Kepribadian**: Rasional, perfeksionis, gampang panik dalam keadaan darurat.  
-- **Di Dunia Baru**: Mendapatkan kekuatan *Strategist* → bisa melihat kelemahan musuh dan membuat rencana, tapi fisiknya lemah.  
-- **Arc**: Belajar bahwa kepemimpinan bukan hanya soal logika, tapi juga hati.  
+## ⚔️ Sistem Profesi
+- **Profesi Awal (Novice/Biasa)**: semua orang memulai tanpa skill jelas, hanya profesi dasar.  
+- **Profesi Lanjutan**: Swordman, Archer, Tank, Healer, Mage, dan cabang profesi lain.  
+- **Relic & Skill**: benda kuno atau bakat khusus bisa memengaruhi perkembangan profesi.  
 
 ---
 
-## 2. 🧑‍🎤 Bima (Laki-laki, 19 tahun) – *Si Pemberontak*
-- **Dari Bumi**: Anak kuliahan yang sering bolos, suka musik, jiwa bebas.  
-- **Kepribadian**: Nekat, sarkastis, tapi punya hati baik.  
-- **Di Dunia Baru**: Jadi *Warrior* dengan kekuatan fisik luar biasa, senjatanya bisa menyerap energi lawan.  
-- **Arc**: Belajar tanggung jawab dan menemukan arti kebebasan sejati.  
+# 👥 Karakter Utama dan Profesi Awal
+
+## 1. 🧑‍💼 Raka (27) – *Si Pemimpin Terpaksa*
+- **Profesi**: Swordman Novice  
+- **Kepribadian**: Rasional, perfeksionis, mudah panik, tapi cerdas dalam membuat keputusan.  
 
 ---
 
-## 3. 👨‍🔧 Andra (Laki-laki, 32 tahun) – *Si Realis*
-- **Dari Bumi**: Mekanik bengkel motor, pekerja keras, hidup sederhana.  
-- **Kepribadian**: Praktis, skeptis terhadap hal mistis, jarang percaya orang lain.  
-- **Di Dunia Baru**: Jadi *Blacksmith/Engineer* → bisa membuat senjata/alat dari apa pun yang ia temukan.  
-- **Arc**: Dari skeptis jadi tulang punggung tim, menciptakan senjata legendaris.  
+## 2. 🧑‍🎤 Bima (19) – *Si Pemberontak*
+- **Profesi**: Archer Novice  
+- **Kepribadian**: Nekat, sarkastis, bebas, tapi peduli pada orang lain.  
 
 ---
 
-## 4. 👩‍🎓 Sinta (Perempuan, 24 tahun) – *Si Intelektual*
-- **Dari Bumi**: Mahasiswa jurusan sejarah, suka baca mitologi.  
-- **Kepribadian**: Analitis, pendiam, perfeksionis, kadang dianggap sombong.  
-- **Di Dunia Baru**: Jadi *Mage of Relics* → bisa mengaktifkan artefak kuno dengan pengetahuannya.  
-- **Arc**: Belajar membuka diri, jadi kunci dalam memahami misteri dunia.  
+## 3. 👨‍🔧 Andra (32) – *Si Realis*
+- **Profesi**: Tank Novice  
+- **Kepribadian**: Praktis, skeptis terhadap sihir, tidak mudah percaya, tapi pekerja keras.  
 
 ---
 
-## 5.  Maya (Perempuan, 21 tahun) – *Si Optimis*
-- **Dari Bumi**: Barista yang ceria, mudah akrab dengan siapa saja.  
-- **Kepribadian**: Polos, ceroboh, tapi selalu membawa suasana positif.  
-- **Di Dunia Baru**: Mendapatkan kekuatan *Healer* → bisa menyembuhkan luka, tapi setiap kali menyembuhkan orang, ia ikut merasakan sedikit rasa sakit itu.  
-- **Arc**: Dari gadis ceria jadi simbol harapan, meskipun harus menanggung penderitaan orang lain.  
+## 4. 👩‍ Sinta (24) – *Si Intelektual*
+- **Profesi**: Mage Novice  
+- **Kepribadian**: Analitis, pendiam, perfeksionis, kadang terlihat sombong.  
+
+---
+
+## 5. 👩 Maya (21) – *Si Optimis*
+- **Profesi**: Healer Novice  
+- **Kepribadian**: Ceria, polos, ceroboh, tapi selalu membawa harapan bagi kelompok.  
 
 ---
 
 # ⚡️ Konflik Awal
-- Mereka terlempar ke dunia asing yang penuh bahaya.  
-- Tidak ada yang saling percaya, karena mereka orang asing satu sama lain.  
-- Dunia baru ini punya sistem kekuatan unik (Relic, sihir, atau teknologi kuno).  
-- Mereka sadar: untuk pulang (atau bertahan), mereka harus **belajar bekerja sama** meski berbeda kepribadian.  
+1. **Kedatangan**: Kelima orang terlempar di pinggiran kerajaan *Altherion*, di sebuah hutan penuh monster tingkat rendah.  
+2. **Pertemuan**: Awalnya saling curiga, tapi mereka dipaksa bekerja sama untuk melawan monster kecil.  
+3. **Profesi Muncul**: Saat terdesak, profesi dasar mereka terbangkitkan (Swordman, Archer, Tank, Mage, Healer).  
+4. **Kerajaan**: Setelah selamat, mereka menemukan bahwa dunia ini dikuasai kerajaan besar yang membagi masyarakat berdasarkan profesi.  
+5. **Misteri**: Mengapa hanya mereka berlima yang dipindahkan ke dunia ini? Apakah ada kaitannya dengan perang kuno antara manusia, monster, dan Relic?  
 
 ---
 
 # 🎭 Nuansa Cerita
-- **Drama antar karakter** (perbedaan sifat, ego, dan kepercayaan).  
-- **Petualangan dunia baru** (monster, kerajaan, organisasi misterius).  
-- **Misteri besar**: kenapa justru mereka berlima yang dipilih dari Bumi?
+- **Pertumbuhan karakter**: dari profesi dasar → berkembang lewat pengalaman dan konflik.  
+- **Intrik kerajaan**: politik, peperangan, dan rahasia Relic.  
+- **Survival**: monster, dungeon, guild petualang.  
+- **Drama antar karakter**: konflik pribadi, kerja sama, pengkhianatan, dan ikatan persahabatan.
