@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.23.0 - Demonstrasi Daftar Isi Dinamis
+*Tanggal: 2025-09-05*
+
+- **Ditambahkan**: Membuat placeholder untuk Bab 2 (`cerita/02_desa_pertama/`) untuk mendemonstrasikan bahwa daftar isi di halaman utama bersifat dinamis dan akan otomatis menampilkan bab baru.
+
+---
+
 ## v0.22.0 - Perbaikan Cache Daftar Isi
 *Tanggal: 2025-09-05*
 
