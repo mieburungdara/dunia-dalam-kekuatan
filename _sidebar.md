@@ -1,4 +1,4 @@
-*   [Pendahuluan](README.md)
+*   [Pendahuluan](GUIDE.md)
 *   **Cerita Utama**
     *   [Bab 1: Terjatuh ke Dunia Lain](cerita/bab_01.md)
     *   [Bab 2: Di Balik Tembok Valdoria](cerita/bab_02.md)
