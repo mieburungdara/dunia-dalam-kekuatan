@@ -7,6 +7,6 @@ Sebuah tes sihir sederhana dilakukan pada mereka. Sebuah bola kristal bersinar d
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-interior shot of a fantasy adventurer's guild, the five young anime heroes stand in a line before a glowing crystal ball, each looking surprised as it shines with a different colored light (red, green, grey, gold, blue) corresponding to their new profession -- style anime style, key visual, official art, by Kyoto Animation, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+interior shot of a fantasy adventurer's guild, a group of five young anime heroes (3 male, 2 female) stand in a line before a glowing crystal ball, each looking surprised as it shines with a different colored light (red, green, grey, gold, blue) corresponding to their new profession -- style anime style, key visual, official art, by Kyoto Animation, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

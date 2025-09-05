@@ -7,6 +7,6 @@ Mereka berhasil. Di dalam peti tua di ujung gua, selain beberapa koin tembaga, m
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-teamwork action shot inside a dark cave, Raka (tank) with his shield forward blocking a goblin, Arga (swordman) and Bimo (archer) attacking from the sides, Lina (mage) casting a small fire, and Mira (healer) with a soft glow around her hands -- style anime style, key visual, official art, by ufotable, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+teamwork action shot inside a dark cave, a group of five young anime heroes (3 male, 2 female) work together to fight goblins. The male tank with a shield is in front, a male swordman and male archer attack from the sides, a female mage casts a small fire, and a female healer has a soft glow around her hands -- style anime style, key visual, official art, by ufotable, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

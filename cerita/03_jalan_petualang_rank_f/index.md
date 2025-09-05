@@ -7,6 +7,6 @@ Namun, misi itu berakhir dengan kegagalan total. Arga tersandung kakinya sendiri
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-comedic scene, a small, laughing goblin points at the clumsy anime heroes in a sunny field; Arga has tripped over his wooden sword, Bimo's arrow is stuck in a tree far away, and Raka is struggling to lift his shield -- style anime style, key visual, official art, by Studio Deen, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+comedic scene, a small, laughing goblin points at a group of five clumsy anime heroes (3 male, 2 female) in a sunny field; the swordman has tripped over his wooden sword, the archer's arrow is stuck in a tree far away, and the tank is struggling to lift his shield -- style anime style, key visual, official art, by Studio Deen, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

@@ -7,6 +7,6 @@ Suatu malam, Bimo bersumpah melihat sesosok bayangan di atap gedung seberang, me
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-night scene in a fantasy city, Bimo (archer) looks over his shoulder with a worried expression, pointing towards a rooftop where a mysterious shadowy figure is barely visible against the moonlight -- style anime style, key visual, official art, by Wit Studio, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+night scene in a fantasy city, a male anime archer looks over his shoulder with a worried expression, pointing towards a rooftop where a mysterious shadowy figure is barely visible against the moonlight, his four teammates (2 male, 2 female) are looking up as well -- style anime style, key visual, official art, by Wit Studio, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

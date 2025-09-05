@@ -7,6 +7,6 @@ Elara melatih mereka tanpa henti. Arga belajar posisi kuda-kuda yang benar, Bimo
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-training montage, a split-panel image showing the five anime heroes practicing their basic skills in a training yard under the watchful eye of a female senior adventurer (Elara), determination in their eyes -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+training montage, a split-panel image showing a group of five young anime heroes (3 male, 2 female) practicing their basic skills in a training yard under the watchful eye of a female senior adventurer (Elara), determination in their eyes -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

@@ -7,6 +7,6 @@ Namun, sendiri-sendiri, mereka justru menghadapi bencana. Arga nyaris tewas dise
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-emotional scene, a central image of the five anime heroes arguing angrily, surrounded by four smaller panels showing each of them struggling and failing alone in dangerous situations -- style anime style, key visual, official art, by CloverWorks, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+emotional scene, a central image of a group of five young anime heroes (3 male, 2 female) arguing angrily, surrounded by four smaller panels showing each of them struggling and failing alone in dangerous situations -- style anime style, key visual, official art, by CloverWorks, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

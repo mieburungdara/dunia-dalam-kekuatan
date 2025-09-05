@@ -9,6 +9,6 @@ Perjalanan mereka tidak dimulai dengan kemuliaan, tetapi dengan kebingungan dan 
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-epic wide shot from behind, the five anime heroes stand on a cliff's edge, looking out at the world of Eryndor. In the far distance, a majestic fantasy kingdom with impossibly tall white spires and waterfalls is visible. Two large moons hang in the purple-hued twilight sky -- style anime style, key visual, official art, by Makoto Shinkai, by Studio Ghibli, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+epic wide shot from behind, a group of five young anime heroes (3 male, 2 female) stand on a cliff's edge, looking out at the world of Eryndor. In the far distance, a majestic fantasy kingdom with impossibly tall white spires and waterfalls is visible. Two large moons hang in the purple-hued twilight sky -- style anime style, key visual, official art, by Makoto Shinkai, by Studio Ghibli, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

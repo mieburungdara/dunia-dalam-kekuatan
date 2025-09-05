@@ -7,6 +7,6 @@ Tanpa senjata dan pengalaman, mereka hanya bisa berlari dan menghindar berdasark
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-dynamic action shot, five terrified young anime heroes in modern clothes are cornered by a monstrous, snarling wolf with glowing crystal tusks in a dark, menacing forest at night, dramatic backlighting from the moon -- style anime style, key visual, official art, by Studio Trigger, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+dynamic action shot, a group of five terrified young anime heroes (3 male, 2 female) in modern clothes are cornered by a monstrous, snarling wolf with glowing crystal tusks in a dark, menacing forest at night, dramatic backlighting from the moon -- style anime style, key visual, official art, by Studio Trigger, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

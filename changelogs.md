@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.12.0 - Peningkatan Kejelasan Prompt Gambar
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Merevisi semua prompt gambar di setiap bab agar lebih spesifik, terutama dalam mendeskripsikan jumlah karakter (3 laki-laki, 2 perempuan) untuk meningkatkan akurasi dan konsistensi gambar yang dihasilkan.
+
+---
+
 ## v0.11.0 - Pembaruan Aturan Kerja Kualitas
 *Tanggal: 2025-09-05*
 

@@ -7,6 +7,6 @@ Perjalanan membawa mereka ke sebuah reruntuhan kuno yang dijaga oleh Golem Batu.
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-epic moment in ancient ruins, Raka (tank) holds up a brilliantly glowing silver shield (Aegis of Valor), protecting the team as a massive stone golem crumbles into pieces behind him -- style anime style, key visual, official art, by ufotable, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+epic moment in ancient ruins, a male anime tank hero holds up a brilliantly glowing silver shield (Aegis of Valor), protecting his four teammates (2 male, 2 female) as a massive stone golem crumbles into pieces behind him -- style anime style, key visual, official art, by ufotable, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}

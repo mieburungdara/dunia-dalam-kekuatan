@@ -7,6 +7,6 @@ Para penyerang itu mengincar Aegis of Valor. Pertarungan pun tak terhindarkan. M
 {% comment %}
 ### Catatan Penulis: Prompt Gambar
 ```
-dynamic battle scene in a dark city alley, the five young heroes stand back-to-back, looking battered but determined, facing off against mysterious assassins in dark robes, Raka's shield glowing faintly -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+dynamic battle scene in a dark city alley, a group of five young anime heroes (3 male, 2 female) stand back-to-back, looking battered but determined, facing off against mysterious assassins in dark robes, the male tank's shield glowing faintly -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
