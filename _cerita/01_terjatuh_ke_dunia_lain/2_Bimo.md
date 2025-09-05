@@ -1,5 +1,8 @@
 ---
+layout: chapter
 title: 1.2 - Selamat Datang di Tutorial
+chapter_title: Terjatuh ke Dunia Lain
+order: 2
 ---
 # Sudut Pandang: Bimo
 

@@ -1,4 +1,6 @@
-
+---
+layout: page
+title: Revisi Cerita
 ---
 
 ## 📖 Bab 1 – Adegan Bimo (Revisi sesuai profil)

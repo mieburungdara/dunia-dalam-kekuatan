@@ -1,3 +1,7 @@
+---
+layout: page
+title: Panduan Cerita: Lima Jiwa di Bumi Lain
+---
 # Panduan Cerita: Lima Jiwa di Bumi Lain
 
 Dokumen ini adalah panduan utama untuk menjaga konsistensi alur, karakter, dan dunia dalam cerita "Lima Jiwa di Bumi Lain".

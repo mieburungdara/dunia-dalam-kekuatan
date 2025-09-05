@@ -1,0 +1,10 @@
+---
+layout: default
+title: Aturan Eksplorasi Dunia
+---
+## 6. Aturan Eksplorasi Dunia
+
+* **Relic tersebar** di reruntuhan kuno, gua terlarang, atau terkubur dalam mitos rakyat.
+* **Skill Unik** sering muncul secara tidak terduga, menjadikan individu tertentu penting dalam sejarah.
+* **Konflik antar faksi** membuat dunia terus berubah, sehingga setiap perjalanan selalu berisiko.
+* **Legenda dan cerita rakyat** sering kali menjadi petunjuk untuk menemukan Relic atau rahasia sihir.

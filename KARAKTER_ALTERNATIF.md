@@ -1,3 +1,7 @@
+---
+layout: page
+title: Karakter Alternatif
+---
 ### 1. **Arga (Laki-laki, 22 tahun)**
 
 * **Arketipe**: Virgo / INTJ (The Architect)

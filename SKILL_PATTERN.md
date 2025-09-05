@@ -1,3 +1,7 @@
+---
+layout: page
+title: Pola Standar untuk Skill
+---
 # Pola Standar untuk Skill
 
 Setiap file skill baru harus mengikuti pola berikut untuk menjaga konsistensi:
@@ -13,7 +17,7 @@ Setiap file skill baru harus mengikuti pola berikut untuk menjaga konsistensi:
 ## Deskripsi Singkat
 > *[Kutipan atau deskripsi puitis tentang skill]*
 
-[Penjelasan detail tentang apa yang dilakukan skill ini, bagaimana cara kerjanya, dan apa efeknya.]
+[Penjelasan detail tentang apa yang dilakukan skill ini dan bagaimana kelihatannya.]
 
 ---
 

@@ -1,5 +1,8 @@
 ---
+layout: chapter
 title: 1.3 - Napas yang Terengah
+chapter_title: Terjatuh ke Dunia Lain
+order: 3
 ---
 # Sudut Pandang: Mira
 

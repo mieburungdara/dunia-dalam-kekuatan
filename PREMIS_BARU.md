@@ -1,3 +1,7 @@
+---
+layout: page
+title: Dunia Baru: Bumi Paralel
+---
 # 🌍 Dunia Baru: Bumi Paralel
 Sebuah dunia yang mirip Bumi, namun dipenuhi **monster, sihir, dan kerajaan**.  
 Masyarakat di dunia ini terbagi dalam **profesi** layaknya sistem kelas RPG.  

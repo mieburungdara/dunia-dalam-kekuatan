@@ -1,5 +1,8 @@
 ---
+layout: chapter
 title: Bab 1 - Tersesat di Hutan Asing
+chapter_title: Terjatuh ke Dunia Lain
+order: 0
 ---
 # Bab 1: Tersesat di Hutan Asing
 

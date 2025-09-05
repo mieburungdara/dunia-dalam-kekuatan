@@ -1,3 +1,7 @@
+---
+layout: page
+title: Pola Prompt Gambar - Dunia dalam Kekuatan (Gaya Anime)
+---
 # Pola Prompt Gambar - Dunia dalam Kekuatan (Gaya Anime)
 
 Dokumen ini berfungsi sebagai panduan untuk menghasilkan gambar yang konsisten dengan gaya visual anime berkualitas tinggi.
@@ -24,7 +28,7 @@ Berikut adalah tiga contoh prompt lengkap untuk adegan-adegan kunci dari file `c
 *   **Prompt Lengkap**:
 
 ```
-epic ultra-wide shot, five human silhouettes are pulled through a shimmering, tearing rift in the fabric of a star-filled cosmos, ethereal light and magical energy spilling from the tear, mystery, awe-inspiring -- style anime style, key visual, official art, by Makoto Shinkai, by Studio Ghibli, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+epic ultra-wide shot, five human silhouettes (3 male, 2 female) are pulled through a shimmering, tearing rift in the fabric of a star-filled cosmos, ethereal light and magical energy spilling from the tear, mystery, awe-inspiring -- style anime style, key visual, official art, by Makoto Shinkai, by Studio Ghibli, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 
 ### Adegan 2: Kebangkitan di Hutan Asing

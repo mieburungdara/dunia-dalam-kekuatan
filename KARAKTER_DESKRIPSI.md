@@ -1,3 +1,7 @@
+---
+layout: page
+title: Deskripsi Karakter Alternatif
+---
 ## Deskripsi Karakter Alternatif
 
 ### 1. **Arga (22) - Virgo / INTJ**

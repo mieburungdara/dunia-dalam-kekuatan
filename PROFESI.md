@@ -1,3 +1,7 @@
+---
+layout: page
+title: Referensi Profesi Dunia Fantasi
+---
 # 📜 Referensi Profesi Dunia Fantasi
 
 ## ⚔️ Militer & Tempur
