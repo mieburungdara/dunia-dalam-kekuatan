@@ -1,3 +1,6 @@
+---
+title: Bab 1 - Tersesat di Hutan Asing
+---
 # Bab 1: Tersesat di Hutan Asing
 
 Langit di atas Jakarta terbelah tanpa suara. Bagi Arga yang sedang merenung di dalam bus, Bimo yang asyik bermain game di kamarnya, Raka yang sedang berolahraga di taman, Mira yang membaca buku di perpustakaan, dan Lina yang melamun di dekat jendela, dunia mereka lenyap dalam sekejap. Sebuah cahaya putih yang mustahil menelan mereka, menarik mereka ke dalam kehampaan yang dingin, sebelum akhirnya menghempaskan mereka—sendirian dan terpisah—di atas tanah lembap sebuah hutan yang tidak dikenal.

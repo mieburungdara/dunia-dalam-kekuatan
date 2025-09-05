@@ -4,6 +4,16 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.20.0 - Implementasi Daftar Isi Dinamis
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Mengkonfigurasi `cerita` sebagai *Jekyll Collection* di `_config.yml`.
+- **Diperbarui**: Mengganti daftar isi statis di `index.md` dengan kode Liquid dinamis yang secara otomatis membuat daftar bab dari koleksi.
+- **Diperbarui**: Menambahkan `title` pada *front matter* Bab 1 untuk mendukung sistem dinamis.
+- **Diperbarui**: Menambahkan aturan baru ke `GEMINI.md` mengenai penggunaan sistem koleksi ini.
+
+---
+
 ## v0.19.0 - Perbaikan Tampilan Situs & Galeri
 *Tanggal: 2025-09-05*
 

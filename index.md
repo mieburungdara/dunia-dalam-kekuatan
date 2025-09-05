@@ -6,4 +6,6 @@ Selamat datang di dunia Eryndor. Ini adalah kisah tentang lima orang asing dari 
 
 ### Cerita Utama
 
-*   [Bab 1: Terjatuh ke Dunia Lain](cerita/01_terjatuh_ke_dunia_lain/)
+{% for chapter in site.cerita %}
+- [{{ chapter.title }}]({{ chapter.url | relative_url }})
+{% endfor %}
