@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.34.0 - Pembersihan Prompt Gambar
+*Tanggal: 2025-09-05*
+
+- **Dihapus**: Menghapus semua sisa prompt gambar yang tersembunyi dari file cerita untuk membersihkan file dan fokus pada narasi.
+
+---
+
 ## v0.33.0 - Penonaktifan Fitur Prompt Gambar
 *Tanggal: 2025-09-05*
 
