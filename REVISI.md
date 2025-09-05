@@ -1,44 +1,50 @@
-revisi adegan Arga biar lebih dramatis dan mencerminkan sifatnya yang **rasional tapi keras kepala**. Awalnya mencoba melawan dengan logika, tapi akhirnya sadar kondisi mustahil → pilih kabur.
 
 ---
 
-## 📖 Bab 1 – Adegan Arga (Revisi)
+## 📖 Bab 1 – Adegan Bimo (Revisi sesuai profil)
 
-Arga tersungkur di tanah berumput, napasnya berat setelah jatuh dari ketinggian.
-Ia menatap sekeliling dengan dahi berkerut.
-*"Apa-apaan ini? Bukan mimpi… bukan halusinasi…"* pikirnya, mencoba menalar.
+Bimo terdorong jatuh ke tanah berumput, tubuhnya sedikit sakit karena terseret.
+“Aduh! Wah… ini gue dimana?!” serunya, sambil bangkit dan menepuk-nepuk baju sekolahnya yang penuh tanah.
 
-Tiba-tiba terdengar suara aneh: *krek… krek…* ranting patah di semak-semak.
-Arga refleks menoleh, lalu matanya membelalak.
+Ia melihat sekeliling. Pohon-pohon menjulang tinggi, udara sejuk, dan suara serangga asing terdengar jelas. Matanya membesar, lalu ia tersenyum lebar.
+“Gila! Kayak lagi masuk ke map game fantasy. Apa ini… dunia isekai beneran?”
 
-Seekor **goblin** mungil muncul, kulit hijau kusam, mata merah menyala.
-Arga menelan ludah, kaget setengah mati.
-*"Makhluk apa ini…? Bukan manusia. Seperti monster di game?"*
+Belum sempat ia menikmati pemandangan, terdengar suara ranting patah. Dari balik semak, sosok kecil bermata merah keluar—seekor goblin dengan taring runcing.
 
-Goblin itu menatapnya dengan tawa serak.
-Arga mundur beberapa langkah sambil cepat-cepat mencari sesuatu.
-Matanya tertuju pada **ranting pohon besar** di tanah.
-Ia meraihnya dan menggenggam kuat, mencoba menggunakannya sebagai pedang.
+Bimo terdiam sebentar, lalu bukannya takut, dia malah berseru,
+“WOI! Itu kan monster low level! Hahaha, ini fix banget dunia game!”
 
-"Aku tidak bisa mati di sini," gumamnya pelan.
+Goblin itu menggeram dan berjalan ke arahnya dengan senjata berupa tulang panjang.
+Bimo menelan ludah, wajahnya masih setengah ceria meski mulai panik.
+“Eh-eh… bentar dulu, gue kan belum punya starter pack… mana senjata gue?”
 
-Goblin itu mendekat perlahan. Arga mengangkat rantingnya, bersiap.
-Namun suara dari semak lain membuat darahnya membeku.
+Ia celingukan, lalu menemukan **sebatang kayu**. Ia memungutnya sambil tersenyum.
+“Lumayan, beginner weapon! Oke, let’s go!”
 
-Satu… dua… tiga…
-Dari berbagai arah, **lebih banyak goblin muncul**.
-Jumlahnya bertambah, lebih dari lima, semua menatapnya dengan tatapan lapar.
+Goblin melompat menyerang. Dengan gerakan terburu-buru, Bimo mengayunkan kayu itu.
+*Bugh!* Kayu mengenai goblin, membuatnya terlempar ke tanah.
 
-Arga menggertakkan giginya.
-*"Lawan satu mungkin bisa… tapi melawan semuanya? Mustahil."*
+Bimo terkejut, lalu tertawa senang.
+“WOAH! Critical hit! Gila, ternyata gue jago juga!”
 
-Tangan yang menggenggam rantingnya mulai berkeringat.
-Logikanya segera mengambil alih rasa paniknya.
-*"Bodoh kalau aku tetap bertahan. Bertahan = mati. Pilihan paling rasional sekarang… kabur."*
+Namun kegembiraannya tak bertahan lama. Dari balik pepohonan, suara-suara lain bermunculan.
+Satu goblin… dua… tiga… hingga setidaknya lima goblin muncul dengan tatapan lapar.
 
-Tanpa pikir panjang, Arga berbalik dan berlari sekuat tenaga ke dalam hutan, ranting masih tergenggam di tangannya.
-Di belakang, suara langkah kecil goblin terdengar semakin dekat, disertai tawa serak yang mengejek.
+Bimo langsung pucat.
+“Eh… eh… bentar dulu. Kok banyak banget?!”
+Wajahnya panik, tapi masih ada gurat optimisme.
+“Oke, Bimo… ini masih tutorial stage. Biasanya kalau rame gini, artinya disuruh kabur kan?”
+
+Tanpa pikir panjang, ia menabrak celah di antara para goblin dan berlari secepat mungkin.
+Goblin-goblin itu mengejar sambil tertawa menyeramkan.
+
+Bimo berlari sambil terengah-engah, matanya masih berbinar meski keringat bercucuran.
+“Hahaha… gila, seru banget! Tapi kalau gue ketangkap… ya tamat deh hidup gue!”
 
 ---
 
-👉 Dengan revisi ini, Arga terlihat **punya keberanian awal (coba melawan)**, tapi akhirnya logika dan insting bertahan hidup membuatnya **memilih kabur**. Jadi lebih realistis dan memperlihatkan sisi karakternya.
+👉 Dengan revisi ini:
+
+* **Ceria** → dia excited karena merasa kayak dalam game.
+* **Optimis** → masih bisa bercanda meski dalam bahaya.
+* **Ceroboh** → terlalu santai di awal, malah bikin situasi makin berbahaya.
