@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.11.0 - Pembaruan Aturan Kerja Kualitas
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Menambahkan aturan baru ke `GEMINI.md` untuk selalu melakukan pemeriksaan konsistensi cerita setiap kali ada perubahan pada alur cerita.
+
+---
+
 ## v0.10.0 - Restrukturisasi Folder Cerita
 *Tanggal: 2025-09-05*
 
