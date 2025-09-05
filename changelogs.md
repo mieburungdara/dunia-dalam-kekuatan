@@ -4,6 +4,15 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.15.0 - Implementasi Galeri Gambar Otomatis
+*Tanggal: 2025-09-05*
+
+- **Ditambahkan**: Membuat layout Jekyll kustom (`_layouts/default.html`) untuk secara otomatis menampilkan galeri gambar di setiap halaman bab.
+- **Diperbarui**: Logika situs sekarang akan mencari dan menampilkan semua file gambar yang ada di dalam folder bab yang bersangkutan.
+- **Diperbarui**: Menambahkan aturan baru ke `GEMINI.md` mengenai fungsionalitas galeri otomatis ini.
+
+---
+
 ## v0.14.0 - Pembaruan Aturan Kerja (Prompt Granular)
 *Tanggal: 2025-09-05*
 

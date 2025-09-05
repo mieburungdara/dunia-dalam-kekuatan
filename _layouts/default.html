@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <main>
+    {{ content }}
+
+    <hr>
+    <div class="gallery">
+      <h3 id="galeri-bab">Galeri Bab</h3>
+      {%- assign page_dir = page.path | split: '/' | first -%}
+      {%- assign chapter_images = site.static_files | where_exp: "item", "item.path contains page.dir" -%}
+      {%- assign sorted_images = chapter_images | sort: 'name' -%}
+      {%- for image in sorted_images -%}
+        {%- if image.extname == '.jpg' or image.extname == '.png' or image.extname == '.gif' or image.extname == '.jpeg' -%}
+          <img src="{{ image.path | relative_url }}" alt="Ilustrasi untuk {{ page.title }}" style="width:100%; max-width: 700px; display:block; margin: 1rem auto; border-radius: 5px;">
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </main>
+</body>
+</html>
