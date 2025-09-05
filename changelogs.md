@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.18.0 - Penulisan Ulang Bab 1
+*Tanggal: 2025-09-05*
+
+- **Ditulis Ulang**: Menulis ulang keseluruhan Bab 1 berdasarkan `IDECERITA.md` untuk alur yang lebih detail dan perkenalan karakter yang terpisah.
+- **Diperbarui**: Mengganti semua prompt gambar di Bab 1 agar sesuai dengan adegan-adegan baru yang lebih spesifik.
+
+---
+
 ## v0.17.0 - Fokus Ulang Cerita ke Bab 1
 *Tanggal: 2025-09-05*
 
