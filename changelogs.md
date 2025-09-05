@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.40.0 - Pembaruan Atribut Bahasa HTML
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Mengubah atribut `lang` pada tag `<html>` di `index.html` dari `en` menjadi `id` untuk meningkatkan aksesibilitas dan SEO.
+
+---
+
 ## v0.39.0 - Migrasi dari Jekyll ke HTML Native dengan Bootstrap 5
 *Tanggal: 2025-09-05*
 
