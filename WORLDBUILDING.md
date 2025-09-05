@@ -82,68 +82,101 @@ Relic biasanya memiliki **kutukan** atau **harga tertentu**, sehingga penggunaan
 
 ## 8. Sistem Tingkatan Karakter
 
-# ⚔️ 11 Tingkatan Perkembangan Karakter
+Berikut adalah sistem tingkatan karakter yang lebih mendetail, membedakan batas kekuatan untuk setiap profesi atau jalur perkembangan.
 
 ---
 
-## 0. Biasa (Commoner)  
-Orang awam tanpa penguasaan energi maupun sihir. Hidup bergantung pada fisik, kerja keras, dan keberuntungan.  
-**Batas umum:** sebagian besar penduduk dunia.  
+## 🛡️ Prajurit (Warrior)
 
-## 1. Awam (Mortal)  
-Mulai mengenal energi/sihir, tapi belum bisa menggunakannya.  
-**Prajurit:** mulai dilatih fisik.  
-**Penyihir:** baru mempelajari teori dasar.  
+Mengandalkan fisik, disiplin, dan senjata.
 
-## 2. Pemula (Initiate)  
-Mampu menyalurkan energi kecil. Bisa memperkuat tubuh sesaat atau menyalakan percikan api.  
-**Batas rata-rata prajurit biasa.**  
-**Penyihir pemula baru mulai bisa praktek.**  
+* Rata-rata: Level 3–4
+* Elit: Level 5–6
+* Jarang sekali menembus 7 kecuali punya darah istimewa atau relic.
 
-## 3. Murid (Apprentice)  
-Belajar di bawah guru/sekte. Bisa menggunakan skill dasar untuk bertarung.  
-**Prajurit elit ada di tingkatan ini.**  
-**Penyihir muda yang aktif bertarung juga berada di sini.**  
+## 🔮 Penyihir (Mage)
 
-## 4. Praktisi (Adept)  
-Skill stabil, bisa bertahan dalam pertempuran nyata.  
-**Prajurit veteran biasanya berhenti di sini.**  
-**Penyihir setara murid lanjut.**  
+Menguasai energi, sihir, dan elemen.
 
-## 5. Ahli (Expert)  
-Menguasai cabang skill tertentu. Kekuatan berpengaruh di sekitarnya.  
-**Prajurit terhebat suatu kerajaan ada di sini.**  
-**Penyihir pengajar/anggota menengah guild sihir.**  
+* Rata-rata: Level 4–5
+* Master/Archmage: Level 6–7
+* Legendaris: 8+
 
-## 6. Master  
-Pengendalian matang. Tekniknya dijadikan panutan.  
-**Batas atas prajurit manusia normal.**  
-**Penyihir cerdas bisa mencapai ini.**  
+## 🌟 Protagonis / Karakter Utama
 
-## 7. Penguasa (Overseer)  
-Hanya sedikit yang mencapai ini. Kehadiran mengubah jalannya pertempuran.  
-**Prajurit hampir mustahil menembus level ini tanpa bantuan eksternal (relic, darah khusus, dll).**  
-**Penyihir agung / archmage biasanya ada di sini.**  
+Melampaui batas manusia biasa. Bisa menembus Level 10 karena faktor *takdir*.
 
-## 8. Legenda (Mythic)  
-Namanya dikenang lintas wilayah. Kisahnya jadi dongeng.  
-**Prajurit nyaris tidak ada di sini kecuali tokoh besar.**  
-**Penyihir luar biasa dengan pengalaman ratusan tahun.**  
+## 🗡️ Assassin / Bayangan
 
-## 9. Setengah Ilahi (Demi-God)  
-Menyentuh ranah mitos. Kehadirannya mengguncang dunia.  
-**Hanya tokoh pilihan, tidak terikat profesi.**  
+Mengandalkan stealth, racun, dan teknik rahasia.
 
-## 10. Abadi (Eternal)  
-Jejaknya jadi hukum, takdir, atau simbol selamanya.  
-**Hanya dicapai oleh tokoh legendaris atau protagonis.**  
+* Rata-rata: Level 3–4
+* Assassin legendaris: 6–7
+* Hampir mustahil mencapai 8+, kecuali berubah jadi legenda urban.
 
-⚡ Jadi jelas:
+## 🎭 Biksu / Acolyte / Pendeta
 
-* **Prajurit biasa** → rata-rata mentok di Level 3–4.
-* **Prajurit elit/veteran** → bisa sampai Level 5–6.
-* **Penyihir** → lebih tinggi karena jalurnya memang membuka potensi, rata-rata bisa Level 6–7.
-* **Tokoh utama/legendaris** → punya kesempatan menembus 8–10.
+Mengandalkan spiritualitas dan energi ilahi.
+
+* Rata-rata: Level 4–5
+* Pemimpin agama / Saint: Level 6–7
+* Orang suci / miracle worker: bisa sampai 8–9
+
+## 🌳 Druid / Penjaga Alam
+
+Menghubungkan diri dengan roh alam atau elemen.
+
+* Rata-rata: Level 3–5
+* Penjaga hutan sakral: Level 6–7
+* Avatar alam: bisa menembus 8
+
+## ⚙️ Alkemis / Artificer
+
+Mencipta melalui ilmu dan seni rahasia.
+
+* Rata-rata: Level 2–4
+* Master alkemis bisa membuat relic, setara Level 6
+* Legendaris: Level 7–8 (mencipta senjata duniawi/mitos)
+
+## 🏹 Ranger / Penjelajah
+
+Menguasai survival, hewan, dan medan.
+
+* Rata-rata: Level 3–4
+* Elit: Level 5–6
+* Jarang di atas 7, kecuali jadi legenda suku.
+
+## 👑 Raja / Penguasa Dunia
+
+Bukan hanya kekuatan pribadi, tapi pengaruh politik & takdir.
+
+* Umumnya: 4–6 (karena dilindungi sistem)
+* Penguasa legendaris: 7–8
+* Kaisar abadi/mitos: 9–10
+
+## 👁️ Warlock / Pengikat Entitas
+
+Mengandalkan kontrak dengan roh, iblis, atau dewa.
+
+* Rata-rata: Level 4–5
+* Master kontrak: Level 6–7
+* Bisa menembus 8–9 jika kontraknya setingkat dewa.
+
+## 🐉 Makhluk Non-Manusia (Beast, Elf, Dragon, dll)
+
+Tiap ras punya batas berbeda.
+
+* Beast kecil: 2–4
+* Elf: 5–7
+* Naga Tua: 8–10
+
+---
+
+⚡ **Implikasi Dunia:**
+
+*   Seorang assassin legendaris Level 6 masih kalah jauh dari penyihir Level 8.
+*   Raja Level 5 bisa menguasai ribuan orang, tapi kalah duel dari prajurit Master Level 6.
+*   Alkemis Level 7 mungkin lemah bertarung, tapi bisa bikin senjata yang mengubah perang.
 
 ---
 
