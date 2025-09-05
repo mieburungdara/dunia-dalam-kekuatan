@@ -4,6 +4,15 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.19.0 - Perbaikan Tampilan Situs & Galeri
+*Tanggal: 2025-09-05*
+
+- **Diperbaiki**: Menghapus file layout kustom (`_layouts/default.html`) yang merusak tema dan menggantinya dengan sistem `include` Jekyll yang lebih aman.
+- **Ditambahkan**: Membuat komponen galeri terpisah di `_includes/image_gallery.html`.
+- **Diperbarui**: Menyisipkan pemanggil komponen galeri di akhir Bab 1 agar gambar dapat ditampilkan tanpa merusak gaya situs.
+
+---
+
 ## v0.18.0 - Penulisan Ulang Bab 1
 *Tanggal: 2025-09-05*
 

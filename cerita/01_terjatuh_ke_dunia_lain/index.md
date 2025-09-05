@@ -75,3 +75,5 @@ Bab itu ditutup dengan kelima orang asing tersebut, yang akhirnya menyadari bahw
 cinematic closing shot, the five battered and tired anime heroes (3 male, 2 female) stand together in the ruins, looking at each other with a mix of relief, suspicion, and dawning realization. In the dark background, dozens of glowing goblin eyes watch them from the shadows -- style anime style, key visual, official art, by Wit Studio, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
+
+{% include image_gallery.html %}
