@@ -10,3 +10,9 @@ collections:
   cerita:
     output: true
     sort_by: path
+
+# Vercel
+
+vercel:
+  # enable vercel analytics
+  analytics: true

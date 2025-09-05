@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.22.0 - Perbaikan Cache Daftar Isi
+*Tanggal: 2025-09-05*
+
+- **Diperbaiki**: Memaksa GitHub Pages untuk membangun ulang situs dengan menambahkan komentar pada `_config.yml` untuk mengatasi masalah cache yang menampilkan daftar isi lama.
+
+---
+
 ## v0.21.0 - Revisi Alur Cerita Bab 1
 *Tanggal: 2025-09-05*
 
