@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.9.0 - Pembaruan Aturan Kerja Lanjutan
+*Tanggal: 2025-09-05*
+
+- **Diperbarui**: Menambahkan aturan baru ke `GEMINI.md` untuk menyinkronkan prompt gambar setiap kali ada penulisan ulang cerita.
+
+---
+
 ## v0.8.0 - Pembaruan Aturan Kerja
 *Tanggal: 2025-09-05*
 

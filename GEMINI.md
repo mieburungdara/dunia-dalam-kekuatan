@@ -28,3 +28,4 @@ When working on this project, it is important to:
 - **Bahasa**: Selalu gunakan Bahasa Indonesia untuk semua percakapan.
 - **Otomatisasi Git**: Setelah setiap perubahan file berhasil, segera jalankan `git add .`, `git commit`, dan `git push` secara otomatis.
 - **Prompt Gambar**: Untuk setiap bab atau konten cerita baru, selalu buat dan sisipkan prompt gambar yang relevan sebagai catatan penulis tersembunyi (`{% comment %}`).
+- **Sinkronisasi Prompt**: Jika sebuah bab cerita ditulis ulang atau diubah, prompt gambar yang ada di dalamnya juga harus diperbarui untuk mencerminkan perubahan cerita.
