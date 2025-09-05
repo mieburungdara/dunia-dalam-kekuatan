@@ -1,3 +1,5 @@
+remote_theme: cotes2020/jekyll-theme-chirpy
+
 title: Dunia dalam Kekuatan
 description: Sebuah novel fantasi oleh I T Rerek
 
@@ -7,5 +9,3 @@ exclude:
 collections:
   cerita:
     output: true
-    permalink: /:collection/:path/
-    sort_by: path
