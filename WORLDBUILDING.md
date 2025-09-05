@@ -78,9 +78,13 @@ Relic biasanya memiliki **kutukan** atau **harga tertentu**, sehingga penggunaan
 
 ---
 
+## 8. Profesi dan Peran
+
+Dunia ini memiliki beragam profesi yang membentuk masyarakat, dari prajurit hingga cendekiawan. Untuk daftar lengkap profesi yang ada di dunia ini, silakan merujuk ke file [PROFESI.md](PROFESI.md).
+
 ---
 
-## 8. Sistem Tingkatan Karakter
+## 9. Sistem Tingkatan Karakter
 
 Berikut adalah sistem tingkatan karakter yang lebih mendetail, membedakan batas kekuatan untuk setiap profesi atau jalur perkembangan.
 
