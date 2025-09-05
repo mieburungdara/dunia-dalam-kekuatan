@@ -16,10 +16,9 @@ Dunia ini adalah sebuah tempat luas yang dipenuhi **sihir, skill, kekuatan, dan 
 
 ## 2. Sistem Sihir
 
-* **Elemen Dasar**: Api, Air, Angin, Tanah.
-* **Elemen Lanjutan**: Gabungan dua atau lebih elemen (misalnya Api + Angin = Petir).
-* **Sihir Darah**: Memanfaatkan tubuh atau nyawa untuk kekuatan besar.
-* **Sihir Jiwa**: Jarang ditemui, mampu mengikat roh atau memanipulasi ingatan.
+Sistem sihir di dunia ini berpusat pada **Elemen** sebagai fondasi utamanya. Selain itu, ada juga bentuk-bentuk sihir yang lebih kuno dan berbahaya seperti **Sihir Darah** dan **Sihir Jiwa**.
+
+Untuk penjelasan mendetail mengenai sistem elemen, silakan merujuk ke file [sihir/ELEMEN.md](sihir/ELEMEN.md).
 
 > **Aturan:** semakin besar kekuatan, semakin besar pula harga yang harus dibayar.
 
