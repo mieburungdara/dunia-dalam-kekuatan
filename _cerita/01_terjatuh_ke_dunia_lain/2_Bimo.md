@@ -1,8 +1,10 @@
 ---
-layout: chapter
+layout: reza
 title: 1.2 - Selamat Datang di Tutorial
-chapter_title: Terjatuh ke Dunia Lain
+chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 2
+categories:
+  - Terjatuh ke Dunia Lain
 ---
 # Sudut Pandang: Bimo
 

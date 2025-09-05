@@ -20,7 +20,7 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/' or a trailing slash.
 url: ""
 github:
-  username: github_username # change to your GitHub username
+  username: mieburungdara # change to your GitHub username
 twitter:
   username: twitter_username # change to your Twitter username
 social:
@@ -215,7 +215,12 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories, tags, collections] # Enable collections archiving
+  collections:
+    - cerita # Specify the 'cerita' collection
+    - skills
+    - sihir
+    - worldbuilding
   layouts:
     category: category
     tag: tag

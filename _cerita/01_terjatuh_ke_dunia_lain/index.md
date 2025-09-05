@@ -1,8 +1,10 @@
 ---
-layout: chapter
-title: Bab 1 - Tersesat di Hutan Asing
-chapter_title: Terjatuh ke Dunia Lain
+layout: reza
+title: Tersesat di Hutan Asing
+chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 0
+categories:
+  - Terjatuh ke Dunia Lain
 ---
 # Bab 1: Tersesat di Hutan Asing
 

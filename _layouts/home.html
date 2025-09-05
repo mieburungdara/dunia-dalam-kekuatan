@@ -48,6 +48,18 @@ refactor: true
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
+  <div class="post-list-container">
+    <h1 class="post-title">Daftar Cerita</h1>
+    {% for chapter_group in chapters_by_chapter_title %}
+      <h2 class="post-subtitle">{{ chapter_group.name }}</h2>
+      <ul>
+      {% assign sorted_chapters = chapter_group.items | sort: "order" %}
+      {% for chapter in sorted_chapters %}
+        <li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+      {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
   {% for post in posts %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">

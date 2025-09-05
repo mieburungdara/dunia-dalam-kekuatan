@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: reza
 title: Beranda
 ---
 

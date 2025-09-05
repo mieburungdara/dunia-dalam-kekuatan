@@ -1,8 +1,10 @@
 ---
-layout: chapter
+layout: reza
 title: 1.6 - Lima Titik Cahaya
-chapter_title: Terjatuh ke Dunia Lain
+chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 6
+categories:
+  - Terjatuh ke Dunia Lain
 ---
 # Pertemuan
 
