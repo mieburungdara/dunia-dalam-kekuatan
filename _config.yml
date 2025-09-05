@@ -1,0 +1,10 @@
+title: Dunia dalam Kekuatan
+description: Sebuah novel fantasi oleh I T Rerek
+
+exclude:
+  - GUIDE.md
+
+collections:
+  cerita:
+    output: true
+    sort_by: path

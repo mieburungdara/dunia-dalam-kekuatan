@@ -4,14 +4,6 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
-## v0.39.0 - Migrasi dari Jekyll ke HTML Native dengan Bootstrap 5
-*Tanggal: 2025-09-05*
-
-- **Dihapus**: Menghapus `_config.yml`, direktori `_layouts`, dan direktori `_includes` karena tidak lagi menggunakan Jekyll.
-- **Ditambahkan**: Membuat `index.html` baru dengan boilerplate HTML5 dan integrasi Bootstrap 5.
-
----
-
 ## v0.38.0 - Perubahan Alur Kerja & Atribut Karakter
 *Tanggal: 2025-09-05*
 

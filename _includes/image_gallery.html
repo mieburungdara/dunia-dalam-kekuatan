@@ -1,0 +1,11 @@
+<hr>
+<div class="gallery">
+  <h3 id="galeri-bab">Galeri Bab</h3>
+  {% for file in site.static_files %}
+    {% if file.path contains page.dir %}
+      {% if file.extname == '.jpg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.jpeg' %}
+        <img src="{{ file.path | relative_url }}" alt="Ilustrasi untuk {{ page.title }}" style="width:100%; max-width: 700px; display:block; margin: 1rem auto; border-radius: 5px;">
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
