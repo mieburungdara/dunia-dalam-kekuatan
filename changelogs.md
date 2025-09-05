@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.35.0 - Restrukturisasi Bab dengan Sub-Bab
+*Tanggal: 2025-09-05*
+
+- **Diubah**: Merestrukturisasi Bab 1 dengan memecah narasinya menjadi empat file sub-bab yang terpisah (`1.1` hingga `1.4`).
+- **Diperbarui**: Mengubah `index.md` di dalam folder bab menjadi halaman daftar isi dinamis untuk sub-bab di dalamnya.
+
+---
+
 ## v0.34.0 - Pembersihan Prompt Gambar
 *Tanggal: 2025-09-05*
 
@@ -38,7 +46,7 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 *Tanggal: 2025-09-05*
 
 - **Ditulis Ulang**: Memperpanjang dan memperkaya setiap adegan perkenalan karakter di Bab 1 untuk memberikan lebih banyak kedalaman dan detail, termasuk menambahkan kembali adegan untuk Raka.
-- **Diperbarui**: Menyesuaikan semua prompt gambar di Bab 1 agar selaras dengan narasi yang lebih detail.
+- **Diperbarui**: Menyesuaikan semua prompt gambar di Bab 1 agar selaras dengan narasi yang lebih kaya.
 
 ---
 
