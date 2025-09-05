@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.32.0 - Revisi Alur Cerita Bab 1 (Bimo, Pendalaman)
+*Tanggal: 2025-09-05*
+
+- **Ditulis Ulang**: Memperpanjang dan memperkaya adegan Bimo di Bab 1 dengan lebih banyak dialog internal dan aksi yang mencerminkan kepribadiannya sebagai gamer.
+- **Diperbarui**: Menyesuaikan prompt gambar untuk adegan Bimo agar lebih detail dan komikal.
+
+---
+
 ## v0.31.0 - Penulisan Ulang Bab 1 (Pendalaman)
 *Tanggal: 2025-09-05*
 
