@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.30.0 - Penulisan Ulang Bab 1 (Detail Karakter)
+*Tanggal: 2025-09-05*
+
+- **Ditulis Ulang**: Memperpanjang dan memperkaya setiap adegan perkenalan karakter di Bab 1 untuk memberikan lebih banyak kedalaman dan detail, termasuk menambahkan kembali adegan untuk Raka.
+- **Diperbarui**: Menyesuaikan semua prompt gambar di Bab 1 agar selaras dengan narasi yang lebih detail.
+
+---
+
 ## v0.29.0 - Revisi Alur Cerita Bab 1 (Bimo)
 *Tanggal: 2025-09-05*
 

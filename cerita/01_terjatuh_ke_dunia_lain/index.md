@@ -12,61 +12,61 @@ dark fantasy forest at night, five brilliant pillars of white light shoot up int
 ```
 {% endcomment %}
 
-Arga tersungkur di tanah berumput, napasnya berat. Ia sempat melihat sisa-sisa cahaya memudar dari tubuhnya. *"Bukan mimpi…"* pikirnya, mencoba menalar. Tiba-tiba, dari balik semak, seekor goblin kecil muncul, kulit hijau kusam dan mata merah menyala, jelas tertarik oleh cahaya tadi. Arga refleks mundur, meraih ranting pohon besar di tanah dan menggenggamnya erat. Namun, dari berbagai arah, lebih banyak goblin muncul. *"Lawan satu mungkin bisa, tapi melawan semuanya? Mustahil,"* logikanya berteriak. Tanpa pikir panjang, Arga berbalik dan berlari sekuat tenaga ke dalam hutan.
+Arga tersungkur di tanah berumput, napasnya berat. Sisa cahaya memudar dari tubuhnya saat ia mencoba bangkit. *"Suhu 24 derajat, kelembapan sekitar 80 persen, oksigen normal,"* otaknya otomatis menganalisis, sebuah kebiasaan mahasiswa teknik untuk menenangkan diri dengan data. Ia memeriksa denyut nadinya—normal. Tidak ada gegar otak. *"Ini bukan mimpi atau halusinasi."* Pandangannya menyapu sekitar: pohon raksasa dengan sulur bercahaya, jamur selebar meja, dan dua bulan sabit di langit. Tiba-tiba, suara ranting patah membuatnya waspada. Dari balik semak, seekor goblin kecil muncul, mata merahnya berbinar lapar, jelas tertarik oleh cahaya tadi. Arga mundur, meraih ranting pohon besar. Saat beberapa goblin lain muncul, logikanya bekerja cepat. *"Bertahan adalah tindakan irasional. Peluang selamat: 3.7%. Kabur: setidaknya 20%."* Tanpa ragu lagi, ia berbalik dan lari sekuat tenaga.
 
 {% comment %}
 ### Prompt: Keputusan Rasional Arga
 ```
-a tense moment, a young male anime hero (Arga) stands his ground, gripping a large tree branch as a weapon, facing down a single goblin. His expression shifts from defiance to dawning horror as more goblins emerge from the shadows, surrounding him. He then turns and flees into the dark woods -- style anime style, key visual, official art, by Wit Studio, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a tense moment, a young male anime hero (Arga), his face a mask of cold analysis despite his fear, grips a large tree branch as a weapon. His eyes dart around, calculating, as more goblins emerge from the shadows, surrounding him. He then makes a split-second decision and flees into the dark woods -- style anime style, key visual, official art, by Wit Studio, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Di tempat lain, Bimo jatuh ke tanah berumput sambil menepuk-nepuk baju sekolahnya. "Gila! Kayak masuk game isekai!" serunya, matanya berbinar melihat cahaya memudar dari tubuhnya. Kegembiraannya terusik saat seekor goblin muncul. "WOI! Monster low level!" teriaknya, bukannya takut. Ia meraih sebatang kayu. "Beginner weapon!" Dengan percaya diri, ia memukul goblin itu hingga terjatuh. Tapi kemudian, lima goblin lain muncul. Wajah Bimo pucat. "Eh, kok banyak? Oke, tutorial stage artinya disuruh kabur!" Ia pun menabrak celah di antara para goblin dan lari tunggang langgang sambil tertawa panik.
+Di tempat lain, Bimo mendarat dengan kurang anggun di tepi sungai. "Gila, grafiknya fotorealistis banget!" serunya, menepuk-nepuk seragam SMA-nya. Ia melihat cahaya di tubuhnya menghilang. "Efek kedatangannya keren!" Saat seekor goblin muncul, Bimo malah menyeringai. "Nah, monster tutorial!" Ia mengambil sebatang kayu, mengayunkannya seperti pedang legendaris. "Rasakan ini, jurus... tebasan maut!" Pukulannya meleset total, membuatnya hampir terjatuh, tapi sabetan keduanya yang panik justru mengenai si goblin. "Critical hit!" pekiknya girang. Kegembiraannya sirna saat lima goblin lain muncul. "Eh? Kok langsung dikeroyok? Ini game-nya nggak seimbang!" Wajahnya pucat pasi. "Oke, plan B: kabur!" Ia berlari tunggang langgang sambil berteriak, "Lari dari kenyataan adalah bagian dari strategi!"
 
 {% comment %}
 ### Prompt: Bimo si Gamer Optimis
 ```
-a comical action scene, a cheerful anime hero (Bimo) with an overly confident grin knocks down a single goblin with a wooden stick. His smile instantly turns to panic as five more goblins appear from the bushes, and he immediately turns to run away screaming with a comical expression -- style anime style, key visual, official art, by Studio Trigger, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a comical action scene, a cheerful anime hero (Bimo) with an overly confident grin awkwardly swings a wooden stick at a goblin. His first swing misses comically, but the second lands a lucky hit. His smile instantly turns to panic as five more goblins appear from the bushes, and he immediately turns to run away screaming with a comical expression -- style anime style, key visual, official art, by Studio Trigger, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Mira membuka matanya di padang rumput kecil, bingung oleh cahaya yang baru saja sirna dari dirinya. Kedamaian itu hanya sesaat. Sekelompok goblin datang berbondong-bondong, penasaran dengan sumber cahaya. Mira segera bangkit dan berlari sekuat tenaga. Saat ia hampir terjatuh, teriakan keras dari kejauhan—suara Bimo—membuat para goblin yang mengepungnya berhenti sejenak. Kesempatan itu ia gunakan untuk kabur ke hutan yang lebih rapat.
+Mira, seorang calon dokter, terbangun di padang rumput dan langsung melakukan pemeriksaan diri. "Tidak ada patah tulang, hanya beberapa lecet," gumamnya, mencoba tetap tenang. Cahaya yang memudar dari tubuhnya membuatnya bingung, tapi fokusnya adalah bertahan hidup. Saat sekelompok goblin datang, ia tidak membuang waktu dan langsung berlari. Ia mengatur napasnya, mengingat pelajaran biologi tentang efisiensi oksigen, tapi fisiknya yang tidak terlatih membuatnya cepat lelah. Ia tersandung dan jatuh. Saat para goblin mendekat, teriakan Bimo dari kejauhan memecah keheningan, membuat para goblin menoleh ragu. Itu cukup. Mira mengerahkan sisa tenaganya untuk bangkit dan lari ke hutan yang lebih lebat, jantungnya berdebar kencang karena nyaris celaka.
 
 {% comment %}
 ### Prompt: Mira yang Terpojok
 ```
-a tense scene, a young female anime hero (Mira) in modern clothes has fallen in a grassy field, looking back in terror at a group of snarling goblins closing in on her. In the background, a subtle hint of another commotion distracts the goblins for a split second -- style anime style, key visual, official art, by A-1 Pictures, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a tense scene, a young female anime hero (Mira) in modern clothes is on the ground, panting and exhausted in a grassy field. She looks back in terror at a group of snarling goblins closing in on her. In the background, a subtle hint of another commotion distracts the goblins for a split second, giving her a window to escape -- style anime style, key visual, official art, by A-1 Pictures, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Lina terbangun di bawah pohon besar, tubuhnya gemetar hebat saat cahaya di sekelilingnya memudar. Dua goblin kecil mendekat, tertawa kasar. Kakinya seolah terpaku di tanah. "Tidak… jangan dekat…" bisiknya lirih. Saat salah satu goblin mengangkat tangan untuk meraihnya, suara gaduh dari kejauhan—teriakan Bimo—membuat kedua goblin itu menoleh, lalu berlari ke arah keributan, meninggalkan Lina yang masih terduduk lumpuh karena takut. Setelah beberapa detik, barulah ia memaksa dirinya berdiri dan melangkah tertatih.
+Lina, si kutu buku, terbangun di bawah pohon raksasa dan langsung membeku. Cahaya yang sirna dari tubuhnya meninggalkan aroma aneh yang menarik dua goblin kecil. Saat mereka mendekat sambil tertawa, dunia Lina seakan menyempit. Kakinya menolak untuk bergerak, napasnya tercekat. *"Seperti di novel, tapi ini nyata... aku akan mati,"* pikirnya, air mata mulai mengalir. Saat tangan kotor goblin hampir menyentuhnya, teriakan Bimo yang memekakkan telinga membuat kedua makhluk itu kaget. Mereka menoleh, lalu berlari ke arah sumber suara yang lebih ramai, meninggalkan Lina yang masih terduduk, gemetar hebat. Butuh beberapa saat baginya untuk bisa kembali menguasai tubuhnya, lalu dengan sisa keberanian, ia bangkit dan berjalan tertatih ke arah suara keributan itu, berharap menemukan keselamatan.
 
 {% comment %}
 ### Prompt: Lina yang Lumpuh Ketakutan
 ```
-close-up, emotional shot of a terrified young female anime hero (Lina) with glasses, tears streaming down her face, frozen in fear at the base of a giant tree. Two menacing goblins are reaching for her, but are distracted by a commotion happening off-screen -- style anime style, key visual, official art, by Kyoto Animation, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+close-up, emotional shot of a terrified young female anime hero (Lina) with glasses, tears streaming down her face, completely frozen in fear at the base of a giant tree. Two menacing goblins are reaching for her, but are distracted by a commotion happening off-screen, their attention shifting away from her -- style anime style, key visual, official art, by Kyoto Animation, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Di tengah reruntuhan kuno, Raka, dengan naluri prajuritnya, menggunakan lempengan batu sebagai perisai darurat. Ia melihat cahaya dari tubuhnya hilang dan langsung waspada. Benar saja, beberapa goblin mendekat dari berbagai arah. Di saat yang sama, Arga dan Bimo berlari masuk ke area reruntuhan, dikejar gerombolan goblin. Tak lama kemudian, Mira dan Lina juga tiba dari sisi lain. Kelimanya akhirnya bertemu, terpojok oleh musuh yang sama yang tertarik oleh cahaya kedatangan mereka.
+Di tengah reruntuhan kuno, Raka, mantan prajurit, tersadar dalam posisi siaga. Ia langsung memindai area itu, mencatat setiap sudut dan potensi ancaman. Cahaya yang memudar dari tubuhnya ia abaikan, fokusnya pada insting bertahan hidup. Saat beberapa goblin muncul, ia tidak panik. Dengan gerakan efisien, ia menjatuhkan satu goblin dengan pukulan sikut ke leher, lalu menggunakan lempengan batu untuk menahan serangan lainnya. Tapi ia sadar, jumlah mereka terlalu banyak dan fisiknya bukan lagi prajurit prima. Saat itulah Arga dan Bimo berlari masuk ke reruntuhan, membawa lebih banyak goblin. Tak lama, Mira dan Lina yang kelelahan juga tiba. Kelimanya akhirnya bertemu, terpojok oleh musuh yang sama.
 
 {% comment %}
-### Prompt: Pertemuan di Reruntuhan
+### Prompt: Raka sang Prajurit
 ```
-wide action shot inside ancient ruins, five young anime heroes (3 male, 2 female) meet for the first time, looking surprised at each other as they are surrounded by a large horde of goblins, they instinctively begin to form a defensive circle -- style anime style, key visual, official art, by ufotable, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a gritty action scene, a tall, muscular male anime hero (Raka) with a determined face uses a large stone slab as a shield, fending off several goblins in ancient ruins. He moves with professional efficiency but is clearly being overwhelmed by their numbers -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Pertarungan itu kacau balau. Raka menjadi benteng manusia. Arga meniru gerakan pedang dengan ranting kayu. Bimo melempari batu. Mira dan Lina, masih gemetar, bersembunyi di belakang Raka. Dengan keberuntungan, mereka berhasil membuat para goblin mundur.
+Pertarungan itu kacau balau. Raka menjadi benteng, berteriak memberi instruksi singkat. Arga, terinspirasi, menggunakan rantingnya untuk menusuk dari samping. Bimo, kini lebih serius, melempari batu untuk mengganggu konsentrasi goblin. Mira dan Lina, melihat perlawanan itu, menemukan sedikit keberanian untuk bersembunyi di belakang Raka, tidak lagi hanya pasrah. Dengan keberuntungan dan koordinasi seadanya, mereka berhasil membuat para goblin mundur.
 
 {% comment %}
 ### Prompt: Pertarungan Pertama yang Kacau
 ```
-a chaotic battle scene, the five heroes fight together clumsily and realistically. The strong male hero (Raka) acts as a human shield, the strategic male hero (Arga) swings a tree branch like a sword, the cheerful male hero (Bimo) throws rocks. The two female heroes (Mira and Lina) are cowering behind the tank hero, looking terrified -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
+a chaotic battle scene, the five heroes fight together clumsily. The strong male hero (Raka) shouts commands while acting as a human shield, the strategic male hero (Arga) flanks with a tree branch, the cheerful male hero (Bimo) throws rocks from a distance. The two female heroes (Mira and Lina) are cowering behind the tank hero, but with a spark of newfound resolve in their eyes -- style anime style, key visual, official art, by MAPPA, cinematic lighting, vibrant colors, beautifully detailed background, sharp focus, trending on pixiv, masterpiece
 ```
 {% endcomment %}
 
-Napas mereka terengah-engah. Mereka saling menatap, akhirnya sadar mereka tidak sendirian. "Kalian... juga bukan dari sini, kan?" tanya Arga. Pertanyaan itu menggantung di udara, sementara lebih banyak mata goblin mengawasi dari bayang-bayang, memastikan bahwa kedatangan mereka yang bercahaya telah memicu sesuatu yang berbahaya.
+Napas mereka terengah-engah. Mereka saling menatap, orang-orang asing dengan pakaian modern yang aneh di tengah dunia fantasi. "Kalian... juga bukan dari sini, kan?" tanya Arga, memecah keheningan. Pertanyaan itu menjadi awal dari segalanya, sebuah pengakuan bahwa mereka tidak sendirian, sementara di kejauhan, mata-mata goblin masih mengawasi, memastikan kedatangan mereka yang bercahaya telah mengubah segalanya.
 
 {% comment %}
 ### Prompt: Tidak Sendirian
