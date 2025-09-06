@@ -18,8 +18,8 @@ Raka adalah mantan tentara yang tenang dan memiliki jiwa pelindung, menjadikanny
 
 ### 4. **Mira (20) - Capricorn / ESTJ**
 
-Mira adalah seorang mahasiswi kedokteran yang cerdas dan ambisius. Sebagai seorang mahasiswi kedokteran, kemampuan analitisnya sangat berharga, meskipun ia belum memiliki kemampuan penyembuhan magis. Namun, sifat perfeksionis dan keras kepalanya seringkali membuatnya menjadi menjengkelkan. Ia sulit menerima masukan karena merasa paling tahu, dan kecenderungannya untuk meremehkan anggota lain yang dianggapnya tidak logis sering menjadi sumber konflik dan beban bagi tim.
+Mira adalah seorang mahasiswi kedokteran yang cerdas dan ambisius. Ia juga pemalu, sensitif, dan penuh rasa ingin tahu terhadap dunia baru ini. Sebagai seorang mahasiswi kedokteran, kemampuan analitisnya sangat berharga, meskipun ia belum memiliki kemampuan penyembuhan magis. Ia adalah wanita yang penakut, namun selalu mencoba memberanikan diri demi teman-temannya. Ia mempunyai sifat penyayang, penyabar, dan perhatian pada teman-temannya, seringkali menjadi penenang di tengah kekacauan.
 
 ### 5. **Lina (18) - Pisces / INFP**
 
-Lina adalah seorang siswi SMA yang pemalu, sensitif, dan penuh rasa ingin tahu, terutama karena kecintaannya pada novel fantasi. Sebagai seorang siswi SMA yang menyukai fantasi, imajinasinya yang tinggi dan intuisi sihirnya yang kuat adalah potensi terbesarnya, meskipun ia belum memiliki kemampuan sihir yang aktif. Namun, rasa tidak percaya dirinya dan kecenderungannya untuk panik dalam situasi terdesak menjadi kelemahan utamanya.
+Lina adalah seorang siswi SMA yang sangat terobsesi dengan novel fantasi, namun realitas dunia baru ini jauh dari ekspektasinya. Sifatnya yang sering mengeluh, mengumpat, dan mengucapkan kata-kata sarkasme, terutama saat panik atau tidak nyaman, membuatnya menjadi karakter yang menjengkelkan dan seringkali menjadi beban bagi teman-temannya. Ia sangat membenci kotoran dan kesulitan, dan selalu mencari cara termudah untuk menyelesaikan masalah. Meskipun ia memiliki potensi sihir yang kuat, ketakutan dan kepanikannya seringkali menghalangi kemampuannya untuk bertindak.

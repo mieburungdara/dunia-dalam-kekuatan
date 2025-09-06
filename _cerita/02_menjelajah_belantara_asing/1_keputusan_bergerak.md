@@ -12,7 +12,7 @@ Keheningan di reruntuhan kuno terasa mencekam setelah para goblin menghilang. Li
 
 Raka mengangguk, matanya memindai sekeliling. "Reruntuhan ini bisa jadi jebakan. Kita harus bergerak ke tempat yang lebih terbuka, atau setidaknya, mencari tanda-tanda peradaban."
 
-"Peradaban? Di hutan antah berantah begini?" Lina mengeluh, menyilangkan tangan di dada. "Aku sudah lelah, kotor, dan lapar. Bisakah kita teleport saja? Atau setidaknya ada *fast travel point*?"
+"Peradaban? Di hutan antah berantah begini, hah? Luar biasa sekali," Lina mengeluh, menyilangkan tangan di dada, nada sarkasme jelas. "Aku sudah lelah, kotor, dan lapar. Sialan, bisakah kita teleport saja? Atau setidaknya ada *fast travel point*?"
 
 Bimo terkekeh. "Wah, Lina, kamu ini. Mana ada *fast travel* di dunia *hardcore* begini. Tapi ide mencari peradaban itu bagus! Siapa tahu ada *quest giver* yang bisa kasih kita *map*."
 

@@ -16,7 +16,7 @@ Di balik rimbunnya dedaunan tebal yang selama ini menutupi pandangan mereka, ter
 
 "Desa!" seru Arga, matanya berbinar, kelegaan murni terpancar jelas di wajahnya yang lelah. Beban berat seolah terangkat dari pundaknya.
 
-Lina, yang tadinya siap mengeluh, kini terdiam, matanya terpaku pada pemandangan itu. Sebuah senyum tipis, nyaris tak terlihat, merekah di bibirnya. "Akhirnya! Semoga ada penginapan bintang lima dan sinyal Wi-Fi," gumamnya, meskipun ia masih terengah-engah dan tampak ragu-ragu, seolah takut pemandangan itu hanyalah ilusi.
+Lina, yang tadinya siap mengeluh, kini terdiam, matanya terpaku pada pemandangan itu. Sebuah senyum tipis, nyaris tak terlihat, merekah di bibirnya. "Akhirnya! Semoga ada penginapan bintang lima dan sinyal Wi-Fi," gumamnya, nada sarkasme terselip di antara napasnya yang terengah-engah, meskipun ia masih tampak ragu-ragu, seolah takut pemandangan itu hanyalah ilusi.
 
 Mira menghela napas lega, bahunya sedikit mengendur, meskipun rasa takut masih tersisa di matanya. Ia mengamati desa itu dengan tatapan analitis, mencari detail, pola, atau anomali, sambil sesekali melirik teman-temannya, memastikan mereka juga merasakan kelegaan yang sama. Sementara itu, Raka segera mengambil posisi siaga, naluri prajuritnya mengambil alih. Matanya menyapu sekeliling, mencari potensi ancaman. "Jangan terburu-buru," katanya, suaranya rendah dan penuh kehati-hatian. "Kita tidak tahu apa yang menanti kita di sana. Bisa jadi ini jebakan, atau lebih buruk lagi."
 
