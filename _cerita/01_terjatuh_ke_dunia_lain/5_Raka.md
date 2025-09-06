@@ -17,3 +17,7 @@ Mereka tidak hanya mendekat; mereka bergerak dalam formasi setengah lingkaran ya
 "Tiga dari kiri, dua dari kanan, satu di atas," gumamnya, otaknya menghitung probabilitas dan jalur serangan. Dengan gerakan efisien yang telah dilatih bertahun-tahun, ia melesat. Satu goblin yang terlalu berani mendekat langsung tumbang oleh tendangan keras ke ulu hati. Tanpa jeda, Raka berputar, menggunakan momentum untuk membanting goblin kedua ke lempengan batu yang retak. Suara benturan tulang bergema di antara reruntuhan.
 
 Namun, ia tahu ini hanyalah permulaan. Jumlah mereka terlalu banyak, dan reruntuhan ini, meskipun menawarkan banyak penutup, juga bisa menjadi jebakan jika ia terkepung. Ia harus mencari posisi bertahan yang lebih baik, atau setidaknya, jalan keluar. Matanya terus bergerak, memindai setiap sudut, mencari celah, mencari kelemahan. Insting prajuritnya berteriak: bertahan, beradaptasi, dan cari jalan untuk menang.
+
+## Latar Lokasi
+
+*   **Reruntuhan Kuno**: Lokasi di mana Raka terbangun, sebuah tempat yang diselimuti debu dan keheningan, menjadi medan pertempuran pertamanya melawan goblin.

@@ -35,3 +35,8 @@ Ia berlari tunggang langgang, melompati akar pohon dan batu licin, sesekali meli
 *   **Solo**: Dalam game, bermain sendirian tanpa bantuan tim.
 *   **Mob**: Dalam game, singkatan dari "mobile object," merujuk pada musuh non-pemain.
 *   **Respawn**: Dalam game, merujuk pada kemunculan kembali karakter setelah dikalahkan.
+
+## Latar Lokasi
+
+*   **Tepi Sungai Jernih**: Lokasi di mana Bimo pertama kali mendarat, ditandai dengan air sebening kristal dan langit berwarna aneh.
+*   **Reruntuhan**: Lokasi yang dituju Bimo saat melarikan diri dari goblin.

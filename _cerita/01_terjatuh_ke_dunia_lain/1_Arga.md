@@ -26,3 +26,7 @@ Langkah demi langkah, Arga menembus pepohonan, ranting menyentuh pakaiannya tapi
 
 Di balik ketegangan, ia merasa lega karena berhasil melarikan diri sementara. Hanya dengan strategi dan logika, ia bertahan—sementara dunia baru ini masih penuh misteri.
 "Baiklah… bertahan hidup dulu. Setelah itu, analisis lebih lanjut. Cari perlindungan, cari manusia lain, cari jawaban."
+
+## Latar Lokasi
+
+*   **Hutan Asing**: Lokasi di mana Arga pertama kali terbangun setelah terjatuh ke dunia lain, ditandai dengan pohon tinggi, cahaya aneh, dan aroma tanah basah.

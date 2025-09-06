@@ -39,5 +39,6 @@ When working on this project, it is important to:
 - **Paragraf**: Setiap adegan baru dimulai di paragraf baru.
 - **Dialog**: Gunakan tanda kutip (“”) dan pisahkan tiap pembicara.
 - **Deskripsi & Aksi**: Gabungkan dengan narasi, buat agar lebih terasa dan dapat dibayangkan.
+- **Latar Lokasi**: Setiap bab atau sub-bab harus secara eksplisit menyebutkan latar lokasi utama di awal atau di bagian yang relevan untuk memberikan gambaran yang jelas kepada pembaca.
 - **Istilah Asing**: Untuk setiap istilah asing yang dicetak miring (misalnya, `*spawn*`, `*glitch*`), tambahkan penjelasan singkat di bagian bawah cerita atau bab terkait.
 

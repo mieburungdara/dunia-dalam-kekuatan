@@ -16,10 +16,14 @@ Raka mengangguk, matanya memindai sekeliling. "Reruntuhan ini bisa jadi jebakan.
 
 Bimo terkekeh. "Wah, Lina, kamu ini. Mana ada *fast travel* di dunia *hardcore* begini. Tapi ide mencari peradaban itu bagus! Siapa tahu ada *quest giver* yang bisa kasih kita *map*."
 
-Mira hanya menghela napas, memeriksa luka lecet di lengannya. "Kita harus bergerak. Luka ini perlu diobati."
+Mira menghela napas, matanya memandang khawatir luka lecet di lengan Lina. "Kita harus bergerak," katanya, suaranya lembut namun tegas. "Luka ini perlu diobati, dan kita butuh tempat yang lebih aman."
 
 ## Glosarium
 
 *   **Fast Travel Point**: Dalam game, lokasi yang memungkinkan pemain untuk berpindah dengan cepat ke lokasi lain yang sudah pernah dikunjungi.
 *   **Quest Giver**: Dalam game, karakter yang memberikan misi atau tugas kepada pemain.
 *   **Map**: Peta.
+
+## Latar Lokasi
+
+*   **Reruntuhan Kuno**: Lokasi awal di mana kelima karakter bertemu setelah insiden goblin.
