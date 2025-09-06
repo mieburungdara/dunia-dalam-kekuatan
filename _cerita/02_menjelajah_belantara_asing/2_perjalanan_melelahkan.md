@@ -14,6 +14,20 @@ Perjalanan terasa panjang dan melelahkan. Mereka melewati semak belukar yang leb
 
 Raka tetap fokus, matanya tajam memindai sekeliling, mencari bahaya atau petunjuk. Ia sesekali harus menahan diri untuk tidak membentak Lina atau Bimo, tetapi ia tahu mereka semua berada dalam situasi yang sama. Mira, meskipun dalam hati merasa takut, berusaha keras untuk tetap tenang dan menjadi penyeimbang. Dengan sabar, ia mengamati tanaman-tanah aneh, mencatat ciri-cirinya, dan sesekali memberikan saran tentang cara menghindari tanaman beracun atau menemukan air bersih, terutama kepada Lina yang sering mengeluh. Arga, sebagai yang paling tenang, seringkali menjadi mediator, mencoba menenangkan Lina atau mengarahkan Bimo kembali ke jalur.
 
+Suatu pagi, saat mereka menyeberangi sebuah area yang tampak seperti bekas perkemahan kuno, Arga menemukan sesuatu yang menarik. Tergeletak di antara bebatuan yang ditumbuhi lumut, ada sebuah busur panjang yang terbuat dari kayu gelap, dan beberapa anak panah dengan bulu yang masih utuh. Busur itu tampak kuno, namun masih kokoh.
+
+"Lihat ini," kata Arga, mengangkat busur itu. "Sepertinya masih bisa digunakan."
+
+Bimo segera mendekat, matanya berbinar. "Wah, *ranged weapon*! Ada yang bisa pakai ini? Lumayan buat *pull aggro* dari jauh!"
+
+Lina melirik busur itu dengan jijik. "Apa gunanya benda kuno begitu? Lebih baik cari sinyal Wi-Fi."
+
+Raka mengambil busur itu dari tangan Arga, merasakan berat dan keseimbangannya. Matanya memindai anak panah. "Aku bisa menggunakannya," katanya, suaranya tenang. "Meskipun bukan keahlian utamaku, aku pernah dilatih dasar-dasar memanah. Ini bisa sangat berguna untuk berburu atau menjaga jarak dari ancaman."
+
+Mira mengangguk setuju. "Setidaknya kita punya opsi serangan jarak jauh sekarang. Itu akan meningkatkan peluang kita untuk bertahan."
+
+Dengan demikian, busur dan panah itu menjadi tambahan baru dalam perlengkapan mereka, sebuah harapan kecil di tengah belantara yang tak ramah.
+
 Suatu sore, saat matahari mulai terbenam, mereka menemukan diri mereka di tengah area hutan yang aneh. Pohon-pohon di sini tumbuh dengan bentuk yang tidak wajar, dan beberapa tanaman mengeluarkan cahaya redup yang berdenyut. Mira segera mengenali fenomena ini. "Hati-hati," bisiknya, matanya memicing. "Ini 'Lumen Flora'. Cahayanya bisa menyebabkan disorientasi dan halusinasi ringan jika terlalu lama terpapar."
 
 Lina sudah mulai merasa pusing. "Aku melihat peri menari di antara pohon-pohon! Dan sepertinya ada kedai kopi di sana!" serunya, menunjuk ke arah yang kosong. Bimo, yang awalnya terkesima dengan cahaya, mulai tertawa sendiri, mengira ia melihat "loot box" raksasa. Raka dengan cepat menarik Lina dan Bimo menjauh dari tanaman bercahaya, sementara Arga mencoba menenangkan mereka. Mira, dengan pengetahuannya, menemukan beberapa daun yang bisa dioleskan ke hidung untuk menangkal efeknya. Setelah beberapa saat, efek halusinasi mereda, dan mereka melanjutkan perjalanan, lebih berhati-hati terhadap lingkungan sekitar. Insiden ini, meskipun singkat, mengingatkan mereka betapa asing dan berbahayanya dunia ini.
@@ -25,6 +39,9 @@ Lina sudah mulai merasa pusing. "Aku melihat peri menari di antara pohon-pohon! 
 *   **Level Up**: Dalam game, proses peningkatan level karakter setelah mendapatkan cukup pengalaman.
 *   **View**: Pemandangan.
 *   **Fall Damage**: Dalam game, kerusakan atau cedera yang diterima karakter akibat jatuh dari ketinggian.
+
+*   **Ranged Weapon**: Dalam game, senjata yang digunakan untuk menyerang musuh dari jarak jauh.
+*   **Pull Aggro**: Dalam game, tindakan menarik perhatian musuh agar menyerang pemain tertentu.
 
 ## Latar Lokasi
 
