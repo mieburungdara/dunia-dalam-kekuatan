@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.40.0 - Penambahan Dokumen Monster
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `MONSTERS.md` sebagai panduan dan daftar monster di dunia cerita.
+
+---
+
 ## v0.39.0 - Perbaikan Daftar Isi Dinamis
 *Tanggal: 2025-09-05*
 
