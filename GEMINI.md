@@ -30,6 +30,7 @@ When working on this project, it is important to:
 - **Metode Revisi**: Revisi cerita adalah proses **penggabungan**, bukan penggantian. Pertahankan narasi yang ada sambil mengintegrasikan ide-ide baru dari file revisi.
 - **Struktur Bab Dinamis**: Gunakan sistem Koleksi Jekyll (`collections`) untuk `cerita`. Setiap bab baru harus memiliki `title` di dalam *front matter* agar muncul di daftar isi secara otomatis.
 - **Rangkuman Latar Lokasi (index.md)**: Setiap file `index.md` di dalam folder bab (`_cerita/nama_bab/`) harus berisi rangkuman semua latar lokasi yang disebutkan dalam sub-bab terkait.
+- **Manajemen Karakter (Pendukung/Figuran)**: Untuk karakter pendukung atau figuran, buat entri deskripsi di file `KARAKTER_PENDUKUNG.md` dengan format yang konsisten.
 - **Konsistensi Cerita**: Setiap kali mengubah atau menulis ulang sebuah bagian cerita, lakukan pemeriksaan silang dengan `GUIDE.md` dan bab-bab lain untuk memastikan tidak ada konflik plot, karakter, atau aturan dunia.
 - **Tampilan Gambar Otomatis**: Setiap halaman bab di situs harus secara otomatis menampilkan semua gambar yang ada di dalam folder bab tersebut, diurutkan berdasarkan nama file.
 - **Anti-Cache**: Situs dikonfigurasi untuk selalu memuat versi terbaru dan tidak menyimpan cache di browser.
