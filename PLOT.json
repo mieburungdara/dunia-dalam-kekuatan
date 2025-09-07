@@ -1,0 +1,17 @@
+{
+  "Arcs": [
+    {
+      "ArcName": "Nama Arc",
+      "Theme": "Tema utama arc",
+      "MainConflict": "Konflik utama arc",
+      "KeyEvents": [
+        "Event kunci 1",
+        "Event kunci 2"
+      ],
+      "Resolution": "Resolusi arc",
+      "CharactersInvolved": [],
+      "Locations": [],
+      "Antagonists": []
+    }
+  ]
+}

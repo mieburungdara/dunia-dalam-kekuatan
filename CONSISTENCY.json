@@ -1,0 +1,74 @@
+{
+  "NarrativeStyle": "Gaya narasi (misal: Orang ketiga terbatas, Orang pertama)",
+  "Tone": "Nada cerita (misal: Serius, Ringan, Gelap)",
+  "ContinuityRules": [
+    "Aturan konsistensi umum 1",
+    "Aturan konsistensi umum 2"
+  ],
+  "MagicRules": {
+    "AetherUsage": "Aturan penggunaan Aether/energi sihir.",
+    "SpellLimits": "Batasan mantra dan sihir.",
+    "ElementalAffinity": "Aturan afinitas elemen."
+  },
+  "WorldPhysics": {
+    "Gravity": "Aturan gravitasi.",
+    "TimeFlow": "Aturan aliran waktu.",
+    "EnvironmentalImpact": "Dampak tindakan pada lingkungan."
+  },
+  "CharacterAbilities": {
+    "SkillProgression": "Aturan perkembangan skill karakter.",
+    "PhysicalLimits": "Batasan fisik karakter."
+  },
+  "_Documentation": {
+    "OverallPurpose": "File CONSISTENCY.json dirancang sebagai panduan utama untuk menjaga konsistensi narasi, logika dunia, dan karakteristik elemen-elemen cerita dalam novel Anda. Tujuannya adalah untuk memastikan bahwa setiap bagian cerita, karakter, sihir, atau aturan dunia tetap koheren dan tidak saling bertentangan seiring berjalannya waktu atau saat penulis yang berbeda mengerjakannya.",
+    "NarrativeStyle": {
+      "Purpose": "Mendefinisikan sudut pandang penceritaan yang digunakan di seluruh novel. Ini penting untuk menjaga suara narator tetap konsisten.",
+      "Examples": [
+        "Orang ketiga terbatas: Narator hanya mengetahui pikiran dan perasaan satu karakter pada satu waktu.",
+        "Orang pertama: Cerita diceritakan dari sudut pandang \"aku\" oleh salah satu karakter.",
+        "Orang ketiga mahatahu: Narator mengetahui segalanya tentang semua karakter dan peristiwa."
+      ]
+    },
+    "Tone": {
+      "Purpose": "Menentukan suasana emosional atau sikap umum yang ingin disampaikan oleh cerita kepada pembaca. Nada cerita memengaruhi bagaimana pembaca merasakan dan menafsirkan peristiwa.",
+      "Examples": [
+        "Serius dengan momen ringan: Cerita memiliki tema berat tetapi diselingi humor atau adegan santai.",
+        "Gelap dan suram: Suasana cerita didominasi oleh kesedihan, keputusasaan, atau ancaman.",
+        "Petualangan dan optimis: Cerita berfokus pada eksplorasi dan memiliki nuansa harapan."
+      ]
+    },
+    "ContinuityRules": {
+      "Purpose": "Daftar aturan umum yang harus dipatuhi untuk menjaga alur cerita tetap logis dan bebas dari plot hole. Ini mencakup aspek-aspek yang tidak spesifik pada sihir atau fisika dunia, tetapi lebih pada perkembangan naratif dan karakter.",
+      "Examples": [
+        "Jangan ubah sifat karakter tanpa alasan logis: Jika karakter berubah, harus ada peristiwa atau pengalaman yang memicunya.",
+        "Jaga timeline sesuai urutan arc: Pastikan peristiwa terjadi dalam urutan kronologis yang benar atau sesuai dengan struktur arc yang telah ditetapkan.",
+        "Relic hanya bisa digunakan sesuai deskripsi: Mencegah penggunaan artefak secara sembarangan yang bisa merusak plot.",
+        "Setiap keputusan karakter harus memiliki konsekuensi yang logis: Menghindari solusi instan atau deus ex machina.",
+        "Informasi yang diberikan kepada pembaca harus konsisten: Hindari kontradiksi dalam fakta-fakta yang disajikan."
+      ]
+    },
+    "MagicRules": {
+      "Purpose": "Mendefinisikan bagaimana sistem sihir bekerja di dunia Anda. Ini sangat penting untuk genre fantasi agar sihir tidak terasa seperti \"solusi ajaib\" untuk setiap masalah.",
+      "Examples": [
+        "AetherUsage: Menjelaskan bagaimana energi sihir (Aether) dikonsumsi atau diisi ulang.",
+        "SpellLimits: Batasan pada kekuatan, durasi, atau jumlah mantra yang bisa digunakan.",
+        "ElementalAffinity: Bagaimana hubungan karakter dengan elemen memengaruhi kemampuan sihir mereka."
+      ]
+    },
+    "WorldPhysics": {
+      "Purpose": "Menetapkan aturan dasar tentang bagaimana dunia fisik beroperasi. Ini membantu membangun fondasi yang realistis (atau konsisten secara fantasi) untuk lingkungan cerita.",
+      "Examples": [
+        "Gravity: Apakah gravitasi sama dengan Bumi, atau ada variasi?",
+        "TimeFlow: Apakah waktu selalu berjalan linear, atau ada fenomena yang bisa memanipulasinya?",
+        "EnvironmentalImpact: Bagaimana tindakan karakter (misalnya, penggunaan sihir besar-besaran) memengaruhi lingkungan sekitar."
+      ]
+    },
+    "CharacterAbilities": {
+      "Purpose": "Menentukan bagaimana kemampuan dan skill karakter berkembang atau dibatasi dalam cerita. Ini memastikan bahwa pertumbuhan karakter terasa organik dan masuk akal.",
+      "Examples": [
+        "SkillProgression: Aturan tentang bagaimana karakter memperoleh atau meningkatkan skill mereka (misalnya, melalui latihan, pengalaman, atau bimbingan).",
+        "PhysicalLimits: Batasan fisik yang dimiliki karakter, bahkan jika mereka memiliki kekuatan super atau sihir."
+      ]
+    }
+  }
+}
