@@ -1,0 +1,66 @@
+{
+  "Name": "Assassin (Pembunuh Bayangan)",
+  "GeneralDescription": "Individu yang mengkhususkan diri dalam seni pembunuhan rahasia, penyamaran, dan infiltrasi. Mereka adalah master dalam memanfaatkan bayangan dan keheningan untuk mencapai tujuan mereka.",
+  "Requirements": "Kelincahan luar biasa, kecepatan, kemampuan bersembunyi, dan ketenangan dalam situasi berbahaya.",
+  "TypicalAbilities": [
+    {"Name": "Stealth (Penyelinapan)", "Description": "Kemampuan untuk bergerak tanpa terdeteksi, memanfaatkan bayangan dan lingkungan."},
+    {"Name": "Disguise (Penyamaran)", "Description": "Mengubah penampilan atau perilaku untuk menyatu dengan lingkungan atau menyusup."},
+    {"Name": "Critical Strike (Serangan Kritis)", "Description": "Serangan yang ditargetkan pada titik lemah musuh untuk menghasilkan kerusakan maksimal."},
+    {"Name": "Escape Artist (Ahli Melarikan Diri)", "Description": "Kemampuan untuk meloloskan diri dari situasi yang sulit atau jebakan."}
+  ],
+  "TypicalEquipment": ["Belati tersembunyi", "panah beracun", "alat pengunci", "jubah gelap", "dan sepatu bot tanpa suara"],
+  "SocialRole": ["Seringkali bekerja di bawah tanah untuk organisasi rahasia, pemerintah, atau individu kaya. Bisa menjadi pembunuh bayaran, mata-mata, atau pembalas dendam."],
+  "AdditionalNotes": "Assassin seringkali memiliki kode etik mereka sendiri, meskipun tidak selalu terlihat oleh orang luar.",
+  "ProgressionLevels": [
+    {
+      "LevelName": "Shadow Initiate (Inisiat Bayangan)",
+      "Description": "Baru memulai pelatihan, belajar dasar-dasar penyelinapan dan pengamatan.",
+      "Abilities": ["Berjalan tanpa suara di permukaan lunak", "mengamati target dari kejauhan."]
+    },
+    {
+      "LevelName": "Rogue (Pencuri)",
+      "Description": "Menguasai dasar-dasar pencurian dan penyelinapan, mampu membuka kunci sederhana dan menghindari patroli.",
+      "Abilities": ["Membuka kunci sederhana", "menghindari deteksi visual dasar."]
+    },
+    {
+      "LevelName": "Stalker (Penguntit)",
+      "Description": "Mampu mengikuti target tanpa terdeteksi di lingkungan yang ramai atau sulit.",
+      "Abilities": ["Menguntit target", "menyembunyikan diri di keramaian."]
+    },
+    {
+      "LevelName": "Silent Blade (Pedang Senyap)",
+      "Description": "Menguasai penggunaan belati dan serangan kejutan, mampu melumpuhkan target dengan cepat.",
+      "Abilities": ["Serangan belati cepat", "melumpuhkan target dari belakang."]
+    },
+    {
+      "LevelName": "Ghost (Hantu)",
+      "Description": "Mampu menyusup ke area yang dijaga ketat tanpa meninggalkan jejak, hampir tidak terlihat.",
+      "Abilities": ["Infiltrasi tingkat menengah", "menghindari sensor magis dasar."]
+    },
+    {
+      "LevelName": "Master Assassin (Master Assassin)",
+      "Description": "Diakui sebagai pembunuh yang sangat terampil, mampu melakukan pembunuhan yang rumit dan berisiko tinggi.",
+      "Abilities": ["Pembunuhan target yang dijaga ketat", "menggunakan racun mematikan."]
+    },
+    {
+      "LevelName": "Shadow Lord (Penguasa Bayangan)",
+      "Description": "Mampu memanipulasi bayangan untuk keuntungan taktis, menciptakan ilusi atau jalur tersembunyi.",
+      "Abilities": ["Berteleportasi jarak pendek melalui bayangan", "menciptakan ilusi bayangan."]
+    },
+    {
+      "LevelName": "Phantom (Hantu)",
+      "Description": "Keberadaan mereka hampir tidak nyata, mampu melewati pertahanan yang paling ketat.",
+      "Abilities": ["Menjadi tidak berwujud untuk waktu singkat", "melewati dinding tipis."]
+    },
+    {
+      "LevelName": "Death Whisper (Bisikan Kematian)",
+      "Description": "Mampu membunuh target tanpa suara atau jejak, seolah-olah mereka tidak pernah ada.",
+      "Abilities": ["Pembunuhan tanpa jejak", "menghilangkan bukti keberadaan."]
+    },
+    {
+      "LevelName": "Apex Predator (Predator Puncak)",
+      "Description": "Tingkat tertinggi, master tak tertandingi dalam seni pembunuhan, mampu membunuh target manapun tanpa gagal.",
+      "Abilities": ["Membunuh target yang dilindungi sihir", "mengendalikan pikiran untuk waktu singkat", "menghilang sepenuhnya."]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "Name": "Shadowmancer (Pengendali Kegelapan)",
+  "GeneralDescription": "Individu yang memiliki kemampuan untuk memanipulasi elemen kegelapan dan bayangan, termasuk ilusi, penyamaran, dan serangan tersembunyi.",
+  "Requirements": "Bakat alami dalam sihir kegelapan, ketenangan, dan kemampuan untuk bersembunyi dalam bayangan.",
+  "TypicalAbilities": [
+    {"Name": "Penciptaan Kegelapan", "Description": "Membangkitkan kegelapan dari ketiadaan atau memperkuat bayangan yang sudah ada."},
+    {"Name": "Manipulasi Bayangan", "Description": "Mengendalikan bentuk, kepadatan, dan gerakan bayangan."},
+    {"Name": "Penyamaran", "Description": "Menggunakan bayangan untuk menyembunyikan diri atau objek."},
+    {"Name": "Mantra Serangan Kegelapan", "Description": "Bola bayangan, cakar bayangan, atau jebakan bayangan."}
+  ],
+  "TypicalEquipment": ["Belati obsidian", "jimat bulan sabit", "atau jubah yang terbuat dari kain gelap"],
+  "SocialRole": ["Pengintai", "pembunuh", "pencuri", "atau mata-mata"],
+  "AdditionalNotes": "Shadowmancer yang mahir dapat memanipulasi ketakutan dan pikiran.",
+  "ProgressionLevels": [
+    {
+      "LevelName": "Shade Walker (Penjelajah Bayangan)",
+      "Description": "Baru memulai, hanya mampu merasakan bayangan atau membuat bayangan sedikit lebih gelap.",
+      "Abilities": ["Merasakan bayangan", "membuat bayangan sedikit lebih gelap."]
+    },
+    {
+      "LevelName": "Gloom Weaver (Penjalin Kegelapan)",
+      "Description": "Mampu menciptakan area kegelapan kecil atau menyembunyikan objek kecil dalam bayangan.",
+      "Abilities": ["Area kegelapan kecil", "menyembunyikan objek kecil."]
+    },
+    {
+      "LevelName": "Shadow Bender (Pembengkok Bayangan)",
+      "Description": "Mampu memanipulasi bentuk bayangan, menciptakan ilusi sederhana atau mengalihkan perhatian.",
+      "Abilities": ["Membengkokkan bayangan", "menciptakan ilusi bayangan sederhana."]
+    },
+    {
+      "LevelName": "Night Stalker (Penguntit Malam)",
+      "Description": "Menguasai kontrol yang lebih baik atas bayangan, mampu menyembunyikan diri dalam bayangan atau bergerak tanpa suara.",
+      "Abilities": ["Menyembunyikan diri dalam bayangan", "bergerak tanpa suara", "menciptakan jebakan bayangan kecil."]
+    },
+    {
+      "LevelName": "Umbra Conjurer (Pembangkit Umbra)",
+      "Description": "Mampu memanggil kegelapan yang lebih intens dan merusak, serta memanipulasi ketakutan.",
+      "Abilities": ["Bola bayangan besar", "ledakan kegelapan", "menyebabkan rasa takut ringan."]
+    },
+    {
+      "LevelName": "Shadow Lord (Penguasa Bayangan)",
+      "Description": "Diakui sebagai master kegelapan, mampu menciptakan badai bayangan lokal atau memanipulasi pikiran.",
+      "Abilities": ["Badai bayangan kecil", "memanipulasi pikiran", "menciptakan ilusi kompleks."]
+    },
+    {
+      "LevelName": "Void Heart (Jantung Kekosongan)",
+      "Description": "Kekuatan kegelapan mereka mendekati kekuatan kekosongan, mampu memanggil entitas dari dimensi bayangan.",
+      "Abilities": ["Memanggil makhluk bayangan", "menciptakan area tanpa cahaya."]
+    },
+    {
+      "LevelName": "Fear Weaver (Penjalin Ketakutan)",
+      "Description": "Mampu memanipulasi ketakutan dengan presisi, menyebabkan kepanikan massal atau mimpi buruk yang mengerikan.",
+      "Abilities": ["Menyebabkan kepanikan massal", "menciptakan mimpi buruk", "atau menguras keberanian."]
+    },
+    {
+      "LevelName": "Abyssal Manipulator (Manipulator Jurang)",
+      "Description": "Kekuatan kegelapan mereka mencapai puncaknya, mampu mengubah realitas dengan bayangan.",
+      "Abilities": ["Menciptakan portal bayangan", "memanipulasi ruang dan waktu dalam bayangan", "atau membuat objek menghilang."]
+    },
+    {
+      "LevelName": "Darkness Incarnate (Inkarnasi Kegelapan)",
+      "Description": "Tingkat tertinggi, mampu mengendalikan seluruh kegelapan, menciptakan atau menghancurkan materi dengan bayangan, dan menjadi satu dengan kekosongan.",
+      "Abilities": ["Menciptakan lubang hitam kecil", "menghancurkan objek dengan bayangan murni", "atau memanggil elemental kegelapan raksasa."]
+    }
+  ]
+}

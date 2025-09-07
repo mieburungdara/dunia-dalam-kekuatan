@@ -1,0 +1,66 @@
+{
+  "Name": "Lightweaver (Pengendali Cahaya)",
+  "GeneralDescription": "Individu yang memiliki kemampuan untuk memanipulasi elemen cahaya, termasuk ilusi, energi, dan penyembuhan.",
+  "Requirements": "Bakat alami dalam sihir cahaya, kreativitas, dan pemahaman tentang spektrum cahaya.",
+  "TypicalAbilities": [
+    {"Name": "Penciptaan Cahaya", "Description": "Membangkitkan cahaya dari ketiadaan atau memperkuat cahaya yang sudah ada."},
+    {"Name": "Manipulasi Cahaya", "Description": "Mengendalikan intensitas, warna, dan arah cahaya."},
+    {"Name": "Ilusi Optik", "Description": "Menciptakan ilusi visual yang meyakinkan."},
+    {"Name": "Penyembuhan Cahaya", "Description": "Menggunakan energi cahaya untuk menyembuhkan luka atau penyakit."}
+  ],
+  "TypicalEquipment": ["Prisma", "kristal bercahaya", "atau tongkat yang diukir dengan simbol matahari"],
+  "SocialRole": ["Penyembuh", "penghibur", "pengintai", "atau pelindung"],
+  "AdditionalNotes": "Lightweaver yang mahir dapat memanipulasi energi cahaya menjadi serangan yang kuat.",
+  "ProgressionLevels": [
+    {
+      "LevelName": "Glow Shaper (Pembentuk Cahaya Redup)",
+      "Description": "Baru memulai, hanya mampu menciptakan cahaya redup atau memanipulasi bayangan kecil.",
+      "Abilities": ["Cahaya redup di ujung jari", "membuat bayangan menari."]
+    },
+    {
+      "LevelName": "Lumen Weaver (Penjalin Lumen)",
+      "Description": "Mampu menciptakan sumber cahaya yang stabil, seperti bola cahaya atau obor magis.",
+      "Abilities": ["Bola cahaya stabil", "obor magis", "menerangi area kecil."]
+    },
+    {
+      "LevelName": "Beam Bender (Pembengkok Sinar)",
+      "Description": "Mampu memanipulasi arah sinar cahaya, menciptakan efek visual sederhana atau mengalihkan perhatian.",
+      "Abilities": ["Membengkokkan sinar cahaya", "menciptakan kilatan cahaya yang mengganggu."]
+    },
+    {
+      "LevelName": "Illusionist (Ilusionis)",
+      "Description": "Menguasai kontrol yang lebih baik atas cahaya, mampu menciptakan ilusi optik yang lebih kompleks dan meyakinkan.",
+      "Abilities": ["Menciptakan ilusi objek statis", "menyembunyikan diri dalam cahaya."]
+    },
+    {
+      "LevelName": "Radiant Healer (Penyembuh Bercahaya)",
+      "Description": "Mampu menggunakan energi cahaya untuk menyembuhkan luka fisik atau penyakit ringan.",
+      "Abilities": ["Menyembuhkan luka kecil", "menghilangkan racun ringan", "memberikan energi."]
+    },
+    {
+      "LevelName": "Light Lord (Penguasa Cahaya)",
+      "Description": "Diakui sebagai master cahaya, mampu menciptakan badai cahaya lokal atau memanipulasi spektrum warna.",
+      "Abilities": ["Badai cahaya kecil", "memanipulasi warna objek", "menciptakan ilusi bergerak."]
+    },
+    {
+      "LevelName": "Solar Flare (Jilatan Matahari)",
+      "Description": "Kekuatan cahaya mereka mendekati kekuatan matahari, mampu memanggil energi cahaya yang dahsyat.",
+      "Abilities": ["Sinar laser cahaya", "menciptakan area yang sangat terang yang membutakan musuh."]
+    },
+    {
+      "LevelName": "Chroma Weaver (Penjalin Warna)",
+      "Description": "Mampu memanipulasi warna dengan presisi, menciptakan ilusi yang sangat realistis atau mengubah penampilan objek.",
+      "Abilities": ["Mengubah warna objek", "menciptakan ilusi orang atau makhluk hidup."]
+    },
+    {
+      "LevelName": "Photon Manipulator (Manipulator Foton)",
+      "Description": "Kekuatan cahaya mereka mencapai puncaknya, mampu memanipulasi foton untuk efek yang luar biasa.",
+      "Abilities": ["Menciptakan hologram padat", "memanipulasi kecepatan cahaya di area kecil", "atau membuat objek tidak terlihat."]
+    },
+    {
+      "LevelName": "Divine Radiance (Cahaya Ilahi)",
+      "Description": "Tingkat tertinggi, mampu mengendalikan seluruh spektrum cahaya, menciptakan atau menghancurkan materi dengan cahaya, dan berkomunikasi dengan entitas cahaya.",
+      "Abilities": ["Menciptakan materi dari cahaya", "menghancurkan objek dengan cahaya murni", "atau memanggil elemental cahaya raksasa."]
+    }
+  ]
+}

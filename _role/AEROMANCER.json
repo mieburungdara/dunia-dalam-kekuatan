@@ -1,0 +1,66 @@
+{
+  "Name": "Aeromancer (Pengendali Angin)",
+  "GeneralDescription": "Individu yang memiliki kemampuan untuk memanipulasi elemen angin, termasuk udara, suara, dan cuaca.",
+  "Requirements": "Bakat alami dalam sihir angin, kelincahan, dan pemahaman tentang pola cuaca.",
+  "TypicalAbilities": [
+    {"Name": "Penciptaan Angin", "Description": "Membangkitkan angin dari ketiadaan atau memperkuat angin yang sudah ada."},
+    {"Name": "Manipulasi Angin", "Description": "Mengendalikan arah, kecepatan, dan kepadatan angin."},
+    {"Name": "Penerbangan", "Description": "Kemampuan untuk melayang atau terbang dengan bantuan angin."},
+    {"Name": "Mantra Serangan Angin", "Description": "Semburan angin tajam, badai kecil, atau pusaran udara."}
+  ],
+  "TypicalEquipment": ["Bulu burung", "jimat awan", "atau tongkat yang diukir dengan simbol angin puyuh"],
+  "SocialRole": ["Pembawa pesan", "pengintai", "pelindung udara", "atau navigator"],
+  "AdditionalNotes": "Aeromancer yang mahir dapat memanipulasi suara dan menciptakan ilusi berbasis udara.",
+  "ProgressionLevels": [
+    {
+      "LevelName": "Breeze Whisperer (Pembisik Angin Sepoi)",
+      "Description": "Baru memulai, hanya mampu merasakan arah angin atau menciptakan hembusan angin kecil.",
+      "Abilities": ["Merasakan arah angin", "hembusan angin kecil."]
+    },
+    {
+      "LevelName": "Wind Caller (Pemanggil Angin)",
+      "Description": "Mampu memanggil angin sepoi-sepoi atau mengarahkan angin yang sudah ada.",
+      "Abilities": ["Memanggil angin sepoi-sepoi", "mengarahkan angin untuk menggerakkan objek ringan."]
+    },
+    {
+      "LevelName": "Air Current Weaver (Penjalin Arus Udara)",
+      "Description": "Mampu memanipulasi arus udara untuk melayang atau mempercepat gerakan.",
+      "Abilities": ["Melayang sebentar", "mempercepat gerakan", "menciptakan pusaran udara kecil."]
+    },
+    {
+      "LevelName": "Gale Shaper (Pembentuk Badai Kecil)",
+      "Description": "Menguasai kontrol yang lebih baik atas angin, mampu menciptakan hembusan angin yang kuat atau badai kecil.",
+      "Abilities": ["Hembusan angin kuat", "badai pasir kecil", "atau perisai angin."]
+    },
+    {
+      "LevelName": "Storm Conjurer (Pembangkit Badai)",
+      "Description": "Mampu memanggil badai yang lebih intens dan merusak, serta mengendalikan tekanan udara.",
+      "Abilities": ["Badai petir kecil", "tornado mini", "atau menciptakan area vakum."]
+    },
+    {
+      "LevelName": "Wind Lord (Penguasa Angin)",
+      "Description": "Diakui sebagai master angin, mampu menciptakan badai lokal atau memanipulasi cuaca.",
+      "Abilities": ["Badai angin besar", "memanipulasi awan", "menciptakan ilusi udara."]
+    },
+    {
+      "LevelName": "Sky Weaver (Penjalin Langit)",
+      "Description": "Kekuatan angin mereka mendekati kekuatan langit, mampu memanggil fenomena cuaca ekstrem.",
+      "Abilities": ["Memanggil hujan es", "badai salju", "atau mengendalikan arah awan badai."]
+    },
+    {
+      "LevelName": "Sound Bender (Pembengkok Suara)",
+      "Description": "Mampu memanipulasi gelombang suara dengan presisi, menciptakan suara yang memekakkan telinga atau bisikan yang tak terdengar.",
+      "Abilities": ["Menciptakan suara yang memekakkan telinga", "memproyeksikan suara dari jarak jauh", "atau menciptakan keheningan mutlak."]
+    },
+    {
+      "LevelName": "Atmosphere Controller (Pengendali Atmosfer)",
+      "Description": "Kekuatan angin mereka mencapai puncaknya, mampu mengubah kondisi atmosfer secara drastis.",
+      "Abilities": ["Menciptakan badai global", "memanipulasi tekanan udara di seluruh wilayah", "atau menciptakan zona tanpa oksigen."]
+    },
+    {
+      "LevelName": "Tempest Master (Master Badai)",
+      "Description": "Tingkat tertinggi, mampu mengendalikan seluruh atmosfer planet, memanggil badai raksasa, dan memanipulasi iklim.",
+      "Abilities": ["Menciptakan badai kategori 5", "mengendalikan jet stream", "atau memanggil elemental udara raksasa."]
+    }
+  ]
+}

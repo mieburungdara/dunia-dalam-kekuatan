@@ -1,0 +1,66 @@
+{
+  "Name": "Pyromancer (Pengendali Api)",
+  "GeneralDescription": "Individu yang memiliki afinitas kuat terhadap elemen api, mampu memanipulasi dan menciptakan api dalam berbagai bentuk dan intensitas.",
+  "Requirements": "Bakat alami dalam sihir api, ketahanan terhadap panas, dan kontrol emosi yang baik (api seringkali terkait dengan emosi).",
+  "TypicalAbilities": [
+    {"Name": "Penciptaan Api", "Description": "Membangkitkan api dari ketiadaan atau memperbesar api yang sudah ada."},
+    {"Name": "Manipulasi Api", "Description": "Mengendalikan bentuk, arah, dan intensitas api."},
+    {"Name": "Imunitas Parsial Api", "Description": "Ketahanan terhadap luka bakar atau panas."},
+    {"Name": "Mantra Serangan Api", "Description": "Bola api, semburan api, dinding api."}
+  ],
+  "TypicalEquipment": ["Sarung tangan tahan api", "jimat api", "atau tongkat yang diukir dengan simbol api"],
+  "SocialRole": ["Pemanas", "pandai besi", "penjaga", "atau prajurit garis depan"],
+  "AdditionalNotes": "Pyromancer yang tidak terkontrol dapat menjadi ancaman bagi diri sendiri dan lingkungan.",
+  "ProgressionLevels": [
+    {
+      "LevelName": "Spark Caster (Pelempat Percikan)",
+      "Description": "Baru memulai, hanya mampu menciptakan percikan api kecil atau menghangatkan objek.",
+      "Abilities": ["Percikan api", "menghangatkan tangan."]
+    },
+    {
+      "LevelName": "Flame Kindler (Penyulut Api)",
+      "Description": "Mampu menyulut api unggun atau obor dengan mudah, dan menciptakan nyala api yang stabil.",
+      "Abilities": ["Nyala api kecil yang stabil", "memanaskan air."]
+    },
+    {
+      "LevelName": "Fire Weaver (Penjalin Api)",
+      "Description": "Mampu membentuk api menjadi bentuk sederhana, seperti bola api kecil atau cambuk api.",
+      "Abilities": ["Bola api kecil", "cambuk api", "memanaskan logam."]
+    },
+    {
+      "LevelName": "Blaze Shaper (Pembentuk Kobaran)",
+      "Description": "Menguasai kontrol yang lebih baik atas api, mampu menciptakan kobaran yang lebih besar dan terkontrol.",
+      "Abilities": ["Semburan api", "dinding api kecil", "membakar objek dengan cepat."]
+    },
+    {
+      "LevelName": "Inferno Conjurer (Pembangkit Inferno)",
+      "Description": "Mampu memanggil api yang lebih intens dan merusak, serta memiliki ketahanan yang lebih baik terhadap panas.",
+      "Abilities": ["Bola api besar", "ledakan api", "ketahanan terhadap api sedang."]
+    },
+    {
+      "LevelName": "Fire Lord (Penguasa Api)",
+      "Description": "Diakui sebagai master api, mampu menciptakan badai api lokal atau memanipulasi lava.",
+      "Abilities": ["Badai api kecil", "memanipulasi lava cair", "menciptakan ilusi api."]
+    },
+    {
+      "LevelName": "Volcano Heart (Jantung Gunung Berapi)",
+      "Description": "Kekuatan api mereka mendekati kekuatan gunung berapi, mampu memanggil api dari dalam bumi.",
+      "Abilities": ["Memanggil pilar api dari tanah", "menciptakan gelombang panas yang ekstrem."]
+    },
+    {
+      "LevelName": "Solar Flare (Jilatan Matahari)",
+      "Description": "Mampu memanipulasi api dengan intensitas seperti matahari, membakar musuh menjadi abu.",
+      "Abilities": ["Sinar api yang membakar", "menciptakan area panas yang mematikan."]
+    },
+    {
+      "LevelName": "Phoenix Soul (Jiwa Phoenix)",
+      "Description": "Kekuatan api mereka mencapai puncaknya, mampu membangkitkan diri dari abu atau menciptakan makhluk api.",
+      "Abilities": ["Membangkitkan diri dari kematian (sekali)", "memanggil elemental api besar."]
+    },
+    {
+      "LevelName": "Incinerator (Penghancur)",
+      "Description": "Tingkat tertinggi, mampu mengubah apapun menjadi abu dengan sentuhan atau pandangan, kekuatan api yang tak tertandingi.",
+      "Abilities": ["Menghancurkan objek besar dengan api", "menciptakan badai api regional."]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "Name": "Geomancer (Pengendali Tanah)",
+  "GeneralDescription": "Individu yang memiliki kemampuan untuk memanipulasi elemen tanah, termasuk batuan, mineral, dan bahkan tanaman.",
+  "Requirements": "Bakat alami dalam sihir tanah, kesabaran, dan pemahaman tentang struktur geologi.",
+  "TypicalAbilities": [
+    {"Name": "Penciptaan Tanah/Batu", "Description": "Membangkitkan formasi tanah atau batuan dari ketiadaan atau memanipulasi yang sudah ada."},
+    {"Name": "Manipulasi Tanah/Batu", "Description": "Mengendalikan bentuk, kepadatan, dan gerakan tanah atau batuan."},
+    {"Name": "Ketahanan Fisik", "Description": "Seringkali memiliki fisik yang kuat dan ketahanan terhadap serangan fisik."},
+    {"Name": "Mantra Serangan Tanah", "Description": "Pukulan batu, dinding bumi, atau gempa bumi lokal."}
+  ],
+  "TypicalEquipment": ["Palu geologi", "jimat kristal", "atau tongkat yang diukir dengan simbol gunung"],
+  "SocialRole": ["Penambang", "pembangun", "petani", "atau penjaga perbatasan"],
+  "AdditionalNotes": "Geomancer yang mahir dapat memanipulasi logam dan kristal.",
+  "ProgressionLevels": [
+    {
+      "LevelName": "Pebble Mover (Penggerak Kerikil)",
+      "Description": "Baru memulai, hanya mampu menggerakkan kerikil kecil atau merasakan getaran tanah.",
+      "Abilities": ["Menggerakkan kerikil", "merasakan getaran tanah di dekatnya."]
+    },
+    {
+      "LevelName": "Dirt Shaper (Pembentuk Tanah)",
+      "Description": "Mampu memanipulasi tanah lunak, seperti menggali lubang kecil atau membentuk gundukan tanah.",
+      "Abilities": ["Menggali lubang kecil", "membentuk gundukan tanah", "membersihkan lumpur."]
+    },
+    {
+      "LevelName": "Stone Weaver (Penjalin Batu)",
+      "Description": "Mampu memanipulasi batuan kecil, seperti mengangkat batu atau membuat jalur batu sederhana.",
+      "Abilities": ["Mengangkat batu kecil", "membuat jalur batu sederhana", "mengeraskan tanah."]
+    },
+    {
+      "LevelName": "Earth Bender (Pembengkok Bumi)",
+      "Description": "Menguasai kontrol yang lebih baik atas tanah dan batuan, mampu menciptakan formasi yang lebih besar.",
+      "Abilities": ["Menciptakan dinding batu", "mengangkat pilar bumi", "atau menyebabkan retakan kecil di tanah."]
+    },
+    {
+      "LevelName": "Crystal Conjurer (Pembangkit Kristal)",
+      "Description": "Mampu memanggil kristal dari dalam bumi atau memanipulasi kristal yang sudah ada.",
+      "Abilities": ["Memanggil kristal kecil", "memanipulasi mineral", "atau menciptakan jebakan kristal."]
+    },
+    {
+      "LevelName": "Earth Lord (Penguasa Bumi)",
+      "Description": "Diakui sebagai master tanah, mampu menciptakan gempa bumi lokal atau memanipulasi gunung.",
+      "Abilities": ["Gempa bumi kecil", "memanipulasi formasi gunung kecil", "menciptakan ilusi tanah."]
+    },
+    {
+      "LevelName": "Mountain Heart (Jantung Gunung)",
+      "Description": "Kekuatan tanah mereka mendekati kekuatan gunung, mampu memanggil kekuatan geologi yang dahsyat.",
+      "Abilities": ["Memanggil longsoran batu", "menciptakan ngarai kecil", "atau memanipulasi lempeng tektonik lokal."]
+    },
+    {
+      "LevelName": "Metal Weaver (Penjalin Logam)",
+      "Description": "Mampu memanipulasi logam dengan presisi, membentuknya menjadi senjata atau perisai.",
+      "Abilities": ["Membentuk logam", "menciptakan senjata dari bumi", "atau mengendalikan bijih."]
+    },
+    {
+      "LevelName": "Terraformer (Pembentuk Lahan)",
+      "Description": "Kekuatan tanah mereka mencapai puncaknya, mampu mengubah lanskap secara drastis.",
+      "Abilities": ["Menciptakan pulau baru", "mengubah aliran sungai dengan formasi tanah", "atau menciptakan gunung berapi."]
+    },
+    {
+      "LevelName": "Gaia's Chosen (Pilihan Gaia)",
+      "Description": "Tingkat tertinggi, mampu mengendalikan seluruh planet, memanipulasi inti bumi, dan memanggil elemental bumi raksasa.",
+      "Abilities": ["Mengendalikan seluruh benua", "menyebabkan gempa bumi global", "atau memanggil Golem raksasa."]
+    }
+  ]
+}

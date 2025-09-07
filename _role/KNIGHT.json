@@ -1,0 +1,66 @@
+{
+  "Name": "Knight (Ksatria)",
+  "GeneralDescription": "Individu yang mengabdikan diri pada kode kehormatan, keadilan, dan pertempuran. Mereka adalah prajurit terlatih yang mengandalkan kekuatan fisik, keterampilan bertarung, dan baju zirah.",
+  "Requirements": "Kekuatan fisik yang baik, disiplin diri, loyalitas, dan pelatihan militer atau bela diri yang ketat.",
+  "TypicalAbilities": [
+    {"Name": "Master Senjata", "Description": "Penguasaan berbagai jenis senjata jarak dekat (pedang, tombak, kapak)."},
+    {"Name": "Pertahanan Baju Zirah", "Description": "Kemampuan untuk bertarung secara efektif dengan baju zirah berat, memberikan perlindungan superior."},
+    {"Name": "Kepemimpinan", "Description": "Mampu memimpin pasukan kecil atau menginspirasi sekutu dalam pertempuran."},
+    {"Name": "Keterampilan Bertarung", "Description": "Teknik bertarung yang teruji dan efektif dalam berbagai situasi."}
+  ],
+  "TypicalEquipment": ["Pedang panjang", "perisai", "baju zirah lengkap", "kuda perang", "dan lambang kesatriaan"],
+  "SocialRole": ["Pelindung kerajaan", "penjaga perdamaian", "komandan militer", "atau penegak hukum"],
+  "AdditionalNotes": "Knight seringkali terikat pada sumpah atau kode etik yang ketat, seperti kode kesatriaan.",
+  "ProgressionLevels": [
+    {
+      "LevelName": "Page (Pelayan Ksatria)",
+      "Description": "Baru memulai pelatihan, belajar etiket, dasar-dasar senjata, dan melayani ksatria senior.",
+      "Abilities": ["Dasar-dasar penggunaan pedang kayu", "membersihkan baju zirah."]
+    },
+    {
+      "LevelName": "Squire (Calon Ksatria)",
+      "Description": "Mendampingi ksatria dalam pertempuran, belajar taktik, dan mengasah keterampilan bertarung.",
+      "Abilities": ["Penguasaan senjata dasar", "pertahanan diri", "merawat kuda perang."]
+    },
+    {
+      "LevelName": "Man-at-Arms (Prajurit Bersenjata)",
+      "Description": "Prajurit terlatih yang mampu bertarung di garis depan, tetapi belum memiliki gelar kesatria.",
+      "Abilities": ["Bertarung dalam formasi", "menggunakan perisai secara efektif", "daya tahan fisik."]
+    },
+    {
+      "LevelName": "Knight Errant (Ksatria Pengelana)",
+      "Description": "Ksatria yang melakukan perjalanan untuk mencari petualangan, menegakkan keadilan, atau memenuhi sumpah pribadi.",
+      "Abilities": ["Bertarung sendirian atau dalam kelompok kecil", "navigasi", "bertahan hidup di alam liar."]
+    },
+    {
+      "LevelName": "Knight of the Realm (Ksatria Kerajaan)",
+      "Description": "Ksatria yang telah diakui dan melayani kerajaan atau penguasa tertentu, terikat pada sumpah kesetiaan.",
+      "Abilities": ["Komando pasukan kecil", "taktik pertempuran", "diplomasi dasar."]
+    },
+    {
+      "LevelName": "Captain (Kapten Ksatria)",
+      "Description": "Memimpin unit ksatria atau pasukan yang lebih besar dalam pertempuran, ahli strategi.",
+      "Abilities": ["Strategi pertempuran", "memimpin serangan", "mempertahankan posisi."]
+    },
+    {
+      "LevelName": "Commander (Komandan Ksatria)",
+      "Description": "Memimpin seluruh resimen atau legiun ksatria, ahli dalam perang skala besar.",
+      "Abilities": ["Taktik perang skala besar", "logistik", "moral pasukan."]
+    },
+    {
+      "LevelName": "Grand Knight (Ksatria Agung)",
+      "Description": "Salah satu ksatria paling dihormati dan berpengaruh di kerajaan, sering menjadi penasihat militer.",
+      "Abilities": ["Duel satu lawan satu yang tak tertandingi", "inspirasi moral yang kuat", "negosiasi."]
+    },
+    {
+      "LevelName": "Paladin (Paladin)",
+      "Description": "Ksatria yang diberkati dengan kekuatan ilahi atau magis, bertarung untuk kebaikan dan keadilan yang lebih tinggi.",
+      "Abilities": ["Mantra penyembuhan dasar", "aura pelindung", "serangan yang diberkati."]
+    },
+    {
+      "LevelName": "Lord Commander (Panglima Tertinggi)",
+      "Description": "Tingkat tertinggi, pemimpin tertinggi semua ksatria, simbol kehormatan dan kekuatan militer.",
+      "Abilities": ["Memimpin seluruh pasukan kerajaan", "strategi perang tingkat nasional", "menjadi legenda hidup."]
+    }
+  ]
+}

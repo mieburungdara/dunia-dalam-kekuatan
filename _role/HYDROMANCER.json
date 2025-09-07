@@ -1,0 +1,66 @@
+{
+  "Name": "Hydromancer (Pengendali Air)",
+  "GeneralDescription": "Individu yang memiliki kemampuan untuk memanipulasi elemen air dalam berbagai bentuk, mulai dari tetesan embun hingga gelombang pasang.",
+  "Requirements": "Bakat alami dalam sihir air, ketenangan, dan pemahaman tentang sifat fluida.",
+  "TypicalAbilities": [
+    {"Name": "Penciptaan Air", "Description": "Membangkitkan air dari kelembaban udara atau sumber lain."},
+    {"Name": "Manipulasi Air", "Description": "Mengendalikan bentuk, aliran, dan suhu air."},
+    {"Name": "Penyembuhan", "Description": "Air sering dikaitkan dengan penyembuhan, sehingga Hydromancer mungkin memiliki kemampuan penyembuhan dasar."},
+    {"Name": "Mantra Serangan Air", "Description": "Semburan air bertekanan tinggi, pusaran air, atau panah es."}
+  ],
+  "TypicalEquipment": ["Botol air yang diisi dengan air murni", "jimat kerang", "atau tongkat yang diukir dengan simbol gelombang"],
+  "SocialRole": ["Penyedia air", "penyembuh", "pelaut", "atau penjaga pantai"],
+  "AdditionalNotes": "Hydromancer yang mahir dapat mengendalikan es dan uap.",
+  "ProgressionLevels": [
+    {
+      "LevelName": "Dew Dropper (Penetes Embun)",
+      "Description": "Baru memulai, hanya mampu memanipulasi tetesan air kecil atau membuat embun.",
+      "Abilities": ["Mengumpulkan embun", "membuat tetesan air melayang."]
+    },
+    {
+      "LevelName": "Puddle Bender (Pembengkok Genangan)",
+      "Description": "Mampu mengendalikan genangan air kecil, membersihkan air, atau membuat air mengalir.",
+      "Abilities": ["Menggerakkan genangan air", "memurnikan air kotor dalam jumlah kecil."]
+    },
+    {
+      "LevelName": "Stream Weaver (Penjalin Aliran)",
+      "Description": "Mampu memanipulasi aliran air yang lebih besar, seperti sungai kecil atau air mancur.",
+      "Abilities": ["Mengubah arah aliran sungai kecil", "menciptakan semburan air ringan."]
+    },
+    {
+      "LevelName": "Wave Shaper (Pembentuk Gelombang)",
+      "Description": "Menguasai kontrol yang lebih baik atas air, mampu menciptakan gelombang atau pusaran air yang lebih besar.",
+      "Abilities": ["Menciptakan gelombang kecil", "pusaran air", "atau perisai air."]
+    },
+    {
+      "LevelName": "Torrent Conjurer (Pembangkit Arus Deras)",
+      "Description": "Mampu memanggil arus air yang kuat dan merusak, serta mengendalikan suhu air.",
+      "Abilities": ["Semburan air bertekanan tinggi", "menciptakan es atau uap", "badai es kecil."]
+    },
+    {
+      "LevelName": "Water Lord (Penguasa Air)",
+      "Description": "Diakui sebagai master air, mampu menciptakan badai air lokal atau mengendalikan air dalam jumlah besar.",
+      "Abilities": ["Badai air kecil", "memanipulasi danau atau kolam", "menciptakan ilusi air."]
+    },
+    {
+      "LevelName": "Ocean Heart (Jantung Samudra)",
+      "Description": "Kekuatan air mereka mendekati kekuatan samudra, mampu memanggil gelombang pasang atau mengendalikan arus laut.",
+      "Abilities": ["Memanggil gelombang pasang kecil", "mengendalikan arus laut lokal."]
+    },
+    {
+      "LevelName": "Glacier Soul (Jiwa Gletser)",
+      "Description": "Mampu memanipulasi air dalam bentuk padat (es) dengan kekuatan luar biasa, menciptakan struktur es yang besar.",
+      "Abilities": ["Menciptakan gletser kecil", "memanggil badai salju yang dahsyat."]
+    },
+    {
+      "LevelName": "Tsunami Weaver (Penjalin Tsunami)",
+      "Description": "Kekuatan air mereka mencapai puncaknya, mampu menciptakan bencana alam berbasis air.",
+      "Abilities": ["Memanggil tsunami kecil", "mengendalikan hujan lebat di area luas."]
+    },
+    {
+      "LevelName": "Abyssal Master (Master Jurang)",
+      "Description": "Tingkat tertinggi, mampu mengendalikan seluruh samudra, memanipulasi tekanan air di kedalaman, dan memanggil makhluk laut dalam.",
+      "Abilities": ["Mengendalikan seluruh samudra", "menciptakan pusaran air raksasa", "memanggil Kraken."]
+    }
+  ]
+}
