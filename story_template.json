@@ -72,10 +72,6 @@
             },
             {
               "Type": "Emotion",
-              "Character": {
-                "Name": "Nama Karakter yang Merasakan",
-                "ID": "ID Karakter yang Merasakan"
-              },
               "Text": "Deskripsi emosi spesifik yang dirasakan karakter."
             },
             {
@@ -159,10 +155,6 @@
               "Text": "Kejadian aneh atau tak terjelaskan yang menjadi misteri dan memicu rasa ingin tahu."
             },
             {
-              "Type": "Ritual",
-              "Text": "Deskripsi adegan upacara, mantra, atau tradisi tertentu yang dilakukan."
-            },
-            {
               "Type": "Training",
               "Text": "Adegan latihan, perkembangan skill, atau penguasaan teknik baru oleh karakter.",
               "Skill": {
@@ -179,20 +171,8 @@
               "Text": "Perbedaan pendapat atau argumen antar karakter yang lebih bersifat intelektual daripada konflik emosional."
             },
             {
-              "Type": "TestOrTrial",
-              "Text": "Ujian atau tantangan formal/informal yang harus dilalui karakter."
-            },
-            {
               "Type": "Reveal",
               "Text": "Pengungkapan rahasia penting, kebenaran, atau informasi krusial."
-            },
-            {
-              "Type": "Betrayal",
-              "Actor": {
-                "Name": "Nama Karakter Pengkhianat",
-                "ID": "ID Karakter Pengkhianat"
-              },
-              "Text": "Deskripsi pengkhianatan yang dilakukan oleh karakter dekat atau sekutu."
             },
             {
               "Type": "Alliance",
@@ -241,10 +221,6 @@
             {
               "Type": "Omens",
               "Text": "Tanda alam atau fenomena yang dianggap membawa makna mistis atau pertanda."
-            },
-            {
-              "Type": "Sacrifice",
-              "Text": "Pengorbanan yang dilakukan karakter, baik besar maupun kecil, dengan dampaknya."
             },
             {
               "Type": "Ambush",
@@ -299,10 +275,6 @@
               "Text": "Pengungkapan jaringan atau rencana tersembunyi yang luas."
             },
             {
-              "Type": "Challenge",
-              "Text": "Karakter menghadapi ujian langsung dari seseorang atau sesuatu."
-            },
-            {
               "Type": "Duel",
               "Text": "Pertarungan satu lawan satu yang intens."
             },
@@ -335,10 +307,6 @@
               "Text": "Penyatuan kembali hubungan yang sebelumnya pecah."
             },
             {
-              "Type": "UnexpectedHelp",
-              "Text": "Bantuan datang dari pihak yang tidak disangka-sangka."
-            },
-            {
               "Type": "WarningIgnored",
               "Text": "Karakter menolak memperhatikan peringatan, dengan konsekuensi."
             },
@@ -355,10 +323,6 @@
               "Text": "Campur tangan dewa, roh, atau kekuatan supranatural."
             },
             {
-              "Type": "Countdown",
-              "Text": "Tekanan waktu sebelum sesuatu (bom, sihir, ritual) terjadi."
-            },
-            {
               "Type": "SuddenSilence",
               "Text": "Hilangnya suara mendadak yang menandakan bahaya."
             },
@@ -369,6 +333,339 @@
             {
               "Type": "ForeshadowedFailure",
               "Text": "Kegagalan yang sudah diisyaratkan sebelumnya, akhirnya terjadi."
+            },
+            {
+              "Type": "Misdirection",
+              "Text": "Karakter atau narasi sengaja menipu pembaca/karakter lain."
+            },
+            {
+              "Type": "SacredPlace",
+              "Text": "Adegan di lokasi suci atau penuh kekuatan magis."
+            },
+            {
+              "Type": "TrapActivation",
+              "Text": "Jebakan aktif yang memaksa karakter bereaksi cepat."
+            },
+            {
+              "Type": "SacrificeDecision",
+              "Text": "Karakter harus memilih mengorbankan sesuatu/nilai penting."
+            },
+            {
+              "Type": "MoralDilemma",
+              "Text": "Dilema etis yang sulit bagi karakter POV."
+            },
+            {
+              "Type": "Eavesdrop",
+              "Text": "Karakter mendengar rahasia penting secara diam-diam."
+            },
+            {
+              "Type": "RiteOfPassage",
+              "Text": "Adegan pengesahan atau ujian tradisi (untuk karakter berkembang)."
+            },
+            {
+              "Type": "ShadowMovement",
+              "Text": "Gerakan samar yang menimbulkan ketegangan."
+            },
+            {
+              "Type": "Illusion",
+              "Text": "Adegan di mana karakter melihat hal yang tidak nyata."
+            },
+            {
+              "Type": "MemoryTrigger",
+              "Text": "Suatu objek/adegan memicu ingatan masa lalu."
+            },
+            {
+              "Type": "CulturalRitual",
+              "Text": "Penggambaran adat atau ritual lokal untuk membangun dunia."
+            },
+            {
+              "Type": "HiddenMotivation",
+              "Text": "Motif tersembunyi karakter yang mulai terungkap."
+            },
+            {
+              "Type": "CriticalMistake",
+              "Text": "Kesalahan penting yang mengubah jalannya cerita."
+            },
+            {
+              "Type": "SecretMeeting",
+              "Text": "Pertemuan rahasia yang berpengaruh pada plot."
+            },
+            {
+              "Type": "NaturalDisaster",
+              "Text": "Bencana alam memengaruhi karakter atau setting."
+            },
+            {
+              "Type": "UnexpectedAlliance",
+              "Text": "Pembentukan aliansi tak terduga."
+            },
+            {
+              "Type": "HeroicAct",
+              "Text": "Tindakan heroik dari karakter, bisa kecil atau besar."
+            },
+            {
+              "Type": "FailedAttempt",
+              "Text": "Percobaan yang gagal, memberi pelajaran atau konsekuensi."
+            },
+            {
+              "Type": "DividedGroup",
+              "Text": "Kelompok terpecah karena perbedaan pendapat atau keadaan."
+            },
+            {
+              "Type": "FalseFriend",
+              "Text": "Karakter yang terlihat teman tapi sebenarnya punya agenda tersembunyi."
+            },
+            {
+              "Type": "PowerSurge",
+              "Text": "Ledakan kekuatan fisik, sihir, atau kemampuan lainnya."
+            },
+            {
+              "Type": "RogueDecision",
+              "Text": "Karakter mengambil keputusan sendiri yang mengejutkan."
+            },
+            {
+              "Type": "HauntedMemory",
+              "Text": "Ingatan masa lalu yang menghantui karakter."
+            },
+            {
+              "Type": "MysteriousGuide",
+              "Text": "Sosok misterius yang memberi petunjuk atau bantuan."
+            },
+            {
+              "Type": "PropheticDream",
+              "Text": "Mimpi yang menyinggung masa depan atau takdir."
+            },
+            {
+              "Type": "CriticalChoice",
+              "Text": "Keputusan penting yang menentukan jalannya cerita."
+            },
+            {
+              "Type": "SecretMessage",
+              "Text": "Pesan rahasia ditemukan atau dikirimkan."
+            },
+            {
+              "Type": "UnseenWatcher",
+              "Text": "Sosok yang mengamati karakter dari jauh tanpa diketahui."
+            },
+            {
+              "Type": "TwistOfFate",
+              "Text": "Perubahan nasib mendadak yang mengubah alur cerita."
+            },
+            {
+              "Type": "HeroicFailure",
+              "Text": "Tindakan heroik gagal, menimbulkan konsekuensi."
+            },
+            {
+              "Type": "UnexpectedCompanion",
+              "Text": "Munculnya karakter pendamping tak terduga."
+            },
+            {
+              "Type": "CulturalConflict",
+              "Text": "Perbedaan budaya atau adat yang menimbulkan konflik."
+            },
+            {
+              "Type": "LegendRevealed",
+              "Text": "Misteri legenda atau cerita lama terungkap."
+            },
+            {
+              "Type": "UnexpectedEvent",
+              "Text": "Kejadian yang benar-benar tidak diprediksi karakter."
+            },
+            {
+              "Type": "MoralCorruption",
+              "Text": "Karakter tergoda untuk melakukan hal salah demi keuntungan."
+            },
+            {
+              "Type": "SecretAgenda",
+              "Text": "Rencana tersembunyi yang memengaruhi jalannya cerita."
+            },
+            {
+              "Type": "PowerStruggle",
+              "Text": "Pertarungan atau konflik untuk memperebutkan kekuasaan."
+            },
+            {
+              "Type": "ClimacticShowdown",
+              "Text": "Adegan puncak pertarungan atau konfrontasi."
+            },
+            {
+              "Type": "SecretWeapon",
+              "Text": "Senjata atau kemampuan tersembunyi muncul saat dibutuhkan."
+            },
+            {
+              "Type": "DivineMessage",
+              "Text": "Pesan atau wahyu dari entitas gaib/dewa."
+            },
+            {
+              "Type": "ImminentThreat",
+              "Text": "Ancaman besar yang segera terjadi dan menimbulkan ketegangan tinggi."
+            },
+            {
+              "Type": "HiddenTrap",
+              "Text": "Jebakan tersembunyi yang belum disadari karakter."
+            },
+            {
+              "Type": "SuddenLoss",
+              "Text": "Kehilangan karakter, benda, atau sumber daya yang signifikan."
+            },
+            {
+              "Type": "RevealedWeakness",
+              "Text": "Kelemahan karakter, musuh, atau sistem terungkap."
+            },
+            {
+              "Type": "UnexpectedTwist",
+              "Text": "Plot twist yang mengejutkan karakter dan pembaca."
+            },
+            {
+              "Type": "CulturalMystery",
+              "Text": "Misteri budaya atau ritual yang mempengaruhi cerita."
+            },
+            {
+              "Type": "SurvivalChallenge",
+              "Text": "Tantangan bertahan hidup ekstrem."
+            },
+            {
+              "Type": "BetrayalConsequence",
+              "Text": "Dampak langsung dari pengkhianatan yang terjadi."
+            },
+            {
+              "Type": "UnintendedConsequence",
+              "Text": "Hasil dari tindakan karakter yang tidak diinginkan tapi berdampak besar."
+            },
+            {
+              "Type": "LegendaryEncounter",
+              "Text": "Pertemuan dengan makhluk, tokoh, atau entitas legendaris."
+            },
+            {
+              "Type": "RomanticTension",
+              "Text": "Ketegangan cinta atau ketertarikan antar karakter."
+            },
+            {
+              "Type": "Jealousy",
+              "Text": "Rasa cemburu yang memengaruhi keputusan atau interaksi."
+            },
+            {
+              "Type": "SiblingConflict",
+              "Text": "Perselisihan antar karakter yang memiliki hubungan keluarga."
+            },
+            {
+              "Type": "AssassinationAttempt",
+              "Text": "Percobaan pembunuhan terhadap karakter penting."
+            },
+            {
+              "Type": "UnexpectedComplication",
+              "Text": "Komplikasi tiba-tiba yang mengubah rencana karakter."
+            },
+            {
+              "Type": "MysteriousPhenomenon",
+              "Text": "Fenomena aneh atau supernatural yang membingungkan karakter."
+            },
+            {
+              "Type": "PsychologicalManipulation",
+              "Text": "Karakter atau musuh memanipulasi mental karakter lain."
+            },
+            {
+              "Type": "DesperateDecision",
+              "Text": "Pilihan drastis karena keadaan mendesak."
+            },
+            {
+              "Type": "UnlikelySurvival",
+              "Text": "Karakter bertahan hidup dalam situasi hampir mustahil."
+            },
+            {
+              "Type": "UnexpectedDeath",
+              "Text": "Kematian karakter yang tidak terduga."
+            },
+            {
+              "Type": "MysticalEncounter",
+              "Text": "Bertemu makhluk atau entitas supranatural."
+            },
+            {
+              "Type": "RevelationMoment",
+              "Text": "Momen pencerahan atau kebenaran besar terungkap."
+            },
+            {
+              "Type": "SuddenAmbush",
+              "Text": "Serangan mendadak yang menegangkan."
+            },
+            {
+              "Type": "UnexpectedMentor",
+              "Text": "Kemunculan mentor atau pembimbing dari sumber tak terduga."
+            },
+            {
+              "Type": "HiddenDanger",
+              "Text": "Ancaman tersembunyi atau bahaya yang tidak terlihat jelas."
+            },
+            {
+              "Type": "KnowledgeDiscovery",
+              "Text": "Penemuan atau pengungkapan informasi penting, termasuk rahasia atau ilmu yang seharusnya tidak diketahui."
+            },
+            {
+              "Type": "Ritual",
+              "Text": "Deskripsi adegan upacara, mantra, atau tradisi tertentu yang dilakukan, bisa suci atau terlarang."
+            },
+            {
+              "Type": "TrialOrChallenge",
+              "Text": "Ujian atau tantangan yang harus dilalui karakter, bisa fisik, mental, strategis, atau suci."
+            },
+            {
+              "Type": "Betrayal",
+              "Actor": {
+                "Name": "Nama Karakter Pengkhianat",
+                "ID": "ID Karakter Pengkhianat"
+              },
+              "Text": "Pengkhianatan atau perubahan loyalitas yang dilakukan, direncanakan, atau terungkap.",
+              "Stage": "Tahap pengkhianatan (misal: 'Plotting', 'Executed', 'Revealed', 'DoubleCross')"
+            },
+            {
+              "Type": "ArtifactDiscovery",
+              "Text": "Penemuan atau aktivasi artefak/benda penting dengan kekuatan atau legenda."
+            },
+            {
+              "Type": "SecretIdentity",
+              "Text": "Karakter menyembunyikan atau mengungkapkan identitas asli mereka, atau menjalani dua peran."
+            },
+            {
+              "Type": "HiddenPath",
+              "Text": "Penemuan atau penggunaan jalur/jalan rahasia."
+            },
+            {
+              "Type": "UnexpectedAid",
+              "Text": "Bantuan yang muncul dari sumber tak terduga di saat kritis."
+            },
+            {
+              "Type": "EnemyEncounter",
+              "Text": "Kemunculan atau pengungkapan musuh, baik yang tidak terduga maupun yang tersembunyi."
+            },
+            {
+              "Type": "TimeConstraint",
+              "Text": "Tekanan waktu yang mendesak karakter untuk bertindak atau sebelum sesuatu terjadi."
+            },
+            {
+              "Type": "EmotionalArc",
+              "Text": "Perkembangan emosional karakter, dari puncak emosi hingga pemahaman atau pemulihan."
+            },
+            {
+              "Type": "SecretAlliance",
+              "Text": "Pembentukan aliansi rahasia antar pihak."
+            },
+            {
+              "Type": "Sacrifice",
+              "Text": "Pengorbanan yang dilakukan karakter, baik besar maupun kecil, dengan dampaknya."
+            },
+            {
+              "Type": "UnexpectedTransformation",
+              "Text": "Perubahan fisik, sihir, atau status karakter secara tiba-tiba."
+            },
+            {
+              "Type": "PoliticalIntrigue",
+              "Text": "Permainan politik atau manipulasi kekuasaan."
+            },
+            {
+              "Type": "ForbiddenLove",
+              "Text": "Cinta yang tidak diperbolehkan oleh situasi atau norma."
+            },
+            {
+              "Type": "TimeSkip",
+              "Text": "Lompatan waktu untuk mempercepat alur atau mengubah perspektif."
             }
           ],
           "Notes": "Catatan tambahan untuk AI atau penulis: gaya bahasa spesifik, pacing yang diinginkan, detail sensorik yang harus ditekankan, atau instruksi khusus lainnya untuk adegan ini."
