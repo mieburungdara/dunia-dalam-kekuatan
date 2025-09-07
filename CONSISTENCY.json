@@ -1,9 +1,20 @@
 {
-  "NarrativeStyle": "Gaya narasi (misal: Orang ketiga terbatas, Orang pertama)",
-  "Tone": "Nada cerita (misal: Serius, Ringan, Gelap)",
+  "NarrativeStyle": "Orang ketiga terbatas",
+  "Tone": "Serius dengan momen ringan",
   "ContinuityRules": [
-    "Aturan konsistensi umum 1",
-    "Aturan konsistensi umum 2"
+    "Revisi cerita adalah proses penggabungan, bukan penggantian. Pertahankan narasi yang ada sambil mengintegrasikan ide-ide baru dari file revisi.",
+    "Setiap bab baru harus memiliki `title` di dalam *front matter* agar muncul di daftar isi secara otomatis.",
+    "Setiap file `index.md` di dalam folder bab (`_cerita/nama_bab/`) harus berisi rangkuman semua latar lokasi yang disebutkan dalam sub-bab terkait.",
+    "Untuk karakter pendukung atau figuran, buat entri deskripsi di file `KARAKTER_PENDUKUNG.md` dengan format yang konsisten.",
+    "Setiap kali mengubah atau menulis ulang sebuah bagian cerita, lakukan pemeriksaan silang dengan `GUIDE.md` dan bab-bab lain untuk memastikan tidak ada konflik plot, karakter, atau aturan dunia.",
+    "Setiap halaman bab di situs harus secara otomatis menampilkan semua gambar yang ada di dalam folder bab tersebut, diurutkan berdasarkan nama file.",
+    "Situs dikonfigurasi untuk selalu memuat versi terbaru dan tidak menyimpan cache di browser.",
+    "Gunakan 'aku, kamu, kau, kita'. Hindari 'loe, gue', kecuali untuk dialog atau monolog internal karakter tertentu (seperti Bimo) dalam adegan yang bersifat komedi/santai.",
+    "Setiap adegan baru dimulai di paragraf baru.",
+    "Gunakan tanda kutip (“”) dan pisahkan tiap pembicara.",
+    "Gabungkan deskripsi & aksi dengan narasi, buat agar lebih terasa dan dapat dibayangkan.",
+    "Setiap bab atau sub-bab harus secara eksplisit menyebutkan latar lokasi utama di awal atau di bagian yang relevan untuk memberikan gambaran yang jelas kepada pembaca.",
+    "Untuk setiap istilah asing yang dicetak miring (misalnya, `*spawn*`, `*glitch*`), tambahkan penjelasan singkat di bagian bawah cerita atau bab terkait."
   ],
   "MagicRules": {
     "AetherUsage": "Aturan penggunaan Aether/energi sihir.",
