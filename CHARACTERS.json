@@ -30,7 +30,8 @@
     "Zodiac": "Virgo",
     "MBTI": "INTJ",
     "Status": "Pendatang dari Dunia Lain (Mahasiswa)",
-    "Origin": "Bumi"
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Mengubah pandangan hidup, memicu pencarian jalan pulang"}, {"Event": "Bertemu Bimo, Raka, Mira, Lina", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membentuk kelompok, mulai merasa bertanggung jawab"}]
   },
   {
     "ID": 2,
@@ -63,7 +64,8 @@
     "Zodiac": "Sagittarius",
     "MBTI": "ENFP",
     "Status": "Pendatang dari Dunia Lain (Pelajar)",
-    "Origin": "Bumi"
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Memaksa keluar dari zona nyaman, memicu adaptasi"}, {"Event": "Pertarungan pertama dengan monster", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menyadari bahaya dunia baru, memicu pengembangan insting"}]
   },
   {
     "ID": 3,
@@ -96,7 +98,8 @@
     "Zodiac": "Taurus",
     "MBTI": "ISFJ",
     "Status": "Pendatang dari Dunia Lain (Mantan Tentara)",
-    "Origin": "Bumi"
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membuka kembali trauma masa lalu, memicu naluri pelindung"}, {"Event": "Melindungi kelompok dari bahaya", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menemukan tujuan baru, mulai menyembuhkan trauma"}]
   },
   {
     "ID": 4,
@@ -129,7 +132,8 @@
     "Zodiac": "Capricorn",
     "MBTI": "ESTJ",
     "Status": "Pendatang dari Dunia Lain (Mahasiswi Kedokteran)",
-    "Origin": "Bumi"
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Menguji pengetahuan medis, memicu pengembangan kemampuan penyembuhan"}, {"Event": "Menyembuhkan anggota kelompok", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Meningkatkan kepercayaan diri, memperkuat ikatan kelompok"}]
   },
   {
     "ID": 5,
@@ -162,7 +166,8 @@
     "Zodiac": "Pisces",
     "MBTI": "INFP",
     "Status": "Pendatang dari Dunia Lain (Pelajar)",
-    "Origin": "Bumi"
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Menghadapi kenyataan pahit, memicu pengembangan sihir"}, {"Event": "Menggunakan sihir untuk pertama kali", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menyadari potensi diri, mulai mengatasi ketakutan"}]
   },
   {
     "ID": 6,
@@ -195,7 +200,8 @@
     "Zodiac": null,
     "MBTI": null,
     "Status": "Warga Desa (Sesepuh)",
-    "Origin": "Desa Terpencil di Eryndor"
+    "Origin": "Desa Terpencil di Eryndor",
+    "KeyEvents": []
   },
   {
     "ID": 7,
@@ -228,7 +234,8 @@
     "Zodiac": null,
     "MBTI": null,
     "Status": "Pemimpin Desa",
-    "Origin": "Desa Terpencil di Eryndor"
+    "Origin": "Desa Terpencil di Eryndor",
+    "KeyEvents": []
   },
   {
     "ID": 8,
@@ -261,7 +268,8 @@
     "Zodiac": null,
     "MBTI": null,
     "Status": "Pedagang Bebas",
-    "Origin": "Berbagai Wilayah di Eryndor"
+    "Origin": "Berbagai Wilayah di Eryndor",
+    "KeyEvents": []
   },
   {
     "ID": 9,
@@ -294,7 +302,8 @@
     "Zodiac": null,
     "MBTI": null,
     "Status": "Warga Desa (Anak-anak)",
-    "Origin": "Desa Terpencil di Eryndor"
+    "Origin": "Desa Terpencil di Eryndor",
+    "KeyEvents": []
   },
   {
     "ID": 10,
@@ -327,6 +336,7 @@
     "Zodiac": null,
     "MBTI": null,
     "Status": "Warga Desa (Penjaga)",
-    "Origin": "Desa Terpencil di Eryndor"
+    "Origin": "Desa Terpencil di Eryndor",
+    "KeyEvents": []
   }
 ]
