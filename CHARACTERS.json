@@ -24,9 +24,11 @@
     "SkillsAndAbilities": ["Pedang Satu Tangan: Mahir", "Strategi Tempur: Ahli", "Analisis Kelemahan: Menengah"],
     "Equipment": ["Pedang Baja Ringan", "Kompas Kuno", "Buku Catatan"],
     "Relationships": [{"TargetID": 2, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 3, "Type": "Rekan", "Description": "Mengandalkan Raka dalam pertempuran"}],
-    ""Affiliations": ["Tidak ada (sebelumnya Mahasiswa Teknik)"],
+    "Affiliations": ["Tidak ada (sebelumnya Mahasiswa Teknik)"],
     "Voice": "Tenang, logis, kadang terdengar sedikit merendahkan atau terlalu analitis.",
-    "Flaws": ["Terlalu mengandalkan logika, sulit memahami emosi orang lain", "Cenderung menyendiri", "Perfeksionis"]
+    "Flaws": ["Terlalu mengandalkan logika, sulit memahami emosi orang lain", "Cenderung menyendiri", "Perfeksionis"],
+    "Zodiac": "Virgo",
+    "MBTI": "INTJ"
   },
   {
     "ID": 2,
@@ -55,7 +57,9 @@
     "Relationships": [{"TargetID": 1, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 5, "Type": "Rekan", "Description": "Sering mengganggu Lina"}],
     "Affiliations": ["Tidak ada (sebelumnya Gamer)"],
     "Voice": "Ceria, santai, sering menggunakan slang atau istilah game, kadang terdengar malas.",
-    "Flaws": ["Cenderung menghindari tanggung jawab", "Mudah terdistraksi", "Kurang disiplin"]
+    "Flaws": ["Cenderung menghindari tanggung jawab", "Mudah terdistraksi", "Kurang disiplin"],
+    "Zodiac": "Sagittarius",
+    "MBTI": "ENFP"
   },
   {
     "ID": 3,
@@ -84,7 +88,9 @@
     "Relationships": [{"TargetID": 1, "Type": "Rekan", "Description": "Diandalkan Arga dalam pertempuran"}, {"TargetID": 4, "Type": "Pelindung", "Description": "Sangat protektif terhadap Mira"}],
     "Affiliations": ["Tidak ada (sebelumnya Tentara)"],
     "Voice": "Dalam, tenang, jarang berbicara, kata-katanya singkat tapi penuh makna.",
-    "Flaws": ["Terlalu protektif", "Sulit mempercayai orang baru", "Cenderung memendam masalah sendiri"]
+    "Flaws": ["Terlalu protektif", "Sulit mempercayai orang baru", "Cenderung memendam masalah sendiri"],
+    "Zodiac": "Taurus",
+    "MBTI": "ISFJ"
   },
   {
     "ID": 4,
@@ -113,7 +119,9 @@
     "Relationships": [{"TargetID": 3, "Type": "Dilindungi", "Description": "Sangat dilindungi oleh Raka"}, {"TargetID": 5, "Type": "Teman Dekat", "Description": "Sering menenangkan Lina"}],
     "Affiliations": ["Tidak ada (sebelumnya Mahasiswi Kedokteran)"],
     "Voice": "Lembut, teratur, kadang terdengar cemas atau terlalu hati-hati, namun bisa tegas saat dibutuhkan.",
-    "Flaws": ["Perfeksionis berlebihan", "Terlalu penakut", "Sulit menerima kritik"]
+    "Flaws": ["Perfeksionis berlebihan", "Terlalu penakut", "Sulit menerima kritik"],
+    "Zodiac": "Capricorn",
+    "MBTI": "ESTJ"
   },
   {
     "ID": 5,
@@ -142,7 +150,9 @@
     "Relationships": [{"TargetID": 2, "Type": "Rekan", "Description": "Sering diganggu Bimo"}, {"TargetID": 4, "Type": "Teman Dekat", "Description": "Sering ditenangkan Mira"}],
     "Affiliations": ["Tidak ada (sebelumnya Siswi SMA)"],
     "Voice": "Bernada tinggi, sering mengeluh, sarkastik, kadang terdengar manja atau panik.",
-    "Flaws": ["Manja", "Egois (terkadang)", "Mudah panik", "Tidak suka kotor"]
+    "Flaws": ["Manja", "Egois (terkadang)", "Mudah panik", "Tidak suka kotor"],
+    "Zodiac": "Pisces",
+    "MBTI": "INFP"
   },
   {
     "ID": 6,
@@ -171,7 +181,9 @@
     "Relationships": null,
     "Affiliations": ["Penjaga Desa"],
     "Voice": "Serak, bijaksana, sering berbicara dalam teka-teki atau perumpamaan kuno.",
-    "Flaws": ["Terlalu percaya takhayul", "Cenderung pesimis", "Sulit beradaptasi dengan perubahan"]
+    "Flaws": ["Terlalu percaya takhayul", "Cenderung pesimis", "Sulit beradaptasi dengan perubahan"],
+    "Zodiac": null,
+    "MBTI": null
   },
   {
     "ID": 7,
@@ -200,7 +212,9 @@
     "Relationships": null,
     "Affiliations": ["Pemerintahan Desa"],
     "Voice": "Tegas, berwibawa, pragmatis, kadang terdengar lelah atau khawatir.",
-    "Flaws": ["Terlalu berhati-hati", "Sulit mengambil risiko", "Cenderung mengabaikan hal-hal non-praktis"]
+    "Flaws": ["Terlalu berhati-hati", "Sulit mengambil risiko", "Cenderung mengabaikan hal-hal non-praktis"],
+    "Zodiac": null,
+    "MBTI": null
   },
   {
     "ID": 8,
@@ -229,7 +243,9 @@
     "Relationships": null,
     "Affiliations": ["Pedagang Bebas"],
     "Voice": "Ceria, bersemangat, banyak bicara, sering melebih-lebihkan cerita.",
-    "Flaws": ["Tidak selalu jujur", "Cenderung serakah", "Suka bergosip"]
+    "Flaws": ["Tidak selalu jujur", "Cenderung serakah", "Suka bergosip"],
+    "Zodiac": null,
+    "MBTI": null
   },
   {
     "ID": 9,
@@ -258,7 +274,9 @@
     "Relationships": null,
     "Affiliations": ["Penduduk Desa"],
     "Voice": "Polos, penasaran, kadang berbisik atau berteriak saat bermain.",
-    "Flaws": ["Terlalu ingin tahu", "Cenderung ceroboh", "Mudah terpengaruh"]
+    "Flaws": ["Terlalu ingin tahu", "Cenderung ceroboh", "Mudah terpengaruh"],
+    "Zodiac": null,
+    "MBTI": null
   },
   {
     "ID": 10,
@@ -287,6 +305,8 @@
     "Relationships": null,
     "Affiliations": ["Penjaga Desa"],
     "Voice": "Monoton, patuh, singkat dan padat.",
-    "Flaws": ["Terlalu kaku pada aturan", "Kurang inisiatif", "Sulit berpikir di luar kotak"]
+    "Flaws": ["Terlalu kaku pada aturan", "Kurang inisiatif", "Sulit berpikir di luar kotak"],
+    "Zodiac": null,
+    "MBTI": null
   }
 ]
