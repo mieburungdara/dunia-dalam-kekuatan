@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.56.0 - Migrasi Data Karakter ke JSON
+*Tanggal: 2025-09-07*
+
+- **Diubah**: Memindahkan semua data karakter dari `KARAKTER_ALTERNATIF.md`, `KARAKTER_DESKRIPSI.md`, dan `KARAKTER_PENDUKUNG.md` ke `CHARACTERS.json`.
+- **Dihapus**: Mengosongkan konten `KARAKTER_ALTERNATIF.md`, `KARAKTER_DESKRIPSI.md`, dan `KARAKTER_PENDUKUNG.md`.
+
+---
+
 ## v0.55.0 - Penambahan Profesi Demon dan Tingkatannya
 *Tanggal: 2025-09-06*
 
