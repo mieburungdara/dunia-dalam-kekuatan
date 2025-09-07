@@ -22,9 +22,9 @@
     "ElementalAffinity": "Aturan afinitas elemen."
   },
   "WorldPhysics": {
-    "Gravity": "Aturan gravitasi.",
-    "TimeFlow": "Aturan aliran waktu.",
-    "EnvironmentalImpact": "Dampak tindakan pada lingkungan."
+    "Gravity": "Mengikuti hukum gravitasi dunia nyata, kecuali jika disebutkan secara eksplisit adanya anomali atau variasi.",
+    "TimeFlow": "Mengikuti aliran waktu linear dunia nyata (satu detik di dunia nyata sama dengan satu detik di dunia cerita), kecuali jika disebutkan secara eksplisit adanya manipulasi waktu atau fenomena temporal.",
+    "EnvironmentalImpact": "Dunia ini hidup; penggunaan sihir yang berlebihan dapat menciptakan ketidakseimbangan. Setiap pilihan dalam menggunakan kekuatan akan meninggalkan jejak di dunia (korupsi, berkah, kutukan)."
   },
   "CharacterAbilities": {
     "SkillProgression": "Aturan perkembangan skill karakter.",

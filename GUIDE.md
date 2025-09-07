@@ -56,4 +56,20 @@ Mereka tidak langsung menjadi pahlawan, melainkan harus memulai dari nol sebagai
 *   **Setting**: Cerita dimulai di **Kerajaan Valdoria** dan **Monsterland** di sekitarnya.
 *   **Sistem Profesi**: Semua orang memulai dari "Profesi Dasar" dan peringkat terendah (**Rank F**) di **Guild Petualang**.
 *   **Konflik Utama**: Ada ramalan tentang **"Lima Jiwa Asing"**. Fenomena cahaya kedatangan mereka menjadi bukti awal ramalan ini, membuat mereka diawasi oleh berbagai pihak, termasuk yang jauh lebih berbahaya dari goblin.
-*   **Tujuan Awal**: Bertahan hidup, lari dari kejaran goblin, dan mencari tahu apa yang terjadi pada mereka.
+*   **Tujuan Awal**: Bertahan hidup, lari dari kejaran goblin, dan mencari tahu apa yang terjadi pada mereka."
+
+### Konsistensi Narasi dan Gaya
+
+Untuk menjaga konsistensi narasi dan gaya penulisan, harap merujuk pada `CONSISTENCY.json` yang berisi panduan detail mengenai:
+
+*   **Gaya Narasi**: Selalu gunakan sudut pandang orang ketiga terbatas.
+*   **Nada Cerita**: Pertahankan nada serius dengan momen ringan.
+*   **Aturan Penulisan**:
+    *   Gunakan pronomina "aku, kamu, kau, kita".
+    *   Setiap adegan baru dimulai di paragraf baru.
+    *   Gunakan tanda kutip (“”) untuk dialog dan pisahkan tiap pembicara.
+    *   Gabungkan deskripsi & aksi dengan narasi agar lebih terasa dan dapat dibayangkan.
+    *   Setiap bab atau sub-bab harus secara eksplisit menyebutkan latar lokasi utama.
+    *   Untuk setiap istilah asing yang dicetak miring (misalnya, `*spawn*`, `*glitch*`), tambahkan penjelasan singkat di bagian bawah cerita atau bab terkait.
+
+Untuk aturan fisika dunia (gravitasi, aliran waktu, dampak lingkungan) dan detail sistem sihir, silakan merujuk pada `WORLDBUILDING.md` dan file-file terkait di folder `_worldbuilding/`.

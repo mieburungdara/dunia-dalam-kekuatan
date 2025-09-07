@@ -52,6 +52,6 @@ Setiap file skill baru harus mengikuti pola berikut untuk menjaga konsistensi:
 ---
 
 ## Lore & Sejarah
-[Cerita singkat tentang asal-usul skill ini, siapa pengguna legendarisnya, atau mitos yang berhubungan dengannya.]
+[Cerita singkat tentang asal-usul skill ini, siapa pengguna legendarisnya, atau mitos yang berhubungan dengannya. Pastikan untuk mengikuti gaya narasi dan nada cerita yang telah ditetapkan, serta berikan penjelasan untuk setiap istilah asing yang dicetak miring.]
 
 ---
