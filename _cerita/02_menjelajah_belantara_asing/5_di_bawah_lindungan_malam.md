@@ -5,6 +5,14 @@ chapter_title: "02 - Menjelajah Belantara Asing"
 order: 5
 categories:
   - Menjelajah Belantara Asing
+POV_Character: All (IDs: 1, 2, 3, 4, 5)
+Location: Lembah yang Diselimuti Kegelapan (ID: L008), Desa (ID: L009)
+TimeOfDay: Malam
+KeyEvents:
+  - Infiltrasi malam ke desa
+  - Penemuan jejak kaki misterius
+  - Pertemuan dengan Kakek Jaga
+Summary: Di bawah lindungan malam, kelompok itu menyelinap mendekati desa. Mira mengidentifikasi simbol kuno di gerbang, dan mereka menemukan jejak kaki besar yang aneh. Pertemuan tak terduga dengan seorang pria tua (Kakek Jaga) membuat situasi semakin tegang.
 ---
 # Di Bawah Lindungan Malam
 

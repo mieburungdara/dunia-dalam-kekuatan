@@ -5,6 +5,14 @@ chapter_title: "02 - Menjelajah Belantara Asing"
 order: 3
 categories:
   - Menjelajah Belantara Asing
+POV_Character: All (IDs: 1, 2, 3, 4, 5)
+Location: Hutan Belantara (ID: L006), Lembah Kecil (ID: L008)
+TimeOfDay: Sore
+KeyEvents:
+  - Kelelahan kelompok
+  - Penemuan desa tersembunyi
+  - Reaksi beragam terhadap penemuan desa
+Summary: Saat kelelahan mencapai puncaknya, kelompok itu secara tak terduga menemukan sebuah desa tersembunyi di lembah. Penemuan ini disambut dengan kelegaan, meskipun Raka tetap waspada terhadap potensi bahaya.
 ---
 # Penemuan Tak Terduga
 

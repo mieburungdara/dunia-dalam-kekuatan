@@ -5,6 +5,14 @@ chapter_title: "02 - Menjelajah Belantara Asing"
 order: 4
 categories:
   - Menjelajah Belantara Asing
+POV_Character: All (IDs: 1, 2, 3, 4, 5)
+Location: Pinggir Lembah Tersembunyi (ID: L008), Desa (ID: L009)
+TimeOfDay: Senja
+KeyEvents:
+  - Pengintaian desa dari kejauhan
+  - Penemuan simbol aneh dan bekas cakaran di gerbang desa
+  - Kecurigaan Raka dan Arga
+Summary: Kelompok itu mengintai desa dari kejauhan. Meskipun desa tampak damai, Mira menemukan simbol aneh dan bekas cakaran besar di gerbang, memicu kecurigaan Raka dan Arga tentang potensi bahaya tersembunyi.
 ---
 # Pengintaian dan Tanda
 

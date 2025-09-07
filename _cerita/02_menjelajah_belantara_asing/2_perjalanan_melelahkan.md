@@ -5,6 +5,14 @@ chapter_title: "02 - Menjelajah Belantara Asing"
 order: 2
 categories:
   - Menjelajah Belantara Asing
+POV_Character: All (IDs: 1, 2, 3, 4, 5)
+Location: Belantara yang Belum Terjamah (ID: L006), Area Hutan Aneh (Lumen Flora) (ID: L007)
+TimeOfDay: Pagi hingga Sore
+KeyEvents:
+  - Perjalanan melelahkan melalui hutan
+  - Penemuan busur dan panah
+  - Insiden Lumen Flora dan halusinasi
+Summary: Kelompok itu memulai perjalanan melelahkan melalui belantara asing, menghadapi medan sulit dan keluhan Lina. Mereka menemukan busur dan panah yang bisa digunakan Raka, dan kemudian mengalami insiden halusinasi akibat tanaman Lumen Flora, yang mengingatkan mereka akan bahaya dunia baru.
 ---
 # Perjalanan Melelahkan
 

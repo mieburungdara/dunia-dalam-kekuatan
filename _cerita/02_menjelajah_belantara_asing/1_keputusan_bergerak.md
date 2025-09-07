@@ -5,6 +5,14 @@ chapter_title: "02 - Menjelajah Belantara Asing"
 order: 1
 categories:
   - Menjelajah Belantara Asing
+POV_Character: All (IDs: 1, 2, 3, 4, 5)
+Location: Reruntuhan Kuno (ID: L005)
+TimeOfDay: Pagi
+KeyEvents:
+  - Diskusi kelompok tentang langkah selanjutnya
+  - Keputusan untuk meninggalkan reruntuhan
+  - Pencarian tempat aman dan peradaban
+Summary: Setelah insiden goblin, kelima karakter utama berdiskusi tentang langkah selanjutnya. Mereka memutuskan untuk meninggalkan reruntuhan kuno dan mencari tempat yang lebih aman serta tanda-tanda peradaban, meskipun Lina mengeluh dan Bimo bercanda dengan istilah game.
 ---
 # Keputusan untuk Bergerak
 

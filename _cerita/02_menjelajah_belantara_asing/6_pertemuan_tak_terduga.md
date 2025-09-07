@@ -5,6 +5,14 @@ chapter_title: "02 - Menjelajah Belantara Asing"
 order: 6
 categories:
   - Menjelajah Belantara Asing
+POV_Character: All (IDs: 1, 2, 3, 4, 5)
+Location: Desa (ID: L009)
+TimeOfDay: Malam
+KeyEvents:
+  - Pertemuan dengan Kakek Jaga
+  - Kakek Jaga menceritakan tentang bahaya tak terlihat
+  - Kelompok masuk ke desa
+Summary: Kelompok itu bertemu dengan Kakek Jaga di gerbang desa. Kakek Jaga mengungkapkan adanya bahaya tak terlihat yang mengancam desa. Setelah Mira menawarkan bantuan, Kakek Jaga mengizinkan mereka masuk, mengikat mereka pada misteri baru di dunia asing ini.
 ---
 # Pertemuan Tak Terduga
 
