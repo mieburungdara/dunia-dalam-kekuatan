@@ -24,7 +24,9 @@
     "SkillsAndAbilities": ["Pedang Satu Tangan: Mahir", "Strategi Tempur: Ahli", "Analisis Kelemahan: Menengah"],
     "Equipment": ["Pedang Baja Ringan", "Kompas Kuno", "Buku Catatan"],
     "Relationships": [{"TargetID": 2, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 3, "Type": "Rekan", "Description": "Mengandalkan Raka dalam pertempuran"}],
-    "Affiliations": ["Tidak ada (sebelumnya Mahasiswa Teknik)"]
+    ""Affiliations": ["Tidak ada (sebelumnya Mahasiswa Teknik)"],
+    "Voice": "Tenang, logis, kadang terdengar sedikit merendahkan atau terlalu analitis.",
+    "Flaws": ["Terlalu mengandalkan logika, sulit memahami emosi orang lain", "Cenderung menyendiri", "Perfeksionis"]
   },
   {
     "ID": 2,
@@ -51,7 +53,9 @@
     "SkillsAndAbilities": ["Panahan Cepat: Mahir", "Pelacakan: Dasar", "Survival: Dasar"],
     "Equipment": ["Busur Komposit", "Anak Panah Berujung Khusus", "Headset Gaming (rusak)"],
     "Relationships": [{"TargetID": 1, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 5, "Type": "Rekan", "Description": "Sering mengganggu Lina"}],
-    "Affiliations": ["Tidak ada (sebelumnya Gamer)"]
+    "Affiliations": ["Tidak ada (sebelumnya Gamer)"],
+    "Voice": "Ceria, santai, sering menggunakan slang atau istilah game, kadang terdengar malas.",
+    "Flaws": ["Cenderung menghindari tanggung jawab", "Mudah terdistraksi", "Kurang disiplin"]
   },
   {
     "ID": 3,
@@ -78,7 +82,9 @@
     "SkillsAndAbilities": ["Pertahanan Perisai: Ahli", "Pertarungan Jarak Dekat: Mahir", "Intimidasi: Menengah"],
     "Equipment": ["Perisai Menara", "Kapak Perang", "Kalung Anjing Militer (kenangan)"],
     "Relationships": [{"TargetID": 1, "Type": "Rekan", "Description": "Diandalkan Arga dalam pertempuran"}, {"TargetID": 4, "Type": "Pelindung", "Description": "Sangat protektif terhadap Mira"}],
-    "Affiliations": ["Tidak ada (sebelumnya Tentara)"]
+    "Affiliations": ["Tidak ada (sebelumnya Tentara)"],
+    "Voice": "Dalam, tenang, jarang berbicara, kata-katanya singkat tapi penuh makna.",
+    "Flaws": ["Terlalu protektif", "Sulit mempercayai orang baru", "Cenderung memendam masalah sendiri"]
   },
   {
     "ID": 4,
@@ -105,7 +111,9 @@
     "SkillsAndAbilities": ["Penyembuhan Luka: Mahir", "Diagnosa Penyakit: Ahli", "Pengetahuan Herbal: Menengah"],
     "Equipment": ["Kit Medis Portabel", "Buku Herbal", "Jepit Rambut Berukir"],
     "Relationships": [{"TargetID": 3, "Type": "Dilindungi", "Description": "Sangat dilindungi oleh Raka"}, {"TargetID": 5, "Type": "Teman Dekat", "Description": "Sering menenangkan Lina"}],
-    "Affiliations": ["Tidak ada (sebelumnya Mahasiswi Kedokteran)"]
+    "Affiliations": ["Tidak ada (sebelumnya Mahasiswi Kedokteran)"],
+    "Voice": "Lembut, teratur, kadang terdengar cemas atau terlalu hati-hati, namun bisa tegas saat dibutuhkan.",
+    "Flaws": ["Perfeksionis berlebihan", "Terlalu penakut", "Sulit menerima kritik"]
   },
   {
     "ID": 5,
@@ -132,7 +140,9 @@
     "SkillsAndAbilities": ["Sihir Elemen Dasar: Pemula", "Telekinesis Ringan: Pemula", "Deteksi Energi: Dasar"],
     "Equipment": ["Tongkat Kayu Sederhana", "Cermin Saku", "Saputangan Bersih"],
     "Relationships": [{"TargetID": 2, "Type": "Rekan", "Description": "Sering diganggu Bimo"}, {"TargetID": 4, "Type": "Teman Dekat", "Description": "Sering ditenangkan Mira"}],
-    "Affiliations": ["Tidak ada (sebelumnya Siswi SMA)"]
+    "Affiliations": ["Tidak ada (sebelumnya Siswi SMA)"],
+    "Voice": "Bernada tinggi, sering mengeluh, sarkastik, kadang terdengar manja atau panik.",
+    "Flaws": ["Manja", "Egois (terkadang)", "Mudah panik", "Tidak suka kotor"]
   },
   {
     "ID": 6,
@@ -159,7 +169,9 @@
     "SkillsAndAbilities": null,
     "Equipment": null,
     "Relationships": null,
-    "Affiliations": ["Penjaga Desa"]
+    "Affiliations": ["Penjaga Desa"],
+    "Voice": "Serak, bijaksana, sering berbicara dalam teka-teki atau perumpamaan kuno.",
+    "Flaws": ["Terlalu percaya takhayul", "Cenderung pesimis", "Sulit beradaptasi dengan perubahan"]
   },
   {
     "ID": 7,
@@ -186,7 +198,9 @@
     "SkillsAndAbilities": null,
     "Equipment": null,
     "Relationships": null,
-    "Affiliations": ["Pemerintahan Desa"]
+    "Affiliations": ["Pemerintahan Desa"],
+    "Voice": "Tegas, berwibawa, pragmatis, kadang terdengar lelah atau khawatir.",
+    "Flaws": ["Terlalu berhati-hati", "Sulit mengambil risiko", "Cenderung mengabaikan hal-hal non-praktis"]
   },
   {
     "ID": 8,
@@ -213,7 +227,9 @@
     "SkillsAndAbilities": null,
     "Equipment": null,
     "Relationships": null,
-    "Affiliations": ["Pedagang Bebas"]
+    "Affiliations": ["Pedagang Bebas"],
+    "Voice": "Ceria, bersemangat, banyak bicara, sering melebih-lebihkan cerita.",
+    "Flaws": ["Tidak selalu jujur", "Cenderung serakah", "Suka bergosip"]
   },
   {
     "ID": 9,
@@ -240,7 +256,9 @@
     "SkillsAndAbilities": null,
     "Equipment": null,
     "Relationships": null,
-    "Affiliations": ["Penduduk Desa"]
+    "Affiliations": ["Penduduk Desa"],
+    "Voice": "Polos, penasaran, kadang berbisik atau berteriak saat bermain.",
+    "Flaws": ["Terlalu ingin tahu", "Cenderung ceroboh", "Mudah terpengaruh"]
   },
   {
     "ID": 10,
@@ -267,6 +285,8 @@
     "SkillsAndAbilities": null,
     "Equipment": null,
     "Relationships": null,
-    "Affiliations": ["Penjaga Desa"]
+    "Affiliations": ["Penjaga Desa"],
+    "Voice": "Monoton, patuh, singkat dan padat.",
+    "Flaws": ["Terlalu kaku pada aturan", "Kurang inisiatif", "Sulit berpikir di luar kotak"]
   }
 ]
