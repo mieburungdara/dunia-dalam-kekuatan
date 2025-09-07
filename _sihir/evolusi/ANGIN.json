@@ -1,0 +1,85 @@
+{
+  "Title": "Tingkat Penguasaan Elemen: Angin",
+  "Levels": [
+    {
+      "LevelNumber": 1,
+      "LevelName": "Koneksi Awal",
+      "Control": "Hanya bisa merasakan arah angin dan menciptakan hembusan sangat ringan.",
+      "Scale": "Hanya bisa memengaruhi udara dalam jarak satu meter.",
+      "Understanding": "Mulai merasakan esensi \"gerakan\" dan \"ruang kosong\".",
+      "Influence": "Cukup untuk mengirim pesan bisikan dari seberang ruangan atau menerbangkan surat."
+    },
+    {
+      "LevelNumber": 2,
+      "LevelName": "Manipulasi Dasar",
+      "Control": "Mampu menciptakan aliran angin yang terarah untuk mendorong benda-benda kecil.",
+      "Scale": "Jangkauan aliran angin hingga beberapa meter.",
+      "Understanding": "Mengerti cara memberi arah pada medium gas.",
+      "Influence": "Bisa mendorong perahu layar kecil atau sedikit mempercepat lari."
+    },
+    {
+      "LevelNumber": 3,
+      "LevelName": "Pembentukan Sederhana",
+      "Control": "Mampu memadatkan angin untuk menciptakan hembusan tajam atau perisai angin kecil yang membelokkan proyektil.",
+      "Scale": "Bisa menciptakan hembusan yang mampu mendorong orang dewasa.",
+      "Understanding": "Memahami bahwa udara bisa memiliki \"tepi\" yang tajam atau menjadi \"padat\" sesaat.",
+      "Influence": "Hembusan anginnya bisa merobek bendera atau membuat lawan kehilangan keseimbangan."
+    },
+    {
+      "LevelNumber": 4,
+      "LevelName": "Kontrol Getaran",
+      "Control": "Mampu menggunakan angin sebagai medium untuk membawa atau meredam suara dengan presisi.",
+      "Scale": "Bisa mengirim pesan rahasia dari seberang lapangan atau meredam suara langkah kaki satu kelompok.",
+      "Understanding": "Mengerti hubungan antara udara dan perambatan gelombang suara.",
+      "Influence": "Mampu meredam suara di satu area atau menciptakan ilusi suara untuk mengalihkan perhatian."
+    },
+    {
+      "LevelNumber": 5,
+      "LevelName": "Penguasaan Gerak",
+      "Control": "Mampu menyelimuti tubuh dengan aliran angin yang presisi untuk meningkatkan mobilitas secara signifikan.",
+      "Scale": "Bisa berlari lebih cepat dari kuda atau melompat ke atap rumah.",
+      "Understanding": "Memahami aerodinamika dasar pada tubuh untuk mengurangi hambatan udara.",
+      "Influence": "Bisa mengangkat tubuh pengguna untuk melompat sangat tinggi atau berjalan di atas air untuk sesaat."
+    },
+    {
+      "LevelNumber": 6,
+      "LevelName": "Penguasaan Rotasi",
+      "Control": "Mampu menciptakan dan mengendalikan pusaran angin yang stabil dan terarah.",
+      "Scale": "Bisa menciptakan tornado kecil setinggi manusia yang mampu menjerat atau melempar musuh.",
+      "Understanding": "Mengerti prinsip-prinsip pergerakan angin yang kompleks seperti siklon.",
+      "Influence": "Tornado kecilnya bisa menghancurkan pondok kayu atau mencerabut pohon dari akarnya."
+    },
+    {
+      "LevelNumber": 7,
+      "LevelName": "Penguasaan Tekanan",
+      "Control": "Mampu mengubah tekanan udara secara drastis di area kecil dengan cepat.",
+      "Scale": "Bisa menciptakan vakum sesaat yang memadamkan api atau tekanan tinggi yang bisa memekakkan telinga.",
+      "Understanding": "Memahami udara sebagai gas yang bisa dimampatkan dan direnggangkan untuk efek destruktif.",
+      "Influence": "Bisa menciptakan vakum yang memadamkan semua api di ruangan atau tekanan yang menghancurkan pintu kayu."
+    },
+    {
+      "LevelNumber": 8,
+      "LevelName": "Penguasaan Atmosfer",
+      "Control": "Mampu membaca pola angin dalam skala besar dan memengaruhinya secara halus.",
+      "Scale": "Bisa merasakan perubahan cuaca yang akan datang dari jarak puluhan kilometer.",
+      "Understanding": "Mengerti perannya sebagai bagian dari sistem atmosfer dunia.",
+      "Influence": "Angin bisa menjadi setajam pisau yang mengiris baja, sepadat dinding tak terlihat, atau membawa aroma dari masa lalu."
+    },
+    {
+      "LevelNumber": 9,
+      "LevelName": "Konsep Badai",
+      "Control": "Mampu memicu dan mengarahkan badai lokal yang kuat.",
+      "Scale": "Bisa menciptakan badai dengan angin kencang dan hujan deras di area seluas satu desa.",
+      "Understanding": "Mengerti cara memicu dan mengendalikan sistem cuaca kecil.",
+      "Influence": "Mampu mengubah arah angin regional untuk membawa atau mengusir badai."
+    },
+    {
+      "LevelNumber": 10,
+      "LevelName": "Kesatuan Abadi",
+      "Control": "Kehendak pengguna adalah hukum bagi semua atmosfer.",
+      "Scale": "Mampu menghentikan semua angin di satu wilayah atau memanggil badai raksasa.",
+      "Understanding": "Pengguna tidak lagi *menggunakan* angin. Pengguna *adalah* napas dunia itu sendiri.",
+      "Influence": "Menciptakan zona hening abadi di mana tidak ada suara bisa merambat, atau badai yang tidak pernah berhenti di puncak gunung."
+    }
+  ]
+}

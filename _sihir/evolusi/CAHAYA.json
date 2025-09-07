@@ -1,0 +1,85 @@
+{
+  "Title": "Tingkat Penguasaan Elemen: Cahaya",
+  "Levels": [
+    {
+      "LevelNumber": 1,
+      "LevelName": "Koneksi Awal",
+      "Control": "Hanya bisa menciptakan kilatan cahaya redup dari telapak tangan.",
+      "Scale": "Intensitas cahaya setara dengan kunang-kunang.",
+      "Understanding": "Mulai merasakan esensi \"keterlihatan\" dan \"energi positif\".",
+      "Influence": "Cukup untuk menerangi ruangan gelap atau menjadi suar penunjuk jalan."
+    },
+    {
+      "LevelNumber": 2,
+      "LevelName": "Manipulasi Dasar",
+      "Control": "Mampu mempertahankan sumber cahaya sihir yang stabil dan menggerakkannya.",
+      "Scale": "Cahaya setara obor, bisa menerangi sebuah ruangan kecil.",
+      "Understanding": "Mengerti cara memberi makan cahaya dengan Aether.",
+      "Influence": "Bisa membelokkan cahaya untuk menyembunyikan objek kecil atau menciptakan fatamorgana."
+    },
+    {
+      "LevelNumber": 3,
+      "LevelName": "Pembentukan Sederhana",
+      "Control": "Mampu membiaskan atau membelokkan cahaya untuk menciptakan ilusi visual sederhana.",
+      "Scale": "Bisa membuat benda kecil tampak kabur atau sedikit bergeser.",
+      "Understanding": "Memahami cahaya sebagai gelombang yang bisa dimanipulasi.",
+      "Influence": "Kilatan cahayanya bisa membutakan sekelompok orang selama beberapa detik."
+    },
+    {
+      "LevelNumber": 4,
+      "LevelName": "Kontrol Intensitas",
+      "Control": "Mampu memfokuskan cahaya menjadi kilatan yang sangat terang.",
+      "Scale": "Cukup terang untuk menyilaukan penglihatan sementara.",
+      "Understanding": "Mengerti konsep intensitas dan luminansi.",
+      "Influence": "Cahayanya bisa menyembuhkan luka bakar ringan atau menghentikan pendarahan."
+    },
+    {
+      "LevelNumber": 5,
+      "LevelName": "Penguasaan Energi Positif",
+      "Control": "Mampu menyalurkan sifat \"murni\" dari cahaya untuk tujuan restoratif.",
+      "Scale": "Bisa menyembuhkan luka gores atau memar.",
+      "Understanding": "Mengerti hubungan antara cahaya dan energi kehidupan.",
+      "Influence": "Panah cahayanya bisa menembus baju zirah kulit atau melukai entitas kegelapan."
+    },
+    {
+      "LevelNumber": 6,
+      "LevelName": "Penguasaan Wujud Padat",
+      "Control": "Mampu memadatkan foton menjadi proyektil atau senjata sederhana.",
+      "Scale": "Bisa menciptakan anak panah atau belati cahaya.",
+      "Understanding": "Memahami dualitas cahaya sebagai gelombang dan partikel.",
+      "Influence": "Auranya bisa mengusir roh jahat tingkat rendah atau membersihkan kutukan sederhana."
+    },
+    {
+      "LevelNumber": 7,
+      "LevelName": "Penguasaan Konsep Kemurnian",
+      "Control": "Mampu menyucikan area atau objek dari pengaruh sihir gelap tingkat rendah.",
+      "Scale": "Bisa membersihkan kutukan sederhana dari sebuah objek.",
+      "Understanding": "Mengerti sifat cahaya sebagai antitesis kegelapan.",
+      "Influence": "Sinar terfokusnya bisa melelehkan gerbang baja atau memotong batu pilar benteng."
+    },
+    {
+      "LevelNumber": 8,
+      "LevelName": "Penguasaan Struktur Kompleks",
+      "Control": "Mampu menciptakan struktur cahaya yang stabil dan tahan lama.",
+      "Scale": "Bisa membuat jembatan, perisai, atau dinding cahaya yang kokoh.",
+      "Understanding": "Mengerti cara menenun cahaya menjadi matriks yang solid.",
+      "Influence": "Cahaya bisa menjadi padat untuk dipijak, mengungkap kebenaran, atau menunjukkan masa lalu."
+    },
+    {
+      "LevelNumber": 9,
+      "LevelName": "Konsep Langit",
+      "Control": "Mampu memanifestasikan fenomena langit yang berbasis cahaya.",
+      "Scale": "Bisa menciptakan aurora atau mensimulasikan matahari kecil di tengah malam.",
+      "Understanding": "Mengerti hubungan antara cahaya surgawi dan sihir dunia.",
+      "Influence": "Mampu menciptakan aurora atau mensimulasikan matahari kecil yang menerangi lembah."
+    },
+    {
+      "LevelNumber": 10,
+      "LevelName": "Kesatuan Abadi",
+      "Control": "Kehendak pengguna adalah hukum bagi semua cahaya.",
+      "Scale": "Mampu menciptakan siang hari di tengah malam atau menjadi mercusuar yang cahayanya menembus dimensi.",
+      "Understanding": "Pengguna tidak lagi *menggunakan* cahaya. Pengguna *adalah* cahaya itu sendiri.",
+      "Influence": "Menjadi fajar abadi yang mengusir semua kegelapan atau menjadi bintang penunjuk takdir."
+    }
+  ]
+}

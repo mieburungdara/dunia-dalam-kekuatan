@@ -1,0 +1,85 @@
+{
+  "Title": "Tingkat Penguasaan Elemen: Kegelapan",
+  "Levels": [
+    {
+      "LevelNumber": 1,
+      "LevelName": "Koneksi Awal",
+      "Control": "Hanya bisa membuat bayangan yang sudah ada menjadi sedikit lebih pekat.",
+      "Scale": "Hanya bisa memengaruhi bayangan dalam jarak sentuhan.",
+      "Understanding": "Mulai merasakan esensi \"ketiadaan cahaya\" dan \"kerahasiaan\".",
+      "Influence": "Cukup untuk menyembunyikan wajah dalam bayangan atau menyelinap tanpa suara."
+    },
+    {
+      "LevelNumber": 2,
+      "LevelName": "Manipulasi Dasar",
+      "Control": "Mampu memanipulasi bentuk bayangan, memanjangkan atau memendekkannya.",
+      "Scale": "Bisa menggerakkan bayangan di sebuah ruangan kecil.",
+      "Understanding": "Mengerti bahwa bayangan adalah entitas yang bisa dibentuk.",
+      "Influence": "Aura nya bisa membuat hewan kecil lari ketakutan atau membuat orang merasa diawasi."
+    },
+    {
+      "LevelNumber": 3,
+      "LevelName": "Pembentukan Sederhana",
+      "Control": "Mampu memberi sedikit substansi pada bayangan, membuatnya bisa berinteraksi dengan objek fisik.",
+      "Scale": "Bisa menciptakan tentakel bayangan untuk menarik benda ringan.",
+      "Understanding": "Memahami bayangan sebagai jembatan antara materi dan ketiadaan.",
+      "Influence": "Tentakel bayangannya bisa menahan orang dewasa atau merampas senjata dari genggaman mereka."
+    },
+    {
+      "LevelNumber": 4,
+      "LevelName": "Kontrol Visibilitas",
+      "Control": "Mampu menyelimuti diri atau objek dalam bayangan untuk menyembunyikan diri.",
+      "Scale": "Bisa menjadi tak terlihat di area yang remang-remang atau gelap.",
+      "Understanding": "Mengerti cara memanipulasi persepsi visual menggunakan kegelapan.",
+      "Influence": "Bisa menciptakan kubah kegelapan yang meredam suara dan cahaya dari luar."
+    },
+    {
+      "LevelNumber": 5,
+      "LevelName": "Penguasaan Aura",
+      "Control": "Mampu memproyeksikan esensi kegelapan sebagai aura yang memengaruhi emosi.",
+      "Scale": "Bisa menimbulkan rasa takut atau tidak nyaman pada target dalam jarak dekat.",
+      "Understanding": "Mengerti hubungan antara kegelapan dan emosi primal.",
+      "Influence": "Mampu menyatu dengan bayangan, menjadi hampir tidak terlihat bahkan di siang hari."
+    },
+    {
+      "LevelNumber": 6,
+      "LevelName": "Penguasaan Penyerapan",
+      "Control": "Mampu menciptakan area yang menyerap cahaya dan suara secara aktif.",
+      "Scale": "Bisa menciptakan bola keheningan dan kegelapan berdiameter beberapa meter.",
+      "Understanding": "Mengerti kegelapan sebagai konsep \"negasi\" atau ketiadaan.",
+      "Influence": "Api bayangannya bisa menguras stamina dan energi sihir lawan."
+    },
+    {
+      "LevelNumber": 7,
+      "LevelName": "Penguasaan Energi Negatif",
+      "Control": "Mampu menanamkan sifat \"dingin\" dan \"menguras\" pada bayangan.",
+      "Scale": "Bisa menciptakan api bayangan yang menyerap stamina, bukan membakar.",
+      "Understanding": "Mengerti bahwa kegelapan bisa menjadi senjata yang tidak meninggalkan luka fisik.",
+      "Influence": "Bisa menciptakan bilah kekosongan yang memotong materi tanpa perlawanan."
+    },
+    {
+      "LevelNumber": 8,
+      "LevelName": "Penguasaan Esensi",
+      "Control": "Mampu melihat dalam kegelapan absolut dan merasakan esensi makhluk hidup melaluinya.",
+      "Scale": "Penglihatan tidak lagi bergantung pada cahaya.",
+      "Understanding": "Mengerti bahwa kegelapan memiliki \"penglihatannya\" sendiri.",
+      "Influence": "Kegelapan bisa menelan ingatan, memakan suara, atau menjadi gerbang teleportasi."
+    },
+    {
+      "LevelNumber": 9,
+      "LevelName": "Konsep Ketiadaan",
+      "Control": "Mampu menciptakan area di mana hukum fisika sederhana mulai goyah, menyerap energi, atau bahkan ingatan.",
+      "Scale": "Bisa menciptakan zona kecil kekosongan (void) yang melenyapkan materi.",
+      "Understanding": "Mengerti kegelapan sebagai gerbang menuju ketiadaan absolut.",
+      "Influence": "Mampu memanggil gerhana matahari sementara atau menciptakan malam pekat di tengah siang bolong."
+    },
+    {
+      "LevelNumber": 10,
+      "LevelName": "Kesatuan Abadi",
+      "Control": "Kehendak pengguna adalah hukum bagi semua bayangan dan ketiadaan.",
+      "Scale": "Mampu memanggil malam abadi di suatu wilayah atau berteleportasi instan melalui bayangan apa pun.",
+      "Understanding": "Pengguna tidak lagi *menggunakan* kegelapan. Pengguna *adalah* kegelapan itu sendiri.",
+      "Influence": "Menciptakan zona kekosongan abadi di mana sihir tidak berfungsi, atau menjadi penjaga semua rahasia dunia."
+    }
+  ]
+}

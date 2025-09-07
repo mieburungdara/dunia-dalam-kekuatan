@@ -1,0 +1,85 @@
+{
+  "Title": "Tingkat Penguasaan Elemen: Tanah",
+  "Levels": [
+    {
+      "LevelNumber": 1,
+      "LevelName": "Koneksi Awal",
+      "Control": "Hanya bisa merasakan jenis tanah atau batu di bawah kaki. Belum bisa menggerakkannya.",
+      "Scale": "Radius sentuhan pribadi.",
+      "Understanding": "Mulai merasakan esensi \"stabilitas\" dan \"fondasi\".",
+      "Influence": "Cukup untuk menggemburkan ladang atau menemukan sumber air dangkal."
+    },
+    {
+      "LevelNumber": 2,
+      "LevelName": "Manipulasi Dasar",
+      "Control": "Mampu mengangkat dan menggerakkan segenggam tanah atau kerikil.",
+      "Scale": "Hanya bisa memanipulasi material yang tidak terikat (pasir, tanah gembur).",
+      "Understanding": "Mengerti cara menerapkan kehendak pada materi padat.",
+      "Influence": "Mampu membuat batu bata dari lumpur atau memadatkan fondasi sebuah rumah."
+    },
+    {
+      "LevelNumber": 3,
+      "LevelName": "Pembentukan Sederhana",
+      "Control": "Mampu membentuk tanah menjadi dinding, gundukan, atau lubang sederhana.",
+      "Scale": "Bisa membuat dinding tanah setinggi pinggang.",
+      "Understanding": "Memahami cara mengubah bentuk massa tanah.",
+      "Influence": "Mampu melempar batu seukuran kepala atau menumbuhkan duri batu yang melukai kaki kuda."
+    },
+    {
+      "LevelNumber": 4,
+      "LevelName": "Penguasaan Kepadatan",
+      "Control": "Mampu memadatkan tanah menjadi sekeras batu atau menggemburkannya menjadi lumpur.",
+      "Scale": "Bisa mengeraskan area tanah seluas beberapa meter persegi.",
+      "Understanding": "Mengerti hubungan antara tekanan dan kepadatan material.",
+      "Influence": "Dinding tanahnya bisa menahan serangan panah atau serbuan kavaleri ringan."
+    },
+    {
+      "LevelNumber": 5,
+      "LevelName": "Indra Getaran",
+      "Control": "Mampu menyalurkan Aether ke tanah untuk merasakan getaran dengan presisi.",
+      "Scale": "Bisa mendeteksi gerakan di permukaan dalam radius 50 meter.",
+      "Understanding": "Mengerti tanah sebagai medium perambatan gelombang.",
+      "Influence": "Bisa merasakan pergerakan pasukan dari jarak satu kilometer melalui tanah."
+    },
+    {
+      "LevelNumber": 6,
+      "LevelName": "Penguasaan Animasi",
+      "Control": "Mampu memberi \"nyawa\" sementara pada gumpalan tanah dan batu.",
+      "Scale": "Bisa menciptakan golem setinggi manusia yang bisa mengikuti perintah sederhana.",
+      "Understanding": "Mengerti cara menanamkan Aether sebagai inti kehidupan buatan.",
+      "Influence": "Mampu menciptakan parit besar, bukit kecil sebagai posisi pertahanan, atau menumbuhkan pilar-pilar batu."
+    },
+    {
+      "LevelNumber": 7,
+      "LevelName": "Penguasaan Komposisi",
+      "Control": "Mampu mendeteksi dan menarik mineral atau urat logam mentah dari dalam tanah.",
+      "Scale": "Bisa menarik logam dari bongkahan batu besar.",
+      "Understanding": "Mengerti bahwa tanah adalah campuran dari banyak material.",
+      "Influence": "Gempa lokalnya bisa meruntuhkan tembok benteng atau jembatan batu."
+    },
+    {
+      "LevelNumber": 8,
+      "LevelName": "Penguasaan Struktur Dalam",
+      "Control": "Mampu merasakan dan memetakan struktur geologi bawah tanah.",
+      "Scale": "Bisa merasakan gua, sungai bawah tanah, atau garis patahan hingga kedalaman ratusan meter.",
+      "Understanding": "Mengerti bumi sebagai sebuah entitas berlapis.",
+      "Influence": "Tanah bisa menjadi sekeras berlian, selentur logam, atau menumbuhkan kristal yang memiliki energi penyembuh."
+    },
+    {
+      "LevelNumber": 9,
+      "LevelName": "Konsep Tektonik",
+      "Control": "Mampu memicu getaran kuat di sepanjang garis patahan yang ada.",
+      "Scale": "Bisa menyebabkan gempa bumi lokal yang mampu meruntuhkan benteng.",
+      "Understanding": "Mengerti cara melepaskan energi yang tersimpan di dalam bumi.",
+      "Influence": "Mampu memicu letusan gunung berapi kecil atau menggeser aliran sungai secara permanen."
+    },
+    {
+      "LevelNumber": 10,
+      "LevelName": "Kesatuan Abadi",
+      "Control": "Kehendak pengguna adalah hukum bagi semua daratan.",
+      "Scale": "Mampu menumbuhkan gunung, menggeser lembah, atau mengangkat pulau dari dasar laut.",
+      "Understanding": "Pengguna tidak lagi *menggunakan* tanah. Pengguna *adalah* fondasi dunia.",
+      "Influence": "Menjadi fondasi dunia, mampu menumbuhkan gunung baru atau menciptakan pulau."
+    }
+  ]
+}

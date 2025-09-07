@@ -1,0 +1,85 @@
+{
+  "Title": "Tingkat Penguasaan Elemen: Api",
+  "Levels": [
+    {
+      "LevelNumber": 1,
+      "LevelName": "Percikan (Ignition)",
+      "Control": "Hanya bisa memengaruhi bara api yang sudah ada, membuatnya sedikit lebih besar atau lebih kecil.",
+      "Scale": "Hanya bisa memengaruhi bara seukuran kepalan tangan dalam jarak sentuh.",
+      "Understanding": "Mulai merasakan esensi \"panas\" dan \"konsumsi\" dari api.",
+      "Influence": "Cukup untuk menyalakan lilin atau obor. Lebih berguna untuk bertahan hidup daripada pertempuran."
+    },
+    {
+      "LevelNumber": 2,
+      "LevelName": "Bara (Ember Control)",
+      "Control": "Mampu menciptakan dan mempertahankan api kecil seukuran lilin tanpa bahan bakar.",
+      "Scale": "Api yang diciptakan hanya sebesar telapak tangan, bisa dijaga menyala selama beberapa menit.",
+      "Understanding": "Mengerti cara \"memberi makan\" api dengan Aether.",
+      "Influence": "Mampu menjaga api tetap menyala untuk memasak atau menghangatkan diri."
+    },
+    {
+      "LevelNumber": 3,
+      "LevelName": "Api Kecil (Minor Flame)",
+      "Control": "Mampu membentuk api menjadi bola atau aliran pendek yang bisa dilempar.",
+      "Scale": "Bisa menembakkan bola api kecil sejauh beberapa meter.",
+      "Understanding": "Memahami bahwa api bisa diarahkan sebagai proyektil.",
+      "Influence": "Mulai berbahaya bagi makhluk hidup, bisa membakar kulit atau pakaian."
+    },
+    {
+      "LevelNumber": 4,
+      "LevelName": "Api Stabil (Flame Stability)",
+      "Control": "Mampu mengatur intensitas dan suhu api dengan presisi.",
+      "Scale": "Bisa mempertahankan api yang cukup besar untuk api unggun unggul tanpa bahan bakar tambahan.",
+      "Understanding": "Mengerti hubungan antara konsentrasi Aether dan panas yang dihasilkan.",
+      "Influence": "Dapat dipakai untuk pekerjaan menempa logam sederhana atau serangan yang lebih terkendali."
+    },
+    {
+      "LevelNumber": 5,
+      "LevelName": "Api Tempur (Combat Flame)",
+      "Control": "Presisi meningkat drastis. Mampu menciptakan bentuk kompleks seperti cambuk atau pedang api.",
+      "Scale": "Jangkauan serangan api meningkat hingga belasan meter.",
+      "Understanding": "Memahami api sebagai perpanjangan tubuh yang bisa diayunkan dan dibentuk sesuka hati.",
+      "Influence": "Cukup kuat untuk melawan sekelompok musuh dalam pertempuran nyata."
+    },
+    {
+      "LevelNumber": 6,
+      "LevelName": "Api Medan (Field Blaze)",
+      "Control": "Mampu mempertahankan beberapa bentuk api sekaligus dan menggerakkannya secara independen.",
+      "Scale": "Dapat menciptakan dinding api setinggi beberapa meter atau membakar area seluas puluhan meter persegi.",
+      "Understanding": "Mengerti cara menggunakan api untuk mengontrol dan mengubah medan pertempuran.",
+      "Influence": "Mampu menguasai area, memaksa musuh mengubah strategi atau menjebak mereka."
+    },
+    {
+      "LevelNumber": 7,
+      "LevelName": "Api Kehancuran (Inferno)",
+      "Control": "Mampu memadatkan api hingga panasnya setara dengan magma cair.",
+      "Scale": "Serangan api menjadi lebih terfokus namun dampaknya jauh lebih merusak.",
+      "Understanding": "Memahami konsep titik lebur dan pembakaran murni yang menghancurkan materi.",
+      "Influence": "Setiap serangan menciptakan bencana kecil; mampu melelehkan gerbang baja atau menghancurkan bangunan."
+    },
+    {
+      "LevelNumber": 8,
+      "LevelName": "Api Istimewa (Unique Flame)",
+      "Control": "Mampu mengubah properti fundamental api, seperti warna, suhu, dan target energinya.",
+      "Scale": "Tidak ada peningkatan skala, tetapi kualitas dan dampak api meningkat pesat.",
+      "Understanding": "Mengerti bahwa api bukan hanya panas, tetapi juga sebuah konsep energi yang bisa dimodifikasi.",
+      "Influence": "Bukan hanya panas, tetapi juga memberi efek khusus (api biru super panas, api hitam pembakar energi, dll)."
+    },
+    {
+      "LevelNumber": 9,
+      "LevelName": "Api Kosmik (Stellar Heat)",
+      "Control": "Mampu meniru sifat panas bintang, menciptakan plasma atau suar surya kecil yang sangat tidak stabil.",
+      "Scale": "Dampak serangan bisa menghancurkan area yang sangat luas, mengubah lanskap secara signifikan.",
+      "Understanding": "Mengerti tempat api dalam tatanan kosmik dan hubungannya dengan benda langit.",
+      "Influence": "Berskala alam; bisa menguapkan sungai, meretakkan gunung, atau memengaruhi cuaca lokal dengan panasnya."
+    },
+    {
+      "LevelNumber": 10,
+      "LevelName": "Api Abadi (Eternal Flame)",
+      "Control": "Api menjadi satu dengan kehendak pengguna. Tidak perlu lagi diciptakan, ia selalu ada dan abadi.",
+      "Scale": "Berpotensi tak terbatas, hanya dibatasi oleh imajinasi dan kekuatan jiwa pengguna.",
+      "Understanding": "Pengguna tidak lagi *menggunakan* api. Pengguna *adalah* api. Konsep api itu sendiri.",
+      "Influence": "Menjadi hukum alam baru. Apinya tidak padam kecuali oleh kehendaknya, mampu membakar konsep abstrak seperti waktu atau takdir."
+    }
+  ]
+}
