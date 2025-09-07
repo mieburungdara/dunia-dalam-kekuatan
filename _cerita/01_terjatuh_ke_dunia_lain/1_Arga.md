@@ -14,10 +14,10 @@ Arga tersungkur di tanah hutan asing, napasnya berat. Daun-daun dan ranting mene
 
 Suara krek… krek… terdengar dari kejauhan. Arga menoleh dan melihat seekor goblin kecil bermata merah mendekat.
 
-Instingnya langsung menilai: jarak aman, ukuran musuh, kemungkinan bertahan. Ia mencari benda di sekitar dan melihat ranting pohon. Dengan gerakan terukur, ia memegangnya, menimbang berat dan keseimbangan.
+Instingnya, yang terlatih dalam Strategi Tempur, langsung menilai: jarak aman, ukuran musuh, kemungkinan bertahan. Tangannya secara otomatis meraih pinggangnya, mencari Pedang Baja Ringan yang biasa tersarung di sana, namun yang ia temukan hanyalah ranting pohon. Dengan gerakan terukur, ia memegangnya, menimbang berat dan keseimbangan.
 
 Namun dari semak lain, muncul lebih banyak goblin, total lima ekor, mendekat dengan tatapan lapar. Arga menelan ludah, tapi tetap tenang.
-"Analisis cepat: satu lawan satu mungkin menang. Lima lawan satu? Peluang nol. Logika sederhana: bertahan = mati. Strategi terbaik = kabur."
+"Dengan Analisis Kelemahan yang tajam, ia menyimpulkan: satu lawan satu mungkin menang. Lima lawan satu? Peluang nol. Logika sederhana: bertahan = mati. Strategi terbaik = kabur."
 
 Ia menunduk, mengamati celah antara pepohonan, menghitung jarak, dan memilih jalur teraman. Napasnya tersengal, tapi matanya tetap dingin dan fokus.
 "Kalau lari zig-zag, bisa memperlambat mereka. Hitung langkah, hindari akar dan batu licin."
