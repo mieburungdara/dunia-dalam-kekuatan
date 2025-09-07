@@ -5,6 +5,14 @@ chapter_title: "03 - Desa Pertama"
 order: 0
 categories:
   - Desa Pertama
+POV_Character: All (IDs: 1, 2, 3, 4, 5)
+Location: Desa (ID: L009)
+TimeOfDay: Senja
+KeyEvents:
+  - Kelompok tiba di desa pertama
+  - Pertemuan dengan Kakek Jaga (atau pemimpin desa)
+  - Misteri kedatangan mereka
+Summary: Setelah perjalanan melelahkan, kelompok itu tiba di desa pertama. Mereka disambut oleh seorang pria tua yang seolah telah menanti kedatangan mereka, membuka babak baru misteri di dunia asing ini.
 ---
 # Bab 3: Desa Pertama
 
