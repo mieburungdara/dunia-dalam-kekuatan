@@ -4,6 +4,113 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.55.0 - Penambahan Profesi Demon dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/DEMON.md` dengan penjelasan detail profesi Demon dan 10 tingkatannya.
+
+---
+
+## v0.54.0 - Penambahan Profesi Succubus dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/SUCCUBUS.md` dengan penjelasan detail profesi Succubus dan 10 tingkatannya.
+
+---
+
+## v0.53.0 - Penambahan Profesi Knight dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/KNIGHT.md` dengan penjelasan detail profesi Knight dan 10 tingkatannya.
+
+---
+
+## v0.52.0 - Penambahan Profesi Assassin dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/ASSASSIN.md` dengan penjelasan detail profesi Assassin dan 10 tingkatannya.
+
+---
+
+## v0.51.0 - Penambahan Profesi Shadowmancer dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/SHADOWMANCER.md` dengan penjelasan detail profesi Shadowmancer dan 10 tingkatannya.
+
+---
+
+## v0.50.0 - Penambahan Profesi Lightweaver dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/LIGHTWEAVER.md` dengan penjelasan detail profesi Lightweaver dan 10 tingkatannya.
+
+---
+
+## v0.49.0 - Penambahan Profesi Aeromancer dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/AEROMANCER.md` dengan penjelasan detail profesi Aeromancer dan 10 tingkatannya.
+
+---
+
+## v0.48.0 - Penambahan Profesi Geomancer dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/GEOMANCER.md` dengan penjelasan detail profesi Geomancer dan 10 tingkatannya.
+
+---
+
+## v0.47.0 - Penambahan Profesi Hydromancer dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/HYDROMANCER.md` dengan penjelasan detail profesi Hydromancer dan 10 tingkatannya.
+
+---
+
+## v0.46.0 - Penambahan Profesi Pyromancer dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/PYROMANCER.md` dengan penjelasan detail profesi Pyromancer dan 10 tingkatannya.
+
+---
+
+## v0.45.0 - Penambahan Profesi Necromancer dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/NECROMANCER.md` dengan penjelasan detail profesi Necromancer dan 10 tingkatannya.
+
+---
+
+## v0.44.0 - Penambahan Profesi Wizard dan Tingkatannya
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `_role/WIZARD.md` dengan penjelasan detail profesi Wizard dan 10 tingkatannya.
+
+---
+
+## v0.43.0 - Penambahan Tingkatan Mage
+*Tanggal: 2025-09-06*
+
+- **Diperbarui**: Menambahkan 10 tingkatan detail untuk profesi Penyihir (Mage) di `_role/MAGE.md`.
+
+---
+
+## v0.42.0 - Penambahan Folder Profesi
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat folder `_role` untuk menyimpan penjelasan detail profesi.
+- **Ditambahkan**: Menambahkan `_role/README.md` sebagai panduan struktur profesi.
+- **Ditambahkan**: Menambahkan `_role/MAGE.md` sebagai contoh profesi Penyihir.
+
+---
+
+## v0.41.0 - Penambahan Dokumen Agama dan Kepercayaan
+*Tanggal: 2025-09-06*
+
+- **Ditambahkan**: Membuat file `AGAMA_KEPERCAYAAN.md` sebagai panduan dan daftar agama/kepercayaan di dunia cerita.
+
+---
+
 ## v0.40.0 - Penambahan Dokumen Monster
 *Tanggal: 2025-09-06*
 
