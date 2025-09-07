@@ -432,3 +432,10 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 - **Ditambahkan**: Membuat 9 bab pertama dari cerita "Lima Jiwa di Bumi Lain" dalam format Markdown.
 - **Ditambahkan**: Mengkonfigurasi situs GitHub Pages awal menggunakan Docsify.
+
+---
+
+## v0.57.0 - Penambahan Inventory dan Skills pada Karakter
+*Tanggal: 2025-09-07*
+
+- **Ditambahkan**: Menambahkan bidang `Inventory` dan `Skills` ke setiap objek karakter di `CHARACTERS.json` untuk memperkaya detail kemampuan dan sumber daya karakter.

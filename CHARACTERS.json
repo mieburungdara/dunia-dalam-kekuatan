@@ -35,7 +35,9 @@
     "Goals": ["Menemukan cara kembali ke Bumi", "Melindungi kelompoknya", "Memahami misteri Eryndor"],
     "Obstacles": ["Kurangnya pengetahuan tentang Eryndor", "Sifat skeptisnya sendiri", "Ancaman dari faksi yang tidak dikenal"],
     "InternalMonologue": "Bagaimana cara kembali? Apakah ini semua nyata? Aku harus tetap logis dan mencari solusi.",
-    "ExternalPerception": "Dilihat sebagai pemimpin yang cerdas tapi dingin, kadang terlalu serius."
+    "ExternalPerception": "Dilihat sebagai pemimpin yang cerdas tapi dingin, kadang terlalu serius.",
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 2,
@@ -73,7 +75,9 @@
     "Goals": ["Bertahan hidup dengan nyaman", "Menemukan petualangan seru", "Membuktikan dirinya berguna"],
     "Obstacles": ["Sifat malas dan ceroboh", "Mudah terdistraksi", "Kurangnya pengalaman tempur"],
     "InternalMonologue": "Kapan ini selesai? Aku lapar. Semoga ada sesuatu yang seru terjadi. Jangan sampai aku bosan.",
-    "ExternalPerception": "Dilihat sebagai orang yang ceria dan optimis, tapi juga pemalas dan kurang serius."
+    "ExternalPerception": "Dilihat sebagai orang yang ceria dan optimis, tapi juga pemalas dan kurang serius.",
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 3,
@@ -111,7 +115,9 @@
     "Goals": ["Melindungi teman-temannya", "Menebus kesalahan masa lalu", "Mencari kedamaian batin"],
     "Obstacles": ["Trauma masa lalu", "Sulit membuka diri", "Musuh yang kuat"],
     "InternalMonologue": "Aku harus melindungi mereka. Tidak boleh ada yang terluka lagi. Aku tidak akan gagal kali ini.",
-    "ExternalPerception": "Dilihat sebagai pelindung yang kuat dan dapat diandalkan, tapi juga misterius dan tertutup."
+    "ExternalPerception": "Dilihat sebagai pelindung yang kuat dan dapat diandalkan, tapi juga misterius dan tertutup.",
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 4,
@@ -149,7 +155,9 @@
     "Goals": ["Menggunakan pengetahuannya untuk membantu", "Membuktikan kemampuannya sebagai penyembuh", "Mengatasi rasa takutnya"],
     "Obstacles": ["Perfeksionisme berlebihan", "Rasa takut akan kegagalan", "Keterbatasan sumber daya medis di Eryndor"],
     "InternalMonologue": "Apakah aku sudah melakukan yang terbaik? Bagaimana jika aku salah? Aku harus sempurna.",
-    "ExternalPerception": "Dilihat sebagai penyembuh yang kompeten dan perhatian, tapi juga cemas dan terlalu kaku."
+    "ExternalPerception": "Dilihat sebagai penyembuh yang kompeten dan perhatian, tapi juga cemas dan terlalu kaku.",
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 5,
@@ -187,7 +195,9 @@
     "Goals": ["Menemukan kenyamanan dan kemudahan", "Menguasai sihirnya", "Kembali ke kehidupan normal"],
     "Obstacles": ["Sifat manja dan mudah panik", "Lingkungan Eryndor yang keras", "Kurangnya kepercayaan diri"],
     "InternalMonologue": "Ini menjijikkan. Aku ingin pulang. Kenapa harus aku yang mengalami ini? Aku benci kotor.",
-    "ExternalPerception": "Dilihat sebagai orang yang manja dan sering mengeluh, tapi juga memiliki potensi sihir yang besar."
+    "ExternalPerception": "Dilihat sebagai orang yang manja dan sering mengeluh, tapi juga memiliki potensi sihir yang besar.",
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 6,
@@ -225,7 +235,9 @@
     "Goals": ["Melindungi desanya dari ancaman", "Membantu para pendatang baru"],
     "Obstacles": ["Usia tua", "Keterbatasan fisik", "Ketakutan akan ancaman tak terlihat"],
     "InternalMonologue": null,
-    "ExternalPerception": null
+    "ExternalPerception": null,
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 7,
@@ -263,7 +275,9 @@
     "Goals": ["Menjaga keamanan dan kesejahteraan desa", "Mempertahankan tradisi desa"],
     "Obstacles": ["Ancaman dari luar", "Skeptisisme terhadap hal baru", "Keterbatasan sumber daya desa"],
     "InternalMonologue": null,
-    "ExternalPerception": null
+    "ExternalPerception": null,
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 8,
@@ -301,7 +315,9 @@
     "Goals": ["Mencari keuntungan", "Mengumpulkan informasi dan rumor", "Menjelajahi dunia"],
     "Obstacles": ["Persaingan dagang", "Bahaya perjalanan", "Informasi yang tidak akurat"],
     "InternalMonologue": null,
-    "ExternalPerception": null
+    "ExternalPerception": null,
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 9,
@@ -339,7 +355,9 @@
     "Goals": ["Bermain", "Menjelajahi lingkungan sekitar", "Membantu orang dewasa"],
     "Obstacles": ["Larangan orang tua", "Bahaya di luar desa", "Keterbatasan fisik anak-anak"],
     "InternalMonologue": null,
-    "ExternalPerception": null
+    "ExternalPerception": null,
+    "Inventory": [],
+    "Skills": []
   },
   {
     "ID": 10,
@@ -377,6 +395,8 @@
     "Goals": ["Menjaga keamanan gerbang", "Melindungi desa dari ancaman"],
     "Obstacles": ["Ancaman tak terduga", "Kelelahan", "Kurangnya bantuan"],
     "InternalMonologue": null,
-    "ExternalPerception": null
+    "ExternalPerception": null,
+    "Inventory": [],
+    "Skills": []
   }
 ]
