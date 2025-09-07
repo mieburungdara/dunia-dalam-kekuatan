@@ -1,0 +1,94 @@
+{
+  "Meta": {
+    "Title": "Judul Cerita Keseluruhan",
+    "Author": "AI / User",
+    "Genre": ["Fantasy", "Adventure"],
+    "World": "Deskripsi singkat dunia tempat cerita berlangsung.",
+    "Rules": "Aturan narasi yang harus diikuti (misalnya: POV konsisten, tense present, gaya deskriptif, penggunaan istilah asing, dll.)."
+  },
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Title": "Judul Bab",
+      "Summary": "Ringkasan singkat tentang peristiwa utama dan perkembangan karakter dalam bab ini.",
+      "Scenes": [
+        {
+          "SceneNumber": 1,
+          "Location": {
+            "Name": "Nama tempat kejadian (misal: Hutan Asing, Reruntuhan Kuno)",
+            "ID": "ID Lokasi dari LOCATIONS.json (misal: L001)"
+          },
+          "Time": "Waktu kejadian (misal: Pagi, Siang, Senja, Malam, Dini Hari)",
+          "CharactersInvolved": [
+            {
+              "Name": "Nama Karakter (misal: Arga)",
+              "ID": "ID Karakter dari CHARACTERS.json (misal: C001)",
+              "RoleInScene": "Peran karakter dalam adegan ini (misal: Protagonis, Antagonis, Pendukung)"
+            }
+          ],
+          "POV": {
+            "CharacterName": "Nama Karakter POV (misal: Arga)",
+            "CharacterID": "ID Karakter POV dari CHARACTERS.json (misal: C001)"
+          },
+          "Contents": [
+            {
+              "Type": "Exposition",
+              "Text": "Latar cerita, sejarah, atau worldbuilding yang relevan dengan adegan ini. Gunakan untuk memberikan informasi latar belakang atau konteks."
+            },
+            {
+              "Type": "Travelogue",
+              "Text": "Deskripsi perjalanan atau pergerakan karakter dari satu titik ke titik lain.",
+              "SubUnits": [
+                {
+                  "Type": "Description",
+                  "Text": "Visual, suara, aroma sepanjang perjalanan."
+                },
+                {
+                  "Type": "Betrayal",
+                  "Actor": {
+                    "Name": "Nama Karakter Pengkhianat",
+                    "ID": "ID Karakter Pengkhianat"
+                  },
+                  "Text": "Deskripsi pengkhianatan yang terjadi di tengah perjalanan atau adegan."
+                },
+                {
+                  "Type": "Conflict",
+                  "Text": "Deskripsi ketegangan setelah betrayal."
+                }
+              ]
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": {
+                "Name": "Nama Karakter Pembicara",
+                "ID": "ID Karakter Pembicara"
+              },
+              "Line": "Kalimat dialog yang diucapkan."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": {
+                "Name": "Nama Karakter yang Berpikir",
+                "ID": "ID Karakter yang Berpikir"
+              },
+              "Text": "Isi hati, pikiran batin, atau refleksi internal karakter."
+            },
+            {
+              "Type": "Decision",
+              "Character": {
+                "Name": "Nama Karakter Pembuat Keputusan",
+                "ID": "ID Karakter Pembuat Keputusan"
+              },
+              "Text": "Pilihan penting yang dibuat oleh karakter, dengan implikasi naratif."
+            },
+            {
+              "Type": "Aftermath",
+              "Text": "Konsekuensi atau dampak langsung setelah kejadian dalam scene ini."
+            }
+          ],
+          "Notes": "Catatan tambahan untuk AI atau penulis: gaya bahasa spesifik, pacing yang diinginkan, detail sensorik yang harus ditekankan, atau instruksi khusus lainnya untuk adegan ini."
+        }
+      ]
+    }
+  ]
+}
