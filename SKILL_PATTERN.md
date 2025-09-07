@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pola Standar untuk Skill
+skill_id: [ID Unik Skill, misal: S001]
 ---
 # Pola Standar untuk Skill
 
@@ -26,6 +27,7 @@ Setiap file skill baru harus mengikuti pola berikut untuk menjaga konsistensi:
 *   **Biaya:** [Konsumsi stamina, Aether, kekuatan hidup, atau tidak ada biaya]
 *   **Jangkauan:** [Sentuhan, jarak dekat (5m), jarak jauh (100m), tidak terbatas]
 *   **Durasi:** [Instan, beberapa detik, permanen selama diaktifkan]
+*   **Prasyarat:** [Skill lain yang dibutuhkan, level minimum, atau kondisi tertentu]
 
 ---
 
