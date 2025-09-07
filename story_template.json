@@ -23,7 +23,10 @@
             {
               "Name": "Nama Karakter (misal: Arga)",
               "ID": "ID Karakter dari CHARACTERS.json (misal: C001)",
-              "RoleInScene": "Peran karakter dalam adegan ini (misal: Protagonis, Antagonis, Pendukung)"
+              "RoleInScene": "Peran karakter dalam adegan ini (misal: Protagonis, Antagonis, Pendukung)",
+              "Mood": "Suasana hati atau emosi dominan karakter dalam adegan tersebut.",
+              "Goal": "Tujuan spesifik karakter dalam adegan tersebut.",
+              "Conflict": "Konflik internal/eksternal yang dihadapi karakter dalam adegan tersebut."
             }
           ],
           "POV": {
@@ -37,25 +40,7 @@
             },
             {
               "Type": "Travelogue",
-              "Text": "Deskripsi perjalanan atau pergerakan karakter dari satu titik ke titik lain.",
-              "SubUnits": [
-                {
-                  "Type": "Description",
-                  "Text": "Visual, suara, aroma sepanjang perjalanan."
-                },
-                {
-                  "Type": "Betrayal",
-                  "Actor": {
-                    "Name": "Nama Karakter Pengkhianat",
-                    "ID": "ID Karakter Pengkhianat"
-                  },
-                  "Text": "Deskripsi pengkhianatan yang terjadi di tengah perjalanan atau adegan."
-                },
-                {
-                  "Type": "Conflict",
-                  "Text": "Deskripsi ketegangan setelah betrayal."
-                }
-              ]
+              "Text": "Deskripsi perjalanan atau pergerakan karakter dari satu titik ke titik lain. Ini adalah narasi perjalanan secara umum."
             },
             {
               "Type": "Dialogue",
@@ -84,6 +69,138 @@
             {
               "Type": "Aftermath",
               "Text": "Konsekuensi atau dampak langsung setelah kejadian dalam scene ini."
+            },
+            {
+              "Type": "Action",
+              "Text": "Deskripsi tindakan fisik karakter atau peristiwa yang terjadi."
+            },
+            {
+              "Type": "SensoryDetail",
+              "Text": "Detail visual, suara, aroma, sentuhan, rasa yang ingin ditekankan dalam adegan."
+            },
+            {
+              "Type": "Flashback",
+              "Text": "Momen kilas balik yang dialami karakter, relevan dengan adegan saat ini."
+            },
+            {
+              "Type": "Foreshadowing",
+              "Text": "Bayangan atau pertanda hal yang akan datang, bisa berupa deskripsi, dialog, atau peristiwa kecil."
+            },
+            {
+              "Type": "Symbolism",
+              "Text": "Narasi tentang simbol atau benda yang memiliki makna lebih dalam dalam konteks cerita."
+            },
+            {
+              "Type": "Prophecy",
+              "Text": "Ramalan, bisikan, atau nubuat yang relevan dengan masa depan cerita, bisa diucapkan atau ditemukan."
+            },
+            {
+              "Type": "Dream",
+              "Text": "Mimpi yang dialami karakter, bisa realistik atau surreal, dengan potensi makna tersembunyi."
+            },
+            {
+              "Type": "Hallucination",
+              "Text": "Halusinasi yang dialami karakter karena rasa takut, kelelahan, atau pengaruh sihir/zat."
+            },
+            {
+              "Type": "ItemDiscovery",
+              "Text": "Karakter menemukan benda penting atau relik. Sertakan detail item jika relevan.",
+              "Item": {
+                "Name": "Nama Item",
+                "ID": "ID Item dari _items/item.json"
+              }
+            },
+            {
+              "Type": "MysteryEvent",
+              "Text": "Kejadian aneh atau tak terjelaskan yang menjadi misteri dan memicu rasa ingin tahu."
+            },
+            {
+              "Type": "Ritual",
+              "Text": "Deskripsi adegan upacara, mantra, atau tradisi tertentu yang dilakukan."
+            },
+            {
+              "Type": "Training",
+              "Text": "Adegan latihan, perkembangan skill, atau penguasaan teknik baru oleh karakter.",
+              "Skill": {
+                "Name": "Nama Skill",
+                "ID": "ID Skill dari _skills/skill.json"
+              }
+            },
+            {
+              "Type": "Strategy",
+              "Text": "Perencanaan atau diskusi strategi sebelum aksi atau pertarungan besar."
+            },
+            {
+              "Type": "Debate",
+              "Text": "Perbedaan pendapat atau argumen antar karakter yang lebih bersifat intelektual daripada konflik emosional."
+            },
+            {
+              "Type": "TestOrTrial",
+              "Text": "Ujian atau tantangan formal/informal yang harus dilalui karakter."
+            },
+            {
+              "Type": "Reveal",
+              "Text": "Pengungkapan rahasia penting, kebenaran, atau informasi krusial."
+            },
+            {
+              "Type": "Betrayal",
+              "Actor": {
+                "Name": "Nama Karakter Pengkhianat",
+                "ID": "ID Karakter Pengkhianat"
+              },
+              "Text": "Deskripsi pengkhianatan yang dilakukan oleh karakter dekat atau sekutu."
+            },
+            {
+              "Type": "Alliance",
+              "Text": "Terbentuknya ikatan, perjanjian, atau kerja sama baru antar karakter/faksi."
+            },
+            {
+              "Type": "Celebration",
+              "Text": "Deskripsi perayaan, festival, atau pesta yang terjadi dalam cerita."
+            },
+            {
+              "Type": "LetterOrMessage",
+              "Text": "Isi surat, catatan, atau pesan yang ditemukan atau dikirim, dengan konteksnya."
+            },
+            {
+              "Type": "Rumor",
+              "Text": "Desas-desus atau gosip yang beredar dan memengaruhi persepsi dunia atau karakter."
+            },
+            {
+              "Type": "MoralReflection",
+              "Text": "Renungan karakter tentang etika, benar-salah, atau makna hidup."
+            },
+            {
+              "Type": "ComicRelief",
+              "Text": "Momen ringan atau lucu yang bertujuan untuk mencairkan suasana tegang."
+            },
+            {
+              "Type": "Injury",
+              "Text": "Fokus pada luka fisik atau mental yang dialami karakter, dengan detail dampaknya."
+            },
+            {
+              "Type": "Recovery",
+              "Text": "Proses penyembuhan karakter, baik fisik maupun emosional, setelah mengalami cedera atau trauma."
+            },
+            {
+              "Type": "RelationshipShift",
+              "Text": "Perubahan status atau dinamika hubungan antar karakter (misal: dari musuh jadi sekutu, dari teman jadi kekasih)."
+            },
+            {
+              "Type": "Negotiation",
+              "Text": "Dialog diplomatis, barter, atau tawar-menawar antar pihak."
+            },
+            {
+              "Type": "FoilMoment",
+              "Text": "Adegan di mana sifat kontras antar karakter ditonjolkan untuk menyoroti perbedaan mereka."
+            },
+            {
+              "Type": "Omens",
+              "Text": "Tanda alam atau fenomena yang dianggap membawa makna mistis atau pertanda."
+            },
+            {
+              "Type": "Sacrifice",
+              "Text": "Pengorbanan yang dilakukan karakter, baik besar maupun kecil, dengan dampaknya."
             }
           ],
           "Notes": "Catatan tambahan untuk AI atau penulis: gaya bahasa spesifik, pacing yang diinginkan, detail sensorik yang harus ditekankan, atau instruksi khusus lainnya untuk adegan ini."
