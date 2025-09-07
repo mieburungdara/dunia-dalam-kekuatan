@@ -39,8 +39,20 @@
               "Text": "Latar cerita, sejarah, atau worldbuilding yang relevan dengan adegan ini. Gunakan untuk memberikan informasi latar belakang atau konteks."
             },
             {
-              "Type": "Travelogue",
-              "Text": "Deskripsi perjalanan atau pergerakan karakter dari satu titik ke titik lain. Ini adalah narasi perjalanan secara umum."
+              "Type": "Atmosphere",
+              "Text": "Deskripsi suasana atau mood adegan (misal: mencekam, damai, ramai)."
+            },
+            {
+              "Type": "Description",
+              "Text": "Deskripsi visual, suara, aroma, sentuhan, rasa yang ingin ditekankan dalam adegan."
+            },
+            {
+              "Type": "Action",
+              "Actor": {
+                "Name": "Nama Karakter Pelaku",
+                "ID": "ID Karakter Pelaku"
+              },
+              "Text": "Deskripsi tindakan fisik karakter atau peristiwa yang terjadi."
             },
             {
               "Type": "Dialogue",
@@ -59,6 +71,22 @@
               "Text": "Isi hati, pikiran batin, atau refleksi internal karakter."
             },
             {
+              "Type": "Emotion",
+              "Character": {
+                "Name": "Nama Karakter yang Merasakan",
+                "ID": "ID Karakter yang Merasakan"
+              },
+              "Text": "Deskripsi emosi spesifik yang dirasakan karakter."
+            },
+            {
+              "Type": "Clue",
+              "Text": "Petunjuk atau informasi penting yang ditemukan atau diungkapkan dalam adegan."
+            },
+            {
+              "Type": "Conflict",
+              "Text": "Deskripsi ketegangan, pertarungan, atau konflik yang muncul."
+            },
+            {
               "Type": "Decision",
               "Character": {
                 "Name": "Nama Karakter Pembuat Keputusan",
@@ -67,16 +95,32 @@
               "Text": "Pilihan penting yang dibuat oleh karakter, dengan implikasi naratif."
             },
             {
-              "Type": "Aftermath",
-              "Text": "Konsekuensi atau dampak langsung setelah kejadian dalam scene ini."
+              "Type": "Transition",
+              "Text": "Transisi antar adegan, perubahan lokasi, atau perubahan waktu."
             },
             {
-              "Type": "Action",
-              "Text": "Deskripsi tindakan fisik karakter atau peristiwa yang terjadi."
+              "Type": "BattleMove",
+              "Actor": {
+                "Name": "Nama Karakter Pelaku",
+                "ID": "ID Karakter Pelaku"
+              },
+              "Text": "Gerakan spesifik dalam pertempuran atau aksi tempur."
             },
             {
-              "Type": "SensoryDetail",
-              "Text": "Detail visual, suara, aroma, sentuhan, rasa yang ingin ditekankan dalam adegan."
+              "Type": "Vision",
+              "Character": {
+                "Name": "Nama Karakter yang Mengalami Visi",
+                "ID": "ID Karakter yang Mengalami Visi"
+              },
+              "Text": "Penglihatan, ilusi, atau pengalaman visual/sensorik non-realistis yang dialami karakter."
+            },
+            {
+              "Type": "NarratorNote",
+              "Text": "Catatan narator atau komentar di luar cerita yang memberikan konteks atau pandangan."
+            },
+            {
+              "Type": "Travelogue",
+              "Text": "Deskripsi perjalanan atau pergerakan karakter dari satu titik ke titik lain. Ini adalah narasi perjalanan secara umum."
             },
             {
               "Type": "Flashback",
