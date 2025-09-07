@@ -21,8 +21,6 @@
       "Description": "Tinggi, ramping, rambut hitam pendek, mata abu-abu tajam.",
       "Style": "Sering mengenakan pakaian praktis berwarna gelap."
     },
-    "SkillsAndAbilities": ["Pedang Satu Tangan: Mahir", "Strategi Tempur: Ahli", "Analisis Kelemahan: Menengah"],
-    "Equipment": ["Pedang Baja Ringan", "Kompas Kuno", "Buku Catatan"],
     "Relationships": [{"TargetID": 2, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 3, "Type": "Rekan", "Description": "Mengandalkan Raka dalam pertempuran"}],
     "Affiliations": ["Tidak ada (sebelumnya Mahasiswa Teknik)"],
     "Voice": "Tenang, logis, kadang terdengar sedikit merendahkan atau terlalu analitis.",
@@ -36,8 +34,52 @@
     "Obstacles": ["Kurangnya pengetahuan tentang Eryndor", "Sifat skeptisnya sendiri", "Ancaman dari faksi yang tidak dikenal"],
     "InternalMonologue": "Bagaimana cara kembali? Apakah ini semua nyata? Aku harus tetap logis dan mencari solusi.",
     "ExternalPerception": "Dilihat sebagai pemimpin yang cerdas tapi dingin, kadang terlalu serius.",
-    "Inventory": [],
-    "Skills": []
+    "Inventory": [
+      {
+        "Name": "Pedang Baja Ringan",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Kompas Kuno",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Buku Catatan",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Pedang Satu Tangan",
+        "Level": "Mahir",
+        "Description": ""
+      },
+      {
+        "Name": "Strategi Tempur",
+        "Level": "Ahli",
+        "Description": ""
+      },
+      {
+        "Name": "Analisis Kelemahan",
+        "Level": "Menengah",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
   },
   {
     "ID": 2,
@@ -61,8 +103,6 @@
       "Description": "Tinggi sedang, rambut coklat berantakan, mata coklat cerah.",
       "Style": "Sering memakai hoodie dan celana kargo."
     },
-    "SkillsAndAbilities": ["Panahan Cepat: Mahir", "Pelacakan: Dasar", "Survival: Dasar"],
-    "Equipment": ["Busur Komposit", "Anak Panah Berujung Khusus", "Headset Gaming (rusak)"],
     "Relationships": [{"TargetID": 1, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 5, "Type": "Rekan", "Description": "Sering mengganggu Lina"}],
     "Affiliations": ["Tidak ada (sebelumnya Gamer)"],
     "Voice": "Ceria, santai, sering menggunakan slang atau istilah game, kadang terdengar malas.",
@@ -76,8 +116,52 @@
     "Obstacles": ["Sifat malas dan ceroboh", "Mudah terdistraksi", "Kurangnya pengalaman tempur"],
     "InternalMonologue": "Kapan ini selesai? Aku lapar. Semoga ada sesuatu yang seru terjadi. Jangan sampai aku bosan.",
     "ExternalPerception": "Dilihat sebagai orang yang ceria dan optimis, tapi juga pemalas dan kurang serius.",
-    "Inventory": [],
-    "Skills": []
+    "Inventory": [
+      {
+        "Name": "Busur Komposit",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Anak Panah Berujung Khusus",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Headset Gaming (rusak)",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Panahan Cepat",
+        "Level": "Mahir",
+        "Description": ""
+      },
+      {
+        "Name": "Pelacakan",
+        "Level": "Dasar",
+        "Description": ""
+      },
+      {
+        "Name": "Survival",
+        "Level": "Dasar",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
   },
   {
     "ID": 3,
@@ -101,8 +185,6 @@
       "Description": "Tinggi besar, berotot, rambut cepak, bekas luka di pipi kanan.",
       "Style": "Selalu mengenakan rompi kulit tebal."
     },
-    "SkillsAndAbilities": ["Pertahanan Perisai: Ahli", "Pertarungan Jarak Dekat: Mahir", "Intimidasi: Menengah"],
-    "Equipment": ["Perisai Menara", "Kapak Perang", "Kalung Anjing Militer (kenangan)"],
     "Relationships": [{"TargetID": 1, "Type": "Rekan", "Description": "Diandalkan Arga dalam pertempuran"}, {"TargetID": 4, "Type": "Pelindung", "Description": "Sangat protektif terhadap Mira"}],
     "Affiliations": ["Tidak ada (sebelumnya Tentara)"],
     "Voice": "Dalam, tenang, jarang berbicara, kata-katanya singkat tapi penuh makna.",
@@ -116,8 +198,52 @@
     "Obstacles": ["Trauma masa lalu", "Sulit membuka diri", "Musuh yang kuat"],
     "InternalMonologue": "Aku harus melindungi mereka. Tidak boleh ada yang terluka lagi. Aku tidak akan gagal kali ini.",
     "ExternalPerception": "Dilihat sebagai pelindung yang kuat dan dapat diandalkan, tapi juga misterius dan tertutup.",
-    "Inventory": [],
-    "Skills": []
+    "Inventory": [
+      {
+        "Name": "Perisai Menara",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Kapak Perang",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Kalung Anjing Militer (kenangan)",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Pertahanan Perisai",
+        "Level": "Ahli",
+        "Description": ""
+      },
+      {
+        "Name": "Pertarungan Jarak Dekat",
+        "Level": "Mahir",
+        "Description": ""
+      },
+      {
+        "Name": "Intimidasi",
+        "Level": "Menengah",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
   },
   {
     "ID": 4,
@@ -141,8 +267,6 @@
       "Description": "Ramping, rambut hitam panjang terikat rapi, mata coklat lembut.",
       "Style": "Sering memakai pakaian bersih dan praktis."
     },
-    "SkillsAndAbilities": ["Penyembuhan Luka: Mahir", "Diagnosa Penyakit: Ahli", "Pengetahuan Herbal: Menengah"],
-    "Equipment": ["Kit Medis Portabel", "Buku Herbal", "Jepit Rambut Berukir"],
     "Relationships": [{"TargetID": 3, "Type": "Dilindungi", "Description": "Sangat dilindungi oleh Raka"}, {"TargetID": 5, "Type": "Teman Dekat", "Description": "Sering menenangkan Lina"}],
     "Affiliations": ["Tidak ada (sebelumnya Mahasiswi Kedokteran)"],
     "Voice": "Lembut, teratur, kadang terdengar cemas atau terlalu hati-hati, namun bisa tegas saat dibutuhkan.",
@@ -156,8 +280,52 @@
     "Obstacles": ["Perfeksionisme berlebihan", "Rasa takut akan kegagalan", "Keterbatasan sumber daya medis di Eryndor"],
     "InternalMonologue": "Apakah aku sudah melakukan yang terbaik? Bagaimana jika aku salah? Aku harus sempurna.",
     "ExternalPerception": "Dilihat sebagai penyembuh yang kompeten dan perhatian, tapi juga cemas dan terlalu kaku.",
-    "Inventory": [],
-    "Skills": []
+    "Inventory": [
+      {
+        "Name": "Kit Medis Portabel",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Buku Herbal",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Jepit Rambut Berukir",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Penyembuhan Luka",
+        "Level": "Mahir",
+        "Description": ""
+      },
+      {
+        "Name": "Diagnosa Penyakit",
+        "Level": "Ahli",
+        "Description": ""
+      },
+      {
+        "Name": "Pengetahuan Herbal",
+        "Level": "Menengah",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
   },
   {
     "ID": 5,
@@ -181,8 +349,6 @@
       "Description": "Kecil, rambut pirang sebahu, mata biru besar.",
       "Style": "Sering memakai gaun yang terlihat bersih meskipun di lingkungan kotor."
     },
-    "SkillsAndAbilities": ["Sihir Elemen Dasar: Pemula", "Telekinesis Ringan: Pemula", "Deteksi Energi: Dasar"],
-    "Equipment": ["Tongkat Kayu Sederhana", "Cermin Saku", "Saputangan Bersih"],
     "Relationships": [{"TargetID": 2, "Type": "Rekan", "Description": "Sering diganggu Bimo"}, {"TargetID": 4, "Type": "Teman Dekat", "Description": "Sering ditenangkan Mira"}],
     "Affiliations": ["Tidak ada (sebelumnya Siswi SMA)"],
     "Voice": "Bernada tinggi, sering mengeluh, sarkastik, kadang terdengar manja atau panik.",
@@ -196,8 +362,52 @@
     "Obstacles": ["Sifat manja dan mudah panik", "Lingkungan Eryndor yang keras", "Kurangnya kepercayaan diri"],
     "InternalMonologue": "Ini menjijikkan. Aku ingin pulang. Kenapa harus aku yang mengalami ini? Aku benci kotor.",
     "ExternalPerception": "Dilihat sebagai orang yang manja dan sering mengeluh, tapi juga memiliki potensi sihir yang besar.",
-    "Inventory": [],
-    "Skills": []
+    "Inventory": [
+      {
+        "Name": "Tongkat Kayu Sederhana",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Cermin Saku",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Saputangan Bersih",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Sihir Elemen Dasar",
+        "Level": "Pemula",
+        "Description": ""
+      },
+      {
+        "Name": "Telekinesis Ringan",
+        "Level": "Pemula",
+        "Description": ""
+      },
+      {
+        "Name": "Deteksi Energi",
+        "Level": "Dasar",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
   },
   {
     "ID": 6,
@@ -221,8 +431,6 @@
       "Description": "Pria tua berjanggut putih panjang, punggung bungkuk, mata keriput tapi tajam.",
       "Style": "Selalu memakai jubah lusuh."
     },
-    "SkillsAndAbilities": null,
-    "Equipment": null,
     "Relationships": null,
     "Affiliations": ["Penjaga Desa"],
     "Voice": "Serak, bijaksana, sering berbicara dalam teka-teki atau perumpamaan kuno.",
@@ -236,8 +444,9 @@
     "Obstacles": ["Usia tua", "Keterbatasan fisik", "Ketakutan akan ancaman tak terlihat"],
     "InternalMonologue": null,
     "ExternalPerception": null,
-    "Inventory": [],
-    "Skills": []
+    "Health": null,
+    "Mana": null,
+    "Stamina": null
   },
   {
     "ID": 7,
@@ -258,11 +467,9 @@
     "Hopes": null,
     "Quirks": ["Sering menghela napas panjang saat membuat keputusan", "Selalu memegang pipa kayu"],
     "Appearance": {
-      "Description": "Pria paruh baya, rambut mulai memutih, wajah tegas.",
+      "Description": "Pria paruh baya, rambut mulai memutihkan, wajah tegas.",
       "Style": "Sering memakai pakaian adat desa."
     },
-    "SkillsAndAbilities": null,
-    "Equipment": null,
     "Relationships": null,
     "Affiliations": ["Pemerintahan Desa"],
     "Voice": "Tegas, berwibawa, pragmatis, kadang terdengar lelah atau khawatir.",
@@ -276,8 +483,9 @@
     "Obstacles": ["Ancaman dari luar", "Skeptisisme terhadap hal baru", "Keterbatasan sumber daya desa"],
     "InternalMonologue": null,
     "ExternalPerception": null,
-    "Inventory": [],
-    "Skills": []
+    "Health": null,
+    "Mana": null,
+    "Stamina": null
   },
   {
     "ID": 8,
@@ -301,8 +509,6 @@
       "Description": "Pria gemuk periang, rambut botak di tengah, kumis tebal.",
       "Style": "Selalu membawa tas besar penuh barang dagangan."
     },
-    "SkillsAndAbilities": null,
-    "Equipment": null,
     "Relationships": null,
     "Affiliations": ["Pedagang Bebas"],
     "Voice": "Ceria, bersemangat, banyak bicara, sering melebih-lebihkan cerita.",
@@ -316,8 +522,9 @@
     "Obstacles": ["Persaingan dagang", "Bahaya perjalanan", "Informasi yang tidak akurat"],
     "InternalMonologue": null,
     "ExternalPerception": null,
-    "Inventory": [],
-    "Skills": []
+    "Health": null,
+    "Mana": null,
+    "Stamina": null
   },
   {
     "ID": 9,
@@ -341,8 +548,6 @@
       "Description": "Berbagai usia, pakaian sederhana, sering kotor karena bermain.",
       "Style": null
     },
-    "SkillsAndAbilities": null,
-    "Equipment": null,
     "Relationships": null,
     "Affiliations": ["Penduduk Desa"],
     "Voice": "Polos, penasaran, kadang berbisik atau berteriak saat bermain.",
@@ -356,8 +561,9 @@
     "Obstacles": ["Larangan orang tua", "Bahaya di luar desa", "Keterbatasan fisik anak-anak"],
     "InternalMonologue": null,
     "ExternalPerception": null,
-    "Inventory": [],
-    "Skills": []
+    "Health": null,
+    "Mana": null,
+    "Stamina": null
   },
   {
     "ID": 10,
@@ -381,8 +587,6 @@
       "Description": "Pria tegap, wajah serius, seragam penjaga desa.",
       "Style": null
     },
-    "SkillsAndAbilities": null,
-    "Equipment": null,
     "Relationships": null,
     "Affiliations": ["Penjaga Desa"],
     "Voice": "Monoton, patuh, singkat dan padat.",
@@ -396,7 +600,8 @@
     "Obstacles": ["Ancaman tak terduga", "Kelelahan", "Kurangnya bantuan"],
     "InternalMonologue": null,
     "ExternalPerception": null,
-    "Inventory": [],
-    "Skills": []
+    "Health": null,
+    "Mana": null,
+    "Stamina": null
   }
 ]
