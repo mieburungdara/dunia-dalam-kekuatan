@@ -245,6 +245,130 @@
             {
               "Type": "Sacrifice",
               "Text": "Pengorbanan yang dilakukan karakter, baik besar maupun kecil, dengan dampaknya."
+            },
+            {
+              "Type": "Ambush",
+              "Text": "Serangan mendadak yang tidak terduga."
+            },
+            {
+              "Type": "Chase",
+              "Text": "Adegan kejar-kejaran (manusia, binatang, atau kendaraan)."
+            },
+            {
+              "Type": "Hideout",
+              "Text": "Momen ketika karakter bersembunyi atau menemukan tempat persembunyian."
+            },
+            {
+              "Type": "Discovery",
+              "Text": "Penemuan kebenaran besar yang mengubah pemahaman karakter."
+            },
+            {
+              "Type": "Exposure",
+              "Text": "Karakter atau rahasia yang tersembunyi akhirnya terungkap."
+            },
+            {
+              "Type": "Sabotage",
+              "Text": "Penghancuran rencana/lokasi oleh musuh secara diam-diam."
+            },
+            {
+              "Type": "Collaboration",
+              "Text": "Kerja sama erat antar karakter yang biasanya tidak cocok."
+            },
+            {
+              "Type": "RitualSuccess",
+              "Text": "Ritual/upacara berhasil dengan hasil signifikan."
+            },
+            {
+              "Type": "Overheard",
+              "Text": "Karakter mendengar percakapan rahasia tanpa disengaja."
+            },
+            {
+              "Type": "Coincidence",
+              "Text": "Kebetulan yang mengubah jalannya cerita."
+            },
+            {
+              "Type": "Lost",
+              "Text": "Karakter tersesat, baik fisik maupun batin."
+            },
+            {
+              "Type": "Guidance",
+              "Text": "Kemunculan mentor, guru, atau tanda yang membantu."
+            },
+            {
+              "Type": "Conspiracy",
+              "Text": "Pengungkapan jaringan atau rencana tersembunyi yang luas."
+            },
+            {
+              "Type": "Challenge",
+              "Text": "Karakter menghadapi ujian langsung dari seseorang atau sesuatu."
+            },
+            {
+              "Type": "Duel",
+              "Text": "Pertarungan satu lawan satu yang intens."
+            },
+            {
+              "Type": "MassBattle",
+              "Text": "Pertempuran besar melibatkan banyak pihak."
+            },
+            {
+              "Type": "Infiltration",
+              "Text": "Penyusupan ke wilayah musuh atau lokasi berbahaya."
+            },
+            {
+              "Type": "Sabda",
+              "Text": "Suara gaib atau wahyu yang hanya didengar karakter tertentu."
+            },
+            {
+              "Type": "Haunting",
+              "Text": "Gangguan roh, kenangan, atau hal gaib yang menghantui karakter."
+            },
+            {
+              "Type": "Collapse",
+              "Text": "Runtuhnya struktur (bangunan, gua, jembatan) yang memengaruhi alur."
+            },
+            {
+              "Type": "Exile",
+              "Text": "Pengusiran karakter dari kelompok/tempat."
+            },
+            {
+              "Type": "Reconciliation",
+              "Text": "Penyatuan kembali hubungan yang sebelumnya pecah."
+            },
+            {
+              "Type": "UnexpectedHelp",
+              "Text": "Bantuan datang dari pihak yang tidak disangka-sangka."
+            },
+            {
+              "Type": "WarningIgnored",
+              "Text": "Karakter menolak memperhatikan peringatan, dengan konsekuensi."
+            },
+            {
+              "Type": "IdentityReveal",
+              "Text": "Pengungkapan identitas asli seseorang."
+            },
+            {
+              "Type": "SwitchSides",
+              "Text": "Karakter berpindah kubu/loyalitas."
+            },
+            {
+              "Type": "DivineIntervention",
+              "Text": "Campur tangan dewa, roh, atau kekuatan supranatural."
+            },
+            {
+              "Type": "Countdown",
+              "Text": "Tekanan waktu sebelum sesuatu (bom, sihir, ritual) terjadi."
+            },
+            {
+              "Type": "SuddenSilence",
+              "Text": "Hilangnya suara mendadak yang menandakan bahaya."
+            },
+            {
+              "Type": "Echo",
+              "Text": "Pengulangan suara/peristiwa yang terasa ganjil atau mistis."
+            },
+            {
+              "Type": "ForeshadowedFailure",
+              "Text": "Kegagalan yang sudah diisyaratkan sebelumnya, akhirnya terjadi."
             }
           ],
           "Notes": "Catatan tambahan untuk AI atau penulis: gaya bahasa spesifik, pacing yang diinginkan, detail sensorik yang harus ditekankan, atau instruksi khusus lainnya untuk adegan ini."
