@@ -1,0 +1,132 @@
+[
+  {
+    "CategoryName": "Militer & Tempur",
+    "Professions": [
+      {"Name": "Prajurit", "Aliases": ["Warrior", "Soldier"]},
+      {"Name": "Kesatria", "Aliases": ["Knight"]},
+      {"Name": "Gladiator"},
+      {"Name": "Legiun", "Aliases": ["Legionnaire"]},
+      {"Name": "Paladin"},
+      {"Name": "Ranger", "Aliases": ["Penjelajah"]},
+      {"Name": "Samurai", "Aliases": ["Ronin"]},
+      {"Name": "Barbar", "Aliases": ["Berserker"]},
+      {"Name": "Assassin", "Aliases": ["Pembunuh Bayangan"]},
+      {"Name": "Duelist", "Aliases": ["Swordsman"]}
+    ],
+    "LevelMastery": "mentok di 5–6, kecuali tokoh spesial."
+  },
+  {
+    "CategoryName": "Sihir & Mistis",
+    "Professions": [
+      {"Name": "Penyihir", "Aliases": ["Mage"]},
+      {"Name": "Penyihir Hitam", "Aliases": ["Warlock"]},
+      {"Name": "Penyihir Putih", "Aliases": ["Cleric"]},
+      {"Name": "Penyihir Elemen", "Aliases": ["Elementalist"], "Subtypes": ["Api", "Es", "Angin", "Petir"]},
+      {"Name": "Necromancer", "Aliases": ["Pengendali Kematian"]},
+      {"Name": "Illusionist", "Aliases": ["Pengendali ilusi"]},
+      {"Name": "Enchanter", "Aliases": ["Pengguna sihir penguat benda"]},
+      {"Name": "Shaman", "Aliases": ["Dukun Roh"]},
+      {"Name": "Druid", "Aliases": ["Penjaga Alam"]},
+      {"Name": "Sorcerer", "Description": "Mengandalkan darah/garis keturunan sihir"}
+    ],
+    "LevelMastery": "rata-rata bisa ke 6–7, legendaris ke 8–9."
+  },
+  {
+    "CategoryName": "Religius & Spiritual",
+    "Professions": [
+      {"Name": "Pendeta", "Aliases": ["Priest"]},
+      {"Name": "Acolyte", "Aliases": ["Pemula keagamaan"]},
+      {"Name": "Biksu", "Aliases": ["Monk"]},
+      {"Name": "Exorcist", "Aliases": ["Pengusir roh/iblis"]},
+      {"Name": "Prophet", "Aliases": ["Nabi"]},
+      {"Name": "Saint", "Aliases": ["Orang suci"]},
+      {"Name": "Inquisitor", "Aliases": ["Pemburu bid’ah/iblis"]}
+    ],
+    "LevelMastery": "bisa tembus 9 karena keajaiban ilahi."
+  },
+  {
+    "CategoryName": "Ilmu, Kerajinan, & Teknologi",
+    "Professions": [
+      {"Name": "Alkemis", "Aliases": ["Alchemist"]},
+      {"Name": "Artificer", "Aliases": ["Pencipta benda sihir/teknologi"]},
+      {"Name": "Runemaster", "Aliases": ["Ahli rune"]},
+      {"Name": "Engineer", "Aliases": ["Teknologi/mesin"]},
+      {"Name": "Inventor"},
+      {"Name": "Scholar", "Aliases": ["Ahli pengetahuan"]},
+      {"Name": "Sejarawan", "Aliases": ["Chronicler"]},
+      {"Name": "Pustakawan Mistis", "Aliases": ["Arcane Librarian"]},
+      {"Name": "Peneliti Kosmik", "Aliases": ["Astromancer"]}
+    ],
+    "LevelMastery": "fisiknya lemah, tapi pengaruhnya besar (relic/teknologi)."
+  },
+  {
+    "CategoryName": "Alam & Survival",
+    "Professions": [
+      {"Name": "Hunter", "Aliases": ["Pemburu"]},
+      {"Name": "Beastmaster", "Aliases": ["Pengendali hewan"]},
+      {"Name": "Tamer", "Aliases": ["Penjinak monster"]},
+      {"Name": "Herbalist", "Aliases": ["Tabib hutan"]},
+      {"Name": "Tracker", "Aliases": ["Pelacak"]},
+      {"Name": "Nomad", "Aliases": ["Wanderer"]},
+      {"Name": "Shepherd", "Aliases": ["Penjaga kawanan"], "Description": "(dengan makna mistis bisa jadi pemanggil roh-hewan)"}
+    ],
+    "LevelMastery": null
+  },
+  {
+    "CategoryName": "Dunia Gelap & Kriminal",
+    "Professions": [
+      {"Name": "Bandit"},
+      {"Name": "Thief", "Aliases": ["Pencuri"]},
+      {"Name": "Pirate", "Aliases": ["Bajak Laut"]},
+      {"Name": "Mercenary", "Aliases": ["Prajurit bayaran"]},
+      {"Name": "Smuggler", "Aliases": ["Penyelundup"]},
+      {"Name": "Spy", "Aliases": ["Mata-mata"]},
+      {"Name": "Shadow Broker", "Aliases": ["penguasa informasi"]},
+      {"Name": "Cultist", "Aliases": ["Pemuja entitas terlarang"]}
+    ],
+    "LevelMastery": "biasanya berhenti di 6–7, tapi berbahaya lewat cara kotor."
+  },
+  {
+    "CategoryName": "Kepemimpinan & Sosial",
+    "Professions": [
+      {"Name": "Raja", "Aliases": ["Ratu"]},
+      {"Name": "Pangeran", "Aliases": ["Putri"]},
+      {"Name": "Kaisar"},
+      {"Name": "Jenderal"},
+      {"Name": "Strategist", "Aliases": ["Taktikus"]},
+      {"Name": "Diplomat"},
+      {"Name": "Merchant", "Aliases": ["Saudagar besar"]},
+      {"Name": "Guildmaster", "Aliases": ["Pemimpin organisasi"]},
+      {"Name": "Noble", "Aliases": ["Bangsa bangsawan"]}
+    ],
+    "LevelMastery": null
+  },
+  {
+    "CategoryName": "Makhluk & Ras Khusus",
+    "Professions": [
+      {"Name": "Elf Archer", "Aliases": ["Elf Mage"]},
+      {"Name": "Dwarf Smith", "Aliases": ["Rune Dwarf"]},
+      {"Name": "Naga", "Aliases": ["Dragonkin", "Dragon Knight"]},
+      {"Name": "Beastkin Warrior", "Aliases": ["Shaman"]},
+      {"Name": "Vampire Lord"},
+      {"Name": "Lycan", "Aliases": ["Manusia Serigala"]},
+      {"Name": "Demonspawn", "Aliases": ["Cambion"]},
+      {"Name": "Angelic Host", "Aliases": ["Paladin surgawi"]}
+    ],
+    "LevelMastery": null
+  },
+  {
+    "CategoryName": "Unik & Fantasi",
+    "Professions": [
+      {"Name": "Bard", "Aliases": ["Penyanyi", "Penyihir musik"]},
+      {"Name": "Storyweaver", "Aliases": ["Penjahit kisah", "bisa mengubah realita lewat cerita"]},
+      {"Name": "Timekeeper", "Aliases": ["Pengendali waktu"]},
+      {"Name": "Dreamwalker", "Aliases": ["Pengelana mimpi"]},
+      {"Name": "Seer", "Aliases": ["Oracle", "Peramal masa depan"]},
+      {"Name": "Relic Keeper", "Aliases": ["Penjaga artefak kuno"]},
+      {"Name": "Cursebearer", "Aliases": ["Pembawa kutukan", "lemah tapi membawa malapetaka"]},
+      {"Name": "Vessel", "Aliases": ["Inang entitas kuat"]}
+    ],
+    "LevelMastery": "fleksibel, bisa tembus batas dunia."
+  }
+]

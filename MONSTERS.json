@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Goblin Hutan",
+    "Description": "Makhluk kecil, hijau, dengan telinga runcing dan sering membawa senjata primitif.",
+    "Habitat": "Hutan lebat, gua-gua kecil, atau reruntuhan kuno.",
+    "Abilities": [
+      {"Name": "Serangan Cakar/Gigi", "Description": "Serangan fisik dasar."},
+      {"Name": "Panggilan Bantuan", "Description": "Dapat memanggil goblin lain di sekitar."}
+    ],
+    "Weaknesses": "Rentan terhadap cahaya terang dan suara keras.",
+    "Behavior": "Cenderung menyerang dalam kelompok, pengecut jika sendirian atau kalah jumlah.",
+    "AdditionalNotes": "Sering mencuri barang-barang berkilau."
+  }
+]
