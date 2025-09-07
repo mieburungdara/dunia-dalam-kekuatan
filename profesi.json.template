@@ -9,5 +9,6 @@
       "Subtypes": ["string"]
     }
   ],
-  "LevelMastery": "string"
+  "LevelMastery": "string",
+  "_WritingGuidelines": "Untuk bidang deskriptif (seperti Description dalam Professions, dan LevelMastery), harap ikuti gaya narasi, nada cerita, dan aturan penulisan (termasuk penjelasan istilah asing) seperti yang dijelaskan dalam CONSISTENCY.json."
 }

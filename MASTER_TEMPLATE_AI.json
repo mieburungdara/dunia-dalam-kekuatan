@@ -1,0 +1,64 @@
+{
+  "ProjectInfo": {
+    "Title": "Dunia dalam Kekuatan",
+    "Description": "Proyek novel fantasi yang berpusat pada Ardan, Gembala Takdir, dan 12 penjaga zodiak.",
+    "Language": "Bahasa Indonesia"
+  },
+  "ConsistencyGuidelines": {
+    "ReferenceFile": "CONSISTENCY.json",
+    "NarrativeStyle": "Orang ketiga terbatas",
+    "Tone": "Serius dengan momen ringan",
+    "ContinuityRules": "Lihat bagian ContinuityRules di CONSISTENCY.json untuk detail aturan umum.",
+    "WorldPhysics": "Lihat bagian WorldPhysics di CONSISTENCY.json untuk detail aturan fisika dunia.",
+    "MagicRules": "Lihat bagian MagicRules di CONSISTENCY.json untuk detail aturan sihir.",
+    "CharacterAbilities": "Lihat bagian CharacterAbilities di CONSISTENCY.json untuk detail aturan kemampuan karakter."
+  },
+  "ContentTemplates": {
+    "ChapterTemplate": {
+      "ReferenceFile": "CHAPTER_PATTERN.md",
+      "Description": "Templat untuk struktur bab/sub-bab cerita."
+    },
+    "SkillTemplate": {
+      "ReferenceFile": "SKILL_PATTERN.md",
+      "Description": "Templat untuk deskripsi skill individu."
+    },
+    "ItemTemplate": {
+      "ReferenceFile": "ITEM_PATTERN.md",
+      "Description": "Templat untuk deskripsi item individu."
+    },
+    "MagicTechniqueTemplate": {
+      "ReferenceFile": "_sihir/teknik/TEKNIK_PATTERN.md",
+      "Description": "Templat untuk deskripsi teknik sihir/mantra."
+    },
+    "MonsterTemplate": {
+      "ReferenceFile": "monsters.json.template",
+      "Description": "Templat untuk definisi monster."
+    },
+    "ProfessionTemplate": {
+      "ReferenceFile": "profesi.json.template",
+      "Description": "Templat untuk definisi profesi."
+    },
+    "FAQTemplate": {
+      "ReferenceFile": "[Belum ada, perlu dibuat]",
+      "Description": "Templat untuk entri FAQ."
+    }
+  },
+  "CharacterGuidelines": {
+    "MainCharacters": {
+      "ReferenceFile": "GUIDE.md",
+      "Description": "Panduan untuk karakter utama (Arga, Bimo, Raka, Mira, Lina)."
+    },
+    "SupportingCharacters": {
+      "ReferenceFile": "KARAKTER_PENDUKUNG.md",
+      "Description": "Panduan untuk karakter pendukung dan figuran."
+    }
+  },
+  "WorldbuildingGuidelines": {
+    "ReferenceFile": "WORLDBUILDING.md",
+    "Description": "Panduan komprehensif untuk mekanika dunia, energi, sihir, faksi, dll."
+  },
+  "ImagePromptPattern": {
+    "ReferenceFile": "IMAGE_PROMPT_PATTERN.md",
+    "Description": "Panduan untuk menghasilkan prompt gambar yang konsisten dengan gaya visual anime."
+  }
+}

@@ -8,5 +8,6 @@
   ],
   "Weaknesses": "string",
   "Behavior": "string",
-  "AdditionalNotes": "string"
+  "AdditionalNotes": "string",
+  "_WritingGuidelines": "Untuk bidang deskriptif (Description, Abilities.Description, Weaknesses, Behavior, AdditionalNotes), harap ikuti gaya narasi, nada cerita, dan aturan penulisan (termasuk penjelasan istilah asing) seperti yang dijelaskan dalam CONSISTENCY.json."
 }
