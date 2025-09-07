@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 2.6 - Pertemuan Tak Terduga
-chapter_title: "02 - Menjelajah Belantara Asing"
+chapter_title: "Chapter 02 - Menjelajah Belantara Asing"
 order: 6
 categories:
   - Menjelajah Belantara Asing

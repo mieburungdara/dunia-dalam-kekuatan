@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 2.2 - Perjalanan Melelahkan
-chapter_title: "02 - Menjelajah Belantara Asing"
+chapter_title: "Chapter 02 - Menjelajah Belantara Asing"
 order: 2
 categories:
   - Menjelajah Belantara Asing

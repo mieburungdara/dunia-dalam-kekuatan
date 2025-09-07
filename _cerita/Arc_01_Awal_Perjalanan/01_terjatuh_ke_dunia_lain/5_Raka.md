@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 1.5 - Insting Seorang Prajurit
-chapter_title: "01 - Terjatuh ke Dunia Lain"
+chapter_title: "Chapter 01 - Terjatuh ke Dunia Lain"
 order: 5
 categories:
   - Terjatuh ke Dunia Lain

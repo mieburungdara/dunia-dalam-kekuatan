@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 2.4 - Pengintaian dan Tanda
-chapter_title: "02 - Menjelajah Belantara Asing"
+chapter_title: "Chapter 02 - Menjelajah Belantara Asing"
 order: 4
 categories:
   - Menjelajah Belantara Asing

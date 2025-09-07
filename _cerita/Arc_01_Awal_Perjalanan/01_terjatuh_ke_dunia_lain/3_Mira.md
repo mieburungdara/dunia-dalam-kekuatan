@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 1.3 - Napas yang Terengah
-chapter_title: "01 - Terjatuh ke Dunia Lain"
+chapter_title: "Chapter 01 - Terjatuh ke Dunia Lain"
 order: 3
 categories:
   - Terjatuh ke Dunia Lain

@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 2.5 - Di Bawah Lindungan Malam
-chapter_title: "02 - Menjelajah Belantara Asing"
+chapter_title: "Chapter 02 - Menjelajah Belantara Asing"
 order: 5
 categories:
   - Menjelajah Belantara Asing

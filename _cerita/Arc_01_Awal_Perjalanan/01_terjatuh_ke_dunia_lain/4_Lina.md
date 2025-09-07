@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 1.4 - Lumpuh oleh Imajinasi
-chapter_title: "01 - Terjatuh ke Dunia Lain"
+chapter_title: "Chapter 01 - Terjatuh ke Dunia Lain"
 order: 4
 categories:
   - Terjatuh ke Dunia Lain

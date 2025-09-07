@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 3.0 - Desa Pertama
-chapter_title: "03 - Desa Pertama"
+chapter_title: "Chapter 03 - Desa Pertama"
 order: 0
 categories:
   - Desa Pertama

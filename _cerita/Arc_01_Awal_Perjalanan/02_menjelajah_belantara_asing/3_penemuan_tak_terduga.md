@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 2.3 - Penemuan Tak Terduga
-chapter_title: "02 - Menjelajah Belantara Asing"
+chapter_title: "Chapter 02 - Menjelajah Belantara Asing"
 order: 3
 categories:
   - Menjelajah Belantara Asing

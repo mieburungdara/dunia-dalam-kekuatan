@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 1.1 - Logika di Tengah Kepanikan
-chapter_title: "01 - Terjatuh ke Dunia Lain"
+chapter_title: "Chapter 01 - Terjatuh ke Dunia Lain"
 order: 1
 categories:
   - Terjatuh ke Dunia Lain

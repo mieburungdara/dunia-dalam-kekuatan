@@ -1,7 +1,7 @@
 ---
 layout: reza
 title: 2.1 - Keputusan untuk Bergerak
-chapter_title: "02 - Menjelajah Belantara Asing"
+chapter_title: "Chapter 02 - Menjelajah Belantara Asing"
 order: 1
 categories:
   - Menjelajah Belantara Asing
