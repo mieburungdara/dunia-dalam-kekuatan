@@ -1,0 +1,27 @@
+{
+  "ID": "string",
+  "Name": "string",
+  "Type": "string",
+  "Rarity": "string",
+  "ShortDescription": "string",
+  "Description": "string",
+  "EffectsAndAttributes": {
+    "Effects": "string",
+    "Attributes": "string"
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "string", "Quantity": "number"}
+    ],
+    "Tools": "string",
+    "Prerequisites": "string"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "string",
+    "Materials": [
+      {"Name": "string", "Quantity": "number"}
+    ],
+    "Effects": "string"
+  },
+  "LoreAndHistory": "string"
+}

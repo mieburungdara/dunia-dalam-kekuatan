@@ -1,0 +1,12 @@
+{
+  "ID": "string",
+  "Name": "string",
+  "Description": "string",
+  "Habitat": "string",
+  "Abilities": [
+    {"Name": "string", "Description": "string"}
+  ],
+  "Weaknesses": "string",
+  "Behavior": "string",
+  "AdditionalNotes": "string"
+}

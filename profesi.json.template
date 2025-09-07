@@ -1,0 +1,13 @@
+{
+  "CategoryName": "string",
+  "Professions": [
+    {
+      "ID": "string",
+      "Name": "string",
+      "Aliases": ["string"],
+      "Description": "string",
+      "Subtypes": ["string"]
+    }
+  ],
+  "LevelMastery": "string"
+}

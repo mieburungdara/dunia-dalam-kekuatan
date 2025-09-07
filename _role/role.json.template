@@ -1,0 +1,21 @@
+{
+  "Name": "string",
+  "GeneralDescription": "string",
+  "Requirements": "string",
+  "TypicalAbilities": [
+    {"Name": "string", "Description": "string"}
+  ],
+  "TypicalEquipment": ["string"],
+  "SocialRole": ["string"],
+  "Specializations": ["string"],
+  "FamousFigures": ["string"],
+  "AdditionalNotes": "string",
+  "ProgressionLevels": [
+    {
+      "ID": "string",
+      "LevelName": "string",
+      "Description": "string",
+      "Abilities": ["string"]
+    }
+  ]
+}

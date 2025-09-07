@@ -1,0 +1,14 @@
+{
+  "Title": "string",
+  "Levels": [
+    {
+      "ID": "string",
+      "LevelNumber": "number",
+      "LevelName": "string",
+      "Control": "string",
+      "Scale": "string",
+      "Understanding": "string",
+      "Influence": "string"
+    }
+  ]
+}

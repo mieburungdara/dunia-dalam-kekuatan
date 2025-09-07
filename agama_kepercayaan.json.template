@@ -1,0 +1,11 @@
+{
+  "ID": "string",
+  "Name": "string",
+  "Description": "string",
+  "Origin": "string",
+  "DeityOrEntity": "string",
+  "PracticesAndRituals": "string",
+  "Followers": "string",
+  "InfluenceInWorld": "string",
+  "AdditionalNotes": "string"
+}

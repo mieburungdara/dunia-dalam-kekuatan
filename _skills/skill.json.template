@@ -1,0 +1,29 @@
+{
+  "ID": "string",
+  "Name": "string",
+  "Category": "string",
+  "ShortDescription": "string",
+  "Description": "string",
+  "Mechanism": {
+    "Activation": "string",
+    "Cost": "string",
+    "Range": "string",
+    "Duration": "string",
+    "Prerequisites": "string"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "string",
+    "Weaknesses": "string"
+  },
+  "Evolution": {
+    "Novice": "string",
+    "Adept": "string",
+    "Master": "string",
+    "Ascendant": "string"
+  },
+  "SynergyAndConflict": {
+    "Synergy": "string",
+    "Conflict": "string"
+  },
+  "LoreAndHistory": "string"
+}
