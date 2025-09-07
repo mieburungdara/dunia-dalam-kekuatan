@@ -31,7 +31,9 @@
     "MBTI": "INTJ",
     "Status": "Pendatang dari Dunia Lain (Mahasiswa)",
     "Origin": "Bumi",
-    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Mengubah pandangan hidup, memicu pencarian jalan pulang"}, {"Event": "Bertemu Bimo, Raka, Mira, Lina", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membentuk kelompok, mulai merasa bertanggung jawab"}]
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Mengubah pandangan hidup, memicu pencarian jalan pulang"}, {"Event": "Bertemu Bimo, Raka, Mira, Lina", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membentuk kelompok, mulai merasa bertanggung jawab"}],
+    "Goals": ["Menemukan cara kembali ke Bumi", "Melindungi kelompoknya", "Memahami misteri Eryndor"],
+    "Obstacles": ["Kurangnya pengetahuan tentang Eryndor", "Sifat skeptisnya sendiri", "Ancaman dari faksi yang tidak dikenal"]
   },
   {
     "ID": 2,
@@ -65,7 +67,9 @@
     "MBTI": "ENFP",
     "Status": "Pendatang dari Dunia Lain (Pelajar)",
     "Origin": "Bumi",
-    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Memaksa keluar dari zona nyaman, memicu adaptasi"}, {"Event": "Pertarungan pertama dengan monster", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menyadari bahaya dunia baru, memicu pengembangan insting"}]
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Memaksa keluar dari zona nyaman, memicu adaptasi"}, {"Event": "Pertarungan pertama dengan monster", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menyadari bahaya dunia baru, memicu pengembangan insting"}],
+    "Goals": ["Bertahan hidup dengan nyaman", "Menemukan petualangan seru", "Membuktikan dirinya berguna"],
+    "Obstacles": ["Sifat malas dan ceroboh", "Mudah terdistraksi", "Kurangnya pengalaman tempur"]
   },
   {
     "ID": 3,
@@ -99,7 +103,9 @@
     "MBTI": "ISFJ",
     "Status": "Pendatang dari Dunia Lain (Mantan Tentara)",
     "Origin": "Bumi",
-    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membuka kembali trauma masa lalu, memicu naluri pelindung"}, {"Event": "Melindungi kelompok dari bahaya", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menemukan tujuan baru, mulai menyembuhkan trauma"}]
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membuka kembali trauma masa lalu, memicu naluri pelindung"}, {"Event": "Melindungi kelompok dari bahaya", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menemukan tujuan baru, mulai menyembuhkan trauma"}],
+    "Goals": ["Melindungi teman-temannya", "Menebus kesalahan masa lalu", "Mencari kedamaian batin"],
+    "Obstacles": ["Trauma masa lalu", "Sulit membuka diri", "Musuh yang kuat"]
   },
   {
     "ID": 4,
@@ -133,7 +139,9 @@
     "MBTI": "ESTJ",
     "Status": "Pendatang dari Dunia Lain (Mahasiswi Kedokteran)",
     "Origin": "Bumi",
-    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Menguji pengetahuan medis, memicu pengembangan kemampuan penyembuhan"}, {"Event": "Menyembuhkan anggota kelompok", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Meningkatkan kepercayaan diri, memperkuat ikatan kelompok"}]
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Menguji pengetahuan medis, memicu pengembangan kemampuan penyembuhan"}, {"Event": "Menyembuhkan anggota kelompok", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Meningkatkan kepercayaan diri, memperkuat ikatan kelompok"}],
+    "Goals": ["Menggunakan pengetahuannya untuk membantu", "Membuktikan kemampuannya sebagai penyembuh", "Mengatasi rasa takutnya"],
+    "Obstacles": ["Perfeksionisme berlebihan", "Rasa takut akan kegagalan", "Keterbatasan sumber daya medis di Eryndor"]
   },
   {
     "ID": 5,
@@ -167,7 +175,9 @@
     "MBTI": "INFP",
     "Status": "Pendatang dari Dunia Lain (Pelajar)",
     "Origin": "Bumi",
-    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Menghadapi kenyataan pahit, memicu pengembangan sihir"}, {"Event": "Menggunakan sihir untuk pertama kali", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menyadari potensi diri, mulai mengatasi ketakutan"}]
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Menghadapi kenyataan pahit, memicu pengembangan sihir"}, {"Event": "Menggunakan sihir untuk pertama kali", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menyadari potensi diri, mulai mengatasi ketakutan"}],
+    "Goals": ["Menemukan kenyamanan dan kemudahan", "Menguasai sihirnya", "Kembali ke kehidupan normal"],
+    "Obstacles": ["Sifat manja dan mudah panik", "Lingkungan Eryndor yang keras", "Kurangnya kepercayaan diri"]
   },
   {
     "ID": 6,
@@ -201,7 +211,9 @@
     "MBTI": null,
     "Status": "Warga Desa (Sesepuh)",
     "Origin": "Desa Terpencil di Eryndor",
-    "KeyEvents": []
+    "KeyEvents": [],
+    "Goals": ["Melindungi desanya dari ancaman", "Membantu para pendatang baru"],
+    "Obstacles": ["Usia tua", "Keterbatasan fisik", "Ketakutan akan ancaman tak terlihat"]
   },
   {
     "ID": 7,
@@ -235,7 +247,9 @@
     "MBTI": null,
     "Status": "Pemimpin Desa",
     "Origin": "Desa Terpencil di Eryndor",
-    "KeyEvents": []
+    "KeyEvents": [],
+    "Goals": ["Menjaga keamanan dan kesejahteraan desa", "Mempertahankan tradisi desa"],
+    "Obstacles": ["Ancaman dari luar", "Skeptisisme terhadap hal baru", "Keterbatasan sumber daya desa"]
   },
   {
     "ID": 8,
@@ -269,7 +283,9 @@
     "MBTI": null,
     "Status": "Pedagang Bebas",
     "Origin": "Berbagai Wilayah di Eryndor",
-    "KeyEvents": []
+    "KeyEvents": [],
+    "Goals": ["Mencari keuntungan", "Mengumpulkan informasi dan rumor", "Menjelajahi dunia"],
+    "Obstacles": ["Persaingan dagang", "Bahaya perjalanan", "Informasi yang tidak akurat"]
   },
   {
     "ID": 9,
@@ -303,7 +319,9 @@
     "MBTI": null,
     "Status": "Warga Desa (Anak-anak)",
     "Origin": "Desa Terpencil di Eryndor",
-    "KeyEvents": []
+    "KeyEvents": [],
+    "Goals": ["Bermain", "Menjelajahi lingkungan sekitar", "Membantu orang dewasa"],
+    "Obstacles": ["Larangan orang tua", "Bahaya di luar desa", "Keterbatasan fisik anak-anak"]
   },
   {
     "ID": 10,
@@ -337,6 +355,8 @@
     "MBTI": null,
     "Status": "Warga Desa (Penjaga)",
     "Origin": "Desa Terpencil di Eryndor",
-    "KeyEvents": []
+    "KeyEvents": [],
+    "Goals": ["Menjaga keamanan gerbang", "Melindungi desa dari ancaman"],
+    "Obstacles": ["Ancaman tak terduga", "Kelelahan", "Kurangnya bantuan"]
   }
 ]
