@@ -28,7 +28,9 @@
     "Voice": "Tenang, logis, kadang terdengar sedikit merendahkan atau terlalu analitis.",
     "Flaws": ["Terlalu mengandalkan logika, sulit memahami emosi orang lain", "Cenderung menyendiri", "Perfeksionis"],
     "Zodiac": "Virgo",
-    "MBTI": "INTJ"
+    "MBTI": "INTJ",
+    "Status": "Pendatang dari Dunia Lain (Mahasiswa)",
+    "Origin": "Bumi"
   },
   {
     "ID": 2,
@@ -59,7 +61,9 @@
     "Voice": "Ceria, santai, sering menggunakan slang atau istilah game, kadang terdengar malas.",
     "Flaws": ["Cenderung menghindari tanggung jawab", "Mudah terdistraksi", "Kurang disiplin"],
     "Zodiac": "Sagittarius",
-    "MBTI": "ENFP"
+    "MBTI": "ENFP",
+    "Status": "Pendatang dari Dunia Lain (Pelajar)",
+    "Origin": "Bumi"
   },
   {
     "ID": 3,
@@ -90,7 +94,9 @@
     "Voice": "Dalam, tenang, jarang berbicara, kata-katanya singkat tapi penuh makna.",
     "Flaws": ["Terlalu protektif", "Sulit mempercayai orang baru", "Cenderung memendam masalah sendiri"],
     "Zodiac": "Taurus",
-    "MBTI": "ISFJ"
+    "MBTI": "ISFJ",
+    "Status": "Pendatang dari Dunia Lain (Mantan Tentara)",
+    "Origin": "Bumi"
   },
   {
     "ID": 4,
@@ -121,7 +127,9 @@
     "Voice": "Lembut, teratur, kadang terdengar cemas atau terlalu hati-hati, namun bisa tegas saat dibutuhkan.",
     "Flaws": ["Perfeksionis berlebihan", "Terlalu penakut", "Sulit menerima kritik"],
     "Zodiac": "Capricorn",
-    "MBTI": "ESTJ"
+    "MBTI": "ESTJ",
+    "Status": "Pendatang dari Dunia Lain (Mahasiswi Kedokteran)",
+    "Origin": "Bumi"
   },
   {
     "ID": 5,
@@ -152,7 +160,9 @@
     "Voice": "Bernada tinggi, sering mengeluh, sarkastik, kadang terdengar manja atau panik.",
     "Flaws": ["Manja", "Egois (terkadang)", "Mudah panik", "Tidak suka kotor"],
     "Zodiac": "Pisces",
-    "MBTI": "INFP"
+    "MBTI": "INFP",
+    "Status": "Pendatang dari Dunia Lain (Pelajar)",
+    "Origin": "Bumi"
   },
   {
     "ID": 6,
@@ -183,7 +193,9 @@
     "Voice": "Serak, bijaksana, sering berbicara dalam teka-teki atau perumpamaan kuno.",
     "Flaws": ["Terlalu percaya takhayul", "Cenderung pesimis", "Sulit beradaptasi dengan perubahan"],
     "Zodiac": null,
-    "MBTI": null
+    "MBTI": null,
+    "Status": "Warga Desa (Sesepuh)",
+    "Origin": "Desa Terpencil di Eryndor"
   },
   {
     "ID": 7,
@@ -214,7 +226,9 @@
     "Voice": "Tegas, berwibawa, pragmatis, kadang terdengar lelah atau khawatir.",
     "Flaws": ["Terlalu berhati-hati", "Sulit mengambil risiko", "Cenderung mengabaikan hal-hal non-praktis"],
     "Zodiac": null,
-    "MBTI": null
+    "MBTI": null,
+    "Status": "Pemimpin Desa",
+    "Origin": "Desa Terpencil di Eryndor"
   },
   {
     "ID": 8,
@@ -245,7 +259,9 @@
     "Voice": "Ceria, bersemangat, banyak bicara, sering melebih-lebihkan cerita.",
     "Flaws": ["Tidak selalu jujur", "Cenderung serakah", "Suka bergosip"],
     "Zodiac": null,
-    "MBTI": null
+    "MBTI": null,
+    "Status": "Pedagang Bebas",
+    "Origin": "Berbagai Wilayah di Eryndor"
   },
   {
     "ID": 9,
@@ -276,7 +292,9 @@
     "Voice": "Polos, penasaran, kadang berbisik atau berteriak saat bermain.",
     "Flaws": ["Terlalu ingin tahu", "Cenderung ceroboh", "Mudah terpengaruh"],
     "Zodiac": null,
-    "MBTI": null
+    "MBTI": null,
+    "Status": "Warga Desa (Anak-anak)",
+    "Origin": "Desa Terpencil di Eryndor"
   },
   {
     "ID": 10,
@@ -307,6 +325,8 @@
     "Voice": "Monoton, patuh, singkat dan padat.",
     "Flaws": ["Terlalu kaku pada aturan", "Kurang inisiatif", "Sulit berpikir di luar kotak"],
     "Zodiac": null,
-    "MBTI": null
+    "MBTI": null,
+    "Status": "Warga Desa (Penjaga)",
+    "Origin": "Desa Terpencil di Eryndor"
   }
 ]
