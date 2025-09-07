@@ -5,6 +5,14 @@ chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 2
 categories:
   - Terjatuh ke Dunia Lain
+POV_Character: Bimo (ID: 2)
+Location: Tepi Sungai Jernih (ID: L002)
+TimeOfDay: Pagi
+KeyEvents:
+  - Bimo jatuh ke dunia lain
+  - Pertemuan pertama dengan goblin
+  - Bimo melarikan diri
+Summary: Bimo, seorang gamer yang ceria, terbangun di tepi sungai asing dan mengira dunia baru ini adalah game. Ia menghadapi goblin dengan gaya bermainnya sebelum akhirnya melarikan diri.
 ---
 # Sudut Pandang: Bimo
 

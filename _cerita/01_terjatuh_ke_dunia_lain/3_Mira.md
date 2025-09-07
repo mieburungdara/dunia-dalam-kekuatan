@@ -5,6 +5,14 @@ chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 3
 categories:
   - Terjatuh ke Dunia Lain
+POV_Character: Mira (ID: 4)
+Location: Padang Rumput Asing (ID: L003)
+TimeOfDay: Pagi
+KeyEvents:
+  - Mira jatuh ke dunia lain
+  - Pertemuan pertama dengan goblin
+  - Mira melarikan diri
+Summary: Mira, seorang mahasiswi kedokteran yang perfeksionis, terbangun di padang rumput asing dan harus menghadapi ketakutannya saat dikejar goblin. Ia melarikan diri menuju suara teriakan Bimo.
 ---
 # Sudut Pandang: Mira
 

@@ -5,6 +5,14 @@ chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 5
 categories:
   - Terjatuh ke Dunia Lain
+POV_Character: Raka (ID: 3)
+Location: Reruntuhan Kuno (ID: L005)
+TimeOfDay: Pagi
+KeyEvents:
+  - Raka jatuh ke dunia lain
+  - Pertemuan pertama dengan goblin
+  - Raka bertarung dan melarikan diri
+Summary: Raka, seorang mantan prajurit, terbangun di reruntuhan kuno dan langsung menggunakan insting tempurnya untuk melawan goblin, sebelum akhirnya mencari jalan keluar.
 ---
 # Sudut Pandang: Raka
 

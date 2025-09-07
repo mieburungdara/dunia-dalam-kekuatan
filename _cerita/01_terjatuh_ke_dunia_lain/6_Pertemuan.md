@@ -5,6 +5,15 @@ chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 6
 categories:
   - Terjatuh ke Dunia Lain
+POV_Character: All (IDs: 1, 2, 3, 4, 5)
+Location: Reruntuhan Kuno (ID: L005)
+TimeOfDay: Pagi
+KeyEvents:
+  - Pertemuan kelima karakter utama
+  - Pertarungan kacau melawan goblin
+  - Goblin mundur secara misterius
+  - Kekuatan misterius muncul
+Summary: Kelima karakter utama (Arga, Bimo, Raka, Mira, Lina) akhirnya bertemu di reruntuhan kuno dan menghadapi serangan goblin. Setelah pertarungan kacau, goblin mundur secara misterius, dan sebuah kekuatan tak terlihat berdenyut di antara mereka, menandai awal petualangan bersama.
 ---
 # Pertemuan di Reruntuhan
 

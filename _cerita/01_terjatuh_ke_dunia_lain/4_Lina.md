@@ -5,6 +5,14 @@ chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 4
 categories:
   - Terjatuh ke Dunia Lain
+POV_Character: Lina (ID: 5)
+Location: Bawah Akar Pohon Raksasa (ID: L004)
+TimeOfDay: Pagi
+KeyEvents:
+  - Lina jatuh ke dunia lain
+  - Pertemuan pertama dengan goblin
+  - Lina melarikan diri
+Summary: Lina, seorang siswi SMA yang perfeksionis dan manja, terbangun di bawah akar pohon raksasa dan harus menghadapi kengerian dunia baru yang kotor dan tidak teratur, sebelum melarikan diri dari goblin.
 ---
 # Sudut Pandang: Lina
 

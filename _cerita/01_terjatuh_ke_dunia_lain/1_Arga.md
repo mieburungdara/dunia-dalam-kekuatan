@@ -5,6 +5,14 @@ chapter_title: "01 - Terjatuh ke Dunia Lain"
 order: 1
 categories:
   - Terjatuh ke Dunia Lain
+POV_Character: Arga (ID: 1)
+Location: Hutan Asing (ID: L001)
+TimeOfDay: Pagi
+KeyEvents:
+  - Arga jatuh ke dunia lain
+  - Pertemuan pertama dengan goblin
+  - Arga melarikan diri
+Summary: Arga, seorang mahasiswa teknik yang rasional, terbangun di hutan asing dan harus menggunakan logikanya untuk melarikan diri dari serangan goblin.
 ---
 # Sudut Pandang: Arga
 
