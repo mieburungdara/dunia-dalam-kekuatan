@@ -36,7 +36,9 @@
           "Contents": [
             {
               "Type": "Exposition",
-              "Text": "Latar cerita, sejarah, atau worldbuilding yang relevan dengan adegan ini. Gunakan untuk memberikan informasi latar belakang atau konteks."
+              "Text": "Latar cerita, sejarah, atau worldbuilding yang relevan dengan adegan ini. Gunakan untuk memberikan informasi latar belakang atau konteks.",
+              "Topic": "WorldHistory",
+              "Method": "Narration"
             },
             {
               "Type": "Atmosphere",
@@ -52,7 +54,9 @@
                 "Name": "Nama Karakter Pelaku",
                 "ID": "ID Karakter Pelaku"
               },
-              "Text": "Deskripsi tindakan fisik karakter atau peristiwa yang terjadi."
+              "Text": "Deskripsi tindakan fisik karakter atau peristiwa yang terjadi.",
+              "Target": "ID Karakter/Objek",
+              "Outcome": "Success"
             },
             {
               "Type": "Dialogue",
@@ -60,7 +64,9 @@
                 "Name": "Nama Karakter Pembicara",
                 "ID": "ID Karakter Pembicara"
               },
-              "Line": "Kalimat dialog yang diucapkan."
+              "Line": "Kalimat dialog yang diucapkan.",
+              "Recipient": "ID Karakter",
+              "Tone": "Angry"
             },
             {
               "Type": "InnerThought",
@@ -68,19 +74,27 @@
                 "Name": "Nama Karakter yang Berpikir",
                 "ID": "ID Karakter yang Berpikir"
               },
-              "Text": "Isi hati, pikiran batin, atau refleksi internal karakter."
+              "Text": "Isi hati, pikiran batin, atau refleksi internal karakter.",
+              "Theme": "Doubt",
+              "Trigger": "Event"
             },
             {
               "Type": "Emotion",
-              "Text": "Deskripsi emosi spesifik yang dirasakan karakter."
+              "Text": "Deskripsi emosi spesifik yang dirasakan karakter.",
+              "Character": "ID Karakter",
+              "Intensity": "Medium"
             },
             {
               "Type": "Clue",
-              "Text": "Petunjuk atau informasi penting yang ditemukan atau diungkapkan dalam adegan."
+              "Text": "Petunjuk atau informasi penting yang ditemukan atau diungkapkan dalam adegan.",
+              "Source": "Object",
+              "Relevance": "Major"
             },
             {
               "Type": "Conflict",
-              "Text": "Deskripsi ketegangan, pertarungan, atau konflik yang muncul."
+              "Text": "Deskripsi ketegangan, pertarungan, atau konflik yang muncul.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Nature": "Physical"
             },
             {
               "Type": "Decision",
@@ -88,7 +102,9 @@
                 "Name": "Nama Karakter Pembuat Keputusan",
                 "ID": "ID Karakter Pembuat Keputusan"
               },
-              "Text": "Pilihan penting yang dibuat oleh karakter, dengan implikasi naratif."
+              "Text": "Pilihan penting yang dibuat oleh karakter, dengan implikasi naratif.",
+              "Options": ["Pilihan 1", "Pilihan 2"],
+              "Consequence": "Immediate"
             },
             {
               "Type": "Transition",
@@ -108,7 +124,9 @@
                 "Name": "Nama Karakter yang Mengalami Visi",
                 "ID": "ID Karakter yang Mengalami Visi"
               },
-              "Text": "Penglihatan, ilusi, atau pengalaman visual/sensorik non-realistis yang dialami karakter."
+              "Text": "Penglihatan, ilusi, atau pengalaman visual/sensorik non-realistis yang dialami karakter.",
+              "Source": "Magic",
+              "Clarity": "Clear"
             },
             {
               "Type": "NarratorNote",
@@ -132,15 +150,21 @@
             },
             {
               "Type": "Prophecy",
-              "Text": "Ramalan, bisikan, atau nubuat yang relevan dengan masa depan cerita, bisa diucapkan atau ditemukan."
+              "Text": "Ramalan, bisikan, atau nubuat yang relevan dengan masa depan cerita, bisa diucapkan atau ditemukan.",
+              "Source": "AncientText",
+              "Subject": "CharacterFate"
             },
             {
               "Type": "Dream",
-              "Text": "Mimpi yang dialami karakter, bisa realistik atau surreal, dengan potensi makna tersembunyi."
+              "Text": "Mimpi yang dialami karakter, bisa realistik atau surreal, dengan potensi makna tersembunyi.",
+              "Character": "ID Karakter",
+              "Interpretation": "Symbolic"
             },
             {
               "Type": "Hallucination",
-              "Text": "Halusinasi yang dialami karakter karena rasa takut, kelelahan, atau pengaruh sihir/zat."
+              "Text": "Halusinasi yang dialami karakter karena rasa takut, kelelahan, atau pengaruh sihir/zat.",
+              "Character": "ID Karakter",
+              "Cause": "Fear"
             },
             {
               "Type": "ItemDiscovery",
@@ -152,7 +176,9 @@
             },
             {
               "Type": "MysteryEvent",
-              "Text": "Kejadian aneh atau tak terjelaskan yang menjadi misteri dan memicu rasa ingin tahu."
+              "Text": "Kejadian aneh atau tak terjelaskan yang menjadi misteri dan memicu rasa ingin tahu.",
+              "Impact": "Significant",
+              "ResolutionStatus": "Unresolved"
             },
             {
               "Type": "Training",
@@ -164,159 +190,240 @@
             },
             {
               "Type": "Strategy",
-              "Text": "Perencanaan atau diskusi strategi sebelum aksi atau pertarungan besar."
+              "Text": "Perencanaan atau diskusi strategi sebelum aksi atau pertarungan besar.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Target": "Battle"
             },
             {
               "Type": "Debate",
-              "Text": "Perbedaan pendapat atau argumen antar karakter yang lebih bersifat intelektual daripada konflik emosional."
+              "Text": "Perbedaan pendapat atau argumen antar karakter yang lebih bersifat intelektual daripada konflik emosional.",
+              "Participants": ["ID Karakter"],
+              "Topic": "Moral"
             },
             {
               "Type": "Reveal",
-              "Text": "Pengungkapan rahasia penting, kebenaran, atau informasi krusial."
+              "Text": "Pengungkapan rahasia penting, kebenaran, atau informasi krusial.",
+              "Subject": "CharacterSecret",
+              "Impact": "Major"
             },
             {
               "Type": "Alliance",
-              "Text": "Terbentuknya ikatan, perjanjian, atau kerja sama baru antar karakter/faksi."
+              "Text": "Terbentuknya ikatan, perjanjian, atau kerja sama baru antar karakter/faksi.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Terms": "MutualBenefit"
             },
             {
               "Type": "Celebration",
-              "Text": "Deskripsi perayaan, festival, atau pesta yang terjadi dalam cerita."
+              "Text": "Deskripsi perayaan, festival, atau pesta yang terjadi dalam cerita.",
+              "Reason": "Victory",
+              "Participants": "Community"
             },
             {
               "Type": "LetterOrMessage",
-              "Text": "Isi surat, catatan, atau pesan yang ditemukan atau dikirim, dengan konteksnya."
+              "Text": "Isi surat, catatan, atau pesan yang ditemukan atau dikirim, dengan konteksnya.",
+              "Sender": "ID Karakter",
+              "Recipient": "ID Karakter",
+              "Medium": "Letter"
             },
             {
               "Type": "Rumor",
-              "Text": "Desas-desus atau gosip yang beredar dan memengaruhi persepsi dunia atau karakter."
+              "Text": "Desas-desus atau gosip yang beredar dan memengaruhi persepsi dunia atau karakter.",
+              "Subject": "Character",
+              "Truthfulness": "PartiallyTrue"
             },
             {
               "Type": "MoralReflection",
-              "Text": "Renungan karakter tentang etika, benar-salah, atau makna hidup."
+              "Text": "Renungan karakter tentang etika, benar-salah, atau makna hidup.",
+              "Character": "ID Karakter",
+              "Topic": "Justice"
             },
             {
               "Type": "ComicRelief",
-              "Text": "Momen ringan atau lucu yang bertujuan untuk mencairkan suasana tegang."
+              "Text": "Momen ringan atau lucu yang bertujuan untuk mencairkan suasana tegang.",
+              "CharactersInvolved": ["ID Karakter"],
+              "Method": "Dialogue"
             },
             {
               "Type": "Injury",
-              "Text": "Fokus pada luka fisik atau mental yang dialami karakter, dengan detail dampaknya."
+              "Text": "Fokus pada luka fisik atau mental yang dialami karakter, dengan detail dampaknya.",
+              "Character": "ID Karakter",
+              "Severity": "Serious",
+              "Type": "Physical"
             },
             {
               "Type": "Recovery",
-              "Text": "Proses penyembuhan karakter, baik fisik maupun emosional, setelah mengalami cedera atau trauma."
+              "Text": "Proses penyembuhan karakter, baik fisik maupun emosional, setelah mengalami cedera atau trauma.",
+              "Character": "ID Karakter",
+              "Method": "MagicalHealing"
             },
             {
               "Type": "RelationshipShift",
-              "Text": "Perubahan status atau dinamika hubungan antar karakter (misal: dari musuh jadi sekutu, dari teman jadi kekasih)."
+              "Text": "Perubahan status atau dinamika hubungan antar karakter (misal: dari musuh jadi sekutu, dari teman jadi kekasih).",
+              "CharactersInvolved": ["ID Karakter"],
+              "NatureOfShift": "EnemiesToAllies"
             },
             {
               "Type": "Negotiation",
-              "Text": "Dialog diplomatis, barter, atau tawar-menawar antar pihak."
+              "Text": "Dialog diplomatis, barter, atau tawar-menawar antar pihak.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Outcome": "Compromise"
             },
             {
               "Type": "FoilMoment",
-              "Text": "Adegan di mana sifat kontras antar karakter ditonjolkan untuk menyoroti perbedaan mereka."
+              "Text": "Adegan di mana sifat kontras antar karakter ditonjolkan untuk menyoroti perbedaan mereka.",
+              "CharactersInvolved": ["ID Karakter"],
+              "ContrastAspect": "Personality"
             },
             {
               "Type": "Omens",
-              "Text": "Tanda alam atau fenomena yang dianggap membawa makna mistis atau pertanda."
+              "Text": "Tanda alam atau fenomena yang dianggap membawa makna mistis atau pertanda.",
+              "Nature": "NaturalPhenomenon",
+              "Interpretation": "Ambiguous"
             },
             {
               "Type": "Ambush",
-              "Text": "Serangan mendadak yang tidak terduga."
+              "Text": "Serangan mendadak yang tidak terduga.",
+              "Attackers": ["ID Karakter/Faksi"],
+              "Victims": ["ID Karakter/Faksi"]
             },
             {
               "Type": "Chase",
-              "Text": "Adegan kejar-kejaran (manusia, binatang, atau kendaraan)."
+              "Text": "Adegan kejar-kejaran (manusia, binatang, atau kendaraan).",
+              "Pursuers": ["ID Karakter/Faksi"],
+              "Fleeing": ["ID Karakter/Faksi"]
             },
             {
               "Type": "Hideout",
-              "Text": "Momen ketika karakter bersembunyi atau menemukan tempat persembunyian."
+              "Text": "Momen ketika karakter bersembunyi atau menemukan tempat persembunyian.",
+              "Character": "ID Karakter",
+              "Purpose": "Escape"
             },
             {
               "Type": "Discovery",
-              "Text": "Penemuan kebenaran besar yang mengubah pemahaman karakter."
+              "Text": "Penemuan kebenaran besar yang mengubah pemahaman karakter.",
+              "Character": "ID Karakter",
+              "Subject": "WorldTruth"
             },
             {
               "Type": "Exposure",
-              "Text": "Karakter atau rahasia yang tersembunyi akhirnya terungkap."
+              "Text": "Karakter atau rahasia yang tersembunyi akhirnya terungkap.",
+              "Subject": "Character",
+              "Revealer": "ID Karakter/Faksi"
             },
             {
               "Type": "Sabotage",
-              "Text": "Penghancuran rencana/lokasi oleh musuh secara diam-diam."
+              "Text": "Penghancuran rencana/lokasi oleh musuh secara diam-diam.",
+              "Saboteur": "ID Karakter/Faksi",
+              "Target": "Plan"
             },
             {
               "Type": "Collaboration",
-              "Text": "Kerja sama erat antar karakter yang biasanya tidak cocok."
+              "Text": "Kerja sama erat antar karakter yang biasanya tidak cocok.",
+              "Participants": ["ID Karakter"],
+              "Goal": "CommonEnemy"
             },
             {
               "Type": "RitualSuccess",
-              "Text": "Ritual/upacara berhasil dengan hasil signifikan."
+              "Text": "Ritual/upacara berhasil dengan hasil signifikan.",
+              "RitualType": "Healing",
+              "Outcome": "Positive"
             },
             {
               "Type": "Overheard",
-              "Text": "Karakter mendengar percakapan rahasia tanpa disengaja."
+              "Text": "Karakter mendengar percakapan rahasia tanpa disengaja.",
+              "Listener": "ID Karakter",
+              "ContentSummary": "Ringkasan isi percakapan"
             },
             {
               "Type": "Coincidence",
-              "Text": "Kebetulan yang mengubah jalannya cerita."
+              "Text": "Kebetulan yang mengubah jalannya cerita.",
+              "Impact": "Major",
+              "Nature": "Fortuitous"
             },
             {
               "Type": "Lost",
-              "Text": "Karakter tersesat, baik fisik maupun batin."
+              "Text": "Karakter tersesat, baik fisik maupun batin.",
+              "Character": "ID Karakter",
+              "Type": "Physical"
             },
             {
               "Type": "Guidance",
-              "Text": "Kemunculan mentor, guru, atau tanda yang membantu."
+              "Text": "Kemunculan mentor, guru, atau tanda yang membantu.",
+              "Character": "ID Karakter",
+              "Source": "Mentor"
             },
             {
               "Type": "Conspiracy",
-              "Text": "Pengungkapan jaringan atau rencana tersembunyi yang luas."
+              "Text": "Pengungkapan jaringan atau rencana tersembunyi yang luas.",
+              "Subject": "Political",
+              "Scope": "Global"
             },
             {
               "Type": "Duel",
-              "Text": "Pertarungan satu lawan satu yang intens."
+              "Text": "Pertarungan satu lawan satu yang intens.",
+              "Participants": ["ID Karakter"],
+              "Outcome": "Victory"
             },
             {
               "Type": "MassBattle",
-              "Text": "Pertempuran besar melibatkan banyak pihak."
+              "Text": "Pertempuran besar melibatkan banyak pihak.",
+              "FactionsInvolved": ["ID Faksi"],
+              "Outcome": "Victory"
             },
             {
               "Type": "Infiltration",
-              "Text": "Penyusupan ke wilayah musuh atau lokasi berbahaya."
+              "Text": "Penyusupan ke wilayah musuh atau lokasi berbahaya.",
+              "Infiltrator": "ID Karakter/Grup",
+              "TargetLocation": "ID Lokasi"
             },
             {
               "Type": "Sabda",
-              "Text": "Suara gaib atau wahyu yang hanya didengar karakter tertentu."
+              "Text": "Suara gaib atau wahyu yang hanya didengar karakter tertentu.",
+              "Character": "ID Karakter",
+              "Source": "Deity"
             },
             {
               "Type": "Haunting",
-              "Text": "Gangguan roh, kenangan, atau hal gaib yang menghantui karakter."
+              "Text": "Gangguan roh, kenangan, atau hal gaib yang menghantui karakter.",
+              "Character": "ID Karakter",
+              "Source": "Ghost"
             },
             {
               "Type": "Collapse",
-              "Text": "Runtuhnya struktur (bangunan, gua, jembatan) yang memengaruhi alur."
+              "Text": "Runtuhnya struktur (bangunan, gua, jembatan) yang memengaruhi alur.",
+              "Location": "ID Lokasi",
+              "Cause": "Natural"
             },
             {
               "Type": "Exile",
-              "Text": "Pengusiran karakter dari kelompok/tempat."
+              "Text": "Pengusiran karakter dari kelompok/tempat.",
+              "Character": "ID Karakter",
+              "Reason": "Crime"
             },
             {
               "Type": "Reconciliation",
-              "Text": "Penyatuan kembali hubungan yang sebelumnya pecah."
+              "Text": "Penyatuan kembali hubungan yang sebelumnya pecah.",
+              "CharactersInvolved": ["ID Karakter"],
+              "Reason": "Forgiveness"
             },
             {
               "Type": "WarningIgnored",
-              "Text": "Karakter menolak memperhatikan peringatan, dengan konsekuensi."
+              "Text": "Karakter menolak memperhatikan peringatan, dengan konsekuensi.",
+              "Character": "ID Karakter",
+              "WarningSource": "ID Karakter/Entitas"
             },
             {
               "Type": "IdentityReveal",
-              "Text": "Pengungkapan identitas asli seseorang."
+              "Text": "Pengungkapan identitas asli seseorang.",
+              "Character": "ID Karakter",
+              "Revealer": "ID Karakter/Entitas"
             },
             {
               "Type": "SwitchSides",
-              "Text": "Karakter berpindah kubu/loyalitas."
+              "Text": "Karakter berpindah kubu/loyalitas.",
+              "Character": "ID Karakter",
+              "OldFaction": "ID Faksi",
+              "NewFaction": "ID Faksi"
             },
             {
               "Type": "DivineIntervention",
@@ -324,287 +431,418 @@
             },
             {
               "Type": "SuddenSilence",
-              "Text": "Hilangnya suara mendadak yang menandakan bahaya."
+              "Text": "Hilangnya suara mendadak yang menandakan bahaya.",
+              "Location": "ID Lokasi",
+              "ImpliedDanger": "Bahaya yang tersirat"
             },
             {
               "Type": "Echo",
-              "Text": "Pengulangan suara/peristiwa yang terasa ganjil atau mistis."
+              "Text": "Pengulangan suara/peristiwa yang terasa ganjil atau mistis.",
+              "Nature": "Sound",
+              "Significance": "Foreshadowing"
             },
             {
               "Type": "ForeshadowedFailure",
-              "Text": "Kegagalan yang sudah diisyaratkan sebelumnya, akhirnya terjadi."
+              "Text": "Kegagalan yang sudah diisyaratkan sebelumnya, akhirnya terjadi.",
+              "Subject": "Character",
+              "Cause": "InternalFlaw"
             },
             {
               "Type": "Misdirection",
-              "Text": "Karakter atau narasi sengaja menipu pembaca/karakter lain."
+              "Text": "Karakter atau narasi sengaja menipu pembaca/karakter lain.",
+              "Deceiver": "Narrator",
+              "Target": "Reader"
             },
             {
               "Type": "SacredPlace",
-              "Text": "Adegan di lokasi suci atau penuh kekuatan magis."
+              "Text": "Adegan di lokasi suci atau penuh kekuatan magis.",
+              "Location": "ID Lokasi",
+              "Significance": "Spiritual"
             },
             {
               "Type": "TrapActivation",
-              "Text": "Jebakan aktif yang memaksa karakter bereaksi cepat."
+              "Text": "Jebakan aktif yang memaksa karakter bereaksi cepat.",
+              "Character": "ID Karakter",
+              "Type": "Physical"
             },
             {
               "Type": "SacrificeDecision",
-              "Text": "Karakter harus memilih mengorbankan sesuatu/nilai penting."
+              "Text": "Karakter harus memilih mengorbankan sesuatu/nilai penting.",
+              "Character": "ID Karakter",
+              "SacrificeObject": "Life"
             },
             {
               "Type": "MoralDilemma",
-              "Text": "Dilema etis yang sulit bagi karakter POV."
+              "Text": "Dilema etis yang sulit bagi karakter POV.",
+              "Character": "ID Karakter",
+              "Choices": ["Pilihan A", "Pilihan B"]
             },
             {
               "Type": "Eavesdrop",
-              "Text": "Karakter mendengar rahasia penting secara diam-diam."
+              "Text": "Karakter mendengar rahasia penting secara diam-diam.",
+              "Listener": "ID Karakter",
+              "Subject": "SecretPlan"
             },
             {
               "Type": "RiteOfPassage",
-              "Text": "Adegan pengesahan atau ujian tradisi (untuk karakter berkembang)."
+              "Text": "Adegan pengesahan atau ujian tradisi (untuk karakter berkembang).",
+              "Character": "ID Karakter",
+              "Purpose": "Maturity"
             },
             {
               "Type": "ShadowMovement",
-              "Text": "Gerakan samar yang menimbulkan ketegangan."
+              "Text": "Gerakan samar yang menimbulkan ketegangan.",
+              "Source": "Unknown",
+              "Effect": "Fear"
             },
             {
               "Type": "Illusion",
-              "Text": "Adegan di mana karakter melihat hal yang tidak nyata."
+              "Text": "Adegan di mana karakter melihat hal yang tidak nyata.",
+              "Character": "ID Karakter",
+              "Source": "Magic"
             },
             {
               "Type": "MemoryTrigger",
-              "Text": "Suatu objek/adegan memicu ingatan masa lalu."
+              "Text": "Suatu objek/adegan memicu ingatan masa lalu.",
+              "Character": "ID Karakter",
+              "TriggerObject": "Item"
             },
             {
               "Type": "CulturalRitual",
-              "Text": "Penggambaran adat atau ritual lokal untuk membangun dunia."
+              "Text": "Penggambaran adat atau ritual lokal untuk membangun dunia.",
+              "Culture": "Nama Budaya",
+              "Purpose": "Celebration"
             },
             {
               "Type": "HiddenMotivation",
-              "Text": "Motif tersembunyi karakter yang mulai terungkap."
+              "Text": "Motif tersembunyi karakter yang mulai terungkap.",
+              "Character": "ID Karakter",
+              "Motivation": "Revenge"
             },
             {
               "Type": "CriticalMistake",
-              "Text": "Kesalahan penting yang mengubah jalannya cerita."
+              "Text": "Kesalahan penting yang mengubah jalannya cerita.",
+              "Character": "ID Karakter",
+              "Consequence": "Devastating"
             },
             {
               "Type": "SecretMeeting",
-              "Text": "Pertemuan rahasia yang berpengaruh pada plot."
+              "Text": "Pertemuan rahasia yang berpengaruh pada plot.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Purpose": "Conspiracy"
             },
             {
               "Type": "NaturalDisaster",
-              "Text": "Bencana alam memengaruhi karakter atau setting."
+              "Text": "Bencana alam memengaruhi karakter atau setting.",
+              "Type": "Earthquake",
+              "Impact": "Major"
             },
             {
               "Type": "UnexpectedAlliance",
-              "Text": "Pembentukan aliansi tak terduga."
+              "Text": "Pembentukan aliansi tak terduga.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Reason": "CommonEnemy"
             },
             {
               "Type": "HeroicAct",
-              "Text": "Tindakan heroik dari karakter, bisa kecil atau besar."
+              "Text": "Tindakan heroik dari karakter, bisa kecil atau besar.",
+              "Character": "ID Karakter",
+              "Impact": "SaveLife"
             },
             {
               "Type": "FailedAttempt",
-              "Text": "Percobaan yang gagal, memberi pelajaran atau konsekuensi."
+              "Text": "Percobaan yang gagal, memberi pelajaran atau konsekuensi.",
+              "Character": "ID Karakter",
+              "Goal": "Rescue"
             },
             {
               "Type": "DividedGroup",
-              "Text": "Kelompok terpecah karena perbedaan pendapat atau keadaan."
+              "Text": "Kelompok terpecah karena perbedaan pendapat atau keadaan.",
+              "Group": ["ID Karakter/Faksi"],
+              "Reason": "Disagreement"
             },
             {
               "Type": "FalseFriend",
-              "Text": "Karakter yang terlihat teman tapi sebenarnya punya agenda tersembunyi."
+              "Text": "Karakter yang terlihat teman tapi sebenarnya punya agenda tersembunyi.",
+              "Character": "ID Karakter",
+              "TrueMotivation": "Motivasi Sebenarnya"
             },
             {
               "Type": "PowerSurge",
-              "Text": "Ledakan kekuatan fisik, sihir, atau kemampuan lainnya."
+              "Text": "Ledakan kekuatan fisik, sihir, atau kemampuan lainnya.",
+              "Character": "ID Karakter",
+              "PowerType": "Magical"
             },
             {
               "Type": "RogueDecision",
-              "Text": "Karakter mengambil keputusan sendiri yang mengejutkan."
+              "Text": "Karakter mengambil keputusan sendiri yang mengejutkan.",
+              "Character": "ID Karakter",
+              "Impact": "Unforeseen"
             },
             {
               "Type": "HauntedMemory",
-              "Text": "Ingatan masa lalu yang menghantui karakter."
+              "Text": "Ingatan masa lalu yang menghantui karakter.",
+              "Character": "ID Karakter",
+              "MemorySubject": "PastTrauma"
             },
             {
               "Type": "MysteriousGuide",
-              "Text": "Sosok misterius yang memberi petunjuk atau bantuan."
+              "Text": "Sosok misterius yang memberi petunjuk atau bantuan.",
+              "Guide": "ID Karakter",
+              "GuidanceType": "Cryptic"
             },
             {
               "Type": "PropheticDream",
-              "Text": "Mimpi yang menyinggung masa depan atau takdir."
+              "Text": "Mimpi yang menyinggung masa depan atau takdir.",
+              "Character": "ID Karakter",
+              "Subject": "FutureEvent"
             },
             {
               "Type": "CriticalChoice",
-              "Text": "Keputusan penting yang menentukan jalannya cerita."
+              "Text": "Keputusan penting yang menentukan jalannya cerita.",
+              "Character": "ID Karakter",
+              "Options": ["Pilihan A", "Pilihan B"]
             },
             {
               "Type": "SecretMessage",
-              "Text": "Pesan rahasia ditemukan atau dikirimkan."
+              "Text": "Pesan rahasia ditemukan atau dikirimkan.",
+              "Sender": "ID Karakter",
+              "Recipient": "ID Karakter",
+              "ContentSummary": "Ringkasan isi pesan"
             },
             {
               "Type": "UnseenWatcher",
-              "Text": "Sosok yang mengamati karakter dari jauh tanpa diketahui."
+              "Text": "Sosok yang mengamati karakter dari jauh tanpa diketahui.",
+              "Watcher": "ID Karakter",
+              "Target": "ID Karakter"
             },
             {
               "Type": "TwistOfFate",
-              "Text": "Perubahan nasib mendadak yang mengubah alur cerita."
+              "Text": "Perubahan nasib mendadak yang mengubah alur cerita.",
+              "Character": "ID Karakter",
+              "Nature": "Neutral"
             },
             {
               "Type": "HeroicFailure",
-              "Text": "Tindakan heroik gagal, menimbulkan konsekuensi."
+              "Text": "Tindakan heroik gagal, menimbulkan konsekuensi.",
+              "Subject": "Character",
+              "Cause": "InternalFlaw"
             },
             {
               "Type": "UnexpectedCompanion",
-              "Text": "Munculnya karakter pendamping tak terduga."
+              "Text": "Munculnya karakter pendamping tak terduga.",
+              "Character": "ID Karakter",
+              "ReasonForJoining": "Alasan bergabung"
             },
             {
               "Type": "CulturalConflict",
-              "Text": "Perbedaan budaya atau adat yang menimbulkan konflik."
+              "Text": "Perbedaan budaya atau adat yang menimbulkan konflik.",
+              "CulturesInvolved": ["Budaya A", "Budaya B"],
+              "Cause": "Misunderstanding"
             },
             {
               "Type": "LegendRevealed",
-              "Text": "Misteri legenda atau cerita lama terungkap."
+              "Text": "Misteri legenda atau cerita lama terungkap.",
+              "Subject": "AncientProphecy",
+              "Revealer": "ID Karakter/Sumber"
             },
             {
               "Type": "UnexpectedEvent",
-              "Text": "Kejadian yang benar-benar tidak diprediksi karakter."
+              "Text": "Kejadian yang benar-benar tidak diprediksi karakter.",
+              "Impact": "PlotTwist",
+              "Nature": "Unfortunate"
             },
             {
               "Type": "MoralCorruption",
-              "Text": "Karakter tergoda untuk melakukan hal salah demi keuntungan."
+              "Text": "Karakter tergoda untuk melakukan hal salah demi keuntungan.",
+              "Character": "ID Karakter",
+              "Temptation": "Power"
             },
             {
               "Type": "SecretAgenda",
-              "Text": "Rencana tersembunyi yang memengaruhi jalannya cerita."
+              "Text": "Rencana tersembunyi yang memengaruhi jalannya cerita.",
+              "Character": "ID Karakter",
+              "Goal": "Tujuan Agenda"
             },
             {
               "Type": "PowerStruggle",
-              "Text": "Pertarungan atau konflik untuk memperebutkan kekuasaan."
+              "Text": "Pertarungan atau konflik untuk memperebutkan kekuasaan.",
+              "Participants": ["ID Karakter/Faksi"],
+              "ObjectOfStruggle": "Throne"
             },
             {
               "Type": "ClimacticShowdown",
-              "Text": "Adegan puncak pertarungan atau konfrontasi."
+              "Text": "Adegan puncak pertarungan atau konfrontasi.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Location": "ID Lokasi"
             },
             {
               "Type": "SecretWeapon",
-              "Text": "Senjata atau kemampuan tersembunyi muncul saat dibutuhkan."
-            },
-            {
-              "Type": "DivineMessage",
-              "Text": "Pesan atau wahyu dari entitas gaib/dewa."
+              "Text": "Senjata atau kemampuan tersembunyi muncul saat dibutuhkan.",
+              "Weapon": "ID Item/Skill",
+              "User": "ID Karakter"
             },
             {
               "Type": "ImminentThreat",
-              "Text": "Ancaman besar yang segera terjadi dan menimbulkan ketegangan tinggi."
+              "Text": "Ancaman besar yang segera terjadi dan menimbulkan ketegangan tinggi.",
+              "ThreatSource": "ID Karakter/Faksi/Event",
+              "Target": "ID Karakter/Lokasi"
             },
             {
               "Type": "HiddenTrap",
-              "Text": "Jebakan tersembunyi yang belum disadari karakter."
+              "Text": "Jebakan tersembunyi yang belum disadari karakter.",
+              "Location": "ID Lokasi",
+              "Trigger": "PressurePlate"
             },
             {
               "Type": "SuddenLoss",
-              "Text": "Kehilangan karakter, benda, atau sumber daya yang signifikan."
+              "Text": "Kehilangan karakter, benda, atau sumber daya yang signifikan.",
+              "Subject": "ID Karakter",
+              "LostItem": "ID Karakter/Item/Resource"
             },
             {
               "Type": "RevealedWeakness",
-              "Text": "Kelemahan karakter, musuh, atau sistem terungkap."
+              "Text": "Kelemahan karakter, musuh, atau sistem terungkap.",
+              "Subject": "ID Karakter/Faksi/Sistem",
+              "Weakness": "Deskripsi Kelemahan"
             },
             {
               "Type": "UnexpectedTwist",
-              "Text": "Plot twist yang mengejutkan karakter dan pembaca."
-            },
-            {
-              "Type": "CulturalMystery",
-              "Text": "Misteri budaya atau ritual yang mempengaruhi cerita."
+              "Text": "Plot twist yang mengejutkan karakter dan pembaca.",
+              "Subject": "CharacterIdentity",
+              "Impact": "GameChanging"
             },
             {
               "Type": "SurvivalChallenge",
-              "Text": "Tantangan bertahan hidup ekstrem."
+              "Text": "Tantangan bertahan hidup ekstrem.",
+              "Character": "ID Karakter",
+              "Environment": "Wilderness"
             },
             {
               "Type": "BetrayalConsequence",
-              "Text": "Dampak langsung dari pengkhianatan yang terjadi."
+              "Text": "Dampak langsung dari pengkhianatan yang terjadi.",
+              "Character": "ID Karakter",
+              "Consequence": "LossOfTrust"
             },
             {
               "Type": "UnintendedConsequence",
-              "Text": "Hasil dari tindakan karakter yang tidak diinginkan tapi berdampak besar."
+              "Text": "Hasil dari tindakan karakter yang tidak diinginkan tapi berdampak besar.",
+              "Character": "ID Karakter",
+              "Action": "Tindakan yang menyebabkan konsekuensi"
             },
             {
               "Type": "LegendaryEncounter",
-              "Text": "Pertemuan dengan makhluk, tokoh, atau entitas legendaris."
+              "Text": "Pertemuan dengan makhluk, tokoh, atau entitas legendaris.",
+              "Character": "ID Karakter",
+              "Entity": "ID Karakter/Makhluk"
             },
             {
               "Type": "RomanticTension",
-              "Text": "Ketegangan cinta atau ketertarikan antar karakter."
+              "Text": "Ketegangan cinta atau ketertarikan antar karakter.",
+              "CharactersInvolved": ["ID Karakter"],
+              "Status": "Developing"
             },
             {
               "Type": "Jealousy",
-              "Text": "Rasa cemburu yang memengaruhi keputusan atau interaksi."
+              "Text": "Rasa cemburu yang memengaruhi keputusan atau interaksi.",
+              "Character": "ID Karakter",
+              "Target": "ID Karakter"
             },
             {
               "Type": "SiblingConflict",
-              "Text": "Perselisihan antar karakter yang memiliki hubungan keluarga."
+              "Text": "Perselisihan antar karakter yang memiliki hubungan keluarga.",
+              "CharactersInvolved": ["ID Karakter"],
+              "Cause": "Rivalry"
             },
             {
               "Type": "AssassinationAttempt",
-              "Text": "Percobaan pembunuhan terhadap karakter penting."
+              "Text": "Percobaan pembunuhan terhadap karakter penting.",
+              "Target": "ID Karakter",
+              "Assassin": "ID Karakter/Faksi"
             },
             {
               "Type": "UnexpectedComplication",
-              "Text": "Komplikasi tiba-tiba yang mengubah rencana karakter."
+              "Text": "Komplikasi tiba-tiba yang mengubah rencana karakter.",
+              "Character": "ID Karakter",
+              "Nature": "External"
             },
             {
               "Type": "MysteriousPhenomenon",
-              "Text": "Fenomena aneh atau supernatural yang membingungkan karakter."
+              "Text": "Fenomena aneh atau supernatural yang membingungkan karakter.",
+              "Location": "ID Lokasi",
+              "Nature": "Magical"
             },
             {
               "Type": "PsychologicalManipulation",
-              "Text": "Karakter atau musuh memanipulasi mental karakter lain."
+              "Text": "Karakter atau musuh memanipulasi mental karakter lain.",
+              "Manipulator": "ID Karakter",
+              "Target": "ID Karakter"
             },
             {
               "Type": "DesperateDecision",
-              "Text": "Pilihan drastis karena keadaan mendesak."
+              "Text": "Pilihan drastis karena keadaan mendesak.",
+              "Character": "ID Karakter",
+              "Reason": "Alasan keputusan"
             },
             {
               "Type": "UnlikelySurvival",
-              "Text": "Karakter bertahan hidup dalam situasi hampir mustahil."
+              "Text": "Karakter bertahan hidup dalam situasi hampir mustahil.",
+              "Character": "ID Karakter",
+              "Circumstance": "Keadaan yang menyebabkan bertahan"
             },
             {
               "Type": "UnexpectedDeath",
-              "Text": "Kematian karakter yang tidak terduga."
+              "Text": "Kematian karakter yang tidak terduga.",
+              "Character": "ID Karakter",
+              "Cause": "Accident"
             },
             {
               "Type": "MysticalEncounter",
-              "Text": "Bertemu makhluk atau entitas supranatural."
+              "Text": "Bertemu makhluk atau entitas supranatural.",
+              "Character": "ID Karakter",
+              "Entity": "ID Karakter/Makhluk"
             },
             {
               "Type": "RevelationMoment",
-              "Text": "Momen pencerahan atau kebenaran besar terungkap."
+              "Text": "Momen pencerahan atau kebenaran besar terungkap.",
+              "Character": "ID Karakter",
+              "Subject": "PersonalTruth"
             },
             {
               "Type": "SuddenAmbush",
-              "Text": "Serangan mendadak yang menegangkan."
+              "Text": "Serangan mendadak yang menegangkan.",
+              "Attackers": ["ID Karakter/Faksi"],
+              "Victims": ["ID Karakter/Faksi"]
             },
             {
               "Type": "UnexpectedMentor",
-              "Text": "Kemunculan mentor atau pembimbing dari sumber tak terduga."
+              "Text": "Kemunculan mentor atau pembimbing dari sumber tak terduga.",
+              "Character": "ID Karakter",
+              "Mentor": "ID Karakter"
             },
             {
               "Type": "HiddenDanger",
-              "Text": "Ancaman tersembunyi atau bahaya yang tidak terlihat jelas."
+              "Text": "Ancaman tersembunyi atau bahaya yang tidak terlihat jelas.",
+              "Source": "ID Karakter/Faksi/Event",
+              "Target": "ID Karakter/Lokasi"
             },
             {
               "Type": "KnowledgeDiscovery",
-              "Text": "Penemuan atau pengungkapan informasi penting, termasuk rahasia atau ilmu yang seharusnya tidak diketahui."
+              "Text": "Penemuan atau pengungkapan informasi penting, termasuk rahasia atau ilmu yang seharusnya tidak diketahui.",
+              "Character": "ID Karakter",
+              "Subject": "AncientLore"
             },
             {
               "Type": "Ritual",
-              "Text": "Deskripsi adegan upacara, mantra, atau tradisi tertentu yang dilakukan, bisa suci atau terlarang."
+              "Text": "Deskripsi adegan upacara, mantra, atau tradisi tertentu yang dilakukan, bisa suci atau terlarang.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Purpose": "Healing"
             },
             {
               "Type": "TrialOrChallenge",
-              "Text": "Ujian atau tantangan yang harus dilalui karakter, bisa fisik, mental, strategis, atau suci."
+              "Text": "Ujian atau tantangan yang harus dilalui karakter, bisa fisik, mental, strategis, atau suci.",
+              "Character": "ID Karakter",
+              "Type": "Physical"
             },
             {
               "Type": "Betrayal",
@@ -617,55 +855,81 @@
             },
             {
               "Type": "ArtifactDiscovery",
-              "Text": "Penemuan atau aktivasi artefak/benda penting dengan kekuatan atau legenda."
+              "Text": "Penemuan atau aktivasi artefak/benda penting dengan kekuatan atau legenda.",
+              "Character": "ID Karakter",
+              "Artifact": "ID Item"
             },
             {
               "Type": "SecretIdentity",
-              "Text": "Karakter menyembunyikan atau mengungkapkan identitas asli mereka, atau menjalani dua peran."
+              "Text": "Karakter menyembunyikan atau mengungkapkan identitas asli mereka, atau menjalani dua peran.",
+              "Character": "ID Karakter",
+              "Status": "Hidden"
             },
             {
               "Type": "HiddenPath",
-              "Text": "Penemuan atau penggunaan jalur/jalan rahasia."
+              "Text": "Penemuan atau penggunaan jalur/jalan rahasia.",
+              "Character": "ID Karakter",
+              "Location": "ID Lokasi"
             },
             {
               "Type": "UnexpectedAid",
-              "Text": "Bantuan yang muncul dari sumber tak terduga di saat kritis."
+              "Text": "Bantuan yang muncul dari sumber tak terduga di saat kritis.",
+              "Character": "ID Karakter",
+              "Source": "ID Karakter/Faksi"
             },
             {
               "Type": "EnemyEncounter",
-              "Text": "Kemunculan atau pengungkapan musuh, baik yang tidak terduga maupun yang tersembunyi."
+              "Text": "Kemunculan atau pengungkapan musuh, baik yang tidak terduga maupun yang tersembunyi.",
+              "Character": "ID Karakter",
+              "Enemy": "ID Karakter/Makhluk"
             },
             {
               "Type": "TimeConstraint",
-              "Text": "Tekanan waktu yang mendesak karakter untuk bertindak atau sebelum sesuatu terjadi."
+              "Text": "Tekanan waktu yang mendesak karakter untuk bertindak atau sebelum sesuatu terjadi.",
+              "Character": "ID Karakter",
+              "Deadline": "Sunrise"
             },
             {
               "Type": "EmotionalArc",
-              "Text": "Perkembangan emosional karakter, dari puncak emosi hingga pemahaman atau pemulihan."
+              "Text": "Perkembangan emosional karakter, dari puncak emosi hingga pemahaman atau pemulihan.",
+              "Character": "ID Karakter",
+              "Stage": "Climax"
             },
             {
               "Type": "SecretAlliance",
-              "Text": "Pembentukan aliansi rahasia antar pihak."
+              "Text": "Pembentukan aliansi rahasia antar pihak.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Purpose": "Tujuan aliansi"
             },
             {
               "Type": "Sacrifice",
-              "Text": "Pengorbanan yang dilakukan karakter, baik besar maupun kecil, dengan dampaknya."
+              "Text": "Pengorbanan yang dilakukan karakter, baik besar maupun kecil, dengan dampaknya.",
+              "Character": "ID Karakter",
+              "ObjectOfSacrifice": "Life"
             },
             {
               "Type": "UnexpectedTransformation",
-              "Text": "Perubahan fisik, sihir, atau status karakter secara tiba-tiba."
+              "Text": "Perubahan fisik, sihir, atau status karakter secara tiba-tiba.",
+              "Character": "ID Karakter",
+              "Nature": "Physical"
             },
             {
               "Type": "PoliticalIntrigue",
-              "Text": "Permainan politik atau manipulasi kekuasaan."
+              "Text": "Permainan politik atau manipulasi kekuasaan.",
+              "Participants": ["ID Karakter/Faksi"],
+              "Goal": "Tujuan intrik"
             },
             {
               "Type": "ForbiddenLove",
-              "Text": "Cinta yang tidak diperbolehkan oleh situasi atau norma."
+              "Text": "Cinta yang tidak diperbolehkan oleh situasi atau norma.",
+              "CharactersInvolved": ["ID Karakter"],
+              "Reason": "Alasan larangan"
             },
             {
               "Type": "TimeSkip",
-              "Text": "Lompatan waktu untuk mempercepat alur atau mengubah perspektif."
+              "Text": "Lompatan waktu untuk mempercepat alur atau mengubah perspektif.",
+              "Duration": "Months",
+              "Impact": "CharacterDevelopment"
             }
           ],
           "Notes": "Catatan tambahan untuk AI atau penulis: gaya bahasa spesifik, pacing yang diinginkan, detail sensorik yang harus ditekankan, atau instruksi khusus lainnya untuk adegan ini."
