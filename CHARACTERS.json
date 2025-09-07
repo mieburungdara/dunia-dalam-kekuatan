@@ -4,12 +4,18 @@
     "Age": 22,
     "Gender": "Laki-laki",
     "Role": "Swordman",
-    "Personality": ["Rasional", "Skeptis"],
+    "Personality": ["Rasional", "Skeptis", "Analitis"],
     "Background": "Mahasiswa teknik di Bumi. Seorang yang rasional dan skeptis, selalu mempertanyakan logika dunia baru yang penuh sihir.",
     "Strengths": ["Pintar strategi", "Cepat beradaptasi"],
     "Weaknesses": ["Kadang terlalu dingin", "Sulit percaya orang lain"],
-    "Motivation": "",
-    "Growth": ""
+    "Motivation": "Mencari kebenaran di dunia baru dan menemukan cara untuk kembali ke dunianya, namun juga mulai merasa bertanggung jawab atas kelompoknya.",
+    "Growth": "Dari skeptis dan dingin menjadi pemimpin yang lebih peduli dan strategis, belajar untuk mempercayai orang lain.",
+    "Arc": "Perjalanan dari seorang yang hanya ingin bertahan hidup menjadi seorang pemimpin yang bertanggung jawab atas nasib orang lain.",
+    "InternalConflict": "Pertarungan antara logika dan emosi; keinginan untuk kembali vs. tanggung jawab baru.",
+    "ExternalConflict": "Ancaman dari makhluk asing dan faksi yang tidak dikenal di Eryndor.",
+    "Fears": ["Kehilangan kendali", "Kegagalan dalam melindungi orang yang ia pedulikan", "Terjebak selamanya di Eryndor"],
+    "Hopes": ["Menemukan jalan pulang", "Membangun kembali kehidupan yang stabil", "Memahami misteri Eryndor"],
+    "Quirks": ["Sering menganalisis situasi secara berlebihan", "Cenderung membuat daftar pro dan kontra"]
   },
   {
     "Name": "Bimo",
@@ -20,8 +26,14 @@
     "Background": "Anak SMA, gamer. Dikenal sebagai si pemalas di kelompoknya.",
     "Strengths": ["Insting tajam", "Cepat belajar"],
     "Weaknesses": ["Sering gegabah", "Gampang tertipu", "Menghindari pekerjaan berat"],
-    "Motivation": "",
-    "Growth": ""
+    "Motivation": "Bertahan hidup dengan cara termudah, mencari kesenangan dan petualangan, serta membuktikan dirinya tidak selemah yang orang kira.",
+    "Growth": "Dari pemalas dan ceroboh menjadi lebih bertanggung jawab dan berani, menyadari bahwa kekuatan sejati datang dari kerja keras dan keberanian.",
+    "Arc": "Transformasi dari seorang gamer yang mencari kesenangan menjadi pahlawan yang tidak terduga.",
+    "InternalConflict": "Keinginan untuk bersantai vs. kebutuhan untuk bertindak; rasa takut vs. keberanian yang muncul.",
+    "ExternalConflict": "Pertarungan melawan monster dan situasi berbahaya yang membutuhkan tindakan cepat.",
+    "Fears": ["Kebosanan", "Pekerjaan berat", "Dianggap tidak berguna"],
+    "Hopes": ["Menjadi pahlawan yang diakui", "Menemukan harta karun", "Menjalani hidup yang penuh petualangan tanpa banyak usaha"],
+    "Quirks": ["Sering menggunakan istilah game dalam percakapan sehari-hari", "Punya kebiasaan mengeluh tapi tetap melakukan tugasnya"]
   },
   {
     "Name": "Raka",
@@ -32,8 +44,14 @@
     "Background": "Mantan tentara di Bumi.",
     "Strengths": ["Kuat", "Punya disiplin tempur"],
     "Weaknesses": ["Trauma masa lalu", "Sulit membuka hati"],
-    "Motivation": "",
-    "Growth": ""
+    "Motivation": "Melindungi teman-temannya, menebus kesalahan masa lalu, dan menemukan kedamaian batin.",
+    "Growth": "Dari tertutup dan trauma menjadi lebih terbuka dan menerima bantuan, menemukan tujuan baru dalam melindungi orang lain.",
+    "Arc": "Penyembuhan dari trauma masa lalu dan menemukan kembali jati diri sebagai pelindung.",
+    "InternalConflict": "Melawan bayangan masa lalu; membuka diri vs. menjaga jarak.",
+    "ExternalConflict": "Melindungi kelompok dari bahaya fisik, menghadapi musuh yang kuat.",
+    "Fears": ["Gagal melindungi orang yang ia sayangi", "Masa lalu yang menghantuinya"],
+    "Hopes": ["Melihat teman-temannya aman", "Menemukan tempat di mana ia bisa merasa tenang"],
+    "Quirks": ["Selalu siaga", "Cenderung mengamati lingkungan sekitar", "Jarang berbicara kecuali penting"]
   },
   {
     "Name": "Mira",
@@ -44,8 +62,14 @@
     "Background": "Mahasiswi kedokteran.",
     "Strengths": ["Analitis", "Penyembuh alami", "Punya standar tinggi"],
     "Weaknesses": ["Sangat kaku", "Sulit menerima masukan", "Sering meremehkan orang lain", "Penakut"],
-    "Motivation": "",
-    "Growth": ""
+    "Motivation": "Menggunakan pengetahuannya untuk membantu orang lain, membuktikan kemampuannya, dan mengatasi rasa takutnya.",
+    "Growth": "Dari penakut dan perfeksionis menjadi lebih berani dan fleksibel, belajar bahwa tidak semua hal bisa dikendalikan.",
+    "Arc": "Mengatasi ketakutan dan keraguan diri untuk menjadi penyembuh yang kuat dan diandalkan.",
+    "InternalConflict": "Pertarungan antara keinginan untuk membantu dan rasa takut akan kegagalan; perfeksionisme vs. realitas.",
+    "ExternalConflict": "Situasi medis darurat, tekanan untuk menyembuhkan yang terluka.",
+    "Fears": ["Kegagalan", "Tidak bisa membantu", "Membuat kesalahan fatal"],
+    "Hopes": ["Menjadi penyembuh yang hebat", "Menyelamatkan banyak nyawa", "Menemukan obat untuk penyakit di Eryndor"],
+    "Quirks": ["Sering membawa catatan medis kecil", "Cenderung panik dalam situasi yang tidak terduga tapi cepat pulih"]
   },
   {
     "Name": "Lina",
@@ -56,8 +80,14 @@
     "Background": "Siswi SMA yang suka novel fantasi.",
     "Strengths": ["Imajinasi tinggi", "Intuisi sihir kuat"],
     "Weaknesses": ["Tidak percaya diri", "Gampang panik"],
-    "Motivation": "",
-    "Growth": ""
+    "Motivation": "Mencari kenyamanan dan kemudahan di dunia baru, serta menemukan cara untuk memanfaatkan sihirnya tanpa banyak usaha.",
+    "Growth": "Dari mengeluh dan sarkas menjadi lebih mandiri dan bertanggung jawab, menyadari bahwa kekuatan datang dari penerimaan dan usaha.",
+    "Arc": "Belajar menerima kenyataan pahit dan menemukan kekuatan dalam dirinya sendiri.",
+    "InternalConflict": "Keinginan untuk hidup mudah vs. tantangan dunia baru; sifat manja vs. kebutuhan untuk beradaptasi.",
+    "ExternalConflict": "Lingkungan yang kotor dan sulit, situasi yang memaksanya keluar dari zona nyaman.",
+    "Fears": ["Kotor", "Kesulitan", "Kehilangan kenyamanan"],
+    "Hopes": ["Menemukan tempat yang nyaman dan bersih", "Menguasai sihir dengan mudah", "Kembali ke kehidupan normal"],
+    "Quirks": ["Sering mengeluh dengan nada sarkas", "Punya kebiasaan membersihkan barang-barang di sekitarnya"]
   },
   {
     "Name": "Kakek Jaga",
@@ -69,7 +99,13 @@
     "Strengths": ["Bijaksana", "Pengetahuan tentang simbol kuno"],
     "Weaknesses": ["Diliputi ketakutan"],
     "Motivation": "Membantu para pendatang baru dengan harapan mereka bisa melindungi desanya.",
-    "Growth": null
+    "Growth": null,
+    "Arc": null,
+    "InternalConflict": null,
+    "ExternalConflict": null,
+    "Fears": null,
+    "Hopes": null,
+    "Quirks": ["Sering bergumam tentang ramalan kuno", "Selalu membawa tongkat kayu berukir"]
   },
   {
     "Name": "Kepala Desa",
@@ -81,7 +117,13 @@
     "Strengths": ["Pragmatis", "Berhati-hati", "Mementingkan keselamatan desa", "Tenang", "Mencari solusi damai"],
     "Weaknesses": ["Awalnya skeptis terhadap para pendatang baru"],
     "Motivation": "Melindungi desanya.",
-    "Growth": null
+    "Growth": null,
+    "Arc": null,
+    "InternalConflict": null,
+    "ExternalConflict": null,
+    "Fears": null,
+    "Hopes": null,
+    "Quirks": ["Sering menghela napas panjang saat membuat keputusan", "Selalu memegang pipa kayu"]
   },
   {
     "Name": "Pedagang Keliling",
@@ -93,7 +135,13 @@
     "Strengths": ["Banyak informasi", "Sumber informasi berharga"],
     "Weaknesses": ["Informasinya kadang tidak akurat atau dilebih-lebihkan"],
     "Motivation": null,
-    "Growth": null
+    "Growth": null,
+    "Arc": null,
+    "InternalConflict": null,
+    "ExternalConflict": null,
+    "Fears": null,
+    "Hopes": null,
+    "Quirks": ["Sering mengedipkan mata saat menceritakan rumor", "Selalu punya barang aneh di kantongnya"]
   },
   {
     "Name": "Anak-anak Desa",
@@ -105,7 +153,13 @@
     "Strengths": ["Melihat hal-hal yang tidak diperhatikan orang dewasa", "Memberikan petunjuk tak terduga"],
     "Weaknesses": null,
     "Motivation": null,
-    "Growth": null
+    "Growth": null,
+    "Arc": null,
+    "InternalConflict": null,
+    "ExternalConflict": null,
+    "Fears": null,
+    "Hopes": null,
+    "Quirks": ["Suka bersembunyi dan menguping", "Sering meniru gerakan orang dewasa"]
   },
   {
     "Name": "Penjaga Gerbang",
@@ -117,6 +171,12 @@
     "Strengths": ["Setia", "Patuh pada aturan"],
     "Weaknesses": null,
     "Motivation": "Menjaga gerbang desa dan memastikan tidak ada bahaya yang masuk.",
-    "Growth": null
+    "Growth": null,
+    "Arc": null,
+    "InternalConflict": null,
+    "ExternalConflict": null,
+    "Fears": null,
+    "Hopes": null,
+    "Quirks": ["Selalu berdiri tegak seperti patung", "Punya kebiasaan membersihkan senjatanya"]
   }
 ]
