@@ -16,7 +16,15 @@
     "ExternalConflict": "Ancaman dari makhluk asing dan faksi yang tidak dikenal di Eryndor.",
     "Fears": ["Kehilangan kendali", "Kegagalan dalam melindungi orang yang ia pedulikan", "Terjebak selamanya di Eryndor"],
     "Hopes": ["Menemukan jalan pulang", "Membangun kembali kehidupan yang stabil", "Memahami misteri Eryndor"],
-    "Quirks": ["Sering menganalisis situasi secara berlebihan", "Cenderung membuat daftar pro dan kontra"]
+    "Quirks": ["Sering menganalisis situasi secara berlebihan", "Cenderung membuat daftar pro dan kontra"],
+    "Appearance": {
+      "Description": "Tinggi, ramping, rambut hitam pendek, mata abu-abu tajam.",
+      "Style": "Sering mengenakan pakaian praktis berwarna gelap."
+    },
+    "SkillsAndAbilities": ["Pedang Satu Tangan: Mahir", "Strategi Tempur: Ahli", "Analisis Kelemahan: Menengah"],
+    "Equipment": ["Pedang Baja Ringan", "Kompas Kuno", "Buku Catatan"],
+    "Relationships": [{"TargetID": 2, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 3, "Type": "Rekan", "Description": "Mengandalkan Raka dalam pertempuran"}],
+    "Affiliations": ["Tidak ada (sebelumnya Mahasiswa Teknik)"]
   },
   {
     "ID": 2,
@@ -35,7 +43,15 @@
     "ExternalConflict": "Pertarungan melawan monster dan situasi berbahaya yang membutuhkan tindakan cepat.",
     "Fears": ["Kebosanan", "Pekerjaan berat", "Dianggap tidak berguna"],
     "Hopes": ["Menjadi pahlawan yang diakui", "Menemukan harta karun", "Menjalani hidup yang penuh petualangan tanpa banyak usaha"],
-    "Quirks": ["Sering menggunakan istilah game dalam percakapan sehari-hari", "Punya kebiasaan mengeluh tapi tetap melakukan tugasnya"]
+    "Quirks": ["Sering menggunakan istilah game dalam percakapan sehari-hari", "Punya kebiasaan mengeluh tapi tetap melakukan tugasnya"],
+    "Appearance": {
+      "Description": "Tinggi sedang, rambut coklat berantakan, mata coklat cerah.",
+      "Style": "Sering memakai hoodie dan celana kargo."
+    },
+    "SkillsAndAbilities": ["Panahan Cepat: Mahir", "Pelacakan: Dasar", "Survival: Dasar"],
+    "Equipment": ["Busur Komposit", "Anak Panah Berujung Khusus", "Headset Gaming (rusak)"],
+    "Relationships": [{"TargetID": 1, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 5, "Type": "Rekan", "Description": "Sering mengganggu Lina"}],
+    "Affiliations": ["Tidak ada (sebelumnya Gamer)"]
   },
   {
     "ID": 3,
@@ -54,7 +70,15 @@
     "ExternalConflict": "Melindungi kelompok dari bahaya fisik, menghadapi musuh yang kuat.",
     "Fears": ["Gagal melindungi orang yang ia sayangi", "Masa lalu yang menghantuinya"],
     "Hopes": ["Melihat teman-temannya aman", "Menemukan tempat di mana ia bisa merasa tenang"],
-    "Quirks": ["Selalu siaga", "Cenderung mengamati lingkungan sekitar", "Jarang berbicara kecuali penting"]
+    "Quirks": ["Selalu siaga", "Cenderung mengamati lingkungan sekitar", "Jarang berbicara kecuali penting"],
+    "Appearance": {
+      "Description": "Tinggi besar, berotot, rambut cepak, bekas luka di pipi kanan.",
+      "Style": "Selalu mengenakan rompi kulit tebal."
+    },
+    "SkillsAndAbilities": ["Pertahanan Perisai: Ahli", "Pertarungan Jarak Dekat: Mahir", "Intimidasi: Menengah"],
+    "Equipment": ["Perisai Menara", "Kapak Perang", "Kalung Anjing Militer (kenangan)"],
+    "Relationships": [{"TargetID": 1, "Type": "Rekan", "Description": "Diandalkan Arga dalam pertempuran"}, {"TargetID": 4, "Type": "Pelindung", "Description": "Sangat protektif terhadap Mira"}],
+    "Affiliations": ["Tidak ada (sebelumnya Tentara)"]
   },
   {
     "ID": 4,
@@ -64,7 +88,7 @@
     "Role": "Healer",
     "Personality": ["Cerdas", "Ambisius", "Perfeksionis", "Keras kepala", "Pemalu", "Sensitif", "Penuh rasa ingin tahu", "Penyayang", "Penyabar", "Perhatian"],
     "Background": "Mahasiswi kedokteran.",
-    "Strengths": ["Analitis", "Penyembuh alami", "Punya standar tinggi"],
+    "Strengths": ["Analitis", "Penyembuhan alami", "Punya standar tinggi"],
     "Weaknesses": ["Sangat kaku", "Sulit menerima masukan", "Sering meremehkan orang lain", "Penakut"],
     "Motivation": "Menggunakan pengetahuannya untuk membantu orang lain, membuktikan kemampuannya, dan mengatasi rasa takutnya.",
     "Growth": "Dari penakut dan perfeksionis menjadi lebih berani dan fleksibel, belajar bahwa tidak semua hal bisa dikendalikan.",
@@ -73,7 +97,15 @@
     "ExternalConflict": "Situasi medis darurat, tekanan untuk menyembuhkan yang terluka.",
     "Fears": ["Kegagalan", "Tidak bisa membantu", "Membuat kesalahan fatal"],
     "Hopes": ["Menjadi penyembuh yang hebat", "Menyelamatkan banyak nyawa", "Menemukan obat untuk penyakit di Eryndor"],
-    "Quirks": ["Sering membawa catatan medis kecil", "Cenderung panik dalam situasi yang tidak terduga tapi cepat pulih"]
+    "Quirks": ["Sering membawa catatan medis kecil", "Cenderung panik dalam situasi yang tidak terduga tapi cepat pulih"],
+    "Appearance": {
+      "Description": "Ramping, rambut hitam panjang terikat rapi, mata coklat lembut.",
+      "Style": "Sering memakai pakaian bersih dan praktis."
+    },
+    "SkillsAndAbilities": ["Penyembuhan Luka: Mahir", "Diagnosa Penyakit: Ahli", "Pengetahuan Herbal: Menengah"],
+    "Equipment": ["Kit Medis Portabel", "Buku Herbal", "Jepit Rambut Berukir"],
+    "Relationships": [{"TargetID": 3, "Type": "Dilindungi", "Description": "Sangat dilindungi oleh Raka"}, {"TargetID": 5, "Type": "Teman Dekat", "Description": "Sering menenangkan Lina"}],
+    "Affiliations": ["Tidak ada (sebelumnya Mahasiswi Kedokteran)"]
   },
   {
     "ID": 5,
@@ -92,7 +124,15 @@
     "ExternalConflict": "Lingkungan yang kotor dan sulit, situasi yang memaksanya keluar dari zona nyaman.",
     "Fears": ["Kotor", "Kesulitan", "Kehilangan kenyamanan"],
     "Hopes": ["Menemukan tempat yang nyaman dan bersih", "Menguasai sihir dengan mudah", "Kembali ke kehidupan normal"],
-    "Quirks": ["Sering mengeluh dengan nada sarkas", "Punya kebiasaan membersihkan barang-barang di sekitarnya"]
+    "Quirks": ["Sering mengeluh dengan nada sarkas", "Punya kebiasaan membersihkan barang-barang di sekitarnya"],
+    "Appearance": {
+      "Description": "Kecil, rambut pirang sebahu, mata biru besar.",
+      "Style": "Sering memakai gaun yang terlihat bersih meskipun di lingkungan kotor."
+    },
+    "SkillsAndAbilities": ["Sihir Elemen Dasar: Pemula", "Telekinesis Ringan: Pemula", "Deteksi Energi: Dasar"],
+    "Equipment": ["Tongkat Kayu Sederhana", "Cermin Saku", "Saputangan Bersih"],
+    "Relationships": [{"TargetID": 2, "Type": "Rekan", "Description": "Sering diganggu Bimo"}, {"TargetID": 4, "Type": "Teman Dekat", "Description": "Sering ditenangkan Mira"}],
+    "Affiliations": ["Tidak ada (sebelumnya Siswi SMA)"]
   },
   {
     "ID": 6,
@@ -111,7 +151,15 @@
     "ExternalConflict": null,
     "Fears": null,
     "Hopes": null,
-    "Quirks": ["Sering bergumam tentang ramalan kuno", "Selalu membawa tongkat kayu berukir"]
+    "Quirks": ["Sering bergumam tentang ramalan kuno", "Selalu membawa tongkat kayu berukir"],
+    "Appearance": {
+      "Description": "Pria tua berjanggut putih panjang, punggung bungkuk, mata keriput tapi tajam.",
+      "Style": "Selalu memakai jubah lusuh."
+    },
+    "SkillsAndAbilities": null,
+    "Equipment": null,
+    "Relationships": null,
+    "Affiliations": ["Penjaga Desa"]
   },
   {
     "ID": 7,
@@ -130,7 +178,15 @@
     "ExternalConflict": null,
     "Fears": null,
     "Hopes": null,
-    "Quirks": ["Sering menghela napas panjang saat membuat keputusan", "Selalu memegang pipa kayu"]
+    "Quirks": ["Sering menghela napas panjang saat membuat keputusan", "Selalu memegang pipa kayu"],
+    "Appearance": {
+      "Description": "Pria paruh baya, rambut mulai memutih, wajah tegas.",
+      "Style": "Sering memakai pakaian adat desa."
+    },
+    "SkillsAndAbilities": null,
+    "Equipment": null,
+    "Relationships": null,
+    "Affiliations": ["Pemerintahan Desa"]
   },
   {
     "ID": 8,
@@ -149,7 +205,15 @@
     "ExternalConflict": null,
     "Fears": null,
     "Hopes": null,
-    "Quirks": ["Sering mengedipkan mata saat menceritakan rumor", "Selalu punya barang aneh di kantongnya"]
+    "Quirks": ["Sering mengedipkan mata saat menceritakan rumor", "Selalu punya barang aneh di kantongnya"],
+    "Appearance": {
+      "Description": "Pria gemuk periang, rambut botak di tengah, kumis tebal.",
+      "Style": "Selalu membawa tas besar penuh barang dagangan."
+    },
+    "SkillsAndAbilities": null,
+    "Equipment": null,
+    "Relationships": null,
+    "Affiliations": ["Pedagang Bebas"]
   },
   {
     "ID": 9,
@@ -168,7 +232,15 @@
     "ExternalConflict": null,
     "Fears": null,
     "Hopes": null,
-    "Quirks": ["Suka bersembunyi dan menguping", "Sering meniru gerakan orang dewasa"]
+    "Quirks": ["Suka bersembunyi dan menguping", "Sering meniru gerakan orang dewasa"],
+    "Appearance": {
+      "Description": "Berbagai usia, pakaian sederhana, sering kotor karena bermain.",
+      "Style": null
+    },
+    "SkillsAndAbilities": null,
+    "Equipment": null,
+    "Relationships": null,
+    "Affiliations": ["Penduduk Desa"]
   },
   {
     "ID": 10,
@@ -187,6 +259,14 @@
     "ExternalConflict": null,
     "Fears": null,
     "Hopes": null,
-    "Quirks": ["Selalu berdiri tegak seperti patung", "Punya kebiasaan membersihkan senjatanya"]
+    "Quirks": ["Selalu berdiri tegak seperti patung", "Punya kebiasaan membersihkan senjatanya"],
+    "Appearance": {
+      "Description": "Pria tegap, wajah serius, seragam penjaga desa.",
+      "Style": null
+    },
+    "SkillsAndAbilities": null,
+    "Equipment": null,
+    "Relationships": null,
+    "Affiliations": ["Penjaga Desa"]
   }
 ]
