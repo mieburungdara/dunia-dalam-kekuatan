@@ -4,42 +4,41 @@ title: Kit Medis Portabel
 ---
 # Kit Medis Portabel
 
-**Item ID:** I010
-**Tipe:** Konsumsi
-**Kelangkaan:** Tidak Umum
+Data item Kit Medis Portabel sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Kit Medis Portabel, silakan merujuk ke file:
+*   `_items/kit_medis_portabel.json`
 
-## Deskripsi Singkat
-> *"Setiap luka adalah tantangan, setiap alat adalah harapan."*
+## Struktur Data Item (JSON)
 
-Kotak kecil berisi peralatan medis dasar seperti perban, antiseptik, jarum, dan benang, cukup untuk menangani luka ringan hingga sedang.
+Objek item Kit Medis Portabel dalam `_items/kit_medis_portabel.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Memungkinkan pengguna untuk melakukan pertolongan pertama dan menyembuhkan luka ringan.
-*   **Atribut:** Jumlah Penggunaan: 5, Berat: 1kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:**
-    *   Kain Bersih: 3 unit
-    *   Herbal Antiseptik: 2 unit
-    *   Jarum & Benang: 1 set
-*   **Alat:** Meja Kerja Medis
-*   **Prasyarat:** Skill Pengetahuan Herbal (Dasar)
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:**
-    *   Peralatan Bedah Mini: 1 set
-*   **Efek Upgrade:** Meningkatkan jumlah penggunaan dan efektivitas penyembuhan.
-
----
-
-## Lore & Sejarah
-Kit Medis Portabel adalah perlengkapan esensial bagi setiap petualang atau penyembuh yang sering bepergian. Ini adalah simbol dari kesiapan dan kepedulian terhadap sesama, memungkinkan pertolongan pertama di mana pun dibutuhkan.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

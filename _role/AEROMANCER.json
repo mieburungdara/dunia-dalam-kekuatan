@@ -13,51 +13,61 @@
   "AdditionalNotes": "Aeromancer yang mahir dapat memanipulasi suara dan menciptakan ilusi berbasis udara.",
   "ProgressionLevels": [
     {
+      "ID": "R_AE_L01",
       "LevelName": "Breeze Whisperer (Pembisik Angin Sepoi)",
       "Description": "Baru memulai, hanya mampu merasakan arah angin atau menciptakan hembusan angin kecil.",
       "Abilities": ["Merasakan arah angin", "hembusan angin kecil."]
     },
     {
+      "ID": "R_AE_L02",
       "LevelName": "Wind Caller (Pemanggil Angin)",
       "Description": "Mampu memanggil angin sepoi-sepoi atau mengarahkan angin yang sudah ada.",
       "Abilities": ["Memanggil angin sepoi-sepoi", "mengarahkan angin untuk menggerakkan objek ringan."]
     },
     {
+      "ID": "R_AE_L03",
       "LevelName": "Air Current Weaver (Penjalin Arus Udara)",
       "Description": "Mampu memanipulasi arus udara untuk melayang atau mempercepat gerakan.",
       "Abilities": ["Melayang sebentar", "mempercepat gerakan", "menciptakan pusaran udara kecil."]
     },
     {
+      "ID": "R_AE_L04",
       "LevelName": "Gale Shaper (Pembentuk Badai Kecil)",
       "Description": "Menguasai kontrol yang lebih baik atas angin, mampu menciptakan hembusan angin yang kuat atau badai kecil.",
       "Abilities": ["Hembusan angin kuat", "badai pasir kecil", "atau perisai angin."]
     },
     {
+      "ID": "R_AE_L05",
       "LevelName": "Storm Conjurer (Pembangkit Badai)",
       "Description": "Mampu memanggil badai yang lebih intens dan merusak, serta mengendalikan tekanan udara.",
       "Abilities": ["Badai petir kecil", "tornado mini", "atau menciptakan area vakum."]
     },
     {
+      "ID": "R_AE_L06",
       "LevelName": "Wind Lord (Penguasa Angin)",
       "Description": "Diakui sebagai master angin, mampu menciptakan badai lokal atau memanipulasi cuaca.",
       "Abilities": ["Badai angin besar", "memanipulasi awan", "menciptakan ilusi udara."]
     },
     {
+      "ID": "R_AE_L07",
       "LevelName": "Sky Weaver (Penjalin Langit)",
       "Description": "Kekuatan angin mereka mendekati kekuatan langit, mampu memanggil fenomena cuaca ekstrem.",
       "Abilities": ["Memanggil hujan es", "badai salju", "atau mengendalikan arah awan badai."]
     },
     {
+      "ID": "R_AE_L08",
       "LevelName": "Sound Bender (Pembengkok Suara)",
       "Description": "Mampu memanipulasi gelombang suara dengan presisi, menciptakan suara yang memekakkan telinga atau bisikan yang tak terdengar.",
       "Abilities": ["Menciptakan suara yang memekakkan telinga", "memproyeksikan suara dari jarak jauh", "atau menciptakan keheningan mutlak."]
     },
     {
+      "ID": "R_AE_L09",
       "LevelName": "Atmosphere Controller (Pengendali Atmosfer)",
       "Description": "Kekuatan angin mereka mencapai puncaknya, mampu mengubah kondisi atmosfer secara drastis.",
       "Abilities": ["Menciptakan badai global", "memanipulasi tekanan udara di seluruh wilayah", "atau menciptakan zona tanpa oksigen."]
     },
     {
+      "ID": "R_AE_L10",
       "LevelName": "Tempest Master (Master Badai)",
       "Description": "Tingkat tertinggi, mampu mengendalikan seluruh atmosfer planet, memanggil badai raksasa, dan memanipulasi iklim.",
       "Abilities": ["Menciptakan badai kategori 5", "mengendalikan jet stream", "atau memanggil elemental udara raksasa."]

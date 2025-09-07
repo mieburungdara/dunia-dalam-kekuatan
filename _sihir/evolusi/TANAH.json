@@ -2,6 +2,7 @@
   "Title": "Tingkat Penguasaan Elemen: Tanah",
   "Levels": [
     {
+      "ID": "E_TA_L01",
       "LevelNumber": 1,
       "LevelName": "Koneksi Awal",
       "Control": "Hanya bisa merasakan jenis tanah atau batu di bawah kaki. Belum bisa menggerakkannya.",
@@ -10,6 +11,7 @@
       "Influence": "Cukup untuk menggemburkan ladang atau menemukan sumber air dangkal."
     },
     {
+      "ID": "E_TA_L02",
       "LevelNumber": 2,
       "LevelName": "Manipulasi Dasar",
       "Control": "Mampu mengangkat dan menggerakkan segenggam tanah atau kerikil.",
@@ -18,6 +20,7 @@
       "Influence": "Mampu membuat batu bata dari lumpur atau memadatkan fondasi sebuah rumah."
     },
     {
+      "ID": "E_TA_L03",
       "LevelNumber": 3,
       "LevelName": "Pembentukan Sederhana",
       "Control": "Mampu membentuk tanah menjadi dinding, gundukan, atau lubang sederhana.",
@@ -26,6 +29,7 @@
       "Influence": "Mampu melempar batu seukuran kepala atau menumbuhkan duri batu yang melukai kaki kuda."
     },
     {
+      "ID": "E_TA_L04",
       "LevelNumber": 4,
       "LevelName": "Penguasaan Kepadatan",
       "Control": "Mampu memadatkan tanah menjadi sekeras batu atau menggemburkannya menjadi lumpur.",
@@ -34,6 +38,7 @@
       "Influence": "Dinding tanahnya bisa menahan serangan panah atau serbuan kavaleri ringan."
     },
     {
+      "ID": "E_TA_L05",
       "LevelNumber": 5,
       "LevelName": "Indra Getaran",
       "Control": "Mampu menyalurkan Aether ke tanah untuk merasakan getaran dengan presisi.",
@@ -42,6 +47,7 @@
       "Influence": "Bisa merasakan pergerakan pasukan dari jarak satu kilometer melalui tanah."
     },
     {
+      "ID": "E_TA_L06",
       "LevelNumber": 6,
       "LevelName": "Penguasaan Animasi",
       "Control": "Mampu memberi \"nyawa\" sementara pada gumpalan tanah dan batu.",
@@ -50,6 +56,7 @@
       "Influence": "Mampu menciptakan parit besar, bukit kecil sebagai posisi pertahanan, atau menumbuhkan pilar-pilar batu."
     },
     {
+      "ID": "E_TA_L07",
       "LevelNumber": 7,
       "LevelName": "Penguasaan Komposisi",
       "Control": "Mampu mendeteksi dan menarik mineral atau urat logam mentah dari dalam tanah.",
@@ -58,6 +65,7 @@
       "Influence": "Gempa lokalnya bisa meruntuhkan tembok benteng atau jembatan batu."
     },
     {
+      "ID": "E_TA_L08",
       "LevelNumber": 8,
       "LevelName": "Penguasaan Struktur Dalam",
       "Control": "Mampu merasakan dan memetakan struktur geologi bawah tanah.",
@@ -66,6 +74,7 @@
       "Influence": "Tanah bisa menjadi sekeras berlian, selentur logam, atau menumbuhkan kristal yang memiliki energi penyembuh."
     },
     {
+      "ID": "E_TA_L09",
       "LevelNumber": 9,
       "LevelName": "Konsep Tektonik",
       "Control": "Mampu memicu getaran kuat di sepanjang garis patahan yang ada.",
@@ -74,11 +83,12 @@
       "Influence": "Mampu memicu letusan gunung berapi kecil atau menggeser aliran sungai secara permanen."
     },
     {
+      "ID": "E_TA_L10",
       "LevelNumber": 10,
       "LevelName": "Kesatuan Abadi",
       "Control": "Kehendak pengguna adalah hukum bagi semua daratan.",
       "Scale": "Mampu menumbuhkan gunung, menggeser lembah, atau mengangkat pulau dari dasar laut.",
-      "Understanding": "Pengguna tidak lagi *menggunakan* tanah. Pengguna *adalah* fondasi dunia.",
+      "Understanding": "Pengguna tidak lagi \"menggunakan\" tanah. Pengguna *adalah* fondasi dunia.",
       "Influence": "Menjadi fondasi dunia, mampu menumbuhkan gunung baru atau menciptakan pulau."
     }
   ]

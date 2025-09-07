@@ -1,0 +1,23 @@
+{
+  "ID": "I011",
+  "Name": "Buku Herbal",
+  "Type": "Lain-lain",
+  "Rarity": "Tidak Umum",
+  "ShortDescription": "Halaman-halaman ini menyimpan rahasia alam, obat dari setiap penyakit.",
+  "Description": "Buku tebal berisi ilustrasi dan deskripsi berbagai jenis tumbuhan obat, khasiatnya, dan cara pengolahannya. Sumber pengetahuan penting bagi seorang penyembuh.",
+  "EffectsAndAttributes": {
+    "Effects": "Memberikan bonus pada skill Pengetahuan Herbal dan Diagnosa Penyakit.",
+    "Attributes": "Berat: 0.5kg"
+  },
+  "CraftingRecipe": {
+    "Materials": [],
+    "Tools": "Tidak dapat di-craft",
+    "Prerequisites": "Tidak dapat di-craft"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [],
+    "Effects": "Tidak dapat di-upgrade"
+  },
+  "LoreAndHistory": "Buku Herbal adalah warisan dari para tabib kuno yang mendedikasikan hidup mereka untuk memahami alam. Setiap halaman adalah hasil dari observasi dan eksperimen bertahun-tahun, menjadikannya harta karun pengetahuan bagi mereka yang ingin menyembuhkan."
+}

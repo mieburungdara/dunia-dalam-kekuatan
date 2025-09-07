@@ -1,0 +1,23 @@
+{
+  "ID": "I015",
+  "Name": "Saputangan Bersih",
+  "Type": "Lain-lain",
+  "Rarity": "Umum",
+  "ShortDescription": "Sebuah oasis kebersihan di tengah gurun kotoran.",
+  "Description": "Saputangan putih bersih yang selalu dibawa Lina, digunakan untuk membersihkan noda atau sekadar menenangkan diri dari lingkungan yang kotor.",
+  "EffectsAndAttributes": {
+    "Effects": "Tidak ada efek fungsional. Memberikan kenyamanan psikologis.",
+    "Attributes": "Berat: 0.01kg"
+  },
+  "CraftingRecipe": {
+    "Materials": [],
+    "Tools": "Tidak dapat di-craft",
+    "Prerequisites": "Tidak dapat di-craft"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [],
+    "Effects": "Tidak dapat di-upgrade"
+  },
+  "LoreAndHistory": "Saputangan ini adalah simbol dari obsesi Lina terhadap kebersihan dan keteraturan. Di dunia yang penuh debu dan kotoran, saputangan ini adalah satu-satunya hal yang memberinya rasa kontrol dan kenyamanan."
+}

@@ -4,35 +4,41 @@ title: Kalung Anjing Militer (Kenangan)
 ---
 # Kalung Anjing Militer (Kenangan)
 
-**Item ID:** I009
-**Tipe:** Lain-lain
-**Kelangkaan:** Unik
+Data item Kalung Anjing Militer (Kenangan) sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Kalung Anjing Militer (Kenangan), silakan merujuk ke file:
+*   `_items/kalung_anjing_militer_kenangan.json`
 
-## Deskripsi Singkat
-> *"Sebuah kenangan yang terukir, pengingat akan janji yang takkan pernah pudar."*
+## Struktur Data Item (JSON)
 
-Kalung anjing militer milik Raka, satu-satunya peninggalan dari masa lalunya sebagai prajurit. Meskipun tidak memiliki efek fungsional, ini adalah pengingat konstan akan tugas dan pengorbanannya.
+Objek item Kalung Anjing Militer (Kenangan) dalam `_items/kalung_anjing_militer_kenangan.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Tidak ada efek fungsional. Memberikan kekuatan moral dan pengingat akan tujuan.
-*   **Atribut:** Berat: 0.05kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:** Tidak dapat di-craft
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:** Tidak dapat di-upgrade
-
----
-
-## Lore & Sejarah
-Kalung ini adalah simbol dari ikatan persaudaraan dan pengorbanan di medan perang. Bagi Raka, ini adalah pengingat akan rekan-rekan yang telah gugur dan janji untuk melindungi mereka yang masih hidup.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

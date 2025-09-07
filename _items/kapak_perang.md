@@ -4,41 +4,41 @@ title: Kapak Perang
 ---
 # Kapak Perang
 
-**Item ID:** I008
-**Tipe:** Senjata
-**Kelangkaan:** Umum
+Data item Kapak Perang sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Kapak Perang, silakan merujuk ke file:
+*   `_items/kapak_perang.json`
 
-## Deskripsi Singkat
-> *"Setiap ayunan adalah janji kehancuran, setiap tebasan adalah keadilan."*
+## Struktur Data Item (JSON)
 
-Kapak bermata dua yang berat, dirancang untuk memberikan kerusakan besar dalam pertarungan jarak dekat.
+Objek item Kapak Perang dalam `_items/kapak_perang.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Kerusakan area kecil, mampu memecah pertahanan.
-*   **Atribut:** Kerusakan: 25, Berat: 5kg, Kecepatan Serangan: Lambat
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:**
-    *   Besi Tempa: 4 unit
-    *   Gagang Kayu Kuat: 1 unit
-*   **Alat:** Tungku, Palu Besar
-*   **Prasyarat:** Skill Pandai Besi (Dasar)
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:**
-    *   Besi Meteor: 1 unit
-*   **Efek Upgrade:** Meningkatkan Kerusakan dan Kecepatan Serangan.
-
----
-
-## Lore & Sejarah
-Kapak Perang adalah senjata pilihan para prajurit garis depan dan barbar yang mengandalkan kekuatan mentah. Meskipun lambat, setiap pukulannya mampu menghancurkan pertahanan lawan, menjadikannya alat yang ditakuti di medan perang.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

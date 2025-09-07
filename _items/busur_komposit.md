@@ -4,42 +4,41 @@ title: Busur Komposit
 ---
 # Busur Komposit
 
-**Item ID:** I004
-**Tipe:** Senjata
-**Kelangkaan:** Tidak Umum
+Data item Busur Komposit sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Busur Komposit, silakan merujuk ke file:
+*   `_items/busur_komposit.json`
 
-## Deskripsi Singkat
-> *"Kekuatan yang tersembunyi dalam kelenturan."*
+## Struktur Data Item (JSON)
 
-Busur yang terbuat dari kombinasi beberapa material, memberikan kekuatan tarikan yang lebih besar dan akurasi yang lebih baik dibandingkan busur biasa.
+Objek item Busur Komposit dalam `_items/busur_komposit.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Meningkatkan kerusakan panah dan jangkauan.
-*   **Atribut:** Kerusakan: 20, Berat: 3kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:**
-    *   Kayu Elastis: 2 unit
-    *   Tanduk Hewan: 1 unit
-    *   Tali Kuat: 1 unit
-*   **Alat:** Meja Kerja Pemanah
-*   **Prasyarat:** Skill Membuat Busur (Dasar)
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:**
-    *   Bahan Komposit Tingkat Lanjut: 1 unit
-*   **Efek Upgrade:** Meningkatkan Kerusakan dan Akurasi.
-
----
-
-## Lore & Sejarah
-Busur Komposit adalah pilihan favorit para pemanah profesional dan pemburu besar. Desainnya yang kompleks memungkinkan kekuatan tembakan yang luar biasa, menjadikannya alat yang mematikan di tangan yang tepat.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

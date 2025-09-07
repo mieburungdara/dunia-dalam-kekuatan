@@ -15,51 +15,61 @@
   "AdditionalNotes": "Sihir Necromancy seringkali dianggap tabu dan ilegal di banyak peradaban, dan praktisinya sering diburu.",
   "ProgressionLevels": [
     {
+      "ID": "R_NE_L01",
       "LevelName": "Grave Robber (Penjarah Makam)",
       "Description": "Baru memulai jalan Necromancy, hanya mampu merasakan energi kematian dan melakukan ritual kecil.",
       "Abilities": ["Mantra untuk menemukan mayat", "atau menyebabkan sedikit ketidaknyamanan pada roh."]
     },
     {
+      "ID": "R_NE_L02",
       "LevelName": "Bone Collector (Pengumpul Tulang)",
       "Description": "Mulai memahami dasar-dasar pembangkitan, mampu menghidupkan kembali mayat yang sangat lemah.",
       "Abilities": ["Membangkitkan satu atau dua skeleton lemah", "atau menyebabkan rasa takut ringan pada makhluk hidup."]
     },
     {
+      "ID": "R_NE_L03",
       "LevelName": "Flesh Weaver (Penjalin Daging)",
       "Description": "Mampu memanipulasi daging dan tulang untuk menciptakan undead yang lebih kuat atau memperbaiki yang rusak.",
       "Abilities": ["Membangkitkan zombie yang lebih tangguh", "atau menguras sedikit energi kehidupan dari jarak dekat."]
     },
     {
+      "ID": "R_NE_L04",
       "LevelName": "Spirit Caller (Pemanggil Roh)",
       "Description": "Menguasai komunikasi dan pemanggilan roh, mampu mendapatkan informasi dari alam baka.",
       "Abilities": ["Memanggil roh untuk waktu singkat", "atau menyebabkan ketakutan yang lebih besar pada musuh."]
     },
     {
+      "ID": "R_NE_L05",
       "LevelName": "Soul Binder (Pengikat Jiwa)",
       "Description": "Mampu mengikat jiwa ke dalam objek atau mayat, menciptakan undead yang lebih setia atau artefak sihir.",
       "Abilities": ["Menciptakan Ghoul atau Wraith", "atau menguras energi kehidupan dalam jumlah sedang."]
     },
     {
+      "ID": "R_NE_L06",
       "LevelName": "Death Lord (Penguasa Kematian)",
       "Description": "Memiliki pasukan undead yang signifikan, mampu mengendalikan area yang luas dengan sihir kematian.",
       "Abilities": ["Membangkitkan pasukan undead", "atau menyebabkan wabah penyakit ringan."]
     },
     {
+      "ID": "R_NE_L07",
       "LevelName": "Lich Aspirant (Calon Lich)",
       "Description": "Memulai ritual untuk mencapai keabadian sebagai Lich, menguasai sihir kematian tingkat tinggi.",
       "Abilities": ["Mantra yang dapat menguras kehidupan dari banyak target sekaligus", "atau memanipulasi roh yang kuat."]
     },
     {
+      "ID": "R_NE_L08",
       "LevelName": "Arch-Necromancer (Arch-Necromancer)",
       "Description": "Salah satu Necromancer terkuat, mampu memanipulasi kehidupan dan kematian dalam skala besar.",
       "Abilities": ["Membangkitkan makhluk undead yang unik dan kuat (misalnya, Abomination)", "atau menyebabkan kematian instan pada target lemah."]
     },
     {
+      "ID": "R_NE_L09",
       "LevelName": "Soul Reaper (Penuai Jiwa)",
       "Description": "Mampu memisahkan jiwa dari tubuh, mengendalikan takdir hidup dan mati.",
       "Abilities": ["Mencuri jiwa", "atau menciptakan area di mana kehidupan tidak dapat tumbuh."]
     },
     {
+      "ID": "R_NE_L10",
       "LevelName": "Lich King/Queen (Raja/Ratu Lich)",
       "Description": "Mencapai keabadian dan kekuatan puncak Necromancy, menjadi penguasa mutlak atas alam kematian.",
       "Abilities": ["Membangkitkan seluruh kota mayat hidup", "mengendalikan roh-roh kuno", "atau menyebabkan kehancuran massal dengan sihir kematian."]

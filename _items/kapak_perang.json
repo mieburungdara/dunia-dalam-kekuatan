@@ -1,0 +1,28 @@
+{
+  "ID": "I008",
+  "Name": "Kapak Perang",
+  "Type": "Senjata",
+  "Rarity": "Umum",
+  "ShortDescription": "Setiap ayunan adalah janji kehancuran, setiap tebasan adalah keadilan.",
+  "Description": "Kapak bermata dua yang berat, dirancang untuk memberikan kerusakan besar dalam pertarungan jarak dekat.",
+  "EffectsAndAttributes": {
+    "Effects": "Kerusakan area kecil, mampu memecah pertahanan.",
+    "Attributes": "Kerusakan: 25, Berat: 5kg, Kecepatan Serangan: Lambat"
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Besi Tempa", "Quantity": 4},
+      {"Name": "Gagang Kayu Kuat", "Quantity": 1}
+    ],
+    "Tools": "Tungku, Palu Besar",
+    "Prerequisites": "Skill Pandai Besi (Dasar)"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [
+      {"Name": "Besi Meteor", "Quantity": 1}
+    ],
+    "Effects": "Meningkatkan Kerusakan dan Kecepatan Serangan."
+  },
+  "LoreAndHistory": "Kapak Perang adalah senjata pilihan para prajurit garis depan dan barbar yang mengandalkan kekuatan mentah. Meskipun lambat, setiap pukulannya mampu menghancurkan pertahanan lawan, menjadikannya alat yang ditakuti di medan perang."
+}

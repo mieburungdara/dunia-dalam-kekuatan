@@ -1,0 +1,23 @@
+{
+  "ID": "I012",
+  "Name": "Jepit Rambut Berukir",
+  "Type": "Lain-lain",
+  "Rarity": "Unik",
+  "ShortDescription": "Sebuah sentuhan keindahan di tengah kekacauan, pengingat akan kerapian dan ketenangan.",
+  "Description": "Jepit rambut sederhana namun diukir dengan indah, selalu digunakan Mira untuk menjaga rambutnya tetap rapi. Meskipun kecil, ini adalah simbol dari kepribadiannya yang perfeksionis dan teratur.",
+  "EffectsAndAttributes": {
+    "Effects": "Tidak ada efek fungsional. Hanya sebagai aksesori pribadi.",
+    "Attributes": "Berat: 0.01kg"
+  },
+  "CraftingRecipe": {
+    "Materials": [],
+    "Tools": "Tidak dapat di-craft",
+    "Prerequisites": "Tidak dapat di-craft"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [],
+    "Effects": "Tidak dapat di-upgrade"
+  },
+  "LoreAndHistory": "Jepit rambut ini adalah hadiah dari ibunya, sebuah pengingat akan pentingnya kerapian dan ketenangan dalam setiap aspek kehidupan. Bagi Mira, ini bukan hanya aksesori, tetapi juga jimat yang membantunya menjaga fokus di tengah situasi yang paling kacau sekalipun."
+}

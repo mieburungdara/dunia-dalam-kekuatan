@@ -1,0 +1,23 @@
+{
+  "ID": "I006",
+  "Name": "Headset Gaming (rusak)",
+  "Type": "Lain-lain",
+  "Rarity": "Unik",
+  "ShortDescription": "Suara dunia lain mungkin tak terdengar, tapi kenangan akan dunia lama tetap bergema.",
+  "Description": "Headset gaming milik Bimo yang rusak parah akibat benturan saat terjatuh. Meskipun tidak berfungsi, Bimo tetap membawanya sebagai kenang-kenangan dari dunianya yang lama.",
+  "EffectsAndAttributes": {
+    "Effects": "Tidak ada efek fungsional. Hanya sebagai pengingat.",
+    "Attributes": "Berat: 0.2kg"
+  },
+  "CraftingRecipe": {
+    "Materials": [],
+    "Tools": "Tidak dapat di-craft",
+    "Prerequisites": "Tidak dapat di-craft"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [],
+    "Effects": "Tidak dapat di-upgrade"
+  },
+  "LoreAndHistory": "Headset ini adalah simbol dari masa lalu Bimo sebagai seorang gamer. Meskipun rusak, ia tetap menyimpannya, mungkin sebagai pengingat akan kehidupan lamanya atau sebagai jimat keberuntungan di dunia baru ini."
+}

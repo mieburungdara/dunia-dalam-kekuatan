@@ -4,35 +4,41 @@ title: Saputangan Bersih
 ---
 # Saputangan Bersih
 
-**Item ID:** I015
-**Tipe:** Lain-lain
-**Kelangkaan:** Umum
+Data item Saputangan Bersih sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Saputangan Bersih, silakan merujuk ke file:
+*   `_items/saputangan_bersih.json`
 
-## Deskripsi Singkat
-> *"Sebuah oasis kebersihan di tengah gurun kotoran."*
+## Struktur Data Item (JSON)
 
-Saputangan putih bersih yang selalu dibawa Lina, digunakan untuk membersihkan noda atau sekadar menenangkan diri dari lingkungan yang kotor.
+Objek item Saputangan Bersih dalam `_items/saputangan_bersih.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Tidak ada efek fungsional. Memberikan kenyamanan psikologis.
-*   **Atribut:** Berat: 0.01kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:** Tidak dapat di-craft
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:** Tidak dapat di-upgrade
-
----
-
-## Lore & Sejarah
-Saputangan ini adalah simbol dari obsesi Lina terhadap kebersihan dan keteraturan. Di dunia yang penuh debu dan kotoran, saputangan ini adalah satu-satunya hal yang memberinya rasa kontrol dan kenyamanan.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

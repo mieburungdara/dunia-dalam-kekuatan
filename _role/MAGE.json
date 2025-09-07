@@ -12,54 +12,64 @@
   "SocialRole": ["Penasihat kerajaan", "peneliti Aether", "pelindung kota", "atau bahkan penjahat"],
   "Specializations": ["Pyromancer (pengendali api)", "Hydromancer (pengendali air)", "Geomancer (pengendali tanah)", "Aeromancer (pengendali angin)", "Lightweaver (pengendali cahaya)", "Shadowmancer (pengendali kegelapan)"],
   "FamousFigures": ["Archmage Elara", "Grand Sorcerer Kael"],
-  "AdditionalNotes": "Kekuatan penyihir sangat bergantung pada pemahaman mereka tentang Aether dan kemampuan mereka untuk mengendalikannya.",
+  "AdditionalNotes": "Kekuatan penyihir sangat bergantung pada pemahaman mereka tentang Aether dan kemampuan mereka untuk mengendalikanannya.",
   "ProgressionLevels": [
     {
+      "ID": "R_M_L01",
       "LevelName": "Novice Mage (Penyihir Pemula)",
       "Description": "Baru memulai perjalanan sihir, hanya mampu menguasai mantra dasar dan sederhana.",
       "Abilities": ["Mantra cahaya kecil", "percikan api", "atau dorongan angin ringan."]
     },
     {
+      "ID": "R_M_L02",
       "LevelName": "Apprentice Mage (Penyihir Magang)",
       "Description": "Mulai memahami teori sihir lebih dalam, mampu melakukan mantra yang sedikit lebih kompleks.",
       "Abilities": ["Bola api kecil", "semburan air", "atau perisai Aether dasar."]
     },
     {
+      "ID": "R_M_L03",
       "LevelName": "Journeyman Mage (Penyihir Pengelana)",
       "Description": "Telah menguasai dasar-dasar sihir dan mulai menjelajahi spesialisasi elemen.",
       "Abilities": ["Mantra elemen tingkat menengah, seperti dinding api atau pusaran air."]
     },
     {
+      "ID": "R_M_L04",
       "LevelName": "Adept Mage (Penyihir Mahir)",
       "Description": "Memiliki pemahaman yang kuat tentang satu atau dua elemen, mampu menciptakan mantra yang lebih kuat dan efisien.",
       "Abilities": ["Mantra area kecil, seperti badai api atau gelombang kejut tanah."]
     },
     {
+      "ID": "R_M_L05",
       "LevelName": "Master Mage (Penyihir Master)",
       "Description": "Menguasai beberapa elemen atau menjadi ahli dalam satu elemen, mampu melakukan sihir yang signifikan.",
       "Abilities": ["Mantra yang membutuhkan konsentrasi tinggi, seperti hujan meteor atau badai es."]
     },
     {
+      "ID": "R_M_L06",
       "LevelName": "Archmage (Penyihir Agung)",
       "Description": "Diakui sebagai salah satu penyihir terkuat, mampu memanipulasi Aether dalam skala besar.",
       "Abilities": ["Mantra yang mengubah medan perang, seperti memanggil golem elemen atau menciptakan ilusi kompleks."]
     },
     {
+      "ID": "R_M_L07",
       "LevelName": "Grand Archmage (Penyihir Agung Besar)",
       "Description": "Penguasaan Aether yang luar biasa, mampu melakukan sihir yang hampir mustahil bagi yang lain.",
       "Abilities": ["Mantra yang mempengaruhi cuaca lokal atau menciptakan portal dimensi kecil."]
     },
     {
+      "ID": "R_M_L08",
       "LevelName": "Elder Mage (Penyihir Sesepuh)",
       "Description": "Memiliki kebijaksanaan dan kekuatan sihir yang tak tertandingi, sering menjadi penasihat bagi penguasa.",
       "Abilities": ["Mantra yang dapat menyembuhkan penyakit parah atau memanipulasi pikiran dalam skala terbatas."]
     },
     {
+      "ID": "R_M_L09",
       "LevelName": "Legendary Mage (Penyihir Legendaris)",
       "Description": "Kekuatan sihir mereka menjadi legenda, mampu melakukan sihir yang mengubah lanskap atau takdir.",
       "Abilities": ["Mantra yang dapat membangkitkan kembali yang mati (dengan batasan) atau mengendalikan elemen alam secara masif."]
     },
     {
+      "ID": "R_M_L10",
       "LevelName": "Divine Mage (Penyihir Ilahi)",
       "Description": "Tingkat tertinggi yang bisa dicapai, kekuatan mereka mendekati dewa, mampu melakukan sihir yang mempengaruhi realitas itu sendiri.",
       "Abilities": ["Menciptakan atau menghancurkan pulau", "memanipulasi waktu dalam skala kecil", "atau berkomunikasi langsung dengan entitas Aether."]

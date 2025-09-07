@@ -13,51 +13,61 @@
   "AdditionalNotes": "Lightweaver yang mahir dapat memanipulasi energi cahaya menjadi serangan yang kuat.",
   "ProgressionLevels": [
     {
+      "ID": "R_LI_L01",
       "LevelName": "Glow Shaper (Pembentuk Cahaya Redup)",
       "Description": "Baru memulai, hanya mampu menciptakan cahaya redup atau memanipulasi bayangan kecil.",
       "Abilities": ["Cahaya redup di ujung jari", "membuat bayangan menari."]
     },
     {
+      "ID": "R_LI_L02",
       "LevelName": "Lumen Weaver (Penjalin Lumen)",
       "Description": "Mampu menciptakan sumber cahaya yang stabil, seperti bola cahaya atau obor magis.",
       "Abilities": ["Bola cahaya stabil", "obor magis", "menerangi area kecil."]
     },
     {
+      "ID": "R_LI_L03",
       "LevelName": "Beam Bender (Pembengkok Sinar)",
       "Description": "Mampu memanipulasi arah sinar cahaya, menciptakan efek visual sederhana atau mengalihkan perhatian.",
       "Abilities": ["Membengkokkan sinar cahaya", "menciptakan kilatan cahaya yang mengganggu."]
     },
     {
+      "ID": "R_LI_L04",
       "LevelName": "Illusionist (Ilusionis)",
       "Description": "Menguasai kontrol yang lebih baik atas cahaya, mampu menciptakan ilusi optik yang lebih kompleks dan meyakinkan.",
       "Abilities": ["Menciptakan ilusi objek statis", "menyembunyikan diri dalam cahaya."]
     },
     {
+      "ID": "R_LI_L05",
       "LevelName": "Radiant Healer (Penyembuh Bercahaya)",
       "Description": "Mampu menggunakan energi cahaya untuk menyembuhkan luka fisik atau penyakit ringan.",
       "Abilities": ["Menyembuhkan luka kecil", "menghilangkan racun ringan", "memberikan energi."]
     },
     {
+      "ID": "R_LI_L06",
       "LevelName": "Light Lord (Penguasa Cahaya)",
       "Description": "Diakui sebagai master cahaya, mampu menciptakan badai cahaya lokal atau memanipulasi spektrum warna.",
       "Abilities": ["Badai cahaya kecil", "memanipulasi warna objek", "menciptakan ilusi bergerak."]
     },
     {
+      "ID": "R_LI_L07",
       "LevelName": "Solar Flare (Jilatan Matahari)",
       "Description": "Kekuatan cahaya mereka mendekati kekuatan matahari, mampu memanggil energi cahaya yang dahsyat.",
       "Abilities": ["Sinar laser cahaya", "menciptakan area yang sangat terang yang membutakan musuh."]
     },
     {
+      "ID": "R_LI_L08",
       "LevelName": "Chroma Weaver (Penjalin Warna)",
       "Description": "Mampu memanipulasi warna dengan presisi, menciptakan ilusi yang sangat realistis atau mengubah penampilan objek.",
       "Abilities": ["Mengubah warna objek", "menciptakan ilusi orang atau makhluk hidup."]
     },
     {
+      "ID": "R_LI_L09",
       "LevelName": "Photon Manipulator (Manipulator Foton)",
       "Description": "Kekuatan cahaya mereka mencapai puncaknya, mampu memanipulasi foton untuk efek yang luar biasa.",
       "Abilities": ["Menciptakan hologram padat", "memanipulasi kecepatan cahaya di area kecil", "atau membuat objek tidak terlihat."]
     },
     {
+      "ID": "R_LI_L10",
       "LevelName": "Divine Radiance (Cahaya Ilahi)",
       "Description": "Tingkat tertinggi, mampu mengendalikan seluruh spektrum cahaya, menciptakan atau menghancurkan materi dengan cahaya, dan berkomunikasi dengan entitas cahaya.",
       "Abilities": ["Menciptakan materi dari cahaya", "menghancurkan objek dengan cahaya murni", "atau memanggil elemental cahaya raksasa."]

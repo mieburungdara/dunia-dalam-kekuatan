@@ -4,35 +4,41 @@ title: Kompas Kuno
 ---
 # Kompas Kuno
 
-**Item ID:** I002
-**Tipe:** Lain-lain
-**Kelangkaan:** Tidak Umum
+Data item Kompas Kuno sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Kompas Kuno, silakan merujuk ke file:
+*   `_items/kompas_kuno.json`
 
-## Deskripsi Singkat
-> *"Bukan sekadar penunjuk arah, melainkan penuntun takdir."*
+## Struktur Data Item (JSON)
 
-Kompas tua yang selalu menunjuk ke arah yang benar, bahkan di tempat-tempat di mana hukum alam tampaknya tidak berlaku.
+Objek item Kompas Kuno dalam `_items/kompas_kuno.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Selalu menunjuk ke arah tujuan yang diinginkan pengguna (jika tujuan jelas).
-*   **Atribut:** Tidak ada
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:** Tidak dapat di-craft
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:** Tidak dapat di-upgrade
-
----
-
-## Lore & Sejarah
-Kompas Kuno adalah artefak misterius yang konon dibuat oleh para penjelajah pertama Eryndor. Ada yang mengatakan kompas ini tidak hanya menunjuk arah geografis, tetapi juga arah takdir, membimbing pemiliknya menuju tujuan yang paling penting bagi mereka.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

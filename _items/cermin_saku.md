@@ -4,35 +4,41 @@ title: Cermin Saku
 ---
 # Cermin Saku
 
-**Item ID:** I014
-**Tipe:** Lain-lain
-**Kelangkaan:** Umum
+Data item Cermin Saku sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Cermin Saku, silakan merujuk ke file:
+*   `_items/cermin_saku.json`
 
-## Deskripsi Singkat
-> *"Refleksi diri di tengah kekacauan, pengingat akan penampilan yang sempurna."*
+## Struktur Data Item (JSON)
 
-Cermin kecil yang selalu dibawa Lina, digunakan untuk memastikan penampilannya tetap rapi, bahkan di tengah situasi yang paling tidak terduga.
+Objek item Cermin Saku dalam `_items/cermin_saku.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Tidak ada efek fungsional. Hanya sebagai aksesori pribadi.
-*   **Atribut:** Berat: 0.05kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:** Tidak dapat di-craft
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:** Tidak dapat di-upgrade
-
----
-
-## Lore & Sejarah
-Cermin saku ini adalah cerminan dari kepribadian Lina yang sangat peduli dengan penampilan dan keteraturan. Bahkan di dunia yang asing dan berbahaya, ia tetap berusaha menjaga standar pribadinya, sebuah bentuk perlawanan kecil terhadap kekacauan di sekitarnya.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

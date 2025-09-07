@@ -13,51 +13,61 @@
   "AdditionalNotes": "Shadowmancer yang mahir dapat memanipulasi ketakutan dan pikiran.",
   "ProgressionLevels": [
     {
+      "ID": "R_SH_L01",
       "LevelName": "Shade Walker (Penjelajah Bayangan)",
       "Description": "Baru memulai, hanya mampu merasakan bayangan atau membuat bayangan sedikit lebih gelap.",
       "Abilities": ["Merasakan bayangan", "membuat bayangan sedikit lebih gelap."]
     },
     {
+      "ID": "R_SH_L02",
       "LevelName": "Gloom Weaver (Penjalin Kegelapan)",
       "Description": "Mampu menciptakan area kegelapan kecil atau menyembunyikan objek kecil dalam bayangan.",
       "Abilities": ["Area kegelapan kecil", "menyembunyikan objek kecil."]
     },
     {
+      "ID": "R_SH_L03",
       "LevelName": "Shadow Bender (Pembengkok Bayangan)",
       "Description": "Mampu memanipulasi bentuk bayangan, menciptakan ilusi sederhana atau mengalihkan perhatian.",
       "Abilities": ["Membengkokkan bayangan", "menciptakan ilusi bayangan sederhana."]
     },
     {
+      "ID": "R_SH_L04",
       "LevelName": "Night Stalker (Penguntit Malam)",
       "Description": "Menguasai kontrol yang lebih baik atas bayangan, mampu menyembunyikan diri dalam bayangan atau bergerak tanpa suara.",
       "Abilities": ["Menyembunyikan diri dalam bayangan", "bergerak tanpa suara", "menciptakan jebakan bayangan kecil."]
     },
     {
+      "ID": "R_SH_L05",
       "LevelName": "Umbra Conjurer (Pembangkit Umbra)",
       "Description": "Mampu memanggil kegelapan yang lebih intens dan merusak, serta memanipulasi ketakutan.",
       "Abilities": ["Bola bayangan besar", "ledakan kegelapan", "menyebabkan rasa takut ringan."]
     },
     {
+      "ID": "R_SH_L06",
       "LevelName": "Shadow Lord (Penguasa Bayangan)",
       "Description": "Diakui sebagai master kegelapan, mampu menciptakan badai bayangan lokal atau memanipulasi pikiran.",
       "Abilities": ["Badai bayangan kecil", "memanipulasi pikiran", "menciptakan ilusi kompleks."]
     },
     {
+      "ID": "R_SH_L07",
       "LevelName": "Void Heart (Jantung Kekosongan)",
       "Description": "Kekuatan kegelapan mereka mendekati kekuatan kekosongan, mampu memanggil entitas dari dimensi bayangan.",
       "Abilities": ["Memanggil makhluk bayangan", "menciptakan area tanpa cahaya."]
     },
     {
+      "ID": "R_SH_L08",
       "LevelName": "Fear Weaver (Penjalin Ketakutan)",
       "Description": "Mampu memanipulasi ketakutan dengan presisi, menyebabkan kepanikan massal atau mimpi buruk yang mengerikan.",
       "Abilities": ["Menyebabkan kepanikan massal", "menciptakan mimpi buruk", "atau menguras keberanian."]
     },
     {
+      "ID": "R_SH_L09",
       "LevelName": "Abyssal Manipulator (Manipulator Jurang)",
       "Description": "Kekuatan kegelapan mereka mencapai puncaknya, mampu mengubah realitas dengan bayangan.",
       "Abilities": ["Menciptakan portal bayangan", "memanipulasi ruang dan waktu dalam bayangan", "atau membuat objek menghilang."]
     },
     {
+      "ID": "R_SH_L10",
       "LevelName": "Darkness Incarnate (Inkarnasi Kegelapan)",
       "Description": "Tingkat tertinggi, mampu mengendalikan seluruh kegelapan, menciptakan atau menghancurkan materi dengan bayangan, dan menjadi satu dengan kekosongan.",
       "Abilities": ["Menciptakan lubang hitam kecil", "menghancurkan objek dengan bayangan murni", "atau memanggil elemental kegelapan raksasa."]

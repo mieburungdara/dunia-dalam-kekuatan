@@ -13,51 +13,61 @@
   "AdditionalNotes": "Hydromancer yang mahir dapat mengendalikan es dan uap.",
   "ProgressionLevels": [
     {
+      "ID": "R_HY_L01",
       "LevelName": "Dew Dropper (Penetes Embun)",
       "Description": "Baru memulai, hanya mampu memanipulasi tetesan air kecil atau membuat embun.",
       "Abilities": ["Mengumpulkan embun", "membuat tetesan air melayang."]
     },
     {
+      "ID": "R_HY_L02",
       "LevelName": "Puddle Bender (Pembengkok Genangan)",
       "Description": "Mampu mengendalikan genangan air kecil, membersihkan air, atau membuat air mengalir.",
       "Abilities": ["Menggerakkan genangan air", "memurnikan air kotor dalam jumlah kecil."]
     },
     {
+      "ID": "R_HY_L03",
       "LevelName": "Stream Weaver (Penjalin Aliran)",
       "Description": "Mampu memanipulasi aliran air yang lebih besar, seperti sungai kecil atau air mancur.",
       "Abilities": ["Mengubah arah aliran sungai kecil", "menciptakan semburan air ringan."]
     },
     {
+      "ID": "R_HY_L04",
       "LevelName": "Wave Shaper (Pembentuk Gelombang)",
       "Description": "Menguasai kontrol yang lebih baik atas air, mampu menciptakan gelombang atau pusaran air yang lebih besar.",
       "Abilities": ["Menciptakan gelombang kecil", "pusaran air", "atau perisai air."]
     },
     {
+      "ID": "R_HY_L05",
       "LevelName": "Torrent Conjurer (Pembangkit Arus Deras)",
       "Description": "Mampu memanggil arus air yang kuat dan merusak, serta mengendalikan suhu air.",
       "Abilities": ["Semburan air bertekanan tinggi", "menciptakan es atau uap", "badai es kecil."]
     },
     {
+      "ID": "R_HY_L06",
       "LevelName": "Water Lord (Penguasa Air)",
       "Description": "Diakui sebagai master air, mampu menciptakan badai air lokal atau mengendalikan air dalam jumlah besar.",
       "Abilities": ["Badai air kecil", "memanipulasi danau atau kolam", "menciptakan ilusi air."]
     },
     {
+      "ID": "R_HY_L07",
       "LevelName": "Ocean Heart (Jantung Samudra)",
       "Description": "Kekuatan air mereka mendekati kekuatan samudra, mampu memanggil gelombang pasang atau mengendalikan arus laut.",
       "Abilities": ["Memanggil gelombang pasang kecil", "mengendalikan arus laut lokal."]
     },
     {
+      "ID": "R_HY_L08",
       "LevelName": "Glacier Soul (Jiwa Gletser)",
       "Description": "Mampu memanipulasi air dalam bentuk padat (es) dengan kekuatan luar biasa, menciptakan struktur es yang besar.",
       "Abilities": ["Menciptakan gletser kecil", "memanggil badai salju yang dahsyat."]
     },
     {
+      "ID": "R_HY_L09",
       "LevelName": "Tsunami Weaver (Penjalin Tsunami)",
       "Description": "Kekuatan air mereka mencapai puncaknya, mampu menciptakan bencana alam berbasis air.",
       "Abilities": ["Memanggil tsunami kecil", "mengendalikan hujan lebat di area luas."]
     },
     {
+      "ID": "R_HY_L10",
       "LevelName": "Abyssal Master (Master Jurang)",
       "Description": "Tingkat tertinggi, mampu mengendalikan seluruh samudra, memanipulasi tekanan air di kedalaman, dan memanggil makhluk laut dalam.",
       "Abilities": ["Mengendalikan seluruh samudra", "menciptakan pusaran air raksasa", "memanggil Kraken."]

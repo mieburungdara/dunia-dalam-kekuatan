@@ -4,42 +4,41 @@ title: Perisai Menara
 ---
 # Perisai Menara
 
-**Item ID:** I007
-**Tipe:** Armor
-**Kelangkaan:** Tidak Umum
+Data item Perisai Menara sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Perisai Menara, silakan merujuk ke file:
+*   `_items/perisai_menara.json`
 
-## Deskripsi Singkat
-> *"Dinding bergerak yang melindungi dari segala ancaman."*
+## Struktur Data Item (JSON)
 
-Perisai besar dan berat yang menutupi hampir seluruh tubuh, memberikan perlindungan maksimal dari serangan fisik.
+Objek item Perisai Menara dalam `_items/perisai_menara.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Meningkatkan pertahanan fisik secara signifikan.
-*   **Atribut:** Pertahanan: 30, Berat: 15kg, Penalti Kecepatan: Sedang
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:**
-    *   Besi Tempa: 5 unit
-    *   Kayu Oak: 2 unit
-    *   Tali Kulit Tebal: 1 unit
-*   **Alat:** Tungku, Palu Besar
-*   **Prasyarat:** Skill Pandai Besi (Menengah)
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Perisai Besar
-*   **Bahan Upgrade:**
-    *   Besi Adamant: 2 unit
-*   **Efek Upgrade:** Meningkatkan Pertahanan dan mengurangi Penalti Kecepatan.
-
----
-
-## Lore & Sejarah
-Perisai Menara adalah pilihan utama para tank dan guardian yang berdedikasi untuk melindungi sekutu mereka. Meskipun berat dan membatasi gerakan, perlindungan yang diberikannya tak tertandingi, menjadikannya benteng bergerak di medan perang.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

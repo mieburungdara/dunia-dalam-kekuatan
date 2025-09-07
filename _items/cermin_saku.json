@@ -1,0 +1,23 @@
+{
+  "ID": "I014",
+  "Name": "Cermin Saku",
+  "Type": "Lain-lain",
+  "Rarity": "Umum",
+  "ShortDescription": "Refleksi diri di tengah kekacauan, pengingat akan penampilan yang sempurna.",
+  "Description": "Cermin kecil yang selalu dibawa Lina, digunakan untuk memastikan penampilannya tetap rapi, bahkan di tengah situasi yang paling tidak terduga.",
+  "EffectsAndAttributes": {
+    "Effects": "Tidak ada efek fungsional. Hanya sebagai aksesori pribadi.",
+    "Attributes": "Berat: 0.05kg"
+  },
+  "CraftingRecipe": {
+    "Materials": [],
+    "Tools": "Tidak dapat di-craft",
+    "Prerequisites": "Tidak dapat di-craft"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [],
+    "Effects": "Tidak dapat di-upgrade"
+  },
+  "LoreAndHistory": "Cermin saku ini adalah cerminan dari kepribadian Lina yang sangat peduli dengan penampilan dan keteraturan. Bahkan di dunia yang asing dan berbahaya, ia tetap berusaha menjaga standar pribadinya, sebuah bentuk perlawanan kecil terhadap kekacauan di sekitarnya."
+}

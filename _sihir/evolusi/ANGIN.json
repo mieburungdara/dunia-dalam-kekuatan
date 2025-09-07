@@ -2,6 +2,7 @@
   "Title": "Tingkat Penguasaan Elemen: Angin",
   "Levels": [
     {
+      "ID": "E_AN_L01",
       "LevelNumber": 1,
       "LevelName": "Koneksi Awal",
       "Control": "Hanya bisa merasakan arah angin dan menciptakan hembusan sangat ringan.",
@@ -10,6 +11,7 @@
       "Influence": "Cukup untuk mengirim pesan bisikan dari seberang ruangan atau menerbangkan surat."
     },
     {
+      "ID": "E_AN_L02",
       "LevelNumber": 2,
       "LevelName": "Manipulasi Dasar",
       "Control": "Mampu menciptakan aliran angin yang terarah untuk mendorong benda-benda kecil.",
@@ -18,6 +20,7 @@
       "Influence": "Bisa mendorong perahu layar kecil atau sedikit mempercepat lari."
     },
     {
+      "ID": "E_AN_L03",
       "LevelNumber": 3,
       "LevelName": "Pembentukan Sederhana",
       "Control": "Mampu memadatkan angin untuk menciptakan hembusan tajam atau perisai angin kecil yang membelokkan proyektil.",
@@ -26,6 +29,7 @@
       "Influence": "Hembusan anginnya bisa merobek bendera atau membuat lawan kehilangan keseimbangan."
     },
     {
+      "ID": "E_AN_L04",
       "LevelNumber": 4,
       "LevelName": "Kontrol Getaran",
       "Control": "Mampu menggunakan angin sebagai medium untuk membawa atau meredam suara dengan presisi.",
@@ -34,6 +38,7 @@
       "Influence": "Mampu meredam suara di satu area atau menciptakan ilusi suara untuk mengalihkan perhatian."
     },
     {
+      "ID": "E_AN_L05",
       "LevelNumber": 5,
       "LevelName": "Penguasaan Gerak",
       "Control": "Mampu menyelimuti tubuh dengan aliran angin yang presisi untuk meningkatkan mobilitas secara signifikan.",
@@ -42,6 +47,7 @@
       "Influence": "Bisa mengangkat tubuh pengguna untuk melompat sangat tinggi atau berjalan di atas air untuk sesaat."
     },
     {
+      "ID": "E_AN_L06",
       "LevelNumber": 6,
       "LevelName": "Penguasaan Rotasi",
       "Control": "Mampu menciptakan dan mengendalikan pusaran angin yang stabil dan terarah.",
@@ -50,6 +56,7 @@
       "Influence": "Tornado kecilnya bisa menghancurkan pondok kayu atau mencerabut pohon dari akarnya."
     },
     {
+      "ID": "E_AN_L07",
       "LevelNumber": 7,
       "LevelName": "Penguasaan Tekanan",
       "Control": "Mampu mengubah tekanan udara secara drastis di area kecil dengan cepat.",
@@ -58,6 +65,7 @@
       "Influence": "Bisa menciptakan vakum yang memadamkan semua api di ruangan atau tekanan yang menghancurkan pintu kayu."
     },
     {
+      "ID": "E_AN_L08",
       "LevelNumber": 8,
       "LevelName": "Penguasaan Atmosfer",
       "Control": "Mampu membaca pola angin dalam skala besar dan memengaruhinya secara halus.",
@@ -66,6 +74,7 @@
       "Influence": "Angin bisa menjadi setajam pisau yang mengiris baja, sepadat dinding tak terlihat, atau membawa aroma dari masa lalu."
     },
     {
+      "ID": "E_AN_L09",
       "LevelNumber": 9,
       "LevelName": "Konsep Badai",
       "Control": "Mampu memicu dan mengarahkan badai lokal yang kuat.",
@@ -74,6 +83,7 @@
       "Influence": "Mampu mengubah arah angin regional untuk membawa atau mengusir badai."
     },
     {
+      "ID": "E_AN_L10",
       "LevelNumber": 10,
       "LevelName": "Kesatuan Abadi",
       "Control": "Kehendak pengguna adalah hukum bagi semua atmosfer.",

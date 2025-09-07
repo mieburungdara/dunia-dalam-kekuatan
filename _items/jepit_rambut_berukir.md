@@ -4,35 +4,41 @@ title: Jepit Rambut Berukir
 ---
 # Jepit Rambut Berukir
 
-**Item ID:** I012
-**Tipe:** Lain-lain
-**Kelangkaan:** Unik
+Data item Jepit Rambut Berukir sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Jepit Rambut Berukir, silakan merujuk ke file:
+*   `_items/jepit_rambut_berukir.json`
 
-## Deskripsi Singkat
-> *"Sebuah sentuhan keindahan di tengah kekacauan, pengingat akan kerapian dan ketenangan."*
+## Struktur Data Item (JSON)
 
-Jepit rambut sederhana namun diukir dengan indah, selalu digunakan Mira untuk menjaga rambutnya tetap rapi. Meskipun kecil, ini adalah simbol dari kepribadiannya yang perfeksionis dan teratur.
+Objek item Jepit Rambut Berukir dalam `_items/jepit_rambut_berukir.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Tidak ada efek fungsional. Hanya sebagai aksesori pribadi.
-*   **Atribut:** Berat: 0.01kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:** Tidak dapat di-craft
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:** Tidak dapat di-upgrade
-
----
-
-## Lore & Sejarah
-Jepit rambut ini adalah hadiah dari ibunya, sebuah pengingat akan pentingnya kerapian dan ketenangan dalam setiap aspek kehidupan. Bagi Mira, ini bukan hanya aksesori, tetapi juga jimat yang membantunya menjaga fokus di tengah situasi yang paling kacau sekalipun.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

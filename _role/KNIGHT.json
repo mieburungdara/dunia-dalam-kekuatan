@@ -13,51 +13,61 @@
   "AdditionalNotes": "Knight seringkali terikat pada sumpah atau kode etik yang ketat, seperti kode kesatriaan.",
   "ProgressionLevels": [
     {
+      "ID": "R_KN_L01",
       "LevelName": "Page (Pelayan Ksatria)",
       "Description": "Baru memulai pelatihan, belajar etiket, dasar-dasar senjata, dan melayani ksatria senior.",
       "Abilities": ["Dasar-dasar penggunaan pedang kayu", "membersihkan baju zirah."]
     },
     {
+      "ID": "R_KN_L02",
       "LevelName": "Squire (Calon Ksatria)",
       "Description": "Mendampingi ksatria dalam pertempuran, belajar taktik, dan mengasah keterampilan bertarung.",
       "Abilities": ["Penguasaan senjata dasar", "pertahanan diri", "merawat kuda perang."]
     },
     {
+      "ID": "R_KN_L03",
       "LevelName": "Man-at-Arms (Prajurit Bersenjata)",
       "Description": "Prajurit terlatih yang mampu bertarung di garis depan, tetapi belum memiliki gelar kesatria.",
       "Abilities": ["Bertarung dalam formasi", "menggunakan perisai secara efektif", "daya tahan fisik."]
     },
     {
+      "ID": "R_KN_L04",
       "LevelName": "Knight Errant (Ksatria Pengelana)",
       "Description": "Ksatria yang melakukan perjalanan untuk mencari petualangan, menegakkan keadilan, atau memenuhi sumpah pribadi.",
       "Abilities": ["Bertarung sendirian atau dalam kelompok kecil", "navigasi", "bertahan hidup di alam liar."]
     },
     {
+      "ID": "R_KN_L05",
       "LevelName": "Knight of the Realm (Ksatria Kerajaan)",
       "Description": "Ksatria yang telah diakui dan melayani kerajaan atau penguasa tertentu, terikat pada sumpah kesetiaan.",
       "Abilities": ["Komando pasukan kecil", "taktik pertempuran", "diplomasi dasar."]
     },
     {
+      "ID": "R_KN_L06",
       "LevelName": "Captain (Kapten Ksatria)",
       "Description": "Memimpin unit ksatria atau pasukan yang lebih besar dalam pertempuran, ahli strategi.",
       "Abilities": ["Strategi pertempuran", "memimpin serangan", "mempertahankan posisi."]
     },
     {
+      "ID": "R_KN_L07",
       "LevelName": "Commander (Komandan Ksatria)",
       "Description": "Memimpin seluruh resimen atau legiun ksatria, ahli dalam perang skala besar.",
       "Abilities": ["Taktik perang skala besar", "logistik", "moral pasukan."]
     },
     {
+      "ID": "R_KN_L08",
       "LevelName": "Grand Knight (Ksatria Agung)",
       "Description": "Salah satu ksatria paling dihormati dan berpengaruh di kerajaan, sering menjadi penasihat militer.",
       "Abilities": ["Duel satu lawan satu yang tak tertandingi", "inspirasi moral yang kuat", "negosiasi."]
     },
     {
+      "ID": "R_KN_L09",
       "LevelName": "Paladin (Paladin)",
       "Description": "Ksatria yang diberkati dengan kekuatan ilahi atau magis, bertarung untuk kebaikan dan keadilan yang lebih tinggi.",
       "Abilities": ["Mantra penyembuhan dasar", "aura pelindung", "serangan yang diberkati."]
     },
     {
+      "ID": "R_KN_L10",
       "LevelName": "Lord Commander (Panglima Tertinggi)",
       "Description": "Tingkat tertinggi, pemimpin tertinggi semua ksatria, simbol kehormatan dan kekuatan militer.",
       "Abilities": ["Memimpin seluruh pasukan kerajaan", "strategi perang tingkat nasional", "menjadi legenda hidup."]

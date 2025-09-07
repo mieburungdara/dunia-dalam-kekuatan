@@ -13,51 +13,61 @@
   "AdditionalNotes": "Assassin seringkali memiliki kode etik mereka sendiri, meskipun tidak selalu terlihat oleh orang luar.",
   "ProgressionLevels": [
     {
+      "ID": "R_AS_L01",
       "LevelName": "Shadow Initiate (Inisiat Bayangan)",
       "Description": "Baru memulai pelatihan, belajar dasar-dasar penyelinapan dan pengamatan.",
       "Abilities": ["Berjalan tanpa suara di permukaan lunak", "mengamati target dari kejauhan."]
     },
     {
+      "ID": "R_AS_L02",
       "LevelName": "Rogue (Pencuri)",
       "Description": "Menguasai dasar-dasar pencurian dan penyelinapan, mampu membuka kunci sederhana dan menghindari patroli.",
       "Abilities": ["Membuka kunci sederhana", "menghindari deteksi visual dasar."]
     },
     {
+      "ID": "R_AS_L03",
       "LevelName": "Stalker (Penguntit)",
       "Description": "Mampu mengikuti target tanpa terdeteksi di lingkungan yang ramai atau sulit.",
       "Abilities": ["Menguntit target", "menyembunyikan diri di keramaian."]
     },
     {
+      "ID": "R_AS_L04",
       "LevelName": "Silent Blade (Pedang Senyap)",
       "Description": "Menguasai penggunaan belati dan serangan kejutan, mampu melumpuhkan target dengan cepat.",
       "Abilities": ["Serangan belati cepat", "melumpuhkan target dari belakang."]
     },
     {
+      "ID": "R_AS_L05",
       "LevelName": "Ghost (Hantu)",
       "Description": "Mampu menyusup ke area yang dijaga ketat tanpa meninggalkan jejak, hampir tidak terlihat.",
       "Abilities": ["Infiltrasi tingkat menengah", "menghindari sensor magis dasar."]
     },
     {
+      "ID": "R_AS_L06",
       "LevelName": "Master Assassin (Master Assassin)",
       "Description": "Diakui sebagai pembunuh yang sangat terampil, mampu melakukan pembunuhan yang rumit dan berisiko tinggi.",
       "Abilities": ["Pembunuhan target yang dijaga ketat", "menggunakan racun mematikan."]
     },
     {
+      "ID": "R_AS_L07",
       "LevelName": "Shadow Lord (Penguasa Bayangan)",
       "Description": "Mampu memanipulasi bayangan untuk keuntungan taktis, menciptakan ilusi atau jalur tersembunyi.",
       "Abilities": ["Berteleportasi jarak pendek melalui bayangan", "menciptakan ilusi bayangan."]
     },
     {
+      "ID": "R_AS_L08",
       "LevelName": "Phantom (Hantu)",
       "Description": "Keberadaan mereka hampir tidak nyata, mampu melewati pertahanan yang paling ketat.",
       "Abilities": ["Menjadi tidak berwujud untuk waktu singkat", "melewati dinding tipis."]
     },
     {
+      "ID": "R_AS_L09",
       "LevelName": "Death Whisper (Bisikan Kematian)",
       "Description": "Mampu membunuh target tanpa suara atau jejak, seolah-olah mereka tidak pernah ada.",
       "Abilities": ["Pembunuhan tanpa jejak", "menghilangkan bukti keberadaan."]
     },
     {
+      "ID": "R_AS_L10",
       "LevelName": "Apex Predator (Predator Puncak)",
       "Description": "Tingkat tertinggi, master tak tertandingi dalam seni pembunuhan, mampu membunuh target manapun tanpa gagal.",
       "Abilities": ["Membunuh target yang dilindungi sihir", "mengendalikan pikiran untuk waktu singkat", "menghilang sepenuhnya."]

@@ -13,51 +13,61 @@
   "AdditionalNotes": "Succubus seringkali digambarkan sebagai makhluk yang sangat cerdas dan manipulatif, dengan tujuan yang tidak selalu jelas bagi orang lain.",
   "ProgressionLevels": [
     {
+      "ID": "R_SU_L01",
       "LevelName": "Charm Initiate (Inisiat Pesona)",
       "Description": "Baru memulai, hanya mampu memancarkan aura pesona ringan yang membuat orang sedikit lebih ramah.",
       "Abilities": ["Aura pesona ringan", "membuat orang sedikit lebih ramah."]
     },
     {
+      "ID": "R_SU_L02",
       "LevelName": "Whisperer (Pembisik)",
       "Description": "Mampu membujuk orang untuk melakukan hal-hal kecil atau mengungkapkan informasi sepele.",
       "Abilities": ["Membujuk orang untuk hal kecil", "mendapatkan informasi sepele."]
     },
     {
-      "LevelName": "Illusion Weaver (Penjalin Ilusi)",
+      "ID": "R_SU_L03",
+      "LevelName": "Ilusion Weaver (Penjalin Ilusi)",
       "Description": "Mampu menciptakan ilusi visual sederhana untuk mengalihkan perhatian atau menyembunyikan diri.",
       "Abilities": ["Ilusi visual sederhana", "menyembunyikan diri dalam ilusi."]
     },
     {
-"LevelName": "Mind Bender (Pembengkok Pikiran)",
+      "ID": "R_SU_L04",
+      "LevelName": "Mind Bender (Pembengkok Pikiran)",
       "Description": "Menguasai kontrol yang lebih baik atas pikiran, mampu memengaruhi keputusan kecil atau menyebabkan kebingungan.",
       "Abilities": ["Memengaruhi keputusan kecil", "menyebabkan kebingungan ringan."]
     },
     {
+      "ID": "R_SU_L05",
       "LevelName": "Energy Siphon (Penyedot Energi)",
       "Description": "Mampu menyerap energi vital dalam jumlah kecil dari target melalui kontak fisik.",
       "Abilities": ["Menyerap energi vital kecil", "memulihkan stamina diri."]
     },
     {
+      "ID": "R_SU_L06",
       "LevelName": "Master Charmer (Master Pesona)",
       "Description": "Diakui sebagai master pesona, mampu memengaruhi kelompok kecil atau individu yang kuat.",
       "Abilities": ["Memengaruhi kelompok kecil", "memanipulasi emosi yang lebih kompleks."]
     },
     {
+      "ID": "R_SU_L07",
       "LevelName": "Dream Weaver (Penjalin Mimpi)",
       "Description": "Mampu memasuki dan memanipulasi mimpi target, menanamkan ide atau mengumpulkan informasi.",
       "Abilities": ["Memasuki mimpi", "menanamkan ide dalam mimpi", "mengumpulkan informasi dari mimpi."]
     },
     {
+      "ID": "R_SU_L08",
       "LevelName": "Soul Drainer (Penguras Jiwa)",
       "Description": "Mampu menyerap energi vital dalam jumlah besar, bahkan dari jarak jauh, untuk memperkuat diri.",
       "Abilities": ["Menyerap energi vital dari jarak jauh", "memperkuat kemampuan sihir."]
     },
     {
+      "ID": "R_SU_L09",
       "LevelName": "Reality Bender (Pembengkok Realitas)",
       "Description": "Kekuatan ilusi mereka mencapai puncaknya, mampu menciptakan ilusi yang hampir tidak dapat dibedakan dari kenyataan.",
       "Abilities": ["Menciptakan ilusi yang sangat realistis", "memanipulasi persepsi massa."]
     },
     {
+      "ID": "R_SU_L10",
       "LevelName": "Empress of Desire (Ratu Hasrat)",
       "Description": "Tingkat tertinggi, mampu mengendalikan hasrat dan emosi massa, memanipulasi seluruh populasi, dan menguras energi vital dalam skala besar.",
       "Abilities": ["Mengendalikan hasrat massa", "menyebabkan kerusuhan atau perdamaian", "menguras energi vital dari seluruh kota."]

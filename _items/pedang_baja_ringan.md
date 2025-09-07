@@ -4,41 +4,41 @@ title: Pedang Baja Ringan
 ---
 # Pedang Baja Ringan
 
-**Item ID:** I001
-**Tipe:** Senjata
-**Kelangkaan:** Umum
+Data item Pedang Baja Ringan sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Pedang Baja Ringan, silakan merujuk ke file:
+*   `_items/pedang_baja_ringan.json`
 
-## Deskripsi Singkat
-> *"Ringan di tangan, cepat dalam ayunan."*
+## Struktur Data Item (JSON)
 
-Pedang satu tangan yang terbuat dari baja ringan, cocok untuk pertarungan cepat dan presisi.
+Objek item Pedang Baja Ringan dalam `_items/pedang_baja_ringan.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Meningkatkan kecepatan serangan.
-*   **Atribut:** Kerusakan: 15, Berat: 2kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:**
-    *   Baja Ringan: 3 unit
-    *   Gagang Kayu: 1 unit
-*   **Alat:** Tungku, Palu
-*   **Prasyarat:** Skill Pandai Besi (Dasar)
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:**
-    *   Baja Berkualitas Tinggi: 1 unit
-*   **Efek Upgrade:** Meningkatkan Kerusakan dan Kecepatan Serangan.
-
----
-
-## Lore & Sejarah
-Pedang Baja Ringan adalah senjata standar bagi banyak petualang dan prajurit karena keseimbangan antara bobot dan efektivitasnya. Desainnya yang sederhana namun fungsional membuatnya menjadi pilihan populer di seluruh Eryndor.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

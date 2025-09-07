@@ -1,0 +1,29 @@
+{
+  "ID": "I010",
+  "Name": "Kit Medis Portabel",
+  "Type": "Konsumsi",
+  "Rarity": "Tidak Umum",
+  "ShortDescription": "Setiap luka adalah tantangan, setiap alat adalah harapan.",
+  "Description": "Kotak kecil berisi peralatan medis dasar seperti perban, antiseptik, jarum, dan benang, cukup untuk menangani luka ringan hingga sedang.",
+  "EffectsAndAttributes": {
+    "Effects": "Memungkinkan pengguna untuk melakukan pertolongan pertama dan menyembuhkan luka ringan.",
+    "Attributes": "Jumlah Penggunaan: 5, Berat: 1kg"
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Kain Bersih", "Quantity": 3},
+      {"Name": "Herbal Antiseptik", "Quantity": 2},
+      {"Name": "Jarum & Benang", "Quantity": 1}
+    ],
+    "Tools": "Meja Kerja Medis",
+    "Prerequisites": "Skill Pengetahuan Herbal (Dasar)"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [
+      {"Name": "Peralatan Bedah Mini", "Quantity": 1}
+    ],
+    "Effects": "Meningkatkan jumlah penggunaan dan efektivitas penyembuhan."
+  },
+  "LoreAndHistory": "Kit Medis Portabel adalah perlengkapan esensial bagi setiap petualang atau penyembuh yang sering bepergian. Ini adalah simbol dari kesiapan dan kepedulian terhadap sesama, memungkinkan pertolongan pertama di mana pun dibutuhkan."
+}

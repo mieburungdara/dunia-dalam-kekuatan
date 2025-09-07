@@ -13,51 +13,61 @@
   "AdditionalNotes": "Demon seringkali memiliki hierarki dan tujuan yang kompleks, tidak selalu hanya tentang kehancuran semata.",
   "ProgressionLevels": [
     {
+      "ID": "R_DE_L01",
       "LevelName": "Imp (Iblis Kecil)",
       "Description": "Demon tingkat terendah, seringkali berfungsi sebagai pelayan atau pengintai. Kecil dan licik.",
       "Abilities": ["Gigitan kecil", "terbang", "menyelinap", "mengganggu."]
     },
     {
+      "ID": "R_DE_L02",
       "LevelName": "Familiar (Familiar)",
       "Description": "Demon yang terikat pada penyihir atau individu lain, memberikan sedikit kekuatan atau bantuan.",
       "Abilities": ["Memberikan sedikit bonus magis", "pengintaian", "gangguan."]
     },
     {
+      "ID": "R_DE_L03",
       "LevelName": "Lesser Demon (Iblis Rendah)",
       "Description": "Demon yang lebih besar dan lebih kuat dari Imp, mampu bertarung secara langsung.",
       "Abilities": ["Cakar dan taring", "ketahanan fisik dasar", "sihir api neraka kecil."]
     },
     {
+      "ID": "R_DE_L04",
       "LevelName": "Fiend (Setan)",
       "Description": "Demon yang lebih berbahaya, mampu memimpin kelompok kecil atau menyebabkan kerusakan signifikan.",
       "Abilities": ["Kekuatan fisik menengah", "sihir kutukan", "manipulasi ketakutan."]
     },
     {
+      "ID": "R_DE_L05",
       "LevelName": "Greater Demon (Iblis Besar)",
       "Description": "Demon yang kuat dan menakutkan, seringkali menjadi komandan di pasukan iblis.",
       "Abilities": ["Kekuatan fisik superior", "sihir kegelapan yang kuat", "regenerasi dasar."]
     },
     {
+      "ID": "R_DE_L06",
       "LevelName": "Demon Lord (Penguasa Iblis)",
       "Description": "Penguasa wilayah tertentu di alam iblis, memiliki kekuatan dan pengaruh yang besar.",
       "Abilities": ["Memanggil demon yang lebih rendah", "sihir destruktif area luas", "godaan yang kuat."]
     },
     {
+      "ID": "R_DE_L07",
       "LevelName": "Archdemon (Archdemon)",
       "Description": "Salah satu demon terkuat, seringkali menjadi jenderal atau penasihat bagi penguasa iblis yang lebih tinggi.",
       "Abilities": ["Kekuatan fisik dan magis yang luar biasa", "manipulasi pikiran massal", "menciptakan portal kecil ke alam iblis."]
     },
     {
+      "ID": "R_DE_L08",
       "LevelName": "Prince of Hell (Pangeran Neraka)",
       "Description": "Penguasa atas domain besar di alam iblis, memiliki pasukan dan pengaruh yang tak tertandingi.",
       "Abilities": ["Mengendalikan legiun demon", "sihir yang mengubah lanskap", "keabadian (dengan batasan)."]
     },
     {
+      "ID": "R_DE_L09",
       "LevelName": "Abyssal Overlord (Penguasa Jurang)",
       "Description": "Kekuatan mereka mendekati dewa, mampu menyebabkan kehancuran skala benua.",
       "Abilities": ["Menghancurkan kota", "memanipulasi realitas di area terbatas", "memanggil bencana alam."]
     },
     {
+      "ID": "R_DE_L10",
       "LevelName": "Prime Evil (Kejahatan Utama)",
       "Description": "Tingkat tertinggi, entitas kejahatan murni yang mampu menghancurkan dunia atau memanipulasi takdir.",
       "Abilities": ["Menghancurkan planet", "memanipulasi waktu", "mengendalikan pikiran seluruh populasi", "keabadian sejati."]

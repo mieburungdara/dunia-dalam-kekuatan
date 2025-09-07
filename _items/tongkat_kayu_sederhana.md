@@ -4,40 +4,41 @@ title: Tongkat Kayu Sederhana
 ---
 # Tongkat Kayu Sederhana
 
-**Item ID:** I013
-**Tipe:** Senjata
-**Kelangkaan:** Umum
+Data item Tongkat Kayu Sederhana sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Tongkat Kayu Sederhana, silakan merujuk ke file:
+*   `_items/tongkat_kayu_sederhana.json`
 
-## Deskripsi Singkat
-> *"Bukan kekuatan yang penting, melainkan niat di baliknya."*
+## Struktur Data Item (JSON)
 
-Tongkat kayu biasa yang ditemukan Lina, berfungsi sebagai fokus sementara untuk sihirnya yang baru terbangun.
+Objek item Tongkat Kayu Sederhana dalam `_items/tongkat_kayu_sederhana.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Membantu menyalurkan sihir dasar. Tidak ada bonus kerusakan fisik.
-*   **Atribut:** Kerusakan: 5, Berat: 1kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:**
-    *   Ranting Pohon: 1 unit
-*   **Alat:** Tidak ada
-*   **Prasyarat:** Tidak ada
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:**
-    *   Kristal Mana: 1 unit
-*   **Efek Upgrade:** Meningkatkan efektivitas sihir dan menambahkan bonus Mana.
-
----
-
-## Lore & Sejarah
-Tongkat kayu sederhana ini adalah bukti bahwa bahkan benda paling biasa pun bisa menjadi alat yang luar biasa di tangan yang tepat. Bagi Lina, ini adalah langkah pertama dalam perjalanannya sebagai penyihir, sebuah pengingat akan potensi yang tersembunyi dalam dirinya.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

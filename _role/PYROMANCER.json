@@ -13,51 +13,61 @@
   "AdditionalNotes": "Pyromancer yang tidak terkontrol dapat menjadi ancaman bagi diri sendiri dan lingkungan.",
   "ProgressionLevels": [
     {
+      "ID": "R_PY_L01",
       "LevelName": "Spark Caster (Pelempat Percikan)",
       "Description": "Baru memulai, hanya mampu menciptakan percikan api kecil atau menghangatkan objek.",
       "Abilities": ["Percikan api", "menghangatkan tangan."]
     },
     {
+      "ID": "R_PY_L02",
       "LevelName": "Flame Kindler (Penyulut Api)",
       "Description": "Mampu menyulut api unggun atau obor dengan mudah, dan menciptakan nyala api yang stabil.",
       "Abilities": ["Nyala api kecil yang stabil", "memanaskan air."]
     },
     {
+      "ID": "R_PY_L03",
       "LevelName": "Fire Weaver (Penjalin Api)",
       "Description": "Mampu membentuk api menjadi bentuk sederhana, seperti bola api kecil atau cambuk api.",
       "Abilities": ["Bola api kecil", "cambuk api", "memanaskan logam."]
     },
     {
+      "ID": "R_PY_L04",
       "LevelName": "Blaze Shaper (Pembentuk Kobaran)",
       "Description": "Menguasai kontrol yang lebih baik atas api, mampu menciptakan kobaran yang lebih besar dan terkontrol.",
       "Abilities": ["Semburan api", "dinding api kecil", "membakar objek dengan cepat."]
     },
     {
+      "ID": "R_PY_L05",
       "LevelName": "Inferno Conjurer (Pembangkit Inferno)",
       "Description": "Mampu memanggil api yang lebih intens dan merusak, serta memiliki ketahanan yang lebih baik terhadap panas.",
       "Abilities": ["Bola api besar", "ledakan api", "ketahanan terhadap api sedang."]
     },
     {
+      "ID": "R_PY_L06",
       "LevelName": "Fire Lord (Penguasa Api)",
       "Description": "Diakui sebagai master api, mampu menciptakan badai api lokal atau memanipulasi lava.",
       "Abilities": ["Badai api kecil", "memanipulasi lava cair", "menciptakan ilusi api."]
     },
     {
+      "ID": "R_PY_L07",
       "LevelName": "Volcano Heart (Jantung Gunung Berapi)",
       "Description": "Kekuatan api mereka mendekati kekuatan gunung berapi, mampu memanggil api dari dalam bumi.",
       "Abilities": ["Memanggil pilar api dari tanah", "menciptakan gelombang panas yang ekstrem."]
     },
     {
+      "ID": "R_PY_L08",
       "LevelName": "Solar Flare (Jilatan Matahari)",
       "Description": "Mampu memanipulasi api dengan intensitas seperti matahari, membakar musuh menjadi abu.",
       "Abilities": ["Sinar api yang membakar", "menciptakan area panas yang mematikan."]
     },
     {
+      "ID": "R_PY_L09",
       "LevelName": "Phoenix Soul (Jiwa Phoenix)",
       "Description": "Kekuatan api mereka mencapai puncaknya, mampu membangkitkan diri dari abu atau menciptakan makhluk api.",
       "Abilities": ["Membangkitkan diri dari kematian (sekali)", "memanggil elemental api besar."]
     },
     {
+      "ID": "R_PY_L10",
       "LevelName": "Incinerator (Penghancur)",
       "Description": "Tingkat tertinggi, mampu mengubah apapun menjadi abu dengan sentuhan atau pandangan, kekuatan api yang tak tertandingi.",
       "Abilities": ["Menghancurkan objek besar dengan api", "menciptakan badai api regional."]

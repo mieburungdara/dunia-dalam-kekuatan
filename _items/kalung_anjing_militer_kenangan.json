@@ -1,0 +1,23 @@
+{
+  "ID": "I009",
+  "Name": "Kalung Anjing Militer (Kenangan)",
+  "Type": "Lain-lain",
+  "Rarity": "Unik",
+  "ShortDescription": "Sebuah kenangan yang terukir, pengingat akan janji yang takkan pernah pudar.",
+  "Description": "Kalung anjing militer milik Raka, satu-satunya peninggalan dari masa lalunya sebagai prajurit. Meskipun tidak memiliki efek fungsional, ini adalah pengingat konstan akan tugas dan pengorbanannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Tidak ada efek fungsional. Memberikan kekuatan moral dan pengingat akan tujuan.",
+    "Attributes": "Berat: 0.05kg"
+  },
+  "CraftingRecipe": {
+    "Materials": [],
+    "Tools": "Tidak dapat di-craft",
+    "Prerequisites": "Tidak dapat di-craft"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [],
+    "Effects": "Tidak dapat di-upgrade"
+  },
+  "LoreAndHistory": "Kalung ini adalah simbol dari ikatan persaudaraan dan pengorbanan di medan perang. Bagi Raka, ini adalah pengingat akan rekan-rekan yang telah gugur dan janji untuk melindungi mereka yang masih hidup."
+}

@@ -4,35 +4,41 @@ title: Buku Catatan
 ---
 # Buku Catatan
 
-**Item ID:** I003
-**Tipe:** Lain-lain
-**Kelangkaan:** Umum
+Data item Buku Catatan sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Buku Catatan, silakan merujuk ke file:
+*   `_items/buku_catatan.json`
 
-## Deskripsi Singkat
-> *"Pikiran yang terorganisir adalah senjata terkuat."*
+## Struktur Data Item (JSON)
 
-Buku catatan sederhana yang selalu dibawa Arga, digunakan untuk mencatat observasi, analisis, dan strategi.
+Objek item Buku Catatan dalam `_items/buku_catatan.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Membantu dalam analisis dan perencanaan. Tidak ada efek langsung dalam pertempuran.
-*   **Atribut:** Berat: 0.1kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:** Tidak dapat di-craft
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:** Tidak dapat di-upgrade
-
----
-
-## Lore & Sejarah
-Buku catatan ini adalah cerminan dari kepribadian Arga yang analitis. Meskipun terlihat sederhana, bagi Arga, ini adalah alat yang tak ternilai untuk memahami dunia baru yang penuh misteri ini.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

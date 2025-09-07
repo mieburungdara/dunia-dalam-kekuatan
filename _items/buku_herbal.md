@@ -4,35 +4,41 @@ title: Buku Herbal
 ---
 # Buku Herbal
 
-**Item ID:** I011
-**Tipe:** Lain-lain
-**Kelangkaan:** Tidak Umum
+Data item Buku Herbal sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Buku Herbal, silakan merujuk ke file:
+*   `_items/buku_herbal.json`
 
-## Deskripsi Singkat
-> *"Halaman-halaman ini menyimpan rahasia alam, obat dari setiap penyakit."*
+## Struktur Data Item (JSON)
 
-Buku tebal berisi ilustrasi dan deskripsi berbagai jenis tumbuhan obat, khasiatnya, dan cara pengolahannya. Sumber pengetahuan penting bagi seorang penyembuh.
+Objek item Buku Herbal dalam `_items/buku_herbal.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Memberikan bonus pada skill Pengetahuan Herbal dan Diagnosa Penyakit.
-*   **Atribut:** Berat: 0.5kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:** Tidak dapat di-craft
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:** Tidak dapat di-upgrade
-
----
-
-## Lore & Sejarah
-Buku Herbal adalah warisan dari para tabib kuno yang mendedikasikan hidup mereka untuk memahami alam. Setiap halaman adalah hasil dari observasi dan eksperimen bertahun-tahun, menjadikannya harta karun pengetahuan bagi mereka yang ingin menyembuhkan.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

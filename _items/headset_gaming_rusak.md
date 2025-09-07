@@ -4,35 +4,41 @@ title: Headset Gaming (rusak)
 ---
 # Headset Gaming (rusak)
 
-**Item ID:** I006
-**Tipe:** Lain-lain
-**Kelangkaan:** Unik
+Data item Headset Gaming (rusak) sekarang dikelola dalam format JSON untuk kemudahan akses dan konsistensi.
 
----
+Untuk melihat detail lengkap item Headset Gaming (rusak), silakan merujuk ke file:
+*   `_items/headset_gaming_rusak.json`
 
-## Deskripsi Singkat
-> *"Suara dunia lain mungkin tak terdengar, tapi kenangan akan dunia lama tetap bergema."*
+## Struktur Data Item (JSON)
 
-Headset gaming milik Bimo yang rusak parah akibat benturan saat terjatuh. Meskipun tidak berfungsi, Bimo tetap membawanya sebagai kenang-kenangan dari dunianya yang lama.
+Objek item Headset Gaming (rusak) dalam `_items/headset_gaming_rusak.json` mengikuti struktur berikut:
 
----
-
-## Efek & Atribut
-*   **Efek:** Tidak ada efek fungsional. Hanya sebagai pengingat.
-*   **Atribut:** Berat: 0.2kg
-
----
-
-## Resep Crafting (jika ada)
-*   **Bahan:** Tidak dapat di-craft
-
----
-
-## Jalur Upgrade (jika ada)
-*   **Upgrade dari:** Tidak ada
-*   **Bahan Upgrade:** Tidak dapat di-upgrade
-
----
-
-## Lore & Sejarah
-Headset ini adalah simbol dari masa lalu Bimo sebagai seorang gamer. Meskipun rusak, ia tetap menyimpannya, mungkin sebagai pengingat akan kehidupan lamanya atau sebagai jimat keberuntungan di dunia baru ini.
+```json
+{
+  "ID": "ID Unik Item",
+  "Name": "Nama Item",
+  "Type": "Tipe Item",
+  "Rarity": "Kelangkaan Item",
+  "ShortDescription": "Deskripsi singkat item.",
+  "Description": "Penjelasan detail tentang item ini dan kegunaannya.",
+  "EffectsAndAttributes": {
+    "Effects": "Efek item.",
+    "Attributes": "Atribut item."
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Tools": "Alat yang dibutuhkan.",
+    "Prerequisites": "Prasyarat crafting."
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Nama Item sebelumnya.",
+    "Materials": [
+      {"Name": "Nama Material", "Quantity": Jumlah}
+    ],
+    "Effects": "Efek upgrade."
+  },
+  "LoreAndHistory": "Cerita singkat tentang asal-usul item ini."
+}
+```

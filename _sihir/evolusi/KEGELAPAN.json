@@ -2,6 +2,7 @@
   "Title": "Tingkat Penguasaan Elemen: Kegelapan",
   "Levels": [
     {
+      "ID": "E_KE_L01",
       "LevelNumber": 1,
       "LevelName": "Koneksi Awal",
       "Control": "Hanya bisa membuat bayangan yang sudah ada menjadi sedikit lebih pekat.",
@@ -10,6 +11,7 @@
       "Influence": "Cukup untuk menyembunyikan wajah dalam bayangan atau menyelinap tanpa suara."
     },
     {
+      "ID": "E_KE_L02",
       "LevelNumber": 2,
       "LevelName": "Manipulasi Dasar",
       "Control": "Mampu memanipulasi bentuk bayangan, memanjangkan atau memendekkannya.",
@@ -18,6 +20,7 @@
       "Influence": "Aura nya bisa membuat hewan kecil lari ketakutan atau membuat orang merasa diawasi."
     },
     {
+      "ID": "E_KE_L03",
       "LevelNumber": 3,
       "LevelName": "Pembentukan Sederhana",
       "Control": "Mampu memberi sedikit substansi pada bayangan, membuatnya bisa berinteraksi dengan objek fisik.",
@@ -26,6 +29,7 @@
       "Influence": "Tentakel bayangannya bisa menahan orang dewasa atau merampas senjata dari genggaman mereka."
     },
     {
+      "ID": "E_KE_L04",
       "LevelNumber": 4,
       "LevelName": "Kontrol Visibilitas",
       "Control": "Mampu menyelimuti diri atau objek dalam bayangan untuk menyembunyikan diri.",
@@ -34,7 +38,7 @@
       "Influence": "Bisa menciptakan kubah kegelapan yang meredam suara dan cahaya dari luar."
     },
     {
-      "LevelNumber": 5,
+      "ID": "E_KE_L05",
       "LevelName": "Penguasaan Aura",
       "Control": "Mampu memproyeksikan esensi kegelapan sebagai aura yang memengaruhi emosi.",
       "Scale": "Bisa menimbulkan rasa takut atau tidak nyaman pada target dalam jarak dekat.",
@@ -42,6 +46,7 @@
       "Influence": "Mampu menyatu dengan bayangan, menjadi hampir tidak terlihat bahkan di siang hari."
     },
     {
+      "ID": "E_KE_L06",
       "LevelNumber": 6,
       "LevelName": "Penguasaan Penyerapan",
       "Control": "Mampu menciptakan area yang menyerap cahaya dan suara secara aktif.",
@@ -50,6 +55,7 @@
       "Influence": "Api bayangannya bisa menguras stamina dan energi sihir lawan."
     },
     {
+      "ID": "E_KE_L07",
       "LevelNumber": 7,
       "LevelName": "Penguasaan Energi Negatif",
       "Control": "Mampu menanamkan sifat \"dingin\" dan \"menguras\" pada bayangan.",
@@ -58,6 +64,7 @@
       "Influence": "Bisa menciptakan bilah kekosongan yang memotong materi tanpa perlawanan."
     },
     {
+      "ID": "E_KE_L08",
       "LevelNumber": 8,
       "LevelName": "Penguasaan Esensi",
       "Control": "Mampu melihat dalam kegelapan absolut dan merasakan esensi makhluk hidup melaluinya.",
@@ -66,6 +73,7 @@
       "Influence": "Kegelapan bisa menelan ingatan, memakan suara, atau menjadi gerbang teleportasi."
     },
     {
+      "ID": "E_KE_L09",
       "LevelNumber": 9,
       "LevelName": "Konsep Ketiadaan",
       "Control": "Mampu menciptakan area di mana hukum fisika sederhana mulai goyah, menyerap energi, atau bahkan ingatan.",
@@ -74,6 +82,7 @@
       "Influence": "Mampu memanggil gerhana matahari sementara atau menciptakan malam pekat di tengah siang bolong."
     },
     {
+      "ID": "E_KE_L10",
       "LevelNumber": 10,
       "LevelName": "Kesatuan Abadi",
       "Control": "Kehendak pengguna adalah hukum bagi semua bayangan dan ketiadaan.",

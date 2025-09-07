@@ -1,0 +1,28 @@
+{
+  "ID": "I001",
+  "Name": "Pedang Baja Ringan",
+  "Type": "Senjata",
+  "Rarity": "Umum",
+  "ShortDescription": "Ringan di tangan, cepat dalam ayunan.",
+  "Description": "Pedang satu tangan yang terbuat dari baja ringan, cocok untuk pertarungan cepat dan presisi.",
+  "EffectsAndAttributes": {
+    "Effects": "Meningkatkan kecepatan serangan.",
+    "Attributes": "Kerusakan: 15, Berat: 2kg"
+  },
+  "CraftingRecipe": {
+    "Materials": [
+      {"Name": "Baja Ringan", "Quantity": 3},
+      {"Name": "Gagang Kayu", "Quantity": 1}
+    ],
+    "Tools": "Tungku, Palu",
+    "Prerequisites": "Skill Pandai Besi (Dasar)"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [
+      {"Name": "Baja Berkualitas Tinggi", "Quantity": 1}
+    ],
+    "Effects": "Meningkatkan Kerusakan dan Kecepatan Serangan."
+  },
+  "LoreAndHistory": "Pedang Baja Ringan adalah senjata standar bagi banyak petualang dan prajurit karena keseimbangan antara bobot dan efektivitasnya. Desainnya yang sederhana namun fungsional membuatnya menjadi pilihan populer di seluruh Eryndor."
+}

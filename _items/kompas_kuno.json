@@ -1,0 +1,23 @@
+{
+  "ID": "I002",
+  "Name": "Kompas Kuno",
+  "Type": "Lain-lain",
+  "Rarity": "Tidak Umum",
+  "ShortDescription": "Bukan sekadar penunjuk arah, melainkan penuntun takdir.",
+  "Description": "Kompas tua yang selalu menunjuk ke arah yang benar, bahkan di tempat-tempat di mana hukum alam tampaknya tidak berlaku.",
+  "EffectsAndAttributes": {
+    "Effects": "Selalu menunjuk ke arah tujuan yang diinginkan pengguna (jika tujuan jelas).",
+    "Attributes": "Tidak ada"
+  },
+  "CraftingRecipe": {
+    "Materials": [],
+    "Tools": "Tidak dapat di-craft",
+    "Prerequisites": "Tidak dapat di-craft"
+  },
+  "UpgradePath": {
+    "UpgradeFrom": "Tidak ada",
+    "Materials": [],
+    "Effects": "Tidak dapat di-upgrade"
+  },
+  "LoreAndHistory": "Kompas Kuno adalah artefak misterius yang konon dibuat oleh para penjelajah pertama Eryndor. Ada yang mengatakan kompas ini tidak hanya menunjuk arah geografis, tetapi juga arah takdir, membimbing pemiliknya menuju tujuan yang paling penting bagi mereka."
+}
