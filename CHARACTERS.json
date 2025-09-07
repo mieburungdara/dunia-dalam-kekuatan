@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Nama Karakter",
+    "Age": 17,
+    "Gender": "Laki-laki",
+    "Role": "Swordman",
+    "Personality": ["Berani", "Tertutup", "Loyal"],
+    "Background": "Latar belakang singkat",
+    "Strengths": ["Ahli pedang"],
+    "Weaknesses": ["Terlalu impulsif"],
+    "Motivation": "Alasan berpetualang",
+    "Growth": "Perkembangan karakter"
+  }
+]
