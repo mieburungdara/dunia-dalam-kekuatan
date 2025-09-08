@@ -12,10 +12,10 @@ function create_slug($text) {
 // Sertakan file konfigurasi
 
 // Sertakan header halaman
-require_once '../templates/header.php'; // Adjusted path
+require_once(__DIR__ . '/../application/views/templates/header.php'); // Adjusted path
 
 // Sertakan template rendering cerita
-require_once '../templates/story_template.php'; // Adjusted path
+require_once(__DIR__ . '/../templates/story_template.php'); // Adjusted path
 
 // Fungsi untuk mendapatkan daftar cerita dari file JSON
 function getStoryList($basePath) {
@@ -124,5 +124,5 @@ $storyList = getStoryList(BASE_PATH);
     </div>
 <?php
 // Sertakan footer
-require_once '../templates/footer.php'; // Adjusted path
+require_once(__DIR__ . '/../templates/footer.php'); // Adjusted path
 ?>
