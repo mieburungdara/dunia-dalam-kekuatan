@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'https://5500-cs-640544031456-default.cs-asia-southeast1-palm.cloudshell.dev/';
-$config['base_url'] = 'https://mymy.my.id/'
+$config['base_url'] = 'https://mymy.my.id/';
 /*
 |--------------------------------------------------------------------------
 | Index File
