@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://5500-cs-640544031456-default.cs-asia-southeast1-palm.cloudshell.dev/';
-
+//$config['base_url'] = 'https://5500-cs-640544031456-default.cs-asia-southeast1-palm.cloudshell.dev/';
+$config['base_url'] = 'https://mymy.my.id/'
 /*
 |--------------------------------------------------------------------------
 | Index File
