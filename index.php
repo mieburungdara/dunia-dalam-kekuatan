@@ -83,10 +83,10 @@ switch (ENVIRONMENT)
 		}
 	break;
 
-default:
-	header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-	echo 'The application environment is not set correctly.';
-	exit(1); // EXIT_ERROR
+	default:
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'The application environment is not set correctly.';
+		exit(1); // EXIT_ERROR
 }
 
 /*
@@ -107,10 +107,10 @@ default:
  * If you want this front controller to use a different "application"
  * directory than the default one you can set its name here. The directory
  * can also be renamed or relocated anywhere on your server. If you do,
- * use an absolute server path.
+ * use an absolute (full) server path.
  * For more info please see the user guide:
  *
- * https://codeigniter.com/user_guide/general/managing_apps.html
+ * https://codeigniter.com/userguide3/general/managing_apps.html
  *
  * NO TRAILING SLASH!
  */
@@ -125,7 +125,7 @@ default:
  * directory, set the path to it here. The directory can be renamed
  * and relocated anywhere on your server. If blank, it will default
  * to the standard location inside your application directory.
- * If you do move this, use an absolute server path.
+ * If you do move this, use an absolute (full) server path.
  *
  * NO TRAILING SLASH!
  */
@@ -146,12 +146,21 @@ default:
  *
  * IMPORTANT: If you set the routing here, NO OTHER controller will be
  * callable. In essence, this preference limits your application to ONE
- * specific controller.
+ * specific controller. Leave the function name blank if you need
+ * to call functions dynamically via the URI.
  *
- * Syntax:	'controller'		=> 'welcome',
- * 		'controller'		=> 'welcome/index'
+ * Un-comment the $routing array below to use this feature
  */
-	$routing = array();
+	// The directory name, relative to the "controllers" directory.  Leave blank
+	// if your controller is not in a sub-directory within the "controllers" one
+	// $routing['directory'] = '';
+
+	// The controller class file name.  Example:  mycontroller
+	// $routing['controller'] = '';
+
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
+
 
 /*
  * -------------------------------------------------------------------
@@ -162,7 +171,8 @@ default:
  * config class when initialized. This allows you to set custom config
  * items or override any default config values found in the config.php file.
  * This can be handy as it permits you to share one application between
- * multiple front controllers, with each having different config values.
+ * multiple front controller files, with each file containing different
+ * config values.
  *
  * Un-comment the $assign_to_config array below to use this feature
  */
