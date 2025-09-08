@@ -21,11 +21,11 @@
         </button>
         <div class="collapse navbar-collapse" id="main-nav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('index.php?page=home'); ?>">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('index.php?page=novel'); ?>">Novel</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('index.php?page=karakter'); ?>">Karakter</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('index.php?page=glosarium'); ?>">Glosarium</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('index.php?page=faq'); ?>">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('novel'); ?>">Novel</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Karakter</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Glosarium</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
             </ul>
         </div>
     </div>
