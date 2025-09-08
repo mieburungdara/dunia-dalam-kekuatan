@@ -56,7 +56,7 @@ class Home extends CI_Controller {
                     $scene_slug = preg_replace('/^\d+_/', '', $scene_name);
                     $scene_list[] = [
                         'name' => str_replace('_', ' ', $scene_slug),
-                        'url' => base_url('index.php?page=baca&novel=' . $novel_slug . '&path=' . $arc_slug . '/' . $chapter_slug . '/' . $scene_slug)
+                        'url' => base_url('baca/' . $novel_slug . '/' . $arc_slug . '/' . $chapter_slug . '/' . $scene_slug)
                     ];
                 }
                 $chapter_list[] = [
