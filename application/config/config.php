@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | URL to your CodeIgniter root. Typically this will be your base URL,
 | WITH a trailing slash:
 |
-| 	http://example.com/
+|	http://example.com/
 |
 | WARNING: You MUST set this value!
 |
@@ -23,7 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://mymy.my.id/';
+// Deteksi environment
+$config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
+$config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
+$config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +38,7 @@ $config['base_url'] = 'https://mymy.my.id/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -52,7 +55,7 @@ $config['index_page'] = '';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'AUTO';
+$config['uri_protocol']	= 'REQUEST_URI';
 
 /*
 |--------------------------------------------------------------------------
@@ -126,12 +129,12 @@ $config['subclass_prefix'] = 'MY_';
 | Enabling this setting will tell CodeIgniter to look for a Composer
 | package auto-loader script in application/vendor/autoload.php.
 |
-| 	$config['composer_autoload'] = TRUE;
+|	$config['composer_autoload'] = TRUE;
 |
 | Or if you have your vendor/ directory located somewhere else, you
 | can opt to set a specific path as well:
 |
-| 	$config['composer_autoload'] = '/path/to/vendor/autoload.php';
+|	$config['composer_autoload'] = '/path/to/vendor/autoload.php';
 |
 | For more information about Composer, please visit http://getcomposer.org/
 |
@@ -150,7 +153,7 @@ $config['composer_autoload'] = FALSE;
 | get a warning message.
 |
 | As a security measure you are STRONGLY encouraged to restrict URLs to
-| as few characters as possible.  By default only these are allowed: a-z 0-9~%.:_
+| as few characters as possible.  By default only these are allowed: a-z 0-9~%.:_-
 |
 | Leave blank to allow all characters -- but only if you are insane.
 |
@@ -184,7 +187,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 | use segment based URLs.
 |
 */
-$config['enable_query_strings'] = TRUE;
+$config['enable_query_strings'] = FALSE;
 $config['controller_trigger'] = 'c';
 $config['function_trigger'] = 'm';
 $config['directory_trigger'] = 'd';
@@ -211,11 +214,11 @@ $config['allow_get_array'] = TRUE;
 | You can enable error logging by setting a threshold over zero. The
 | threshold determines what gets logged. Threshold options are:
 |
-| 	0 = Disables logging, Error logging TURNED OFF
-| 	1 = Error Messages (including PHP errors)
-| 	2 = Debug Messages
-| 	3 = Informational Messages
-| 	4 = All Messages
+|	0 = Disables logging, Error logging TURNED OFF
+|	1 = Error Messages (including PHP errors)
+|	2 = Debug Messages
+|	3 = Informational Messages
+|	4 = All Messages
 |
 | You can also pass an array with threshold levels to show individual error types
 |
@@ -305,12 +308,12 @@ $config['cache_path'] = '';
 | Whether to take the URL query string into consideration when generating
 | output cache files. Valid options are:
 |
-| 	FALSE      = Disabled
-| 	TRUE       = Enabled, take all query parameters into account.
-| 	             Please be aware that this may result in numerous cache
-| 	             files generated for the same page over and over again.
-| 	array('q') = Enabled, but only take into account the specified list
-| 	             of query parameters.
+|	FALSE      = Disabled
+|	TRUE       = Enabled, take all query parameters into account.
+|	             Please be aware that this may result in numerous cache
+|	             files generated for the same page over and over again.
+|	array('q') = Enabled, but only take into account the specified list
+|	             of query parameters.
 |
 */
 $config['cache_query_string'] = FALSE;
@@ -335,24 +338,24 @@ $config['encryption_key'] = '';
 |
 | 'sess_driver'
 |
-| 	The storage driver to use: files, database, redis, memcached
+|	The storage driver to use: files, database, redis, memcached
 |
 | 'sess_cookie_name'
 |
-| 	The session cookie name, must contain only [0-9a-z_-] characters
+|	The session cookie name, must contain only [0-9a-z_-] characters
 |
 | 'sess_samesite'
 |
-| 	Session cookie SameSite attribute: Lax (default), Strict or None
+|	Session cookie SameSite attribute: Lax (default), Strict or None
 |
 | 'sess_expiration'
 |
-| 	The number of SECONDS you want the session to last.
+|	The number of SECONDS you want the session to last.
 |	Setting to 0 (zero) means expire when the browser is closed.
 |
 | 'sess_save_path'
 |
-| 	The location to save sessions to, driver dependent.
+|	The location to save sessions to, driver dependent.
 |
 |	For the 'files' driver, it's a path to a writable directory.
 |	WARNING: Only absolute paths are supported!
@@ -364,18 +367,18 @@ $config['encryption_key'] = '';
 |
 | 'sess_match_ip'
 |
-| 	Whether to match the user's IP address when reading the session data.
+|	Whether to match the user's IP address when reading the session data.
 |
 |	WARNING: If you're using the database driver, don't forget to update
 |	         your session table's PRIMARY KEY when changing this setting.
 |
 | 'sess_time_to_update'
 |
-| 	How many seconds between CI regenerating the session ID.
+|	How many seconds between CI regenerating the session ID.
 |
 | 'sess_regenerate_destroy'
 |
-| 	Whether to destroy session data associated with the old session ID
+|	Whether to destroy session data associated with the old session ID
 |	when auto-regenerating the session ID. When set to FALSE, the data
 |	will be later deleted by the garbage collector.
 |
