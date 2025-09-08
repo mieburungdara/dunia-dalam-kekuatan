@@ -11,7 +11,6 @@ function create_slug($text) {
 }
 
 // Sertakan file konfigurasi
-require_once 'config.php';
 
 $chapterPath = isset($_GET['chapter_path']) ? $_GET['chapter_path'] : '';
 

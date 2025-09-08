@@ -10,7 +10,6 @@ function create_slug($text) {
     return $text;
 }
 // Sertakan file konfigurasi
-require_once '../config.php'; // Adjusted path
 
 // Sertakan header halaman
 require_once '../templates/header.php'; // Adjusted path

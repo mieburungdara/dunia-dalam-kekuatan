@@ -1,4 +1,6 @@
-<?php require_once(__DIR__ . '/../config.php'); ?>
+
+<?php
+
 <!doctype html>
 <html lang="id">
 <head>
