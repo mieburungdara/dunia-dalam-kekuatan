@@ -1,0 +1,71 @@
+{
+  "Meta": {
+    "Title": "Dunia dalam Kekuatan - Bab 1",
+    "Author": "AI / User",
+    "Genre": ["Fantasy", "Adventure"],
+    "World": "Dunia fantasi dengan sihir dan makhluk mitos.",
+    "Rules": "POV konsisten, tense present, gaya deskriptif."
+  },
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Title": "Terjatuh ke Dunia Lain",
+      "Summary": "Lima sosok manusia terlempar ke belantara asing setelah langit retak, memicu perhatian goblin dan memulai petualangan mereka di dunia yang tidak dikenal.",
+      "Scenes": [
+        {
+          "SceneNumber": 1,
+          "Location": {
+            "Name": "Belantara Asing",
+            "ID": "L001"
+          },
+          "Time": "Malam",
+          "CharactersInvolved": [
+            {
+              "Name": "Arga",
+              "ID": "C001",
+              "RoleInScene": "Protagonis",
+              "Mood": "Bingung",
+              "Goal": "Bertahan Hidup",
+              "Conflict": "Lingkungan Asing"
+            }
+          ],
+          "POV": {
+            "CharacterName": "Arga",
+            "CharacterID": "C001"
+          },
+          "Contents": [
+            {
+              "Type": "Exposition",
+              "Text": "Langit malam yang biasanya dihiasi bintang, kini retak tanpa suara, seolah kanvas raksasa yang pecah. Dari celah kehampaan yang menganga, lima sosok manusia terlempar begitu saja, jatuh terhempas di lokasi-lokasi berbeda di tengah belantara yang asing. Saat tubuh mereka menyentuh tanah, sebuah fenomena luar biasa terjadi: pilar-pilar cahaya putih yang menyilaukan, murni dan menusuk, menjulang tinggi dari titik jatuhnya masing-masing. Cahaya itu menari-nari di antara pepohonan raksasa, menerangi kegelapan hutan dengan kilauan surgawi, sebelum lenyap seketika, meninggalkan keheningan yang lebih pekat dari sebelumnya.",
+              "Topic": "OpeningEvent",
+              "Method": "Narration"
+            },
+            {
+              "Type": "Exposition",
+              "Text": "Fenomena aneh itu, meskipun singkat, tidak luput dari perhatian para penghuni hutan. Bagi para goblin, makhluk primitif dengan mata merah menyala dan naluri predator yang tajam, pilar-pilar cahaya itu adalah pertanda yang jelas: mangsa baru telah tiba. Aroma ketakutan dan kebingungan manusia yang baru terdampar menyebar di udara, menarik mereka keluar dari sarang-sarang gelap.",
+              "Topic": "GoblinReaction",
+              "Method": "Narration"
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Line": "Di mana ini? Apa yang terjadi?",
+              "Recipient": "Self",
+              "Tone": "Bingung"
+            },
+            {
+              "Type": "Exposition",
+              "Text": "Bab ini akan mengisahkan detik-detik pertama kelima individu ini di dunia yang sama sekali baru, sebuah dunia yang tidak mereka kenali, penuh bahaya yang tak terduga. Mereka adalah Arga, Bimo, Mira, Lina, dan Raka—lima jiwa yang terlempar dari kehidupan normal mereka, kini harus berjuang untuk bertahan hidup di tengah ancaman yang tak terhitung. Cahaya misterius yang membawa mereka ke sini telah menghilang, meninggalkan mereka sendirian, rentan, dan tanpa petunjuk. Namun, apakah kedatangan mereka hanya kebetulan, ataukah ada takdir yang lebih besar menanti di balik tirai hutan asing ini? Petualangan mereka baru saja dimulai, di mana setiap langkah adalah perjuangan, dan setiap bayangan bisa berarti akhir.",
+              "Topic": "ChapterIntroduction",
+              "Method": "Narration"
+            }
+          ],
+          "Notes": "Adegan pembuka yang memperkenalkan setting dan konflik utama."
+        }
+      ]
+    }
+  ]
+}

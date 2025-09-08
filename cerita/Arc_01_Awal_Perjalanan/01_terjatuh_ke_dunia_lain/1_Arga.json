@@ -1,0 +1,119 @@
+{
+  "Meta": {
+    "Title": "Dunia dalam Kekuatan - Bab 1.1",
+    "Author": "AI / User",
+    "Genre": ["Fantasy", "Adventure"],
+    "World": "Dunia fantasi dengan sihir dan makhluk mitos.",
+    "Rules": "POV konsisten, tense present, gaya deskriptif."
+  },
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Title": "Logika di Tengah Kepanikan",
+      "Summary": "Arga, seorang mahasiswa teknik yang rasional, terbangun di hutan asing dan harus menggunakan logikanya untuk melarikan diri dari serangan goblin.",
+      "Scenes": [
+        {
+          "SceneNumber": 1,
+          "Location": {
+            "Name": "Hutan Asing",
+            "ID": "L001"
+          },
+          "Time": "Pagi",
+          "CharactersInvolved": [
+            {
+              "Name": "Arga",
+              "ID": "C001",
+              "RoleInScene": "Protagonis",
+              "Mood": "Bingung",
+              "Goal": "Bertahan Hidup",
+              "Conflict": "Lingkungan Asing"
+            }
+          ],
+          "POV": {
+            "CharacterName": "Arga",
+            "CharacterID": "C001"
+          },
+          "Contents": [
+            {
+              "Type": "Exposition",
+              "Text": "Arga tersungkur di tanah hutan asing, napasnya berat. Daun-daun dan ranting menempel di pakaiannya. Ia menatap sekeliling, mencoba memahami lingkungan: pohon tinggi, cahaya yang aneh, dan aroma tanah basah."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Text": "Ini… tidak mungkin. Tapi tubuhku di sini nyata. Analisis fakta: posisi jatuh, gravitasi, cahaya—semuanya aneh."
+            },
+            {
+              "Type": "Exposition",
+              "Text": "Suara krek… krek… terdengar dari kejauhan. Arga menoleh dan melihat seekor goblin kecil bermata merah mendekat."
+            },
+            {
+              "Type": "Action",
+              "Actor": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Text": "Instingnya, yang terlatih dalam Strategi Tempur, langsung menilai: jarak aman, ukuran musuh, kemungkinan bertahan. Tangannya secara otomatis meraih pinggangnya, mencari Pedang Baja Ringan yang biasa tersarung di sana, namun yang ia temukan hanyalah ranting pohon. Dengan gerakan terukur, ia memeganginya, menimbang berat dan keseimbangan."
+            },
+            {
+              "Type": "Exposition",
+              "Text": "Namun dari semak lain, muncul lebih banyak goblin, total lima ekor, mendekat dengan tatapan lapar. Arga menelan ludah, tapi tetap tenang."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Text": "Dengan Analisis Kelemahan yang tajam, ia menyimpulkan: satu lawan satu mungkin menang. Lima lawan satu? Peluang nol. Logika sederhana: bertahan = mati. Strategi terbaik = kabur."
+            },
+            {
+              "Type": "Action",
+              "Actor": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Text": "Ia menunduk, mengamati celah antara pepohonan, menghitung jarak, dan memilih jalur teraman. Napasnya tersengal, tapi matanya tetap dingin dan fokus."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Text": "Kalau lari zig-zag, bisa memperlambat mereka. Hitung langkah, hindari akar dan batu licin."
+            },
+            {
+              "Type": "Action",
+              "Actor": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Text": "Langkah demi langkah, Arga menembus pepohonan, ranting menyentuh pakaiannya tapi tidak melukai serius. Ia terus memantau posisi musuh, membaca pola gerak mereka, dan merencanakan langkah berikutnya."
+            },
+            {
+              "Type": "Emotion",
+              "Character": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Text": "Di balik ketegangan, ia merasa lega karena berhasil melarikan diri sementara. Hanya dengan strategi dan logika, ia bertahan—sementara dunia baru ini masih penuh misteri."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": {
+                "Name": "Arga",
+                "ID": "C001"
+              },
+              "Text": "Baiklah… bertahan hidup dulu. Setelah itu, analisis lebih lanjut. Cari perlindungan, cari manusia lain, cari jawaban."
+            }
+          ],
+          "Notes": "Konversi dari 1_Arga.md. Perlu ditinjau ulang untuk pemisahan adegan yang lebih akurat dan penambahan detail karakter/item."
+        }
+      ]
+    }
+  ]
+}

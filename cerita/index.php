@@ -1,5 +1,5 @@
 <?php
-// Helper function to create a URL-friendly slug (still needed for chapter.php links)
+// Helper function to create a URL-friendly slug
 function create_slug($text) {
     $text = preg_replace('~[^\pL\d]+~u', '-', $text);
     $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
@@ -10,18 +10,18 @@ function create_slug($text) {
     return $text;
 }
 // Sertakan file konfigurasi
-require_once 'config.php';
+require_once '../config.php'; // Adjusted path
 
 // Sertakan header halaman
-require_once 'templates/header.php';
+require_once '../templates/header.php'; // Adjusted path
 
 // Sertakan template rendering cerita
-require_once 'templates/story_template.php';
+require_once '../templates/story_template.php'; // Adjusted path
 
 // Fungsi untuk mendapatkan daftar cerita dari file JSON
 function getStoryList($basePath) {
     $storyList = [];
-    $storyDir = $basePath . '/cerita/'; // Changed from _cerita/
+    $storyDir = $basePath . '/cerita/';
 
     $directories = glob($storyDir . 'Arc_*_*', GLOB_ONLYDIR);
 
@@ -31,7 +31,7 @@ function getStoryList($basePath) {
         $arcTitle = implode(' ', array_slice($titleParts, 2));
 
         $indexJsonPath = $dir . '/index.json';
-        $pageParam = str_replace($basePath . '/', '', $dir) . '/index.json'; // Keep original pageParam for arc
+        $pageParam = str_replace($basePath . '/', '', $dir) . '/index.json';
 
         $displayTitle = $arcTitle;
 
@@ -45,7 +45,7 @@ function getStoryList($basePath) {
         }
 
         $chapters = [];
-        $chapterDirs = glob($dir . '/*', GLOB_ONLYDIR); // Get all subdirectories (chapters)
+        $chapterDirs = glob($dir . '/*', GLOB_ONLYDIR);
 
         foreach ($chapterDirs as $chapterDir) {
             $chapterFolderName = basename($chapterDir);
@@ -55,7 +55,7 @@ function getStoryList($basePath) {
             $chapterDisplayTitle = str_replace('_', ' ', $chapterRawTitle);
 
             $chapterIndexJsonPath = $chapterDir . '/index.json';
-            $chapterPageParam = str_replace($basePath . '/', '', $chapterDir) . '/index.json'; // Keep original pageParam for chapter
+            $chapterPageParam = str_replace($basePath . '/', '', $chapterDir) . '/index.json';
 
             if (file_exists($chapterIndexJsonPath)) {
                 $chapterJsonContent = file_get_contents($chapterIndexJsonPath);
@@ -73,61 +73,21 @@ function getStoryList($basePath) {
             ];
         }
 
-        // Sort chapters by number
         usort($chapters, function($a, $b) {
             return $a['number'] <=> $b['number'];
         });
 
         $storyList[] = [
             'title' => $displayTitle,
-            'page_param' => $pageParam, // Use original pageParam for arc
-            'chapters' => $chapters // Add chapters to the story data
+            'page_param' => $pageParam,
+            'chapters' => $chapters
         ];
     }
 
     return $storyList;
 }
 
-// Ambil path halaman dari parameter GET, jika ada
-$page = isset($_GET['page']) ? $_GET['page'] : '';
-
-if ($page) {
-    // Keamanan: Pastikan path tidak mengandung '..' untuk mencegah directory traversal
-    if (strpos($page, '..') !== false) {
-        http_response_code(400);
-        echo '<div class="alert alert-danger">Permintaan tidak valid.</div>';
-    } else {
-        // Bangun path file JSON yang sebenarnya
-        $possible_paths = [
-            BASE_PATH . '/' . $page, // This was simplified in previous steps
-        ];
-
-        $file_found = false;
-        foreach ($possible_paths as $path) {
-            if (file_exists($path)) {
-                $json_content = file_get_contents($path);
-                $storyData = json_decode($json_content, true); // Decode as associative array
-
-                if (json_last_error() === JSON_ERROR_NONE) {
-                    renderStoryContent($storyData);
-                } else {
-                    http_response_code(500);
-                    echo '<div class="alert alert-danger">Error parsing JSON: ' . json_last_error_msg() . '</div>';
-                }
-                $file_found = true;
-                break; // Hentikan loop jika file ditemukan
-            }
-        }
-
-        if (!$file_found) {
-            // Tampilkan pesan error jika file tidak ditemukan
-            http_response_code(404);
-            echo '<div class="alert alert-warning">Halaman ' . htmlspecialchars($page) . ' tidak ditemukan.</div>';
-        }
-    }
-} else {
-    // Jika tidak ada parameter 'page', tampilkan daftar cerita
-    $storyList = getStoryList(BASE_PATH);
+$storyList = getStoryList(BASE_PATH);
 ?>
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
@@ -148,7 +108,7 @@ if ($page) {
                                     <ul class="list-group list-group-flush">
                                         <?php foreach ($story['chapters'] as $chapter): ?>
                                             <li class="list-group-item">
-                                                <a href="chapter.php?chapter_path=<?php echo htmlspecialchars($chapter['page_param']); ?>">
+                                                <a href="../chapter.php?chapter_path=<?php echo htmlspecialchars($chapter['page_param']); ?>">
                                                     <?php echo htmlspecialchars($chapter['number'] . '. ' . $chapter['title']); ?>
                                                 </a>
                                             </li>
@@ -164,8 +124,6 @@ if ($page) {
       </div>
     </div>
 <?php
-}
-
 // Sertakan footer
-require_once 'templates/footer.php';
+require_once '../templates/footer.php'; // Adjusted path
 ?>
