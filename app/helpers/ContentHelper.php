@@ -19,12 +19,7 @@ class ContentHelper
                 case 'Action':
                 case 'BattleMove':
                     $actorName = isset($item['Actor']['Name']) ? htmlspecialchars($item['Actor']['Name'], ENT_QUOTES, 'UTF-8') : 'Seseorang';
-                    $html .= '<div class="card my-3 shadow-sm">';
-                    $html .= '  <div class="card-body">';
-                    $html .= "    <h6 class=\"card-subtitle mb-2 text-muted fst-italic\">⚔️ Aksi oleh: {$actorName}</h6>";
-                    $html .= "    <p class=\"card-text\">{$text}</p>";
-                    $html .= '  </div>';
-                    $html .= '</div>';
+                    $html .= "<p class=\"card-text\">{$text}</p>";
                     break;
 
                 case 'InnerThought':
@@ -41,7 +36,7 @@ class ContentHelper
                     $tone = isset($item['Tone']) ? htmlspecialchars($item['Tone'], ENT_QUOTES, 'UTF-8') : '';
                     $html .= '<blockquote class="blockquote my-2">';
                     $html .= "  <p class=\"mb-1\">\"{$line}\"</p>";
-                    $html .= "  <footer class=\"blockquote-footer\">{$speakerName} <cite title=\"Tone\">({$tone})</cite></footer>";
+                    $html .= "  <footer class=\"blockquote-footer mt-1\">{$speakerName} <cite title=\"Tone\">({$tone})</cite></footer>";
                     $html .= '</blockquote>';
                     break;
 
@@ -52,7 +47,7 @@ class ContentHelper
                 case 'EnemyEncounter':
                 case 'Ambush':
                 case 'ImminentThreat':
-                    $html .= "<div class=\"alert alert-warning my-3\">⚠️ {$text}</div>";
+                    $html .= "<p>⚠️ {$text}</p>";
                     break;
 
                 case 'UnexpectedAid':
@@ -67,7 +62,7 @@ class ContentHelper
                 case 'Strategy':
                     $charName = isset($item['Character']['Name']) ? htmlspecialchars($item['Character']['Name'], ENT_QUOTES, 'UTF-8') : 'Seseorang';
                     $html .= '<div class="decision-block bg-body-secondary border-start border-success border-3 ps-3 py-2 my-3">';
-                    $html .= "  <small class=\"text-muted\">💡 Keputusan / Strategi oleh {$charName}:</small>";
+                    $html .= "  <small class=\"text-muted\">💡 Keputusan {$charName}:</small>";
                     $html .= "  <p class=\"mb-0\">{$text}</p>";
                     $html .= '</div>';
                     break;
