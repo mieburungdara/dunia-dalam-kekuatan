@@ -20,7 +20,7 @@ class ContentHelper
 
             switch ($item['Type'] ?? 'unknown') {
                 case 'Exposition':
-                    $html .= "<p>{$text}</p>";
+                    $html .= "<p class=\"mb-0\">{$text}</p>";
                     $html .= '<div class="hide small text-muted border-top mt-1 pt-1"><em>Type: Exposition</em></div>';
                     break;
 
