@@ -22,6 +22,8 @@ if (!function_exists('base_url')) {
 
 // Konfigurasi
 $f3->set('DEBUG', 3);
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
 // Konfigurasi
 $f3->set('UI', 'application/views/'); // Beri tahu F3 di mana folder view berada
