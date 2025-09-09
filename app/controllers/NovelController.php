@@ -144,78 +144,147 @@ class NovelController {
         echo \Template::instance()->render('templates/footer.php');
     }
 
-function show_scene($f3, $params) {
-    require_once __DIR__ . '/../helpers/ContentHelper.php';
+    function show_scene($f3, $params) {
+        require_once __DIR__ . '/../helpers/ContentHelper.php';
 
-    $novel_slug   = $params['novel_slug'];
-    $arc_name     = $params['arc_name'];
-    $chapter_name = $params['chapter_name'];
-    $scene_name   = $params['scene_name'];
+        $novel_slug   = $params['novel_slug'];
+        $arc_name     = $params['arc_name'];
+        $chapter_name = $params['chapter_name'];
+        $scene_name   = $params['scene_name'];
 
-    // Path ke file JSON scene
-    $scene_json_path = $f3->get('ROOT') . $f3->get('BASE') .
-        '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/' . $scene_name . '.json';
+        // --- Start of Navigation Logic ---
+        $prev_link_url = null;
+        $next_link_url = null;
 
-    if (!file_exists($scene_json_path)) {
-        $f3->error(404);
-        return;
+        // 1. Get current chapter's scenes
+        $scenes_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/scenes.json';
+        if (file_exists($scenes_json_path)) {
+            $scenes_list = json_decode(file_get_contents($scenes_json_path), true);
+            if (is_array($scenes_list)) {
+                $current_scene_index = -1;
+                foreach ($scenes_list as $index => $scene) {
+                    if (isset($scene['slug']) && $scene['slug'] === $scene_name) {
+                        $current_scene_index = $index;
+                        break;
+                    }
+                }
+
+                if ($current_scene_index !== -1) {
+                    // Intra-chapter navigation
+                    if ($current_scene_index > 0) {
+                        $prev_slug = $scenes_list[$current_scene_index - 1]['slug'];
+                        $prev_link_url = "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$chapter_name}/{$prev_slug}";
+                    }
+                    if ($current_scene_index < count($scenes_list) - 1) {
+                        $next_slug = $scenes_list[$current_scene_index + 1]['slug'];
+                        $next_link_url = "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$chapter_name}/{$next_slug}";
+                    }
+                }
+            }
+        }
+
+        // 2. Inter-chapter navigation (if needed)
+        if ($prev_link_url === null || $next_link_url === null) {
+            $chapters_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/chapters.json';
+            if (file_exists($chapters_json_path)) {
+                $chapters_list = json_decode(file_get_contents($chapters_json_path), true);
+                if (is_array($chapters_list)) {
+                    $current_chapter_index = -1;
+                    foreach ($chapters_list as $index => $chapter) {
+                        if (isset($chapter['slug']) && $chapter['slug'] === $chapter_name) {
+                            $current_chapter_index = $index;
+                            break;
+                        }
+                    }
+
+                    if ($current_chapter_index !== -1) {
+                        // Find NEXT chapter's first scene
+                        if ($next_link_url === null && $current_chapter_index < count($chapters_list) - 1) {
+                            $next_chapter_slug = $chapters_list[$current_chapter_index + 1]['slug'];
+                            $next_chapter_scenes_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $next_chapter_slug . '/scenes.json';
+                            if (file_exists($next_chapter_scenes_path)) {
+                                $next_chapter_scenes = json_decode(file_get_contents($next_chapter_scenes_path), true);
+                                if (!empty($next_chapter_scenes)) {
+                                    $first_scene_slug = $next_chapter_scenes[0]['slug'];
+                                    $next_link_url = "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$next_chapter_slug}/{$first_scene_slug}";
+                                }
+                            }
+                        }
+                        // Find PREVIOUS chapter's last scene
+                        if ($prev_link_url === null && $current_chapter_index > 0) {
+                            $prev_chapter_slug = $chapters_list[$current_chapter_index - 1]['slug'];
+                            $prev_chapter_scenes_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $prev_chapter_slug . '/scenes.json';
+                            if (file_exists($prev_chapter_scenes_path)) {
+                                $prev_chapter_scenes = json_decode(file_get_contents($prev_chapter_scenes_path), true);
+                                if (!empty($prev_chapter_scenes)) {
+                                    $last_scene_slug = end($prev_chapter_scenes)['slug'];
+                                    $prev_link_url = "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$prev_chapter_slug}/{$last_scene_slug}";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // --- End of Navigation Logic ---
+
+        // Path ke file JSON scene
+        $scene_json_path = $f3->get('ROOT') . $f3->get('BASE') .
+            '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/' . $scene_name . '.json';
+
+        if (!file_exists($scene_json_path)) {
+            $f3->error(404);
+            return;
+        }
+
+        $json_content = file_get_contents($scene_json_path);
+        $scene_data   = json_decode($json_content, true);
+
+        if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data)) {
+            error_log("NovelController: JSON decode error for " . $scene_json_path . ": " . json_last_error_msg());
+            $f3->error(500, 'Error reading scene data.');
+            return;
+        }
+
+        $scene_contents = [];
+        if (isset($scene_data['Chapters'][0]['Scenes'][0]['Contents'])) {
+            $scene_contents = $scene_data['Chapters'][0]['Scenes'][0]['Contents'];
+        }
+        
+        $rendered_content = ContentHelper::render($scene_contents);
+
+        $chapter_index_path = $f3->get('ROOT') . $f3->get('BASE') .
+            '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/index.json';
+        $chapter_data = [];
+        if (file_exists($chapter_index_path)) {
+            $chapter_data = json_decode(file_get_contents($chapter_index_path), true);
+        }
+
+        $arc_index_path = $f3->get('ROOT') . $f3->get('BASE') .
+            '/cerita/' . $novel_slug . '/' . $arc_name . '/index.json';
+        $arc_data = [];
+        if (file_exists($arc_index_path)) {
+            $arc_data = json_decode(file_get_contents($arc_index_path), true);
+        }
+
+        $novel_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/index.json';
+        $novel_data = [];
+        if (file_exists($novel_index_path)) {
+            $novel_data = json_decode(file_get_contents($novel_index_path), true);
+        }
+
+        $f3->set('novel_title', $novel_data['title'] ?? 'Novel Tidak Ditemukan');
+        $f3->set('arc_title', $arc_data['title'] ?? 'Arc Tidak Ditemukan');
+        $f3->set('chapter_title', $chapter_data['title'] ?? 'Chapter Tidak Ditemukan');
+        $f3->set('chapter_summary', $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan');
+        $f3->set('scene_name', $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name));
+        
+        $f3->set('rendered_content', $rendered_content);
+        $f3->set('prev_link_url', $prev_link_url);
+        $f3->set('next_link_url', $next_link_url);
+
+        echo \Template::instance()->render('templates/header.php');
+        echo \Template::instance()->render('novel/scene_view.php');
+        echo \Template::instance()->render('templates/footer.php');
     }
-
-    $json_content = file_get_contents($scene_json_path);
-    $scene_data   = json_decode($json_content, true);
-
-    if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data)) {
-        error_log("NovelController: JSON decode error for " . $scene_json_path . ": " . json_last_error_msg());
-        $f3->error(500, 'Error reading scene data.');
-        return;
-    }
-
-    // Ambil contents langsung sebagai array
-    $scene_contents = [];
-    if (isset($scene_data['Chapters'][0]['Scenes'][0]['Contents'])) {
-        $scene_contents = $scene_data['Chapters'][0]['Scenes'][0]['Contents'];
-    }
-    
-    // Gunakan ContentHelper untuk merender HTML
-    $rendered_content = ContentHelper::render($scene_contents);
-
-    // Ambil data chapter
-    $chapter_index_path = $f3->get('ROOT') . $f3->get('BASE') .
-        '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/index.json';
-    $chapter_data = [];
-    if (file_exists($chapter_index_path)) {
-        $chapter_data = json_decode(file_get_contents($chapter_index_path), true);
-    }
-
-    // Ambil data arc
-    $arc_index_path = $f3->get('ROOT') . $f3->get('BASE') .
-        '/cerita/' . $novel_slug . '/' . $arc_name . '/index.json';
-    $arc_data = [];
-    if (file_exists($arc_index_path)) {
-        $arc_data = json_decode(file_get_contents($arc_index_path), true);
-    }
-
-    // Ambil data novel
-    $novel_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/index.json';
-    $novel_data = [];
-    if (file_exists($novel_index_path)) {
-        $novel_data = json_decode(file_get_contents($novel_index_path), true);
-    }
-
-    // Set variable untuk template
-    $f3->set('novel_title', $novel_data['title'] ?? 'Novel Tidak Ditemukan');
-    $f3->set('arc_title', $arc_data['title'] ?? 'Arc Tidak Ditemukan');
-    $f3->set('chapter_title', $chapter_data['title'] ?? 'Chapter Tidak Ditemukan');
-    $f3->set('chapter_summary', $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan');
-    $f3->set('scene_name', $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name));
-    
-    // Teruskan HTML yang sudah dirender ke view
-    $f3->set('rendered_content', $rendered_content);
-
-    echo \Template::instance()->render('templates/header.php');
-    echo \Template::instance()->render('novel/scene_view.php');
-    echo \Template::instance()->render('templates/footer.php');
-
-}
-
 }

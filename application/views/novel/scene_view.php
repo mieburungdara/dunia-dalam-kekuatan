@@ -6,4 +6,19 @@
     <div class="story-content">
         {{ @rendered_content | raw }}
     </div>
+
+    <hr class="my-4">
+
+    <div class="row">
+        <div class="col text-start">
+            <check if="{{ @prev_link_url }}">
+                <a href="{{ @prev_link_url }}" class="btn btn-secondary">&laquo; Adegan Sebelumnya</a>
+            </check>
+        </div>
+        <div class="col text-end">
+            <check if="{{ @next_link_url }}">
+                <a href="{{ @next_link_url }}" class="btn btn-primary">Adegan Selanjutnya &raquo;</a>
+            </check>
+        </div>
+    </div>
 </div>
