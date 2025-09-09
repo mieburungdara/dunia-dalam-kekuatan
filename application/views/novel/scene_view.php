@@ -63,7 +63,7 @@
 
             <!-- EMOTION -->
             <check if="{{ @block['Type'] == 'Emotion' }}">
-                <div class="badge bg-secondary mb-2">Emotion ({{ @block['Character'] ?? '-' }}): {{ @block['Text'] }} ({{ @block['Intensity'] ?? '-' }})</div>
+                <div class="badge bg-secondary mb-2">Emotion ({{ @block['Character']['Name'] ?? '-' }}): {{ @block['Text'] }} ({{ @block['Intensity'] ?? '-' }})</div>
             </check>
 
             <!-- DIALOGUE, INNER, ACTION, ETC. lainnya bisa ditambahkan di bawah -->

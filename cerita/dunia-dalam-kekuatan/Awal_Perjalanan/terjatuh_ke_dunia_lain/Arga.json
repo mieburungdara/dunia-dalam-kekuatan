@@ -9,7 +9,7 @@
   "Chapters": [
     {
       "ChapterNumber": 1,
-      "Title": "Logika di Tengah Kepanikan",
+      "Title": "1.1 - Logika di Tengah Kepanikan",
       "Summary": "Arga, seorang mahasiswa teknik yang rasional, terbangun di hutan asing dan harus menggunakan logikanya untuk melarikan diri dari serangan goblin.",
       "Scenes": [
         {
@@ -56,7 +56,7 @@
                 "Name": "Arga",
                 "ID": "C001"
               },
-              "Text": "Instingnya, yang terlatih dalam Strategi Tempur, langsung menilai: jarak aman, ukuran musuh, kemungkinan bertahan. Tangannya secara otomatis meraih pinggangnya, mencari Pedang Baja Ringan yang biasa tersarung di sana, namun yang ia temukan hanyalah ranting pohon. Dengan gerakan terukur, ia memeganginya, menimbang berat dan keseimbangan."
+              "Text": "Instingnya, yang terlatih dalam Strategi Tempur, langsung menilai: jarak aman, ukuran musuh, kemungkinan bertahan. Tangannya secara otomatis meraih pinggangnya, mencari Pedang Baja Ringan yang biasa tersarung di sana, namun yang ia temukan hanyalah ranting pohon. Dengan gerakan terukur, ia memegangnya, menimbang berat dan keseimbangan."
             },
             {
               "Type": "Exposition",
@@ -100,7 +100,8 @@
                 "Name": "Arga",
                 "ID": "C001"
               },
-              "Text": "Di balik ketegangan, ia merasa lega karena berhasil melarikan diri sementara. Hanya dengan strategi dan logika, ia bertahan—sementara dunia baru ini masih penuh misteri."
+              "Text": "Di balik ketegangan, ia merasa lega karena berhasil melarikan diri sementara. Hanya dengan strategi dan logika, ia bertahan—sementara dunia baru ini masih penuh misteri.",
+              "Intensity": "Medium"
             },
             {
               "Type": "InnerThought",
@@ -111,7 +112,7 @@
               "Text": "Baiklah… bertahan hidup dulu. Setelah itu, analisis lebih lanjut. Cari perlindungan, cari manusia lain, cari jawaban."
             }
           ],
-          "Notes": "Konversi dari 1_Arga.md. Perlu ditinjau ulang untuk pemisahan adegan yang lebih akurat dan penambahan detail karakter/item."
+          "Notes": "Konversi dari 1_Arga.md."
         }
       ]
     }
