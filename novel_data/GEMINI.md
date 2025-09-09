@@ -15,6 +15,9 @@ The project is structured as a collection of Markdown files that detail the plot
 *   **`timeline.json`**: Mencatat peristiwa-peristiwa besar dan penting dalam sejarah dunia, lengkap dengan tanggal dan signifikansinya.
 *   **`CHARACTER_TEMPLATE.json`**: Template untuk membuat entri karakter baru di `CHARACTERS.json` agar konsisten.
 *   **`scene_template.json`**: Template untuk melacak detail per adegan, termasuk kondisi karakter (HP/MP/Stamina) dan perkembangan plot.
+*   **`novel_template.json`**: Template untuk struktur data novel secara keseluruhan.
+*   **`arc_template.json`**: Template untuk struktur data arc cerita.
+*   **`chapter_template.json`**: Template untuk struktur data bab cerita.
 *   **Character/Skill Files**: The directory contains numerous other Markdown files (e.g., `Bulls_Might.md`, `Fates_Shepherd.md`) that appear to be detailed descriptions of individual skills, powers, or character-specific abilities.
 
 # Usage

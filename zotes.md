@@ -44,3 +44,8 @@
        * Isi: Poin-poin plot kunci, titik balik, motivasi karakter di setiap tahap, elemen foreshadowing, dan resolusi.
        * Manfaat Konsistensi: Memastikan semua alur cerita terselesaikan, mencegah subplot yang terlupakan, dan menjaga alur
          narasi serta pacing.
+
+
+
+1. buat scene_template, arc templtae dan sebagainya.
+2. 
