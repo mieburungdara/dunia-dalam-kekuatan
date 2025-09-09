@@ -44,9 +44,8 @@
 
             <!-- EXPOSITION -->
             <check if="{{ @block['Type'] == 'Exposition' }}">
-                <div class="card mb-3 bg-light text-dark">
+                <div class=" mb-3 bg-light text-dark">
                     <div class="card-body">
-                        <h6 class="card-title">Exposition: {{ @block['Topic'] ?? 'World' }}</h6>
                         <p>{{ @block['Text'] }}</p>
                         <div class="dev-mode-info hide mt-2 text-muted small">
                             Type: Exposition | Topic: {{ @block['Topic'] ?? 'World' }} | Method: {{ @block['Method'] ?? '-' }}
@@ -58,8 +57,8 @@
             <!-- INNER THOUGHT -->
             <check if="{{ @block['Type'] == 'InnerThought' }}">
                 <div class="callout callout-info mb-3 p-3 border-start border-4 border-info bg-light">
-                    <p><strong>Thought:</strong> {{ @block['Text'] }}</p>
-                    <small class="text-muted">Character: {{ @block['Character']['Name'] ?? 'Unknown' }} | Theme: {{ @block['Theme'] ?? '-' }}</small>
+                    <small class="text-muted">{{ @block['Character']['Name'] ?? 'Unknown' }}</small>
+                    <p>{{ @block['Text'] }}</p>
                     <div class="dev-mode-info hide mt-2 text-muted small">
                         Type: InnerThought | Character: {{ @block['Character']['Name'] ?? 'Unknown' }} | Theme: {{ @block['Theme'] ?? '-' }} | Trigger: {{ @block['Trigger'] ?? '-' }}
                     </div>
