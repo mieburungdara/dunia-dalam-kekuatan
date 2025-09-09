@@ -25,8 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // Deteksi environment
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
-$config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
-$config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+$config['base_url'] .= "://".
+$config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),",",$_SERVER['SCRIPT_NAME']);
 
 //$config['base_url'] = 'https://5500-cs-640544031456-default.cs-asia-southeast1-palm.cloudshell.dev/';
 //$config['base_url'] = 'https://mymy.my.id/';
@@ -40,7 +40,7 @@ $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -221,10 +221,10 @@ $config['allow_get_array'] = TRUE;
 | threshold determines what gets logged. Threshold options are:
 |
 | 	0 = Disables logging, Error logging TURNED OFF
-| 	1 = Error Messages (including PHP errors)
-| 	2 = Debug Messages
-| 	3 = Informational Messages
-| 	4 = All Messages
+|	1 = Error Messages (including PHP errors)
+|	2 = Debug Messages
+|	3 = Informational Messages
+|	4 = All Messages
 |
 | You can also pass an array with threshold levels to show individual error types
 |
@@ -315,11 +315,11 @@ $config['cache_path'] = '';
 | output cache files. Valid options are:
 |
 | 	FALSE      = Disabled
-| 	TRUE       = Enabled, take all query parameters into account.
-| 	             Please be aware that this may result in numerous cache
-| 	             files generated for the same page over and over again.
-| 	array('q') = Enabled, but only take into account the specified list
-| 	             of query parameters.
+|	TRUE       = Enabled, take all query parameters into account.
+|	             Please be aware that this may result in numerous cache
+|	             files generated for the same page over and over again.
+|	array('q') = Enabled, but only take into account the specified list
+|	             of query parameters.
 |
 */
 $config['cache_query_string'] = FALSE;
@@ -357,26 +357,26 @@ $config['encryption_key'] = '';
 | 'sess_expiration'
 |
 | 	The number of SECONDS you want the session to last.
-| 	Setting to 0 (zero) means expire when the browser is closed.
+|	Setting to 0 (zero) means expire when the browser is closed.
 |
 | 'sess_save_path'
 |
 | 	The location to save sessions to, driver dependent.
 |
-| 	For the 'files' driver, it's a path to a writable directory.
-| 	WARNING: Only absolute paths are supported!
+|	For the 'files' driver, it's a path to a writable directory.
+|	WARNING: Only absolute paths are supported!
 |
-| 	For the 'database' driver, it's a table name.
-| 	Please read up the manual for the format with other session drivers.
+|	For the 'database' driver, it's a table name.
+|	Please read up the manual for the format with other session drivers.
 |
-| 	IMPORTANT: You are REQUIRED to set a valid save path!
+|	IMPORTANT: You are REQUIRED to set a valid save path!
 |
 | 'sess_match_ip'
 |
 | 	Whether to match the user's IP address when reading the session data.
 |
-| 	WARNING: If you're using the database driver, don't forget to update
-| 	         your session table's PRIMARY KEY when changing this setting.
+|	WARNING: If you're using the database driver, don't forget to update
+|	         your session table's PRIMARY KEY when changing this setting.
 |
 | 'sess_time_to_update'
 |
@@ -385,8 +385,8 @@ $config['encryption_key'] = '';
 | 'sess_regenerate_destroy'
 |
 | 	Whether to destroy session data associated with the old session ID
-| 	when auto-regenerating the session ID. When set to FALSE, the data
-| 	will be later deleted by the garbage collector.
+|	when auto-regenerating the session ID. When set to FALSE, the data
+|	will be later deleted by the garbage collector.
 |
 | Other session cookie settings are shared with the rest of the application,
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
