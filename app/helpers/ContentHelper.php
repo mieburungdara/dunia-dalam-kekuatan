@@ -26,11 +26,10 @@ class ContentHelper
 
                 case 'Action':
                     $actorName = isset($item['Actor']['Name']) ? htmlspecialchars($item['Actor']['Name'], ENT_QUOTES, 'UTF-8') : 'Seseorang';
-                    $html .= '<div class="card my-3 shadow-sm">';
+                    $html .= '<div class="my-3">';
                     $html .= '  <div class="card-body">';
-                    $html .= "    <h6 class=\"card-subtitle mb-2 text-muted fst-italic\">Aksi oleh: {$actorName}</h6>";
-                    $html .= "    <p class=\"card-text\">{$text}</p>";
-                    $html .= "    <div class=\"hide small text-muted border-top mt-2 pt-2\"><em>Type: Action | Actor: {$actorName}</em></div>";
+                    $html .= "    <p class=\"card-text mb-0\">{$text}</p>";
+                    $html .= "    <div class=\"hide small text-muted border-top\"><em>Type: Action | Actor: {$actorName}</em></div>";
                     $html .= '  </div>';
                     $html .= '</div>';
                     break;
