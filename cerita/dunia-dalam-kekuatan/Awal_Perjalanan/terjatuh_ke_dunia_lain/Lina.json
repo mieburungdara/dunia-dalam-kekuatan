@@ -24,9 +24,9 @@
               "Name": "Lina",
               "ID": "C005",
               "RoleInScene": "Protagonis",
-              "Mood": "Jijik, takut, sarkastik, manja",
-              "Goal": "Menghindari kotoran dan ketidaknyamanan",
-              "Conflict": "Pikiran dan keluhannya sendiri menghalanginya untuk bereaksi terhadap bahaya."
+              "Mood": "Jijik, takut, sarkastik, manja, mengeluh",
+              "Goal": "Menghindari kotoran dan ketidaknyamanan, mencari jalan keluar yang 'beradab'",
+              "Conflict": "Pikiran dan keluhannya sendiri menghalanginya untuk bereaksi terhadap bahaya, lingkungan yang tidak higienis"
             }
           ],
           "POV": {
@@ -36,73 +36,75 @@
           "Contents": [
             {
               "Type": "Exposition",
-              "Text": "Lina terbangun dengan sentakan yang tidak elegan. Hal pertama yang menyambutnya adalah bau tanah basah dan jamur yang menusuk hidung. Ia terbaring di bawah akar pohon raksasa yang melengkung secara tidak simetris, sebuah pelanggaran arsitektur alam yang membuatnya muak."
+              "Text": "Lina terbangun dengan sentakan yang tidak elegan. Hal pertama yang menyambutnya adalah bau tanah basah dan jamur yang menusuk hidungnya, jauh berbeda dari aroma familiar parfum mahal dan AC sentral yang biasa ia hirup. Ia terbaring di bawah akar pohon raksasa yang melengkung secara tidak simetris, sebuah pelanggaran arsitektur alam yang membuatnya muak. Daun-daun kering dan ranting-ranting kecil menempel di blazernya yang baru saja di-laundry. 'Astaga, ini tempat apa? Kotor sekali, sialan,' gumamnya, merasa jijik dengan tanah yang menempel di pakaiannya. 'Dan cahayanya... tidak standar sama sekali. Tidak ada simetri. Ini benar-benar tidak profesional, menjengkelkan sekali. Siapa yang mendesain tempat ini? Tidak ada estetika sama sekali!'"
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Lina", "ID": "C005" },
-              "Line": "Iyuuh! Tempat apa ini? Lantainya tanah semua, dan lihat ini, daun kering menempel di blazerk-ku! Menjijikkan!",
-              "Tone": "Mengeluh"
+              "Line": "Iyuuh! Tempat apa ini? Lantainya tanah semua, dan lihat ini, daun kering menempel di blazerk-ku! Menjijikkan! Aku butuh hand sanitizer, sekarang!",
+              "Tone": "Mengeluh, jijik"
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Lina", "ID": "C005" },
-              "Text": "Pencahayaannya juga buruk sekali, tidak ada golden ratio sama sekali. Siapa desainer level ini? Benar-benar tidak profesional."
+              "Text": "Pencahayaannya juga buruk sekali, tidak ada golden ratio sama sekali. Siapa desainer level ini? Benar-benar tidak profesional. Dan udaranya lembap sekali, rambutku pasti jadi lepek. Ini bencana fashion!"
+            },
+            {
+              "Type": "MysteriousPhenomenon",
+              "Text": "Namun, kengerian itu datang bukan dari keindahan, melainkan dari hilangnya sesuatu yang vital. Cahaya keperakan yang selama ini menyelimuti tubuhnya, yang entah bagaimana memberinya rasa aman dan sedikit kilau pada kulitnya, kini telah sirna. Lina, dengan insting Deteksi Energi yang samar—yang ia kira hanya kepekaan terhadap aura orang kaya—merasakan kekosongan itu terasa dingin, seperti AC yang tiba-tiba mati. Ini mengganggu keseimbangan energinya. Dan yang lebih buruk, hilangnya cahaya itu menarik perhatian dua sosok kecil yang muncul dari balik semak belukar."
             },
             {
               "Type": "EnemyEncounter",
-              "Text": "Saat ia sibuk menggerutu, ia merasakan hawa dingin yang aneh. Dua sosok kecil berwarna hijau kusam muncul dari semak-semak. Postur mereka bungkuk, gerakan mereka tidak efisien, dan desain mereka... sangat klise. Goblin.",
+              "Text": "Goblin. Kata itu terlintas di benaknya, sebuah entitas fiksi yang kini nyata di hadapannya. Mereka kecil, kulitnya hijau kusam, dengan mata merah menyala yang memancarkan kelaparan. Gerakan mereka canggung namun cepat, mendekat dengan seringai menjijikkan. Bau busuk mereka, seperti sampah yang sudah berhari-hari tidak dibuang, membuat Lina ingin muntah. 'Oh, bagus. Sekarang ada monster jelek. Apa lagi? Naga? Peri yang cerewet? Bisakah hari ini lebih buruk lagi, sih? Fantastis sekali,' ia bergumam, suaranya bergetar, penuh sarkasme, meskipun ia tahu tidak ada yang mendengarnya.",
               "Enemy": "Goblin"
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Lina", "ID": "C005" },
-              "Line": "Oh, hebat. Monster. Tentu saja. Kenapa tidak sekalian saja ada naga ungu yang menyanyikan lagu anak-anak? Biar makin absurd.",
-              "Tone": "Sarkastik"
+              "Line": "Oh, hebat. Monster. Tentu saja. Kenapa tidak sekalian saja ada naga ungu yang menyanyikan lagu anak-anak? Biar makin absurd. Dan mereka bau sekali! Aku tidak bisa bernapas di sini!",
+              "Tone": "Sarkastik, mengeluh"
             },
             {
               "Type": "Emotion",
               "Character": { "Name": "Lina", "ID": "C005" },
-              "Text": "Meskipun mulutnya masih bisa melontarkan sarkasme, tubuhnya mengkhianatinya. Kakinya terasa seperti jeli, menolak untuk menuruti perintah otaknya untuk lari. Kengerian yang dingin dan lengket merayap di tulang punggungnya, melumpuhkannya dari dalam.",
+              "Text": "Meskipun mulutnya masih bisa melontarkan sarkasme, tubuhnya mengkhianatinya. Kakinya terasa seperti jeli, menolak untuk menuruti perintah otaknya untuk lari. Kengerian yang dingin dan lengket merayap di tulang punggungnya, melumpuhkannya dari dalam. Pikirannya, yang terbiasa dengan hal-hal yang teratur, kini berputar dalam kekacauan. Ia mencoba memahami apa yang terjadi, tetapi hanya ada kengerian murni yang melumpuhkan dirinya. Kakinya menolak untuk bergerak, seolah terikat oleh gravitasi ketakutan. Ia merasa sangat lemah, tidak berguna, dan yang terpenting, sangat penakut. 'Ini tidak adil! Aku tidak pernah mendaftar untuk ini! Ini bukan bagian dari rencana hidupku!' ia merengek pelan, air mata mulai menggenang di pelupuk matanya.",
               "Intensity": "High"
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Lina", "ID": "C005" },
-              "Text": "Oke, ini tidak lucu lagi. Sepatuku bisa rusak. Dan aku belum update story hari ini. Kalau aku mati di sini, siapa yang akan mengurus tanamanku di game? Ini benar-benar tidak bisa diterima!"
+              "Text": "Oke, ini tidak lucu lagi. Sepatuku bisa rusak. Dan aku belum update story hari ini. Kalau aku mati di sini, siapa yang akan mengurus tanamanku di game? Ini benar-benar tidak bisa diterima! Aku harus segera keluar dari sini. Tapi bagaimana? Aku tidak bisa bergerak!"
             },
             {
               "Type": "ImminentThreat",
-              "Text": "Satu goblin maju, seringainya memperlihatkan gigi-gigi kuning yang tidak rata. Ia mengulurkan tangan kurusnya, kuku-kuku hitamnya yang panjang hampir menyentuh ujung sepatunya yang (sebelumnya) putih bersih."
+              "Text": "Satu goblin maju, seringainya memperlihatkan gigi-gigi kuning yang tidak rata. Ia mengulurkan tangan kurusnya, kuku-kuku hitamnya yang panjang hampir menyentuh ujung sepatunya yang (sebelumnya) putih bersih. Lina bisa merasakan napas busuk makhluk itu, bau tanah dan darah kering yang membuat perutnya mual. Jantungnya berdebar begitu kencang hingga terasa ingin meledak dari dadanya. Ini bukan lagi teori, bukan lagi cerita di dalam buku. Ini adalah kenyataan yang brutal, dan ia, yang perfeksionis, benar-benar tidak siap untuk ketidaksempurnaan ini. 'Fantastis. Benar-benar hari yang sempurna,' bisiknya, meskipun suaranya nyaris tak terdengar karena ketakutan, nada sarkasme jelas terasa. Ia merogoh saku, mencari Saputangan Bersihnya, atau setidaknya Cermin Sakunya untuk memastikan penampilannya tidak terlalu berantakan. 'Aku butuh hand sanitizer. Dan mungkin masker gas.'"
             },
             {
               "Type": "UnexpectedAid",
               "Source": "Bimo",
-              "Text": "Tepat saat Lina memejamkan mata, pasrah pada nasibnya yang tidak higienis, sebuah teriakan sumbang memekakkan telinga bergema di hutan. \"HOI! MAKHLUK JELEK!\""
+              "Text": "Tepat ketika tangan kotor itu hampir menyentuhnya, sebuah suara memekakkan telinga memecah keheningan hutan. \"HOI! MAKHLUK JELEK!\" Teriakan itu begitu nyaring dan konyol, membuat para goblin terkesiap dan sejenak mengalihkan perhatian mereka, seolah mereka tidak pernah mendengar suara seaneh itu sebelumnya. Jeda sepersekian detik itu adalah anugerah. Sebuah kesempatan. Sebuah celah."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Lina", "ID": "C005" },
-              "Text": "Ya ampun, telingaku! Siapa yang berteriak dengan nada seburuk itu? Tidak punya etika sama sekali. Mengganggu ketenangan publik."
+              "Text": "Ya ampun, telingaku! Siapa yang berteriak dengan nada seburuk itu? Tidak punya etika sama sekali. Mengganggu ketenangan publik. Tapi... tunggu. Mereka terganggu. Ini kesempatan!"
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Lina", "ID": "C005" },
-              "Text": "Para goblin, yang tampaknya juga terganggu oleh polusi suara itu, mengalihkan perhatian mereka. Kesempatan itu, sekecil apa pun, cukup bagi Lina. Adrenalin akhirnya menang. Ia menjatuhkan diri dan berguling ke celah sempit di bawah akar pohon, tidak peduli lagi pada kotoran."
+              "Text": "Para goblin, yang tampaknya juga terganggu oleh polusi suara itu, mengalihkan perhatian mereka. Kesempatan itu, sekecil apa pun, cukup bagi Lina. Adrenalin akhirnya menang. Ia menjatuhkan diri dan berguling ke celah sempit di bawah akar pohon raksasa yang tadi menjadi tempatnya terbangun. Tubuhnya tergores dan kotor, tetapi ia berhasil menyelinap masuk ke celah sempit yang tak akan bisa dimasuki goblin. 'Hebat. Sekarang aku kotor sekali. Pakaian ini baru dicuci! Dan ada lumut di rambutku, aku bisa merasakannya! Aku butuh mandi air panas dan seratus lembar tisu basah sekarang juga!' keluhnya pelan, lebih peduli pada pakaiannya daripada bahaya yang baru saja berlalu. Ia bahkan sempat berpikir untuk memotret kotoran di bajunya untuk diunggah ke media sosial, sebagai bukti penderitaannya."
             },
             {
-              "Type": "Dialogue",
-              "Speaker": { "Name": "Lina", "ID": "C005" },
-              "Line": "Sial, sial, sial! Blazer-ku pasti robek! Dan ada lumut di rambutku, aku bisa merasakannya! Aku butuh mandi air panas dan seratus lembar tisu basah sekarang juga!",
-              "Tone": "Panik dan mengeluh"
+              "Type": "Exploration",
+              "Text": "Tersembunyi di balik akar, Lina terengah-engah, gemetar hebat. Ia mendengar suara-suara perkelahian samar dari kejauhan, teriakan Bimo, dan geraman goblin. Ia tidak tahu apa yang terjadi, tetapi ia tahu ia harus menjauh dari sini. Bimo mungkin dalam bahaya, atau mungkin dia adalah satu-satunya harapan. 'Mungkin dia bisa jadi tameng yang berguna,' pikirnya, tanpa sadar betapa pengecutnya pikiran itu. Ia merangkak keluar dari persembunyiannya, mengamati sekeliling dengan jijik. Setiap daun, setiap ranting, setiap serangga tampak kotor dan tidak pada tempatnya. Ia bahkan sempat berpikir untuk mencari sinyal Wi-Fi, berharap bisa memesan taksi online untuk keluar dari hutan ini."
             },
             {
-              "Type": "InnerThought",
+              "Type": "Decision",
               "Character": { "Name": "Lina", "ID": "C005" },
-              "Text": "Oke, orang berisik itu mungkin bisa dimanfaatkan. Dia bisa jadi pengalih perhatian yang bagus sementara aku mencari jalan keluar yang beradab. Semoga di sana ada kafe dengan Wi-Fi. Atau setidaknya, toilet yang bersih."
+              "Text": "Dengan napas tersengal dan tubuh yang masih gemetar, Lina merangkak keluar dari persembunyiannya. Ia tidak berlari ke arah suara Bimo karena ingin diselamatkan, melainkan karena itu adalah satu-satunya tanda kehidupan manusia yang ia dengar di tengah hutan asing ini. Dengan langkah tertatih, ia bergerak perlahan, mencoba mencari jalan keluar dari mimpi buruk ini, menuju satu-satunya arah yang menjanjikan sesuatu selain kegelapan. 'Semoga ada sinyal Wi-Fi di sana. Dan kamar mandi yang bersih. Atau setidaknya, sebuah hotel bintang lima dengan spa. Aku butuh pijat refleksi setelah ini,' ia bergumam, bahkan saat ia gemetar ketakutan, fokusnya tetap pada kenyamanan dan kemewahan yang hilang. Ia akan bertahan, bukan karena keberanian, tetapi karena ia tidak bisa membayangkan hidup tanpa fasilitas modern."
             }
           ],
-          "Notes": "Versi yang diperpanjang untuk menonjolkan kepribadian Lina yang manja, sarkastik, dan tidak pada tempatnya, menciptakan kontras antara bahaya nyata dan keluhan sepele."
+          "Notes": "Versi yang diperpanjang untuk menonjolkan kepribadian Lina yang manja, sarkastik, dan tidak pada tempatnya, menciptakan kontras antara bahaya nyata dan keluhan sepele. Menambahkan lebih banyak detail tentang obsesinya terhadap kebersihan dan kenyamanan."
         }
       ]
     }

@@ -24,9 +24,9 @@
               "Name": "Raka",
               "ID": "C003",
               "RoleInScene": "Protagonis",
-              "Mood": "Waspada, taktis",
-              "Goal": "Bertahan hidup dan mengamankan area",
-              "Conflict": "Melawan gerombolan goblin sendirian"
+              "Mood": "Waspada, taktis, fokus, adaptif",
+              "Goal": "Bertahan hidup, mengamankan area, mencari informasi",
+              "Conflict": "Melawan gerombolan goblin sendirian, kurangnya peralatan tempur yang familiar"
             }
           ],
           "POV": {
@@ -36,35 +36,61 @@
           "Contents": [
             {
               "Type": "Exposition",
-              "Text": "Raka, seorang mantan prajurit dengan naluri tempur yang tertanam kuat dalam setiap serat tubuhnya, tersentak bangun. Bukan di barak militer yang familiar, melainkan di tengah reruntuhan kuno yang diselimuti debu dan keheningan yang mencekam. Udara dingin menusuk kulitnya, dan bau lumut bercampur apek memenuhi indra penciumannya."
+              "Text": "Raka, seorang mantan prajurit dengan naluri tempur yang tertanam kuat dalam setiap serat tubuhnya, tersentak bangun. Bukan di barak militer yang familiar, melainkan di tengah reruntuhan kuno yang diselimuti debu dan keheningan yang mencekam. Udara dingin menusuk kulitnya, dan bau lumut bercampur apek memenuhi indra penciumannya. Ia tidak panik. Instingnya langsung mengambil alih, tubuhnya secara otomatis bergerak ke posisi siaga, matanya menyapu sekeliling, mencari ancaman. Setiap pilar yang runtuh, setiap tumpukan batu, setiap bayangan, dianalisis sebagai potensi penutup, posisi tembak, atau jalur evakuasi. Ini adalah medan perang yang tidak dikenal, dan ia adalah satu-satunya prajurit yang tersisa."
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Raka", "ID": "C003" },
-              "Text": "Ia tidak panik. Instingnya langsung mengambil alih, tubuhnya secara otomatis bergerak ke posisi siaga, matanya menyapu sekeliling, mencari ancaman."
+              "Text": "Ia tidak panik. Instingnya langsung mengambil alih, tubuhnya secara otomatis bergerak ke posisi siaga, matanya menyapu sekeliling, mencari ancaman. Ia memeriksa tubuhnya, mencari luka, memastikan semua anggota tubuhnya berfungsi. Tidak ada cedera serius, hanya memar dan goresan kecil. Pakaiannya, seragam lapangan yang biasa ia kenakan, terasa berat dan kotor, namun masih utuh. Ia meraba saku, mencari pisau tempur atau setidaknya korek api, namun hanya menemukan kekosongan. Sebuah alarm internal berteriak. Ia tidak bersenjata. Ini adalah masalah."
             },
             {
               "Type": "EnemyEncounter",
-              "Text": "Hal pertama yang ia sadari adalah hilangnya sensasi aneh yang menyelimuti tubuhnya. Cahaya keperakan yang entah bagaimana memberinya rasa aman dan kekuatan, kini memudar, meninggalkan kekosongan yang terasa dingin dan rentan. Sebuah alarm internal berteriak. Benar saja, dari balik pilar-pilar yang runtuh dan tumpukan batu, beberapa pasang mata merah menyala muncul. Bukan sekadar hewan, melainkan makhluk dengan seringai buas dan geraman rendah yang mengancam. Goblin.",
+              "Text": "Hal pertama yang ia sadari adalah hilangnya sensasi aneh yang menyelimuti tubuhnya. Cahaya keperakan yang entah bagaimana memberinya rasa aman dan kekuatan, kini memudar, meninggalkan kekosongan yang terasa dingin dan rentan. Sebuah alarm internal berteriak. Benar saja, dari balik pilar-pilar yang runtuh dan tumpukan batu, beberapa pasang mata merah menyala muncul. Bukan sekadar hewan, melainkan makhluk dengan seringai buas dan geraman rendah yang mengancam. Goblin. Mereka bergerak dalam formasi setengah lingkaran yang mengancam, langkah-langkah mereka canggung namun penuh niat buruk. Bau busuk yang menyengat, campuran keringat, tanah, dan sesuatu yang lebih menjijikkan, menusuk hidung Raka. Ini adalah bau predator, bau musuh. Raka tidak membuang waktu untuk bertanya-tanya di mana ia berada atau mengapa makhluk-makhluk ini ada. Bahasa tubuh mereka, tatapan lapar di mata merah mereka, dan geraman yang semakin keras adalah sinyal universal bagi seorang prajurit: ini adalah ancaman yang harus dilawan. Pikirannya langsung beralih ke mode tempur.",
               "Enemy": "Goblin"
             },
             {
               "Type": "Strategy",
               "Character": { "Name": "Raka", "ID": "C003" },
-              "Text": "Mereka tidak hanya mendekat; mereka bergerak dalam formasi setengah lingkaran yang mengancam. Pikirannya langsung beralih ke mode tempur. Ia melihat celah di antara bebatuan, bayangan yang bisa menjadi penutup, dan ketinggian yang bisa memberinya keuntungan. Tiga dari kiri, dua dari kanan, satu di atas."
+              "Text": "Mereka tidak hanya mendekat; mereka bergerak dalam formasi setengah lingkaran yang mengancam. Pikirannya langsung beralih ke mode tempur. Ia melihat celah di antara bebatuan, bayangan yang bisa menjadi penutup, dan ketinggian yang bisa memberinya keuntungan. 'Tiga dari kiri, dua dari kanan, satu di atas,' gumamnya, otaknya menghitung probabilitas dan jalur serangan. Ia mencari senjata improvisasi, sebuah batu yang pas di genggaman, atau pecahan pilar yang bisa digunakan sebagai gada. Tidak ada. Ia harus mengandalkan tangan kosong. Ini bukan situasi ideal, tapi ia pernah menghadapi yang lebih buruk."
             },
             {
               "Type": "BattleMove",
               "Actor": { "Name": "Raka", "ID": "C003" },
-              "Text": "Tangannya secara otomatis mencari Perisai Menara dan Kapak Perangnya, namun hanya menemukan kekosongan. Dengan insting Pertarungan Jarak Dekat yang telah tertanam kuat dari latihannya, ia melesat. Satu goblin yang terlalu berani mendekat langsung terhuyung oleh tendangan keras ke ulu hati. Tanpa jeda, Raka berputar, menggunakan momentum untuk mendorong goblin kedua hingga terhempas ke lempengan batu yang retak."
+              "Text": "Tangannya secara otomatis mencari Perisai Menara dan Kapak Perangnya, namun hanya menemukan kekosongan. Dengan insting Pertarungan Jarak Dekat yang telah tertanam kuat dari latihannya, ia melesat. Satu goblin yang terlalu berani mendekat langsung terhuyung oleh tendangan keras ke ulu hati. Tanpa jeda, Raka berputar, menggunakan momentum untuk mendorong goblin kedua hingga terhempas ke lempengan batu yang retak. Suara benturan tubuh bergema di antara reruntuhan, namun ia tahu ini lebih karena keberuntungan dan momentum daripada keahlian bertarung yang sebenarnya di dunia ini. Ia tidak bisa terus-menerus mengandalkan keberuntungan. Ia harus mencari posisi yang lebih menguntungkan."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Raka", "ID": "C003" },
-              "Text": "Namun, ia tahu ini hanyalah permulaan. Jumlah mereka terlalu banyak, dan reruntuhan ini, meskipun menawarkan banyak penutup, juga bisa menjadi jebakan jika ia terkepung. Ia harus mencari posisi bertahan yang lebih baik, atau setidaknya, jalan keluar. Insting prajuritnya berteriak: bertahan, beradaptasi, dan cari jalan untuk menang."
+              "Text": "Namun, ia tahu ini hanyalah permulaan. Jumlah mereka terlalu banyak, dan reruntuhan ini, meskipun menawarkan banyak penutup, juga bisa menjadi jebakan jika ia terkepung. Ia harus mencari posisi bertahan yang lebih baik, atau setidaknya, jalan keluar. Insting prajuritnya berteriak: bertahan, beradaptasi, dan cari jalan untuk menang. Ia harus memprioritaskan keselamatan, bukan kemenangan. Ini bukan misi bunuh diri."
+            },
+            {
+              "Type": "TacticalRetreat",
+              "Text": "Raka mundur selangkah demi selangkah, menjaga jarak dari para goblin yang semakin agresif. Ia menggunakan pilar-pilar yang runtuh sebagai penutup, bergerak dari satu bayangan ke bayangan lain, mencoba memecah formasi mereka. Ia sesekali melancarkan serangan balik cepat, hanya untuk menjaga mereka tetap di bay. Ia mencari celah, sebuah jalur yang bisa membawanya keluar dari kepungan ini. Matanya terus bergerak, memindai setiap sudut, mencari celah, mencari kelemahan. Ia melihat sebuah celah sempit di antara dua pilar besar, mengarah ke area yang lebih terbuka. Itu adalah rute pelarian yang paling memungkinkan."
+            },
+            {
+              "Type": "Observation",
+              "Text": "Saat ia bergerak, ia melihat beberapa detail aneh di reruntuhan. Simbol-simbol kuno terukir di batu, beberapa di antaranya tampak memancarkan cahaya samar. Ada juga beberapa tanaman aneh yang tumbuh di sela-sela batu, beberapa di antaranya tampak seperti lumut bercahaya yang ia lihat di hutan. Ini bukan reruntuhan biasa. Ada sesuatu yang lebih dari sekadar batu tua di sini. Tapi ia tidak punya waktu untuk menganalisisnya sekarang."
+            },
+            {
+              "Type": "Decision",
+              "Character": { "Name": "Raka", "ID": "C003" },
+              "Text": "Ia memutuskan untuk mengambil risiko. Dengan gerakan cepat, ia menerobos celah sempit itu, meninggalkan para goblin yang menggeram di belakangnya. Ia berlari, tidak peduli dengan luka lecet yang ia dapatkan dari bebatuan tajam. Ia harus menjauh dari sini, mencari tempat yang lebih aman untuk menilai situasi dan merencanakan langkah berikutnya. Instingnya mengatakan bahwa reruntuhan ini adalah titik pertemuan, dan ia harus berada di tengah-tengahnya, bukan di pinggirannya."
+            },
+            {
+              "Type": "Exploration",
+              "Text": "Raka terus bergerak, menyusuri koridor-koridor sempit di antara pilar-pilar yang runtuh. Udara di sini terasa lebih dingin, dan suara-suara dari luar reruntuhan mulai memudar. Ia menemukan sebuah area yang lebih terbuka di tengah reruntuhan, sebuah halaman yang dikelilingi oleh pilar-pilar besar yang masih berdiri tegak. Ini adalah posisi yang lebih defensif, dengan pandangan yang lebih luas ke sekeliling. Ia bisa melihat beberapa jalur masuk dan keluar, dan ia bisa memantau setiap pergerakan. Ini adalah tempat yang bagus untuk bertahan, atau setidaknya, untuk menunggu bala bantuan. Jika ada."
+            },
+            {
+              "Type": "InternalMonologue",
+              "Character": { "Name": "Raka", "ID": "C003" },
+              "Text": "Aku harus mencari tahu di mana aku berada, dan bagaimana aku bisa kembali. Tapi pertama-tama, aku harus memastikan aku selamat. Dan jika ada orang lain di sini, aku harus menemukan mereka. Seorang prajurit tidak pernah meninggalkan rekannya. Bahkan jika rekannya belum ia kenal. Ini adalah prinsip. Ini adalah tugas. Dan aku akan melaksanakannya."
+            },
+            {
+              "Type": "Foreshadowing",
+              "Text": "Saat ia berdiri di tengah halaman, memindai sekeliling, ia merasakan denyutan samar di udara, seperti gema dari cahaya keperakan yang tadi pagi menyelimutinya. Bukan hanya di tubuhnya, tetapi juga di reruntuhan itu sendiri. Ada sesuatu yang kuat di sini, sesuatu yang kuno. Dan ia merasa, entah mengapa, bahwa ia tidak sendirian. Ada orang lain yang merasakan hal yang sama. Dan mereka akan segera bertemu. Pertempuran baru akan segera dimulai, dan kali ini, ia tidak akan menghadapinya sendirian."
             }
           ],
-          "Notes": "KeyEvents: Raka jatuh ke dunia lain, Pertemuan pertama dengan goblin, Raka bertarung dan melarikan diri."
+          "Notes": "Versi yang diperpanjang untuk menonjolkan kepribadian Raka yang disiplin, taktis, dan fokus pada survival. Menambahkan detail tentang analisis lingkungan dan persiapan tempur."
         }
       ]
     }

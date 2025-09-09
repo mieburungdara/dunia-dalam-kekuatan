@@ -24,15 +24,15 @@
               "Name": "Bimo",
               "ID": "C002",
               "RoleInScene": "Protagonis",
-              "Mood": "Ceria, kemudian panik",
-              "Goal": "Farming EXP, kemudian melarikan diri",
-              "Conflict": "Diserang oleh gerombolan goblin"
+              "Mood": "Ceria, kemudian panik, bersemangat, sedikit konyol",
+              "Goal": "Farming EXP, kemudian melarikan diri, mencari quest",
+              "Conflict": "Diserang oleh gerombolan goblin, kurangnya UI game"
             },
             {
                 "Name": "Goblin",
                 "ID": "M001",
                 "RoleInScene": "Antagonis",
-                "Mood": "Agresif",
+                "Mood": "Agresif, lapar",
                 "Goal": "Menyerang Bimo",
                 "Conflict": "Melawan Bimo"
             }
@@ -45,116 +45,123 @@
             {
               "Type": "Action",
               "Actor": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Bimo mendarat dengan bunyi \"gedebuk\" yang tidak elit di tepi sungai yang jernih. Ia mengerang, mengusap punggungnya yang terasa pegal."
+              "Text": "Bimo mendarat dengan bunyi \"gedebuk\" yang tidak elit di tepi sungai yang jernih. Ia mengerang, mengusap punggungnya yang terasa pegal, merasakan setiap sendi di tubuhnya berteriak protes. Aroma air tawar bercampur dengan bau lumut dan tanah basah memenuhi indra penciumannya. Ia membuka mata, dan hal pertama yang ia lihat adalah langit. Bukan biru biasa, melainkan semburat ungu dan hijau yang berputar perlahan, seperti efek visual yang terlalu dramatis. Air sungai di sampingnya sebening kristal, memantulkan langit aneh itu dengan sempurna."
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Bimo", "ID": "C002" },
-              "Line": "Aduh, ini spawn point-nya kok nggak ada kasur sih? Mana jauh dari kota lagi.",
-              "Tone": "Menggerutu"
+              "Line": "Aduh, ini spawn point-nya kok nggak ada kasur sih? Mana jauh dari kota lagi. Mana nggak ada loading screen-nya lagi. Langsung jebret!",
+              "Tone": "Menggerutu, sedikit terhibur"
             },
             {
               "Type": "Description",
-              "Text": "Airnya sebening kristal, memantulkan langit yang aneh, bukan biru biasa, melainkan semburat ungu dan hijau."
+              "Text": "Ia menepuk-nepuk seragam SMA-nya yang kini sedikit kotor, mengabaikan noda lumpur yang menempel di celananya. Matanya berbinar-binar mengamati sekeliling. Pohon-pohon di tepi sungai menjulang tinggi, daun-daunnya rimbun dengan warna-warna yang tidak biasa—merah marun, kuning keemasan, bahkan beberapa berwarna biru kehijauan. Suara gemericik air sungai terdengar menenangkan, namun ada juga suara-suara aneh dari dalam hutan, seperti desisan dan geraman samar."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Gila, grafiknya fotorealistis banget! Ini pasti update game terbaru yang belum aku download."
+              "Text": "Gila, grafiknya fotorealistis banget! Ini pasti update game terbaru yang belum aku download. Atau mungkin ini VR game yang super imersif? Tapi kok nggak ada headset-nya? Ah, sudahlah. Yang penting, ini seru!"
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Ia melihat cahaya di tubuhnya menghilang dengan decak kagum, seperti efek spawn karakter di game RPG."
+              "Text": "Ia melihat cahaya keperakan yang memudar dari tubuhnya, meninggalkan sensasi hangat yang menyenangkan, seperti efek buff atau invincibility frame yang baru saja berakhir. Ia mengamati tangannya, lalu mencubit pipinya. Sakit. Ini bukan mimpi. Ini adalah game. Game yang sangat nyata."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Efek kedatangannya keren! Tapi kok nggak ada quest log atau minimap ya? Ini open world tapi kok kayaknya buggy."
+              "Text": "Efek kedatangannya keren! Tapi kok nggak ada quest log atau minimap ya? Ini open world tapi kok kayaknya buggy. Mana HUD-nya? HP bar, mana bar skill? Ini game apa sih? Jangan-jangan game indie yang belum selesai. Aduh, developer-nya kurang niat nih."
             },
             {
               "Type": "EnemyEncounter",
               "Character": { "Name": "Bimo", "ID": "C002" },
               "Enemy": { "Name": "Goblin", "ID": "M001" },
-              "Text": "Saat sesosok goblin kurus, dengan mata merah menyala dan gigi runcing, menyelinap dari balik semak, Bimo malah menyeringai lebar."
+              "Text": "Saat ia masih sibuk menggerutu tentang kurangnya fitur game, sesosok goblin kurus, dengan mata merah menyala dan gigi runcing, menyelinap dari balik semak. Makhluk itu tampak lemah, seperti mob level 1 yang biasa ia temui di awal game RPG. Bimo malah menyeringai lebar, matanya berbinar-binar."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Nah, monster tutorial! HP-nya pasti dikit nih, gampang di-farming."
+              "Text": "Nah, monster tutorial! HP-nya pasti dikit nih, gampang di-farming. Lumayan buat pemanasan. Semoga drop item-nya bagus, biar bisa cepat build item. Atau setidaknya, dapat gold buat beli potion."
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Ia memungut sebatang kayu yang cukup kokoh, menggenggamnya seperti pedang."
+              "Text": "Ia memungut sebatang kayu yang cukup kokoh, menggenggamnya seperti pedang. Kayu itu terasa pas di tangannya, meskipun tidak seimbang seperti pedang sungguhan. Ia mengayun-ayunkannya, mencoba beberapa gerakan dasar. Lumayanlah untuk senjata awal. Ia bahkan sempat membayangkan dirinya sebagai karakter utama game, dengan soundtrack epik mengiringi setiap gerakannya."
             },
             {
                 "Type": "InnerThought",
                 "Character": { "Name": "Bimo", "ID": "C002" },
-                "Text": "Andai saja aku punya Busur Komposit-ku, pasti sudah kubuat hujan Anak Panah Berujung Khusus."
+                "Text": "Andai saja aku punya Busur Komposit-ku, pasti sudah kubuat hujan Anak Panah Berujung Khusus. Atau setidaknya, pistol airku. Pasti goblin-goblin ini langsung kocar-kacir. Tapi ya sudahlah, pakai apa adanya saja. Ini kan game survival, jadi harus kreatif."
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Bimo", "ID": "C002" },
-              "Line": "Oke, Gobby, sini maju! Waktunya farming EXP! Semoga drop rate-nya bagus ya, biar bisa cepat level up.",
+              "Line": "Oke, Gobby, sini maju! Waktunya farming EXP! Semoga drop rate-nya bagus ya, biar bisa cepat level up. Jangan malu-malu, ini kan tutorial!",
               "Recipient": "M001",
-              "Tone": "Menantang"
+              "Tone": "Menantang, ceria"
             },
             {
               "Type": "BattleMove",
               "Actor": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Dengan gerakan komikal yang lebih mirip ayunan tongkat bisbol daripada serangan ksatria, ia berhasil menjatuhkan satu goblin.",
+              "Text": "Dengan gerakan komikal yang lebih mirip ayunan tongkat bisbol daripada serangan ksatria, ia berhasil menjatuhkan satu goblin. Makhluk itu terhuyung, lalu jatuh dengan bunyi \"gedebuk\" yang tidak elit. Bimo tertawa terbahak-bahak, merasa seperti pahlawan game yang baru saja menyelesaikan misi pertamanya. Ia bahkan sempat melakukan pose kemenangan, seperti karakter game favoritnya.",
               "Outcome": "Success"
             },
             {
                 "Type": "Dialogue",
                 "Speaker": { "Name": "Bimo", "ID": "C002" },
-                "Line": "Hahaha, easy peasy!",
-                "Tone": "Sombong"
+                "Line": "Hahaha, easy peasy! Mana lagi nih mob-nya? Aku siap nge-grind sampai level maksimal!",
+                "Tone": "Sombong, bersemangat"
             },
             {
               "Type": "Ambush",
               "Attackers": ["M001"],
               "Victims": ["C002"],
-              "Text": "Namun, sorakannya yang terlalu antusias justru memancing lebih banyak lagi. Dari segala arah, belasan goblin lain muncul, mata merah mereka berkilat lapar."
+              "Text": "Namun, sorakannya yang terlalu antusias justru memancing lebih banyak lagi. Dari segala arah, belasan goblin lain muncul, mata merah mereka berkilat lapar, geraman mereka semakin keras. Mereka tidak lagi tampak seperti mob level 1, melainkan seperti gerombolan musuh yang siap melakukan rush. Bimo bisa merasakan hawa dingin merayapi punggungnya."
             },
             {
               "Type": "Emotion",
               "Character": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Senyum Bimo langsung luntur, digantikan ekspresi pucat pasi.",
+              "Text": "Senyum Bimo langsung luntur, digantikan ekspresi pucat pasi. Matanya membelalak, melihat jumlah musuh yang jauh melebihi ekspektasinya. Ini bukan lagi tutorial, ini adalah jebakan!",
               "Intensity": "High"
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Anjir, ini bukan tutorial lagi! Ini raid boss mendadak! Mana party member-nya nggak ada!"
+              "Text": "Anjir, ini bukan tutorial lagi! Ini raid boss mendadak! Mana party member-nya nggak ada! Ini namanya unfair play! Developer-nya curang! Mana ada game yang langsung kasih raid boss di awal gini?!"
             },
             {
               "Type": "Decision",
               "Character": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Ia menjatuhkan kayu, otaknya yang biasanya malas kini berputar cepat mencari strategi. Oke, plan B: kabur! Aggro mereka terlalu banyak! Nggak ada gunanya solo lawan mob sebanyak ini!",
+              "Text": "Ia menjatuhkan kayu, otaknya yang biasanya malas kini berputar cepat mencari strategi. 'Oke, plan B: kabur! Aggro mereka terlalu banyak! Nggak ada gunanya solo lawan mob sebanyak ini! Aku harus cari tempat aman, atau setidaknya, cari party member. Ini game multiplayer, kan? Pasti ada player lain di sekitar sini.' Ia mulai memindai lingkungan, mencari tanda-tanda keberadaan pemain lain, atau setidaknya, tempat untuk bersembunyi.",
               "Consequence": "Immediate"
             },
             {
               "Type": "Chase",
               "Pursuers": ["M001"],
               "Fleeing": ["C002"],
-              "Text": "Ia berlari tunggang langgang, melompati akar pohon dan batu licin, sesekali melirik ke belakang. Jantungnya berdebar kencang, bukan karena takut, tapi karena adrenalin yang memompa seperti sedang dikejar bos terakhir."
+              "Text": "Ia berlari tunggang langgang, melompati akar pohon dan batu licin, sesekali melirik ke belakang. Jantungnya berdebar kencang, bukan karena takut, tapi karena adrenalin yang memompa seperti sedang dikejar bos terakhir. Ia bisa mendengar geraman para goblin di belakangnya, suara langkah kaki mereka yang cepat, dan sesekali, suara tawa mereka yang menyeramkan. Ia berlari tanpa arah, hanya mengikuti instingnya untuk menjauh dari bahaya. Ia bahkan sempat membayangkan dirinya sedang melakukan speedrun, mencoba memecahkan rekor waktu tercepat untuk melarikan diri dari goblin."
             },
             {
               "Type": "MysteryEvent",
-              "Text": "Di tengah kepanikan itu, sekelebat bayangan aneh melintas di sudut matanya, seperti glitch visual yang tak seharusnya ada di dunia \"fotorealistis\" ini. Ia mengabaikannya, fokus pada pelarian.",
+              "Text": "Di tengah kepanikan itu, sekelebat bayangan aneh melintas di sudut matanya, seperti glitch visual yang tak seharusnya ada di dunia \"fotorealistis\" ini. Bayangan itu berkedip, lalu menghilang, meninggalkan sensasi dingin yang aneh. Ia mengabaikannya, fokus pada pelarian. 'Mungkin cuma bug grafis,' pikirnya, 'atau mungkin ini fitur baru yang belum di-patch.' Ia tidak punya waktu untuk memikirkan hal itu lebih jauh.",
               "Impact": "Minor",
               "ResolutionStatus": "Unresolved"
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Bimo", "ID": "C002" },
-              "Text": "Sial, ini lebih seru dari game mana pun! Tapi kalau mati di sini, respawn-nya di mana ya?",
-              "Theme": "Humor"
+              "Text": "Sial, ini lebih seru dari game mana pun! Tapi kalau mati di sini, respawn-nya di mana ya? Jangan-jangan di tempat yang lebih parah. Atau malah game over? Nggak mungkinlah, game modern kan ada fitur auto-save. Pasti ada checkpoint di dekat sini. Aku harus cari itu. Atau setidaknya, cari tempat untuk log out. Tapi kok nggak ada tombolnya?"
+            },
+            {
+              "Type": "Exploration",
+              "Text": "Ia terus berlari, melewati semak-semak berduri dan pohon-pohon aneh yang menjulang tinggi. Ia melihat beberapa tanaman dengan buah-buahan berwarna cerah, yang ia duga mungkin adalah item consumable. 'Mungkin ini potion HP atau mana,' pikirnya, 'tapi nggak berani ambil risiko kalau ternyata racun.' Ia juga mendengar suara-suara aneh dari dalam hutan, seperti desisan dan lolongan, yang ia tafsirkan sebagai suara monster lain. 'Wah, banyak mob baru nih. Nanti kalau sudah level up, bisa farming di sini.'"
+            },
+            {
+              "Type": "Foreshadowing",
+              "Text": "Tanpa sadar, ia berlari ke arah yang sama dengan Arga, menuju reruntuhan yang samar-samar terlihat di kejauhan. Reruntuhan itu tampak seperti dungeon, dengan pilar-pilar yang runtuh dan bebatuan berserakan. 'Mungkin itu safe zone,' pikirnya, 'atau mungkin itu dungeon baru. Semoga ada loot bagus di sana.' Ia mempercepat langkahnya, meskipun kakinya sudah terasa pegal. Ia bisa merasakan adrenalin memompa di seluruh tubuhnya, membuatnya merasa lebih hidup dari sebelumnya. Ini adalah petualangan yang sesungguhnya, bukan hanya di layar komputer. Dan ia siap untuk itu, meskipun ia masih berharap ada tutorial yang lebih jelas."
             }
           ],
-          "Notes": "KeyEvents: Bimo jatuh ke dunia lain, Pertemuan pertama dengan goblin, Bimo melarikan diri. Glosarium istilah game ditambahkan untuk memperkuat karakter Bimo."
+          "Notes": "KeyEvents: Bimo jatuh ke dunia lain, Pertemuan pertama dengan goblin, Bimo melarikan diri. Glosarium istilah game ditambahkan untuk memperkuat karakter Bimo. Cerita diperpanjang dengan lebih banyak detail tentang reaksi Bimo sebagai gamer dan interpretasinya terhadap dunia baru."
         }
       ]
     }

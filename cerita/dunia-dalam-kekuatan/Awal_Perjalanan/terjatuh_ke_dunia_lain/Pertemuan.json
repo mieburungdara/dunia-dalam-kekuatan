@@ -33,75 +33,79 @@
           "Contents": [
             {
               "Type": "Action",
-              "Text": "Suara geraman dan teriakan Bimo yang memekakkan telinga menjadi mercusuar di tengah kekacauan. Raka, yang sudah terdesak di antara pilar-pilar runtuh, merasakan tekanan bertambah saat Arga dan Bimo, dengan napas terengah-engah dan wajah pucat, berlari masuk ke area reruntuhan."
+              "Text": "Suara geraman dan teriakan Bimo yang memekakkan telinga menjadi mercusuar di tengah kekacauan. Raka, yang sudah terdesak di antara pilar-pilar runtuh, merasakan tekanan bertambah saat Arga dan Bimo, dengan napas terengah-engah dan wajah pucat, berlari masuk ke area reruntuhan. Bimo, dengan gaya lari yang lebih mirip karakter NPC yang panik daripada pahlawan, tanpa sengaja membawa serta gerombolan goblin yang lebih besar. \"Woi! Jangan ngikutin terus dong! Aku kan cuma mau lewat!\" teriak Bimo, suaranya melengking antara panik dan kesal, seolah goblin-goblin itu adalah follower yang tidak diinginkan. Debu beterbangan, bau amis goblin semakin pekat, dan suara benturan senjata primitif beradu dengan batu memenuhi udara. Raka, dengan insting prajuritnya, segera menyadari bahwa ia tidak lagi sendirian, dan ancaman yang dihadapinya kini berlipat ganda."
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Bimo", "ID": "C002" },
-              "Line": "Woi! Jangan ngikutin terus dong! Aku kan cuma mau lewat!",
-              "Tone": "Panik"
+              "Line": "Woi! Jangan ngikutin terus dong! Aku kan cuma mau lewat! Ini bukan jalur quest-ku!",
+              "Tone": "Panik, mengeluh"
             },
             {
               "Type": "Action",
-              "Text": "Tak lama kemudian, dari sisi lain reruntuhan, Mira muncul, terhuyung-huyung dengan luka lecet di lengannya. Di belakangnya, Lina yang masih gemetar, matanya melebar ketakutan, tersandung beberapa kali."
+              "Text": "Tak lama kemudian, dari sisi lain reruntuhan, Mira muncul, terhuyung-huyung dengan luka lecet di lengannya. Wajahnya pucat, matanya masih memancarkan ketakutan, namun ia berusaha keras untuk tetap tegak, naluri medisnya berteriak untuk mencari tempat aman. Di belakangnya, Lina yang masih gemetar, matanya melebar ketakutan, tersandung beberapa kali, lebih peduli pada kotoran di pakaiannya daripada bahaya yang mengancam. Mira sesekali melirik ke belakang, memastikan Lina tetap di dekatnya, bahkan saat ia sendiri nyaris terjatuh. Kelimanya, seperti magnet yang ditarik oleh takdir, akhirnya bertemu di jantung reruntuhan, terpojok oleh musuh yang sama, sebuah pertemuan yang kacau namun tak terhindarkan."
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Mira", "ID": "C004" },
-              "Line": "Lina, hati-hati!",
+              "Line": "Lina, hati-hati! Jangan sampai jatuh lagi!",
               "Recipient": "C005",
-              "Tone": "Khawatir"
+              "Tone": "Khawatir, mendesak"
             },
             {
               "Type": "Exposition",
-              "Text": "Kelimanya, seperti magnet yang ditarik oleh takdir, akhirnya bertemu di jantung reruntuhan, terpojok oleh musuh yang sama."
+              "Text": "Kelimanya, seperti magnet yang ditarik oleh takdir, akhirnya bertemu di jantung reruntuhan, terpojok oleh musuh yang sama. Udara dipenuhi geraman goblin, teriakan panik, dan suara langkah kaki yang terburu-buru. Reruntuhan kuno itu, yang tadinya sunyi, kini menjadi arena pertempuran yang kacau. Mereka adalah lima orang asing, dengan latar belakang dan kepribadian yang berbeda, namun kini terikat oleh satu tujuan: bertahan hidup."
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Raka", "ID": "C003" },
-              "Line": "Belakangku! Bentuk formasi!",
-              "Tone": "Memerintah"
+              "Line": "Belakangku! Bentuk formasi! Jangan panik! Tetap tenang!",
+              "Tone": "Memerintah, tegas"
             },
             {
               "Type": "MassBattle",
-              "Text": "Pertarungan singkat namun kacau pecah. Raka, mengandalkan instingnya, berusaha menahan serangan goblin. Bimo, dengan teriakan khasnya, mencoba mengalihkan perhatian beberapa goblin. Mira, meskipun tanpa senjata, hanya bisa menggunakan kelincahannya untuk menghindari serangan. Lina, di sisi lain, lebih banyak menghindar dan sesekali berteriak kecil.",
+              "Text": "Pertarungan singkat namun kacau pecah. Raka, mengandalkan instingnya, berusaha menahan serangan goblin, menggunakan tubuhnya sebagai perisai, meskipun gerakannya masih terasa canggung di dunia baru ini tanpa Perisai Menara dan Kapak Perangnya. Ia mencoba mengarahkan yang lain, berteriak instruksi singkat. Arga, dengan sigap menerapkan Strategi Tempurnya, mengambil posisi di samping Raka, mencoba menganalisis pola serangan goblin dan mencari celah. Bimo, dengan teriakan khasnya, mencoba mengalihkan perhatian beberapa goblin, namun lebih sering berakhir dengan menghindar panik daripada menahan serangan, mengandalkan kelincahan Panahan Cepat ala gamer untuk menghindari pukulan, sesekali mengeluh tentang 'lag' dan 'hitbox' yang tidak akurat. Mira, meskipun tanpa senjata, hanya bisa menggunakan kelincahannya untuk menghindari serangan, wajahnya pucat pasi, sesekali melirik luka lecet di lengannya, berharap Kit Medis Portabelnya ada, dan mencoba mencari cara untuk membantu yang lain. Lina, di sisi lain, lebih banyak menghindar dan sesekali berteriak kecil saat goblin terlalu dekat, mencoba mengaktifkan Sihir Elemen Dasar atau Telekinesis Ringannya namun hanya menghasilkan percikan kecil yang tak berarti, dan lebih sering bersembunyi di balik Mira. \"Bisakah kalian lebih rapi sedikit, sih? Ini bukan tarian balet! Aku tidak bisa fokus dengan semua kekacauan ini, sial!\" ia berseru, suaranya bergetar karena takut, meskipun ia sendiri hampir terjatuh dan tidak banyak membantu. Mereka semua berjuang, lebih karena insting bertahan hidup daripada keahlian bertarung, sebuah simfoni kepanikan dan keberanian yang tak terduga.",
               "FactionsInvolved": ["Protagonists", "Goblins"]
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Lina", "ID": "C005" },
-              "Line": "Bisakah kalian lebih rapi sedikit, sih? Ini bukan tarian balet! Aku tidak bisa fokus dengan semua kekacauan ini, sial!",
-              "Tone": "Mengeluh"
+              "Line": "Bisakah kalian lebih rapi sedikit, sih? Ini bukan tarian balet! Aku tidak bisa fokus dengan semua kekacauan ini, sial! Bajuku kotor semua!",
+              "Tone": "Mengeluh, panik"
             },
             {
               "Type": "MysteryEvent",
-              "Text": "Tepat ketika mereka merasa akan kewalahan, sesuatu yang aneh terjadi. Para goblin, yang tadinya buas dan tak kenal lelah, tiba-tiba berhenti menyerang. Mata merah mereka berkedip-kedip, seolah menerima perintah tak terlihat. Geraman mereka berubah menjadi rengekan, dan tanpa peringatan, mereka berbalik, menghilang ke dalam kegelapan reruntuhan secepat mereka datang."
+              "Text": "Tepat ketika mereka merasa akan kewalahan, sesuatu yang aneh terjadi. Para goblin, yang tadinya buas dan tak kenal lelah, tiba-tiba berhenti menyerang. Mata merah mereka berkedip-kedip, seolah menerima perintah tak terlihat, atau mungkin, merasakan kehadiran yang lebih besar. Geraman mereka berubah menjadi rengekan, dan tanpa peringatan, mereka berbalik, menghilang ke dalam kegelapan reruntuhan secepat mereka datang, seperti bayangan yang ditarik kembali ke dalam kegelapan. Bukan karena keberuntungan, melainkan seolah ada kekuatan tak kasat mata yang memanggil mereka pergi, sebuah kekuatan yang membuat bulu kuduk berdiri."
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Bimo", "ID": "C002" },
-              "Line": "Fiuh, untung mereka disconnect. Kalau nggak, bisa wipe out kita semua.",
-              "Tone": "Lega"
+              "Line": "Fiuh, untung mereka disconnect. Kalau nggak, bisa wipe out kita semua. GGWP!",
+              "Tone": "Lega, gamer-speak"
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Lina", "ID": "C005" },
-              "Line": "Ya, dan aku hampir mati karena kalian tidak bisa bertarung dengan efisien. Pakaianku kotor semua! Lain kali, buatlah rencana yang lebih baik, ya? Atau setidaknya, jangan membuatku berlari sejauh ini!",
-              "Tone": "Menyalahkan"
+              "Line": "Ya, dan aku hampir mati karena kalian tidak bisa bertarung dengan efisien. Pakaianku kotor semua! Lain kali, buatlah rencana yang lebih baik, ya? Atau setidaknya, jangan membuatku berlari sejauh ini! Aku butuh mandi air panas dan spa sekarang juga!",
+              "Tone": "Menyalahkan, mengeluh"
             },
             {
               "Type": "MysteriousPhenomenon",
-              "Text": "Di tengah keheningan itu, sebuah fenomena aneh terjadi. Cahaya keperakan yang sebelumnya memudar dari tubuh masing-masing, kini berdenyut samar, seolah merespons kedekatan mereka. Sebuah benang tak terlihat terasa terjalin di antara mereka.",
-              "Nature": "Magical"
+              "Text": "Di tengah keheningan yang tiba-tiba, sebuah fenomena aneh terjadi. Cahaya keperakan yang sebelumnya memudar dari tubuh masing-masing, kini berdenyut samar, seolah merespons kedekatan mereka. Sebuah benang tak terlihat terasa terjalin di antara mereka, sebuah koneksi yang melampaui pemahaman. Cahaya itu berdenyut, semakin terang, lalu meredup, meninggalkan sensasi hangat yang aneh di dada mereka. Ini bukan hanya kebetulan. Ini adalah takdir. Sebuah ikatan yang baru saja terbentuk, mengikat lima jiwa yang tersesat ini.",
+              "Nature": "Magical, Spiritual"
             },
             {
               "Type": "Dialogue",
               "Speaker": { "Name": "Arga", "ID": "C001" },
               "Line": "Kalian... juga bukan dari sini, kan?",
-              "Tone": "Penasaran"
+              "Tone": "Penasaran, serius"
+            },
+            {
+              "Type": "Exposition",
+              "Text": "Pertanyaan itu, sederhana namun sarat makna, menjadi awal dari segalanya. Mereka adalah lima orang asing, terdampar di dunia yang aneh, dengan kekuatan misterius yang baru saja mereka rasakan, dan ancaman tak terlihat yang baru saja pergi. Mereka saling menatap, mata mereka dipenuhi campuran kelegaan, kebingungan, dan pertanyaan yang tak terucap. Mereka tahu, petualangan mereka baru saja dimulai, dan mereka harus menghadapinya bersama. Ini adalah awal dari sebuah kisah yang tidak pernah mereka bayangkan, sebuah takdir yang menunggu untuk diungkap. Mereka adalah lima titik cahaya di tengah kegelapan, yang kini telah menemukan satu sama lain."
             }
           ],
-          "Notes": "KeyEvents: Pertemuan kelima karakter utama, Pertarungan kacau melawan goblin, Goblin mundur secara misterius, Kekuatan misterius muncul."
+          "Notes": "KeyEvents: Pertemuan kelima karakter utama, Pertarungan kacau melawan goblin, Goblin mundur secara misterius, Kekuatan misterius muncul. Cerita diperpanjang dengan detail reaksi masing-masing karakter dan elaborasi fenomena cahaya dan koneksi antar karakter."
         }
       ]
     }

@@ -24,9 +24,9 @@
               "Name": "Arga",
               "ID": "C001",
               "RoleInScene": "Protagonis",
-              "Mood": "Bingung, analitis",
-              "Goal": "Bertahan Hidup",
-              "Conflict": "Diserang oleh gerombolan goblin"
+              "Mood": "Bingung, analitis, waspada, tekun",
+              "Goal": "Bertahan Hidup, memahami lingkungan, mencari jalan keluar",
+              "Conflict": "Diserang oleh gerombolan goblin, ketidakpastian lingkungan baru"
             }
           ],
           "POV": {
@@ -36,64 +36,95 @@
           "Contents": [
             {
               "Type": "Exposition",
-              "Text": "Arga tersungkur di tanah hutan asing, napasnya berat. Daun-daun dan ranting menempel di pakaiannya. Ia menatap sekeliling, mencoba memahami lingkungan: pohon tinggi, cahaya yang aneh, dan aroma tanah basah."
+              "Text": "Arga tersungkur di tanah hutan asing, napasnya berat, paru-parunya terasa seperti terbakar. Aroma tanah basah bercampur dengan bau aneh, seperti lumut purba dan sesuatu yang manis namun membusuk, menusuk hidungnya. Daun-daun raksasa dengan urat-urat kebiruan menempel di pakaiannya yang kini kotor dan sedikit robek. Ia mencoba bangkit, namun kepalanya berdenyut, sisa-sisa benturan keras yang baru saja ia alami. Matanya mengerjap, mencoba memproses informasi visual yang membanjiri otaknya: pohon-pohon menjulang tinggi hingga kanopi yang nyaris tak tertembus, membiarkan hanya secercah cahaya keperakan menembus, menciptakan ilusi senja abadi. Udara terasa lembap, dan keheningan hutan dipecah oleh suara-suara serangga yang tidak dikenal, berdengung dengan frekuensi yang aneh, jauh berbeda dari suara jangkrik atau tonggeret yang biasa ia dengar di malam hari."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Arga", "ID": "C001" },
-              "Text": "Ini… tidak mungkin. Tapi tubuhku di sini nyata. Analisis fakta: posisi jatuh, gravitasi, cahaya—semuanya aneh."
+              "Text": "Ini… tidak mungkin. Secara fisik, aku ada di sini. Gravitasi normal, suhu sekitar 25 derajat Celsius, kelembapan tinggi. Tapi lingkungan ini… tidak ada dalam data geografis yang kuketahui. Analisis fakta: posisi jatuh, gravitasi, cahaya—semuanya aneh. Ini anomali. Anomali yang sangat nyata. Otakku tidak bisa memproses ini sebagai mimpi. Sensasi fisik ini terlalu kuat, terlalu detail. Aku harus menerima ini sebagai kenyataan, betapapun tidak masuk akalnya."
+            },
+            {
+              "Type": "Observation",
+              "Text": "Ia menyentuh tanah, merasakan tekstur lembap dan gembur, lalu mengamati tangannya. Tidak ada luka serius, hanya goresan kecil di telapak tangan dan beberapa memar samar di lengan. Sebuah keajaiban, mengingat ia merasa seperti baru saja dilempar dari ketinggian puluhan meter. Pakaiannya, kemeja katun dan celana jeans, terasa asing di lingkungan ini, tidak memberikan perlindungan yang memadai."
             },
             {
               "Type": "EnemyEncounter",
-              "Text": "Suara krek… krek… terdengar dari kejauhan. Arga menoleh dan melihat seekor goblin kecil bermata merah mendekat.",
-              "Enemy": "Goblin"
+              "Text": "Suara krek… krek… yang ritmis dan semakin dekat menarik perhatiannya. Arga menoleh, matanya menyipit, mencoba menembus rimbunnya semak belukar. Dari balik dedaunan yang bergerak, sesosok makhluk kecil dengan kulit hijau kusam dan mata merah menyala muncul. Goblin. Kata itu terlintas di benaknya, sebuah entitas dari mitologi dan fantasi, kini berdiri di hadapannya. Makhluk itu kurus, dengan telinga runcing dan seringai yang memperlihatkan gigi-gigi tajam yang tidak rata. Bau busuk, seperti campuran keringat dan daging busuk, tercium samar, menusuk hidung Arga. Makhluk itu menggeram rendah, tatapannya terpaku padanya, penuh kelaparan primitif."
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Arga", "ID": "C001" },
-              "Text": "Instingnya, yang terlatih dalam Strategi Tempur, langsung menilai: jarak aman, ukuran musuh, kemungkinan bertahan. Tangannya secara otomatis meraih pinggangnya, mencari Pedang Baja Ringan yang biasa tersarung di sana, namun yang ia temukan hanyalah ranting pohon. Dengan gerakan terukur, ia memegangnya, menimbang berat dan keseimbangan."
+              "Text": "Instingnya, yang terlatih dalam Strategi Tempur—bukan di medan perang, melainkan di simulasi dan teori, di mana setiap variabel dihitung dengan presisi—langsung menilai: jarak aman, ukuran musuh, potensi ancaman. Makhluk itu tampak lemah, namun tatapan matanya penuh kelaparan. Tangannya secara otomatis meraih pinggangnya, mencari Pedang Baja Ringan yang biasa tersarung di sana, sebuah replika yang ia gunakan untuk latihan bela diri. Namun yang ia temukan hanyalah kekosongan. Sebagai gantinya, ia melihat sebatang ranting pohon yang cukup kokoh tergeletak di dekatnya. Dengan gerakan terukur, ia memegangnya, menimbang berat dan keseimbangan. Tidak ideal, tapi lebih baik daripada tangan kosong. Beratnya sekitar 500 gram, panjang sekitar 70 cm. Bisa digunakan sebagai alat pukul atau pengalih perhatian."
             },
             {
               "Type": "Ambush",
-              "Text": "Namun dari semak lain, muncul lebih banyak goblin, total lima ekor, mendekat dengan tatapan lapar. Arga menelan ludah, tapi tetap tenang.",
-              "Attackers": ["Goblin"]
+              "Text": "Namun, sebelum ia sempat mengambil keputusan, dari semak lain, muncul lebih banyak goblin. Satu, dua, tiga… total lima ekor, mendekat dengan tatapan lapar yang sama. Mereka mulai mengelilinginya, membentuk setengah lingkaran yang mengancam, perlahan-lahan mempersempit jarak. Arga menelan ludah, tapi tetap tenang. Detak jantungnya meningkat, namun pikirannya tetap jernih, memproses data dengan kecepatan tinggi. Ia bisa mendengar napas mereka yang pendek dan serak, bau mereka yang semakin kuat, dan suara gesekan kulit mereka dengan dedaunan."
             },
             {
               "Type": "Strategy",
               "Character": { "Name": "Arga", "ID": "C001" },
-              "Text": "Dengan Analisis Kelemahan yang tajam, ia menyimpulkan: satu lawan satu mungkin menang. Lima lawan satu? Peluang nol. Logika sederhana: bertahan = mati. Strategi terbaik = kabur."
+              "Text": "Dengan Analisis Kelemahan yang tajam, ia bergumam pada dirinya sendiri, "Satu lawan satu mungkin menang. Lima lawan satu? Peluang nol. Logika sederhana: bertahan di sini = mati. Strategi terbaik = kabur." Ia tidak punya waktu untuk mempertanyakan keberadaan makhluk-makhluk ini atau bagaimana ia bisa sampai di sini. Prioritas utama adalah kelangsungan hidup. Setiap detik adalah krusial. Ia harus bergerak, dan bergerak dengan cerdas."
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Arga", "ID": "C001" },
-              "Text": "Ia menunduk, mengamati celah antara pepohonan, menghitung jarak, dan memilih jalur teraman. Napasnya tersengal, tapi matanya tetap dingin dan fokus."
+              "Text": "Ia menunduk, mengamati celah antara pepohonan, menghitung jarak, dan memilih jalur teraman. Otaknya memetakan rute pelarian, mempertimbangkan setiap rintangan: akar pohon yang menonjol, bebatuan licin yang tertutup lumut, dan semak berduri. Ia mencari titik lemah dalam formasi goblin, celah terkecil yang bisa ia manfaatkan. Ada celah sempit di antara dua goblin di sisi kanannya, mengarah ke area hutan yang lebih padat. Itu adalah satu-satunya kesempatan."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Arga", "ID": "C001" },
-              "Text": "Kalau lari zig-zag, bisa memperlambat mereka. Hitung langkah, hindari akar dan batu licin."
+              "Text": "Kalau lari zig-zag, bisa memperlambat mereka. Hitung langkah, hindari akar dan batu licin. Gunakan medan untuk keuntungan. Jangan lari lurus. Variasikan kecepatan. Manfaatkan setiap penutup. Jaga napas. Jangan panik. Panik adalah musuh terbesar logika."
             },
             {
               "Type": "Chase",
               "Pursuers": ["Goblin"],
               "Fleeing": ["C001"],
-              "Text": "Langkah demi langkah, Arga menembus pepohonan, ranting menyentuh pakaiannya tapi tidak melukai serius. Ia terus memantau posisi musuh, membaca pola gerak mereka, dan merencanakan langkah berikutnya."
+              "Text": "Dengan keputusan yang cepat, Arga melesat. Ia menerobos celah sempit itu, mengabaikan ranting-ranting yang mencambuk wajahnya. Ia mendengar geraman dan teriakan para goblin di belakangnya, suara langkah kaki mereka yang terburu-buru, semakin dekat. Ia tidak melihat ke belakang, fokus sepenuhnya pada jalur di depannya. Setiap langkah adalah perhitungan, setiap lompatan adalah keputusan sepersekian detik. Ia melompati batang pohon tumbang, meluncur di bawah dahan rendah, dan berbelok tajam di antara dua pohon raksasa, berharap bisa memutus pengejaran. Paru-parunya terasa seperti terbakar, otot-otot kakinya mulai protes, namun adrenalin memompa kuat, mendorongnya terus maju. Ia bisa merasakan jantungnya berdebar kencang di dadanya, memompa darah dengan kecepatan gila."
             },
             {
               "Type": "Emotion",
               "Character": { "Name": "Arga", "ID": "C001" },
-              "Text": "Di balik ketegangan, ia merasa lega karena berhasil melarikan diri sementara. Hanya dengan strategi dan logika, ia bertahan—sementara dunia baru ini masih penuh misteri.",
-              "Intensity": "Medium"
+              "Text": "Setelah beberapa menit yang terasa seperti keabadian, suara goblin mulai memudar. Arga melambat, napasnya terengah-engah, bersandar pada batang pohon yang kokoh. Keringat membasahi dahinya, menetes ke matanya. Ia menyeka dengan punggung tangan, lalu melirik ke belakang. Hutan tampak tenang, hanya suara serangga yang kembali mendominasi. Ia berhasil. Untuk saat ini. Di balik ketegangan, ia merasa lega karena berhasil melarikan diri sementara. Hanya dengan strategi dan logika, ia bertahan—sementara dunia baru ini masih penuh misteri. Rasa lelah yang luar biasa mulai merayapi tubuhnya, namun ia tidak bisa membiarkan dirinya lengah."
             },
             {
               "Type": "Decision",
               "Character": { "Name": "Arga", "ID": "C001" },
-              "Text": "Baiklah… bertahan hidup dulu. Setelah itu, analisis lebih lanjut. Cari perlindungan, cari manusia lain, cari jawaban."
+              "Text": "Baiklah… bertahan hidup dulu. Setelah itu, analisis lebih lanjut. Cari perlindungan, cari manusia lain, cari jawaban. Ini bukan lagi tentang kembali ke duniaku, setidaknya untuk saat ini. Ini tentang memahami dunia ini, dan bagaimana aku bisa bertahan di dalamnya."
+            },
+            {
+              "Type": "Exploration",
+              "Text": "Ia mengamati sekelilingnya lagi, kali ini dengan lebih tenang, matanya memindai setiap detail. Pohon-pohon di sini jauh lebih besar dari yang pernah ia lihat, beberapa memiliki lumut bercahaya yang berpendar samar di batangnya, memancarkan cahaya hijau kekuningan yang lembut. Tanah dipenuhi jamur aneh dengan warna-warna cerah yang tidak wajar—merah menyala, biru elektrik, ungu pekat—beberapa di antaranya tampak berdenyut pelan. Udara terasa lebih 'hidup', seolah ada energi tak terlihat yang berdenyut di sekitarnya, sebuah sensasi yang tidak bisa ia jelaskan secara ilmiah. Ini bukan sekadar hutan, ini adalah ekosistem yang sama sekali baru, dengan hukum-hukumnya sendiri yang belum ia pahami. Ia mengeluarkan ponselnya, mencoba mencari sinyal, namun layar hanya menampilkan 'Tidak Ada Layanan'. Baterainya masih penuh, tapi tidak ada gunanya di sini."
+            },
+            {
+              "Type": "Analysis",
+              "Character": { "Name": "Arga", "ID": "C001" },
+              "Text": "Ia mulai bergerak lagi, kali ini lebih hati-hati, mengamati setiap detail. Ia mencoba mengidentifikasi jenis tumbuhan, mencari sumber air, atau tanda-tanda kehidupan yang lebih 'beradab'. Ia menemukan jejak kaki, bukan jejak goblin, melainkan sesuatu yang lebih besar, dengan cakar yang tajam, meninggalkan bekas yang dalam di tanah lembap. Ia juga melihat beberapa buah beri yang tampak menarik, berwarna merah cerah dan mengkilap, namun instingnya berteriak untuk tidak menyentuhnya. 'Data tidak cukup. Potensi toksisitas tinggi,' pikirnya, menerapkan prinsip kehati-hatian ilmiahnya. 'Jangan pernah mengonsumsi sesuatu yang tidak dikenal di lingkungan yang tidak dikenal.' Ia bahkan mencoba mengukur kecepatan angin dengan merasakan sentuhannya di kulit, dan memperkirakan kelembapan dari embun di dedaunan, mencoba membangun model mental dari lingkungan barunya."
+            },
+            {
+              "Type": "Discovery",
+              "Text": "Arga terus berjalan, mengikuti arah matahari yang aneh—sebuah bola cahaya keperakan yang tidak memancarkan panas, hanya cahaya yang lembut dan menyebar. Ia menyadari bahwa ia tidak merasa lapar atau haus, meskipun sudah berlari cukup jauh dan beraktivitas fisik. Ini aneh. Sangat aneh. Apakah ada efek samping dari 'transfer' ini? Atau apakah tubuhnya beradaptasi dengan cepat? Ia mencatat setiap anomali, setiap detail yang tidak sesuai dengan pemahamannya tentang dunia. Ia bahkan mencoba mengukur kecepatan angin dengan merasakan sentuhannya di kulit, dan memperkirakan kelembapan dari embun di dedaunan."
+            },
+            {
+              "Type": "EnvironmentalInteraction",
+              "Text": "Setelah beberapa waktu, ia mendengar suara gemericik air. Sebuah sungai kecil, jernih dan dangkal, mengalir di antara bebatuan yang tertutup lumut. Ia berjongkok, mengamati airnya. Tidak ada tanda-tanda polusi, tidak ada bau aneh. Ia mencelupkan jarinya, airnya terasa dingin dan menyegarkan. Meskipun tidak merasa haus, ia tahu hidrasi adalah kunci. Ia meminum sedikit, merasakan sensasi aneh, seperti energi dingin yang mengalir ke dalam tubuhnya, menyegarkan bukan hanya tenggorokannya, tetapi juga pikirannya. Bukan air biasa. Ini adalah dunia yang penuh dengan hal-hal yang tidak biasa, dan ia harus belajar untuk beradaptasi dengan cepat."
+            },
+            {
+              "Type": "Foreshadowing",
+              "Text": "Ia memutuskan untuk mengikuti aliran sungai, berharap itu akan membawanya ke tempat yang lebih terbuka atau setidaknya, ke peradaban. Saat ia berjalan di sepanjang tepi sungai, ia melihat sesuatu yang menarik perhatiannya: sebuah formasi batu yang tidak wajar, seperti sisa-sisa bangunan kuno yang runtuh, menjulang di kejauhan. Reruntuhan. Ini adalah tanda pertama peradaban, atau setidaknya, sesuatu yang dibangun oleh makhluk cerdas. Harapan kecil mulai tumbuh di dadanya. Mungkin ada orang lain di sana. Mungkin ada jawaban. Mungkin ada petunjuk tentang bagaimana ia bisa kembali, atau setidaknya, bagaimana ia bisa bertahan di sini."
+            },
+            {
+              "Type": "Strategy",
+              "Character": { "Name": "Arga", "ID": "C001" },
+              "Text": "Namun, ia tidak langsung menuju ke sana. Instingnya, yang kini semakin tajam, memperingatkannya untuk berhati-hati. Reruntuhan bisa menjadi jebakan, atau sarang bagi makhluk lain. Ia memilih untuk mengamati dari kejauhan, mencari tanda-tanda bahaya atau kehadiran lain. Ia bersembunyi di balik semak belukar yang lebat, mengeluarkan teropong kecil dari tas pinggangnya—sebuah alat yang selalu ia bawa untuk observasi alam, kebiasaan dari hobinya mengamati burung—dan mulai memindai reruntuhan. Bentuknya tidak beraturan, pilar-pilar runtuh, dan bebatuan berserakan. Ada beberapa bayangan bergerak di antara puing-puing. Bukan goblin. Terlalu besar. Manusia? Atau sesuatu yang lain? Ia melihat gerakan, siluet yang samar, terlalu cepat untuk diidentifikasi. Ada suara-suara samar, seperti geraman dan teriakan, namun terlalu jauh untuk dipahami."
+            },
+            {
+              "Type": "Decision",
+              "Character": { "Name": "Arga", "ID": "C001" },
+              "Text": "Arga menarik napas dalam-dalam. Ini adalah langkah berikutnya. Menuju reruntuhan. Tapi tidak secara membabi buta. Ia akan merencanakan pendekatannya, mempertimbangkan setiap variabel, dan bersiap untuk kemungkinan terburuk. Logika adalah senjatanya, dan di dunia yang kacau ini, ia akan menggunakannya untuk bertahan hidup. Ia akan menemukan jawaban, dan ia akan kembali. Itu adalah tekadnya. Ia akan memastikan itu. Ia akan menganalisis, beradaptasi, dan menaklukkan dunia baru ini, satu fakta pada satu waktu. Ia akan menggunakan setiap ons pengetahuannya, setiap prinsip ilmiah yang ia pahami, untuk memecahkan teka-teki ini. Ini adalah tantangan terbesar dalam hidupnya, dan ia tidak akan menyerah."
             }
           ],
-          "Notes": "KeyEvents: Arga jatuh ke dunia lain, Pertemuan pertama dengan goblin, Arga melarikan diri."
+          "Notes": "KeyEvents: Arga jatuh ke dunia lain, Pertemuan pertama dengan goblin, Arga melarikan diri, Arga mulai menganalisis lingkungan baru, Arga menemukan reruntuhan kuno."
         }
       ]
     }
-  ]
 }

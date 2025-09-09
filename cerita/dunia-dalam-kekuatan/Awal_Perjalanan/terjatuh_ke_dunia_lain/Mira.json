@@ -24,9 +24,9 @@
               "Name": "Mira",
               "ID": "C004",
               "RoleInScene": "Protagonis",
-              "Mood": "Dari bingung menjadi panik dan ketakutan",
-              "Goal": "Bertahan hidup",
-              "Conflict": "Dikejar oleh goblin buas saat fisik tidak siap"
+              "Mood": "Dari bingung menjadi panik dan ketakutan, namun tetap analitis dan penuh empati",
+              "Goal": "Bertahan hidup, mencari orang lain, memahami lingkungan",
+              "Conflict": "Dikejar oleh goblin buas saat fisik tidak siap, ketidaksesuaian antara pengetahuan medis dan realitas baru"
             }
           ],
           "POV": {
@@ -36,69 +36,73 @@
           "Contents": [
             {
               "Type": "Atmosphere",
-              "Text": "Kesadaran datang perlahan, seperti merangkak keluar dari air yang dalam. Hal pertama yang Mira rasakan adalah kelembutan yang aneh di bawah punggungnya dan aroma bunga liar yang asing menusuk hidungnya. Langit di atasnya bukan biru yang menenangkan, melainkan kanvas sureal berwarna ungu lavender."
+              "Text": "Kesadaran datang perlahan, seperti merangkak keluar dari air yang dalam. Hal pertama yang Mira rasakan adalah kelembutan yang aneh di bawah punggungnya—bukan kasur empuk, melainkan hamparan rumput tinggi yang terasa seperti beludru. Aroma bunga liar yang asing, manis namun dengan sedikit sentuhan tanah basah, menusuk hidungnya. Langit di atasnya bukan biru yang menenangkan, melainkan kanvas sureal berwarna ungu lavender yang bergradasi lembut ke arah hijau zamrud di cakrawala. Cahaya yang aneh, tidak seperti matahari yang biasa ia kenal, menyelimuti segalanya dengan kelembutan yang membingungkan."
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Mira", "ID": "C004" },
-              "Text": "Jantungnya berdebar kencang, namun disiplin bertahun-tahun di fakultas kedokteran mengambil alih. Dengan napas yang tertahan, tangannya yang gemetar mulai bergerak secara metodis, melakukan pemeriksaan diri. Pergelangan kaki, lutut, panggul, tulang rusuk, bahu, leher. Setiap sentuhan adalah diagnosis cepat."
+              "Text": "Jantungnya berdebar kencang, namun disiplin bertahun-tahun di fakultas kedokteran mengambil alih. Dengan napas yang tertahan, tangannya yang gemetar mulai bergerak secara metodis, melakukan pemeriksaan diri. Pergelangan kaki, lutut, panggul, tulang rusuk, bahu, leher. Setiap sentuhan adalah diagnosis cepat, mencari tanda-tanda dislokasi, fraktur, atau pendarahan internal. Ia bahkan memeriksa pupil matanya sendiri dengan pantulan cahaya samar, mencari tanda-tanda gegar otak. Ini adalah protokol standar, sebuah jangkar di tengah badai kebingungan."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Mira", "ID": "C004" },
-              "Text": "Tidak ada dislokasi. Tidak ada fraktur. Hanya lecet dan kemungkinan memar di beberapa titik. Aku... aku utuh. Tapi di mana ini?"
+              "Text": "Tidak ada dislokasi. Tidak ada fraktur. Hanya lecet dan kemungkinan memar di beberapa titik. Aku... aku utuh. Tapi di mana ini? Ini bukan Bumi. Tidak mungkin. Vegetasi ini, langit ini, aroma ini... semuanya asing. Data tidak cocok dengan database manapun yang kuketahui."
             },
             {
               "Type": "MysteriousPhenomenon",
-              "Text": "Saat itulah ia menyadari sisa-sisa cahaya keperakan yang hangat memudar dari kulitnya, meninggalkan sensasi dingin dan rentan. Fenomena itu tidak masuk akal, menentang semua hukum biologi yang ia pelajari, namun rasa ingin tahu seorang peneliti sempat mengalahkan rasa takutnya."
+              "Text": "Saat itulah ia menyadari sisa-sisa cahaya keperakan yang hangat memudar dari kulitnya, meninggalkan sensasi dingin dan rentan. Fenomena itu tidak masuk akal, menentang semua hukum biologi dan fisika yang ia pelajari. Namun, rasa ingin tahu seorang peneliti sempat mengalahkan rasa takutnya. 'Apa itu? Sebuah bentuk energi? Radiasi? Tapi tidak ada efek samping yang merugikan... setidaknya belum,' pikirnya, mencoba menganalisis fenomena yang baru saja ia alami, meskipun ia tahu itu di luar jangkauan pemahamannya saat ini."
             },
             {
               "Type": "EnemyEncounter",
-              "Text": "Sebuah geraman rendah dan serak memecah keheningan, disusul bau amis yang memuakkan. Dari balik rerumputan tinggi, sesosok makhluk bungkuk muncul. Lalu satu lagi, dan satu lagi. Kulit mereka hijau kusam dan penuh kudis, mata merah kecil mereka berkilat dengan kecerdasan buas, dan liur menetes dari gigi-gigi runcing mereka. Goblin.",
+              "Text": "Sebuah geraman rendah dan serak memecah keheningan, disusul bau amis yang memuakkan, seperti daging busuk yang sudah berhari-hari terpapar matahari. Dari balik rerumputan tinggi, sesosok makhluk bungkuk muncul. Lalu satu lagi, dan satu lagi. Kulit mereka hijau kusam dan penuh kudis, mata merah kecil mereka berkilat dengan kecerdasan buas, dan liur menetes dari gigi-gigi runcing mereka. Goblin. Mereka bergerak dengan gerakan yang canggung namun cepat, seperti predator yang kelaparan. Jumlah mereka semakin banyak, membentuk setengah lingkaran yang mengancam. Mira bisa melihat detail kuku mereka yang kotor, taring mereka yang tajam, dan luka-luka lama di kulit mereka yang tidak terawat. Ini bukan lagi teori, ini adalah ancaman nyata.",
               "Enemy": "Goblin"
             },
             {
               "Type": "Emotion",
               "Character": { "Name": "Mira", "ID": "C004" },
-              "Text": "Darah seolah surut dari wajah Mira. Setiap insting di tubuhnya menjerit. Ini bukan pasien, bukan kasus medis. Ini adalah predator, dan ia adalah mangsanya. Kakinya terasa seperti terpaku ke tanah, suaranya tercekat di tenggorokan, lumpuh oleh kengerian murni.",
+              "Text": "Darah seolah surut dari wajah Mira. Setiap insting di tubuhnya menjerit. Ini bukan pasien, bukan kasus medis yang bisa ia diagnosis dan obati. Ini adalah predator, dan ia adalah mangsanya. Kakinya terasa seperti terpaku ke tanah, suaranya tercekat di tenggorokan, lumpuh oleh kengerian murni. Ia ingin berteriak, meminta tolong, tapi tidak ada suara yang keluar. Otaknya berteriak untuk lari, tapi tubuhnya menolak untuk bergerak. Ini adalah ketakutan yang paling primitif, yang belum pernah ia rasakan sebelumnya.",
               "Intensity": "High"
             },
             {
               "Type": "Chase",
               "Pursuers": ["Goblin"],
               "Fleeing": ["C004"],
-              "Text": "Dengan ledakan adrenalin yang menyakitkan, ia memaksa tubuhnya berbalik dan berlari. Udara dingin membakar paru-parunya. Kakinya yang tidak terbiasa bergerak kikuk, tersandung gundukan tanah yang tak terlihat. Suara derap langkah kecil dan geraman lapar terdengar semakin dekat di belakangnya."
+              "Text": "Dengan ledakan adrenalin yang menyakitkan, ia memaksa tubuhnya berbalik dan berlari. Udara dingin membakar paru-parunya, setiap tarikan napas terasa seperti pisau yang mengiris. Kakinya yang tidak terbiasa bergerak kikuk, tersandung gundukan tanah yang tak terlihat, dan akar pohon yang menonjol. Suara derap langkah kecil dan geraman lapar terdengar semakin dekat di belakangnya, seperti simfoni kematian yang mengejarnya. Ia bisa merasakan napas busuk mereka di tengkuknya, dan bayangan mereka yang semakin membesar di tanah."
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Mira", "ID": "C004" },
-              "Text": "Ia tersandung akar pohon yang menonjol dan jatuh tersungkur dengan keras. Rasa sakit tajam menjalari lututnya, dan keputusasaan mulai merayap masuk. Ia berbalik, mencoba merangkak mundur."
+              "Text": "Ia tersandung akar pohon yang menonjol dan jatuh tersungkur dengan keras. Rasa sakit tajam menjalari lututnya, dan keputusasaan mulai merayap masuk. Ia berbalik, mencoba merangkak mundur, matanya mencari-cari sesuatu, apapun, yang bisa ia gunakan untuk membela diri. Tidak ada. Hanya rumput dan tanah. Ia merasa begitu rentan, begitu tidak berdaya."
             },
             {
               "Type": "ImminentThreat",
-              "Text": "Para goblin kini mengelilinginya, membentuk setengah lingkaran yang rapat. Seringai mereka melebar, memperlihatkan gusi yang menghitam. Bau busuk mereka membuatnya mual. Salah satu dari mereka, yang paling berani, mengulurkan tangan kurus dengan cakar kotor, siap meraihnya."
+              "Text": "Para goblin kini mengelilinginya, membentuk setengah lingkaran yang rapat. Seringai mereka melebar, memperlihatkan gusi yang menghitam dan taring yang tajam. Bau busuk mereka membuatnya mual, dan ia bisa merasakan hawa panas dari napas mereka. Salah satu dari mereka, yang paling berani, mengulurkan tangan kurus dengan cakar kotor, siap meraihnya. Mira memejamkan mata, pasrah. Ini adalah akhirnya. Semua yang ia pelajari, semua mimpinya, akan berakhir di sini, di padang rumput asing ini."
             },
             {
               "Type": "UnexpectedAid",
               "Source": "Bimo",
-              "Text": "Tepat saat ujung cakar itu hampir menyentuh kain bajunya, sebuah teriakan melengking, nyaring, dan luar biasa konyol membelah udara. Teriakan itu begitu aneh hingga para goblin yang buas itu pun berhenti sejenak, kepala mereka menoleh ke sumber suara dengan kebingungan."
+              "Text": "Tepat saat ujung cakar itu hampir menyentuh kain bajunya, sebuah teriakan melengking, nyaring, dan luar biasa konyol membelah udara. Teriakan itu begitu aneh hingga para goblin yang buas itu pun berhenti sejenak, kepala mereka menoleh ke sumber suara dengan kebingungan, seolah mereka tidak pernah mendengar suara sekonyol itu sebelumnya. Jeda sepersekian detik itu adalah anugerah. Sebuah kesempatan. Sebuah harapan."
             },
             {
               "Type": "Action",
               "Actor": { "Name": "Mira", "ID": "C004" },
-              "Text": "Jeda sepersekian detik itu adalah anugerah. Naluri untuk menolong, yang tertanam lebih dalam dari rasa takutnya, berkobar. Ada orang lain di sini! Seseorang dalam bahaya! Mengabaikan rasa sakit di lututnya, Mira mendorong tubuhnya bangkit dan berlari tertatih-tatih ke arah suara itu."
+              "Text": "Naluri untuk menolong, yang tertanam lebih dalam dari rasa takutnya, berkobar. Ada orang lain di sini! Seseorang dalam bahaya! Mengabaikan rasa sakit di lututnya, Mira mendorong tubuhnya bangkit dan berlari tertatih-tatih ke arah suara itu, bukan hanya untuk menyelamatkan diri, tetapi juga dengan harapan menemukan seseorang yang bisa ia bantu atau yang bisa membantunya. Ia bisa merasakan otot-ototnya berteriak protes, namun ia memaksakan diri. Ia adalah seorang calon dokter, dan tugasnya adalah menyelamatkan nyawa, bahkan jika itu nyawanya sendiri."
             },
             {
               "Type": "InnerThought",
               "Character": { "Name": "Mira", "ID": "C004" },
-              "Text": "Aku tidak hanya lari dari mereka, aku harus lari menuju sesuatu. Menuju seseorang. Mungkin... mungkin bersama-sana, kami punya kesempatan."
+              "Text": "Aku tidak hanya lari dari mereka, aku harus lari menuju sesuatu. Menuju seseorang. Mungkin... mungkin bersama-sama, kami punya kesempatan. Aku harus menemukan mereka. Aku harus membantu. Ini adalah instingku. Ini adalah siapa aku."
+            },
+            {
+              "Type": "Exploration",
+              "Text": "Ia terus berlari, melewati semak-semak tinggi dan pohon-pohon aneh. Ia melihat beberapa tanaman dengan daun yang tampak seperti obat, dan beberapa jamur yang mungkin beracun. Otaknya secara otomatis mulai mengkategorikan, menganalisis, meskipun dalam kondisi panik. Ia bahkan sempat berpikir, 'Jika aku bisa mengidentifikasi flora dan fauna di sini, mungkin aku bisa menemukan sumber daya untuk bertahan hidup, atau bahkan obat-obatan.'"
             },
             {
               "Type": "Foreshadowing",
-              "Text": "Di kejauhan, menembus pepohonan, siluet reruntuhan kuno yang hancur tampak menjulang, menjanjikan perlindungan atau mungkin bahaya yang lebih besar. Tanpa pilihan lain, ia terus berlari ke arahnya."
+              "Text": "Di kejauhan, menembus pepohonan, siluet reruntuhan kuno yang hancur tampak menjulang, menjanjikan perlindungan atau mungkin bahaya yang lebih besar. Tanpa pilihan lain, ia terus berlari ke arahnya, napasnya terengah-engah, namun tekadnya semakin kuat. Ia tidak tahu apa yang menunggunya di sana, tetapi ia tahu ia tidak bisa menghadapinya sendirian. Ia harus menemukan orang lain. Ia harus bertahan. Dan ia akan menggunakan setiap ons pengetahuannya untuk itu."
             }
           ],
-          "Notes": "Versi yang diperpanjang untuk meningkatkan drama dan ketegangan. Menekankan pada konflik internal Mira antara rasa takut dan naluri medisnya untuk menolong."
+          "Notes": "Versi yang diperpanjang untuk meningkatkan drama dan ketegangan. Menekankan pada konflik internal Mira antara rasa takut dan naluri medisnya untuk menolong. Menambahkan detail tentang observasi medisnya terhadap lingkungan."
         }
       ]
     }
