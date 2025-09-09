@@ -1,0 +1,23 @@
+{
+  "calendar_name": "Kalender Aetheria",
+  "era_name": "AE (Aether Era)",
+  "year_start_epoch": "Tahun 1 AE adalah tahun dimulainya Era Aether setelah Perang Besar Pertama.",
+  "months_per_year": 12,
+  "month_details": [
+    {"name": "Lumina", "days": 30},
+    {"name": "Ignis", "days": 30},
+    {"name": "Terra", "days": 30},
+    {"name": "Aqua", "days": 30},
+    {"name": "Ventus", "days": 30},
+    {"name": "Umbra", "days": 30},
+    {"name": "Solara", "days": 30},
+    {"name": "Lunae", "days": 30},
+    {"name": "Stella", "days": 30},
+    {"name": "Crystalis", "days": 30},
+    {"name": "Ferro", "days": 30},
+    {"name": "Vita", "days": 30}
+  ],
+  "days_per_week": 7,
+  "week_day_names": ["Senja", "Fajar", "Pagi", "Siang", "Sore", "Malam", "Tengah Malam"],
+  "notes": "Setiap bulan memiliki 30 hari, sehingga total 360 hari dalam setahun. Sisa 5 hari (atau 6 hari di tahun kabisat) adalah hari-hari festival yang tidak termasuk dalam bulan manapun."
+}

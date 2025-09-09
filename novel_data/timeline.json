@@ -1,0 +1,23 @@
+[
+  {
+    "event_name": "Perang Besar Pertama",
+    "date": "Tahun 0 AE",
+    "description": "Konflik global yang mengubah lanskap dunia dan memicu dimulainya Era Aether.",
+    "significance": "Titik awal kalender AE, membentuk dasar politik dan geografi dunia.",
+    "related_novels": ["Semua novel berlatar setelah ini"]
+  },
+  {
+    "event_name": "Kelahiran Ardan",
+    "date": "Hari ke-10 Bulan Terra, Tahun 1000 AE",
+    "description": "Lahirnya Ardan, sang Gembala Takdir.",
+    "significance": "Karakter utama 'Dunia dalam Kekuatan' lahir.",
+    "related_novels": ["Dunia dalam Kekuatan"]
+  },
+  {
+    "event_name": "Ardan Menemukan Aries",
+    "date": "Hari ke-15 Bulan Lumina, Tahun 1023 AE",
+    "description": "Ardan bertemu dengan Aries, Penjaga Zodiak pertama.",
+    "significance": "Awal perjalanan Ardan sebagai Gembala Takdir.",
+    "related_novels": ["Dunia dalam Kekuatan: Awal Perjalanan"]
+  }
+]

@@ -11,6 +11,9 @@ The project is structured as a collection of Markdown files that detail the plot
 *   **`WORLDBUILDING.md`**: Details the fantasy world's mechanics. It explains the primary energy source ("Aether"), the system of magic, the concept of "Skills", powerful "Relics", and the different factions that exist within the world.
 *   **`SKILL_PATTERN.md`**: Contains a standard template for creating new skill description files to ensure consistency.
 *   **`SKILL_LIST.md`**: An empty file likely intended to list and describe the various skills and powers that characters can possess.
+*   **`calendar.json`**: Mendefinisikan sistem kalender kustom dunia, termasuk nama bulan, jumlah hari, dan era.
+*   **`timeline.json`**: Mencatat peristiwa-peristiwa besar dan penting dalam sejarah dunia, lengkap dengan tanggal dan signifikansinya.
+*   **`CHARACTER_TEMPLATE.json`**: Template untuk membuat entri karakter baru di `CHARACTERS.json` agar konsisten.
 *   **Character/Skill Files**: The directory contains numerous other Markdown files (e.g., `Bulls_Might.md`, `Fates_Shepherd.md`) that appear to be detailed descriptions of individual skills, powers, or character-specific abilities.
 
 # Usage

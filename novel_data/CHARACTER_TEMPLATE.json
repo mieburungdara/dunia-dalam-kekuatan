@@ -1,0 +1,50 @@
+{
+  "ID": null,
+  "Name": "",
+  "Age": null,
+  "Gender": "",
+  "Role": "",
+  "Personality": [],
+  "Background": "",
+  "Strengths": [],
+  "Weaknesses": [],
+  "Motivation": "",
+  "Growth": "",
+  "Arc": "",
+  "InternalConflict": "",
+  "ExternalConflict": "",
+  "Fears": [],
+  "Hopes": [],
+  "Quirks": [],
+  "Appearance": {
+    "Description": "",
+    "Style": ""
+  },
+  "Relationships": [],
+  "Affiliations": [],
+  "Voice": "",
+  "Flaws": [],
+  "Zodiac": "",
+  "MBTI": "",
+  "Status": "",
+  "Origin": "",
+  "KeyEvents": [],
+  "Goals": [],
+  "Obstacles": [],
+  "InternalMonologue": "",
+  "ExternalPerception": "",
+  "Inventory": [],
+  "Skills": [],
+  "Health": {
+    "Current": null,
+    "Max": null
+  },
+  "Mana": {
+    "Current": null,
+    "Max": null
+  },
+  "Stamina": {
+    "Current": null,
+    "Max": null
+  }
+}
