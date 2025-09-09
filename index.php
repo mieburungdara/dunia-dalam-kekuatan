@@ -77,6 +77,9 @@ foreach ($placeholder_pages as $page) {
 
 // Debugging routes
 var_dump($f3->get('ROUTES'));
+var_dump($f3->get('BASE'));
+var_dump($f3->get('URI'));
+var_dump($f3->get('PATH'));
 
 // Jalankan framework
 $f3->run();
