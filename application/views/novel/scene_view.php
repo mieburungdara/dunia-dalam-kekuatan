@@ -1,81 +1,100 @@
-<div class="container py-4">
-    <h1 class="mb-3">Scene: {{ @scene_name }}</h1>
-    <p class="text-muted">Novel: {{ @novel_title }} | Arc: {{ @arc_title }} | Chapter: {{ @chapter_title }}</p>
-    <p class="fst-italic mb-4">{{ @chapter_summary }}</p>
+<div class="container my-4">
+    <!-- Header Scene -->
+    <div class="mb-4">
+        <h4 class="text-muted">
+            Novel: {{ @novel_title }} - Arc: {{ @arc_title }} - Chapter: {{ @chapter_title }}
+        </h4>
+        <p class="text-muted">{{ @chapter_summary }}</p>
+        <h1 class="mt-3">{{ @scene_name }}</h1>
+    </div>
 
-    <repeat group="{{ @scene_contents }}" value="{{ @block }}">
-        <check if="{{ isset(@block['Type']) }}">
-            <!-- DIALOGUE -->
-            <check if="{{ @block['Type'] == 'Dialogue' }}">
-                <blockquote class="blockquote bg-light p-3 border-start border-4 border-success rounded">
-                    <p class="mb-1">“{{ @block['Line'] }}”</p>
-                    <footer class="blockquote-footer">
-                        {{ @block['Speaker']['Name'] ?? 'Unknown' }}
-                        <small class="text-muted">({{ @block['Tone'] ?? 'Neutral' }})</small>
-                    </footer>
-                </blockquote>
-            </check>
-
-            <!-- ACTION -->
-            <check if="{{ @block['Type'] == 'Action' }}">
-                <div class="card mb-3 border-primary">
-                    <div class="card-body">
-                        <h6 class="card-title">Action: {{ @block['Actor']['Name'] ?? 'Unknown' }}</h6>
-                        <p class="card-text">{{ @block['Text'] }}</p>
-                        <small class="text-muted">Target: {{ @block['Target'] ?? '-' }} | Outcome: {{ @block['Outcome'] ?? '-' }}</small>
+    <!-- Scene Contents -->
+    <div class="scene-contents">
+        <check if="{{ @scene_data['Chapters'][0]['Scenes'][0]['Contents'] }}">
+            <repeat group="{{ @scene_data['Chapters'][0]['Scenes'][0]['Contents'] }}" value="{{ @block }}">
+                
+                <!-- Exposition -->
+                <check if="{{ @block['Type'] == 'Exposition' }}">
+                    <div class="card mb-3 border-info">
+                        <div class="card-header bg-info text-white">Exposition: {{ @block['Topic'] ?? '' }}</div>
+                        <div class="card-body">{{ @block['Text'] ?? '' }}</div>
                     </div>
-                </div>
-            </check>
+                </check>
 
-            <!-- CONFLICT -->
-            <check if="{{ @block['Type'] == 'Conflict' }}">
-                <div class="alert alert-danger mb-3">
-                    <strong>Conflict:</strong> {{ @block['Text'] }}<br>
-                    Participants: {{ implode(', ', @block['Participants'] ?? []) }} | Nature: {{ @block['Nature'] ?? '-' }}
-                </div>
-            </check>
-
-            <!-- EXPOSITION -->
-            <check if="{{ @block['Type'] == 'Exposition' }}">
-                <div class="card mb-3 bg-light text-dark">
-                    <div class="card-body">
-                        <h6 class="card-title">Exposition: {{ @block['Topic'] ?? 'World' }}</h6>
-                        <p>{{ @block['Text'] }}</p>
+                <!-- Action -->
+                <check if="{{ @block['Type'] == 'Action' }}">
+                    <div class="alert alert-primary mb-2">
+                        <strong>{{ @block['Actor']['Name'] ?? @block['Actor'] ?? 'Unknown' }}</strong> 
+                        performs action on <strong>{{ @block['Target'] ?? '-' }}</strong>: {{ @block['Text'] ?? '' }} 
+                        (Outcome: {{ @block['Outcome'] ?? '-' }})
                     </div>
-                </div>
-            </check>
+                </check>
 
-            <!-- INNER THOUGHT -->
-            <check if="{{ @block['Type'] == 'InnerThought' }}">
-                <div class="callout callout-info mb-3 p-3 border-start border-4 border-info bg-light">
-                    <p><strong>Thought:</strong> {{ @block['Text'] }}</p>
-                    <small class="text-muted">Character: {{ @block['Character']['Name'] ?? 'Unknown' }} | Theme: {{ @block['Theme'] ?? '-' }}</small>
-                </div>
-            </check>
-
-            <!-- CLUE -->
-            <check if="{{ @block['Type'] == 'Clue' }}">
-                <div class="alert alert-warning mb-3">
-                    <strong>Clue:</strong> {{ @block['Text'] }}<br>
-                    Source: {{ @block['Source'] ?? '-' }} | Relevance: {{ @block['Relevance'] ?? '-' }}
-                </div>
-            </check>
-
-            <!-- EMOTION -->
-            <check if="{{ @block['Type'] == 'Emotion' }}">
-                <div class="badge bg-secondary mb-2">Emotion ({{ @block['Character'] ?? 'Unknown' }}): {{ @block['Text'] }} ({{ @block['Intensity'] ?? '-' }})</div>
-            </check>
-
-            <!-- DIALOGUE, INNER, ACTION, ETC. lainnya bisa ditambahkan di bawah -->
-            <check if="{{ @block['Type'] != 'Dialogue' && @block['Type'] != 'Action' && @block['Type'] != 'Conflict' && @block['Type'] != 'Exposition' && @block['Type'] != 'InnerThought' && @block['Type'] != 'Clue' && @block['Type'] != 'Emotion' }}">
-                <div class="card mb-3 border-secondary">
-                    <div class="card-body">
-                        <h6 class="card-title">{{ @block['Type'] }}</h6>
-                        <p>{{ @block['Text'] ?? 'No content' }}</p>
+                <!-- Dialogue -->
+                <check if="{{ @block['Type'] == 'Dialogue' }}">
+                    <div class="card mb-2 border-success">
+                        <div class="card-header bg-success text-white">
+                            {{ @block['Speaker']['Name'] ?? @block['Speaker'] ?? 'Unknown' }} 
+                            (Tone: {{ @block['Tone'] ?? '-' }})
+                        </div>
+                        <div class="card-body">{{ @block['Line'] ?? '' }}</div>
                     </div>
-                </div>
-            </check>
+                </check>
 
+                <!-- InnerThought -->
+                <check if="{{ @block['Type'] == 'InnerThought' }}">
+                    <div class="alert alert-secondary mb-2">
+                        <strong>{{ @block['Character']['Name'] ?? @block['Character'] ?? 'Unknown' }}</strong>'s inner thoughts: {{ @block['Text'] ?? '' }}
+                    </div>
+                </check>
+
+                <!-- Emotion -->
+                <check if="{{ @block['Type'] == 'Emotion' }}">
+                    <div class="badge bg-warning mb-2">
+                        Emotion ({{ @block['Character']['Name'] ?? @block['Character'] ?? 'Unknown' }}): 
+                        {{ @block['Text'] ?? '-' }} 
+                        (Intensity: {{ @block['Intensity'] ?? '-' }})
+                    </div>
+                </check>
+
+                <!-- Clue -->
+                <check if="{{ @block['Type'] == 'Clue' }}">
+                    <div class="alert alert-info mb-2">
+                        Clue: {{ @block['Text'] ?? '' }} 
+                        (Source: {{ @block['Source'] ?? '-' }}, Relevance: {{ @block['Relevance'] ?? '-' }})
+                    </div>
+                </check>
+
+                <!-- Conflict -->
+                <check if="{{ @block['Type'] == 'Conflict' }}">
+                    <div class="alert alert-danger mb-2">
+                        Conflict: {{ @block['Text'] ?? '' }} 
+                        (Participants: {{ @block['Participants'] | join(', ') ?? '-' }}, Nature: {{ @block['Nature'] ?? '-' }})
+                    </div>
+                </check>
+
+                <!-- Decision -->
+                <check if="{{ @block['Type'] == 'Decision' }}">
+                    <div class="card mb-2 border-warning">
+                        <div class="card-header bg-warning">
+                            Decision by {{ @block['Character']['Name'] ?? @block['Character'] ?? 'Unknown' }}
+                        </div>
+                        <div class="card-body">
+                            {{ @block['Text'] ?? '' }}<br>
+                            Options: {{ @block['Options'] | join(', ') ?? '-' }}, Consequence: {{ @block['Consequence'] ?? '-' }}
+                        </div>
+                    </div>
+                </check>
+
+                <!-- Default fallback for unhandled types -->
+                <check if="{{ @block['Type'] != 'Exposition' && @block['Type'] != 'Action' && @block['Type'] != 'Dialogue' && @block['Type'] != 'InnerThought' && @block['Type'] != 'Emotion' && @block['Type'] != 'Clue' && @block['Type'] != 'Conflict' && @block['Type'] != 'Decision' }}">
+                    <div class="card mb-2 border-secondary">
+                        <div class="card-header bg-secondary text-white">{{ @block['Type'] }}</div>
+                        <div class="card-body">{{ @block['Text'] ?? 'No content available.' }}</div>
+                    </div>
+                </check>
+
+            </repeat>
         </check>
-    </repeat>
+    </div>
 </div>
