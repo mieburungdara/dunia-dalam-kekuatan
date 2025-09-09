@@ -5,9 +5,9 @@ require_once 'vendor/autoload.php';
 
 // Inisialisasi framework
 $f3 = \Base::instance();
-/* $f3->set('BASE','');
+$f3->set('BASE','');
 $f3->set('SCHEME','https');
-$f3->set('HOST','8080-cs-640544031456-default.cs-asia-southeast1-palm.cloudshell.dev'); */
+$f3->set('HOST','mymy.my.id');
 
 // Set a global application base URL
 $app_base_url = $f3->get('SCHEME').'://'.$f3->get('HOST').$f3->get('BASE');
