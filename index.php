@@ -5,6 +5,7 @@ require_once 'vendor/autoload.php';
 
 // Explicitly include NovelController for debugging
 require_once 'app/controllers/NovelController.php';
+require_once 'app/controllers/FaqController.php';
 
 // Inisialisasi framework
 $f3 = \Base::instance();
@@ -63,7 +64,11 @@ $f3->route('GET /',
 
 // Jalankan framework
 // Definisikan rute untuk halaman placeholder
-$placeholder_pages = ['baca', 'karakter', 'glosarium', 'faq'];
+$f3->route('GET /faq', 'FaqController->list_faq_categories');
+$f3->route('GET /faq/@category', 'FaqController->list_faqs_in_category');
+$f3->route('GET /faq/@category/@faq_name', 'FaqController->show_faq');
+
+$placeholder_pages = ['baca', 'karakter', 'glosarium'];
 foreach ($placeholder_pages as $page) {
     $f3->route('GET /' . $page, function($f3, $params) use ($page) {
         $title = ucfirst($page);

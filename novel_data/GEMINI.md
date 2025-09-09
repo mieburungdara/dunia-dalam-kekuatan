@@ -23,17 +23,22 @@ When working on this project, it is important to:
 3.  Use the individual skill files as a reference for character abilities.
 4.  Update the `SKILL_LIST.md` as new skills are conceptualized.
 
-# Konfigurasi
+# Konfigurasi Proyek (Fat-Free Framework - F3)
+
+Proyek ini sekarang menggunakan **Fat-Free Framework (F3)** untuk menyajikan konten. File-file Markdown yang berisi cerita, karakter, dan FAQ akan diproses oleh F3.
 
 - **Bahasa**: Selalu gunakan Bahasa Indonesia untuk semua percakapan.
 - **Alur Kerja Git**: Tunggu perintah "commit" dari pengguna. Saat diperintahkan, perbarui `changelogs.md` terlebih dahulu, baru jalankan `git add .`, `git commit`, dan `git push`.
-- **Metode Revisi**: Revisi cerita adalah proses **penggabungan**, bukan penggantian. Pertahankan narasi yang ada sambil mengintegrasikan ide-ide baru dari file revisi.
-- **Struktur Bab Dinamis**: Gunakan sistem Koleksi Jekyll (`collections`) untuk `cerita`. Setiap bab baru harus memiliki `title` di dalam *front matter* agar muncul di daftar isi secara otomatis.
-- **Rangkuman Latar Lokasi (index.md)**: Setiap file `index.md` di dalam folder bab (`_cerita/nama_bab/`) harus berisi rangkuman semua latar lokasi yang disebutkan dalam sub-bab terkait.
-- **Manajemen Karakter (Pendukung/Figuran)**: Untuk karakter pendukung atau figuran, buat entri deskripsi di file `KARAKTER_PENDUKUNG.md` dengan format yang konsisten.
-- **Konsistensi Cerita**: Setiap kali mengubah atau menulis ulang sebuah bagian cerita, lakukan pemeriksaan silang dengan `GUIDE.md` dan bab-bab lain untuk memastikan tidak ada konflik plot, karakter, atau aturan dunia.
-- **Tampilan Gambar Otomatis**: Setiap halaman bab di situs harus secara otomatis menampilkan semua gambar yang ada di dalam folder bab tersebut, diurutkan berdasarkan nama file.
-- **Anti-Cache**: Situs dikonfigurasi untuk selalu memuat versi terbaru dan tidak menyimpan cache di browser.
+- **Metode Revisi Cerita**: Revisi cerita adalah proses **penggabungan**, bukan penggantian. Pertahankan narasi yang ada sambil mengintegrasikan ide-ide baru dari file revisi.
+- **Penanganan Konten Markdown (FAQ, dll.)**:
+    - File Markdown (seperti FAQ) sekarang dibaca dan dikonversi ke HTML menggunakan library **Parsedown** di dalam controller F3 (`app/controllers/FaqController.php`).
+    - Konten HTML kemudian diteruskan ke view F3 untuk ditampilkan.
+    - Struktur URL untuk FAQ adalah `/faq`, `/faq/@category`, dan `/faq/@category/@faq_name`.
+- **Struktur Direktori Data**: Semua file data utama proyek (cerita, worldbuilding, skill, item, FAQ) sekarang berada di dalam folder `novel_data/` di root proyek.
+    - Contoh: `novel_data/cerita/`, `novel_data/faq/`, `novel_data/skills/`.
+- **Manajemen Karakter (Pendukung/Figuran)**: Untuk karakter pendukung atau figuran, buat entri deskripsi di file `novel_data/KARAKTER_PENDUKUNG.md` dengan format yang konsisten.
+- **Konsistensi Cerita**: Setiap kali mengubah atau menulis ulang sebuah bagian cerita, lakukan pemeriksaan silang dengan `novel_data/GUIDE.md` dan bab-bab lain untuk memastikan tidak ada konflik plot, karakter, atau aturan dunia.
+- **Tampilan Website**: F3 menggunakan sistem template untuk merender halaman. Header dan footer umum berada di `application/views/templates/header.php` dan `application/views/templates/footer.php`.
 
 # Gaya Penulisan
 
