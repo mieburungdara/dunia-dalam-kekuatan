@@ -6,7 +6,7 @@
     <div class="list-group">
         <repeat group="{{ @scenes }}" value="{{ @scene }}">
             <a href="{{ @scene.url }}" class="list-group-item list-group-item-action">
-                {{ @scene.scene_list }}
+                {{ @scene.title }}
             </a>
         </repeat>
     </div>
