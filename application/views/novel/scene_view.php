@@ -25,7 +25,6 @@
                     <div class="card-body">
                         <h6 class="card-title">Action: {{ @block['Actor']['Name'] ?? 'Unknown' }}</h6>
                         <p class="card-text">{{ @block['Text'] }}</p>
-                        <small class="text-muted">Target: {{ @block['Target'] ?? '-' }} | Outcome: {{ @block['Outcome'] ?? '-' }}</small>
                         <div class="dev-mode-info hide mt-2 text-muted small">
                             Type: Action | Actor: {{ @block['Actor']['Name'] ?? 'Unknown' }} | Target: {{ @block['Target'] ?? '-' }} | Outcome: {{ @block['Outcome'] ?? '-' }}
                         </div>
