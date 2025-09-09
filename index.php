@@ -5,14 +5,20 @@ require_once 'vendor/autoload.php';
 
 // Inisialisasi framework
 $f3 = \Base::instance();
+$f3->set('BASE','');
+$f3->set('SCHEME','https');
+$f3->set('HOST','8080-cs-640544031456-default.cs-asia-southeast1-palm.cloudshell.dev');
 
 // Definisikan fungsi helper untuk kompatibilitas
 if (!function_exists('base_url')) {
     function base_url($path = '') {
-        $f3 = \Base::instance();
+        global $f3;
         return rtrim($f3->get('SCHEME').'://'.$f3->get('HOST').$f3->get('BASE'), '/') . '/' . ltrim($path, '/');
     }
 }
+
+// Konfigurasi
+$f3->set('DEBUG', 3);
 
 // Konfigurasi
 $f3->set('UI', 'application/views/'); // Beri tahu F3 di mana folder view berada
