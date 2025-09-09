@@ -9,6 +9,9 @@ $f3->set('BASE','');
 $f3->set('SCHEME','https');
 $f3->set('HOST','8080-cs-640544031456-default.cs-asia-southeast1-palm.cloudshell.dev');
 
+// Set a global application base URL
+$app_base_url = $f3->get('SCHEME').'://'.$f3->get('HOST').$f3->get('BASE');
+
 // Definisikan fungsi helper untuk kompatibilitas
 if (!function_exists('base_url')) {
     function base_url($path = '') {

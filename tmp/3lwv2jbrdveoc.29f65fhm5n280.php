@@ -22,10 +22,10 @@
         <div class="collapse navbar-collapse" id="main-nav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Novel</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Karakter</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Glosarium</a></li>
-                <li class="nav-item"><a class="nav-link" href="">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="/novel">Novel</a></li>
+                <li class="nav-item"><a class="nav-link" href="/karakter">Karakter</a></li>
+                <li class="nav-item"><a class="nav-link" href="/glosarium">Glosarium</a></li>
+                <li class="nav-item"><a class="nav-link" href="/faq">FAQ</a></li>
             </ul>
         </div>
     </div>
