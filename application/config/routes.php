@@ -52,9 +52,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
-$route['novel'] = 'Novel/index';
-$route['novel/(:any)'] = 'Novel/view/$1';
-$route['novel/(:any)/(:any)'] = 'Novel/arc/$1/$2';
-$route['novel/(:any)/(:any)/(:any)'] = 'Novel/chapter/$1/$2/$3';
-$route['novel/(:any)/(:any)/(:any)/(:any)'] = 'Novel/scene/$1/$2/$3/$4';
