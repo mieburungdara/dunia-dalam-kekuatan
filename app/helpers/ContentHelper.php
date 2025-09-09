@@ -30,7 +30,7 @@ class ContentHelper
                     $html .= "    <h6 class=\"card-subtitle mb-2 text-muted fst-italic\">Aksi oleh: {$actorName}</h6>";
                     $html .= "    <p class=\"card-text\">{$text}</p>";
                     $html .= '  </div>';
-                    $html .= '</div>\n';
+                    $html .= '</div>';
                     break;
 
                 case 'InnerThought':
