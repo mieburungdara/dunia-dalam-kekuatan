@@ -24,8 +24,13 @@ class ContentHelper
                     break;
 
                 case 'Action':
-                    // Aksi bisa diberi kelas untuk styling via CSS jika perlu
-                    $html .= "<p class=\"action\">{$text}</p>\n";
+                    $actorName = isset($item['Actor']['Name']) ? htmlspecialchars($item['Actor']['Name'], ENT_QUOTES, 'UTF-8') : 'Seseorang';
+                    $html .= '<div class="card my-3 shadow-sm">';
+                    $html .= '  <div class="card-body">';
+                    $html .= "    <h6 class=\"card-subtitle mb-2 text-muted fst-italic\">Aksi oleh: {$actorName}</h6>";
+                    $html .= "    <p class=\"card-text\">{$text}</p>";
+                    $html .= '  </div>';
+                    $html .= '</div>\n';
                     break;
 
                 case 'InnerThought':
