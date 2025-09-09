@@ -1,29 +1,51 @@
-<div class="container py-5">
+<div class="container py-4">
 
-    <!-- Breadcrumb -->
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><span class="text-muted">{{ @novel_title }}</span></li>
-            <li class="breadcrumb-item"><span class="text-muted">{{ @arc_title }}</span></li>
-            <li class="breadcrumb-item"><span class="text-muted">{{ @chapter_title }}</span></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ @scene_name }}</li>
-        </ol>
-    </nav>
+    <h2 class="mb-4">Scene Contents</h2>
 
-    <!-- Scene Header -->
-    <div class="mb-4">
-        <h1 class="display-5 fw-bold">{{ @scene_name }}</h1>
-        <p class="lead text-muted mb-1">Chapter: {{ @chapter_title }}</p>
-        <p class="text-muted mb-1">Arc: {{ @arc_title }}</p>
-        <p class="text-muted">Novel: {{ @novel_title }}</p>
-        <hr>
-        <p class="fst-italic text-secondary">{{ @chapter_summary }}</p>
-    </div>
+    <repeat group="{{ @contents }}" value="{{ @c }}">
+        <div class="card mb-3 shadow-sm">
+            <div class="card-header bg-light d-flex justify-content-between align-items-center">
+                <span class="fw-bold">{{ @c['Type'] }}</span>
+                <small class="text-muted">
+                    <check if="{{ isset(@c['Actor']['Name']) }}">
+                        <true>Actor: {{ @c['Actor']['Name'] }}</true>
+                    </check>
+                    <check if="{{ isset(@c['Speaker']['Name']) }}">
+                        <true>Speaker: {{ @c['Speaker']['Name'] }}</true>
+                    </check>
+                    <check if="{{ isset(@c['Character']['Name']) }}">
+                        <true>Character: {{ @c['Character']['Name'] }}</true>
+                    </check>
+                </small>
+            </div>
+            <div class="card-body">
+                <!-- Text / Line -->
+                <check if="{{ isset(@c['Text']) }}">
+                    <p class="card-text">{{ @c['Text'] }}</p>
+                </check>
+                <check if="{{ isset(@c['Line']) }}">
+                    <blockquote class="blockquote">
+                        <p>“{{ @c['Line'] }}”</p>
+                        <footer class="blockquote-footer">
+                            {{ @c['Speaker']['Name'] ?? 'Unknown' }}
+                        </footer>
+                    </blockquote>
+                </check>
 
-    <!-- Scene Content -->
-    <div class="card shadow-sm">
-        <div class="card-body scene-content">
-            {{ @scene_content | raw }}
+                <!-- Extra Metadata -->
+                <check if="{{ isset(@c['Topic']) }}">
+                    <span class="badge bg-info me-1">Topic: {{ @c['Topic'] }}</span>
+                </check>
+                <check if="{{ isset(@c['Tone']) }}">
+                    <span class="badge bg-warning text-dark me-1">Tone: {{ @c['Tone'] }}</span>
+                </check>
+                <check if="{{ isset(@c['Outcome']) }}">
+                    <span class="badge bg-success me-1">Outcome: {{ @c['Outcome'] }}</span>
+                </check>
+                <check if="{{ isset(@c['Impact']) }}">
+                    <span class="badge bg-danger me-1">Impact: {{ @c['Impact'] }}</span>
+                </check>
+            </div>
         </div>
-    </div>
+    </repeat>
 </div>
