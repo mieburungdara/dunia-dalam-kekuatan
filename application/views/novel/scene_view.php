@@ -4,6 +4,6 @@
     <p class="fst-italic mb-4">{{ @chapter_summary }}</p>
 
     <div class="story-content">
-        <?= /* @php echo */ @rendered_content ?>
+        {{ @rendered_content | raw }}
     </div>
 </div>
