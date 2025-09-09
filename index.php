@@ -60,7 +60,7 @@ $f3->route('GET /',
 
 // Jalankan framework
 // Definisikan rute untuk halaman placeholder
-$placeholder_pages = ['baca', 'karakter', 'novel', 'glosarium', 'faq'];
+$placeholder_pages = ['baca', 'karakter', 'glosarium', 'faq'];
 foreach ($placeholder_pages as $page) {
     $f3->route('GET /' . $page, function($f3, $params) use ($page) {
         $title = ucfirst($page);
