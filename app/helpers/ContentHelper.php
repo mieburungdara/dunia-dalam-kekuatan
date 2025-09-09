@@ -32,7 +32,7 @@ class ContentHelper
                     $html .= "    <p class=\"card-text\">{$text}</p>";
                     $html .= "    <div class=\"hide small text-muted border-top mt-2 pt-2\"><em>Type: Action | Actor: {$actorName}</em></div>";
                     $html .= '  </div>';
-                    $html .= '</div>\n';
+                    $html .= '</div>';
                     break;
 
                 case 'InnerThought':
