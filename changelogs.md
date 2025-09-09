@@ -4,6 +4,22 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.58.0 - Perbaikan Routing & 404 Error
+*Tanggal: 2025-09-09*
+
+- **Perbaikan**: Memperbaiki masalah routing yang menyebabkan 404 error.
+  - Mengosongkan `$config['index_page']` untuk mengaktifkan URL bersih (`clean URL`) sesuai aturan `.htaccess`.
+  - Menyesuaikan rute `novel` menjadi `Novel` untuk mengatasi masalah *case-sensitivity* pada server Linux.
+
+---
+
+## v0.57.0 - Penambahan Inventory dan Skills pada Karakter
+*Tanggal: 2025-09-07*
+
+- **Ditambahkan**: Menambahkan bidang `Inventory` dan `Skills` ke setiap objek karakter di `CHARACTERS.json` untuk memperkaya detail kemampuan dan sumber daya karakter.
+
+---
+
 ## v0.56.0 - Migrasi Data Karakter ke JSON
 *Tanggal: 2025-09-07*
 
@@ -434,8 +450,3 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 - **Ditambahkan**: Mengkonfigurasi situs GitHub Pages awal menggunakan Docsify.
 
 ---
-
-## v0.57.0 - Penambahan Inventory dan Skills pada Karakter
-*Tanggal: 2025-09-07*
-
-- **Ditambahkan**: Menambahkan bidang `Inventory` dan `Skills` ke setiap objek karakter di `CHARACTERS.json` untuk memperkaya detail kemampuan dan sumber daya karakter.

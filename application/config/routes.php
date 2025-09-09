@@ -53,9 +53,8 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['novel'] = 'novel/index';
-$route['novel/(:any)'] = 'novel/view/$1';
-$route['novel/(:any)/(:any)'] = 'novel/arc/$1/$2';
-$route['novel/(:any)/(:any)/(:any)'] = 'novel/chapter/$1/$2/$3';
-$route['novel/(:any)/(:any)/(:any)/(:any)'] = 'novel/scene/$1/$2/$3/$4';
-
+$route['novel'] = 'Novel/index';
+$route['novel/(:any)'] = 'Novel/view/$1';
+$route['novel/(:any)/(:any)'] = 'Novel/arc/$1/$2';
+$route['novel/(:any)/(:any)/(:any)'] = 'Novel/chapter/$1/$2/$3';
+$route['novel/(:any)/(:any)/(:any)/(:any)'] = 'Novel/scene/$1/$2/$3/$4';
