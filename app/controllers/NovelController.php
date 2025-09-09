@@ -19,9 +19,6 @@ class NovelController {
             error_log("NovelController: novels.json DOES NOT exist at " . $novels_json_path);
         }
 
-        var_dump($novels);
-
-
         $f3->set('novels', $novels);
 
         echo \Template::instance()->render('templates/header.php');
