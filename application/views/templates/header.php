@@ -11,6 +11,12 @@
         .navbar { margin-bottom: 2rem; }
         .hide { display: none; }
     </style>
+    <?php if (isset($_GET['dev']) && $_GET['dev'] === '1'): ?>
+    <style>
+        .hide { display: block !important; }
+        .dev-info { border: 1px dashed #ccc; padding: 5px; margin-top: 5px; background-color: #f0f0f0; }
+    </style>
+    <?php endif; ?>
 </head>
 <body>
 

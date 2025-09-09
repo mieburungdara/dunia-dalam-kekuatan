@@ -20,7 +20,8 @@ class ContentHelper
 
             switch ($item['Type'] ?? 'unknown') {
                 case 'Exposition':
-                    $html .= "<p>{$text}</p>\n";
+                    $html .= "<p>{$text}</p>";
+                    $html .= '<div class="hide small text-muted border-top mt-1 pt-1"><em>Type: Exposition</em></div>\n';
                     break;
 
                 case 'Action':
@@ -29,20 +30,24 @@ class ContentHelper
                     $html .= '  <div class="card-body">';
                     $html .= "    <h6 class=\"card-subtitle mb-2 text-muted fst-italic\">Aksi oleh: {$actorName}</h6>";
                     $html .= "    <p class=\"card-text\">{$text}</p>";
+                    $html .= "    <div class=\"hide small text-muted border-top mt-2 pt-2\"><em>Type: Action | Actor: {$actorName}</em></div>";
                     $html .= '  </div>';
-                    $html .= '</div>';
+                    $html .= '</div>\n';
                     break;
 
                 case 'InnerThought':
-                    // Pikiran internal dibuat miring dan diberi tanda kutip
+                    $charName = isset($item['Character']['Name']) ? htmlspecialchars($item['Character']['Name'], ENT_QUOTES, 'UTF-8') : 'Seseorang';
                     $html .= "<p class=\"inner-thought\"><i>\"";
                     $html .= "{$text}";
-                    $html .= "\"</i></p>\n";
+                    $html .= "\"</i></p>";
+                    $html .= "<div class=\"hide small text-muted border-top mt-1 pt-1\"><em>Type: InnerThought | Character: {$charName}</em></div>\n";
                     break;
 
                 case 'Emotion':
-                    // Emosi juga bisa diberi kelas khusus
-                    $html .= "<p class=\"emotion\">{$text}</p>\n";
+                    $charName = isset($item['Character']['Name']) ? htmlspecialchars($item['Character']['Name'], ENT_QUOTES, 'UTF-8') : 'Seseorang';
+                    $intensity = isset($item['Intensity']) ? htmlspecialchars($item['Intensity'], ENT_QUOTES, 'UTF-8') : '-';
+                    $html .= "<p class=\"emotion\">{$text}</p>";
+                    $html .= "<div class=\"hide small text-muted border-top mt-1 pt-1\"><em>Type: Emotion | Character: {$charName} | Intensity: {$intensity}</em></div>\n";
                     break;
 
                 default:
