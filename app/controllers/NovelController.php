@@ -3,31 +3,20 @@
 class NovelController {
 
     function list_novels($f3) {
-        $base_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita';
-        error_log("NovelController: base_path = " . $base_path);
-
+        $novels_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/novels.json';
         $novels = [];
-        $novel_folders = glob($base_path . '/*', GLOB_ONLYDIR);
-        error_log("NovelController: novel_folders = " . print_r($novel_folders, true));
-        foreach($novel_folders as $novel_folder) {
-            $novel_slug = basename($novel_folder);
-            $index_path = $novel_folder . '/index.json';
-            error_log("NovelController: index_path = " . $index_path);
-            if (file_exists($index_path)) {
-                error_log("NovelController: index.json exists for " . $novel_slug);
-                $json_content = file_get_contents($index_path);
-                $novel_data = json_decode($json_content, true);
-                if (json_last_error() !== JSON_ERROR_NONE) {
-                    error_log("NovelController: JSON decode error for " . $index_path . ": " . json_last_error_msg());
-                }
-                $novels[] = [
-                    'title' => $novel_data['title'],
-                    'slug' => $novel_slug,
-                    'url' => $f3->get('SCHEME').'://'.$f3->get('HOST').$f3->get('BASE').'/novel/' . $novel_slug
-                ];
+
+        if (file_exists($novels_json_path)) {
+            $json_content = file_get_contents($novels_json_path);
+            $decoded_novels = json_decode($json_content, true);
+
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novels)) {
+                $novels = $decoded_novels;
             } else {
-                error_log("NovelController: index.json DOES NOT exist for " . $novel_slug);
+                error_log("NovelController: JSON decode error for " . $novels_json_path . ": " . json_last_error_msg());
             }
+        } else {
+            error_log("NovelController: novels.json DOES NOT exist at " . $novels_json_path);
         }
 
         $f3->set('novels', $novels);
