@@ -13,7 +13,7 @@ class ContentHelper
             switch ($type) {
                 case 'Exposition':
                 case 'Description':
-                    $html .= "<p>{$text}</p>";
+                    $html .= "<p class=\"my-4\">{$text}</p>";
                     break;
 
                 case 'Action':
@@ -41,13 +41,13 @@ class ContentHelper
                     break;
 
                 case 'Emotion':
-                    $html .= "<p class=\"emotion fst-italic text-muted\">{$text}</p>";
+                    $html .= "<p class=\"emotion fst-italic text-muted my-4\">{$text}</p>";
                     break;
 
                 case 'EnemyEncounter':
                 case 'Ambush':
                 case 'ImminentThreat':
-                    $html .= "<p>{$text}</p>";
+                    $html .= "<p class=\"my-4\">{$text}</p>";
                     break;
 
                 case 'UnexpectedAid':
@@ -67,7 +67,7 @@ class ContentHelper
                     break;
 
                 case 'Chase':
-                    $html .= "<p>{$text}</p>";
+                    $html .= "<p class=\"my-4\">{$text}</p>";
                     break;
 
                 case 'MysteryEvent':
@@ -87,7 +87,7 @@ class ContentHelper
 
                 default:
                     if (!empty($text)) {
-                        $html .= "<p>{$text}</p>";
+                        $html .= "<p class=\"my-4\">{$text}</p>";
                     }
                     break;
             }
