@@ -52,7 +52,17 @@ class ContentHelper
 
                 case 'UnexpectedAid':
                     $source = isset($item['Source']) ? htmlspecialchars($item['Source'], ENT_QUOTES, 'UTF-8') : 'sumber tak terduga';
-                    $html .= "<div class=\"alert alert-success my-3\"><strong>Bantuan Tak Terduga!</strong> ({$source}) - {$text}</div>";
+                    $html .= '<div class="card border-success my-3 shadow-sm">';
+                    $html .= '  <div class="card-header bg-success-subtle border-0">';
+                    $html .= '    ✨ <strong>Bantuan Tak Terduga!</strong>';
+                    $html .= '  </div>';
+                    $html .= '  <div class="card-body">';
+                    $html .= "    <p class=\"card-text\">{$text}</p>";
+                    $html .= '  </div>';
+                    $html .= '  <div class="card-body">';
+                    $html .= '    <small class="text-muted">Sumber: {$source}</small>';
+                    $html .= '  </div>';
+                    $html .= '</div>';
                     break;
 
                 case 'Decision':
