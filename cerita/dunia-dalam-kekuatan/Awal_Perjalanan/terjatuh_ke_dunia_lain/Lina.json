@@ -1,0 +1,106 @@
+{
+  "Meta": {
+    "Title": "1.4 - Lumpuh oleh Imajinasi",
+    "Author": "AI / User",
+    "Genre": ["Fantasy", "Adventure", "Psychological"],
+    "World": "Dunia fantasi dengan sihir dan makhluk mitos.",
+    "Rules": "POV konsisten, tense present, gaya deskriptif."
+  },
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Title": "Chapter 01 - Terjatuh ke Dunia Lain",
+      "Summary": "Lina, seorang siswi SMA yang perfeksionis dan manja, terbangun di bawah akar pohon raksasa dan harus menghadapi kengerian dunia baru yang kotor dan tidak teratur, sebelum melarikan diri dari goblin.",
+      "Scenes": [
+        {
+          "SceneNumber": 4,
+          "Location": {
+            "Name": "Bawah Akar Pohon Raksasa",
+            "ID": "L004"
+          },
+          "Time": "Pagi",
+          "CharactersInvolved": [
+            {
+              "Name": "Lina",
+              "ID": "C005",
+              "RoleInScene": "Protagonis",
+              "Mood": "Jijik, takut, sarkastik",
+              "Goal": "Menghindari kotoran, bertahan hidup",
+              "Conflict": "Dilumpuhkan oleh rasa takut dan jijik pada lingkungan baru"
+            }
+          ],
+          "POV": {
+            "CharacterName": "Lina",
+            "CharacterID": "C005"
+          },
+          "Contents": [
+            {
+              "Type": "Exposition",
+              "Text": "Lina, yang selalu menyukai keteraturan, terbangun dengan sentakan. Udara lembap dan bau tanah basah menusuk hidungnya, jauh berbeda dari aroma familiar yang biasa ia hirup. Matanya mengerjap, menyesuaikan diri dengan cahaya remang-remang yang menembus kanopi dedaunan raksasa. Ia terbaring di bawah akar pohon yang menjulang tinggi, seolah-olah pohon itu sendiri adalah bagian dari dongeng yang pernah ia baca."
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Lina", "ID": "C005" },
+              "Line": "Astaga, ini tempat apa? Kotor sekali, sialan. Dan cahayanya... tidak standar sama sekali. Tidak ada simetri. Ini benar-benar tidak profesional, menjengkelkan sekali.",
+              "Tone": "Mengeluh"
+            },
+            {
+              "Type": "EnemyEncounter",
+              "Text": "Cahaya keperakan yang selama ini menyelimuti tubuhnya, yang entah bagaimana memberinya rasa aman, kini telah sirna. Lina, dengan insting Deteksi Energi yang samar, merasakan kekosongan itu terasa dingin, menarik perhatian dua sosok kecil yang muncul dari balik semak belukar. Goblin.",
+              "Enemy": "Goblin"
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Lina", "ID": "C005" },
+              "Line": "Oh, bagus. Sekarang ada monster jelek. Apa lagi? Naga? Peri yang cerewet? Bisakah hari ini lebih buruk lagi, sih? Fantastis sekali.",
+              "Tone": "Sarkastik"
+            },
+            {
+              "Type": "Emotion",
+              "Character": { "Name": "Lina", "ID": "C005" },
+              "Text": "Lina ingin lari, berteriak, melakukan apa saja, tetapi kakinya seolah terpaku di tanah. Pikirannya, yang terbiasa dengan hal-hal yang teratur, kini berputar dalam kekacauan. Ia mencoba memahami apa yang terjadi, tetapi hanya ada kengerian murni yang melumpuhkan dirinya. Kakinya menolak untuk bergerak, seolah terikat oleh gravitasi ketakutan.",
+              "Intensity": "High"
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Lina", "ID": "C005" },
+              "Line": "Ini tidak adil! Aku tidak pernah mendaftar untuk ini!",
+              "Tone": "Merengek"
+            },
+            {
+              "Type": "ImminentThreat",
+              "Text": "Satu goblin mengulurkan tangan kurusnya, kuku-kuku kotornya hampir menyentuh ujung sepatunya. Lina bisa merasakan napas busuk makhluk itu, bau tanah dan darah kering. Jantungnya berdebar begitu kencang hingga terasa ingin meledak dari dadanya."
+            },
+            {
+              "Type": "UnexpectedAid",
+              "Source": "Bimo",
+              "Text": "Tepat ketika tangan kotor itu hampir menyentuhnya, sebuah suara memekakkan telinga memecah keheningan hutan. \"HOI! MAKHLUK JELEK!\""
+            },
+            {
+              "Type": "InnerThought",
+              "Character": { "Name": "Lina", "ID": "C005" },
+              "Text": "Siapa yang berteriak seperti itu di tengah hutan? Konyol sekali! Pasti orang bodoh. Dan suaranya berisik sekali."
+            },
+            {
+              "Type": "Action",
+              "Actor": { "Name": "Lina", "ID": "C005" },
+              "Text": "Jendela kesempatan itu terbuka hanya sepersekian detik, tetapi cukup bagi Lina. Dengan sisa-sisa kekuatan yang ia miliki, ia tidak berlari, melainkan menjatuhkan diri ke samping, berguling di bawah akar pohon raksasa yang tadi menjadi tempatnya terbangun. Tubuhnya tergores dan kotor, tetapi ia berhasil menyelinap masuk ke celah sempit yang tak akan bisa dimasuki goblin."
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Lina", "ID": "C005" },
+              "Line": "Hebat. Sekarang aku kotor sekali. Pakaian ini baru dicuci!",
+              "Tone": "Mengeluh"
+            },
+            {
+              "Type": "Action",
+              "Actor": { "Name": "Lina", "ID": "C005" },
+              "Text": "Tersembunyi di balik akar, Lina terengah-engah, gemetar hebat. Ia mendengar suara-suara perkelahian samar dari kejauhan, teriakan Bimo, dan geraman goblin. Dengan napas tersengal dan tubuh yang masih gemetar, Lina merangkak keluar dari persembunyiannya. Ia tidak berlari ke arah suara Bimo karena ingin diselamatkan, melainkan karena itu adalah satu-satunya tanda kehidupan manusia yang ia dengar di tengah hutan asing ini."
+            }
+          ],
+          "Notes": "KeyEvents: Lina jatuh ke dunia lain, Pertemuan pertama dengan goblin, Lina melarikan diri."
+        }
+      ]
+    }
+  ]
+}

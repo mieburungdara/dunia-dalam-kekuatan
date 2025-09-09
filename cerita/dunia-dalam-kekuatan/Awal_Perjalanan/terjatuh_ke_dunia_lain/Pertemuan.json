@@ -1,0 +1,109 @@
+{
+  "Meta": {
+    "Title": "1.6 - Lima Titik Cahaya",
+    "Author": "AI / User",
+    "Genre": ["Fantasy", "Adventure", "Action"],
+    "World": "Dunia fantasi dengan sihir dan makhluk mitos.",
+    "Rules": "Multiple POVs, tense present, gaya deskriptif."
+  },
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Title": "Chapter 01 - Terjatuh ke Dunia Lain",
+      "Summary": "Kelima karakter utama (Arga, Bimo, Raka, Mira, Lina) akhirnya bertemu di reruntuhan kuno dan menghadapi serangan goblin. Setelah pertarungan kacau, goblin mundur secara misterius, dan sebuah kekuatan tak terlihat berdenyut di antara mereka, menandai awal petualangan bersama.",
+      "Scenes": [
+        {
+          "SceneNumber": 6,
+          "Location": {
+            "Name": "Reruntuhan Kuno",
+            "ID": "L005"
+          },
+          "Time": "Pagi",
+          "CharactersInvolved": [
+            { "Name": "Arga", "ID": "C001" },
+            { "Name": "Bimo", "ID": "C002" },
+            { "Name": "Raka", "ID": "C003" },
+            { "Name": "Mira", "ID": "C004" },
+            { "Name": "Lina", "ID": "C005" }
+          ],
+          "POV": {
+            "CharacterName": "All",
+            "CharacterID": null
+          },
+          "Contents": [
+            {
+              "Type": "Action",
+              "Text": "Suara geraman dan teriakan Bimo yang memekakkan telinga menjadi mercusuar di tengah kekacauan. Raka, yang sudah terdesak di antara pilar-pilar runtuh, merasakan tekanan bertambah saat Arga dan Bimo, dengan napas terengah-engah dan wajah pucat, berlari masuk ke area reruntuhan."
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Bimo", "ID": "C002" },
+              "Line": "Woi! Jangan ngikutin terus dong! Aku kan cuma mau lewat!",
+              "Tone": "Panik"
+            },
+            {
+              "Type": "Action",
+              "Text": "Tak lama kemudian, dari sisi lain reruntuhan, Mira muncul, terhuyung-huyung dengan luka lecet di lengannya. Di belakangnya, Lina yang masih gemetar, matanya melebar ketakutan, tersandung beberapa kali."
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Mira", "ID": "C004" },
+              "Line": "Lina, hati-hati!",
+              "Recipient": "C005",
+              "Tone": "Khawatir"
+            },
+            {
+              "Type": "Exposition",
+              "Text": "Kelimanya, seperti magnet yang ditarik oleh takdir, akhirnya bertemu di jantung reruntuhan, terpojok oleh musuh yang sama."
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Raka", "ID": "C003" },
+              "Line": "Belakangku! Bentuk formasi!",
+              "Tone": "Memerintah"
+            },
+            {
+              "Type": "MassBattle",
+              "Text": "Pertarungan singkat namun kacau pecah. Raka, mengandalkan instingnya, berusaha menahan serangan goblin. Bimo, dengan teriakan khasnya, mencoba mengalihkan perhatian beberapa goblin. Mira, meskipun tanpa senjata, hanya bisa menggunakan kelincahannya untuk menghindari serangan. Lina, di sisi lain, lebih banyak menghindar dan sesekali berteriak kecil.",
+              "FactionsInvolved": ["Protagonists", "Goblins"]
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Lina", "ID": "C005" },
+              "Line": "Bisakah kalian lebih rapi sedikit, sih? Ini bukan tarian balet! Aku tidak bisa fokus dengan semua kekacauan ini, sial!",
+              "Tone": "Mengeluh"
+            },
+            {
+              "Type": "MysteryEvent",
+              "Text": "Tepat ketika mereka merasa akan kewalahan, sesuatu yang aneh terjadi. Para goblin, yang tadinya buas dan tak kenal lelah, tiba-tiba berhenti menyerang. Mata merah mereka berkedip-kedip, seolah menerima perintah tak terlihat. Geraman mereka berubah menjadi rengekan, dan tanpa peringatan, mereka berbalik, menghilang ke dalam kegelapan reruntuhan secepat mereka datang."
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Bimo", "ID": "C002" },
+              "Line": "Fiuh, untung mereka disconnect. Kalau nggak, bisa wipe out kita semua.",
+              "Tone": "Lega"
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Lina", "ID": "C005" },
+              "Line": "Ya, dan aku hampir mati karena kalian tidak bisa bertarung dengan efisien. Pakaianku kotor semua! Lain kali, buatlah rencana yang lebih baik, ya? Atau setidaknya, jangan membuatku berlari sejauh ini!",
+              "Tone": "Menyalahkan"
+            },
+            {
+              "Type": "MysteriousPhenomenon",
+              "Text": "Di tengah keheningan itu, sebuah fenomena aneh terjadi. Cahaya keperakan yang sebelumnya memudar dari tubuh masing-masing, kini berdenyut samar, seolah merespons kedekatan mereka. Sebuah benang tak terlihat terasa terjalin di antara mereka.",
+              "Nature": "Magical"
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Arga", "ID": "C001" },
+              "Line": "Kalian... juga bukan dari sini, kan?",
+              "Tone": "Penasaran"
+            }
+          ],
+          "Notes": "KeyEvents: Pertemuan kelima karakter utama, Pertarungan kacau melawan goblin, Goblin mundur secara misterius, Kekuatan misterius muncul."
+        }
+      ]
+    }
+  ]
+}

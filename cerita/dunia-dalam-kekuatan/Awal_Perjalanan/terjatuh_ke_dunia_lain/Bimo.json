@@ -1,0 +1,162 @@
+{
+  "Meta": {
+    "Title": "1.2 - Selamat Datang di Tutorial",
+    "Author": "AI / User",
+    "Genre": ["Fantasy", "Adventure", "LitRPG"],
+    "World": "Dunia fantasi dengan elemen game.",
+    "Rules": "POV konsisten, tense present, gaya deskriptif, banyak istilah game."
+  },
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Title": "Chapter 01 - Terjatuh ke Dunia Lain",
+      "Summary": "Bimo, seorang gamer yang ceria, terbangun di tepi sungai asing dan mengira dunia baru ini adalah game. Ia menghadapi goblin dengan gaya bermainnya sebelum akhirnya melarikan diri.",
+      "Scenes": [
+        {
+          "SceneNumber": 2,
+          "Location": {
+            "Name": "Tepi Sungai Jernih",
+            "ID": "L002"
+          },
+          "Time": "Pagi",
+          "CharactersInvolved": [
+            {
+              "Name": "Bimo",
+              "ID": "C002",
+              "RoleInScene": "Protagonis",
+              "Mood": "Ceria, kemudian panik",
+              "Goal": "Farming EXP, kemudian melarikan diri",
+              "Conflict": "Diserang oleh gerombolan goblin"
+            },
+            {
+                "Name": "Goblin",
+                "ID": "M001",
+                "RoleInScene": "Antagonis",
+                "Mood": "Agresif",
+                "Goal": "Menyerang Bimo",
+                "Conflict": "Melawan Bimo"
+            }
+          ],
+          "POV": {
+            "CharacterName": "Bimo",
+            "CharacterID": "C002"
+          },
+          "Contents": [
+            {
+              "Type": "Action",
+              "Actor": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Bimo mendarat dengan bunyi \"gedebuk\" yang tidak elit di tepi sungai yang jernih. Ia mengerang, mengusap punggungnya yang terasa pegal."
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Bimo", "ID": "C002" },
+              "Line": "Aduh, ini spawn point-nya kok nggak ada kasur sih? Mana jauh dari kota lagi.",
+              "Tone": "Menggerutu"
+            },
+            {
+              "Type": "Description",
+              "Text": "Airnya sebening kristal, memantulkan langit yang aneh, bukan biru biasa, melainkan semburat ungu dan hijau."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Gila, grafiknya fotorealistis banget! Ini pasti update game terbaru yang belum aku download."
+            },
+            {
+              "Type": "Action",
+              "Actor": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Ia melihat cahaya di tubuhnya menghilang dengan decak kagum, seperti efek spawn karakter di game RPG."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Efek kedatangannya keren! Tapi kok nggak ada quest log atau minimap ya? Ini open world tapi kok kayaknya buggy."
+            },
+            {
+              "Type": "EnemyEncounter",
+              "Character": { "Name": "Bimo", "ID": "C002" },
+              "Enemy": { "Name": "Goblin", "ID": "M001" },
+              "Text": "Saat sesosok goblin kurus, dengan mata merah menyala dan gigi runcing, menyelinap dari balik semak, Bimo malah menyeringai lebar."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Nah, monster tutorial! HP-nya pasti dikit nih, gampang di-farming."
+            },
+            {
+              "Type": "Action",
+              "Actor": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Ia memungut sebatang kayu yang cukup kokoh, menggenggamnya seperti pedang."
+            },
+            {
+                "Type": "InnerThought",
+                "Character": { "Name": "Bimo", "ID": "C002" },
+                "Text": "Andai saja aku punya Busur Komposit-ku, pasti sudah kubuat hujan Anak Panah Berujung Khusus."
+            },
+            {
+              "Type": "Dialogue",
+              "Speaker": { "Name": "Bimo", "ID": "C002" },
+              "Line": "Oke, Gobby, sini maju! Waktunya farming EXP! Semoga drop rate-nya bagus ya, biar bisa cepat level up.",
+              "Recipient": "M001",
+              "Tone": "Menantang"
+            },
+            {
+              "Type": "BattleMove",
+              "Actor": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Dengan gerakan komikal yang lebih mirip ayunan tongkat bisbol daripada serangan ksatria, ia berhasil menjatuhkan satu goblin.",
+              "Outcome": "Success"
+            },
+            {
+                "Type": "Dialogue",
+                "Speaker": { "Name": "Bimo", "ID": "C002" },
+                "Line": "Hahaha, easy peasy!",
+                "Tone": "Sombong"
+            },
+            {
+              "Type": "Ambush",
+              "Attackers": ["M001"],
+              "Victims": ["C002"],
+              "Text": "Namun, sorakannya yang terlalu antusias justru memancing lebih banyak lagi. Dari segala arah, belasan goblin lain muncul, mata merah mereka berkilat lapar."
+            },
+            {
+              "Type": "Emotion",
+              "Character": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Senyum Bimo langsung luntur, digantikan ekspresi pucat pasi.",
+              "Intensity": "High"
+            },
+            {
+              "Type": "InnerThought",
+              "Character": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Anjir, ini bukan tutorial lagi! Ini raid boss mendadak! Mana party member-nya nggak ada!"
+            },
+            {
+              "Type": "Decision",
+              "Character": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Ia menjatuhkan kayu, otaknya yang biasanya malas kini berputar cepat mencari strategi. Oke, plan B: kabur! Aggro mereka terlalu banyak! Nggak ada gunanya solo lawan mob sebanyak ini!",
+              "Consequence": "Immediate"
+            },
+            {
+              "Type": "Chase",
+              "Pursuers": ["M001"],
+              "Fleeing": ["C002"],
+              "Text": "Ia berlari tunggang langgang, melompati akar pohon dan batu licin, sesekali melirik ke belakang. Jantungnya berdebar kencang, bukan karena takut, tapi karena adrenalin yang memompa seperti sedang dikejar bos terakhir."
+            },
+            {
+              "Type": "MysteryEvent",
+              "Text": "Di tengah kepanikan itu, sekelebat bayangan aneh melintas di sudut matanya, seperti glitch visual yang tak seharusnya ada di dunia \"fotorealistis\" ini. Ia mengabaikannya, fokus pada pelarian.",
+              "Impact": "Minor",
+              "ResolutionStatus": "Unresolved"
+            },
+            {
+              "Type": "InnerThought",
+              "Character": { "Name": "Bimo", "ID": "C002" },
+              "Text": "Sial, ini lebih seru dari game mana pun! Tapi kalau mati di sini, respawn-nya di mana ya?",
+              "Theme": "Humor"
+            }
+          ],
+          "Notes": "KeyEvents: Bimo jatuh ke dunia lain, Pertemuan pertama dengan goblin, Bimo melarikan diri. Glosarium istilah game ditambahkan untuk memperkuat karakter Bimo."
+        }
+      ]
+    }
+  ]
+}

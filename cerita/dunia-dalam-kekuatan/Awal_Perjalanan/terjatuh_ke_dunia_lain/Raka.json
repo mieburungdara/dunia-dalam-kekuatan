@@ -1,0 +1,72 @@
+{
+  "Meta": {
+    "Title": "1.5 - Insting Seorang Prajurit",
+    "Author": "AI / User",
+    "Genre": ["Fantasy", "Adventure", "Action"],
+    "World": "Dunia fantasi dengan sihir dan makhluk mitos.",
+    "Rules": "POV konsisten, tense present, gaya deskriptif."
+  },
+  "Chapters": [
+    {
+      "ChapterNumber": 1,
+      "Title": "Chapter 01 - Terjatuh ke Dunia Lain",
+      "Summary": "Raka, seorang mantan prajurit, terbangun di reruntuhan kuno dan langsung menggunakan insting tempurnya untuk melawan goblin, sebelum akhirnya mencari jalan keluar.",
+      "Scenes": [
+        {
+          "SceneNumber": 5,
+          "Location": {
+            "Name": "Reruntuhan Kuno",
+            "ID": "L005"
+          },
+          "Time": "Pagi",
+          "CharactersInvolved": [
+            {
+              "Name": "Raka",
+              "ID": "C003",
+              "RoleInScene": "Protagonis",
+              "Mood": "Waspada, taktis",
+              "Goal": "Bertahan hidup dan mengamankan area",
+              "Conflict": "Melawan gerombolan goblin sendirian"
+            }
+          ],
+          "POV": {
+            "CharacterName": "Raka",
+            "CharacterID": "C003"
+          },
+          "Contents": [
+            {
+              "Type": "Exposition",
+              "Text": "Raka, seorang mantan prajurit dengan naluri tempur yang tertanam kuat dalam setiap serat tubuhnya, tersentak bangun. Bukan di barak militer yang familiar, melainkan di tengah reruntuhan kuno yang diselimuti debu dan keheningan yang mencekam. Udara dingin menusuk kulitnya, dan bau lumut bercampur apek memenuhi indra penciumannya."
+            },
+            {
+              "Type": "Action",
+              "Actor": { "Name": "Raka", "ID": "C003" },
+              "Text": "Ia tidak panik. Instingnya langsung mengambil alih, tubuhnya secara otomatis bergerak ke posisi siaga, matanya menyapu sekeliling, mencari ancaman."
+            },
+            {
+              "Type": "EnemyEncounter",
+              "Text": "Hal pertama yang ia sadari adalah hilangnya sensasi aneh yang menyelimuti tubuhnya. Cahaya keperakan yang entah bagaimana memberinya rasa aman dan kekuatan, kini memudar, meninggalkan kekosongan yang terasa dingin dan rentan. Sebuah alarm internal berteriak. Benar saja, dari balik pilar-pilar yang runtuh dan tumpukan batu, beberapa pasang mata merah menyala muncul. Bukan sekadar hewan, melainkan makhluk dengan seringai buas dan geraman rendah yang mengancam. Goblin.",
+              "Enemy": "Goblin"
+            },
+            {
+              "Type": "Strategy",
+              "Character": { "Name": "Raka", "ID": "C003" },
+              "Text": "Mereka tidak hanya mendekat; mereka bergerak dalam formasi setengah lingkaran yang mengancam. Pikirannya langsung beralih ke mode tempur. Ia melihat celah di antara bebatuan, bayangan yang bisa menjadi penutup, dan ketinggian yang bisa memberinya keuntungan. Tiga dari kiri, dua dari kanan, satu di atas."
+            },
+            {
+              "Type": "BattleMove",
+              "Actor": { "Name": "Raka", "ID": "C003" },
+              "Text": "Tangannya secara otomatis mencari Perisai Menara dan Kapak Perangnya, namun hanya menemukan kekosongan. Dengan insting Pertarungan Jarak Dekat yang telah tertanam kuat dari latihannya, ia melesat. Satu goblin yang terlalu berani mendekat langsung terhuyung oleh tendangan keras ke ulu hati. Tanpa jeda, Raka berputar, menggunakan momentum untuk mendorong goblin kedua hingga terhempas ke lempengan batu yang retak."
+            },
+            {
+              "Type": "InnerThought",
+              "Character": { "Name": "Raka", "ID": "C003" },
+              "Text": "Namun, ia tahu ini hanyalah permulaan. Jumlah mereka terlalu banyak, dan reruntuhan ini, meskipun menawarkan banyak penutup, juga bisa menjadi jebakan jika ia terkepung. Ia harus mencari posisi bertahan yang lebih baik, atau setidaknya, jalan keluar. Insting prajuritnya berteriak: bertahan, beradaptasi, dan cari jalan untuk menang."
+            }
+          ],
+          "Notes": "KeyEvents: Raka jatuh ke dunia lain, Pertemuan pertama dengan goblin, Raka bertarung dan melarikan diri."
+        }
+      ]
+    }
+  ]
+}
