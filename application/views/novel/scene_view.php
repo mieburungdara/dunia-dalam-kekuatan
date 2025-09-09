@@ -1,174 +1,81 @@
-<div class="container my-4">
-    <!-- Judul Scene -->
+<div class="container py-4">
     <h1 class="mb-3">Scene: {{ @scene_name }}</h1>
+    <p class="text-muted">Novel: {{ @novel_title }} | Arc: {{ @arc_title }} | Chapter: {{ @chapter_title }}</p>
+    <p class="fst-italic mb-4">{{ @chapter_summary }}</p>
 
-    <!-- Info Novel, Arc, Chapter -->
-    <div class="mb-4 text-muted">
-        <h4>Novel: {{ @novel_title }}</h4>
-        <h5>Arc: {{ @arc_title }}</h5>
-        <h5>Chapter: {{ @chapter_title }}</h5>
-        <p>{{ @chapter_summary }}</p>
-    </div>
+    <repeat group="{{ @scene_contents }}" value="{{ @block }}">
+        <check if="{{ isset(@block['Type']) }}">
+            <!-- DIALOGUE -->
+            <check if="{{ @block['Type'] == 'Dialogue' }}">
+                <blockquote class="blockquote bg-light p-3 border-start border-4 border-success rounded">
+                    <p class="mb-1">“{{ @block['Line'] }}”</p>
+                    <footer class="blockquote-footer">
+                        {{ @block['Speaker']['Name'] ?? 'Unknown' }}
+                        <small class="text-muted">({{ @block['Tone'] ?? 'Neutral' }})</small>
+                    </footer>
+                </blockquote>
+            </check>
 
-    <!-- Konten Scene -->
-    <div class="scene-contents">
-        {{ @scene_data['Chapters'][0]['Scenes'][0]['Contents'] ? @scene_data['Chapters'][0]['Scenes'][0]['Contents'] : [] | each(content) }}
-            {{ content.Type == 'Exposition' ? '
-                <div class="card mb-3 border-info">
-                    <div class="card-header bg-info text-white">Exposition</div>
-                    <div class="card-body">
-                        <p>' ~ content.Text ~ '</p>
-                    </div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Atmosphere' ? '
-                <div class="alert alert-secondary mb-3">
-                    <strong>Atmosphere:</strong> ' ~ content.Text ~ '
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Description' ? '
-                <div class="card mb-3 border-light">
-                    <div class="card-body">
-                        <em>Description:</em> ' ~ content.Text ~ '
-                    </div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Action' ? '
-                <div class="alert alert-warning mb-3">
-                    <strong>Action by ' ~ content.Actor.Name ~ ':</strong> ' ~ content.Text ~ '
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Dialogue' ? '
+            <!-- ACTION -->
+            <check if="{{ @block['Type'] == 'Action' }}">
                 <div class="card mb-3 border-primary">
-                    <div class="card-header bg-primary text-white">' ~ content.Speaker.Name ~ ' says:</div>
-                    <div class="card-body">' ~ content.Line ~ '</div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'InnerThought' ? '
-                <div class="card mb-3 border-dark">
-                    <div class="card-body"><em>Thought of ' ~ content.Character.Name ~ ':</em> ' ~ content.Text ~ '</div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Emotion' ? '
-                <div class="alert alert-info mb-3">
-                    <strong>Emotion:</strong> ' ~ content.Text ~ '
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Clue' ? '
-                <div class="alert alert-success mb-3">
-                    <strong>Clue:</strong> ' ~ content.Text ~ '
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Conflict' ? '
-                <div class="alert alert-danger mb-3">
-                    <strong>Conflict:</strong> ' ~ content.Text ~ '
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Decision' ? '
-                <div class="card mb-3 border-warning">
-                    <div class="card-header bg-warning text-dark">Decision by ' ~ content.Character.Name ~ '</div>
                     <div class="card-body">
-                        <p>' ~ content.Text ~ '</p>
-                        <ul>
-                        {{ content.Options ? content.Options | each(opt) }}
-                            <li>{{ opt }}</li>
-                        {{ end }}
-                        </ul>
+                        <h6 class="card-title">Action: {{ @block['Actor']['Name'] ?? 'Unknown' }}</h6>
+                        <p class="card-text">{{ @block['Text'] }}</p>
+                        <small class="text-muted">Target: {{ @block['Target'] ?? '-' }} | Outcome: {{ @block['Outcome'] ?? '-' }}</small>
                     </div>
                 </div>
-            ' : '' }}
+            </check>
 
-            {{ content.Type == 'Transition' ? '
-                <hr class="my-4">
-                <p class="text-muted"><em>' ~ content.Text ~ '</em></p>
-            ' : '' }}
-
-            {{ content.Type == 'BattleMove' ? '
+            <!-- CONFLICT -->
+            <check if="{{ @block['Type'] == 'Conflict' }}">
                 <div class="alert alert-danger mb-3">
-                    <strong>Battle Move by ' ~ content.Actor.Name ~ ':</strong> ' ~ content.Text ~ '
+                    <strong>Conflict:</strong> {{ @block['Text'] }}<br>
+                    Participants: {{ implode(', ', @block['Participants'] ?? []) }} | Nature: {{ @block['Nature'] ?? '-' }}
                 </div>
-            ' : '' }}
+            </check>
 
-            {{ content.Type == 'Vision' ? '
-                <div class="card mb-3 border-info">
-                    <div class="card-header bg-info text-white">Vision of ' ~ content.Character.Name ~ '</div>
-                    <div class="card-body">' ~ content.Text ~ '</div>
+            <!-- EXPOSITION -->
+            <check if="{{ @block['Type'] == 'Exposition' }}">
+                <div class="card mb-3 bg-light text-dark">
+                    <div class="card-body">
+                        <h6 class="card-title">Exposition: {{ @block['Topic'] ?? 'World' }}</h6>
+                        <p>{{ @block['Text'] }}</p>
+                    </div>
                 </div>
-            ' : '' }}
+            </check>
 
-            {{ content.Type == 'NarratorNote' ? '
-                <div class="alert alert-secondary mb-3">
-                    <strong>Narrator Note:</strong> ' ~ content.Text ~ '
+            <!-- INNER THOUGHT -->
+            <check if="{{ @block['Type'] == 'InnerThought' }}">
+                <div class="callout callout-info mb-3 p-3 border-start border-4 border-info bg-light">
+                    <p><strong>Thought:</strong> {{ @block['Text'] }}</p>
+                    <small class="text-muted">Character: {{ @block['Character']['Name'] ?? 'Unknown' }} | Theme: {{ @block['Theme'] ?? '-' }}</small>
                 </div>
-            ' : '' }}
+            </check>
 
-            {{ content.Type == 'Travelogue' ? '
-                <div class="card mb-3 border-light">
-                    <div class="card-body"><em>Travel:</em> ' ~ content.Text ~ '</div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Flashback' ? '
-                <div class="card mb-3 border-warning">
-                    <div class="card-header bg-warning text-dark">Flashback</div>
-                    <div class="card-body">' ~ content.Text ~ '</div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Foreshadowing' ? '
-                <div class="alert alert-info mb-3">
-                    <strong>Foreshadowing:</strong> ' ~ content.Text ~ '
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Symbolism' ? '
-                <div class="card mb-3 border-primary">
-                    <div class="card-body"><em>Symbolism:</em> ' ~ content.Text ~ '</div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Prophecy' ? '
-                <div class="card mb-3 border-dark">
-                    <div class="card-header bg-dark text-white">Prophecy</div>
-                    <div class="card-body">' ~ content.Text ~ '</div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Dream' ? '
-                <div class="card mb-3 border-info">
-                    <div class="card-header bg-info text-white">Dream</div>
-                    <div class="card-body">' ~ content.Text ~ '</div>
-                </div>
-            ' : '' }}
-
-            {{ content.Type == 'Hallucination' ? '
+            <!-- CLUE -->
+            <check if="{{ @block['Type'] == 'Clue' }}">
                 <div class="alert alert-warning mb-3">
-                    <strong>Hallucination:</strong> ' ~ content.Text ~ '
+                    <strong>Clue:</strong> {{ @block['Text'] }}<br>
+                    Source: {{ @block['Source'] ?? '-' }} | Relevance: {{ @block['Relevance'] ?? '-' }}
                 </div>
-            ' : '' }}
+            </check>
 
-            {{ content.Type == 'ItemDiscovery' ? '
-                <div class="card mb-3 border-success">
-                    <div class="card-header bg-success text-white">Item Discovery</div>
-                    <div class="card-body">' ~ content.Text ~ '</div>
+            <!-- EMOTION -->
+            <check if="{{ @block['Type'] == 'Emotion' }}">
+                <div class="badge bg-secondary mb-2">Emotion ({{ @block['Character'] ?? 'Unknown' }}): {{ @block['Text'] }} ({{ @block['Intensity'] ?? '-' }})</div>
+            </check>
+
+            <!-- DIALOGUE, INNER, ACTION, ETC. lainnya bisa ditambahkan di bawah -->
+            <check if="{{ @block['Type'] != 'Dialogue' && @block['Type'] != 'Action' && @block['Type'] != 'Conflict' && @block['Type'] != 'Exposition' && @block['Type'] != 'InnerThought' && @block['Type'] != 'Clue' && @block['Type'] != 'Emotion' }}">
+                <div class="card mb-3 border-secondary">
+                    <div class="card-body">
+                        <h6 class="card-title">{{ @block['Type'] }}</h6>
+                        <p>{{ @block['Text'] ?? 'No content' }}</p>
+                    </div>
                 </div>
-            ' : '' }}
+            </check>
 
-            {{ content.Type == 'MysteryEvent' ? '
-                <div class="alert alert-dark mb-3">
-                    <strong>Mystery Event:</strong> ' ~ content.Text ~ '
-                </div>
-            ' : '' }}
-
-        {{ end }}
-    </div>
+        </check>
+    </repeat>
 </div>
