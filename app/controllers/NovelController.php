@@ -30,8 +30,6 @@ class NovelController {
             }
         }
 
-        var_dump($novels); // Debugging: Check content of $novels before passing to view
-
         $f3->set('novels', $novels);
 
         echo \Template::instance()->render('templates/header.php');

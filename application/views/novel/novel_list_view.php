@@ -1,6 +1,3 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
 <div class="container">
     <h1 class="mt-4 mb-3">Daftar Novel</h1>
 
