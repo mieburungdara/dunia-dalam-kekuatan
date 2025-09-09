@@ -4,7 +4,7 @@
     <div class="list-group">
         <?php foreach ($novels as $novel): ?>
             <a href="<?php echo $novel['url']; ?>" class="list-group-item list-group-item-action">
-                <?php echo htmlspecialchars($novel['title']); ?>
+                <?php echo $novel['title']; ?>
             </a>
         <?php endforeach; ?>
     </div>
