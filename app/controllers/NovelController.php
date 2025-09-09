@@ -130,64 +130,71 @@ class NovelController {
         echo \Template::instance()->render('templates/footer.php');
     }
 
-    function show_scene($f3, $params) {
-        $novel_slug = $params['novel_slug'];
-        $arc_name = $params['arc_name'];
-        $chapter_name = $params['chapter_name'];
-        $scene_name = $params['scene_name'];
+function show_scene($f3, $params) {
+    $novel_slug   = $params['novel_slug'];
+    $arc_name     = $params['arc_name'];
+    $chapter_name = $params['chapter_name'];
+    $scene_name   = $params['scene_name'];
 
-        $scene_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/' . $scene_name . '.json';
+    // Path ke file JSON scene
+    $scene_json_path = $f3->get('ROOT') . $f3->get('BASE') .
+        '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/' . $scene_name . '.json';
 
-        if (!file_exists($scene_json_path)) {
-            $f3->error(404);
-            return;
-        }
-
-        $json_content = file_get_contents($scene_json_path);
-        $scene_data = json_decode($json_content, true);
-
-        if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data)) {
-            error_log("NovelController: JSON decode error for " . $scene_json_path . ": " . json_last_error_msg());
-            $f3->error(500, 'Error reading scene data.');
-            return;
-        }
-
-        $scene_content_html = '';
-        if (isset($scene_data['Chapters'][0]['Scenes'][0]['Contents'])) {
-            foreach ($scene_data['Chapters'][0]['Scenes'][0]['Contents'] as $content_block) {
-                if (isset($content_block['Text'])) {
-                    $scene_content_html .= '<p>' . htmlspecialchars($content_block['Text']) . '</p>';
-                }
-            }
-        }
-
-        $chapter_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/index.json';
-        $chapter_data = [];
-        if (file_exists($chapter_index_path)) {
-            $chapter_data = json_decode(file_get_contents($chapter_index_path), true);
-        }
-
-        $arc_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/index.json';
-        $arc_data = [];
-        if (file_exists($arc_index_path)) {
-            $arc_data = json_decode(file_get_contents($arc_index_path), true);
-        }
-
-        $novel_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/index.json';
-        $novel_data = [];
-        if (file_exists($novel_index_path)) {
-            $novel_data = json_decode(file_get_contents($novel_index_path), true);
-        }
-
-        $f3->set('novel_title', $novel_data['title'] ?? 'Novel Tidak Ditemukan');
-        $f3->set('arc_title', $arc_data['title'] ?? 'Arc Tidak Ditemukan');
-        $f3->set('chapter_title', $chapter_data['title'] ?? 'Chapter Tidak Ditemukan');
-        $f3->set('chapter_summary', $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan');
-        $f3->set('scene_name', $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name));
-        $f3->set('scene_content', $scene_content_html);
-
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('novel/scene_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+    if (!file_exists($scene_json_path)) {
+        $f3->error(404);
+        return;
     }
+
+    $json_content = file_get_contents($scene_json_path);
+    $scene_data   = json_decode($json_content, true);
+
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data)) {
+        error_log("NovelController: JSON decode error for " . $scene_json_path . ": " . json_last_error_msg());
+        $f3->error(500, 'Error reading scene data.');
+        return;
+    }
+
+    // Ambil contents langsung sebagai array
+    $scene_contents = [];
+    if (isset($scene_data['Chapters'][0]['Scenes'][0]['Contents'])) {
+        $scene_contents = $scene_data['Chapters'][0]['Scenes'][0]['Contents'];
+    }
+
+    // Ambil data chapter
+    $chapter_index_path = $f3->get('ROOT') . $f3->get('BASE') .
+        '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/index.json';
+    $chapter_data = [];
+    if (file_exists($chapter_index_path)) {
+        $chapter_data = json_decode(file_get_contents($chapter_index_path), true);
+    }
+
+    // Ambil data arc
+    $arc_index_path = $f3->get('ROOT') . $f3->get('BASE') .
+        '/cerita/' . $novel_slug . '/' . $arc_name . '/index.json';
+    $arc_data = [];
+    if (file_exists($arc_index_path)) {
+        $arc_data = json_decode(file_get_contents($arc_index_path), true);
+    }
+
+    // Ambil data novel
+    $novel_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/index.json';
+    $novel_data = [];
+    if (file_exists($novel_index_path)) {
+        $novel_data = json_decode(file_get_contents($novel_index_path), true);
+    }
+
+    // Set variable untuk template
+    $f3->set('novel_title', $novel_data['title'] ?? 'Novel Tidak Ditemukan');
+    $f3->set('arc_title', $arc_data['title'] ?? 'Arc Tidak Ditemukan');
+    $f3->set('chapter_title', $chapter_data['title'] ?? 'Chapter Tidak Ditemukan');
+    $f3->set('chapter_summary', $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan');
+    $f3->set('scene_name', $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name));
+    $f3->set('scene_contents', $scene_contents); // <-- array, bukan string HTML
+
+    // Render view
+    echo \Template::instance()->render('templates/header.php');
+    echo \Template::instance()->render('novel/scene_view.php');
+    echo \Template::instance()->render('templates/footer.php');
+}
+
 }
