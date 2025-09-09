@@ -3,6 +3,9 @@
 // Muat autoloader Composer
 require_once 'vendor/autoload.php';
 
+// Explicitly include NovelController for debugging
+require_once 'app/controllers/NovelController.php';
+
 // Inisialisasi framework
 $f3 = \Base::instance();
 $f3->set('BASE','');
@@ -77,9 +80,6 @@ foreach ($placeholder_pages as $page) {
 
 // Debugging routes
 var_dump($f3->get('ROUTES'));
-var_dump($f3->get('BASE'));
-var_dump($f3->get('URI'));
-var_dump($f3->get('PATH'));
 
 // Jalankan framework
 $f3->run();
