@@ -37,9 +37,8 @@
 
             <!-- EXPOSITION -->
             <check if="{{ @block['Type'] == 'Exposition' }}">
-                <div class="card mb-3 bg-light text-dark">
+                <div class="mb-3 bg-light text-dark">
                     <div class="card-body">
-                        <h6 class="card-title">Exposition: {{ @block['Topic'] ?? 'World' }}</h6>
                         <p>{{ @block['Text'] }}</p>
                     </div>
                 </div>
