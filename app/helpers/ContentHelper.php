@@ -47,13 +47,12 @@ class ContentHelper
                 case 'EnemyEncounter':
                 case 'Ambush':
                 case 'ImminentThreat':
-                    $html .= "<p>⚠️ {$text}</p>";
+                    $html .= "<p>{$text}</p>";
                     break;
 
                 case 'UnexpectedAid':
                     $source = isset($item['Source']) ? htmlspecialchars($item['Source'], ENT_QUOTES, 'UTF-8') : 'sumber tak terduga';
-                    $html .= '<div class="alert alert-success d-flex align-items-center my-3" role="alert">';
-                    $html .= '  <span class="me-2">✨</span>';
+                    $html .= '<div class="d-flex align-items-center my-3" role="alert">';
                     $html .= "  <div>{$text} <small class=\"text-muted\">({$source})</small></div>";
                     $html .= '</div>';
                     break;
@@ -68,12 +67,12 @@ class ContentHelper
                     break;
 
                 case 'Chase':
-                    $html .= "<p class=\"chase-sequence fst-italic text-muted\">🏃‍♂️ {$text}</p>";
+                    $html .= "<p>{$text}</p>";
                     break;
 
                 case 'MysteryEvent':
                 case 'MysteriousPhenomenon':
-                    $html .= "<div class=\"alert alert-secondary my-3\">❔ {$text}</div>";
+                    $html .= "<div>{$text}</div>";
                     break;
 
                 case 'MassBattle':
