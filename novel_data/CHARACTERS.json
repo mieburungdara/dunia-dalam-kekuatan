@@ -29,7 +29,7 @@
     "MBTI": "INTJ",
     "Status": "Pendatang dari Dunia Lain (Mahasiswa)",
     "Origin": "Bumi",
-    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Mengubah pandangan hidup, memicu pencarian jalan pulang"}, {"Event": "Bertemu Bimo, Raka, Mira, Lina", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membentuk kelompok, mulai merasa bertanggung jawab"}],
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Mengubah pandangan hidup, memicu pencarian jalan pulang"}, {"Event": "Bertemu Bimo, Raka, Mira, Lina", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membentuk kelompok, mulai merasa bertanggung jawab"}, {"Event": "Mengambil alih kepemimpinan kelompok", "Chapter": "03_perjalanan_berlanjut", "Impact": "Meningkatkan rasa tanggung jawab dan kepercayaan diri"}],
     "Goals": ["Menemukan cara kembali ke Bumi", "Melindungi kelompoknya", "Memahami misteri Eryndor"],
     "Obstacles": ["Kurangnya pengetahuan tentang Eryndor", "Sifat skeptisnya sendiri", "Ancaman dari faksi yang tidak dikenal"],
     "InternalMonologue": "Bagaimana cara kembali? Apakah ini semua nyata? Aku harus tetap logis dan mencari solusi.",

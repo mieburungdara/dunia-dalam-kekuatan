@@ -1,0 +1,32 @@
+{
+  "scene_name": "",
+  "chapter": "",
+  "location": "",
+  "time_of_day": "",
+  "date": "",
+  "pov_character": "",
+  "summary": "",
+  "key_events_in_scene": [],
+  "characters_in_scene": [
+    {
+      "character_id": null,
+      "character_name": "",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": ""
+      },
+      "actions_in_scene": [],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": ""
+      }
+    }
+  ],
+  "plot_points_advanced": [],
+  "world_building_revealed": [],
+  "notes": ""
+}
