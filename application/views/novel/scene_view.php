@@ -78,7 +78,7 @@
 
             <!-- EMOTION -->
             <check if="{{ @block['Type'] == 'Emotion' }}">
-                <p>Emotion ({{ @block['Character']['Name'] ?? '-' }}): {{ @block['Text'] }} ({{ @block['Intensity'] ?? '-' }})</p>
+                <p>{{ @block['Text'] }}</p>
                 <div class="dev-mode-info hide mt-2 text-muted small">
                     Type: Emotion | Character: {{ @block['Character']['Name'] ?? '-' }} | Intensity: {{ @block['Intensity'] ?? '-' }}
                 </div>
