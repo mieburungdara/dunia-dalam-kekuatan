@@ -78,8 +78,5 @@ foreach ($placeholder_pages as $page) {
     });
 }
 
-// Debugging routes
-var_dump($f3->get('ROUTES'));
-
 // Jalankan framework
 $f3->run();
