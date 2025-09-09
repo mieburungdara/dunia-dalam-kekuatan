@@ -1,15 +1,13 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
 <div class="container">
-    <h1 class="mt-4 mb-3">Arc: <?php echo htmlspecialchars($arc_title); ?></h1>
-    <h2 class="mb-3"><small class="text-muted">Novel: <?php echo htmlspecialchars($novel_slug); ?></small></h2>
+    <h1 class="mt-4 mb-3">Arc: {{ @arc_title }}</h1>
+    <h2 class="mb-3"><small class="text-muted">Arc Name: {{ @arc_name }}</small></h2>
+    <h3 class="mb-4"><small class="text-muted">Novel Slug: {{ @novel_slug }}</small></h3>
 
     <div class="list-group">
-        <?php foreach ($chapters as $chapter): ?>
-            <a href="<?php echo $chapter['url']; ?>" class="list-group-item list-group-item-action">
-                <?php echo htmlspecialchars($chapter['name']); ?>
+        <repeat group="{{ @chapters }}" value="{{ @chapter }}">
+            <a href="{{ @chapter.url }}" class="list-group-item list-group-item-action">
+                {{ @chapter.title }}
             </a>
-        <?php endforeach; ?>
+        </repeat>
     </div>
 </div>
