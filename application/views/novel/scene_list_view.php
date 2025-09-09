@@ -5,8 +5,12 @@
 
     <div class="list-group">
         <repeat group="{{ @scenes }}" value="{{ @scene }}">
-            <a href="{{ @scene.url }}" class="list-group-item list-group-item-action">
-                {{ @scene.title }}
+        <a href="{{ @BASE }}/read/{{@novel_slug}}/{{@arc_name}}/{{@chapter_name}}/{{@scene.scene_slug}}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">{{ @scene.title }}</h5>
+                </div>
+                <p class="mb-1">{{ @scene.summary }}</p>
+                <small>Sudut Pandang: {{ @scene.pov_character_name }}</small>
             </a>
         </repeat>
     </div>

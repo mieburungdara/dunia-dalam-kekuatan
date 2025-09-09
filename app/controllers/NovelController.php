@@ -94,6 +94,8 @@ class NovelController {
     }
 
     function show_chapter_scenes($f3, $params) {
+        require_once __DIR__ . '/../helpers/CharacterHelper.php';
+
         $novel_slug = $params['novel_slug'];
         $arc_name = $params['arc_name'];
         $chapter_name = $params['chapter_name'];
@@ -105,6 +107,13 @@ class NovelController {
             $decoded_scenes = json_decode($json_content, true);
 
             if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_scenes)) {
+                foreach ($decoded_scenes as &$scene) {
+                    if (isset($scene['pov_character_id'])) {
+                        $scene['pov_character_name'] = CharacterHelper::getCharacterNameById($scene['pov_character_id']);
+                    } else {
+                        $scene['pov_character_name'] = 'N/A';
+                    }
+                }
                 $scene_list = $decoded_scenes;
             } else {
                 error_log("NovelController: JSON decode error for " . $scenes_json_path . ": " . json_last_error_msg());
@@ -131,6 +140,8 @@ class NovelController {
     }
 
 function show_scene($f3, $params) {
+    require_once __DIR__ . '/../helpers/ContentHelper.php';
+
     $novel_slug   = $params['novel_slug'];
     $arc_name     = $params['arc_name'];
     $chapter_name = $params['chapter_name'];
@@ -159,6 +170,9 @@ function show_scene($f3, $params) {
     if (isset($scene_data['Chapters'][0]['Scenes'][0]['Contents'])) {
         $scene_contents = $scene_data['Chapters'][0]['Scenes'][0]['Contents'];
     }
+    
+    // Gunakan ContentHelper untuk merender HTML
+    $rendered_content = ContentHelper::render($scene_contents);
 
     // Ambil data chapter
     $chapter_index_path = $f3->get('ROOT') . $f3->get('BASE') .
@@ -189,11 +203,9 @@ function show_scene($f3, $params) {
     $f3->set('chapter_title', $chapter_data['title'] ?? 'Chapter Tidak Ditemukan');
     $f3->set('chapter_summary', $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan');
     $f3->set('scene_name', $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name));
-    $f3->set('scene_contents', $scene_contents);
     
-
-    // Tambahkan baris ini agar template bisa mengakses array mentah
-    $f3->set('scene_data', $scene_data);
+    // Teruskan HTML yang sudah dirender ke view
+    $f3->set('rendered_content', $rendered_content);
 
     echo \Template::instance()->render('templates/header.php');
     echo \Template::instance()->render('novel/scene_view.php');
