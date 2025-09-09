@@ -76,9 +76,8 @@ class ContentHelper
                     break;
 
                 case 'MassBattle':
-                    $html .= '<div class="card my-4 text-white bg-dark">';
-                    $html .= '  <div class="card-header">⚔️ Pertempuran Besar</div>';
-                    $html .= "  <div class=\"card-body\"><p class=\"card-text\">{$text}</p></div>";
+                    $html .= '<div class="my-4">';
+                    $html .= "<p>{$text}</p>";
                     $html .= '</div>';
                     break;
 
