@@ -2,7 +2,7 @@
 
     <h2 class="mb-4">Scene Contents</h2>
 
-    <repeat group="{{ @contents }}" value="{{ @c }}">
+    <repeat group="{{ @scene_content }}" value="{{ @c }}">
         <div class="card mb-3 shadow-sm">
             <div class="card-header bg-light d-flex justify-content-between align-items-center">
                 <span class="fw-bold">{{ @c['Type'] }}</span>
