@@ -9,6 +9,7 @@
     <style>
         body { background-color: #f8f9fa; }
         .navbar { margin-bottom: 2rem; }
+        .hide { display: none; }
     </style>
 </head>
 <body>

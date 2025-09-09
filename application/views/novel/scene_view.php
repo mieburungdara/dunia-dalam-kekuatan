@@ -13,6 +13,9 @@
                         {{ @block['Speaker']['Name'] ?? 'Unknown' }}
                         <small class="text-muted">({{ @block['Tone'] ?? 'Neutral' }})</small>
                     </footer>
+                    <div class="dev-mode-info hide mt-2 text-muted small">
+                        Type: Dialogue | Speaker: {{ @block['Speaker']['Name'] ?? 'Unknown' }} | Tone: {{ @block['Tone'] ?? 'Neutral' }}
+                    </div>
                 </blockquote>
             </check>
 
@@ -23,6 +26,9 @@
                         <h6 class="card-title">Action: {{ @block['Actor']['Name'] ?? 'Unknown' }}</h6>
                         <p class="card-text">{{ @block['Text'] }}</p>
                         <small class="text-muted">Target: {{ @block['Target'] ?? '-' }} | Outcome: {{ @block['Outcome'] ?? '-' }}</small>
+                        <div class="dev-mode-info hide mt-2 text-muted small">
+                            Type: Action | Actor: {{ @block['Actor']['Name'] ?? 'Unknown' }} | Target: {{ @block['Target'] ?? '-' }} | Outcome: {{ @block['Outcome'] ?? '-' }}
+                        </div>
                     </div>
                 </div>
             </check>
@@ -32,14 +38,21 @@
                 <div class="alert alert-danger mb-3">
                     <strong>Conflict:</strong> {{ @block['Text'] }}<br>
                     Participants: {{ implode(', ', @block['Participants'] ?? []) }} | Nature: {{ @block['Nature'] ?? '-' }}
+                    <div class="dev-mode-info hide mt-2 text-muted small">
+                        Type: Conflict | Participants: {{ implode(', ', @block['Participants'] ?? []) }} | Nature: {{ @block['Nature'] ?? '-' }}
+                    </div>
                 </div>
             </check>
 
             <!-- EXPOSITION -->
             <check if="{{ @block['Type'] == 'Exposition' }}">
-                <div class="mb-3 bg-light text-dark">
+                <div class="card mb-3 bg-light text-dark">
                     <div class="card-body">
+                        <h6 class="card-title">Exposition: {{ @block['Topic'] ?? 'World' }}</h6>
                         <p>{{ @block['Text'] }}</p>
+                        <div class="dev-mode-info hide mt-2 text-muted small">
+                            Type: Exposition | Topic: {{ @block['Topic'] ?? 'World' }} | Method: {{ @block['Method'] ?? '-' }}
+                        </div>
                     </div>
                 </div>
             </check>
@@ -49,6 +62,9 @@
                 <div class="callout callout-info mb-3 p-3 border-start border-4 border-info bg-light">
                     <p><strong>Thought:</strong> {{ @block['Text'] }}</p>
                     <small class="text-muted">Character: {{ @block['Character']['Name'] ?? 'Unknown' }} | Theme: {{ @block['Theme'] ?? '-' }}</small>
+                    <div class="dev-mode-info hide mt-2 text-muted small">
+                        Type: InnerThought | Character: {{ @block['Character']['Name'] ?? 'Unknown' }} | Theme: {{ @block['Theme'] ?? '-' }} | Trigger: {{ @block['Trigger'] ?? '-' }}
+                    </div>
                 </div>
             </check>
 
@@ -57,12 +73,18 @@
                 <div class="alert alert-warning mb-3">
                     <strong>Clue:</strong> {{ @block['Text'] }}<br>
                     Source: {{ @block['Source'] ?? '-' }} | Relevance: {{ @block['Relevance'] ?? '-' }}
+                    <div class="dev-mode-info hide mt-2 text-muted small">
+                        Type: Clue | Source: {{ @block['Source'] ?? '-' }} | Relevance: {{ @block['Relevance'] ?? '-' }}
+                    </div>
                 </div>
             </check>
 
             <!-- EMOTION -->
             <check if="{{ @block['Type'] == 'Emotion' }}">
                 <div class="badge bg-secondary mb-2">Emotion ({{ @block['Character']['Name'] ?? '-' }}): {{ @block['Text'] }} ({{ @block['Intensity'] ?? '-' }})</div>
+                <div class="dev-mode-info hide mt-2 text-muted small">
+                    Type: Emotion | Character: {{ @block['Character']['Name'] ?? '-' }} | Intensity: {{ @block['Intensity'] ?? '-' }}
+                </div>
             </check>
 
             <!-- DIALOGUE, INNER, ACTION, ETC. lainnya bisa ditambahkan di bawah -->
@@ -71,6 +93,9 @@
                     <div class="card-body">
                         <h6 class="card-title">{{ @block['Type'] }}</h6>
                         <p>{{ @block['Text'] ?? 'No content' }}</p>
+                        <div class="dev-mode-info hide mt-2 text-muted small">
+                            Type: {{ @block['Type'] }} | Text: {{ @block['Text'] ?? 'No content' }}
+                        </div>
                     </div>
                 </div>
             </check>
