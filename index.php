@@ -38,7 +38,9 @@ $f3->route('GET /novel', 'NovelController->list_novels');
 $f3->route('GET /novel/@novel_slug', 'NovelController->show_novel_arcs');
 $f3->route('GET /novel/@novel_slug/@arc_name', 'NovelController->show_arc_chapters');
 $f3->route('GET /novel/@novel_slug/@arc_name/@chapter_name', 'NovelController->show_chapter_scenes');
-$f3->route('GET /novel/@novel_slug/@arc_name/@chapter_name/@scene_name', 'NovelController->show_scene');
+
+// Rute baru untuk membaca adegan dengan URL yang lebih bersih
+$f3->route('GET /read/@novel_slug/@arc_name/@chapter_name/@scene_name', 'NovelController->show_scene');
 
 // Definisikan rute untuk halaman utama
 $f3->route('GET /',
