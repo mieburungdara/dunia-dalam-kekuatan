@@ -21,7 +21,7 @@ class ContentHelper
             switch ($item['Type'] ?? 'unknown') {
                 case 'Exposition':
                     $html .= "<p>{$text}</p>";
-                    $html .= '<div class="hide small text-muted border-top mt-1 pt-1"><em>Type: Exposition</em></div>\n';
+                    $html .= '<div class="hide small text-muted border-top mt-1 pt-1"><em>Type: Exposition</em></div>';
                     break;
 
                 case 'Action':
@@ -40,14 +40,14 @@ class ContentHelper
                     $html .= "<p class=\"inner-thought\"><i>\"";
                     $html .= "{$text}";
                     $html .= "\"</i></p>";
-                    $html .= "<div class=\"hide small text-muted border-top mt-1 pt-1\"><em>Type: InnerThought | Character: {$charName}</em></div>\n";
+                    $html .= "<div class=\"hide small text-muted border-top mt-1 pt-1\"><em>Type: InnerThought | Character: {$charName}</em></div>";
                     break;
 
                 case 'Emotion':
                     $charName = isset($item['Character']['Name']) ? htmlspecialchars($item['Character']['Name'], ENT_QUOTES, 'UTF-8') : 'Seseorang';
                     $intensity = isset($item['Intensity']) ? htmlspecialchars($item['Intensity'], ENT_QUOTES, 'UTF-8') : '-';
                     $html .= "<p class=\"emotion\">{$text}</p>";
-                    $html .= "<div class=\"hide small text-muted border-top mt-1 pt-1\"><em>Type: Emotion | Character: {$charName} | Intensity: {$intensity}</em></div>\n";
+                    $html .= "<div class=\"hide small text-muted border-top mt-1 pt-1\"><em>Type: Emotion | Character: {$charName} | Intensity: {$intensity}</em></div>";
                     break;
 
                 default:
