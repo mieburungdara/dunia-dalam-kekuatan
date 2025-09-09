@@ -107,11 +107,16 @@ class NovelController {
             $decoded_scenes = json_decode($json_content, true);
 
             if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_scenes)) {
-                foreach ($decoded_scenes as &$scene) {
+                foreach ($decoded_scenes as &$scene) { // Gunakan reference untuk modifikasi
+                    // Tambahkan nama karakter POV jika ID ada
                     if (isset($scene['pov_character_id'])) {
                         $scene['pov_character_name'] = CharacterHelper::getCharacterNameById($scene['pov_character_id']);
                     } else {
-                        $scene['pov_character_name'] = 'N/A';
+                        $scene['pov_character_name'] = 'Tidak ditentukan'; // Default value
+                    }
+                    // Pastikan summary ada
+                    if (!isset($scene['summary'])) {
+                        $scene['summary'] = 'Ringkasan belum tersedia.'; // Default value
                     }
                 }
                 $scene_list = $decoded_scenes;

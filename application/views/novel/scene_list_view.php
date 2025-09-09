@@ -5,7 +5,7 @@
 
     <div class="list-group">
         <repeat group="{{ @scenes }}" value="{{ @scene }}">
-        <a href="{{ @BASE }}/read/{{@novel_slug}}/{{@arc_name}}/{{@chapter_name}}/{{@scene.scene_slug}}" class="list-group-item list-group-item-action">
+        <a href="{{ @BASE }}/read/{{@novel_slug}}/{{@arc_name}}/{{@chapter_name}}/{{@scene.slug}}" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">{{ @scene.title }}</h5>
                 </div>
