@@ -1,8 +1,0 @@
-<div class="container">
-    <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold"><?php echo htmlspecialchars($title); ?></h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4"><?php echo htmlspecialchars($content); ?></p>
-        </div>
-    </div>
-</div>
