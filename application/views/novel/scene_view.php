@@ -56,7 +56,7 @@
 
             <!-- INNER THOUGHT -->
             <check if="{{ @block['Type'] == 'InnerThought' }}">
-                <div class="callout callout-info mb-3 p-3 border-start border-4 border-info bg-light">
+                <div class="callout callout-info mb-3 ps-3 border-start border-4 border-info bg-light">
                     <small class="text-muted">{{ @block['Character']['Name'] ?? 'Unknown' }}</small>
                     <p>{{ @block['Text'] }}</p>
                     <div class="dev-mode-info hide mt-2 text-muted small">

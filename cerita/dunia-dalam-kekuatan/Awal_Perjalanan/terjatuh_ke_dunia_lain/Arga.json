@@ -60,7 +60,7 @@
             },
             {
               "Type": "Exposition",
-              "Text": "Namun dari semak lain, muncul lebih banyak goblin, total lima ekor, mendekat dengan tatapan lapar. Arga menelan ludah, tapi tetap tenang."
+              "Text": "Namun dari semak lain, muncul lebih banyak goblin, total lima ekor, mendekat dengan tatapan lapar. Arga menelan ludah, tapi tetap tenang. Dengan Analisis Kelemahan yang tajam, ia menyimpulkan: "
             },
             {
               "Type": "InnerThought",
@@ -68,7 +68,7 @@
                 "Name": "Arga",
                 "ID": "C001"
               },
-              "Text": "Dengan Analisis Kelemahan yang tajam, ia menyimpulkan: satu lawan satu mungkin menang. Lima lawan satu? Peluang nol. Logika sederhana: bertahan = mati. Strategi terbaik = kabur."
+              "Text": "Satu lawan satu mungkin menang. Lima lawan satu? Peluang nol. Logika sederhana: bertahan = mati. Strategi terbaik = kabur."
             },
             {
               "Type": "Action",
