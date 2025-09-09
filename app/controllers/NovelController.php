@@ -138,7 +138,7 @@ class NovelController {
 
         $base_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name;
 
-        $scene_files = glob($base_path . '/*' . $scene_name . '.md');
+        $scene_files = glob($base_path . '/*' . $scene_name . '.json');
 
         if (empty($scene_files)) {
             $f3->error(404);
