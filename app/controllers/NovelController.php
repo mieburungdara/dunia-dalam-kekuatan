@@ -182,6 +182,7 @@ class NovelController {
         $f3->set('novel_title', $novel_data['title'] ?? 'Novel Tidak Ditemukan');
         $f3->set('arc_title', $arc_data['title'] ?? 'Arc Tidak Ditemukan');
         $f3->set('chapter_title', $chapter_data['title'] ?? 'Chapter Tidak Ditemukan');
+        $f3->set('chapter_summary', $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan');
         $f3->set('scene_name', $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name));
         $f3->set('scene_content', $scene_content_html);
 
