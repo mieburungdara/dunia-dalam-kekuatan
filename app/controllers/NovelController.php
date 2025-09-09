@@ -153,8 +153,8 @@ class NovelController {
         $scene_name   = $params['scene_name'];
 
         // --- Start of Navigation Logic ---
-        $prev_link_url = null;
-        $next_link_url = null;
+        $prev_link = null;
+        $next_link = null;
 
         // 1. Get current chapter's scenes
         $scenes_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/scenes.json';
@@ -172,19 +172,25 @@ class NovelController {
                 if ($current_scene_index !== -1) {
                     // Intra-chapter navigation
                     if ($current_scene_index > 0) {
-                        $prev_slug = $scenes_list[$current_scene_index - 1]['slug'];
-                        $prev_link_url = "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$chapter_name}/{$prev_slug}";
+                        $prev_scene_obj = $scenes_list[$current_scene_index - 1];
+                        $prev_link = [
+                            'url' => "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$chapter_name}/{$prev_scene_obj['slug']}",
+                            'title' => $prev_scene_obj['title']
+                        ];
                     }
                     if ($current_scene_index < count($scenes_list) - 1) {
-                        $next_slug = $scenes_list[$current_scene_index + 1]['slug'];
-                        $next_link_url = "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$chapter_name}/{$next_slug}";
+                        $next_scene_obj = $scenes_list[$current_scene_index + 1];
+                        $next_link = [
+                            'url' => "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$chapter_name}/{$next_scene_obj['slug']}",
+                            'title' => $next_scene_obj['title']
+                        ];
                     }
                 }
             }
         }
 
         // 2. Inter-chapter navigation (if needed)
-        if ($prev_link_url === null || $next_link_url === null) {
+        if ($prev_link === null || $next_link === null) {
             $chapters_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/chapters.json';
             if (file_exists($chapters_json_path)) {
                 $chapters_list = json_decode(file_get_contents($chapters_json_path), true);
@@ -199,26 +205,32 @@ class NovelController {
 
                     if ($current_chapter_index !== -1) {
                         // Find NEXT chapter's first scene
-                        if ($next_link_url === null && $current_chapter_index < count($chapters_list) - 1) {
+                        if ($next_link === null && $current_chapter_index < count($chapters_list) - 1) {
                             $next_chapter_slug = $chapters_list[$current_chapter_index + 1]['slug'];
                             $next_chapter_scenes_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $next_chapter_slug . '/scenes.json';
                             if (file_exists($next_chapter_scenes_path)) {
                                 $next_chapter_scenes = json_decode(file_get_contents($next_chapter_scenes_path), true);
                                 if (!empty($next_chapter_scenes)) {
-                                    $first_scene_slug = $next_chapter_scenes[0]['slug'];
-                                    $next_link_url = "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$next_chapter_slug}/{$first_scene_slug}";
+                                    $first_scene_obj = $next_chapter_scenes[0];
+                                    $next_link = [
+                                        'url' => "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$next_chapter_slug}/{$first_scene_obj['slug']}",
+                                        'title' => $first_scene_obj['title']
+                                    ];
                                 }
                             }
                         }
                         // Find PREVIOUS chapter's last scene
-                        if ($prev_link_url === null && $current_chapter_index > 0) {
+                        if ($prev_link === null && $current_chapter_index > 0) {
                             $prev_chapter_slug = $chapters_list[$current_chapter_index - 1]['slug'];
                             $prev_chapter_scenes_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $prev_chapter_slug . '/scenes.json';
                             if (file_exists($prev_chapter_scenes_path)) {
                                 $prev_chapter_scenes = json_decode(file_get_contents($prev_chapter_scenes_path), true);
                                 if (!empty($prev_chapter_scenes)) {
-                                    $last_scene_slug = end($prev_chapter_scenes)['slug'];
-                                    $prev_link_url = "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$prev_chapter_slug}/{$last_scene_slug}";
+                                    $last_scene_obj = end($prev_chapter_scenes);
+                                    $prev_link = [
+                                        'url' => "{$f3->get('BASE')}/read/{$novel_slug}/{$arc_name}/{$prev_chapter_slug}/{$last_scene_obj['slug']}",
+                                        'title' => $last_scene_obj['title']
+                                    ];
                                 }
                             }
                         }
@@ -280,8 +292,8 @@ class NovelController {
         $f3->set('scene_name', $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name));
         
         $f3->set('rendered_content', $rendered_content);
-        $f3->set('prev_link_url', $prev_link_url);
-        $f3->set('next_link_url', $next_link_url);
+        $f3->set('prev_link', $prev_link);
+        $f3->set('next_link', $next_link);
 
         echo \Template::instance()->render('templates/header.php');
         echo \Template::instance()->render('novel/scene_view.php');
