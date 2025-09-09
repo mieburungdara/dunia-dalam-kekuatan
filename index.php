@@ -53,7 +53,7 @@ $f3->route('GET /',
 
         // Render view gabungan
         echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('home_view.php');
+        echo \Template::instance()->render('home_view..php');
         echo \Template::instance()->render('templates/footer.php');
     }
 );
@@ -74,6 +74,9 @@ foreach ($placeholder_pages as $page) {
         echo \Template::instance()->render('templates/footer.php');
     });
 }
+
+// Debugging routes
+var_dump($f3->get('ROUTES'));
 
 // Jalankan framework
 $f3->run();
