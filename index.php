@@ -56,7 +56,7 @@ $f3->route('GET /',
 
         // Render view gabungan
         echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('home_view..php');
+        echo \Template::instance()->render('home_view.php');
         echo \Template::instance()->render('templates/footer.php');
     }
 );
