@@ -20,7 +20,6 @@ class NovelController {
         }
 
         $f3->set('novels', $novels);
-var_dump($f3->get('novels'));
         echo \Template::instance()->render('templates/header.php');
         echo \Template::instance()->render('novel/novel_list_view.php');
         echo \Template::instance()->render('templates/footer.php');
