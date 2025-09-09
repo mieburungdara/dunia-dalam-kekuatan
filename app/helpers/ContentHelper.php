@@ -46,13 +46,13 @@ class ContentHelper
                     break;
 
                 case 'Emotion':
-                    $html .= "<p class=\"emotion fst-italic text-muted\">{$text}</p>";
+                    $html .= "<p class=\"fst-italic text-muted\">{$text}</p>";
                     break;
 
                 case 'EnemyEncounter':
                 case 'Ambush':
                 case 'ImminentThreat':
-                    $html .= "<div class=\"alert alert-warning my-3\">{$text}</div>";
+                    $html .= "<p class=\"fst-italic text-muted\">{$text}</p>";
                     break;
 
                 case 'UnexpectedAid':
