@@ -23,9 +23,9 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="<?php echo base_url('novel'); ?>">Novel</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Karakter</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Glosarium</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('karakter'); ?>">Karakter</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('glosarium'); ?>">Glosarium</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('faq'); ?>">FAQ</a></li>
             </ul>
         </div>
     </div>
