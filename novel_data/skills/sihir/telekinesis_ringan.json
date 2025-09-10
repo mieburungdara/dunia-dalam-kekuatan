@@ -1,0 +1,29 @@
+{
+  "ID": "S014",
+  "Name": "Telekinesis Ringan",
+  "Category": "Sihir",
+  "ShortDescription": "Pikiran adalah kekuatan, dan dunia adalah mainannya.",
+  "Description": "Kemampuan pemula dalam menggerakkan objek kecil dengan pikiran, tanpa kontak fisik langsung.",
+  "Mechanism": {
+    "Activation": "Aktif (membutuhkan konsentrasi)",
+    "Cost": "Mana/Aether (ringan)",
+    "Range": "Jarak dekat (beberapa meter)",
+    "Duration": "Beberapa detik",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak efektif untuk objek berat atau besar.",
+    "Weaknesses": "Dapat menyebabkan sakit kepala atau kelelahan mental jika digunakan berlebihan."
+  },
+  "Evolution": {
+    "Novice": "Mampu menggerakkan objek sangat ringan (misal: pena, daun) dengan kesulitan.",
+    "Adept": "Mampu menggerakkan objek ringan (misal: buku, batu kecil) dengan lebih mudah, dan melakukan dorongan kecil.",
+    "Master": "Mampu menggerakkan objek berukuran sedang (misal: kursi, senjata ringan), dan melakukan tarikan atau dorongan yang lebih kuat.",
+    "Ascendant": "Mampu menggerakkan objek besar, menciptakan medan gaya, atau bahkan mengangkat diri sendiri untuk terbang."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill sihir lain, kecerdasan, atau fokus mental.",
+    "Conflict": "Lingkungan yang bising atau kurangnya konsentrasi."
+  },
+  "LoreAndHistory": "Telekinesis Ringan sering dianggap sebagai langkah pertama menuju penguasaan sihir pikiran yang lebih tinggi. Skill ini adalah bukti bahwa kekuatan tidak selalu berasal dari otot atau mantra yang diucapkan, tetapi juga dari kehendak murni."
+}
