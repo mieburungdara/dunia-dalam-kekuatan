@@ -1,23 +1,122 @@
 [
   {
-    "event_name": "Perang Besar Pertama",
-    "date": "Tahun 0 AE",
-    "description": "Konflik global yang mengubah lanskap dunia dan memicu dimulainya Era Aether.",
-    "significance": "Titik awal kalender AE, membentuk dasar politik dan geografi dunia.",
-    "related_novels": ["Semua novel berlatar setelah ini"]
+    "id": 1,
+    "event_name": "Perang Besar Pertama (The First Great War)",
+    "date": "Berakhir pada Tahun 0 AE",
+    "description": "Konflik global masif yang melibatkan hampir semua ras dan kerajaan. Penggunaan sihir dan Relic kuno secara besar-besaran menyebabkan kehancuran luas dan mengubah geografi dunia. Perang ini berakhir dengan Perjanjian Aethelgard yang rapuh.",
+    "significance": "Menandai akhir dari Era Kuno dan dimulainya Era Aether (AE). Banyak pengetahuan dan teknologi kuno hilang. Kerajaan-kerajaan besar runtuh dan yang baru mulai terbentuk.",
+    "related_novels": ["Latar belakang sejarah untuk semua novel"],
+    "impact": {
+      "politik": "Struktur kekuasaan global bergeser total, aliansi baru terbentuk dari sisa-sisa kerajaan lama.",
+      "geografis": "Beberapa daratan hancur atau berubah secara drastis, menciptakan zona sihir liar.",
+      "sosial": "Trauma perang menyebabkan ketidakpercayaan antar ras yang bertahan selama berabad-abad."
+    }
   },
   {
+    "id": 2,
+    "event_name": "Pendirian Kerajaan Eldoria",
+    "date": "Sekitar Tahun 50 AE",
+    "description": "Didirikan dari sisa-sisa aliansi manusia dan elf setelah Perang Besar Pertama. Menjadi salah satu kerajaan paling stabil dan kuat di benua tengah.",
+    "significance": "Pusat politik dan budaya di wilayah tersebut. Sering menjadi latar utama dalam banyak cerita.",
+    "related_novels": ["Dunia dalam Kekuatan"],
+    "impact": {
+      "politik": "Menciptakan kekuatan dominan di benua tengah yang menjaga stabilitas regional.",
+      "sosial": "Menjadi contoh keberhasilan aliansi antar ras (manusia dan elf)."
+    }
+  },
+  {
+    "id": 3,
+    "event_name": "Wabah Bayangan (The Shadow Plague)",
+    "date": "Tahun 450-460 AE",
+    "description": "Wabah misterius yang menyebar di benua selatan, mengubah makhluk hidup menjadi monster bayangan. Wabah ini berhasil dihentikan oleh sekelompok penyihir kuat yang mengorbankan diri.",
+    "significance": "Meninggalkan 'Tanah Terluka' (Wounded Lands) yang berbahaya dan penuh monster. Menjadi pengingat akan ancaman dari dimensi bayangan.",
+    "related_novels": ["Referensi sejarah dalam 'Dunia dalam Kekuatan'"],
+    "impact": {
+      "geografis": "Menciptakan zona terkontaminasi permanen (Tanah Terluka) yang tidak bisa dihuni.",
+      "sosial": "Menimbulkan ketakutan mendalam terhadap sihir bayangan dan entitas dari dimensi lain."
+    }
+  },
+  {
+    "id": 4,
     "event_name": "Kelahiran Ardan",
     "date": "Hari ke-10 Bulan Terra, Tahun 1000 AE",
-    "description": "Lahirnya Ardan, sang Gembala Takdir.",
-    "significance": "Karakter utama 'Dunia dalam Kekuatan' lahir.",
-    "related_novels": ["Dunia dalam Kekuatan"]
+    "description": "Ardan lahir di desa kecil Oakvale, di perbatasan Kerajaan Eldoria. Tumbuh sebagai seorang gembala sederhana.",
+    "significance": "Kelahiran sang protagonis utama, 'Gembala Takdir'.",
+    "related_novels": ["Dunia dalam Kekuatan"],
+    "impact": {
+      "personal": "Memulai alur hidup karakter yang akan menjadi pusat cerita."
+    }
   },
   {
-    "event_name": "Ardan Menemukan Aries",
+    "id": 5,
+    "event_name": "Serangan Pertama Kegelapan",
+    "date": "Hari ke-5 Bulan Umbra, Tahun 1022 AE",
+    "description": "Sebuah desa terpencil di pegunungan utara diserang dan dihancurkan oleh makhluk kegelapan. Berita ini menyebar perlahan dan dianggap sebagai serangan monster biasa.",
+    "significance": "Tanda pertama kembalinya kekuatan gelap yang akan dihadapi Ardan. Awal dari kebangkitan ancaman besar.",
+    "related_novels": ["Dunia dalam Kekuatan"],
+    "impact": {
+      "dunia": "Menjadi insiden pemicu yang pada awalnya diabaikan oleh penguasa.",
+      "narasi": "Memberikan pertanda (foreshadowing) akan konflik yang lebih besar."
+    }
+  },
+  {
+    "id": 6,
+    "event_name": "Ardan Menerima Panggilan Takdir",
+    "date": "Hari ke-14 Bulan Lumina, Tahun 1023 AE",
+    "description": "Saat badai Aether yang aneh, Ardan tanpa sengaja menemukan sebuah Relic kuno yang tersembunyi. Relic tersebut menunjukkan visi tentang ancaman yang akan datang dan perannya sebagai Gembala Takdir.",
+    "significance": "Momen pemicu yang memulai perjalanan Ardan.",
+    "related_novels": ["Dunia dalam Kekuatan: Awal Perjalanan"],
+    "impact": {
+      "personal_ardan": "Mengubah hidupnya dari seorang gembala menjadi petualang dengan tujuan besar.",
+      "magis": "Mengaktifkan kembali sebuah Relic kuno yang telah lama tertidur."
+    }
+  },
+  {
+    "id": 7,
+    "event_name": "Pertemuan dengan Aries",
     "date": "Hari ke-15 Bulan Lumina, Tahun 1023 AE",
-    "description": "Ardan bertemu dengan Aries, Penjaga Zodiak pertama.",
-    "significance": "Awal perjalanan Ardan sebagai Gembala Takdir.",
-    "related_novels": ["Dunia dalam Kekuatan: Awal Perjalanan"]
+    "description": "Mengikuti petunjuk dari visinya, Ardan melakukan perjalanan ke reruntuhan kuno dan bertemu dengan Aries, sang Ksatria Zodiak pertama, yang sedang melawan monster kegelapan.",
+    "significance": "Penjaga Zodiak pertama bergabung dengan Ardan. Awal dari terbentuknya 12 Penjaga Zodiak.",
+    "related_novels": ["Dunia dalam Kekuatan: Awal Perjalanan"],
+    "impact": {
+      "grup": "Terbentuknya inti dari kelompok 12 Penjaga Zodiak.",
+      "personal_ardan": "Mendapatkan sekutu, pelindung, dan mentor pertama."
+    }
+  },
+  {
+    "id": 8,
+    "event_name": "Perjalanan ke Kota Benteng, Citadel",
+    "date": "Bulan Ignis - Terra, Tahun 1023 AE",
+    "description": "Ardan dan Aries melakukan perjalanan melintasi Hutan Gelap menuju Citadel, sebuah kota benteng yang terkenal dengan para petarung dan pandai besinya. Di sini mereka berharap menemukan informasi tentang Penjaga Zodiak lainnya.",
+    "significance": "Ardan pertama kali melihat dunia di luar desanya. Bertemu dengan berbagai karakter dan belajar lebih banyak tentang dunia.",
+    "related_novels": ["Dunia dalam Kekuatan: Awal Perjalanan"],
+    "impact": {
+      "personal_ardan": "Mengalami pertumbuhan karakter dan pemahaman yang lebih luas tentang dunia.",
+      "plot": "Memindahkan lokasi cerita ke pusat peradaban yang lebih besar."
+    }
+  },
+  {
+    "id": 9,
+    "event_name": "Turnamen di Citadel dan Pertemuan dengan Taurus",
+    "date": "Hari ke-20 Bulan Terra, Tahun 1023 AE",
+    "description": "Untuk membuktikan kekuatan mereka dan mendapatkan akses ke arsip kota, Ardan dan Aries mengikuti turnamen pertarungan. Di sinilah mereka bertemu dengan Taurus, seorang pejuang perkasa yang ternyata adalah Penjaga Zodiak kedua.",
+    "significance": "Taurus bergabung. Ardan mulai belajar bertarung secara strategis.",
+    "related_novels": ["Dunia dalam Kekuatan: Arc Citadel"],
+    "impact": {
+      "grup": "Taurus bergabung, menambahkan kekuatan fisik dan stabilitas pada kelompok.",
+      "personal_ardan": "Belajar tentang strategi pertarungan dan nilai kerja sama tim."
+    }
+  },
+  {
+    "id": 10,
+    "event_name": "Konfrontasi dengan Kultus Bayangan",
+    "date": "Diperkirakan terjadi pada Tahun 1024 AE",
+    "description": "Ardan dan para Penjaga Zodiak yang telah berkumpul akan menghadapi konfrontasi besar pertama mereka dengan Kultus Bayangan, organisasi yang bertujuan membangkitkan entitas kegelapan.",
+    "significance": "Mengungkap skala sebenarnya dari ancaman dan musuh utama yang mereka hadapi.",
+    "related_novels": ["Dunia dalam Kekuatan: Arc Selanjutnya (Judul belum ditentukan)"],
+    "impact": {
+      "plot": "Meningkatkan skala konflik dari petualangan menjadi perang melawan kejahatan terorganisir.",
+      "dunia": "Ancaman Kultus Bayangan tidak bisa lagi diabaikan oleh kerajaan-kerajaan besar."
+    }
   }
 ]
