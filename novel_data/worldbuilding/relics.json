@@ -1,21 +1,30 @@
-{
-  "general_description": "Relic adalah benda-benda mistis yang lahir dari cerita, legenda, atau pengorbanan besar. Beberapa Relic bisa menyatu dengan penggunanya, menjadi sumber lahirnya sebuah skill yang unik. Relic biasanya memiliki kutukan atau harga tertentu, sehingga penggunaannya tidak pernah tanpa risiko.",
-  "examples": [
-    {
-      "name": "Hand of Midas",
-      "effect": "Mengubah apapun yang disentuh menjadi emas."
-    },
-    {
-      "name": "Blade of Echoes",
-      "effect": "Pedang yang menyalin gaya bertarung musuh."
-    },
-    {
-      "name": "Scroll of Forgotten Names",
-      "effect": "Mampu menghapus keberadaan seseorang dari ingatan dunia."
-    },
-    {
-      "name": "Hourglass of Tenebris",
-      "effect": "Memungkinkan pemiliknya mundur satu menit ke masa lalu, tapi setiap penggunaan mengurangi umur."
-    }
-  ]
-}
+[
+  {
+    "id": "blade-of-echoes-001",
+    "name": "Blade of Echoes",
+    "description": "Pedang mistis yang mampu menyalin gaya bertarung musuh.",
+    "effect": "Menyalin gaya bertarung musuh yang dihadapi.",
+    "cost_or_curse": "Tidak disebutkan secara spesifik, namun Relic umumnya memiliki kutukan atau harga tertentu."
+  },
+  {
+    "id": "hand-of-midas-001",
+    "name": "Hand of Midas",
+    "description": "Relic yang mampu mengubah apapun yang disentuh menjadi emas.",
+    "effect": "Mengubah objek yang disentuh menjadi emas.",
+    "cost_or_curse": "Tidak disebutkan secara spesifik, namun Relic umumnya memiliki kutukan atau harga tertentu."
+  },
+  {
+    "id": "hourglass-of-tenebris-001",
+    "name": "Hourglass of Tenebris",
+    "description": "Jam pasir yang memungkinkan penggunanya mundur ke masa lalu.",
+    "effect": "Memungkinkan pengguna mundur satu menit ke masa lalu.",
+    "cost_or_curse": "Setiap penggunaan mengurangi umur pengguna."
+  },
+  {
+    "id": "scroll-of-forgotten-names-001",
+    "name": "Scroll of Forgotten Names",
+    "description": "Gulungan kuno yang mampu menghapus keberadaan seseorang dari ingatan dunia.",
+    "effect": "Menghapus keberadaan target dari ingatan semua makhluk hidup.",
+    "cost_or_curse": "Tidak disebutkan secara spesifik, namun Relic umumnya memiliki kutukan atau harga tertentu."
+  }
+]

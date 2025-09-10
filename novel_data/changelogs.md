@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.63.0 - Penambahan Dokumentasi Dunia
+*Tanggal: 2025-09-10*
+
+- **Fitur**: Menambahkan dokumentasi untuk "Relics", "Creatures", dan "Kingdoms" ke halaman Worldbuilding untuk memperkaya konten.
+
+---
+
 ## v0.62.0 - Perbaikan Data & Penambahan Dokumentasi
 *Tanggal: 2025-09-10*
 
