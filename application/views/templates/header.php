@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <?php if (isset($_GET['dev']) && $_GET['dev'] === '1'): ?>
     <style>
+    </style>
+    <?php else: ?>
+    <style>
         .navbar { margin-bottom: 2rem; }
         .hide { display: none; }
     </style>
+    <?php endif; ?>
 
     <!-- Dark Mode Logic -->
     <script>
@@ -83,7 +87,6 @@
         });
     </script>
     <!-- End Dark Mode Logic -->
-    <?php endif; ?>
 </head>
 <body>
 
