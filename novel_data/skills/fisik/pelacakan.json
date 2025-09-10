@@ -1,0 +1,29 @@
+{
+  "ID": "S005",
+  "Name": "Pelacakan",
+  "Category": "Fisik",
+  "ShortDescription": "Setiap jejak menceritakan sebuah kisah, setiap langkah meninggalkan petunjuk.",
+  "Description": "Kemampuan untuk melacak jejak, mengidentifikasi pola pergerakan, dan menemukan target yang tersembunyi.",
+  "Mechanism": {
+    "Activation": "Aktif (membutuhkan observasi dan konsentrasi)",
+    "Cost": "Stamina (tergantung kesulitan jejak)",
+    "Range": "Penglihatan, penciuman, pendengaran",
+    "Duration": "Berkelanjutan selama pelacakan",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Sulit dilakukan di permukaan yang keras atau setelah hujan lebat.",
+    "Weaknesses": "Dapat dikelabui oleh jejak palsu atau penyamaran."
+  },
+  "Evolution": {
+    "Novice": "Mampu mengikuti jejak yang jelas dan baru.",
+    "Adept": "Mampu melacak jejak yang samar atau sudah lama, mengidentifikasi jenis makhluk.",
+    "Master": "Mampu melacak target yang berusaha menyembunyikan jejaknya, memprediksi arah pergerakan, dan membaca niat dari jejak.",
+    "Ascendant": "Mampu melacak jejak energi atau jejak non-fisik, bahkan melacak makhluk yang tidak meninggalkan jejak fisik."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill pengintaian, survival, atau pengetahuan alam.",
+    "Conflict": "Lingkungan yang bising atau terlalu banyak gangguan visual."
+  },
+  "LoreAndHistory": "Pelacakan adalah skill kuno yang penting bagi pemburu, penjelajah, dan pengintai. Skill ini mengajarkan kesabaran, observasi, dan pemahaman mendalam tentang alam dan makhluk hidup."
+}
