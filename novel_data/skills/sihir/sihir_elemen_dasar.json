@@ -1,0 +1,29 @@
+{
+  "ID": "S013",
+  "Name": "Sihir Elemen Dasar",
+  "Category": "Sihir",
+  "ShortDescription": "Dunia adalah kanvas, dan elemen adalah kuasnya.",
+  "Description": "Kemampuan dasar dalam mengendalikan elemen-elemen alam seperti api, air, tanah, atau angin, untuk tujuan ofensif, defensif, atau utilitas.",
+  "Mechanism": {
+    "Activation": "Aktif (membutuhkan konsentrasi dan gestur)",
+    "Cost": "Mana/Aether (tergantung kekuatan efek)",
+    "Range": "Jarak dekat hingga menengah",
+    "Duration": "Instan atau beberapa detik",
+    "Prerequisites": "Afinitas Elemen (Dasar)"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak efektif terhadap elemen yang berlawanan atau musuh yang kebal elemen.",
+    "Weaknesses": "Dapat menguras Mana/Aether dengan cepat jika digunakan berlebihan."
+  },
+  "Evolution": {
+    "Novice": "Mampu menciptakan percikan api kecil, tetesan air, gumpalan tanah, atau hembusan angin ringan.",
+    "Adept": "Mampu menciptakan bola api, semburan air, dinding tanah, atau pusaran angin kecil.",
+    "Master": "Mampu menciptakan badai api, gelombang air, gempa bumi lokal, atau tornado mini.",
+    "Ascendant": "Mampu memanggil entitas elemen, mengubah lanskap, atau menciptakan bencana alam berskala besar."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill sihir lain, pengetahuan tentang elemen, atau fokus pada satu elemen.",
+    "Conflict": "Skill fisik yang membutuhkan fokus penuh, atau lingkungan yang tidak mendukung elemen tertentu."
+  },
+  "LoreAndHistory": "Sihir Elemen Dasar adalah fondasi dari banyak tradisi sihir di Eryndor. Skill ini adalah manifestasi dari hubungan antara penyihir dan kekuatan alam, mengajarkan keseimbangan dan rasa hormat terhadap elemen."
+}
