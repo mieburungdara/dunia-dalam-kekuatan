@@ -1,0 +1,15 @@
+{
+    "universe_name": "Pecahan Dunia",
+    "series": [
+        {
+            "title": "Jiwa Dunia Lain",
+            "slug": "jiwa-dunia-lain",
+            "description": "Sebuah kisah tentang lima orang asing dari Bumi yang terlempar ke dunia fantasi dan harus bekerja sama untuk bertahan hidup dan menemukan jalan pulang."
+        },
+        {
+            "title": "Ardan Pengembala",
+            "slug": "ardan-pengembala",
+            "description": "Deskripsi singkat untuk seri Ardan Pengembala."
+        }
+    ]
+}

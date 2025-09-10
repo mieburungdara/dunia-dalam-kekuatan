@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Panduan Cerita: Lima Jiwa di Bumi Lain"
+title: "Panduan Cerita: Jiwa Dunia Lain"
 ---
-# Panduan Cerita: Lima Jiwa di Bumi Lain
+# Panduan Cerita: Jiwa Dunia Lain
 
-Dokumen ini adalah panduan utama untuk menjaga konsistensi alur, karakter, dan dunia dalam cerita "Lima Jiwa di Bumi Lain".
+Dokumen ini adalah panduan utama untuk menjaga konsistensi alur, karakter, dan dunia dalam cerita "Jiwa Dunia Lain".
 
 ---
 
@@ -56,6 +56,7 @@ Mereka tidak langsung menjadi pahlawan, melainkan harus memulai dari nol sebagai
 *   **Setting**: Cerita dimulai di **Kerajaan Valdoria** dan **Monsterland** di sekitarnya.
 *   **Sistem Profesi**: Semua orang memulai dari "Profesi Dasar" dan peringkat terendah (**Rank F**) di **Guild Petualang**.
 *   **Konflik Utama**: Ada ramalan tentang **"Lima Jiwa Asing"**. Fenomena cahaya kedatangan mereka menjadi bukti awal ramalan ini, membuat mereka diawasi oleh berbagai pihak, termasuk yang jauh lebih berbahaya dari goblin.
+
 *   **Tujuan Awal**: Bertahan hidup, lari dari kejaran goblin, dan mencari tahu apa yang terjadi pada mereka."
 
 ### Konsistensi Narasi dan Gaya
