@@ -1,0 +1,9 @@
+{
+    "race_id": "lightfoot-001",
+    "name": "Lightfoot Halfling",
+    "description": "Halfling petualang yang ahli dalam mencuri dan menyelinap. Seringkali menjadi pengembara atau pencuri.",
+    "average_lifespan": 100,
+    "common_traits": ["Lincah", "Pencuri", "Petualang", "Beruntung"],
+    "cultural_notes": "Cenderung hidup nomaden, menghargai kebebasan dan petualangan.",
+    "relations_with_other_races": ["Dapat bergaul dengan baik dengan berbagai ras, sering menjadi bagian dari kelompok petualang."]
+  }

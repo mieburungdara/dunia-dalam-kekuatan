@@ -1,0 +1,9 @@
+{
+    "race_id": "hill-giant-001",
+    "name": "Hill-Giant",
+    "description": "Raksasa yang bodoh dan rakus, seringkali menjadi preman atau perampok.",
+    "average_lifespan": 200,
+    "common_traits": ["Bodoh", "Kuat", "Rakus", "Agresif"],
+    "cultural_notes": "Cenderung hidup dalam kelompok kecil, fokus pada makanan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau alat oleh ras lain."]
+  }

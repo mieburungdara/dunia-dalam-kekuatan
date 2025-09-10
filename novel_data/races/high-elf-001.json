@@ -1,0 +1,9 @@
+{
+    "race_id": "high-elf-001",
+    "name": "High-Elf / Elda",
+    "description": "Elf dengan telinga panjang, hidup panjang, dan sihir yang kuat. Seringkali tinggal di kota-kota megah atau menara sihir.",
+    "average_lifespan": 1000,
+    "common_traits": ["Anggun", "Sihir kuat", "Intelektual", "Sombong"],
+    "cultural_notes": "Menghargai pengetahuan, seni, dan tradisi kuno. Seringkali memandang rendah ras lain.",
+    "relations_with_other_races": ["Cenderung menjaga jarak, tetapi dapat menjadi sekutu yang kuat bagi mereka yang menghormati pengetahuan."]
+  }

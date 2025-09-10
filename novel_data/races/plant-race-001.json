@@ -1,0 +1,9 @@
+{
+    "race_id": "plant-race-001",
+    "name": "Plant-Race",
+    "description": "Makhluk yang berasal dari tumbuhan, memiliki kemampuan sihir alam dan kedekatan dengan alam. Beragam jenis seperti Alraune dan Treant.",
+    "average_lifespan": null,
+    "common_traits": ["Tumbuhan", "Sihir alam", "Dekat dengan alam", "Tenang"],
+    "cultural_notes": "Hidup dalam harmoni dengan alam, fokus pada pertumbuhan dan perlindungan.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  }

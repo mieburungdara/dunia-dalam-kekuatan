@@ -1,0 +1,9 @@
+{
+    "race_id": "fox-folk-001",
+    "name": "Fox-Folk / Kitsune",
+    "description": "Rubah spiritual dengan kemampuan ilusi, api, dan multi-ekor. Dikenal karena kecerdasan dan tipu daya mereka.",
+    "average_lifespan": 1000,
+    "common_traits": ["Cerdas", "Licik", "Ilusi", "Berubah wujud"],
+    "cultural_notes": "Seringkali hidup di antara manusia, menggunakan kecerdasan dan sihir mereka untuk tujuan baik atau jahat. Jumlah ekor menunjukkan kekuatan dan usia.",
+    "relations_with_other_races": ["Hubungan bervariasi, dari penipu hingga pelindung, tergantung pada individu Kitsune."]
+  }

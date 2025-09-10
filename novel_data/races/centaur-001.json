@@ -1,0 +1,9 @@
+{
+    "race_id": "centaur-001",
+    "name": "Centaur",
+    "description": "Makhluk mitologi dengan tubuh bagian atas manusia dan tubuh bagian bawah kuda. Dikenal karena kecepatan, kekuatan, dan kedekatan mereka dengan alam liar.",
+    "average_lifespan": 150,
+    "common_traits": ["Cepat", "Kuat", "Dekat dengan alam", "Mandiri"],
+    "cultural_notes": "Hidup dalam suku-suku di hutan atau padang rumput, menghargai kebebasan, berburu, dan tradisi lisan.",
+    "relations_with_other_races": ["Cenderung menjaga jarak dari peradaban, tetapi dapat menjadi sekutu yang tangguh jika dihormati."]
+  }

@@ -1,0 +1,9 @@
+{
+    "race_id": "frost-giant-001",
+    "name": "Frost-Giant",
+    "description": "Raksasa yang tinggal di daerah dingin, kuat dan tahan terhadap es. Seringkali menjadi prajurit atau pemimpin.",
+    "average_lifespan": 500,
+    "common_traits": ["Kuat", "Tahan es", "Agresif", "Teritorial"],
+    "cultural_notes": "Membangun benteng di daerah dingin, menghargai kekuatan dan penaklukan.",
+    "relations_with_other_races": ["Sering berkonflik dengan ras lain yang tinggal di daerah dingin."]
+  }

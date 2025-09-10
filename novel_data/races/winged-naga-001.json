@@ -1,0 +1,9 @@
+{
+    "race_id": "winged-naga-001",
+    "name": "Naga Bersayap (Naga Oriental)",
+    "description": "Naga oriental dengan sayap, mampu terbang dan memanipulasi elemen. Dikenal karena kebijaksanaan dan kekuatan mereka.",
+    "average_lifespan": 1000,
+    "common_traits": ["Bijaksana", "Sihir", "Terbang", "Kuat"],
+    "cultural_notes": "Hidup di langit atau kuil-kuil tersembunyi, menghargai pengetahuan dan kekuasaan.",
+    "relations_with_other_races": ["Dihormati atau ditakuti, tergantung pada sifat mereka."]
+  }

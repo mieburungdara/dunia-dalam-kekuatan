@@ -1,0 +1,9 @@
+{
+    "race_id": "greater-demon-001",
+    "name": "Greater-Demon",
+    "description": "Iblis yang lebih kuat, seringkali menjadi baron atau marquis di neraka. Memiliki kekuatan dan sihir yang besar.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Sihir gelap", "Ambisius", "Kejam"],
+    "cultural_notes": "Mencari kekuasaan dan dominasi, seringkali memimpin pasukan iblis.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman besar oleh sebagian besar ras."]
+  }

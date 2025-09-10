@@ -1,0 +1,9 @@
+{
+    "race_id": "kappa-001",
+    "name": "Kappa",
+    "description": "Makhluk mitologi Jepang yang hidup di air, memiliki cangkang kura-kura dan piring di kepala. Dikenal karena sifat nakal dan kekuatan mereka.",
+    "average_lifespan": 150,
+    "common_traits": ["Air", "Nakal", "Kuat", "Misterius"],
+    "cultural_notes": "Suka bermain dan menyebabkan masalah, seringkali menantang manusia untuk gulat.",
+    "relations_with_other_races": ["Dapat menjadi pengganggu atau sekutu, tergantung pada sifat mereka."]
+  }

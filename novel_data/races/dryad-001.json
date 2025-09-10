@@ -1,0 +1,9 @@
+{
+    "race_id": "dryad-001",
+    "name": "Dryad",
+    "description": "Roh pohon yang terikat pada pohon tertentu, mengambil wujud wanita cantik. Dikenal karena kedekatan mereka dengan alam, kemampuan sihir alam, dan sifat pelindung.",
+    "average_lifespan": null,
+    "common_traits": ["Pelindung alam", "Sihir alam", "Cantik", "Tenang"],
+    "cultural_notes": "Hidup di hutan purba, melindungi pohon dan ekosistem di sekitarnya. Sangat teritorial dan dapat menjadi ganas jika alam mereka terancam.",
+    "relations_with_other_races": ["Umumnya menghindari kontak dengan ras lain, tetapi dapat menjadi sekutu bagi mereka yang menghormati alam."]
+  }

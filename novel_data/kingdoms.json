@@ -1,16 +1,1 @@
-[
-  {
-    "kingdom_id": "kerajaan-valoria-001",
-    "name": "Kerajaan Valoria",
-    "description": "Kerajaan terbesar di benua barat, dikenal dengan ksatria-ksatria gagah berani dan tanah subur.",
-    "ruler": "Raja Theron IV",
-    "capital_city": "Eldoria",
-    "government_type": "Monarki",
-    "main_races": ["Manusia", "Elf (minoritas)"],
-    "military_strength": "Kuat",
-    "economy": "Pertanian, pertambangan, perdagangan",
-    "allies": ["Duchy of Silverwood", "Free Cities Alliance"],
-    "enemies": ["Barbar Utara", "Kekaisaran Bayangan"],
-    "notes": "Memiliki sejarah panjang konflik dengan Kekaisaran Bayangan."
-  }
-]
+["kerajaan-valoria"]

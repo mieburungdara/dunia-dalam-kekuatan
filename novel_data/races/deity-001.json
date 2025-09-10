@@ -1,0 +1,9 @@
+{
+    "race_id": "deity-001",
+    "name": "Deity / True-Dragon / World-Serpent",
+    "description": "Entitas ilahi atau naga sejati yang memiliki kekuatan luar biasa dan seringkali menjadi pencipta atau penguasa dunia. Seringkali menjadi final boss atau dewa pencipta.",
+    "average_lifespan": null,
+    "common_traits": ["Maha Kuasa", "Ilahi", "Kuno", "Bijaksana"],
+    "cultural_notes": "Menciptakan atau menguasai dunia, fokus pada takdir dan keseimbangan.",
+    "relations_with_other_races": ["Dianggap sebagai dewa atau leluhur oleh ras lain."]
+  }

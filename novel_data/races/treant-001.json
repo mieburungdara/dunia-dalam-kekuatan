@@ -1,0 +1,9 @@
+{
+    "race_id": "treant-001",
+    "name": "Treant",
+    "description": "Pohon berjalan yang melindungi hutan. Dikenal karena kekuatan dan sifat pelindung mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Pohon", "Kuat", "Pelindung", "Tenang"],
+    "cultural_notes": "Hidup di hutan purba, fokus pada perlindungan alam.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  }

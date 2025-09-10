@@ -1,0 +1,9 @@
+{
+    "race_id": "manusia-001",
+    "name": "Manusia",
+    "description": "Ras yang paling tersebar luas dan mudah beradaptasi, dikenal karena budaya mereka yang beragam dan kemajuan teknologi yang pesat.",
+    "average_lifespan": 80,
+    "common_traits": ["Adaptif", "Cekatan", "Beragam"],
+    "cultural_notes": "Manusia menunjukkan berbagai struktur sosial, dari suku nomaden hingga kerajaan besar.",
+    "relations_with_other_races": ["Bervariasi, dari hidup berdampingan secara damai hingga konflik terbuka dengan sebagian besar ras."]
+  }

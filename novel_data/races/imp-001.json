@@ -1,0 +1,9 @@
+{
+    "race_id": "imp-001",
+    "name": "Imp / Lesser-Demon",
+    "description": "Iblis kecil yang sering menjadi pelayan atau mata-mata. Licik dan mengganggu.",
+    "average_lifespan": 500,
+    "common_traits": ["Kecil", "Licik", "Mengganggu", "Setia"],
+    "cultural_notes": "Melayani iblis yang lebih kuat, fokus pada intrik dan kekacauan.",
+    "relations_with_other_races": ["Dianggap sebagai hama atau alat oleh ras lain."]
+  }

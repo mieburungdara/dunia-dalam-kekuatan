@@ -1,0 +1,9 @@
+{
+    "race_id": "eldritch-beast-001",
+    "name": "Eldritch-Beast (Cthulhu-esque)",
+    "description": "Makhluk kuno dari dimensi lain, memiliki kekuatan yang tak terbayangkan dan mampu menyebabkan kegilaan. Dikenal karena sifat mengerikan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Kuno", "Maha Kuasa", "Mengerikan", "Menyebabkan kegilaan"],
+    "cultural_notes": "Tidak memiliki budaya yang dapat dipahami manusia, fokus pada tujuan mereka sendiri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman terbesar oleh semua ras."]
+  }

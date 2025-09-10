@@ -1,0 +1,9 @@
+{
+    "race_id": "dark-elf-001",
+    "name": "Dark-Elf / Drow",
+    "description": "Elf dengan kulit gelap dan mata merah, biasa hidup di bawah tanah. Seringkali terkait dengan sihir gelap dan intrik.",
+    "average_lifespan": 800,
+    "common_traits": ["Licik", "Sihir gelap", "Agresif", "Teritorial"],
+    "cultural_notes": "Masyarakat matriarkal yang kejam, menghargai kekuasaan dan intrik. Seringkali menyembah dewa-dewa jahat.",
+    "relations_with_other_races": ["Umumnya bermusuhan dengan ras permukaan, sering melakukan penyerbuan."]
+  }

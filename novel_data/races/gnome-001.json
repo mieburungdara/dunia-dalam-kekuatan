@@ -1,0 +1,9 @@
+{
+    "race_id": "gnome-001",
+    "name": "Gnome",
+    "description": "Ras kecil dan cerdas, dikenal karena kecintaan mereka pada penemuan, ilusi, dan lelucon. Ahli dalam rekayasa dan alkimia.",
+    "average_lifespan": 350,
+    "common_traits": ["Cerdas", "Kreatif", "Jenaka", "Penasaran"],
+    "cultural_notes": "Hidup di komunitas bawah tanah yang rumit, penuh dengan mesin-mesin aneh dan eksperimen. Menghargai kecerdasan dan inovasi.",
+    "relations_with_other_races": ["Umumnya ramah dan ingin tahu, sering berteman dengan Dwarf dan Halfling."]
+  }

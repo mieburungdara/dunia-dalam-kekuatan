@@ -1,0 +1,9 @@
+{
+    "race_id": "griffin-001",
+    "name": "Griffin",
+    "description": "Makhluk chimeric dengan tubuh singa dan kepala serta sayap elang. Dikenal karena sifat mulia dan setia mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Mulia", "Setia", "Terbang", "Kuat"],
+    "cultural_notes": "Hidup di pegunungan, fokus pada berburu dan melindungi wilayah mereka.",
+    "relations_with_other_races": ["Dapat menjadi tunggangan atau sekutu yang setia bagi mereka yang mereka percayai."]
+  }

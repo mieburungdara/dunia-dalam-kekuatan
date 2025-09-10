@@ -1,0 +1,9 @@
+{
+    "race_id": "dhampir-001",
+    "name": "Dhampir",
+    "description": "Setengah vampir dan setengah manusia, mewarisi kekuatan vampir tetapi tidak memiliki kelemahan penuh. Seringkali menjadi pemburu vampir.",
+    "average_lifespan": 150,
+    "common_traits": ["Kuat", "Cepat", "Tahan sinar", "Pemburu"],
+    "cultural_notes": "Seringkali hidup di antara manusia, menggunakan kekuatan mereka untuk melawan vampir atau kejahatan lainnya.",
+    "relations_with_other_races": ["Dapat diterima atau ditakuti oleh ras lain, tergantung pada reputasi mereka."]
+  }

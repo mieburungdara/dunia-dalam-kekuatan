@@ -1,0 +1,9 @@
+{
+    "race_id": "half-elf-001",
+    "name": "Half-Elf",
+    "description": "Campuran antara manusia dan elf, mewarisi sifat dari kedua ras. Seringkali menjadi jembatan antara dua budaya.",
+    "average_lifespan": 150,
+    "common_traits": ["Adaptif", "Menawan", "Fleksibel", "Berbakat"],
+    "cultural_notes": "Seringkali merasa tidak sepenuhnya cocok di kedua dunia, tetapi mampu beradaptasi dengan berbagai lingkungan.",
+    "relations_with_other_races": ["Dapat bergaul dengan baik dengan manusia dan elf, sering menjadi diplomat atau petualang."]
+  }

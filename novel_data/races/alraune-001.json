@@ -1,0 +1,9 @@
+{
+    "race_id": "alraune-001",
+    "name": "Alraune",
+    "description": "Manusia bunga yang cantik dan memikat. Dikenal karena sihir alam dan kemampuan untuk memanipulasi tanaman.",
+    "average_lifespan": 200,
+    "common_traits": ["Cantik", "Sihir alam", "Memikat", "Manipulatif"],
+    "cultural_notes": "Hidup di hutan atau taman, fokus pada keindahan dan pertumbuhan.",
+    "relations_with_other_races": ["Dapat menjadi sekutu atau musuh, tergantung pada sifat mereka."]
+  }

@@ -1,18 +1,1 @@
-[
-  {
-    "religion_id": "iman-cahaya-001",
-    "name": "Keyakinan Cahaya Penuntun",
-    "description": "Agama monoteistik yang menyembah dewa cahaya dan ketertiban yang baik hati.",
-    "deities": [
-      {
-        "name": "Solara",
-        "aspect": "Dewi Cahaya dan Kebenaran"
-      }
-    ],
-    "core_tenets": ["Kasih Sayang", "Keadilan", "Kemurnian", "Pelayanan kepada sesama"],
-    "holy_sites": ["Kuil Fajar Abadi", "Suaka Harapan Berbisik"],
-    "followers_count": 1000000,
-    "rituals": ["Doa harian saat fajar", "Pemberkatan komunal mingguan", "Festival Iluminasi Tahunan"],
-    "clergy_structure": "Hierarkis, dipimpin oleh Imam Besar dan Imam Besar Wanita."
-  }
-]
+["keyakinan-cahaya-penuntun"]

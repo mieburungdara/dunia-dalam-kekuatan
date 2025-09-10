@@ -1,0 +1,9 @@
+{
+    "race_id": "tanuki-001",
+    "name": "Tanuki",
+    "description": "Makhluk mitologi Jepang yang menyerupai anjing rakun, mampu berubah wujud dan memiliki kantung ajaib. Dikenal karena sifat nakal dan keberuntungan mereka.",
+    "average_lifespan": 150,
+    "common_traits": ["Berubah wujud", "Nakal", "Beruntung", "Jenaka"],
+    "cultural_notes": "Suka bermain dan menyebabkan masalah, seringkali membantu atau mengganggu manusia.",
+    "relations_with_other_races": ["Dapat menjadi pengganggu atau sekutu, tergantung pada sifat mereka."]
+  }

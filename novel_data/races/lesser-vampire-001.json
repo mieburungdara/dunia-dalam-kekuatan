@@ -1,0 +1,9 @@
+{
+    "race_id": "lesser-vampire-001",
+    "name": "Lesser Vampire",
+    "description": "Vampir yang dibuat, lebih lemah dari Pure-Blood dan rentan terhadap sinar matahari. Seringkali menjadi pelayan atau prajurit.",
+    "average_lifespan": 200,
+    "common_traits": ["Haus darah", "Lemah sinar", "Agresif", "Setia"],
+    "cultural_notes": "Melayani Pure-Blood Vampire, fokus pada perburuan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

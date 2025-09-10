@@ -1,0 +1,9 @@
+{
+    "race_id": "arachne-001",
+    "name": "Arachne",
+    "description": "Makhluk setengah laba-laba dan setengah manusia. Dikenal karena kemampuan menenun jaring dan racun mereka.",
+    "average_lifespan": 150,
+    "common_traits": ["Laba-laba", "Menenun jaring", "Racun", "Licik"],
+    "cultural_notes": "Hidup di gua-gua atau hutan, fokus pada berburu dan menjebak.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

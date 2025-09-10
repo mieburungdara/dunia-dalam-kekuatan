@@ -1,0 +1,9 @@
+{
+    "race_id": "undine-001",
+    "name": "Undine",
+    "description": "Elemental air yang hidup di daerah berair. Dikenal karena kekuatan air dan sifat tenang mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Air", "Tenang", "Penyembuh", "Fleksibel"],
+    "cultural_notes": "Hidup di danau, sungai, atau laut, fokus pada keseimbangan dan keindahan.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  }

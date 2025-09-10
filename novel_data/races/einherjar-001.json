@@ -1,0 +1,9 @@
+{
+    "race_id": "einherjar-001",
+    "name": "Einherjar",
+    "description": "Pahlawan yang gugur dalam pertempuran dan dibawa ke Valhalla oleh Valkyrie. Dikenal karena keberanian dan kekuatan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Berani", "Kuat", "Abadi", "Prajurit"],
+    "cultural_notes": "Berlatih untuk Ragnarok, fokus pada pertempuran dan kehormatan.",
+    "relations_with_other_races": ["Dihormati oleh prajurit, ditakuti oleh musuh."]
+  }

@@ -1,0 +1,9 @@
+{
+    "race_id": "pure-blood-vampire-001",
+    "name": "Pure-Blood Vampire",
+    "description": "Vampir murni yang abadi dan memiliki sihir darah yang kuat. Seringkali menjadi bangsawan atau pemimpin.",
+    "average_lifespan": null,
+    "common_traits": ["Abadi", "Sihir darah", "Kuat", "Anggun"],
+    "cultural_notes": "Membangun dinasti dan kerajaan, menghargai kekuasaan dan keabadian.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau penguasa oleh ras lain."]
+  }

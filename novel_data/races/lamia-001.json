@@ -1,0 +1,9 @@
+{
+    "race_id": "lamia-001",
+    "name": "Lamia / Naga",
+    "description": "Makhluk setengah ular dan setengah manusia. Dikenal karena kecantikan, sihir, dan sifat licik mereka.",
+    "average_lifespan": 300,
+    "common_traits": ["Cantik", "Sihir", "Licik", "Misterius"],
+    "cultural_notes": "Hidup di kuil-kuil tersembunyi atau gua, menghargai pengetahuan dan kekuasaan.",
+    "relations_with_other_races": ["Dapat menjadi sekutu atau musuh, tergantung pada sifat mereka."]
+  }

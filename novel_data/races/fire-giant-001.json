@@ -1,0 +1,9 @@
+{
+    "race_id": "fire-giant-001",
+    "name": "Fire-Giant",
+    "description": "Raksasa yang tinggal di daerah vulkanik, kuat dan tahan terhadap api. Ahli dalam pandai besi.",
+    "average_lifespan": 500,
+    "common_traits": ["Kuat", "Tahan api", "Terampil", "Militeristik"],
+    "cultural_notes": "Membangun benteng di daerah vulkanik, menghargai kekuatan dan keahlian pandai besi.",
+    "relations_with_other_races": ["Sering berkonflik dengan ras lain yang tinggal di daerah panas."]
+  }

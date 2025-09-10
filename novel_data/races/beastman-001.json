@@ -1,0 +1,9 @@
+{
+    "race_id": "beastman-001",
+    "name": "Beastman / Kemono",
+    "description": "Demi-human dengan telinga/ekor hewan tetapi tubuh manusia. Beragam jenis seperti serigala, harimau, kelinci, rubah, kucing, anjing, sapi, burung, dll.",
+    "average_lifespan": 80,
+    "common_traits": ["Lincah", "Indra tajam", "Setia", "Agresif"],
+    "cultural_notes": "Hidup dalam suku-suku, menghargai alam dan ikatan keluarga. Seringkali memiliki sifat yang mirip dengan hewan asal mereka.",
+    "relations_with_other_races": ["Bervariasi, dari hidup berdampingan secara damai hingga konflik terbuka."]
+  }

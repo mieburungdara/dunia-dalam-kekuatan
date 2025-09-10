@@ -1,0 +1,13 @@
+{
+    "guild_id": "serikat-petualang-001",
+    "name": "Serikat Petualang",
+    "description": "Organisasi yang mengatur dan memberikan misi kepada para petualang, dari pencarian harta hingga pembasmian monster.",
+    "type": "Petualang",
+    "headquarters": "Kota Eldoria",
+    "leader": "Master Guild Kaelen",
+    "notable_members": ["Lira si Pemanah"],
+    "reputation": "Terhormat",
+    "allies": ["Pengawal Kota", "Serikat Pedagang"],
+    "enemies": ["Kelompok Bandit", "Monster Liar"],
+    "notes": "Memiliki cabang di berbagai kota besar."
+  }

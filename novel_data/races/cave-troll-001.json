@@ -1,0 +1,9 @@
+{
+    "race_id": "cave-troll-001",
+    "name": "Cave-Troll",
+    "description": "Troll yang tinggal di gua, memiliki regenerasi dan takut cahaya. Seringkali menjadi penjaga atau monster.",
+    "average_lifespan": 150,
+    "common_traits": ["Regenerasi", "Kuat", "Agresif", "Takut cahaya"],
+    "cultural_notes": "Hidup di gua-gua gelap, fokus pada makanan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

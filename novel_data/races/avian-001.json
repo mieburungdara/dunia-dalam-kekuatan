@@ -1,0 +1,9 @@
+{
+    "race_id": "avian-001",
+    "name": "Avian / Raptor-Folk",
+    "description": "Makhluk yang menyerupai burung, memiliki sayap dan kemampuan terbang. Beragam jenis seperti Garuda dan Elang.",
+    "average_lifespan": 80,
+    "common_traits": ["Burung", "Terbang", "Lincah", "Indra tajam"],
+    "cultural_notes": "Hidup di pegunungan atau tebing tinggi, fokus pada kebebasan dan berburu.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga teritorial."]
+  }

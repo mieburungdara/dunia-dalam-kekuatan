@@ -1,0 +1,9 @@
+{
+    "race_id": "hobbit-001",
+    "name": "Hobbit / Halfling",
+    "description": "Ras kecil dan ramah, dikenal karena sifat mereka yang ceria, kecintaan pada kenyamanan rumah, dan kemampuan untuk menghindari masalah.",
+    "average_lifespan": 100,
+    "common_traits": ["Ceria", "Ramah", "Suka kenyamanan", "Beruntung"],
+    "cultural_notes": "Hidup di desa-desa pedesaan yang damai, menghargai makanan enak, cerita, dan persahabatan. Jarang mencari petualangan.",
+    "relations_with_other_races": ["Umumnya memiliki hubungan baik dengan sebagian besar ras, terutama Manusia dan Elf."]
+  }

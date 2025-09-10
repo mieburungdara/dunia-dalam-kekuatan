@@ -1,0 +1,9 @@
+{
+    "race_id": "voidling-001",
+    "name": "Voidling",
+    "description": "Makhluk dari kehampaan, tidak berwujud dan mampu memanipulasi ruang dan waktu. Dikenal karena sifat merusak mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Tidak berwujud", "Manipulasi ruang waktu", "Merusak", "Misterius"],
+    "cultural_notes": "Mencari kehancuran atau kekacauan, seringkali muncul dari celah dimensi.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  }

@@ -1,0 +1,9 @@
+{
+    "race_id": "bird-folk-001",
+    "name": "Bird-Folk / Harpy / Tengu",
+    "description": "Demi-human dengan sayap, mampu terbang dan memanipulasi angin. Beragam jenis seperti harpy dan tengu.",
+    "average_lifespan": 100,
+    "common_traits": ["Terbang", "Lincah", "Indra tajam", "Mandiri"],
+    "cultural_notes": "Hidup di pegunungan atau tebing tinggi, menghargai kebebasan dan berburu.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga teritorial."]
+  }

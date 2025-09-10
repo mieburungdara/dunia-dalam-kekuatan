@@ -1,0 +1,9 @@
+{
+    "race_id": "death-knight-001",
+    "name": "Death-Knight",
+    "description": "Paladin yang jatuh dan menjadi ksatria undead. Dikenal karena kekuatan fisik dan sihir gelap mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Sihir gelap", "Setia", "Kejam"],
+    "cultural_notes": "Melayani penguasa gelap, fokus pada penaklukan dan kehancuran.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

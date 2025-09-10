@@ -1,0 +1,9 @@
+{
+    "race_id": "stout-halfling-001",
+    "name": "Stout Halfling",
+    "description": "Halfling yang kekar dan tahan racun. Seringkali menjadi petani atau penjaga.",
+    "average_lifespan": 120,
+    "common_traits": ["Kekar", "Tahan racun", "Gigih", "Praktis"],
+    "cultural_notes": "Fokus pada kehidupan pedesaan yang stabil, menghargai kerja keras dan keluarga.",
+    "relations_with_other_races": ["Umumnya ramah dan dapat diandalkan."]
+  }

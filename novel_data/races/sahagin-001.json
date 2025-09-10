@@ -1,0 +1,9 @@
+{
+    "race_id": "sahagin-001",
+    "name": "Sahagin",
+    "description": "Makhluk ikan bertangan yang hidup di air. Dikenal karena sifat agresif dan kemampuan bertarung mereka.",
+    "average_lifespan": 80,
+    "common_traits": ["Ikan", "Agresif", "Kuat", "Teritorial"],
+    "cultural_notes": "Hidup dalam koloni di bawah air, fokus pada berburu dan melindungi wilayah mereka.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

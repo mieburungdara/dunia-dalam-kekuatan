@@ -1,0 +1,9 @@
+{
+    "race_id": "mountain-dwarf-001",
+    "name": "Mountain-Dwarf",
+    "description": "Dwarf yang tinggal di gunung dalam, ahli dalam membuat baja legendaris dan pertahanan bawah tanah. Seringkali menjadi prajurit atau pemimpin.",
+    "average_lifespan": 400,
+    "common_traits": ["Kuat", "Tangguh", "Terampil", "Tradisional"],
+    "cultural_notes": "Membangun kerajaan bawah tanah yang megah, sangat menghargai tradisi dan kehormatan.",
+    "relations_with_other_races": ["Cenderung curiga terhadap orang asing, tetapi sangat setia kepada sekutu yang terbukti."]
+  }

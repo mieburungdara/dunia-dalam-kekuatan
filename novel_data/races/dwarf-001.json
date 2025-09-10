@@ -1,0 +1,9 @@
+{
+    "race_id": "dwarf-001",
+    "name": "Dwarf",
+    "description": "Ras pekerja keras dan tangguh, dikenal karena keahlian mereka dalam pertambangan, pandai besi, dan membangun kota-kota bawah tanah yang megah.",
+    "average_lifespan": 350,
+    "common_traits": ["Tangguh", "Pekerja keras", "Terampil", "Setia"],
+    "cultural_notes": "Menghargai kehormatan, tradisi, dan kekayaan mineral. Seringkali memiliki janggut yang panjang dan terawat.",
+    "relations_with_other_races": ["Cenderung curiga terhadap orang asing, tetapi sangat setia kepada sekutu yang terbukti."]
+  }

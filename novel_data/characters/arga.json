@@ -1,0 +1,82 @@
+{
+    "ID": 1,
+    "Name": "Arga",
+    "Age": 22,
+    "Gender": "Laki-laki",
+    "Role": "Swordman",
+    "Personality": ["Rasional", "Skeptis", "Analitis"],
+    "Background": "Mahasiswa teknik di Bumi. Seorang yang rasional dan skeptis, selalu mempertanyakan logika dunia baru yang penuh sihir.",
+    "Strengths": ["Pintar strategi", "Cepat beradaptasi"],
+    "Weaknesses": ["Kadang terlalu dingin", "Sulit percaya orang lain"],
+    "Motivation": "Mencari kebenaran di dunia baru dan menemukan cara untuk kembali ke dunianya, namun juga mulai merasa bertanggung jawab atas kelompoknya.",
+    "Growth": "Dari skeptis dan dingin menjadi pemimpin yang lebih peduli dan strategis, belajar untuk mempercayai orang lain.",
+    "Arc": "Perjalanan dari seorang yang hanya ingin bertahan hidup menjadi seorang pemimpin yang bertanggung jawab atas nasib orang lain.",
+    "InternalConflict": "Pertarungan antara logika dan emosi; keinginan untuk kembali vs. tanggung jawab baru.",
+    "ExternalConflict": "Ancaman dari makhluk asing dan faksi yang tidak dikenal di Eryndor.",
+    "Fears": ["Kehilangan kendali", "Kegagalan dalam melindungi orang yang ia pedulikan", "Terjebak selamanya di Eryndor"],
+    "Hopes": ["Menemukan jalan pulang", "Membangun kembali kehidupan yang stabil", "Memahami misteri Eryndor"],
+    "Quirks": ["Sering menganalisis situasi secara berlebihan", "Cenderung membuat daftar pro dan kontra"],
+    "Appearance": {
+      "Description": "Tinggi, ramping, rambut hitam pendek, mata abu-abu tajam.",
+      "Style": "Sering mengenakan pakaian praktis berwarna gelap."
+    },
+    "Relationships": [{"TargetID": 2, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 3, "Type": "Rekan", "Description": "Mengandalkan Raka dalam pertempuran"}],
+    "Affiliations": ["Tidak ada (sebelumnya Mahasiswa Teknik)"],
+    "Voice": "Tenang, logis, kadang terdengar sedikit merendahkan atau terlalu analitis.",
+    "Flaws": ["Terlalu mengandalkan logika, sulit memahami emosi orang lain", "Cenderung menyendiri", "Perfeksionis"],
+    "Zodiac": "Virgo",
+    "MBTI": "INTJ",
+    "Status": "Pendatang dari Dunia Lain (Mahasiswa)",
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Mengubah pandangan hidup, memicu pencarian jalan pulang"}, {"Event": "Bertemu Bimo, Raka, Mira, Lina", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membentuk kelompok, mulai merasa bertanggung jawab"}, {"Event": "Mengambil alih kepemimpinan kelompok", "Chapter": "03_perjalanan_berlanjut", "Impact": "Meningkatkan rasa tanggung jawab dan kepercayaan diri"}],
+    "Goals": ["Menemukan cara kembali ke Bumi", "Melindungi kelompoknya", "Memahami misteri Eryndor"],
+    "Obstacles": ["Kurangnya pengetahuan tentang Eryndor", "Sifat skeptisnya sendiri", "Ancaman dari faksi yang tidak dikenal"],
+    "InternalMonologue": "Bagaimana cara kembali? Apakah ini semua nyata? Aku harus tetap logis dan mencari solusi.",
+    "ExternalPerception": "Dilihat sebagai pemimpin yang cerdas tapi dingin, kadang terlalu serius.",
+    "Inventory": [
+      {
+        "Name": "Pedang Baja Ringan",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Kompas Kuno",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Buku Catatan",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Pedang Satu Tangan",
+        "Level": "Mahir",
+        "Description": ""
+      },
+      {
+        "Name": "Strategi Tempur",
+        "Level": "Ahli",
+        "Description": ""
+      },
+      {
+        "Name": "Analisis Kelemahan",
+        "Level": "Menengah",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
+  }

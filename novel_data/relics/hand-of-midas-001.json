@@ -1,0 +1,7 @@
+{
+    "id": "hand-of-midas-001",
+    "name": "Hand of Midas",
+    "description": "Relic yang mampu mengubah apapun yang disentuh menjadi emas.",
+    "effect": "Mengubah objek yang disentuh menjadi emas.",
+    "cost_or_curse": "Tidak disebutkan secara spesifik, namun Relic umumnya memiliki kutukan atau harga tertentu."
+  }

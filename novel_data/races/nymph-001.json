@@ -1,0 +1,9 @@
+{
+    "race_id": "nymph-001",
+    "name": "Nymph",
+    "description": "Roh air yang terikat pada sungai, danau, atau mata air. Mengambil wujud wanita cantik dan memiliki sihir air.",
+    "average_lifespan": null,
+    "common_traits": ["Cantik", "Sihir air", "Tenang", "Pelindung"],
+    "cultural_notes": "Hidup di dekat sumber air, melindungi ekosistem air. Sangat teritorial dan dapat menjadi ganas jika wilayah mereka diganggu.",
+    "relations_with_other_races": ["Umumnya menghindari kontak dengan ras lain, tetapi dapat menjadi sekutu bagi mereka yang menghormati alam."]
+  }

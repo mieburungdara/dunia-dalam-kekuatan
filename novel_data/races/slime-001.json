@@ -1,0 +1,9 @@
+{
+    "race_id": "slime-001",
+    "name": "Slime",
+    "description": "Makhluk amorf yang dapat mencerna hampir semua hal. Beragam jenis seperti Common-Slime dan Rimuru-type.",
+    "average_lifespan": null,
+    "common_traits": ["Amorf", "Mencerna", "Fleksibel", "Adaptif"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri atau perintah.",
+    "relations_with_other_races": ["Dianggap sebagai hama atau alat oleh ras lain."]
+  }

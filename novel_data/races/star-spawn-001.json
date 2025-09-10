@@ -1,0 +1,9 @@
+{
+    "race_id": "star-spawn-001",
+    "name": "Star-Spawn",
+    "description": "Makhluk dengan tubuh cair bintang, mampu memanipulasi energi kosmik. Dikenal karena kekuatan dan sifat asing mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Kosmik", "Kuat", "Asing", "Misterius"],
+    "cultural_notes": "Tidak memiliki budaya yang dapat dipahami manusia, fokus pada tujuan mereka sendiri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman besar oleh sebagian besar ras."]
+  }

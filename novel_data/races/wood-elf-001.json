@@ -1,0 +1,9 @@
+{
+    "race_id": "wood-elf-001",
+    "name": "Wood-Elf / Sylvan",
+    "description": "Elf yang hidup di hutan, ahli dalam menggunakan busur dan dekat dengan alam. Seringkali menjadi penjaga hutan.",
+    "average_lifespan": 700,
+    "common_traits": ["Lincah", "Pemanah ulung", "Dekat dengan alam", "Mandiri"],
+    "cultural_notes": "Hidup dalam harmoni dengan alam, menghargai kebebasan dan berburu. Seringkali menghindari peradaban.",
+    "relations_with_other_races": ["Cenderung menjaga jarak, tetapi dapat menjadi sekutu bagi mereka yang menghormati alam."]
+  }

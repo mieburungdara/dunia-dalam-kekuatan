@@ -1,0 +1,9 @@
+{
+    "race_id": "duergar-001",
+    "name": "Duergar",
+    "description": "Dwarf jahat dengan kemampuan invisibilitas, seringkali tinggal di Underdark dan memiliki sifat yang kejam.",
+    "average_lifespan": 350,
+    "common_traits": ["Licik", "Kejam", "Invisibilitas", "Tahan banting"],
+    "cultural_notes": "Masyarakat yang kejam dan hierarkis, fokus pada penaklukan dan perbudakan.",
+    "relations_with_other_races": ["Bermusuhan dengan sebagian besar ras, terutama Dwarf permukaan."]
+  }

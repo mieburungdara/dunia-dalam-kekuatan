@@ -1,0 +1,9 @@
+{
+    "race_id": "devil-001",
+    "name": "Devil",
+    "description": "Makhluk dari neraka, dikenal karena kecerdasan licik dan kemampuan sihir gelap. Beragam jenis seperti Imp dan Succubus.",
+    "average_lifespan": null,
+    "common_traits": ["Licik", "Sihir gelap", "Manipulatif", "Kejam"],
+    "cultural_notes": "Mencari jiwa dan kekuasaan, seringkali membuat perjanjian dengan manusia.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

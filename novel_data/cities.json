@@ -1,14 +1,1 @@
-[
-  {
-    "city_id": "kota-eldoria-001",
-    "name": "Eldoria",
-    "location": "Lembah Sungai Perak",
-    "description": "Ibukota Kerajaan Valoria, dikenal dengan arsitektur megah dan perpustakaan kuno yang menyimpan pengetahuan tak terbatas.",
-    "population": 250000,
-    "government": "Monarki Konstitusional",
-    "key_landmarks": ["Istana Valoria", "Perpustakaan Agung Eldoria", "Menara Pengawas"],
-    "factions_present": ["Pengawal Kerajaan", "Serikat Pedagang", "Ordo Cendekiawan"],
-    "economy": "Perdagangan, pendidikan, kerajinan tangan",
-    "notes": "Pusat politik dan budaya kerajaan."
-  }
-]
+["eldoria"]

@@ -1,0 +1,9 @@
+{
+    "race_id": "aquatic-001",
+    "name": "Aquatic & Amphibian",
+    "description": "Makhluk yang hidup di air atau di darat dan air. Beragam jenis seperti Kappa dan Sahagin.",
+    "average_lifespan": 100,
+    "common_traits": ["Air", "Amfibi", "Unik", "Misterius"],
+    "cultural_notes": "Hidup di dekat sumber air, fokus pada kelangsungan hidup dan adaptasi.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga teritorial."]
+  }

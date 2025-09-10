@@ -1,0 +1,9 @@
+{
+    "race_id": "healing-slime-001",
+    "name": "Healing-Slime",
+    "description": "Slime yang memiliki kemampuan penyembuhan. Seringkali menjadi pendamping atau sumber obat.",
+    "average_lifespan": null,
+    "common_traits": ["Penyembuh", "Ramah", "Lembut", "Berguna"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai pendamping atau sumber obat oleh ras lain."]
+  }

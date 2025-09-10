@@ -1,0 +1,9 @@
+{
+    "race_id": "mandragora-001",
+    "name": "Mandragora",
+    "description": "Tumbuhan yang menyerupai manusia, mengeluarkan teriakan mematikan saat dicabut. Berbahaya dan sulit ditangani.",
+    "average_lifespan": 50,
+    "common_traits": ["Tumbuhan", "Teriakan mematikan", "Berbahaya", "Sulit ditangani"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

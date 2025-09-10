@@ -1,0 +1,9 @@
+{
+    "race_id": "troll-001",
+    "name": "Troll",
+    "description": "Makhluk besar dengan kemampuan regenerasi, tetapi takut cahaya. Seringkali menjadi monster atau penjaga.",
+    "average_lifespan": 150,
+    "common_traits": ["Regenerasi", "Kuat", "Agresif", "Takut cahaya"],
+    "cultural_notes": "Cenderung hidup di tempat gelap, fokus pada makanan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

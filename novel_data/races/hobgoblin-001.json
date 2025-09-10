@@ -1,0 +1,9 @@
+{
+    "race_id": "hobgoblin-001",
+    "name": "Hobgoblin",
+    "description": "Goblin yang lebih besar dan militeristik, dikenal karena disiplin dan strategi perang mereka.",
+    "average_lifespan": 50,
+    "common_traits": ["Disiplin", "Militeristik", "Kuat", "Strategis"],
+    "cultural_notes": "Membangun pasukan yang terorganisir dengan baik, fokus pada penaklukan dan dominasi.",
+    "relations_with_other_races": ["Sering menjadi ancaman militer bagi ras lain."]
+  }

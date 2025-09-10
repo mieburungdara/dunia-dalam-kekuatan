@@ -1,0 +1,9 @@
+{
+    "race_id": "manticore-001",
+    "name": "Manticore",
+    "description": "Makhluk chimeric dengan tubuh singa, sayap kelelawar, dan ekor kalajengking. Dikenal karena sifat ganas dan mematikan mereka.",
+    "average_lifespan": 100,
+    "common_traits": ["Ganas", "Mematikan", "Terbang", "Agresif"],
+    "cultural_notes": "Hidup di daerah terpencil, fokus pada berburu dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

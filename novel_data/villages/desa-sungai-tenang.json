@@ -1,0 +1,10 @@
+{
+    "village_id": "desa-sungai-tenang-001",
+    "name": "Desa Sungai Tenang",
+    "location": "Tepi Sungai Tenang, dekat Hutan Berbisik",
+    "description": "Desa kecil yang damai, sebagian besar dihuni oleh petani dan nelayan. Terkenal dengan hasil panennya yang melimpah.",
+    "population": 300,
+    "main_activity": "Pertanian, Perikanan",
+    "key_figures": ["Kepala Desa Aris", "Tabib Tua Lena"],
+    "notes": "Sering menjadi tempat persinggahan bagi para petualang yang melewati Hutan Berbisik."
+  }

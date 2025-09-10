@@ -1,0 +1,82 @@
+{
+    "ID": 2,
+    "Name": "Bimo",
+    "Age": 19,
+    "Gender": "Laki-laki",
+    "Role": "Archer",
+    "Personality": ["Ceria", "Optimis", "Cenderung pemalas", "Agak ceroboh", "Selalu mencari jalan pintas"],
+    "Background": "Anak SMA, gamer. Dikenal sebagai si pemalas di kelompoknya.",
+    "Strengths": ["Insting tajam", "Cepat belajar"],
+    "Weaknesses": ["Sering gegabah", "Gampang tertipu", "Menghindari pekerjaan berat"],
+    "Motivation": "Bertahan hidup dengan cara termudah, mencari kesenangan dan petualangan, serta membuktikan dirinya tidak selemah yang orang kira.",
+    "Growth": "Dari pemalas dan ceroboh menjadi lebih bertanggung jawab dan berani, menyadari bahwa kekuatan sejati datang dari kerja keras dan keberanian.",
+    "Arc": "Transformasi dari seorang gamer yang mencari kesenangan menjadi pahlawan yang tidak terduga.",
+    "InternalConflict": "Keinginan untuk bersantai vs. kebutuhan untuk bertindak; rasa takut vs. keberanian yang muncul.",
+    "ExternalConflict": "Pertarungan melawan monster dan situasi berbahaya yang membutuhkan tindakan cepat.",
+    "Fears": ["Kebosanan", "Pekerjaan berat", "Dianggap tidak berguna"],
+    "Hopes": ["Menjadi pahlawan yang diakui", "Menemukan harta karun", "Menjalani hidup yang penuh petualangan tanpa banyak usaha"],
+    "Quirks": ["Sering menggunakan istilah game dalam percakapan sehari-hari", "Punya kebiasaan mengeluh tapi tetap melakukan tugasnya"],
+    "Appearance": {
+      "Description": "Tinggi sedang, rambut coklat berantakan, mata coklat cerah.",
+      "Style": "Sering memakai hoodie dan celana kargo."
+    },
+    "Relationships": [{"TargetID": 1, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 5, "Type": "Rekan", "Description": "Sering mengganggu Lina"}],
+    "Affiliations": ["Tidak ada (sebelumnya Gamer)"],
+    "Voice": "Ceria, santai, sering menggunakan slang atau istilah game, kadang terdengar malas.",
+    "Flaws": ["Cenderung menghindari tanggung jawab", "Mudah terdistraksi", "Kurang disiplin"],
+    "Zodiac": "Sagittarius",
+    "MBTI": "ENFP",
+    "Status": "Pendatang dari Dunia Lain (Pelajar)",
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Memaksa keluar dari zona nyaman, memicu adaptasi"}, {"Event": "Pertarungan pertama dengan monster", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menyadari bahaya dunia baru, memicu pengembangan insting"}],
+    "Goals": ["Bertahan hidup dengan nyaman", "Menemukan petualangan seru", "Membuktikan dirinya berguna"],
+    "Obstacles": ["Sifat malas dan ceroboh", "Mudah terdistraksi", "Kurangnya pengalaman tempur"],
+    "InternalMonologue": "Kapan ini selesai? Aku lapar. Semoga ada sesuatu yang seru terjadi. Jangan sampai aku bosan.",
+    "ExternalPerception": "Dilihat sebagai orang yang ceria dan optimis, tapi juga pemalas dan kurang serius.",
+    "Inventory": [
+      {
+        "Name": "Busur Komposit",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Anak Panah Berujung Khusus",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Headset Gaming (rusak)",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Panahan Cepat",
+        "Level": "Mahir",
+        "Description": ""
+      },
+      {
+        "Name": "Pelacakan",
+        "Level": "Dasar",
+        "Description": ""
+      },
+      {
+        "Name": "Survival",
+        "Level": "Dasar",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
+  }

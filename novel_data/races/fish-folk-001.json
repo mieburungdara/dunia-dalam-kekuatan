@@ -1,0 +1,9 @@
+{
+    "race_id": "fish-folk-001",
+    "name": "Fish-Folk / Siren / Mermaid",
+    "description": "Demi-human yang hidup di air, dengan kemampuan memanipulasi air dan suara memikat. Beragam jenis seperti siren dan mermaid.",
+    "average_lifespan": 300,
+    "common_traits": ["Memikat", "Suara indah", "Manipulasi air", "Misterius"],
+    "cultural_notes": "Hidup di kedalaman laut atau pulau-pulau terpencil, menghargai keindahan, musik, dan rahasia lautan.",
+    "relations_with_other_races": ["Seringkali berbahaya bagi pelaut, tetapi beberapa dapat menjalin hubungan dengan ras daratan untuk tujuan tertentu."]
+  }

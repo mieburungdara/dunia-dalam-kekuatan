@@ -1,0 +1,9 @@
+{
+    "race_id": "cupid-001",
+    "name": "Cupid / Cherub",
+    "description": "Malaikat kecil dengan panah cinta. Seringkali menjadi utusan atau pembuat masalah.",
+    "average_lifespan": null,
+    "common_traits": ["Kecil", "Lincah", "Jenaka", "Penyebar cinta"],
+    "cultural_notes": "Suka bermain dan menyebarkan cinta, seringkali menyebabkan kekacauan.",
+    "relations_with_other_races": ["Umumnya ramah, tetapi dapat menjadi pengganggu."]
+  }

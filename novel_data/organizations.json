@@ -1,14 +1,1 @@
-[
-  {
-    "organization_id": "serikat-penyihir-001",
-    "name": "Serikat Arkanum",
-    "description": "Serikat penyihir bergengsi yang didedikasikan untuk studi dan penggunaan sihir yang bertanggung jawab.",
-    "goals": ["Meningkatkan pengetahuan sihir", "Menjaga keseimbangan sihir", "Melindungi yang tidak bersalah"],
-    "ideology": "Pengetahuan adalah kekuatan, tetapi kekuatan harus digunakan dengan bijaksana.",
-    "leader": "Archmage Agung Elara Vancroft",
-    "members_count": 500,
-    "influence_level": "Tinggi",
-    "allies": ["Pengawal Kerajaan", "Kolektif Cendekiawan"],
-    "enemies": ["Kultus Bayangan", "Pembawa Kekacauan"]
-  }
-]
+["serikat-arkanum"]

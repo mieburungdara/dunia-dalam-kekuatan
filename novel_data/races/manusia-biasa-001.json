@@ -1,0 +1,9 @@
+{
+    "race_id": "manusia-biasa-001",
+    "name": "Manusia Biasa",
+    "description": "Manusia pada umumnya tanpa kemampuan khusus, fokus pada kehidupan sehari-hari dan pembangunan masyarakat.",
+    "average_lifespan": 80,
+    "common_traits": ["Adaptif", "Cekatan", "Beragam", "Gigih"],
+    "cultural_notes": "Membangun peradaban, kota, dan kerajaan. Sangat sosial dan inovatif.",
+    "relations_with_other_races": ["Bervariasi, tergantung pada interaksi individu dan kelompok."]
+  }

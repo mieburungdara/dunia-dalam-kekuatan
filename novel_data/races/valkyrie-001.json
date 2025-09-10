@@ -1,0 +1,9 @@
+{
+    "race_id": "valkyrie-001",
+    "name": "Valkyrie",
+    "description": "Prajurit surgawi wanita yang memilih pahlawan yang gugur untuk dibawa ke Valhalla. Dikenal karena keberanian dan kekuatan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Berani", "Kuat", "Terbang", "Penyelamat"],
+    "cultural_notes": "Melayani dewa-dewa perang, fokus pada pertempuran dan kehormatan.",
+    "relations_with_other_races": ["Dihormati oleh prajurit, ditakuti oleh musuh."]
+  }

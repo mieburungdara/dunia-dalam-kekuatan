@@ -1,0 +1,9 @@
+{
+    "race_id": "automaton-001",
+    "name": "Automaton / Golem / Living-Armor",
+    "description": "Makhluk buatan yang dihidupkan oleh sihir atau teknologi. Beragam jenis seperti Magic-Knight-Golem dan Clockwork-Doll.",
+    "average_lifespan": null,
+    "common_traits": ["Buatan", "Kuat", "Tidak berpikir", "Setia"],
+    "cultural_notes": "Melayani pencipta mereka, fokus pada tugas yang diberikan.",
+    "relations_with_other_races": ["Dianggap sebagai alat atau ancaman oleh ras lain."]
+  }

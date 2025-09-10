@@ -1,0 +1,9 @@
+{
+    "race_id": "kraken-spawn-001",
+    "name": "Kraken-spawn",
+    "description": "Keturunan Kraken, memiliki tentakel dan kekuatan laut yang besar. Dikenal karena sifat merusak mereka.",
+    "average_lifespan": 300,
+    "common_traits": ["Tentakel", "Kuat", "Merusak", "Laut"],
+    "cultural_notes": "Hidup di kedalaman laut, fokus pada kehancuran dan dominasi.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman terbesar oleh sebagian besar ras."]
+  }

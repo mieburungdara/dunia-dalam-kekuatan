@@ -1,0 +1,9 @@
+{
+    "race_id": "minotaur-001",
+    "name": "Minotaur",
+    "description": "Makhluk berotot dengan kepala banteng dan tubuh manusia. Dikenal karena kekuatan fisik yang luar biasa, ketahanan, dan sifat yang terkadang agresif.",
+    "average_lifespan": 120,
+    "common_traits": ["Berotot", "Tahan banting", "Agresif", "Setia"],
+    "cultural_notes": "Seringkali hidup di labirin atau gua, menghargai kekuatan, kehormatan dalam pertempuran, dan kesetiaan kepada klan atau pemimpin.",
+    "relations_with_other_races": ["Sering disalahpahami dan ditakuti, tetapi dapat menjadi pelindung yang setia bagi mereka yang mereka percayai."]
+  }

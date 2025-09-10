@@ -1,0 +1,7 @@
+{
+    "id": "hourglass-of-tenebris-001",
+    "name": "Hourglass of Tenebris",
+    "description": "Jam pasir yang memungkinkan penggunanya mundur ke masa lalu.",
+    "effect": "Memungkinkan pengguna mundur satu menit ke masa lalu.",
+    "cost_or_curse": "Setiap penggunaan mengurangi umur pengguna."
+  }

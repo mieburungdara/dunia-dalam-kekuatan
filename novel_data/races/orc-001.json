@@ -1,0 +1,9 @@
+{
+    "race_id": "orc-001",
+    "name": "Orc",
+    "description": "Ras yang kuat dan sering disalahpahami, dikenal karena kekuatan fisik, keberanian dalam pertempuran, dan struktur klan yang ketat.",
+    "average_lifespan": 60,
+    "common_traits": ["Kuat", "Berani", "Setia pada klan", "Agresif"],
+    "cultural_notes": "Masyarakat berbasis klan dengan hierarki yang jelas, menghargai kekuatan dan kehormatan dalam pertempuran. Seringkali disalahpahami sebagai barbar.",
+    "relations_with_other_races": ["Sering berkonflik dengan Manusia dan Elf, namun dapat membentuk aliansi yang kuat jika saling menguntungkan."]
+  }

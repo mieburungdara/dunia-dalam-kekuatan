@@ -1,0 +1,9 @@
+{
+    "race_id": "stone-giant-001",
+    "name": "Stone-Giant",
+    "description": "Raksasa yang tinggal di pegunungan, kuat dan ahli dalam memahat batu. Seringkali menjadi seniman atau penjaga.",
+    "average_lifespan": 600,
+    "common_traits": ["Kuat", "Terampil", "Artistik", "Tenang"],
+    "cultural_notes": "Membangun kota-kota di dalam gunung, menghargai seni dan keindahan batu.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  }

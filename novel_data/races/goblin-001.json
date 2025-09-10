@@ -1,0 +1,9 @@
+{
+    "race_id": "goblin-001",
+    "name": "Goblin",
+    "description": "Ras kecil dan licik, dikenal karena jumlah mereka yang banyak, kecerdikan dalam membuat jebakan, dan kecenderungan untuk menjarah.",
+    "average_lifespan": 40,
+    "common_traits": ["Kecil", "Licik", "Banyak", "Penjarah"],
+    "cultural_notes": "Hidup dalam kelompok besar di gua-gua atau reruntuhan, seringkali dipimpin oleh yang terkuat atau paling licik. Menghargai barang-barang berkilau.",
+    "relations_with_other_races": ["Umumnya dianggap hama, sering menjadi musuh bagi sebagian besar ras lain."]
+  }

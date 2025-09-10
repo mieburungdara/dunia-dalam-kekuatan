@@ -1,0 +1,9 @@
+{
+    "race_id": "bee-folk-001",
+    "name": "Bee-Folk / Apis",
+    "description": "Makhluk yang menyerupai lebah, hidup dalam koloni dengan ratu. Dikenal karena sifat kolektif dan pekerja keras mereka.",
+    "average_lifespan": 50,
+    "common_traits": ["Lebah", "Kolektif", "Pekerja keras", "Setia"],
+    "cultural_notes": "Hidup dalam koloni yang terorganisir, fokus pada produksi madu dan perlindungan ratu.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi agresif jika koloni mereka diganggu."]
+  }

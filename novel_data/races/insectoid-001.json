@@ -1,0 +1,9 @@
+{
+    "race_id": "insectoid-001",
+    "name": "Insectoid",
+    "description": "Makhluk yang menyerupai serangga, memiliki cangkang keras dan kemampuan unik. Beragam jenis seperti Arachne dan Mantis-Folk.",
+    "average_lifespan": 100,
+    "common_traits": ["Serangga", "Cangkang keras", "Unik", "Agresif"],
+    "cultural_notes": "Hidup dalam koloni, fokus pada kelangsungan hidup dan dominasi.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau hama oleh ras lain."]
+  }

@@ -1,0 +1,9 @@
+{
+    "race_id": "succubus-001",
+    "name": "Succubus / Incubus",
+    "description": "Iblis yang memikat dengan kemampuan untuk menguras energi kehidupan melalui nafsu. Dikenal karena kecantikan dan tipu daya mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Memikat", "Licik", "Manipulatif", "Haus energi"],
+    "cultural_notes": "Mencari korban untuk menguras energi, seringkali menyamar sebagai manusia.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  }

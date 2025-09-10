@@ -1,0 +1,9 @@
+{
+    "race_id": "chimera-001",
+    "name": "Chimera",
+    "description": "Makhluk chimeric dengan kepala singa, kambing, dan naga, serta tubuh singa. Dikenal karena sifat ganas dan mematikan mereka.",
+    "average_lifespan": 100,
+    "common_traits": ["Ganas", "Mematikan", "Api", "Agresif"],
+    "cultural_notes": "Hidup di daerah terpencil, fokus pada berhunting dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

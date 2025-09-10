@@ -1,0 +1,9 @@
+{
+    "race_id": "salamander-001",
+    "name": "Salamander",
+    "description": "Elemental api yang hidup di daerah panas. Dikenal karena kekuatan api dan sifat agresif mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Api", "Kuat", "Agresif", "Tahan panas"],
+    "cultural_notes": "Hidup di daerah vulkanik atau gurun, fokus pada kekerasan dan dominasi.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

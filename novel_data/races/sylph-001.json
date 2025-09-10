@@ -1,0 +1,9 @@
+{
+    "race_id": "sylph-001",
+    "name": "Sylph",
+    "description": "Elemental angin yang hidup di udara. Dikenal karena kecepatan dan kemampuan terbang mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Angin", "Cepat", "Terbang", "Lincah"],
+    "cultural_notes": "Hidup di udara, fokus pada kebebasan dan petualangan.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  }

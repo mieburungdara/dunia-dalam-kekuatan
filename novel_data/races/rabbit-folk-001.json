@@ -1,0 +1,9 @@
+{
+    "race_id": "rabbit-folk-001",
+    "name": "Rabbit-Folk / Viera",
+    "description": "Demi-human dengan telinga panjang dan kaki kuat, dikenal karena kecepatan dan kelincahan mereka.",
+    "average_lifespan": 70,
+    "common_traits": ["Cepat", "Lincah", "Penakut", "Ramah"],
+    "cultural_notes": "Hidup di komunitas yang damai, fokus pada pertanian dan kerajinan. Seringkali menghindari konflik.",
+    "relations_with_other_races": ["Umumnya ramah dan dapat diandalkan."]
+  }

@@ -1,0 +1,9 @@
+{
+    "race_id": "skeleton-001",
+    "name": "Skeleton",
+    "description": "Kerangka hidup yang dikendalikan oleh sihir gelap. Ringan dan cepat.",
+    "average_lifespan": null,
+    "common_traits": ["Ringan", "Cepat", "Tidak berpikir", "Mudah dihancurkan"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti perintah atau naluri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman dan hama oleh sebagian besar ras."]
+  }

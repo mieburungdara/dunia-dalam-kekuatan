@@ -1,0 +1,28 @@
+{
+  "item_id": "",
+  "item_id_description": "ID unik untuk relik ini (contoh: 'R001', 'R002'). Ini membantu dalam identifikasi dan referensi.",
+  "name": "",
+  "name_description": "Nama lengkap dari relik.",
+  "type": "Relik",
+  "type_description": "Tipe objek ini, yang secara default adalah 'Relik'.",
+  "rarity": "",
+  "rarity_description": "Tingkat kelangkaan relik (contoh: 'Umum', 'Tidak Umum', 'Langka', 'Epik', 'Legendaris', 'Mitos').",
+  "short_description": "",
+  "short_description_description": "Deskripsi singkat atau kutipan puitis yang menggambarkan relik ini secara umum.",
+  "effects_attributes": {
+    "main_ability": "",
+    "main_ability_description": "Penjelasan tentang kemampuan utama atau kekuatan spesifik yang diberikan relik ini, yang seringkali terkait erat dengan asal-usulnya.",
+    "additional_attributes": "",
+    "additional_attributes_description": "Atribut tambahan seperti bonus stat, efek pasif, atau kemampuan lain yang diberikan relik."
+  },
+  "effects_attributes_description": "Objek yang berisi detail tentang kemampuan dan atribut relik.",
+  "cost_curse": {
+    "usage_consequences": "",
+    "usage_consequences_description": "Konsekuensi negatif, efek samping, atau kutukan yang muncul jika relik digunakan terlalu lama atau tanpa syarat tertentu.",
+    "usage_conditions": "",
+    "usage_conditions_description": "Syarat-syarat yang harus dipenuhi (jika ada) untuk menggunakan relik ini tanpa memicu konsekuensi negatif."
+  },
+  "cost_curse_description": "Objek yang menjelaskan konsekuensi atau 'harga' dari penggunaan relik.",
+  "lore_history": "",
+  "lore_history_description": "Narasi lengkap tentang asal-usul relik ini, termasuk kisah legenda, mitologi, atau dongeng yang melatarbelakanginya. Ini juga mencakup siapa yang menciptakannya/menemukannya, dan peristiwa penting yang terkait dengannya."
+}

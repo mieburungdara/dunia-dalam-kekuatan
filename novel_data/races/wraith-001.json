@@ -1,0 +1,9 @@
+{
+    "race_id": "wraith-001",
+    "name": "Wraith",
+    "description": "Roh jahat yang tidak berwujud, mampu menguras kehidupan. Dikenal karena sifat dingin dan mematikan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Tidak berwujud", "Menguras kehidupan", "Dingin", "Mematikan"],
+    "cultural_notes": "Mencari kehidupan untuk dikuras, seringkali menghantui tempat-tempat gelap.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  }

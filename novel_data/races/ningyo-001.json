@@ -1,0 +1,9 @@
+{
+    "race_id": "ningyo-001",
+    "name": "Ningyo",
+    "description": "Manusia ikan dari mitologi Jepang, memiliki tubuh ikan dan kepala manusia. Dikenal karena kecantikan dan kemampuan sihir mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Cantik", "Sihir", "Misterius", "Air"],
+    "cultural_notes": "Hidup di laut, fokus pada keindahan dan rahasia lautan.",
+    "relations_with_other_races": ["Dapat menjadi sekutu atau musuh, tergantung pada sifat mereka."]
+  }

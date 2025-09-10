@@ -1,13 +1,1 @@
-[
-  {
-    "creature_id": "griffin-001",
-    "name": "Griffin",
-    "description": "Binatang megah dengan tubuh singa dan kepala serta sayap elang, sering digunakan sebagai tunggangan oleh para ksatria.",
-    "habitat": "Daerah pegunungan, tebing tinggi",
-    "diet": "Karnivora (lebih suka buruan besar)",
-    "behavior": "Teritorial, sangat setia kepada penunggangnya, cerdas.",
-    "abilities": ["Terbang", "Cakar dan paruh tajam", "Penglihatan tajam"],
-    "threat_level": "Sedang (jika diprovokasi atau liar)",
-    "lore": "Simbol bangsawan dan keberanian dalam banyak budaya."
-  }
-]
+["griffin"]

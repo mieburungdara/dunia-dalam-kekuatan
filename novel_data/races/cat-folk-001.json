@@ -1,0 +1,9 @@
+{
+    "race_id": "cat-folk-001",
+    "name": "Cat-Folk / Nekomata",
+    "description": "Demi-human dengan telinga kucing dan ekor, pandai parkour dan memiliki kelincahan kucing.",
+    "average_lifespan": 90,
+    "common_traits": ["Lincah", "Cekatan", "Penasaran", "Mandiri"],
+    "cultural_notes": "Seringkali hidup di perkotaan, menghargai kebebasan dan petualangan. Suka bermain dan mencuri.",
+    "relations_with_other_races": ["Umumnya ramah, tetapi dapat menjadi licik dan sulit dipercaya."]
+  }

@@ -1,0 +1,9 @@
+{
+    "race_id": "ogre-001",
+    "name": "Ogre",
+    "description": "Makhluk berukuran hampir troll, bodoh tapi kuat. Seringkali menjadi preman atau penjaga.",
+    "average_lifespan": 80,
+    "common_traits": ["Bodoh", "Kuat", "Rakus", "Agresif"],
+    "cultural_notes": "Cenderung hidup sendiri atau dalam kelompok kecil, fokus pada makanan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau alat oleh ras lain."]
+  }

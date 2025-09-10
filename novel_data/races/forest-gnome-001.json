@@ -1,0 +1,9 @@
+{
+    "race_id": "forest-gnome-001",
+    "name": "Forest-Gnome",
+    "description": "Gnome yang memiliki kemampuan berkomunikasi dengan hewan dan ahli dalam ilusi. Seringkali menjadi penjaga hutan atau penipu.",
+    "average_lifespan": 350,
+    "common_traits": ["Ilusionis", "Komunikatif", "Dekat dengan alam", "Jenaka"],
+    "cultural_notes": "Hidup di hutan-hutan yang rimbun, menghargai alam dan kebebasan.",
+    "relations_with_other_races": ["Umumnya ramah dan suka bergaul dengan makhluk hutan."]
+  }

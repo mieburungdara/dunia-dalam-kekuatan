@@ -1,0 +1,9 @@
+{
+    "race_id": "lich-001",
+    "name": "Lich",
+    "description": "Penyihir undead yang abadi melalui phylactery. Dikenal karena sihir gelap dan kecerdasan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Abadi", "Sihir gelap", "Cerdas", "Kejam"],
+    "cultural_notes": "Mencari pengetahuan dan kekuasaan, seringkali menguasai pasukan undead.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman besar oleh sebagian besar ras."]
+  }

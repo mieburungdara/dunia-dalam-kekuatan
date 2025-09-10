@@ -1,0 +1,82 @@
+{
+    "ID": 4,
+    "Name": "Mira",
+    "Age": 20,
+    "Gender": "Perempuan",
+    "Role": "Healer",
+    "Personality": ["Cerdas", "Ambisius", "Perfeksionis", "Keras kepala", "Pemalu", "Sensitif", "Penuh rasa ingin tahu", "Penyayang", "Penyabar", "Perhatian"],
+    "Background": "Mahasiswi kedokteran.",
+    "Strengths": ["Analitis", "Penyembuhan alami", "Punya standar tinggi"],
+    "Weaknesses": ["Sangat kaku", "Sulit menerima masukan", "Sering meremehkan orang lain", "Penakut"],
+    "Motivation": "Menggunakan pengetahuannya untuk membantu orang lain, membuktikan kemampuannya, dan mengatasi rasa takutnya.",
+    "Growth": "Dari penakut dan perfeksionis menjadi lebih berani dan fleksibel, belajar bahwa tidak semua hal bisa dikendalikan.",
+    "Arc": "Mengatasi ketakutan dan keraguan diri untuk menjadi penyembuh yang kuat dan diandalkan.",
+    "InternalConflict": "Pertarungan antara keinginan untuk membantu dan rasa takut akan kegagalan; perfeksionisme vs. realitas.",
+    "ExternalConflict": "Situasi medis darurat, tekanan untuk menyembuhkan yang terluka.",
+    "Fears": ["Kegagalan", "Tidak bisa membantu", "Membuat kesalahan fatal"],
+    "Hopes": ["Menjadi penyembuh yang hebat", "Menyelamatkan banyak nyawa", "Menemukan obat untuk penyakit di Eryndor"],
+    "Quirks": ["Sering membawa catatan medis kecil", "Cenderung panik dalam situasi yang tidak terduga tapi cepat pulih"],
+    "Appearance": {
+      "Description": "Ramping, rambut hitam panjang terikat rapi, mata coklat lembut.",
+      "Style": "Sering memakai pakaian bersih dan praktis."
+    },
+    "Relationships": [{"TargetID": 3, "Type": "Dilindungi", "Description": "Sangat dilindungi oleh Raka"}, {"TargetID": 5, "Type": "Teman Dekat", "Description": "Sering menenangkan Lina"}],
+    "Affiliations": ["Tidak ada (sebelumnya Mahasiswi Kedokteran)"],
+    "Voice": "Lembut, teratur, kadang terdengar cemas atau terlalu hati-hati, namun bisa tegas saat dibutuhkan.",
+    "Flaws": ["Perfeksionis berlebihan", "Terlalu penakut", "Sulit menerima kritik"],
+    "Zodiac": "Capricorn",
+    "MBTI": "ESTJ",
+    "Status": "Pendatang dari Dunia Lain (Mahasiswi Kedokteran)",
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Menguji pengetahuan medis, memicu pengembangan kemampuan penyembuhan"}, {"Event": "Menyembuhkan anggota kelompok", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Meningkatkan kepercayaan diri, memperkuat ikatan kelompok"}],
+    "Goals": ["Menggunakan pengetahuannya untuk membantu", "Membuktikan kemampuannya sebagai penyembuh", "Mengatasi rasa takutnya"],
+    "Obstacles": ["Perfeksionisme berlebihan", "Rasa takut akan kegagalan", "Keterbatasan sumber daya medis di Eryndor"],
+    "InternalMonologue": "Apakah aku sudah melakukan yang terbaik? Bagaimana jika aku salah? Aku harus sempurna.",
+    "ExternalPerception": "Dilihat sebagai penyembuh yang kompeten dan perhatian, tapi juga cemas dan terlalu kaku.",
+    "Inventory": [
+      {
+        "Name": "Kit Medis Portabel",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Buku Herbal",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Jepit Rambut Berukir",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Penyembuhan Luka",
+        "Level": "Mahir",
+        "Description": ""
+      },
+      {
+        "Name": "Diagnosa Penyakit",
+        "Level": "Ahli",
+        "Description": ""
+      },
+      {
+        "Name": "Pengetahuan Herbal",
+        "Level": "Menengah",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
+  }

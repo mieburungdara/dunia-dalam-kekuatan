@@ -1,0 +1,9 @@
+{
+    "race_id": "pixie-001",
+    "name": "Pixie",
+    "description": "Fairy kecil dengan sayap serangga dan debu ajaib. Seringkali menjadi pembuat masalah atau pemandu.",
+    "average_lifespan": 300,
+    "common_traits": ["Kecil", "Bersayap", "Debu ajaib", "Jenaka"],
+    "cultural_notes": "Suka bermain dan menyebabkan kekacauan, seringkali membantu atau mengganggu petualang.",
+    "relations_with_other_races": ["Umumnya ramah, tetapi dapat menjadi pengganggu."]
+  }

@@ -1,0 +1,9 @@
+{
+    "race_id": "vampire-001",
+    "name": "Vampire",
+    "description": "Makhluk undead yang meminum darah, memiliki kekuatan dan sihir gelap. Beragam jenis seperti Pure-Blood dan Lesser Vampire.",
+    "average_lifespan": null,
+    "common_traits": ["Abadi", "Kuat", "Sihir gelap", "Haus darah"],
+    "cultural_notes": "Hidup di kastil atau tempat tersembunyi, menghargai kekuasaan dan keabadian. Seringkali membentuk klan.",
+    "relations_with_other_races": ["Umumnya bermusuhan dengan ras hidup, tetapi beberapa dapat hidup berdampingan."]
+  }

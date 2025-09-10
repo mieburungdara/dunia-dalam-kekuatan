@@ -1,0 +1,9 @@
+{
+    "race_id": "oni-001",
+    "name": "Oni",
+    "description": "Raksasa iblis dari mitologi Jepang, sering digambarkan dengan kulit merah atau biru, rambut acak-acakan, dan dua tanduk. Dikenal karena kekuatan fisik yang besar, kekejaman, dan sifat merusak.",
+    "average_lifespan": 500,
+    "common_traits": ["Kuat", "Kejam", "Merusak", "Tahan banting"],
+    "cultural_notes": "Seringkali hidup di benteng terpencil atau gua, menghargai kekuatan, kehancuran, dan dominasi. Sering menjadi penjahat atau penguasa tiran.",
+    "relations_with_other_races": ["Umumnya bermusuhan dengan semua ras lain, mencari konflik dan kehancuran."]
+  }

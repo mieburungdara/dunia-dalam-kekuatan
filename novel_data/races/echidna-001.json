@@ -1,0 +1,9 @@
+{
+    "race_id": "echidna-001",
+    "name": "Echidna",
+    "description": "Ibu monster, makhluk setengah wanita dan setengah ular. Dikenal karena melahirkan berbagai monster.",
+    "average_lifespan": null,
+    "common_traits": ["Melindungi", "Subur", "Kuat", "Misterius"],
+    "cultural_notes": "Hidup di gua-gua tersembunyi, fokus pada melahirkan dan melindungi keturunan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau sumber monster oleh ras lain."]
+  }

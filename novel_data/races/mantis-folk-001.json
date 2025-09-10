@@ -1,0 +1,9 @@
+{
+    "race_id": "mantis-folk-001",
+    "name": "Mantis-Folk",
+    "description": "Makhluk yang menyerupai belalang sembah, memiliki cakar tajam dan kemampuan bertarung. Dikenal karena sifat agresif mereka.",
+    "average_lifespan": 80,
+    "common_traits": ["Belalang sembah", "Cakar tajam", "Agresif", "Cepat"],
+    "cultural_notes": "Hidup dalam koloni, fokus pada berburu dan bertarung.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

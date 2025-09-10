@@ -1,0 +1,9 @@
+{
+    "race_id": "wolf-folk-001",
+    "name": "Wolf-Folk / Lycan / Werewolf",
+    "description": "Demi-human dengan ciri-ciri serigala, mampu berubah wujud menjadi serigala penuh. Seringkali memiliki sifat yang liar dan setia.",
+    "average_lifespan": 100,
+    "common_traits": ["Setia", "Liar", "Kuat", "Agresif"],
+    "cultural_notes": "Hidup dalam kawanan, menghargai ikatan keluarga dan berburu. Seringkali memiliki ritual bulan.",
+    "relations_with_other_races": ["Dapat menjadi sekutu yang kuat atau musuh yang berbahaya, tergantung pada sifat mereka."]
+  }

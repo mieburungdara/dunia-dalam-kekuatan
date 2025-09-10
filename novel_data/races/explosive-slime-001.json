@@ -1,0 +1,9 @@
+{
+    "race_id": "explosive-slime-001",
+    "name": "Explosive-Slime",
+    "description": "Slime yang meledak saat disentuh atau diserang. Berbahaya dan sulit ditangani.",
+    "average_lifespan": null,
+    "common_traits": ["Meledak", "Berbahaya", "Agresif", "Sulit ditangani"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

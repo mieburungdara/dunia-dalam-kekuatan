@@ -1,0 +1,9 @@
+{
+    "race_id": "reptilian-001",
+    "name": "Reptilian / Lizardmen / Dragonewt",
+    "description": "Makhluk yang menyerupai reptil, memiliki sisik dan sifat dingin. Beragam jenis seperti Lizardmen dan Dragonewt.",
+    "average_lifespan": 100,
+    "common_traits": ["Reptil", "Sisik", "Dingin", "Agresif"],
+    "cultural_notes": "Hidup di daerah panas atau rawa, fokus pada kelangsungan hidup dan dominasi.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga teritorial."]
+  }

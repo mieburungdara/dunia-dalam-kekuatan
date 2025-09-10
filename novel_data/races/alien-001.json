@@ -1,0 +1,9 @@
+{
+    "race_id": "alien-001",
+    "name": "Alien / Cosmic",
+    "description": "Makhluk dari luar angkasa atau dimensi lain. Beragam jenis seperti Voidling dan Star-Spawn.",
+    "average_lifespan": null,
+    "common_traits": ["Asing", "Kuat", "Misterius", "Tidak dikenal"],
+    "cultural_notes": "Tidak memiliki budaya yang dapat dipahami manusia, fokus pada tujuan mereka sendiri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau objek penelitian oleh ras lain."]
+  }

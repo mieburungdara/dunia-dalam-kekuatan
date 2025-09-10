@@ -1,0 +1,9 @@
+{
+    "race_id": "high-orc-001",
+    "name": "High-Orc / Orc-Magus",
+    "description": "Orc yang memiliki kecerdasan dan bakat sihir selain kekuatan fisik. Seringkali menjadi pemimpin atau penasihat.",
+    "average_lifespan": 70,
+    "common_traits": ["Cerdas", "Kuat", "Berbakat sihir", "Ambisius"],
+    "cultural_notes": "Mencari keseimbangan antara kekuatan fisik dan kecerdasan, sering memimpin klan dengan strategi yang lebih canggih.",
+    "relations_with_other_races": ["Dapat menjadi ancaman yang lebih besar atau sekutu yang lebih dapat diandalkan."]
+  }

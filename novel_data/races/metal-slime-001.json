@@ -1,0 +1,9 @@
+{
+    "race_id": "metal-slime-001",
+    "name": "Metal-Slime",
+    "description": "Slime yang terbuat dari logam, sangat keras dan sulit dihancurkan. Seringkali menjadi target berharga.",
+    "average_lifespan": null,
+    "common_traits": ["Keras", "Sulit dihancurkan", "Cepat", "Berharga"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai target berharga oleh petualang."]
+  }

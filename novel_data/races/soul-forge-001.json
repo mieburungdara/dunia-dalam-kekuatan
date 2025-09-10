@@ -1,0 +1,9 @@
+{
+    "race_id": "soul-forge-001",
+    "name": "Soul-Forge",
+    "description": "Jiwa manusia yang terperangkap di dalam armor. Memiliki kesadaran dan kekuatan.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Berkesadaran", "Terperangkap", "Setia"],
+    "cultural_notes": "Mencari kebebasan atau balas dendam, seringkali menjadi petualang atau penjaga.",
+    "relations_with_other_races": ["Dapat diterima atau ditakuti oleh ras lain, tergantung pada sifat mereka."]
+  }

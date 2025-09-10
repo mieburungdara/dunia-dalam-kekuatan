@@ -1,0 +1,9 @@
+{
+    "race_id": "sphinx-001",
+    "name": "Sphinx",
+    "description": "Makhluk chimeric dengan tubuh singa, sayap burung, dan kepala manusia. Dikenal karena kecerdasan dan teka-teki mereka.",
+    "average_lifespan": 500,
+    "common_traits": ["Cerdas", "Misterius", "Teka-teki", "Bijaksana"],
+    "cultural_notes": "Hidup di reruntuhan kuno, fokus pada menjaga rahasia dan menguji kebijaksanaan.",
+    "relations_with_other_races": ["Dapat menjadi penasihat atau penjaga, tergantung pada sifat mereka."]
+  }

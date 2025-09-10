@@ -1,0 +1,9 @@
+{
+    "race_id": "bugbear-001",
+    "name": "Bugbear",
+    "description": "Goblin raksasa yang ahli dalam penyergapan dan pengeboman. Seringkali menjadi pembunuh bayaran atau perampok.",
+    "average_lifespan": 60,
+    "common_traits": ["Besar", "Penyergap", "Kuat", "Licik"],
+    "cultural_notes": "Cenderung hidup dalam kelompok kecil, fokus pada perampokan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  }

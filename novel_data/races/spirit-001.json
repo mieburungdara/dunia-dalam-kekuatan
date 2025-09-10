@@ -1,0 +1,9 @@
+{
+    "race_id": "spirit-001",
+    "name": "Spirit / Elemental Murni",
+    "description": "Entitas yang terbuat dari elemen murni seperti api, air, angin, tanah, es, petir, cahaya, dan kegelapan. Dikenal karena kekuatan elemen mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Elemental", "Kuat", "Tidak berwujud", "Misterius"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri atau perintah.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau alat oleh ras lain."]
+  }

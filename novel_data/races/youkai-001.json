@@ -1,0 +1,9 @@
+{
+    "race_id": "youkai-001",
+    "name": "Youkai Jepang Lain",
+    "description": "Berbagai makhluk supernatural dari mitologi Jepang, memiliki kemampuan unik dan sifat yang beragam.",
+    "average_lifespan": null,
+    "common_traits": ["Supernatural", "Unik", "Misterius", "Beragam"],
+    "cultural_notes": "Hidup di dunia spiritual atau di antara manusia, fokus pada tujuan mereka sendiri.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga berbahaya."]
+  }

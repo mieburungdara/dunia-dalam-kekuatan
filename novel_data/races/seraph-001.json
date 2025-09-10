@@ -1,0 +1,9 @@
+{
+    "race_id": "seraph-001",
+    "name": "Seraph / Archangel",
+    "description": "Malaikat tertinggi dengan cahaya dan kemampuan penyembuhan yang kuat. Seringkali menjadi pemimpin atau pelindung.",
+    "average_lifespan": null,
+    "common_traits": ["Ilahi", "Penyembuh kuat", "Kuat", "Bijaksana"],
+    "cultural_notes": "Melayani kebaikan dan keadilan, seringkali menjadi pelindung atau utusan.",
+    "relations_with_other_races": ["Dihormati atau ditakuti, tergantung pada sifat mereka."]
+  }

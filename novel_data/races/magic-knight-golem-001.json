@@ -1,0 +1,9 @@
+{
+    "race_id": "magic-knight-golem-001",
+    "name": "Magic-Knight-Golem",
+    "description": "Golem yang dihidupkan oleh sihir dan memiliki kemampuan bertarung. Seringkali menjadi penjaga atau prajurit.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Sihir", "Setia", "Tidak berpikir"],
+    "cultural_notes": "Melayani pencipta mereka, fokus pada tugas yang diberikan.",
+    "relations_with_other_races": ["Dianggap sebagai alat atau ancaman oleh ras lain."]
+  }

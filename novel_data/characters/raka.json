@@ -1,0 +1,82 @@
+{
+    "ID": 3,
+    "Name": "Raka",
+    "Age": 27,
+    "Gender": "Laki-laki",
+    "Role": "Tank/Guardian",
+    "Personality": ["Tenang", "Pelindung", "Seperti kakak besar"],
+    "Background": "Mantan tentara di Bumi.",
+    "Strengths": ["Kuat", "Punya disiplin tempur"],
+    "Weaknesses": ["Trauma masa lalu", "Sulit membuka hati"],
+    "Motivation": "Melindungi teman-temannya, menebus kesalahan masa lalu, dan menemukan kedamaian batin.",
+    "Growth": "Dari tertutup dan trauma menjadi lebih terbuka dan menerima bantuan, menemukan tujuan baru dalam melindungi orang lain.",
+    "Arc": "Penyembuhan dari trauma masa lalu dan menemukan kembali jati diri sebagai pelindung.",
+    "InternalConflict": "Melawan bayangan masa lalu; membuka diri vs. menjaga jarak.",
+    "ExternalConflict": "Melindungi kelompok dari bahaya fisik, menghadapi musuh yang kuat.",
+    "Fears": ["Gagal melindungi orang yang ia sayangi", "Masa lalu yang menghantuinya"],
+    "Hopes": ["Melihat teman-temannya aman", "Menemukan tempat di mana ia bisa merasa tenang"],
+    "Quirks": ["Selalu siaga", "Cenderung mengamati lingkungan sekitar", "Jarang berbicara kecuali penting"],
+    "Appearance": {
+      "Description": "Tinggi besar, berotot, rambut cepak, bekas luka di pipi kanan.",
+      "Style": "Selalu mengenakan rompi kulit tebal."
+    },
+    "Relationships": [{"TargetID": 1, "Type": "Rekan", "Description": "Diandalkan Arga dalam pertempuran"}, {"TargetID": 4, "Type": "Pelindung", "Description": "Sangat protektif terhadap Mira"}],
+    "Affiliations": ["Tidak ada (sebelumnya Tentara)"],
+    "Voice": "Dalam, tenang, jarang berbicara, kata-katanya singkat tapi penuh makna.",
+    "Flaws": ["Terlalu protektif", "Sulit mempercayai orang baru", "Cenderung memendam masalah sendiri"],
+    "Zodiac": "Taurus",
+    "MBTI": "ISFJ",
+    "Status": "Pendatang dari Dunia Lain (Mantan Tentara)",
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Membuka kembali trauma masa lalu, memicu naluri pelindung"}, {"Event": "Melindungi kelompok dari bahaya", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menemukan tujuan baru, mulai menyembuhkan trauma"}],
+    "Goals": ["Melindungi teman-temannya", "Menebus kesalahan masa lalu", "Mencari kedamaian batin"],
+    "Obstacles": ["Trauma masa lalu", "Sulit membuka diri", "Musuh yang kuat"],
+    "InternalMonologue": "Aku harus melindungi mereka. Tidak boleh ada yang terluka lagi. Aku tidak akan gagal kali ini.",
+    "ExternalPerception": "Dilihat sebagai pelindung yang kuat dan dapat diandalkan, tapi juga misterius dan tertutup.",
+    "Inventory": [
+      {
+        "Name": "Perisai Menara",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Kapak Perang",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Kalung Anjing Militer (kenangan)",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Pertahanan Perisai",
+        "Level": "Ahli",
+        "Description": ""
+      },
+      {
+        "Name": "Pertarungan Jarak Dekat",
+        "Level": "Mahir",
+        "Description": ""
+      },
+      {
+        "Name": "Intimidasi",
+        "Level": "Menengah",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
+  }

@@ -1,0 +1,9 @@
+{
+    "race_id": "fairy-001",
+    "name": "Fairy",
+    "description": "Makhluk kecil bersayap dengan sihir alam. Beragam jenis seperti Pixie dan Dryad.",
+    "average_lifespan": 500,
+    "common_traits": ["Kecil", "Bersayap", "Sihir alam", "Jenaka"],
+    "cultural_notes": "Hidup di hutan atau tempat tersembunyi, menghargai alam dan kebebasan.",
+    "relations_with_other_races": ["Umumnya ramah, tetapi dapat menjadi pengganggu."]
+  }

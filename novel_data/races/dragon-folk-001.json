@@ -1,0 +1,9 @@
+{
+    "race_id": "dragon-folk-001",
+    "name": "Dragon-Folk / Dragonoid",
+    "description": "Demi-human dengan sisik, sayap kecil, dan nafas elemen. Dikenal karena kekuatan dan kehormatan mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Kuat", "Berani", "Terhormat", "Tahan elemen"],
+    "cultural_notes": "Menghargai kehormatan dan kesetiaan. Seringkali menjadi prajurit atau pemimpin. Memiliki ikatan kuat dengan naga.",
+    "relations_with_other_races": ["Cenderung dihormati atau ditakuti. Hubungan bervariasi tergantung pada klan naga leluhur mereka."]
+  }

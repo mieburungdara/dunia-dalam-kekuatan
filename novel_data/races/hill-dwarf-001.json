@@ -1,0 +1,9 @@
+{
+    "race_id": "hill-dwarf-001",
+    "name": "Hill-Dwarf",
+    "description": "Dwarf yang tinggal di gunung rendah, pandai dalam membuat baja ringan dan kerajinan tangan. Seringkali menjadi petani atau penjaga.",
+    "average_lifespan": 300,
+    "common_traits": ["Praktis", "Terampil", "Ramah", "Gigih"],
+    "cultural_notes": "Membangun komunitas yang erat di perbukitan, fokus pada pertanian dan kerajinan.",
+    "relations_with_other_races": ["Lebih terbuka terhadap ras lain dibandingkan Mountain-Dwarf."]
+  }

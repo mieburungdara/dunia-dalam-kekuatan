@@ -1,0 +1,9 @@
+{
+    "race_id": "clockwork-doll-001",
+    "name": "Clockwork-Doll",
+    "description": "Boneka mekanis yang dihidupkan oleh teknologi. Seringkali menjadi pelayan atau mata-mata.",
+    "average_lifespan": null,
+    "common_traits": ["Kecil", "Cekatan", "Tidak berpikir", "Setia"],
+    "cultural_notes": "Melayani pencipta mereka, fokus pada tugas yang diberikan.",
+    "relations_with_other_races": ["Dianggap sebagai alat atau ancaman oleh ras lain."]
+  }

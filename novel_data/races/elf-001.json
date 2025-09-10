@@ -1,0 +1,9 @@
+{
+    "race_id": "elf-001",
+    "name": "Elf",
+    "description": "Ras kuno yang anggun, dikenal karena umur panjang, kepekaan terhadap sihir, dan kedekatan dengan alam.",
+    "average_lifespan": 700,
+    "common_traits": ["Anggun", "Sihir", "Dekat dengan alam", "Umur panjang"],
+    "cultural_notes": "Hidup di hutan purba atau kota-kota tersembunyi, menghargai seni, musik, dan pengetahuan kuno.",
+    "relations_with_other_races": ["Cenderung menjaga jarak, namun dapat menjadi sekutu yang kuat bagi mereka yang menghormati alam."]
+  }

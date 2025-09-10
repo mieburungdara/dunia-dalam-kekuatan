@@ -1,0 +1,9 @@
+{
+    "race_id": "cerberus-001",
+    "name": "Cerberus",
+    "description": "Anjing berkepala tiga yang menjaga gerbang dunia bawah. Dikenal karena kekuatan dan sifat ganas mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Ganas", "Setia", "Penjaga"],
+    "cultural_notes": "Melayani penguasa dunia bawah, fokus pada menjaga gerbang.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  }

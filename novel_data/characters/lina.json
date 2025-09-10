@@ -1,0 +1,82 @@
+{
+    "ID": 5,
+    "Name": "Lina",
+    "Age": 18,
+    "Gender": "Perempuan",
+    "Role": "Mage pemula",
+    "Personality": ["Pemalu", "Sensitif", "Penuh rasa ingin tahu", "Sering mengeluh", "Mengumpat", "Sarkasme", "Membenci kotoran dan kesulitan", "Mencari cara termudah"],
+    "Background": "Siswi SMA yang suka novel fantasi.",
+    "Strengths": ["Imajinasi tinggi", "Intuisi sihir kuat"],
+    "Weaknesses": ["Tidak percaya diri", "Gampang panik"],
+    "Motivation": "Mencari kenyamanan dan kemudahan di dunia baru, serta menemukan cara untuk memanfaatkan sihirnya tanpa banyak usaha.",
+    "Growth": "Dari mengeluh dan sarkas menjadi lebih mandiri dan bertanggung jawab, menyadari bahwa kekuatan datang dari penerimaan dan usaha.",
+    "Arc": "Belajar menerima kenyataan pahit dan menemukan kekuatan dalam dirinya sendiri.",
+    "InternalConflict": "Keinginan untuk hidup mudah vs. tantangan dunia baru; sifat manja vs. kebutuhan untuk beradaptasi.",
+    "ExternalConflict": "Lingkungan yang kotor dan sulit, situasi yang memaksanya keluar dari zona nyaman.",
+    "Fears": ["Kotor", "Kesulitan", "Kehilangan kenyamanan"],
+    "Hopes": ["Menemukan tempat yang nyaman dan bersih", "Menguasai sihir dengan mudah", "Kembali ke kehidupan normal"],
+    "Quirks": ["Sering mengeluh dengan nada sarkas", "Punya kebiasaan membersihkan barang-barang di sekitarnya"],
+    "Appearance": {
+      "Description": "Kecil, rambut pirang sebahu, mata biru besar.",
+      "Style": "Sering memakai gaun yang terlihat bersih meskipun di lingkungan kotor."
+    },
+    "Relationships": [{"TargetID": 2, "Type": "Rekan", "Description": "Sering diganggu Bimo"}, {"TargetID": 4, "Type": "Teman Dekat", "Description": "Sering ditenangkan Mira"}],
+    "Affiliations": ["Tidak ada (sebelumnya Siswi SMA)"],
+    "Voice": "Bernada tinggi, sering mengeluh, sarkastik, kadang terdengar manja atau panik.",
+    "Flaws": ["Manja", "Egois (terkadang)", "Mudah panik", "Tidak suka kotor"],
+    "Zodiac": "Pisces",
+    "MBTI": "INFP",
+    "Status": "Pendatang dari Dunia Lain (Pelajar)",
+    "Origin": "Bumi",
+    "KeyEvents": [{"Event": "Terjebak di Eryndor", "Chapter": "01_terjatuh_ke_dunia_lain", "Impact": "Menghadapi kenyataan pahit, memicu pengembangan sihir"}, {"Event": "Menggunakan sihir untuk pertama kali", "Chapter": "02_menjelajah_belantara_asing", "Impact": "Menyadari potensi diri, mulai mengatasi ketakutan"}],
+    "Goals": ["Menemukan kenyamanan dan kemudahan", "Menguasai sihirnya", "Kembali ke kehidupan normal"],
+    "Obstacles": ["Sifat manja dan mudah panik", "Lingkungan Eryndor yang keras", "Kurangnya kepercayaan diri"],
+    "InternalMonologue": "Ini menjijikkan. Aku ingin pulang. Kenapa harus aku yang mengalami ini? Aku benci kotor.",
+    "ExternalPerception": "Dilihat sebagai orang yang manja dan sering mengeluh, tapi juga memiliki potensi sihir yang besar.",
+    "Inventory": [
+      {
+        "Name": "Tongkat Kayu Sederhana",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Cermin Saku",
+        "Quantity": 1,
+        "Description": ""
+      },
+      {
+        "Name": "Saputangan Bersih",
+        "Quantity": 1,
+        "Description": ""
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Sihir Elemen Dasar",
+        "Level": "Pemula",
+        "Description": ""
+      },
+      {
+        "Name": "Telekinesis Ringan",
+        "Level": "Pemula",
+        "Description": ""
+      },
+      {
+        "Name": "Deteksi Energi",
+        "Level": "Dasar",
+        "Description": ""
+      }
+    ],
+    "Health": {
+      "Current": 100,
+      "Max": 100
+    },
+    "Mana": {
+      "Current": 50,
+      "Max": 50
+    },
+    "Stamina": {
+      "Current": 100,
+      "Max": 100
+    }
+  }

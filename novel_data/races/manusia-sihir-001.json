@@ -1,0 +1,9 @@
+{
+    "race_id": "manusia-sihir-001",
+    "name": "Manusia Sihir (Arcane-Blooded)",
+    "description": "Manusia dengan bakat alami atau keturunan sihir, mampu menguasai berbagai bentuk magi.",
+    "average_lifespan": 90,
+    "common_traits": ["Berbakat sihir", "Intuitif", "Cerdas"],
+    "cultural_notes": "Sering menjadi penyihir, sarjana, atau penasihat. Terkadang membentuk komunitas tersembunyi.",
+    "relations_with_other_races": ["Dihormati atau ditakuti karena kemampuan sihir mereka."]
+  }

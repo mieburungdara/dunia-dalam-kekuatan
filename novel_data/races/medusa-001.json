@@ -1,0 +1,9 @@
+{
+    "race_id": "medusa-001",
+    "name": "Medusa",
+    "description": "Lamia dengan rambut ular dan pandangan yang dapat mengubah makhluk menjadi batu. Dikenal karena sifat mematikan mereka.",
+    "average_lifespan": 300,
+    "common_traits": ["Mematikan", "Sihir", "Licik", "Misterius"],
+    "cultural_notes": "Hidup di kuil-kuil tersembunyi atau gua, fokus pada pertahanan dan kekuasaan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  }

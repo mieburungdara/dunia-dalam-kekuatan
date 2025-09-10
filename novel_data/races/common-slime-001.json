@@ -1,0 +1,9 @@
+{
+    "race_id": "common-slime-001",
+    "name": "Common-Slime",
+    "description": "Slime biasa yang cair dan makan apapun. Seringkali menjadi monster atau hama.",
+    "average_lifespan": null,
+    "common_traits": ["Cair", "Mencerna", "Tidak berpikir", "Menular"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai hama oleh sebagian besar ras."]
+  }

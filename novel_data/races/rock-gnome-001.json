@@ -1,0 +1,9 @@
+{
+    "race_id": "rock-gnome-001",
+    "name": "Rock-Gnome",
+    "description": "Gnome yang ahli dalam teknologi uap dan mesin. Seringkali menjadi penemu atau insinyur.",
+    "average_lifespan": 400,
+    "common_traits": ["Inovatif", "Mekanis", "Cerdas", "Praktis"],
+    "cultural_notes": "Membangun kota-kota bawah tanah yang penuh dengan penemuan dan mesin-mesin aneh.",
+    "relations_with_other_races": ["Sering berinteraksi dengan Dwarf dan ras lain yang menghargai teknologi."]
+  }
