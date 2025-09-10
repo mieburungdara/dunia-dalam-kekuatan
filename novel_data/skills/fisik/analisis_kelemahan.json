@@ -1,0 +1,29 @@
+{
+  "ID": "S003",
+  "Name": "Analisis Kelemahan",
+  "Category": "Fisik",
+  "ShortDescription": "Setiap kekuatan memiliki celah, setiap pertahanan memiliki titik rapuh.",
+  "Description": "Kemampuan untuk mengidentifikasi titik lemah musuh, struktur, atau situasi, memungkinkan serangan yang lebih efektif atau solusi yang lebih cepat.",
+  "Mechanism": {
+    "Activation": "Aktif (membutuhkan fokus dan observasi)",
+    "Cost": "Stamina (ringan)",
+    "Range": "Penglihatan",
+    "Duration": "Instan (hasil analisis)",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak efektif terhadap musuh yang tidak memiliki titik lemah yang jelas atau terlalu cepat.",
+    "Weaknesses": "Membutuhkan waktu singkat untuk observasi."
+  },
+  "Evolution": {
+    "Novice": "Mampu melihat kelemahan yang sangat jelas dan mencolok.",
+    "Adept": "Mampu mengidentifikasi kelemahan tersembunyi dengan observasi lebih dalam.",
+    "Master": "Mampu menemukan kelemahan dalam waktu singkat, bahkan dalam situasi yang kacau, dan memanfaatkannya secara optimal.",
+    "Ascendant": "Mampu menciptakan kelemahan pada lawan atau situasi, atau memprediksi kelemahan yang akan muncul."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill serangan presisi, strategi, atau pengintaian.",
+    "Conflict": "Sifat gegabah atau kurangnya kesabaran."
+  },
+  "LoreAndHistory": "Skill Analisis Kelemahan sering ditemukan pada pemburu, assassin, atau ahli taktik yang mengandalkan kecerdasan daripada kekuatan mentah. Ini adalah skill yang mengajarkan bahwa kekuatan sejati bukan hanya tentang menghantam keras, tetapi menghantam di tempat yang tepat."
+}
