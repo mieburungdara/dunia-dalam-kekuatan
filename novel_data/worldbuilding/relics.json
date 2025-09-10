@@ -1,0 +1,21 @@
+{
+  "general_description": "Relic adalah benda-benda mistis yang lahir dari cerita, legenda, atau pengorbanan besar. Beberapa Relic bisa menyatu dengan penggunanya, menjadi sumber lahirnya sebuah skill yang unik. Relic biasanya memiliki kutukan atau harga tertentu, sehingga penggunaannya tidak pernah tanpa risiko.",
+  "examples": [
+    {
+      "name": "Hand of Midas",
+      "effect": "Mengubah apapun yang disentuh menjadi emas."
+    },
+    {
+      "name": "Blade of Echoes",
+      "effect": "Pedang yang menyalin gaya bertarung musuh."
+    },
+    {
+      "name": "Scroll of Forgotten Names",
+      "effect": "Mampu menghapus keberadaan seseorang dari ingatan dunia."
+    },
+    {
+      "name": "Hourglass of Tenebris",
+      "effect": "Memungkinkan pemiliknya mundur satu menit ke masa lalu, tapi setiap penggunaan mengurangi umur."
+    }
+  ]
+}
