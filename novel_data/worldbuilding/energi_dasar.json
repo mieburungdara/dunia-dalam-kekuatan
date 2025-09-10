@@ -1,0 +1,11 @@
+{
+  "name": "Aether",
+  "description": "Segala bentuk sihir dan kekuatan berasal dari Aether, energi primordial yang mengalir di seluruh dunia.",
+  "access_methods": [
+    "ritual",
+    "pengorbanan",
+    "kontrak dengan entitas",
+    "melalui Relic"
+  ],
+  "channeler_definition": "Orang yang memiliki kepepekaan tinggi terhadap Aether disebut Channeler."
+}
