@@ -1,0 +1,10 @@
+{
+  "location_id": "hutan-berbisik-001",
+  "name": "Hutan Berbisik",
+  "type": "Hutan",
+  "description": "Hutan kuno yang lebat dikenal dengan pohon-pohonnya yang luar biasa tinggi dan bisikan halus, eterik yang terbawa angin.",
+  "geography": "Kanopi lebat, jalan setapak berliku, padang rumput tersembunyi, reruntuhan kuno.",
+  "flora_fauna": "Pohon-pohon kuno raksasa, jamur bioluminesen, roh hutan yang sulit ditangkap, ramuan sihir langka.",
+  "notable_features": ["Reruntuhan Kuil Bawah Air", "Gua Gema", "Padang Bunga Rembulan"],
+  "associated_events": ["Ritual Mekar Agung", "Pertempuran Hutan Pinus Berbisik"]
+}

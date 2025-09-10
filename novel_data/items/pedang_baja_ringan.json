@@ -1,6 +1,6 @@
 {
   "ID": "I001",
-  "Name": "Pedang Baja Ringan",
+  "name": "Pedang Baja Ringan",
   "Type": "Senjata",
   "Rarity": "Umum",
   "ShortDescription": "Ringan di tangan, cepat dalam ayunan.",

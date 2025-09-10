@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.59.0 - Refactor Data Lokasi & Perbaikan Konsistensi
+*Tanggal: 2025-09-10*
+
+- **Refactor**: Merestrukturisasi data lokasi dengan memindahkannya ke file individual di bawah `novel_data/locations/` untuk menjaga konsistensi dengan tipe data lain.
+- **Perbaikan**: Memperbarui skrip `ConsistencyChecker.php` untuk membaca struktur data lokasi yang baru, memperbaiki laporan inkonsistensi yang keliru.
+
+---
+
 ## v0.58.0 - Perbaikan Routing & 404 Error
 *Tanggal: 2025-09-09*
 

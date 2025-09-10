@@ -1,0 +1,10 @@
+{
+  "location_id": "bumi-001",
+  "name": "Bumi",
+  "type": "Planet",
+  "description": "Planet asal para pendatang, dikenal dengan peradaban teknologi maju dan tanpa sihir.",
+  "geography": "Beragam, meliputi benua, lautan, gunung, dan hutan.",
+  "flora_fauna": "Beragam, sesuai dengan ekosistem yang berbeda.",
+  "notable_features": ["Kota-kota besar", "Infrastruktur modern"],
+  "associated_events": ["Terjebak di Eryndor"]
+}

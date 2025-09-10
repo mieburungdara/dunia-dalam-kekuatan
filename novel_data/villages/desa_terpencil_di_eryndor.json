@@ -1,0 +1,10 @@
+{
+  "village_id": "desa-terpencil-di-eryndor-001",
+  "name": "Desa Terpencil di Eryndor",
+  "location": "Eryndor",
+  "description": "Sebuah desa kecil yang terpencil di Eryndor, menjadi tempat pertama kali para pendatang muncul.",
+  "population": 50,
+  "main_activity": "Pertanian, Berburu",
+  "key_figures": ["Kakek Jaga", "Kepala Desa"],
+  "notes": "Tempat awal petualangan para pendatang."
+}
