@@ -10,8 +10,8 @@ require_once 'app/controllers/FaqController.php';
 // Inisialisasi framework
 $f3 = \Base::instance();
 $f3->set('BASE','');
-$f3->set('SCHEME','https');
-$f3->set('HOST','mymy.my.id');
+$f3->set('SCHEME', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http'));
+$f3->set('HOST', $_SERVER['HTTP_HOST']);
 
 // Set a global application base URL
 $app_base_url = $f3->get('SCHEME').'://'.$f3->get('HOST').$f3->get('BASE');
