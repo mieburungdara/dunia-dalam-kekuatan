@@ -155,11 +155,9 @@
                                 </div>
                                 <div class="in">
                                     <div>Dark Mode</div>
-                                    <div class="custom-control custom-switch">
-                                        <input type="checkbox" class="custom-control-input dark-mode-switch"
-                                            id="darkmodesidebar">
-                                        <label class="custom-control-label" for="darkmodesidebar"></label>
-                                    </div>
+                                    <button id="theme-toggle-sidebar" class="headerButton" type="button" aria-label="Toggle theme">
+                                        <ion-icon id="theme-icon-sidebar"></ion-icon>
+                                    </button>
                                 </div>
                             </div>
                         </li>
