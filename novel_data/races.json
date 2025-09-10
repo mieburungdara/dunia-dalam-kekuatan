@@ -558,15 +558,6 @@
     "relations_with_other_races": ["Dianggap sebagai hama oleh sebagian besar ras."]
   },
   {
-    "race_id": "rimuru-type-slime-001",
-    "name": "Rimuru-type Slime",
-    "description": "Slime berintelek yang mampu menyalin skill dan berevolusi. Sangat langka dan kuat.",
-    "average_lifespan": null,
-    "common_traits": ["Cerdas", "Menyalin skill", "Berevolusi", "Kuat"],
-    "cultural_notes": "Membangun peradaban dan kerajaan, fokus pada pengembangan diri dan perlindungan.",
-    "relations_with_other_races": ["Dihormati atau ditakuti, tergantung pada sifat mereka."]
-  },
-  {
     "race_id": "metal-slime-001",
     "name": "Metal-Slime",
     "description": "Slime yang terbuat dari logam, sangat keras dan sulit dihancurkan. Seringkali menjadi target berharga.",
