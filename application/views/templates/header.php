@@ -46,7 +46,7 @@
         <div class="pageTitle">
             Dunia dalam Kekuatan
         </div>
-        <div class="right">
+        <div class="right hide">
             <a href="javascript:;" class="headerButton toggle-searchbox">
                 <ion-icon name="search-outline"></ion-icon>
             </a>
