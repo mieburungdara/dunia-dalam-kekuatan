@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.62.0 - Perbaikan Data & Penambahan Dokumentasi
+*Tanggal: 2025-09-10*
+
+- **Perbaikan**: Memperbaiki kesalahan format JSON pada file `profesi.json`.
+- **Fitur**: Menambahkan dokumentasi "Agama & Kepercayaan" ke halaman Worldbuilding.
+
+---
+
 ## v0.61.0 - Penyempurnaan Tampilan & Navigasi Worldbuilding
 *Tanggal: 2025-09-10*
 
