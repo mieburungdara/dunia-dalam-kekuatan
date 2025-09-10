@@ -1,0 +1,29 @@
+{
+  "ID": "S009",
+  "Name": "Intimidasi",
+  "Category": "Fisik",
+  "ShortDescription": "Bukan kekuatan otot yang menakutkan, melainkan kekuatan kehendak.",
+  "Description": "Kemampuan untuk menakuti atau mempengaruhi lawan dengan kehadiran, tatapan, atau suara, menyebabkan mereka ragu atau mundur.",
+  "Mechanism": {
+    "Activation": "Aktif (membutuhkan fokus dan kontak mata)",
+    "Cost": "Stamina (ringan)",
+    "Range": "Jarak dekat (visual/auditori)",
+    "Duration": "Beberapa detik",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak efektif terhadap lawan yang tidak memiliki rasa takut atau memiliki kemauan yang sangat kuat.",
+    "Weaknesses": "Dapat memicu agresi jika gagal."
+  },
+  "Evolution": {
+    "Novice": "Mampu membuat lawan yang lemah ragu atau mundur.",
+    "Adept": "Mampu menakuti kelompok kecil atau lawan yang lebih kuat, menyebabkan mereka kehilangan fokus.",
+    "Master": "Mampu melumpuhkan lawan dengan rasa takut, menyebabkan mereka melarikan diri atau menyerah, bahkan mempengaruhi hewan buas.",
+    "Ascendant": "Mampu menciptakan aura ketakutan yang meluas, mempengaruhi massa, atau menyebabkan ilusi horor pada lawan."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill kepemimpinan, kekuatan, atau penampilan yang mengancam.",
+    "Conflict": "Sifat pemalu atau kurangnya kepercayaan diri."
+  },
+  "LoreAndHistory": "Intimidasi adalah skill yang sering digunakan oleh para pemimpin, prajurit, atau penjahat untuk mengendalikan situasi tanpa harus menggunakan kekerasan fisik. Skill ini menunjukkan bahwa kekuatan mental seringkali lebih berpengaruh daripada kekuatan fisik."
+}
