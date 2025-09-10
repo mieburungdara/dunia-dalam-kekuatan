@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "event_name": "Kedatangan Lima Jiwa di Bumi Eryndor",
+    "date": "Tanggal tidak diketahui (awal cerita)",
+    "description": "Lima orang asing dari Bumi (Arga, Bimo, Raka, Mira, Lina) secara misterius terlempar ke Bumi Eryndor, ditandai dengan pilar cahaya yang menjulang ke langit.",
+    "significance": "Momen pemicu utama cerita, awal dari perjalanan mereka di dunia baru.",
+    "related_novels": ["Jiwa Dunia Lain"],
+    "impact": {
+      "personal": "Perubahan drastis dalam hidup kelima karakter.",
+      "dunia": "Menarik perhatian penghuni Bumi Eryndor, baik yang jinak maupun buas."
+    }
+  },
+  {
+    "id": 2,
+    "event_name": "Pertemuan Pertama dengan Goblin",
+    "date": "Segera setelah kedatangan",
+    "description": "Pilar cahaya menarik perhatian makhluk primitif seperti goblin, yang menganggapnya sebagai pertanda mangsa atau harta, memicu pengejaran awal.",
+    "significance": "Konflik pertama yang dihadapi para karakter, memaksa mereka untuk bertahan hidup dan bekerja sama.",
+    "related_novels": ["Jiwa Dunia Lain"],
+    "impact": {
+      "personal": "Memaksa karakter untuk menggunakan kemampuan dasar mereka dan bekerja sama.",
+      "narasi": "Memperkenalkan ancaman awal di dunia baru."
+    }
+  },
+  {
+    "id": 3,
+    "event_name": "Perjuangan Bertahan Hidup dan Eksplorasi Awal",
+    "date": "Minggu-minggu pertama di Eryndor",
+    "description": "Para karakter berjuang untuk bertahan hidup, melarikan diri dari kejaran goblin, dan mulai memahami lingkungan serta sistem profesi di Bumi Eryndor.",
+    "significance": "Fase adaptasi dan pembelajaran bagi para karakter, membangun fondasi untuk petualangan selanjutnya.",
+    "related_novels": ["Jiwa Dunia Lain"],
+    "impact": {
+      "personal": "Pengembangan keterampilan dasar dan pemahaman tentang dunia baru.",
+      "plot": "Membuka jalan bagi pertemuan dengan karakter lain dan pengungkapan ramalan."
+    }
+  }
+]
