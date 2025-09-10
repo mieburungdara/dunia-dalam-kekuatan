@@ -63,7 +63,7 @@
                 themeIcon.classList.remove('bi-brightness-high-fill');
                 themeIcon.classList.add('bi-moon-stars-fill');
             } else {
-                themeIcon.classList.remove('bi-moon-stars-fill');
+                themeIcon.classList.remove('bi-brightness-high-fill');
                 themeIcon.classList.add('bi-brightness-high-fill');
             }
         };
@@ -159,10 +159,10 @@
                             <img src="<?= $app_base_url ?>/assets/mobilekit/assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded">
                         </div>
                         <div class="in">
-                            <strong>Pengguna</strong>
+                            <strong>Dunia dalam Kekuatan</strong>
                             <div class="text-muted">
-                                <ion-icon name="location"></ion-icon>
-                                Dunia dalam Kekuatan
+                                <ion-icon name="book-outline"></ion-icon>
+                                Novel Fantasi
                             </div>
                         </div>
                         <a href="javascript:;" class="close-sidebar-button" data-dismiss="modal">
@@ -223,36 +223,6 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<?= $app_base_url ?>/karakter" class="item">
-                                <div class="icon-box bg-primary">
-                                    <ion-icon name="people-outline"></ion-icon>
-                                </div>
-                                <div class="in">
-                                    Karakter
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?= $app_base_url ?>/glosarium" class="item">
-                                <div class="icon-box bg-primary">
-                                    <ion-icon name="library-outline"></ion-icon>
-                                </div>
-                                <div class="in">
-                                    Glosarium
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="<?= $app_base_url ?>/faq" class="item">
-                                <div class="icon-box bg-primary">
-                                    <ion-icon name="help-circle-outline"></ion-icon>
-                                </div>
-                                <div class="in">
-                                    FAQ
-                                </div>
-                            </a>
-                        </li>
-                        <li>
                             <div class="item">
                                 <div class="icon-box bg-primary">
                                     <ion-icon name="moon-outline"></ion-icon>
@@ -269,71 +239,7 @@
                         </li>
                     </ul>
 
-                    <div class="listview-title mt-2 mb-1">
-                        <span>Friends</span>
-                    </div>
-                    <ul class="listview image-listview flush transparent no-line">
-                        <li>
-                            <a href="page-chat.html" class="item">
-                                <img src="<?= $app_base_url ?>/assets/mobilekit/assets/img/sample/avatar/avatar7.jpg" alt="image" class="image">
-                                <div class="in">
-                                    <div>Sophie Asveld</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="page-chat.html" class="item">
-                                <img src="<?= $app_base_url ?>/assets/mobilekit/assets/img/sample/avatar/avatar3.jpg" alt="image" class="image">
-                                <div class="in">
-                                    <div>Sebastian Bennett</div>
-                                    <span class="badge badge-danger">6</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="page-chat.html" class="item">
-                                <img src="<?= $app_base_url ?>/assets/mobilekit/assets/img/sample/avatar/avatar10.jpg" alt="image" class="image">
-                                <div class="in">
-                                    <div>Beth Murphy</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="page-chat.html" class="item">
-                                <img src="<?= $app_base_url ?>/assets/mobilekit/assets/img/sample/avatar/avatar2.jpg" alt="image" class="image">
-                                <div class="in">
-                                    <div>Amelia Cabal</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="page-chat.html" class="item">
-                                <img src="<?= $app_base_url ?>/assets/mobilekit/assets/img/sample/avatar/avatar5.jpg" alt="image" class="image">
-                                <div class="in">
-                                    <div>Henry Doe</div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-
                 </div>
-
-                <!-- sidebar buttons -->
-                <div class="sidebar-buttons">
-                    <a href="javascript:;" class="button">
-                        <ion-icon name="person-outline"></ion-icon>
-                    </a>
-                    <a href="javascript:;" class="button">
-                        <ion-icon name="archive-outline"></ion-icon>
-                    </a>
-                    <a href="javascript:;" class="button">
-                        <ion-icon name="settings-outline"></ion-icon>
-                    </a>
-                    <a href="javascript:;" class="button">
-                        <ion-icon name="log-out-outline"></ion-icon>
-                    </a>
-                </div>
-                <!-- * sidebar buttons -->
             </div>
         </div>
     </div>
