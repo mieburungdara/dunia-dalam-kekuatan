@@ -1,21 +1,28 @@
 <div id="appCapsule">
 
-    <div class="header-large-title">
-        <h1 class="title">Dunia dalam Kekuatan</h1>
-        <h4 class="subtitle">Selamat datang di dunia fantasi yang penuh dengan keajaiban dan petualangan.</h4>
-    </div>
-
+    <!-- Hero Section -->
     <div class="section full mt-3 mb-3">
-        <!-- Placeholder for a carousel or featured content -->
-        <div class="card">
-            <div class="card-body text-center">
-                <h5 class="card-title">Novel Unggulan</h5>
-                <p class="card-text">Jelajahi kisah-kisah epik dan petualangan seru di Dunia dalam Kekuatan.</p>
-                <a href="<?php echo $app_base_url; ?>/novel" class="btn btn-primary">Lihat Daftar Novel</a>
+        <div class="card bg-dark text-white text-center" style="background-image: url('https://via.placeholder.com/1000x400?text=Epic+Fantasy+World'); background-size: cover; background-position: center; min-height: 300px;">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h1 class="display-4 fw-bold">Dunia dalam Kekuatan</h1>
+                <p class="lead">Selamat datang di dunia fantasi yang penuh dengan keajaiban dan petualangan. Jelajahi kisah Ardan, sang Gembala Takdir, dan para penjaga zodiak.</p>
+                <a href="<?php echo $app_base_url; ?>/novel" class="btn btn-primary btn-lg mt-3">Mulai Membaca Novel</a>
             </div>
         </div>
     </div>
 
+    <!-- About the Novel Section -->
+    <div class="section mt-3 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title text-center mb-3">Tentang Novel</h2>
+                <p class="card-text">"Dunia dalam Kekuatan" mengisahkan perjalanan Ardan, seorang gembala sederhana yang ditakdirkan menjadi Gembala Takdir. Ia harus menyatukan 12 penjaga zodiak legendaris untuk melawan kegelapan yang mengancam dunia. Ikuti petualangan epik Ardan dalam menemukan jati diri, menghadapi musuh bebuyutan, dan mengungkap rahasia kuno yang tersembunyi.</p>
+                <p class="card-text">Novel ini menggabungkan elemen fantasi klasik dengan sentuhan modern, menghadirkan karakter yang mendalam, sistem sihir yang unik, dan dunia yang kaya akan lore. Siapkah Anda bergabung dalam pertempuran antara cahaya dan kegelapan?</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explore Our World Section -->
     <div class="section mt-3 mb-3">
         <h2 class="section-title">Jelajahi Dunia Kami</h2>
         <div class="row">
@@ -49,6 +56,15 @@
         </div>
     </div>
 
-    <!-- You can add more sections here, e.g., latest blog posts, news, etc. -->
+    <!-- Call to Action Section -->
+    <div class="section mt-3 mb-3">
+        <div class="card bg-primary text-white text-center">
+            <div class="card-body">
+                <h2 class="card-title mb-3">Siap Memulai Petualangan?</h2>
+                <p class="card-text">Jangan lewatkan setiap babak seru dari "Dunia dalam Kekuatan". Mulai baca sekarang dan jadilah bagian dari legenda!</p>
+                <a href="<?php echo $app_base_url; ?>/novel" class="btn btn-light btn-lg mt-3">Baca Bab Pertama</a>
+            </div>
+        </div>
+    </div>
 
 </div>
