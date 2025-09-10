@@ -3,6 +3,8 @@
 class FaqController {
 
     function show_faq($f3, $params) {
+        global $app_base_url;
+
         $category = $params['category'];
         $faq_name = $params['faq_name'];
 
@@ -20,15 +22,22 @@ class FaqController {
         $Parsedown = new Parsedown();
         $html_content = $Parsedown->text($markdown_content);
 
-        $f3->set('faq_title', str_replace('_', ' ', $faq_name));
-        $f3->set('faq_content', $html_content);
+        $view_data = [
+            'faq_title' => str_replace('_', ' ', $faq_name),
+            'faq_content' => $html_content,
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
 
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('faq_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/faq_view.php';
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
     function list_faq_categories($f3) {
+        global $app_base_url;
+
         $faq_base_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/faq/';
         $categories = [];
 
@@ -44,13 +53,21 @@ class FaqController {
             }
         }
 
-        $f3->set('faq_categories', $categories);
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('faq_category_list_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        $view_data = [
+            'faq_categories' => $categories,
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
+
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/faq_category_list_view.php';
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
     function list_faqs_in_category($f3, $params) {
+        global $app_base_url;
+
         $category_slug = $params['category'];
         $faq_category_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/faq/' . $category_slug . '/';
         $faqs = [];
@@ -70,11 +87,17 @@ class FaqController {
             }
         }
 
-        $f3->set('category_slug', $category_slug);
-        $f3->set('category_title', str_replace('_', ' ', $category_slug));
-        $f3->set('faqs', $faqs);
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('faq_list_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        $view_data = [
+            'category_slug' => $category_slug,
+            'category_title' => str_replace('_', ' ', $category_slug),
+            'faqs' => $faqs,
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
+
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/faq_list_view.php';
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 }

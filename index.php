@@ -45,6 +45,8 @@ $f3->route('GET /read/@novel_slug/@arc_name/@chapter_name/@scene_name', 'NovelCo
 // Definisikan rute untuk halaman utama
 $f3->route('GET /',
     function($f3) {
+        global $app_base_url; // Access the global variable
+
         // Logika ini diambil dari metode _show_homepage() di controller Home.php
         // FCPATH di CI3 adalah direktori index.php, jadi di sini adalah root
         $base_path = $f3->get('ROOT') . $f3->get('BASE');
@@ -54,8 +56,13 @@ $f3->route('GET /',
         // Fokus untuk menampilkan view dengan benar
         $data['novel_data'] = ['title' => 'Dunia dalam Kekuatan', 'arcs' => []];
 
-        // Teruskan data ke template
-        $f3->set('data', $data);
+        // Collect variables for the view
+        $view_data = [
+            'data' => $data, // Pass the data array
+            'app_base_url' => $app_base_url, // Make app_base_url available
+            'BASE' => $f3->get('BASE') // BASE is used in some views, so pass it
+        ];
+        extract($view_data); // Extract variables into the current scope
 
         // Render view gabungan
         include $f3->get('ROOT') . '/application/views/templates/header.php';
@@ -73,11 +80,19 @@ $f3->route('GET /faq/@category/@faq_name', 'FaqController->show_faq');
 $placeholder_pages = ['baca', 'karakter', 'glosarium'];
 foreach ($placeholder_pages as $page) {
     $f3->route('GET /' . $page, function($f3, $params) use ($page) {
+        global $app_base_url; // Access the global variable
+
         $title = ucfirst($page);
         $content = 'Konten untuk halaman ' . $title . ' akan segera hadir.';
 
-        $f3->set('title', $title);
-        $f3->set('content', $content);
+        // Collect variables for the view
+        $view_data = [
+            'title' => $title,
+            'content' => $content,
+            'app_base_url' => $app_base_url, // Make app_base_url available
+            'BASE' => $f3->get('BASE') // BASE is used in some views, so pass it
+        ];
+        extract($view_data); // Extract variables into the current scope
 
         include $f3->get('ROOT') . '/application/views/templates/header.php';
         include $f3->get('ROOT') . '/application/views/placeholder_view.php';

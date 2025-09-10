@@ -2,6 +2,6 @@
 
 <ul>
     <?php foreach ($faq_categories as $category): ?>
-        <li><a href="<?= $BASE . '/faq/' . $category['slug'] ?>"><?= $category['title'] ?></a></li>
-    <?php endphp ?>
+        <li><a href="<?= $app_base_url . '/faq/' . $category['slug'] ?>"><?= $category['title'] ?></a></li>
+    <?php endforeach; ?>
 </ul>

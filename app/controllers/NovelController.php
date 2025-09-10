@@ -3,6 +3,8 @@
 class NovelController {
 
     function list_novels($f3) {
+        global $app_base_url; // Access the global variable
+
         $novels_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/novels.json';
         $novels = [];
 
@@ -19,13 +21,22 @@ class NovelController {
             error_log("NovelController: novels.json DOES NOT exist at " . $novels_json_path);
         }
 
-        $f3->set('novels', $novels);
+        // Collect variables for the view
+        $view_data = [
+            'novels' => $novels,
+            'app_base_url' => $app_base_url, // Make app_base_url available
+            'BASE' => $f3->get('BASE') // BASE is used in some views, so pass it
+        ];
+        extract($view_data); // Extract variables into the current scope
+
         include $f3->get('ROOT') . '/application/views/templates/header.php';
         include $f3->get('ROOT') . '/application/views/novel/novel_list_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
     function show_novel_arcs($f3, $params) {
+        global $app_base_url;
+
         $novel_slug = $params['novel_slug'];
         $arcs_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/arcs.json';
         $arc_list = [];
@@ -49,9 +60,14 @@ class NovelController {
             $novel_data = json_decode(file_get_contents($novel_index_path), true);
         }
 
-        $f3->set('novel_title', $novel_data['title'] ?? 'Novel Tidak Ditemukan');
-        $f3->set('novel_slug', $novel_slug);
-        $f3->set('arcs', $arc_list);
+        $view_data = [
+            'novel_title' => $novel_data['title'] ?? 'Novel Tidak Ditemukan',
+            'novel_slug' => $novel_slug,
+            'arcs' => $arc_list,
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
 
         include $f3->get('ROOT') . '/application/views/templates/header.php';
         include $f3->get('ROOT') . '/application/views/novel/arc_list_view.php';
@@ -59,6 +75,8 @@ class NovelController {
     }
 
     function show_arc_chapters($f3, $params) {
+        global $app_base_url;
+
         $novel_slug = $params['novel_slug'];
         $arc_name = $params['arc_name'];
         $chapters_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/chapters.json';
@@ -83,10 +101,15 @@ class NovelController {
             $arc_data = json_decode(file_get_contents($arc_index_path), true);
         }
 
-        $f3->set('novel_slug', $novel_slug);
-        $f3->set('arc_title', $arc_data['title'] ?? 'Arc Tidak Ditemukan');
-        $f3->set('arc_name', $arc_name);
-        $f3->set('chapters', $chapter_list);
+        $view_data = [
+            'novel_slug' => $novel_slug,
+            'arc_title' => $arc_data['title'] ?? 'Arc Tidak Ditemukan',
+            'arc_name' => $arc_name,
+            'chapters' => $chapter_list,
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
 
         include $f3->get('ROOT') . '/application/views/templates/header.php';
         include $f3->get('ROOT') . '/application/views/novel/chapter_list_view.php';
@@ -94,6 +117,7 @@ class NovelController {
     }
 
     function show_chapter_scenes($f3, $params) {
+        global $app_base_url;
         require_once __DIR__ . '/../helpers/CharacterHelper.php';
 
         $novel_slug = $params['novel_slug'];
@@ -133,18 +157,24 @@ class NovelController {
             $chapter_data = json_decode(file_get_contents($chapter_index_path), true);
         }
 
-        $f3->set('novel_slug', $novel_slug);
-        $f3->set('arc_name', $arc_name);
-        $f3->set('chapter_title', $chapter_data['title'] ?? 'Chapter Tidak Ditemukan');
-        $f3->set('chapter_name', $chapter_name);
-        $f3->set('scenes', $scene_list);
+        $view_data = [
+            'novel_slug' => $novel_slug,
+            'arc_name' => $arc_name,
+            'chapter_title' => $chapter_data['title'] ?? 'Chapter Tidak Ditemukan',
+            'chapter_name' => $chapter_name,
+            'scenes' => $scene_list,
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
 
         include $f3->get('ROOT') . '/application/views/templates/header.php';
         include $f3->get('ROOT') . '/application/views/novel/scene_list_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
-    function show_scene($f3, $params) {
+        function show_scene($f3, $params) {
+        global $app_base_url;
         require_once __DIR__ . '/../helpers/ContentHelper.php';
 
         $novel_slug   = $params['novel_slug'];
@@ -285,18 +315,24 @@ class NovelController {
             $novel_data = json_decode(file_get_contents($novel_index_path), true);
         }
 
-        $f3->set('novel_title', $novel_data['title'] ?? 'Novel Tidak Ditemukan');
-        $f3->set('arc_title', $arc_data['title'] ?? 'Arc Tidak Ditemukan');
-        $f3->set('chapter_title', $chapter_data['title'] ?? 'Chapter Tidak Ditemukan');
-        $f3->set('chapter_summary', $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan');
-        $f3->set('scene_name', $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name));
-        
-        $f3->set('rendered_content', $rendered_content);
-        $f3->set('prev_link', $prev_link);
-        $f3->set('next_link', $next_link);
+        $view_data = [
+            'novel_title' => $novel_data['title'] ?? 'Novel Tidak Ditemukan',
+            'arc_title' => $arc_data['title'] ?? 'Arc Tidak Ditemukan',
+            'chapter_title' => $chapter_data['title'] ?? 'Chapter Tidak Ditemukan',
+            'chapter_summary' => $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan',
+            'scene_name' => $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name),
+            'rendered_content' => $rendered_content,
+            'prev_link' => $prev_link,
+            'next_link' => $next_link,
+            'novel_slug' => $novel_slug, // Added for scene_list_view
+            'arc_name' => $arc_name,     // Added for scene_list_view
+            'chapter_name' => $chapter_name, // Added for scene_list_view
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
 
         include $f3->get('ROOT') . '/application/views/templates/header.php';
         include $f3->get('ROOT') . '/application/views/novel/scene_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
-}
