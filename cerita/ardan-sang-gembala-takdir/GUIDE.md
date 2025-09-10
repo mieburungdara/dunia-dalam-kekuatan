@@ -10,7 +10,7 @@ Dokumen ini adalah panduan utama untuk menjaga konsistensi alur, karakter, dan d
 
 ### Premis Utama
 
-Ardan, seorang gembala sederhana, dipilih oleh takdir untuk menjadi "Gembala Takdir". Ia harus menyatukan 12 penjaga zodiak legendaris untuk melawan kebangkitan kegelapan yang mengancam Bumi Eryndor. Perjalanannya dipenuhi dengan penemuan diri, pertempuran epik, dan pengungkapan rahasia kuno.
+Ardan, seorang gembala sederhana, dipilih oleh takdir untuk menjadi "Gembala Takdir". Ia harus menyatukan 12 penjaga zodiak legendaris demi melawan kebangkitan kegelapan yang mengancam Bumi Eryndor. Perjalanannya dipenuhi dengan penemuan diri, pertempuran epik, dan pengungkapan rahasia kuno.
 
 ---
 
@@ -32,7 +32,7 @@ Ardan, seorang gembala sederhana, dipilih oleh takdir untuk menjadi "Gembala Tak
 
 ## Aturan Dunia & Alur Awal
 
-*   **Panggilan Takdir**: Ardan menerima panggilan melalui Relic kuno.
+*   **Panggilan Pengembala**: Ardan menerima panggilan melalui Relic kuno.
 *   **Penjaga Zodiak**: Setiap penjaga memiliki kekuatan unik yang terhubung dengan zodiak mereka.
 *   **Ancaman**: Kebangkitan entitas kegelapan dan Kultus Bayangan.
 *   **Tujuan Awal**: Menemukan dan menyatukan semua 12 penjaga zodiak.

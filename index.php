@@ -50,7 +50,7 @@ $f3->route('GET /',
         // Logika ini diambil dari metode _show_homepage() di controller Home.php
         // FCPATH di CI3 adalah direktori index.php, jadi di sini adalah root
         $base_path = $f3->get('ROOT') . $f3->get('BASE');
-        $novel_path = $base_path . '/cerita/pilar-takdir/';
+        $novel_path = $base_path . '/cerita/lima-jiwa-di-bumi-lain/';
 
         // Untuk saat ini, kita tidak akan memproses data novel dulu
         // Fokus untuk menampilkan view dengan benar

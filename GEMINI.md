@@ -1,6 +1,6 @@
 # Directory Overview
 
-This directory contains the foundational documents for a fantasy novel project. The project is structured as a collection of Markdown files that detail the plot, characters, world-building rules, and specific skills or abilities within the story's universe.
+This directory contains the foundational documents for a fantasy novel project titled "Pecahan Dunia". The project is structured as a collection of Markdown files that detail the plot, characters, world-building rules, and specific skills or abilities within the story's universe.
 
 # Key Files
 
