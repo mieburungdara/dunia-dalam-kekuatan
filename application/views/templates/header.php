@@ -6,6 +6,7 @@
     <title>Dunia dalam Kekuatan</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <?php if (isset($_GET['dev']) && $_GET['dev'] === '1'): ?>
     <style>
         body { 
@@ -17,7 +18,6 @@
 
     <!-- Dark Mode Logic -->
     <script>
-            <script>
         const getStoredTheme = () => localStorage.getItem('theme');
         const setStoredTheme = theme => localStorage.setItem('theme', theme);
 
@@ -85,7 +85,6 @@
             }
         });
     </script>
-    </script>
     <!-- End Dark Mode Logic -->
     <?php endif; ?>
 </head>
@@ -106,7 +105,7 @@
                 <li class="nav-item"><a class="nav-link" href="<?php echo $app_base_url; ?>/faq">FAQ</a></li>
                 <li class="nav-item">
                     <button id="theme-toggle" class="btn btn-outline-secondary ms-2" type="button" aria-label="Toggle theme">
-                        <span id="theme-icon"></span>
+                        <i class="bi" id="theme-icon"></i>
                     </button>
                 </li>
             </ul>
