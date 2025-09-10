@@ -1,0 +1,29 @@
+{
+  "ID": "S004",
+  "Name": "Panahan Cepat",
+  "Category": "Fisik",
+  "ShortDescription": "Anak panahku adalah angin, tak terlihat, tak terdengar, namun mematikan.",
+  "Description": "Kemampuan menembakkan panah dengan kecepatan tinggi, memungkinkan pengguna untuk meluncurkan rentetan panah dalam waktu singkat.",
+  "Mechanism": {
+    "Activation": "Aktif",
+    "Cost": "Stamina (tergantung jumlah panah)",
+    "Range": "Jarak jauh (tergantung busur)",
+    "Duration": "Instan (per tembakan)",
+    "Prerequisites": "Penguasaan Busur (Dasar)"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Akurasi dapat berkurang pada kecepatan tinggi.",
+    "Weaknesses": "Membutuhkan pasokan anak panah yang cukup."
+  },
+  "Evolution": {
+    "Novice": "Mampu menembakkan dua panah dalam waktu singkat, akurasi rendah.",
+    "Adept": "Mampu menembakkan tiga panah dengan akurasi yang lebih baik.",
+    "Master": "Mampu menembakkan rentetan panah dengan presisi tinggi, bahkan saat bergerak.",
+    "Ascendant": "Mampu menembakkan panah dalam jumlah besar secara instan, menciptakan hujan panah yang mematikan."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill yang meningkatkan kecepatan, akurasi, atau jumlah panah.",
+    "Conflict": "Pertarungan jarak dekat atau lingkungan yang sempit."
+  },
+  "LoreAndHistory": "Panahan Cepat adalah skill yang sangat dihargai di kalangan pemanah, terutama mereka yang berburu atau bertempur di garis depan. Skill ini memungkinkan pemanah untuk mengendalikan medan perang dengan tekanan tembakan yang konstan."
+}
