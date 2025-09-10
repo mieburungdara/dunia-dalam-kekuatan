@@ -316,9 +316,9 @@ function onlineModeToast() {
         "<div id='online-toast' class='toast-box bg-success toast-top tap-to-close'>" 
         +
         "<div class='in'><div class='text'>" 
-        +
+        + 
         OnlineText
-        +
+        + 
         "</div></div></div>"
     );
     setTimeout(() => {
@@ -332,9 +332,9 @@ function offlineModeToast() {
         "<div id='offline-toast' class='toast-box bg-danger toast-top tap-to-close'>" 
         +
         "<div class='in'><div class='text'>" 
-        +
+        + 
         OfflineText
-        +
+        + 
         "</div></div></div>"
     );
     setTimeout(() => {
