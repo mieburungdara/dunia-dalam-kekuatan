@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Blade Dancer",
+    "category": "Fisik",
+    "description": "Setiap gerakan pedang meninggalkan jejak energi yang bisa melukai musuh."
+  },
+  {
+    "name": "Void Caller",
+    "category": "Sihir",
+    "description": "Memanggil makhluk dari dimensi lain dengan risiko kehilangan jiwa."
+  },
+  {
+    "name": "Heartspeaker",
+    "category": "Rohani",
+    "description": "Mampu memengaruhi emosi banyak orang hanya dengan kata-kata."
+  },
+  {
+    "name": "Eyes of Eternity",
+    "category": "Unik",
+    "description": "Pemiliknya dapat melihat semua kemungkinan masa depan, tapi terancam gila."
+  },
+  {
+    "name": "Devourer’s Touch",
+    "category": "Unik",
+    "description": "Menyerap skill lawan yang disentuh, tapi membuat jiwa pengguna terfragmentasi."
+  },
+  {
+    "name": "Voice of Creation",
+    "category": "Unik",
+    "description": "Kata-kata pengguna bisa menjadi kenyataan, namun tiap kalimat memperpendek umur."
+  },
+  {
+    "name": "Eternal Duelist",
+    "category": "Unik",
+    "description": "Selama pengguna memiliki lawan, tubuhnya tidak bisa mati."
+  }
+]
