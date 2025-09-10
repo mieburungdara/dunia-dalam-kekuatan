@@ -4,6 +4,14 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.61.0 - Penyempurnaan Tampilan & Navigasi Worldbuilding
+*Tanggal: 2025-09-10*
+
+- **Fitur**: Memperbarui tampilan detail worldbuilding menggunakan komponen accordion untuk meningkatkan keterbacaan data yang kompleks.
+- **Fitur**: Menambahkan tautan navigasi "Worldbuilding" di sidebar untuk akses yang lebih mudah.
+
+---
+
 ## v0.60.0 - Refactor Data Skill & Fitur Worldbuilding
 *Tanggal: 2025-09-10*
 

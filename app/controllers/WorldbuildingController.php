@@ -40,30 +40,40 @@ class WorldbuildingController {
         echo \Template::instance()->render('application/views/worldbuilding_detail_view.php');
     }
 
-    private function jsonToHtml($data, $level = 0) {
+    private function jsonToHtml($data, $parentId = 'accordion') {
         if (empty($data)) {
             return '';
         }
 
-        $html = '<div class="list-group list-group-flush">';
+        $html = '<div class="accordion" id="' . $parentId . '">';
+        $itemIndex = 0;
 
         foreach ($data as $key => $value) {
-            $html .= '<div class="list-group-item">';
-            $html .= '<div class="d-flex w-100 justify-content-between">';
-            
-            // Display key if it's not a numeric index for a simple array
-            if (!is_numeric($key)) {
-                $html .= '<h5 class="mb-1">' . ucwords(str_replace('_', ' ', $key)) . '</h5>';
-            }
-
-            $html .= '</div>';
+            $itemId = $parentId . '-' . $itemIndex;
+            $headerId = 'header-' . $itemId;
+            $collapseId = 'collapse-' . $itemId;
 
             if (is_array($value)) {
-                $html .= $this->jsonToHtml($value, $level + 1);
+                $html .= '<div class="accordion-item">';
+                $html .= '<h2 class="accordion-header" id="' . $headerId . '">';
+                $html .= '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#' . $collapseId . '" aria-expanded="false" aria-controls="' . $collapseId . '">';
+                $html .= ucwords(str_replace('_', ' ', is_numeric($key) ? 'Item ' . ($key + 1) : $key));
+                $html .= '</button>';
+                $html .= '</h2>';
+                $html .= '<div id="' . $collapseId . '" class="accordion-collapse collapse" aria-labelledby="' . $headerId . '" data-bs-parent="#' . $parentId . '">';
+                $html .= '<div class="accordion-body">';
+                $html .= $this->jsonToHtml($value, $collapseId); // Recursive call
+                $html .= '</div>';
+                $html .= '</div>';
+                $html .= '</div>';
             } else {
-                $html .= '<p class="mb-1">' . htmlspecialchars($value) . '</p>';
+                $html .= '<div class="accordion-item">';
+                $html .= '<div class="accordion-body">';
+                $html .= '<strong>' . ucwords(str_replace('_', ' ', $key)) . ':</strong> ' . htmlspecialchars($value);
+                $html .= '</div>';
+                $html .= '</div>';
             }
-            $html .= '</div>';
+            $itemIndex++;
         }
 
         $html .= '</div>';

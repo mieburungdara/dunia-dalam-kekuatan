@@ -167,6 +167,16 @@
                                 </div>
                             </a>
                         </li>
+                        <li>
+                            <a href="<?= $app_base_url ?>/worldbuilding" class="item">
+                                <div class="icon-box bg-primary">
+                                    <ion-icon name="map-outline"></ion-icon>
+                                </div>
+                                <div class="in">
+                                    Worldbuilding
+                                </div>
+                            </a>
+                        </li>
                         <li style="display:none;">
                             <div class="item">
                                 <div class="icon-box bg-primary">
