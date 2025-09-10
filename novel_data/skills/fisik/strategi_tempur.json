@@ -1,0 +1,29 @@
+{
+  "ID": "S002",
+  "Name": "Strategi Tempur",
+  "Category": "Fisik",
+  "ShortDescription": "Pertempuran dimenangkan sebelum pedang dihunus.",
+  "Description": "Keahlian dalam merencanakan dan melaksanakan taktik pertempuran, baik dalam skala kecil maupun besar.",
+  "Mechanism": {
+    "Activation": "Pasif (selalu aktif saat menganalisis situasi tempur)",
+    "Cost": "Tidak ada",
+    "Range": "Tidak terbatas (tergantung informasi yang tersedia)",
+    "Duration": "Permanen",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Membutuhkan informasi yang akurat untuk efektivitas maksimal.",
+    "Weaknesses": "Dapat terganggu oleh faktor tak terduga atau emosi."
+  },
+  "Evolution": {
+    "Novice": "Mampu membuat rencana dasar, seringkali terlalu kaku.",
+    "Adept": "Mampu beradaptasi dengan perubahan kecil, mulai melihat pola musuh.",
+    "Master": "Mampu merancang strategi kompleks, memprediksi gerakan lawan, dan memimpin unit kecil.",
+    "Ascendant": "Mampu membalikkan keadaan yang mustahil, melihat beberapa langkah ke depan, dan menginspirasi pasukan besar."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill kepemimpinan, analisis, atau komunikasi.",
+    "Conflict": "Sifat impulsif atau kurangnya disiplin."
+  },
+  "LoreAndHistory": "Strategi Tempur adalah inti dari setiap pasukan yang sukses. Skill ini sering dikembangkan oleh para komandan dan pemimpin yang mampu melihat gambaran besar di tengah kekacauan perang."
+}
