@@ -1,0 +1,29 @@
+{
+  "ID": "S006",
+  "Name": "Survival",
+  "Category": "Fisik",
+  "ShortDescription": "Alam adalah guru terbaik, dan bertahan hidup adalah ujian terberatnya.",
+  "Description": "Kemampuan untuk bertahan hidup di lingkungan liar, termasuk mencari makan, membuat tempat berlindung, dan menghindari bahaya alam.",
+  "Mechanism": {
+    "Activation": "Pasif (pengetahuan dan insting)",
+    "Cost": "Stamina (tergantung aktivitas)",
+    "Range": "Lingkungan sekitar",
+    "Duration": "Berkelanjutan",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak efektif di lingkungan yang sangat ekstrem atau tanpa sumber daya.",
+    "Weaknesses": "Dapat terganggu oleh kondisi fisik yang buruk atau penyakit."
+  },
+  "Evolution": {
+    "Novice": "Mampu menemukan sumber daya dasar dan membuat tempat berlindung sederhana.",
+    "Adept": "Mampu beradaptasi dengan berbagai lingkungan, mengidentifikasi tanaman dan hewan yang aman, serta membuat perangkap sederhana.",
+    "Master": "Mampu bertahan hidup di lingkungan paling keras, menemukan sumber daya langka, dan memimpin kelompok dalam kondisi sulit.",
+    "Ascendant": "Mampu menyatu dengan alam, memanipulasi lingkungan untuk keuntungan, dan bertahan hidup tanpa batas di mana pun."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill pelacakan, pengetahuan herbal, atau berburu.",
+    "Conflict": "Sifat manja atau kurangnya ketahanan fisik."
+  },
+  "LoreAndHistory": "Survival adalah skill fundamental bagi siapa pun yang menjelajahi dunia Eryndor yang luas dan seringkali berbahaya. Skill ini adalah warisan dari para penjelajah dan suku-suku kuno yang hidup harmonis dengan alam."
+}
