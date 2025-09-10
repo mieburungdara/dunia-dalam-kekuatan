@@ -1,0 +1,12 @@
+[
+  {
+    "magic_system_id": "harmonisasi-elemen-001",
+    "name": "Harmonisasi Elemen",
+    "description": "Sihir yang berasal dari harmonisasi diri dengan elemen-elemen primal api, air, tanah, dan udara.",
+    "rules_of_magic": "Membutuhkan koneksi yang kuat dengan alam; penggunaan berlebihan dapat menyebabkan ketidakseimbangan elemen dalam pengguna sihir.",
+    "sources_of_power": ["Energi elemen alami", "Garis ley", "Roh elemen"],
+    "limitations": ["Tidak dapat menciptakan elemen dari ketiadaan", "Rentan terhadap elemen yang berlawanan", "Membutuhkan fokus dan konsentrasi"],
+    "schools_of_magic": ["Piromansi", "Hidromansi", "Geomansi", "Aeromansi"],
+    "example_spells": ["Bola Api", "Cambuk Air", "Kulit Batu", "Hembusan Angin"]
+  }
+]

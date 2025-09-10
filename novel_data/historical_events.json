@@ -1,0 +1,12 @@
+[
+  {
+    "event_id": "bencana-besar-001",
+    "name": "Bencana Besar",
+    "description": "Gelombang sihir dahsyat yang membentuk kembali benua dan menyebabkan jatuhnya peradaban kuno.",
+    "start_date": "Tahun -500 SM (Sebelum Masehi)",
+    "end_date": "Tahun -450 SM",
+    "key_figures": ["Penyihir Kuno Tak Dikenal", "Naga Pertama"],
+    "impact_on_world": "Menyebabkan zaman kegelapan, munculnya makhluk sihir baru, dan tersebarnya pengetahuan kuno.",
+    "related_locations": ["Puncak Reruntuhan", "Kota Tenggelam Eldoria"]
+  }
+]
