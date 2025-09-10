@@ -22,7 +22,7 @@ class NovelController {
         $f3->set('novels', $novels);
         echo \Template::instance()->render('templates/header.php');
         echo \Template::instance()->render('novel/novel_list_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
     function show_novel_arcs($f3, $params) {
@@ -55,7 +55,7 @@ class NovelController {
 
         echo \Template::instance()->render('templates/header.php');
         echo \Template::instance()->render('novel/arc_list_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
     function show_arc_chapters($f3, $params) {
@@ -90,7 +90,7 @@ class NovelController {
 
         echo \Template::instance()->render('templates/header.php');
         echo \Template::instance()->render('novel/chapter_list_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
     function show_chapter_scenes($f3, $params) {
@@ -141,7 +141,7 @@ class NovelController {
 
         echo \Template::instance()->render('templates/header.php');
         echo \Template::instance()->render('novel/scene_list_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
     function show_scene($f3, $params) {
@@ -297,6 +297,6 @@ class NovelController {
 
         echo \Template::instance()->render('templates/header.php');
         echo \Template::instance()->render('novel/scene_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 }
