@@ -27,6 +27,12 @@
     </style>
     <?php endif; ?>
 
+    <style>
+        #sidebarPanel .listview a.item {
+            text-decoration: none;
+        }
+    </style>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const themeToggleButton = document.getElementById('theme-toggle');
