@@ -2,11 +2,52 @@
 
     <!-- Hero Section -->
     <div class="section full mt-3 mb-3">
-        <div class="card bg-dark text-white text-center" style="background-image: url('https://via.placeholder.com/1000x400?text=Epic+Fantasy+World'); background-size: cover; background-position: center; min-height: 300px;">
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h1 class="display-4 fw-bold">Dunia dalam Kekuatan</h1>
-                <p class="lead">Selamat datang di dunia fantasi yang penuh dengan keajaiban dan petualangan. Jelajahi kisah Ardan, sang Gembala Takdir, dan para penjaga zodiak.</p>
-                <a href="<?php echo $app_base_url; ?>/novel" class="btn btn-primary btn-lg mt-3">Mulai Membaca Novel</a>
+        <div class="card bg-dark text-white text-center" style="background-image: url('https://via.placeholder.com/1500x600?text=Dunia+dalam+Kekuatan+Epic+Fantasy'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center; justify-content: center;">
+            <div class="card-body">
+                <h1 class="display-3 fw-bold mb-3">Dunia dalam Kekuatan</h1>
+                <p class="lead mb-4">Selamat datang di dunia fantasi yang penuh dengan keajaiban dan petualangan. Jelajahi kisah Ardan, sang Gembala Takdir, dan para penjaga zodiak.</p>
+                <a href="<?php echo $app_base_url; ?>/novel" class="btn btn-primary btn-lg">Mulai Membaca Novel</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Novels Carousel Section -->
+    <div class="section full mt-3 mb-3">
+        <div class="section-title">
+            <h2>Novel Unggulan</h2>
+        </div>
+        <div class="carousel-multiple owl-carousel owl-theme">
+            <div class="item">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x400?text=Novel+Cover+1" class="card-img-top" alt="Novel Cover">
+                    <div class="card-body pt-2">
+                        <h4 class="mb-0">Judul Novel 1</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x400?text=Novel+Cover+2" class="card-img-top" alt="Novel Cover">
+                    <div class="card-body pt-2">
+                        <h4 class="mb-0">Judul Novel 2</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x400?text=Novel+Cover+3" class="card-img-top" alt="Novel Cover">
+                    <div class="card-body pt-2">
+                        <h4 class="mb-0">Judul Novel 3</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x400?text=Novel+Cover+4" class="card-img-top" alt="Novel Cover">
+                    <div class="card-body pt-2">
+                        <h4 class="mb-0">Judul Novel 4</h4>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
