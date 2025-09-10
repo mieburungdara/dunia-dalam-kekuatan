@@ -1,0 +1,26 @@
+{
+  "title": "Pengenalan Skill",
+  "description": "Skill adalah kemampuan khusus yang berkembang dari hubungan tubuh, jiwa, dan Aether. Tidak semua orang memiliki skill, dan kekuatannya sangat bervariasi. Skill adalah cerminan jiwa dan pengalaman hidup dan menentukan peran seseorang dalam sejarah, bukan hanya kemampuan bertarung.",
+  "origins": [
+    {
+      "name": "Fisik",
+      "description": "Lahir dari latihan, disiplin, dan penempaan batas tubuh. Teknik yang diwariskan atau diciptakan melalui kerja keras."
+    },
+    {
+      "name": "Sihir",
+      "description": "Lahir dari pemahaman hukum alam dan bahasa kuno. Diakses melalui simbol, mantra, atau kontrak dengan roh dunia."
+    },
+    {
+      "name": "Rohani/Spiritual",
+      "description": "Lahir dari doa, kutukan, atau restu dari entitas agung seperti dewa, leluhur, atau iblis."
+    },
+    {
+      "name": "Psionik/Mental",
+      "description": "Lahir dari kekuatan batin, kehendak, atau pikiran yang menembus batas kenyataan."
+    },
+    {
+      "name": "Relic/Artefak",
+      "description": "Lahir dari benda-benda legenda yang menyatu dengan jiwa pengguna, mewariskan ingatan atau kekuatan kuno sebagai skill."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Aturan dan Batasan Skill",
+  "rules": [
+    {
+      "id": "rule-001",
+      "name": "Asal Mula Skill",
+      "description": "Tidak semua skill bisa diwariskan. Kebanyakan muncul secara spontan melalui pengalaman ekstrem, trauma, atau emosi kuat."
+    },
+    {
+      "id": "rule-002",
+      "name": "Interaksi Skill",
+      "description": "Skill dapat berinteraksi dan diperkuat dengan Relic atau sihir, menciptakan kombinasi unik (misalnya, *Flash Step* + sihir angin = kecepatan supersonik)."
+    },
+    {
+      "id": "rule-003",
+      "name": "Batasan Fisik & Mental",
+      "description": "Penggunaan berlebihan dapat menyebabkan **kelelahan** ekstrem, kerusakan tubuh, atau bahkan merusak jiwa (**korupsi**) jika skill tersebut menarik entitas gelap."
+    },
+    {
+      "id": "rule-004",
+      "name": "Kontradiksi Skill",
+      "description": "Beberapa skill tidak bisa digunakan bersamaan karena sifatnya yang berlawanan."
+    },
+    {
+      "id": "rule-005",
+      "name": "Faktor Sejarah Skill",
+      "description": "Skill Unik sering kali menjadi faktor penentu dalam jalannya sejarah dunia."
+    }
+  ]
+}

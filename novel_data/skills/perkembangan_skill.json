@@ -1,0 +1,104 @@
+{
+  "title": "Pertumbuhan dan Evolusi Skill",
+  "growth_mechanisms": [
+    {
+      "name": "Latihan Intensif",
+      "description": "Meningkatkan efektivitas dan kontrol skill dasar."
+    },
+    {
+      "name": "Pertarungan Nyata",
+      "description": "Pengalaman ekstrem sering memicu pemahaman baru atau evolusi skill."
+    },
+    {
+      "name": "Kontrak/Relic",
+      "description": "Beberapa skill bisa berkembang pesat dengan bantuan kekuatan luar."
+    }
+  ],
+  "progression_levels": [
+    {
+      "name": "Novice",
+      "description": "Kemampuan dasar, sering tidak stabil."
+    },
+    {
+      "name": "Adept",
+      "description": "Sudah terkontrol, bisa digunakan secara konsisten."
+    },
+    {
+      "name": "Master",
+      "description": "Penggunaannya fleksibel dan efisien, bisa mengubah keadaan pertempuran."
+    },
+    {
+      "name": "Ascendant",
+      "description": "Skill berevolusi, menciptakan efek baru yang tak terduga."
+    }
+  ],
+  "evolution_examples": [
+    {
+      "original": "Flash Step",
+      "evolved": "Phantom Step",
+      "description": "(meninggalkan ilusi bayangan yang dapat menyerang)."
+    },
+    {
+      "original": "Mind’s Eye",
+      "evolved": "Foresight",
+      "description": "(melihat beberapa detik ke masa depan)."
+    },
+    {
+      "original": "Iron Body",
+      "evolved": "Adamant Vessel",
+      "description": "(kebal hampir semua senjata kecuali Relic)."
+    }
+  ],
+  "depth_levels": [
+    {
+      "level_number": 1,
+      "name": "Gerakan Dasar",
+      "description": "Pondasi pertama. Teknik sederhana yang bisa dipelajari siapa saja, namun menjadi akar dari semua penguasaan."
+    },
+    {
+      "level_number": 2,
+      "name": "Teknik Lanjutan",
+      "description": "Pengembangan dari dasar. Membutuhkan disiplin dan pemahaman mendalam. Pengguna mulai membentuk gaya khasnya sendiri."
+    },
+    {
+      "level_number": 3,
+      "name": "Rahasia Klan",
+      "description": "Ilmu tersembunyi, diwariskan lewat garis keturunan, sumpah darah, atau inisiasi rahasia. Menjadi ciri khas keluarga atau sekte tertentu."
+    },
+    {
+      "level_number": 4,
+      "name": "Warisan Agung",
+      "description": "Lahir dari penderitaan, pencerahan, atau peristiwa besar. Skill di tingkat ini menyatu dengan kisah hidup penggunanya dan mencetak legenda pribadi."
+    },
+    {
+      "level_number": 5,
+      "name": "Arcana Tertinggi",
+      "description": "Kekuatan yang mulai menyentuh hukum-hukum alam. Setiap gerakan menggema melampaui batas logika."
+    },
+    {
+      "level_number": 6,
+      "name": "Absolut",
+      "description": "Skill yang mendominasi dunia sekitarnya. Keberadaannya saja cukup untuk mengubah pertempuran dan mengguncang keseimbangan dunia."
+    },
+    {
+      "level_number": 7,
+      "name": "Transendental",
+      "description": "Melampaui logika. Skill ini menulis ulang kenyataan. Setiap pengguna tingkat ini mengukir sejarah baru—baik sebagai penyelamat maupun penghancur."
+    },
+    {
+      "level_number": 8,
+      "name": "Ilahi",
+      "description": "Bukan lagi keterampilan, melainkan berkat atau kutukan yang menyatu dengan jiwa. Mereka yang mencapai tingkatan ini sering dianggap perwujudan dewa atau avatar kekuatan kosmik."
+    },
+    {
+      "level_number": 9,
+      "name": "Kosmik",
+      "description": "Skill yang mampu menjangkau dimensi lain. Setiap gerakannya mengguncang bintang, menembus ruang, dan meretakkan hukum jagat."
+    },
+    {
+      "level_number": 10,
+      "name": "Abadi (Eternal)",
+      "description": "Puncak segalanya. Skill ini tak mengenal batas waktu, ruang, atau kematian. Ia menjadi hukum itu sendiri—tak bisa dihancurkan, hanya diwariskan oleh takdir."
+    }
+  ]
+}

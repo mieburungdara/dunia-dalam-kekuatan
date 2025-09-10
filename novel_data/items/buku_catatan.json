@@ -1,23 +1,23 @@
 {
-  "ID": "I003",
-  "Name": "Buku Catatan",
-  "Type": "Lain-lain",
-  "Rarity": "Umum",
-  "ShortDescription": "Pikiran yang terorganisir adalah senjata terkuat.",
-  "Description": "Buku catatan sederhana yang selalu dibawa Arga, digunakan untuk mencatat observasi, analisis, dan strategi.",
-  "EffectsAndAttributes": {
-    "Effects": "Membantu dalam analisis dan perencanaan. Tidak ada efek langsung dalam pertempuran.",
-    "Attributes": "Berat: 0.1kg"
+  "id": "I003",
+  "name": "Buku Catatan",
+  "type": "Lain-lain",
+  "rarity": "Umum",
+  "short_description": "Pikiran yang terorganisir adalah senjata terkuat.",
+  "description": "Buku catatan sederhana yang selalu dibawa Arga, digunakan untuk mencatat observasi, analisis, dan strategi.",
+  "effects_and_attributes": {
+    "effects": "Membantu dalam analisis dan perencanaan. Tidak ada efek langsung dalam pertempuran.",
+    "attributes": "Berat: 0.1kg"
   },
-  "CraftingRecipe": {
-    "Materials": [],
-    "Tools": "Tidak dapat di-craft",
-    "Prerequisites": "Tidak dapat di-craft"
+  "crafting_recipe": {
+    "materials": [],
+    "tools": "Tidak dapat di-craft",
+    "prerequisites": "Tidak dapat di-craft"
   },
-  "UpgradePath": {
-    "UpgradeFrom": "Tidak ada",
-    "Materials": [],
-    "Effects": "Tidak dapat di-upgrade"
+  "upgrade_path": {
+    "upgrade_from": "Tidak ada",
+    "materials": [],
+    "effects": "Tidak dapat di-upgrade"
   },
-  "LoreAndHistory": "Buku catatan ini adalah cerminan dari kepribadian Arga yang analitis. Meskipun terlihat sederhana, bagi Arga, ini adalah alat yang tak ternilai untuk memahami dunia baru yang penuh misteri ini."
+  "lore_and_history": "Buku catatan ini adalah cerminan dari kepribadian Arga yang analitis. Meskipun terlihat sederhana, bagi Arga, ini adalah alat yang tak ternilai untuk memahami dunia baru yang penuh misteri ini."
 }

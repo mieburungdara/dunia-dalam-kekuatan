@@ -1,29 +1,29 @@
 {
-  "ID": "I004",
-  "Name": "Busur Komposit",
-  "Type": "Senjata",
-  "Rarity": "Tidak Umum",
-  "ShortDescription": "Kekuatan yang tersembunyi dalam kelenturan.",
-  "Description": "Busur yang terbuat dari kombinasi beberapa material, memberikan kekuatan tarikan yang lebih besar dan akurasi yang lebih baik dibandingkan busur biasa.",
-  "EffectsAndAttributes": {
-    "Effects": "Meningkatkan kerusakan panah dan jangkauan.",
-    "Attributes": "Kerusakan: 20, Berat: 3kg"
+  "id": "I004",
+  "name": "Busur Komposit",
+  "type": "Senjata",
+  "rarity": "Tidak Umum",
+  "short_description": "Kekuatan yang tersembunyi dalam kelenturan.",
+  "description": "Busur yang terbuat dari kombinasi beberapa material, memberikan kekuatan tarikan yang lebih besar dan akurasi yang lebih baik dibandingkan busur biasa.",
+  "effects_and_attributes": {
+    "effects": "Meningkatkan kerusakan panah dan jangkauan.",
+    "attributes": "Kerusakan: 20, Berat: 3kg"
   },
-  "CraftingRecipe": {
-    "Materials": [
-      {"Name": "Kayu Elastis", "Quantity": 2},
-      {"Name": "Tanduk Hewan", "Quantity": 1},
-      {"Name": "Tali Kuat", "Quantity": 1}
+  "crafting_recipe": {
+    "materials": [
+      {"name": "Kayu Elastis", "quantity": 2},
+      {"name": "Tanduk Hewan", "quantity": 1},
+      {"name": "Tali Kuat", "quantity": 1}
     ],
-    "Tools": "Meja Kerja Pemanah",
-    "Prerequisites": "Skill Membuat Busur (Dasar)"
+    "tools": "Meja Kerja Pemanah",
+    "prerequisites": "Skill Membuat Busur (Dasar)"
   },
-  "UpgradePath": {
-    "UpgradeFrom": "Tidak ada",
-    "Materials": [
-      {"Name": "Bahan Komposit Tingkat Lanjut", "Quantity": 1}
+  "upgrade_path": {
+    "upgrade_from": "Tidak ada",
+    "materials": [
+      {"name": "Bahan Komposit Tingkat Lanjut", "quantity": 1}
     ],
-    "Effects": "Meningkatkan Kerusakan dan Akurasi."
+    "effects": "Meningkatkan Kerusakan dan Akurasi."
   },
-  "LoreAndHistory": "Busur Komposit adalah pilihan favorit para pemanah profesional dan pemburu besar. Desainnya yang kompleks memungkinkan kekuatan tembakan yang luar biasa, menjadikannya alat yang mematikan di tangan yang tepat."
+  "lore_and_history": "Busur Komposit adalah pilihan favorit para pemanah profesional dan pemburu besar. Desainnya yang kompleks memungkinkan kekuatan tembakan yang luar biasa, menjadikannya alat yang mematikan di tangan yang tepat."
 }
