@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <?php if (isset($_GET['dev']) && $_GET['dev'] === '1'): ?>
     <style>
-        body { 
-            /* Dihapus agar Bootstrap bisa mengontrol warna latar belakang */
-        }
         .navbar { margin-bottom: 2rem; }
         .hide { display: none; }
     </style>
