@@ -1,5 +1,5 @@
 ✦ Selain kalender dan linimasa, ada beberapa elemen lain yang sangat membantu dalam menjaga konsistensi cerita, terutama untuk
-  proyek novel yang besar dan kompleks seperti "Pilar Takdir":
+  proyek novel yang besar dan kompleks seperti "Pecahan Dunia":
 
    1. Dossier Karakter (Character Dossiers/Profiles):
        * Apa: Dokumen terperinci untuk setiap karakter penting (utama, pendukung, figuran yang signifikan).
@@ -123,4 +123,4 @@ Baik, itu daftar yang jauh lebih baik. Sepertinya categories.md tidak ada, itu i
 
   
 1. buat scene_template, arc templtae dan sebagainya.
-2. 
+2.
