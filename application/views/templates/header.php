@@ -8,8 +8,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
-    <title>Dunia dalam Kekuatan</title>
-    <meta name="description" content="Dunia dalam Kekuatan - Novel Fantasi">
+    <title>Pecahan Dunia</title>
+    <meta name="description" content="Pecahan Dunia - Novel Fantasi">
     <meta name="keywords" content="novel, fantasi, dunia, kekuatan, ardan, zodiak" />
     <link rel="icon" type="image/png" href="<?= $app_base_url ?>/assets/mobilekit/assets/img/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="<?= $app_base_url ?>/assets/mobilekit/assets/img/icon/192x192.png">
@@ -65,7 +65,7 @@
             </a>
         </div>
         <div class="pageTitle">
-            Dunia dalam Kekuatan
+            Pecahan Dunia
         </div>
         <div class="right">
 
@@ -104,7 +104,7 @@
                     <!-- profile box -->
                     <div class="profileBox">
                         <div class="in">
-                            <strong>Dunia dalam Kekuatan</strong>
+                            <strong>Pecahan Dunia</strong>
                             <div class="text-muted">
                                 <ion-icon name="book-outline"></ion-icon>
                                 Novel Fantasi

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Pola Prompt Gambar - Dunia dalam Kekuatan (Gaya Anime)
+title: Pola Prompt Gambar - Pecahan Dunia (Gaya Anime)
 ---
-# Pola Prompt Gambar - Dunia dalam Kekuatan (Gaya Anime)
+# Pola Prompt Gambar - Pecahan Dunia (Gaya Anime)
 
 Dokumen ini berfungsi sebagai panduan untuk menghasilkan gambar yang konsisten dengan gaya visual anime berkualitas tinggi.
 

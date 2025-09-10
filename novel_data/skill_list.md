@@ -4,7 +4,7 @@ title: Daftar Skill
 ---
 # Daftar Skill
 
-Berikut adalah daftar semua skill yang ada dalam dunia "Dunia dalam Kekuatan":
+Berikut adalah daftar semua skill yang ada dalam dunia "Pecahan Dunia":
 
 | Nama Skill | Kategori | Deskripsi Singkat | Link Detail |
 |---|---|---|---|

@@ -18,9 +18,9 @@
     <!-- app footer -->
     <div class="appFooter">
         <div class="footer-title">
-            Dunia dalam Kekuatan &copy; <?php echo date('Y'); ?>
+            Pecahan Dunia &copy; <?php echo date('Y'); ?>
         </div>
-        <div>Dunia dalam Kekuatan adalah novel fantasi yang membawa Anda ke petualangan epik.</div>
+        <div>Pecahan Dunia adalah novel fantasi yang membawa Anda ke petualangan epik.</div>
 
         <div class="mt-2">
             <!-- Social media links can be added here if needed -->

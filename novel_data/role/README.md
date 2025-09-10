@@ -1,6 +1,6 @@
 # Penjelasan Detail Profesi
 
-Folder ini berisi penjelasan yang lebih lengkap dan detail mengenai berbagai profesi atau peran yang ada di dunia "Dunia dalam Kekuatan". Data untuk setiap profesi sekarang dikelola dalam format JSON.
+Folder ini berisi penjelasan yang lebih lengkap dan detail mengenai berbagai profesi atau peran yang ada di dunia "Pecahan Dunia". Data untuk setiap profesi sekarang dikelola dalam format JSON.
 
 Untuk melihat detail lengkap profesi, silakan merujuk ke file JSON yang sesuai di dalam folder ini (misalnya, `MAGE.json`, `AEROMANCER.json`, dll.).
 

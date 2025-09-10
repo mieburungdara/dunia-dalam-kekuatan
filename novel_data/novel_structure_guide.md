@@ -1,6 +1,6 @@
 # Pedoman Struktur Folder Novel yang Konsisten
 
-Dokumen ini menjelaskan struktur folder yang direkomendasikan untuk setiap novel dalam proyek "Dunia dalam Kekuatan" untuk memastikan konsistensi dan kemudahan pengelolaan.
+Dokumen ini menjelaskan struktur folder yang direkomendasikan untuk setiap novel dalam proyek "Pecahan Dunia" untuk memastikan konsistensi dan kemudahan pengelolaan.
 
 Setiap novel harus berada di direktorinya sendiri di dalam `cerita/` (misalnya, `/home/rezaiturere/pecahan-dunia/cerita/nama-novel-anda/`). Direktori ini harus berisi:
 

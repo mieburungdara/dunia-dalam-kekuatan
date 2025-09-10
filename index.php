@@ -54,7 +54,7 @@ $f3->route('GET /',
 
         // Untuk saat ini, kita tidak akan memproses data novel dulu
         // Fokus untuk menampilkan view dengan benar
-        $data['novel_data'] = ['title' => 'Dunia dalam Kekuatan', 'arcs' => []];
+        $data['novel_data'] = ['title' => 'Pecahan Dunia', 'arcs' => []];
 
         // Collect variables for the view
         $view_data = [

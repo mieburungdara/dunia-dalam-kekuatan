@@ -1,5 +1,5 @@
 ✦ Selain kalender dan linimasa, ada beberapa elemen lain yang sangat membantu dalam menjaga konsistensi cerita, terutama untuk
-  proyek novel yang besar dan kompleks seperti "Dunia dalam Kekuatan":
+  proyek novel yang besar dan kompleks seperti "Pecahan Dunia":
 
    1. Dossier Karakter (Character Dossiers/Profiles):
        * Apa: Dokumen terperinci untuk setiap karakter penting (utama, pendukung, figuran yang signifikan).
@@ -51,7 +51,7 @@ Setelah memeriksa file timeline.json, GUIDE.md, dan WORLDBUILDING.md, saya menem
   Inkonsistensi Kritis:
 
    1. Nama Protagonis dan Premis Cerita Berbeda.
-       * `timeline.json`: Fokus pada karakter bernama Ardan, seorang "Gembala Takdir" yang bertemu "Penjaga Zodiak" seperti Aries dan Taurus. Judul novel yang dirujuk adalah "Dunia dalam Kekuatan".
+       * `timeline.json`: Fokus pada karakter bernama Ardan, seorang "Gembala Takdir" yang bertemu "Penjaga Zodiak" seperti Aries dan Taurus. Judul novel yang dirujuk adalah "Pecahan Dunia".
        * `GUIDE.md`: Fokus pada 5 karakter dari Bumi (Arga, Bimo, Raka, Mira, Lina) yang terlempar ke dunia lain (Eryndor/Valdoria). Judul panduan adalah "Lima Jiwa di Bumi Lain". Tidak ada
          penyebutan Ardan, Zodiak, atau Gembala Takdir.
 
@@ -72,7 +72,7 @@ Setelah memeriksa file timeline.json, GUIDE.md, dan WORLDBUILDING.md, saya menem
   Rekomendasi:
 
    1. Tentukan Fokus Cerita Utama: Anda perlu memutuskan cerita mana yang menjadi fokus utama:
-       * Cerita A: "Dunia dalam Kekuatan" (Ardan, Gembala Takdir, Penjaga Zodiak).
+       * Cerita A: "Pecahan Dunia" (Ardan, Gembala Takdir, Penjaga Zodiak).
        * Cerita B: "Lima Jiwa di Bumi Lain" (5 orang dari Bumi, isekai).
 
    2. Sinkronkan Dokumen: Setelah Anda memilih, saya dapat membantu Anda menyinkronkan semua dokumen.

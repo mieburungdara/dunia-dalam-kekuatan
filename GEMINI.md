@@ -1,6 +1,6 @@
 # Directory Overview
 
-This directory contains the foundational documents for a fantasy novel project titled "Dunia dalam Kekuatan" (The World in Power). The story revolves around a simple shepherd named Ardan who is chosen by fate to become the "Fates Shepherd" and unite 12 legendary zodiac guardians to fight against a rising darkness.
+This directory contains the foundational documents for a fantasy novel project titled "Pecahan Dunia" (The World in Power). The story revolves around a simple shepherd named Ardan who is chosen by fate to become the "Fates Shepherd" and unite 12 legendary zodiac guardians to fight against a rising darkness.
 
 The project is structured as a collection of Markdown files that detail the plot, characters, world-building rules, and specific skills or abilities within the story's universe.
 

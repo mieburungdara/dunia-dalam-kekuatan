@@ -1,11 +1,11 @@
 {
-  "name": "Dunia dalam Kekuatan",
+  "name": "Pecahan Dunia",
   "short_name": "Novel DdK",
   "start_url": "/index.php",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#212529",
-  "description": "Situs novel fantasi Dunia dalam Kekuatan.",
+  "description": "Situs novel fantasi Pecahan Dunia.",
   "icons": [
     {
       "src": "assets/images/icons/icon-192x192.png",

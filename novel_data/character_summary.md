@@ -1,6 +1,6 @@
 # Ringkasan Data Karakter
 
-Berikut adalah ringkasan detail untuk setiap karakter dalam proyek "Dunia dalam Kekuatan", diambil dari `CHARACTERS.json`.
+Berikut adalah ringkasan detail untuk setiap karakter dalam proyek "Pecahan Dunia", diambil dari `CHARACTERS.json`.
 
 ---
 
