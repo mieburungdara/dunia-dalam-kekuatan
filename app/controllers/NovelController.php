@@ -283,7 +283,7 @@ class NovelController {
         $scene_data   = json_decode($json_content, true);
 
         if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data)) {
-            error_log("NovelController: JSON decode error for " . $scene_json_path . ": " . json_last_error_msg());
+            error_log("NovelController: JSON decode error for " . $scene_json_path . ": " . json_last_error_msg() . ". Content: " . $json_content);
             $f3->error(500, 'Error reading scene data.');
             return;
         }
