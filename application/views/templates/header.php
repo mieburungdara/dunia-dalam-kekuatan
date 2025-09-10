@@ -50,9 +50,6 @@
             <a href="javascript:;" class="headerButton toggle-searchbox">
                 <ion-icon name="search-outline"></ion-icon>
             </a>
-            <button id="theme-toggle" class="headerButton" type="button" aria-label="Toggle theme">
-                <ion-icon id="theme-icon"></ion-icon>
-            </button>
         </div>
     </div>
     <!-- * App Header -->
