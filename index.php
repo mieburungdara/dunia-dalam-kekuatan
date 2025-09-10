@@ -77,6 +77,10 @@ $f3->route('GET /faq', 'FaqController->list_faq_categories');
 $f3->route('GET /faq/@category', 'FaqController->list_faqs_in_category');
 $f3->route('GET /faq/@category/@faq_name', 'FaqController->show_faq');
 
+// Rute untuk Worldbuilding
+$f3->route('GET /worldbuilding', 'WorldbuildingController->index');
+$f3->route('GET /worldbuilding/@file', 'WorldbuildingController->show');
+
 $placeholder_pages = ['baca', 'karakter', 'glosarium'];
 foreach ($placeholder_pages as $page) {
     $f3->route('GET /' . $page, function($f3, $params) use ($page) {

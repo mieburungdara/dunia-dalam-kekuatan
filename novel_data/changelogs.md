@@ -4,6 +4,17 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.60.0 - Refactor Data Skill & Fitur Worldbuilding
+*Tanggal: 2025-09-10*
+
+- **Refactor**: Merapikan data `skills` dengan memisahkan file dokumentasi ke direktori `worldbuilding`.
+- **Fitur**: Menambahkan halaman Worldbuilding baru yang secara dinamis menampilkan konten dari direktori `novel_data/worldbuilding/`.
+  - Membuat `WorldbuildingController` untuk menangani logika.
+  - Membuat view `worldbuilding_list_view.php` dan `worldbuilding_detail_view.php`.
+  - Menambahkan rute `/worldbuilding` dan `/worldbuilding/@file`.
+
+---
+
 ## v0.59.0 - Refactor Data Lokasi & Perbaikan Konsistensi
 *Tanggal: 2025-09-10*
 
