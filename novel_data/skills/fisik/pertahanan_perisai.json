@@ -1,0 +1,29 @@
+{
+  "ID": "S007",
+  "Name": "Pertahanan Perisai",
+  "Category": "Fisik",
+  "ShortDescription": "Perisai adalah perpanjangan dari kehendak, benteng yang tak tergoyahkan.",
+  "Description": "Keahlian dalam menggunakan perisai untuk menangkis serangan, melindungi diri, dan membentuk barisan pertahanan.",
+  "Mechanism": {
+    "Activation": "Aktif",
+    "Cost": "Stamina (tergantung kekuatan serangan yang ditangkis)",
+    "Range": "Jarak dekat",
+    "Duration": "Instan (per tangkisan)",
+    "Prerequisites": "Penguasaan Perisai (Dasar)"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak efektif terhadap serangan yang tidak bisa ditangkis (misal: sihir area).",
+    "Weaknesses": "Dapat menyebabkan kelelahan jika digunakan terus-menerus."
+  },
+  "Evolution": {
+    "Novice": "Mampu menangkis serangan dasar, namun masih rentan terhadap serangan kuat.",
+    "Adept": "Mampu menangkis serangan yang lebih kuat, melindungi area yang lebih luas, dan melakukan dorongan perisai.",
+    "Master": "Mampu menangkis hampir semua serangan fisik, membelokkan proyektil, dan melindungi beberapa sekutu sekaligus.",
+    "Ascendant": "Perisai menjadi tak tertembus, mampu memantulkan serangan, atau menciptakan medan pelindung sementara."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill pertarungan jarak dekat, kepemimpinan, atau ketahanan.",
+    "Conflict": "Skill yang membutuhkan dua tangan atau mengorbankan pertahanan untuk serangan."
+  },
+  "LoreAndHistory": "Pertahanan Perisai adalah skill fundamental bagi para ksatria dan prajurit garis depan. Skill ini melambangkan ketahanan dan pengorbanan, menjadi pilar pertahanan bagi mereka yang berjuang di medan perang."
+}
