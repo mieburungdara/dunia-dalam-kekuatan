@@ -173,7 +173,7 @@ class NovelController {
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
-        function show_scene($f3, $params) {
+    function show_scene($f3, $params) {
         global $app_base_url;
         require_once __DIR__ . '/../helpers/ContentHelper.php';
 
@@ -336,3 +336,4 @@ class NovelController {
         include $f3->get('ROOT') . '/application/views/novel/scene_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
+}
