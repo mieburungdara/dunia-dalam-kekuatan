@@ -1,0 +1,29 @@
+{
+  "ID": "S012",
+  "Name": "Pengetahuan Herbal",
+  "Category": "Rohani",
+  "ShortDescription": "Bumi adalah apotek terbesar, dan rahasianya tersembunyi di setiap daun dan akar.",
+  "Description": "Pengetahuan mendalam tentang berbagai jenis tumbuhan, khasiat obatnya, cara mengolah, dan menggunakannya untuk penyembuhan atau tujuan lain.",
+  "Mechanism": {
+    "Activation": "Pasif (pengetahuan)",
+    "Cost": "Tidak ada",
+    "Range": "Lingkungan sekitar",
+    "Duration": "Permanen",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak efektif di lingkungan tanpa flora yang relevan.",
+    "Weaknesses": "Dapat menyebabkan efek samping jika ramuan tidak diolah dengan benar."
+  },
+  "Evolution": {
+    "Novice": "Mampu mengidentifikasi beberapa tanaman obat umum dan khasiat dasarnya.",
+    "Adept": "Mampu mengolah ramuan sederhana, mengidentifikasi tanaman beracun, dan menemukan tanaman langka.",
+    "Master": "Mampu menciptakan ramuan kompleks dengan efek kuat, mengembangkan formula baru, dan mengidentifikasi tanaman dari jarak jauh.",
+    "Ascendant": "Mampu berkomunikasi dengan roh tumbuhan, menumbuhkan tanaman obat secara instan, atau menciptakan ramuan yang memiliki efek magis."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill survival, penyembuhan luka, atau alkimia.",
+    "Conflict": "Lingkungan perkotaan atau sifat yang tidak menyukai alam."
+  },
+  "LoreAndHistory": "Pengetahuan Herbal adalah skill kuno yang diwariskan dari generasi ke generasi oleh para tabib, dukun, dan penjaga hutan. Skill ini adalah jembatan antara manusia dan alam, mengajarkan rasa hormat terhadap kehidupan dan siklusnya."
+}
