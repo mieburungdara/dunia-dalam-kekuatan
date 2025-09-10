@@ -313,12 +313,12 @@ var OfflineText = "No Internet Connection";
 // Online Mode Toast Append
 function onlineModeToast() {
     $("body").append(
-        "<div id='online-toast' class='toast-box bg-success toast-top tap-to-close'>" 
+        "<div id='online-toast' class='toast-box bg-success toast-top tap-to-close'>"
         +
-        "<div class='in'><div class='text'>" 
-        + 
+        "<div class='in'><div class='text'>"
+        +
         OnlineText
-        + 
+        +
         "</div></div></div>"
     );
     setTimeout(() => {
@@ -329,12 +329,12 @@ function onlineModeToast() {
 // Ofline Mode Toast Append
 function offlineModeToast() {
     $("body").append(
-        "<div id='offline-toast' class='toast-box bg-danger toast-top tap-to-close'>" 
+        "<div id='offline-toast' class='toast-box bg-danger toast-top tap-to-close'>"
         +
-        "<div class='in'><div class='text'>" 
-        + 
+        "<div class='in'><div class='text'>"
+        +
         OfflineText
-        + 
+        +
         "</div></div></div>"
     );
     setTimeout(() => {
@@ -525,3 +525,4 @@ dmswitch.on('change', function () {
     dmswitch.prop('checked', this.checked);
 });
 ///////////////////////////////////////////////////////////////////////////
+
