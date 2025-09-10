@@ -1,6 +1,6 @@
 </main> <!-- /.container -->
 
-<footer class="py-4 mt-5 bg-secondary text-center">
+<footer class="py-4 mt-5 text-center">
     <div class="container">
         <span class="text-muted">Dunia dalam Kekuatan &copy; <?php echo date('Y'); ?></span>
     </div>
