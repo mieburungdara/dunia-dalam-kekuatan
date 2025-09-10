@@ -20,8 +20,8 @@ class NovelController {
         }
 
         $f3->set('novels', $novels);
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('novel/novel_list_view.php');
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/novel/novel_list_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
@@ -53,8 +53,8 @@ class NovelController {
         $f3->set('novel_slug', $novel_slug);
         $f3->set('arcs', $arc_list);
 
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('novel/arc_list_view.php');
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/novel/arc_list_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
@@ -88,8 +88,8 @@ class NovelController {
         $f3->set('arc_name', $arc_name);
         $f3->set('chapters', $chapter_list);
 
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('novel/chapter_list_view.php');
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/novel/chapter_list_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
@@ -139,8 +139,8 @@ class NovelController {
         $f3->set('chapter_name', $chapter_name);
         $f3->set('scenes', $scene_list);
 
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('novel/scene_list_view.php');
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/novel/scene_list_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
@@ -295,8 +295,8 @@ class NovelController {
         $f3->set('prev_link', $prev_link);
         $f3->set('next_link', $next_link);
 
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('novel/scene_view.php');
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/novel/scene_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 }

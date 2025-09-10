@@ -58,9 +58,9 @@ $f3->route('GET /',
         $f3->set('data', $data);
 
         // Render view gabungan
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('home_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/home_view.php';
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 );
 
@@ -79,9 +79,9 @@ foreach ($placeholder_pages as $page) {
         $f3->set('title', $title);
         $f3->set('content', $content);
 
-        echo \Template::instance()->render('templates/header.php');
-        echo \Template::instance()->render('placeholder_view.php');
-        echo \Template::instance()->render('templates/footer.php');
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/placeholder_view.php';
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
     });
 }
 
