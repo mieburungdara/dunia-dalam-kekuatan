@@ -1,0 +1,29 @@
+{
+  "ID": "S010",
+  "Name": "Penyembuhan Luka",
+  "Category": "Rohani",
+  "ShortDescription": "Sentuhan yang menenangkan, energi yang memulihkan, kehidupan yang kembali.",
+  "Description": "Kemampuan mahir dalam menyembuhkan luka fisik, baik ringan maupun parah, menggunakan energi rohani atau spiritual.",
+  "Mechanism": {
+    "Activation": "Aktif (membutuhkan konsentrasi dan sentuhan)",
+    "Cost": "Mana/Aether (tergantung tingkat luka)",
+    "Range": "Sentuhan",
+    "Duration": "Instan (untuk luka ringan), berkelanjutan (untuk luka parah)",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak dapat menyembuhkan penyakit atau kondisi kronis.",
+    "Weaknesses": "Membutuhkan konsumsi Mana/Aether yang signifikan untuk luka parah."
+  },
+  "Evolution": {
+    "Novice": "Mampu menyembuhkan luka goresan atau memar ringan.",
+    "Adept": "Mampu menyembuhkan luka sayatan atau patah tulang sederhana.",
+    "Master": "Mampu menyembuhkan luka parah, menghentikan pendarahan hebat, dan mempercepat regenerasi jaringan.",
+    "Ascendant": "Mampu menyembuhkan luka fatal, bahkan menghidupkan kembali yang baru saja meninggal, atau menyembuhkan beberapa target sekaligus."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill pengetahuan herbal, diagnosa penyakit, atau dukungan spiritual.",
+    "Conflict": "Skill yang menguras energi rohani atau menyebabkan kerusakan."
+  },
+  "LoreAndHistory": "Penyembuhan Luka adalah skill yang sangat dihormati, sering ditemukan pada para tabib, pendeta, atau individu yang diberkati. Skill ini adalah manifestasi dari belas kasih dan keinginan untuk menjaga kehidupan."
+}
