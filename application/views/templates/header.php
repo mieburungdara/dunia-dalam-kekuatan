@@ -27,6 +27,20 @@
     </style>
     <?php endif; ?>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggleButton = document.getElementById('theme-toggle');
+            const darkmodesidebarCheckbox = document.getElementById('darkmodesidebar');
+
+            if (themeToggleButton && darkmodesidebarCheckbox) {
+                themeToggleButton.addEventListener('click', function() {
+                    darkmodesidebarCheckbox.checked = !darkmodesidebarCheckbox.checked;
+                    darkmodesidebarCheckbox.dispatchEvent(new Event('change'));
+                });
+            }
+        });
+    </script>
+
 </head>
 
 <body>
