@@ -1,0 +1,29 @@
+{
+  "ID": "S001",
+  "Name": "Pedang Satu Tangan",
+  "Category": "Fisik",
+  "ShortDescription": "Setiap ayunan adalah tarian, setiap tebasan adalah melodi kematian.",
+  "Description": "Kemampuan mahir dalam menggunakan pedang satu tangan, memungkinkan pengguna untuk melakukan serangan cepat dan presisi.",
+  "Mechanism": {
+    "Activation": "Aktif",
+    "Cost": "Stamina",
+    "Range": "Jarak dekat (jangkauan pedang)",
+    "Duration": "Instan (per ayunan)",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Efektivitas berkurang terhadap musuh dengan armor tebal atau perisai besar.",
+    "Weaknesses": "Membutuhkan ruang gerak yang cukup."
+  },
+  "Evolution": {
+    "Novice": "Penguasaan dasar, serangan lambat dan kurang akurat.",
+    "Adept": "Serangan lebih cepat dan akurat, mampu melakukan kombo sederhana.",
+    "Master": "Gerakan fluid, serangan presisi tinggi, mampu menangkis serangan lawan.",
+    "Ascendant": "Kecepatan dan kekuatan luar biasa, mampu menciptakan gelombang kejut atau tebasan yang membelah udara."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill yang meningkatkan kecepatan, kekuatan, atau kelincahan.",
+    "Conflict": "Skill yang membutuhkan dua tangan atau membatasi gerakan."
+  },
+  "LoreAndHistory": "Pedang satu tangan adalah senjata klasik yang telah digunakan oleh para ksatria dan pendekar pedang sepanjang sejarah Eryndor. Skill ini melambangkan keanggunan dan efisiensi dalam pertempuran individu."
+}
