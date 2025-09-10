@@ -9,6 +9,33 @@
     "relations_with_other_races": ["Bervariasi, dari hidup berdampingan secara damai hingga konflik terbuka dengan sebagian besar ras."]
   },
   {
+    "race_id": "manusia-biasa-001",
+    "name": "Manusia Biasa",
+    "description": "Manusia pada umumnya tanpa kemampuan khusus, fokus pada kehidupan sehari-hari dan pembangunan masyarakat.",
+    "average_lifespan": 80,
+    "common_traits": ["Adaptif", "Cekatan", "Beragam", "Gigih"],
+    "cultural_notes": "Membangun peradaban, kota, dan kerajaan. Sangat sosial dan inovatif.",
+    "relations_with_other_races": ["Bervariasi, tergantung pada interaksi individu dan kelompok."]
+  },
+  {
+    "race_id": "manusia-sihir-001",
+    "name": "Manusia Sihir (Arcane-Blooded)",
+    "description": "Manusia dengan bakat alami atau keturunan sihir, mampu menguasai berbagai bentuk magi.",
+    "average_lifespan": 90,
+    "common_traits": ["Berbakat sihir", "Intuitif", "Cerdas"],
+    "cultural_notes": "Sering menjadi penyihir, sarjana, atau penasihat. Terkadang membentuk komunitas tersembunyi.",
+    "relations_with_other_races": ["Dihormati atau ditakuti karena kemampuan sihir mereka."]
+  },
+  {
+    "race_id": "manusia-dewa-001",
+    "name": "Manusia Dewa (Semi-Deus)",
+    "description": "Manusia yang telah mencapai tingkat kekuatan atau pencerahan ilahi, seringkali menjadi dewa atau entitas semi-ilahi.",
+    "average_lifespan": null,
+    "common_traits": ["Abadi", "Maha Kuasa", "Bijaksana", "Ilahi"],
+    "cultural_notes": "Sangat langka, sering menjadi objek pemujaan atau legenda. Membentuk takdir dunia.",
+    "relations_with_other_races": ["Dianggap sebagai dewa atau leluhur oleh ras lain."]
+  },
+  {
     "race_id": "elf-001",
     "name": "Elf",
     "description": "Ras kuno yang anggun, dikenal karena umur panjang, kepekaan terhadap sihir, dan kedekatan dengan alam.",
@@ -16,6 +43,42 @@
     "common_traits": ["Anggun", "Sihir", "Dekat dengan alam", "Umur panjang"],
     "cultural_notes": "Hidup di hutan purba atau kota-kota tersembunyi, menghargai seni, musik, dan pengetahuan kuno.",
     "relations_with_other_races": ["Cenderung menjaga jarak, namun dapat menjadi sekutu yang kuat bagi mereka yang menghormati alam."]
+  },
+  {
+    "race_id": "high-elf-001",
+    "name": "High-Elf / Elda",
+    "description": "Elf dengan telinga panjang, hidup panjang, dan sihir yang kuat. Seringkali tinggal di kota-kota megah atau menara sihir.",
+    "average_lifespan": 1000,
+    "common_traits": ["Anggun", "Sihir kuat", "Intelektual", "Sombong"],
+    "cultural_notes": "Menghargai pengetahuan, seni, dan tradisi kuno. Seringkali memandang rendah ras lain.",
+    "relations_with_other_races": ["Cenderung menjaga jarak, tetapi dapat menjadi sekutu yang kuat bagi mereka yang menghormati pengetahuan."]
+  },
+  {
+    "race_id": "dark-elf-001",
+    "name": "Dark-Elf / Drow",
+    "description": "Elf dengan kulit gelap dan mata merah, biasa hidup di bawah tanah. Seringkali terkait dengan sihir gelap dan intrik.",
+    "average_lifespan": 800,
+    "common_traits": ["Licik", "Sihir gelap", "Agresif", "Teritorial"],
+    "cultural_notes": "Masyarakat matriarkal yang kejam, menghargai kekuasaan dan intrik. Seringkali menyembah dewa-dewa jahat.",
+    "relations_with_other_races": ["Umumnya bermusuhan dengan ras permukaan, sering melakukan penyerbuan."]
+  },
+  {
+    "race_id": "wood-elf-001",
+    "name": "Wood-Elf / Sylvan",
+    "description": "Elf yang hidup di hutan, ahli dalam menggunakan busur dan dekat dengan alam. Seringkali menjadi penjaga hutan.",
+    "average_lifespan": 700,
+    "common_traits": ["Lincah", "Pemanah ulung", "Dekat dengan alam", "Mandiri"],
+    "cultural_notes": "Hidup dalam harmoni dengan alam, menghargai kebebasan dan berburu. Seringkali menghindari peradaban.",
+    "relations_with_other_races": ["Cenderung menjaga jarak, tetapi dapat menjadi sekutu bagi mereka yang menghormati alam."]
+  },
+  {
+    "race_id": "half-elf-001",
+    "name": "Half-Elf",
+    "description": "Campuran antara manusia dan elf, mewarisi sifat dari kedua ras. Seringkali menjadi jembatan antara dua budaya.",
+    "average_lifespan": 150,
+    "common_traits": ["Adaptif", "Menawan", "Fleksibel", "Berbakat"],
+    "cultural_notes": "Seringkali merasa tidak sepenuhnya cocok di kedua dunia, tetapi mampu beradaptasi dengan berbagai lingkungan.",
+    "relations_with_other_races": ["Dapat bergaul dengan baik dengan manusia dan elf, sering menjadi diplomat atau petualang."]
   },
   {
     "race_id": "dwarf-001",
@@ -27,26 +90,35 @@
     "relations_with_other_races": ["Cenderung curiga terhadap orang asing, tetapi sangat setia kepada sekutu yang terbukti."]
   },
   {
-    "race_id": "orc-001",
-    "name": "Orc",
-    "description": "Ras yang kuat dan sering disalahpahami, dikenal karena kekuatan fisik, keberanian dalam pertempuran, dan struktur klan yang ketat.",
-    "average_lifespan": 60,
-    "common_traits": ["Kuat", "Berani", "Setia pada klan", "Agresif"],
-    "cultural_notes": "Masyarakat berbasis klan dengan hierarki yang jelas, menghargai kekuatan dan kehormatan dalam pertempuran. Seringkali disalahpahami sebagai barbar.",
-    "relations_with_other_races": ["Sering berkonflik dengan Manusia dan Elf, namun dapat membentuk aliansi yang kuat jika saling menguntungkan."]
+    "race_id": "hill-dwarf-001",
+    "name": "Hill-Dwarf",
+    "description": "Dwarf yang tinggal di gunung rendah, pandai dalam membuat baja ringan dan kerajinan tangan.",
+    "average_lifespan": 300,
+    "common_traits": ["Praktis", "Terampil", "Ramah", "Gigih"],
+    "cultural_notes": "Membangun komunitas yang erat di perbukitan, fokus pada pertanian dan kerajinan.",
+    "relations_with_other_races": ["Lebih terbuka terhadap ras lain dibandingkan Mountain-Dwarf."]
   },
   {
-    "race_id": "goblin-001",
-    "name": "Goblin",
-    "description": "Ras kecil dan licik, dikenal karena jumlah mereka yang banyak, kecerdikan dalam membuat jebakan, dan kecenderungan untuk menjarah.",
-    "average_lifespan": 40,
-    "common_traits": ["Kecil", "Licik", "Banyak", "Penjarah"],
-    "cultural_notes": "Hidup dalam kelompok besar di gua-gua atau reruntuhan, seringkali dipimpin oleh yang terkuat atau paling licik. Menghargai barang-barang berkilau.",
-    "relations_with_other_races": ["Umumnya dianggap hama, sering menjadi musuh bagi sebagian besar ras lain."]
+    "race_id": "mountain-dwarf-001",
+    "name": "Mountain-Dwarf",
+    "description": "Dwarf yang tinggal di gunung dalam, ahli dalam membuat baja legendaris dan pertahanan bawah tanah.",
+    "average_lifespan": 400,
+    "common_traits": ["Kuat", "Tangguh", "Terampil", "Tradisional"],
+    "cultural_notes": "Membangun kerajaan bawah tanah yang megah, sangat menghargai tradisi dan kehormatan.",
+    "relations_with_other_races": ["Cenderung curiga terhadap orang asing, tetapi sangat setia kepada sekutu yang terbukti."]
   },
   {
-    "race_id": "halfling-001",
-    "name": "Halfling",
+    "race_id": "duergar-001",
+    "name": "Duergar",
+    "description": "Dwarf jahat dengan kemampuan invisibilitas, seringkali tinggal di Underdark dan memiliki sifat yang kejam.",
+    "average_lifespan": 350,
+    "common_traits": ["Licik", "Kejam", "Invisibilitas", "Tahan banting"],
+    "cultural_notes": "Masyarakat yang kejam dan hierarkis, fokus pada penaklukan dan perbudakan.",
+    "relations_with_other_races": ["Bermusuhan dengan sebagian besar ras, terutama Dwarf permukaan."]
+  },
+  {
+    "race_id": "hobbit-001",
+    "name": "Hobbit / Halfling",
     "description": "Ras kecil dan ramah, dikenal karena sifat mereka yang ceria, kecintaan pada kenyamanan rumah, dan kemampuan untuk menghindari masalah.",
     "average_lifespan": 100,
     "common_traits": ["Ceria", "Ramah", "Suka kenyamanan", "Beruntung"],
@@ -54,22 +126,22 @@
     "relations_with_other_races": ["Umumnya memiliki hubungan baik dengan sebagian besar ras, terutama Manusia dan Elf."]
   },
   {
-    "race_id": "dragonborn-001",
-    "name": "Dragonborn",
-    "description": "Ras humanoid yang bangga dengan keturunan naga, memiliki sisik dan nafas elemental. Dikenal karena kekuatan dan kehormatan mereka.",
-    "average_lifespan": 80,
-    "common_traits": ["Bangga", "Kuat", "Berani", "Terhormat"],
-    "cultural_notes": "Menghargai kehormatan dan kesetiaan. Seringkali menjadi prajurit atau pemimpin. Memiliki ikatan kuat dengan naga.",
-    "relations_with_other_races": ["Cenderung dihormati atau ditakuti. Hubungan bervariasi tergantung pada klan naga leluhur mereka."]
+    "race_id": "lightfoot-001",
+    "name": "Lightfoot Halfling",
+    "description": "Halfling petualang yang ahli dalam mencuri dan menyelinap. Seringkali menjadi pengembara atau pencuri.",
+    "average_lifespan": 100,
+    "common_traits": ["Lincah", "Pencuri", "Petualang", "Beruntung"],
+    "cultural_notes": "Cenderung hidup nomaden, menghargai kebebasan dan petualangan.",
+    "relations_with_other_races": ["Dapat bergaul dengan baik dengan berbagai ras, sering menjadi bagian dari kelompok petualang."]
   },
   {
-    "race_id": "tiefling-001",
-    "name": "Tiefling",
-    "description": "Ras humanoid dengan keturunan iblis, ditandai dengan tanduk, ekor, dan mata yang tidak biasa. Seringkali menghadapi prasangka, tetapi memiliki tekad yang kuat.",
-    "average_lifespan": 90,
-    "common_traits": ["Tekad kuat", "Cerdas", "Mandiri", "Menarik"],
-    "cultural_notes": "Seringkali hidup di pinggiran masyarakat karena penampilan mereka. Banyak yang menjadi petualang atau seniman. Memiliki bakat alami untuk sihir.",
-    "relations_with_other_races": ["Sering menghadapi prasangka dan diskriminasi, namun beberapa menemukan penerimaan di antara ras yang lebih toleran."]
+    "race_id": "stout-halfling-001",
+    "name": "Stout Halfling",
+    "description": "Halfling yang kekar dan tahan racun. Seringkali menjadi petani atau penjaga.",
+    "average_lifespan": 120,
+    "common_traits": ["Kekar", "Tahan racun", "Gigih", "Praktis"],
+    "cultural_notes": "Fokus pada kehidupan pedesaan yang stabil, menghargai kerja keras dan keluarga.",
+    "relations_with_other_races": ["Umumnya ramah dan dapat diandalkan."]
   },
   {
     "race_id": "gnome-001",
@@ -81,13 +153,544 @@
     "relations_with_other_races": ["Umumnya ramah dan ingin tahu, sering berteman dengan Dwarf dan Halfling."]
   },
   {
-    "race_id": "iblis-001",
-    "name": "Iblis",
-    "description": "Ras kuno dan kuat yang berasal dari alam bawah, dikenal karena kekuatan destruktif, kecerdasan licik, dan kemampuan sihir gelap. Seringkali menjadi antagonis utama.",
+    "race_id": "rock-gnome-001",
+    "name": "Rock-Gnome",
+    "description": "Gnome yang ahli dalam teknologi uap dan mesin. Seringkali menjadi penemu atau insinyur.",
+    "average_lifespan": 400,
+    "common_traits": ["Inovatif", "Mekanis", "Cerdas", "Praktis"],
+    "cultural_notes": "Membangun kota-kota bawah tanah yang penuh dengan penemuan dan mesin-mesin aneh.",
+    "relations_with_other_races": ["Sering berinteraksi dengan Dwarf dan ras lain yang menghargai teknologi."]
+  },
+  {
+    "race_id": "forest-gnome-001",
+    "name": "Forest-Gnome",
+    "description": "Gnome yang memiliki kemampuan berkomunikasi dengan hewan dan ahli dalam ilusi. Seringkali menjadi penjaga hutan atau penipu.",
+    "average_lifespan": 350,
+    "common_traits": ["Ilusionis", "Komunikatif", "Dekat dengan alam", "Jenaka"],
+    "cultural_notes": "Hidup di hutan-hutan yang rimbun, menghargai alam dan kebebasan.",
+    "relations_with_other_races": ["Umumnya ramah dan suka bergaul dengan makhluk hutan."]
+  },
+  {
+    "race_id": "orc-001",
+    "name": "Orc",
+    "description": "Ras yang kuat dan sering disalahpahami, dikenal karena kekuatan fisik, keberanian dalam pertempuran, dan struktur klan yang ketat.",
+    "average_lifespan": 60,
+    "common_traits": ["Kuat", "Berani", "Setia pada klan", "Agresif"],
+    "cultural_notes": "Masyarakat berbasis klan dengan hierarki yang jelas, menghargai kekuatan dan kehormatan dalam pertempuran. Seringkali disalahpahami sebagai barbar.",
+    "relations_with_other_races": ["Sering berkonflik dengan Manusia dan Elf, namun dapat membentuk aliansi yang kuat jika saling menguntungkan."]
+  },
+  {
+    "race_id": "high-orc-001",
+    "name": "High-Orc / Orc-Magus",
+    "description": "Orc yang memiliki kecerdasan dan bakat sihir selain kekuatan fisik. Seringkali menjadi pemimpin atau penasihat.",
+    "average_lifespan": 70,
+    "common_traits": ["Cerdas", "Kuat", "Berbakat sihir", "Ambisius"],
+    "cultural_notes": "Mencari keseimbangan antara kekuatan fisik dan kecerdasan, sering memimpin klan dengan strategi yang lebih canggih.",
+    "relations_with_other_races": ["Dapat menjadi ancaman yang lebih besar atau sekutu yang lebih dapat diandalkan."]
+  },
+  {
+    "race_id": "goblin-001",
+    "name": "Goblin",
+    "description": "Ras kecil dan licik, dikenal karena jumlah mereka yang banyak, kecerdikan dalam membuat jebakan, dan kecenderungan untuk menjarah.",
+    "average_lifespan": 40,
+    "common_traits": ["Kecil", "Licik", "Banyak", "Penjarah"],
+    "cultural_notes": "Hidup dalam kelompok besar di gua-gua atau reruntuhan, seringkali dipimpin oleh yang terkuat atau paling licik. Menghargai barang-barang berkilau.",
+    "relations_with_other_races": ["Umumnya dianggap hama, sering menjadi musuh bagi sebagian besar ras lain."]
+  },
+  {
+    "race_id": "hobgoblin-001",
+    "name": "Hobgoblin",
+    "description": "Goblin yang lebih besar dan militeristik, dikenal karena disiplin dan strategi perang mereka.",
+    "average_lifespan": 50,
+    "common_traits": ["Disiplin", "Militeristik", "Kuat", "Strategis"],
+    "cultural_notes": "Membangun pasukan yang terorganisir dengan baik, fokus pada penaklukan dan dominasi.",
+    "relations_with_other_races": ["Sering menjadi ancaman militer bagi ras lain."]
+  },
+  {
+    "race_id": "bugbear-001",
+    "name": "Bugbear",
+    "description": "Goblin raksasa yang ahli dalam penyergapan dan pengeboman. Seringkali menjadi pembunuh bayaran atau perampok.",
+    "average_lifespan": 60,
+    "common_traits": ["Besar", "Penyergap", "Kuat", "Licik"],
+    "cultural_notes": "Cenderung hidup dalam kelompok kecil, fokus pada perampokan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "ogre-001",
+    "name": "Ogre",
+    "description": "Makhluk berukuran hampir troll, bodoh tapi kuat. Seringkali menjadi preman atau penjaga.",
+    "average_lifespan": 80,
+    "common_traits": ["Bodoh", "Kuat", "Rakus", "Agresif"],
+    "cultural_notes": "Cenderung hidup sendiri atau dalam kelompok kecil, fokus pada makanan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau alat oleh ras lain."]
+  },
+  {
+    "race_id": "troll-001",
+    "name": "Troll",
+    "description": "Makhluk besar dengan kemampuan regenerasi, tetapi takut cahaya. Seringkali menjadi monster atau penjaga.",
+    "average_lifespan": 150,
+    "common_traits": ["Regenerasi", "Kuat", "Agresif", "Takut cahaya"],
+    "cultural_notes": "Cenderung hidup di tempat gelap, fokus pada makanan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "cave-troll-001",
+    "name": "Cave-Troll",
+    "description": "Troll yang tinggal di gua, memiliki regenerasi dan takut cahaya. Seringkali menjadi penjaga atau monster.",
+    "average_lifespan": 150,
+    "common_traits": ["Regenerasi", "Kuat", "Agresif", "Takut cahaya"],
+    "cultural_notes": "Hidup di gua-gua gelap, fokus pada makanan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "frost-giant-001",
+    "name": "Frost-Giant",
+    "description": "Raksasa yang tinggal di daerah dingin, kuat dan tahan terhadap es. Seringkali menjadi prajurit atau pemimpin.",
+    "average_lifespan": 500,
+    "common_traits": ["Kuat", "Tahan es", "Agresif", "Teritorial"],
+    "cultural_notes": "Membangun benteng di daerah dingin, menghargai kekuatan dan penaklukan.",
+    "relations_with_other_races": ["Sering berkonflik dengan ras lain yang tinggal di daerah dingin."]
+  },
+  {
+    "race_id": "fire-giant-001",
+    "name": "Fire-Giant",
+    "description": "Raksasa yang tinggal di daerah vulkanik, kuat dan tahan terhadap api. Ahli dalam pandai besi.",
+    "average_lifespan": 500,
+    "common_traits": ["Kuat", "Tahan api", "Terampil", "Militeristik"],
+    "cultural_notes": "Membangun benteng di daerah vulkanik, menghargai kekuatan dan keahlian pandai besi.",
+    "relations_with_other_races": ["Sering berkonflik dengan ras lain yang tinggal di daerah panas."]
+  },
+  {
+    "race_id": "stone-giant-001",
+    "name": "Stone-Giant",
+    "description": "Raksasa yang tinggal di pegunungan, kuat dan ahli dalam memahat batu. Seringkali menjadi seniman atau penjaga.",
+    "average_lifespan": 600,
+    "common_traits": ["Kuat", "Terampil", "Artistik", "Tenang"],
+    "cultural_notes": "Membangun kota-kota di dalam gunung, menghargai seni dan keindahan batu.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  },
+  {
+    "race_id": "hill-giant-001",
+    "name": "Hill-Giant",
+    "description": "Raksasa yang bodoh dan rakus, seringkali menjadi preman atau perampok.",
+    "average_lifespan": 200,
+    "common_traits": ["Bodoh", "Kuat", "Rakus", "Agresif"],
+    "cultural_notes": "Cenderung hidup dalam kelompok kecil, fokus pada makanan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau alat oleh ras lain."]
+  },
+  {
+    "race_id": "beastman-001",
+    "name": "Beastman / Kemono",
+    "description": "Demi-human dengan telinga/ekor hewan tetapi tubuh manusia. Beragam jenis seperti serigala, harimau, kelinci, rubah, kucing, anjing, sapi, burung, dll.",
+    "average_lifespan": 80,
+    "common_traits": ["Lincah", "Indra tajam", "Setia", "Agresif"],
+    "cultural_notes": "Hidup dalam suku-suku, menghargai alam dan ikatan keluarga. Seringkali memiliki sifat yang mirip dengan hewan asal mereka.",
+    "relations_with_other_races": ["Bervariasi, dari hidup berdampingan secara damai hingga konflik terbuka."]
+  },
+  {
+    "race_id": "cat-folk-001",
+    "name": "Cat-Folk / Nekomata",
+    "description": "Demi-human dengan telinga kucing dan ekor, pandai parkour dan memiliki kelincahan kucing.",
+    "average_lifespan": 90,
+    "common_traits": ["Lincah", "Cekatan", "Penasaran", "Mandiri"],
+    "cultural_notes": "Seringkali hidup di perkotaan, menghargai kebebasan dan petualangan. Suka bermain dan mencuri.",
+    "relations_with_other_races": ["Umumnya ramah, tetapi dapat menjadi licik dan sulit dipercaya."]
+  },
+  {
+    "race_id": "wolf-folk-001",
+    "name": "Wolf-Folk / Lycan / Werewolf",
+    "description": "Demi-human dengan ciri-ciri serigala, mampu berubah wujud menjadi serigala penuh. Seringkali memiliki sifat yang liar dan setia.",
+    "average_lifespan": 100,
+    "common_traits": ["Setia", "Liar", "Kuat", "Agresif"],
+    "cultural_notes": "Hidup dalam kawanan, menghargai ikatan keluarga dan berburu. Seringkali memiliki ritual bulan.",
+    "relations_with_other_races": ["Dapat menjadi sekutu yang kuat atau musuh yang berbahaya, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "rabbit-folk-001",
+    "name": "Rabbit-Folk / Viera",
+    "description": "Demi-human dengan telinga panjang dan kaki kuat, dikenal karena kecepatan dan kelincahan mereka.",
+    "average_lifespan": 70,
+    "common_traits": ["Cepat", "Lincah", "Penakut", "Ramah"],
+    "cultural_notes": "Hidup di komunitas yang damai, fokus pada pertanian dan kerajinan. Seringkali menghindari konflik.",
+    "relations_with_other_races": ["Umumnya ramah dan dapat diandalkan."]
+  },
+  {
+    "race_id": "fox-folk-001",
+    "name": "Fox-Folk / Kitsune",
+    "description": "Rubah spiritual dengan kemampuan ilusi, api, dan multi-ekor. Dikenal karena kecerdasan dan tipu daya mereka.",
+    "average_lifespan": 1000,
+    "common_traits": ["Cerdas", "Licik", "Ilusi", "Berubah wujud"],
+    "cultural_notes": "Seringkali hidup di antara manusia, menggunakan kecerdasan dan sihir mereka untuk tujuan baik atau jahat. Jumlah ekor menunjukkan kekuatan dan usia.",
+    "relations_with_other_races": ["Hubungan bervariasi, dari penipu hingga pelindung, tergantung pada individu Kitsune."]
+  },
+  {
+    "race_id": "bird-folk-001",
+    "name": "Bird-Folk / Harpy / Tengu",
+    "description": "Demi-human dengan sayap, mampu terbang dan memanipulasi angin. Beragam jenis seperti harpy dan tengu.",
+    "average_lifespan": 100,
+    "common_traits": ["Terbang", "Lincah", "Indra tajam", "Mandiri"],
+    "cultural_notes": "Hidup di pegunungan atau tebing tinggi, menghargai kebebasan dan berburu.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga teritorial."]
+  },
+  {
+    "race_id": "dragon-folk-001",
+    "name": "Dragon-Folk / Dragonoid",
+    "description": "Demi-human dengan sisik, sayap kecil, dan nafas elemen. Dikenal karena kekuatan dan kehormatan mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Kuat", "Berani", "Terhormat", "Tahan elemen"],
+    "cultural_notes": "Menghargai kehormatan dan kesetiaan. Seringkali menjadi prajurit atau pemimpin. Memiliki ikatan kuat dengan naga.",
+    "relations_with_other_races": ["Cenderung dihormati atau ditakuti. Hubungan bervariasi tergantung pada klan naga leluhur mereka."]
+  },
+  {
+    "race_id": "fish-folk-001",
+    "name": "Fish-Folk / Siren / Mermaid",
+    "description": "Demi-human yang hidup di air, dengan kemampuan memanipulasi air dan suara memikat. Beragam jenis seperti siren dan mermaid.",
+    "average_lifespan": 300,
+    "common_traits": ["Memikat", "Suara indah", "Manipulasi air", "Misterius"],
+    "cultural_notes": "Hidup di kedalaman laut atau pulau-pulau terpencil, menghargai keindahan, musik, dan rahasia lautan.",
+    "relations_with_other_races": ["Seringkali berbahaya bagi pelaut, tetapi beberapa dapat menjalin hubungan dengan ras daratan untuk tujuan tertentu."]
+  },
+  {
+    "race_id": "vampire-001",
+    "name": "Vampire",
+    "description": "Makhluk undead yang meminum darah, memiliki kekuatan dan sihir gelap. Beragam jenis seperti Pure-Blood dan Lesser Vampire.",
     "average_lifespan": null,
-    "common_traits": ["Kuat", "Licik", "Destruktif", "Sihir gelap"],
-    "cultural_notes": "Tidak memiliki budaya dalam pengertian tradisional, lebih merupakan hierarki kekuasaan dan dominasi. Seringkali memimpin pasukan makhluk jahat.",
-    "relations_with_other_races": ["Umumnya bermusuhan dengan semua ras lain, mencari dominasi atau kehancuran."]
+    "common_traits": ["Abadi", "Kuat", "Sihir gelap", "Haus darah"],
+    "cultural_notes": "Hidup di kastil atau tempat tersembunyi, menghargai kekuasaan dan keabadian. Seringkali membentuk klan.",
+    "relations_with_other_races": ["Umumnya bermusuhan dengan ras hidup, tetapi beberapa dapat hidup berdampingan."]
+  },
+  {
+    "race_id": "pure-blood-vampire-001",
+    "name": "Pure-Blood Vampire",
+    "description": "Vampir murni yang abadi dan memiliki sihir darah yang kuat. Seringkali menjadi bangsawan atau pemimpin.",
+    "average_lifespan": null,
+    "common_traits": ["Abadi", "Sihir darah", "Kuat", "Anggun"],
+    "cultural_notes": "Membangun dinasti dan kerajaan, menghargai kekuasaan dan keabadian.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau penguasa oleh ras lain."]
+  },
+  {
+    "race_id": "lesser-vampire-001",
+    "name": "Lesser Vampire",
+    "description": "Vampir yang dibuat, lebih lemah dari Pure-Blood dan rentan terhadap sinar matahari. Seringkali menjadi pelayan atau prajurit.",
+    "average_lifespan": 200,
+    "common_traits": ["Haus darah", "Lemah sinar", "Agresif", "Setia"],
+    "cultural_notes": "Melayani Pure-Blood Vampire, fokus pada perburuan dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "dhampir-001",
+    "name": "Dhampir",
+    "description": "Setengah vampir dan setengah manusia, mewarisi kekuatan vampir tetapi tidak memiliki kelemahan penuh. Seringkali menjadi pemburu vampir.",
+    "average_lifespan": 150,
+    "common_traits": ["Kuat", "Cepat", "Tahan sinar", "Pemburu"],
+    "cultural_notes": "Seringkali hidup di antara manusia, menggunakan kekuatan mereka untuk melawan vampir atau kejahatan lainnya.",
+    "relations_with_other_races": ["Dapat diterima atau ditakuti oleh ras lain, tergantung pada reputasi mereka."]
+  },
+  {
+    "race_id": "lich-001",
+    "name": "Lich",
+    "description": "Penyihir undead yang abadi melalui phylactery. Dikenal karena sihir gelap dan kecerdasan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Abadi", "Sihir gelap", "Cerdas", "Kejam"],
+    "cultural_notes": "Mencari pengetahuan dan kekuasaan, seringkali menguasai pasukan undead.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman besar oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "death-knight-001",
+    "name": "Death-Knight",
+    "description": "Paladin yang jatuh dan menjadi ksatria undead. Dikenal karena kekuatan fisik dan sihir gelap mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Sihir gelap", "Setia", "Kejam"],
+    "cultural_notes": "Melayani penguasa gelap, fokus pada penaklukan dan kehancuran.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "zombie-001",
+    "name": "Zombie",
+    "description": "Mayat hidup yang dikendalikan oleh sihir gelap. Lambat tapi gigih.",
+    "average_lifespan": null,
+    "common_traits": ["Lambat", "Gigih", "Tidak berpikir", "Menular"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti perintah atau naluri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman dan hama oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "skeleton-001",
+    "name": "Skeleton",
+    "description": "Kerangka hidup yang dikendalikan oleh sihir gelap. Ringan dan cepat.",
+    "average_lifespan": null,
+    "common_traits": ["Ringan", "Cepat", "Tidak berpikir", "Mudah dihancurkan"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti perintah atau naluri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman dan hama oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "wraith-001",
+    "name": "Wraith",
+    "description": "Roh jahat yang tidak berwujud, mampu menguras kehidupan. Dikenal karena sifat dingin dan mematikan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Tidak berwujud", "Menguras kehidupan", "Dingin", "Mematikan"],
+    "cultural_notes": "Mencari kehidupan untuk dikuras, seringkali menghantui tempat-tempat gelap.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "angel-001",
+    "name": "Angel",
+    "description": "Makhluk surgawi yang melayani dewa, dikenal karena cahaya, penyembuhan, dan kekuatan ilahi mereka. Beragam jenis seperti Seraph dan Archangel.",
+    "average_lifespan": null,
+    "common_traits": ["Ilahi", "Penyembuh", "Kuat", "Bijaksana"],
+    "cultural_notes": "Melayani kebaikan dan keadilan, seringkali menjadi pelindung atau utusan.",
+    "relations_with_other_races": ["Dihormati atau ditakuti, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "seraph-001",
+    "name": "Seraph / Archangel",
+    "description": "Malaikat tertinggi dengan cahaya dan kemampuan penyembuhan yang kuat. Seringkali menjadi pemimpin atau pelindung.",
+    "average_lifespan": null,
+    "common_traits": ["Ilahi", "Penyembuh kuat", "Kuat", "Bijaksana"],
+    "cultural_notes": "Melayani kebaikan dan keadilan, seringkali menjadi pelindung atau utusan.",
+    "relations_with_other_races": ["Dihormati atau ditakuti, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "fallen-angel-001",
+    "name": "Fallen-Angel",
+    "description": "Malaikat yang jatuh dari surga, memiliki sayap hitam dan api ungu. Seringkali menjadi antagonis atau anti-hero.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Sihir gelap", "Pemberontak", "Angkuh"],
+    "cultural_notes": "Mencari kekuasaan atau balas dendam, seringkali memimpin pasukan gelap.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "cupid-001",
+    "name": "Cupid / Cherub",
+    "description": "Malaikat kecil dengan panah cinta. Seringkali menjadi utusan atau pembuat masalah.",
+    "average_lifespan": null,
+    "common_traits": ["Kecil", "Lincah", "Jenaka", "Penyebar cinta"],
+    "cultural_notes": "Suka bermain dan menyebarkan cinta, seringkali menyebabkan kekacauan.",
+    "relations_with_other_races": ["Umumnya ramah, tetapi dapat menjadi pengganggu."]
+  },
+  {
+    "race_id": "devil-001",
+    "name": "Devil",
+    "description": "Makhluk dari neraka, dikenal karena kecerdasan licik dan kemampuan sihir gelap. Beragam jenis seperti Imp dan Succubus.",
+    "average_lifespan": null,
+    "common_traits": ["Licik", "Sihir gelap", "Manipulatif", "Kejam"],
+    "cultural_notes": "Mencari jiwa dan kekuasaan, seringkali membuat perjanjian dengan manusia.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "imp-001",
+    "name": "Imp / Lesser-Demon",
+    "description": "Iblis kecil yang sering menjadi pelayan atau mata-mata. Licik dan mengganggu.",
+    "average_lifespan": 500,
+    "common_traits": ["Kecil", "Licik", "Mengganggu", "Setia"],
+    "cultural_notes": "Melayani iblis yang lebih kuat, fokus pada intrik dan kekacauan.",
+    "relations_with_other_races": ["Dianggap sebagai hama atau alat oleh ras lain."]
+  },
+  {
+    "race_id": "succubus-001",
+    "name": "Succubus / Incubus",
+    "description": "Iblis yang memikat dengan kemampuan untuk menguras energi kehidupan melalui nafsu. Dikenal karena kecantikan dan tipu daya mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Memikat", "Licik", "Manipulatif", "Haus energi"],
+    "cultural_notes": "Mencari korban untuk menguras energi, seringkali menyamar sebagai manusia.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "greater-demon-001",
+    "name": "Greater-Demon",
+    "description": "Iblis yang lebih kuat, seringkali menjadi baron atau marquis di neraka. Memiliki kekuatan dan sihir yang besar.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Sihir gelap", "Ambisius", "Kejam"],
+    "cultural_notes": "Mencari kekuasaan dan dominasi, seringkali memimpin pasukan iblis.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman besar oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "demon-lord-001",
+    "name": "Demon-Lord",
+    "description": "Setara dengan raja iblis, memiliki kekuatan yang luar biasa dan menguasai wilayah neraka. Seringkali menjadi antagonis utama.",
+    "average_lifespan": null,
+    "common_traits": ["Maha Kuasa", "Sihir gelap", "Dominan", "Kejam"],
+    "cultural_notes": "Mencari kekuasaan mutlak, seringkali memimpin perang melawan surga atau dunia lain.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman terbesar oleh semua ras."]
+  },
+  {
+    "race_id": "oni-001",
+    "name": "Oni",
+    "description": "Raksasa iblis dari mitologi Jepang, sering digambarkan dengan kulit merah atau biru, rambut acak-acakan, dan dua tanduk. Dikenal karena kekuatan fisik yang besar, kekejaman, dan sifat merusak.",
+    "average_lifespan": 500,
+    "common_traits": ["Kuat", "Kejam", "Merusak", "Tahan banting"],
+    "cultural_notes": "Seringkali hidup di benteng terpencil atau gua, menghargai kekuatan, kehancuran, dan dominasi. Sering menjadi penjahat atau penguasa tiran.",
+    "relations_with_other_races": ["Umumnya bermusuhan dengan semua ras lain, mencari konflik dan kehancuran."]
+  },
+  {
+    "race_id": "valkyrie-001",
+    "name": "Valkyrie",
+    "description": "Prajurit surgawi wanita yang memilih pahlawan yang gugur untuk dibawa ke Valhalla. Dikenal karena keberanian dan kekuatan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Berani", "Kuat", "Terbang", "Penyelamat"],
+    "cultural_notes": "Melayani dewa-dewa perang, fokus pada pertempuran dan kehormatan.",
+    "relations_with_other_races": ["Dihormati oleh prajurit, ditakuti oleh musuh."]
+  },
+  {
+    "race_id": "einherjar-001",
+    "name": "Einherjar",
+    "description": "Pahlawan yang gugur dalam pertempuran dan dibawa ke Valhalla oleh Valkyrie. Dikenal karena keberanian dan kekuatan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Berani", "Kuat", "Abadi", "Prajurit"],
+    "cultural_notes": "Berlatih untuk Ragnarok, fokus pada pertempuran dan kehormatan.",
+    "relations_with_other_races": ["Dihormati oleh prajurit, ditakuti oleh musuh."]
+  },
+  {
+    "race_id": "slime-001",
+    "name": "Slime",
+    "description": "Makhluk amorf yang dapat mencerna hampir semua hal. Beragam jenis seperti Common-Slime dan Rimuru-type.",
+    "average_lifespan": null,
+    "common_traits": ["Amorf", "Mencerna", "Fleksibel", "Adaptif"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri atau perintah.",
+    "relations_with_other_races": ["Dianggap sebagai hama atau alat oleh ras lain."]
+  },
+  {
+    "race_id": "common-slime-001",
+    "name": "Common-Slime",
+    "description": "Slime biasa yang cair dan makan apapun. Seringkali menjadi monster atau hama.",
+    "average_lifespan": null,
+    "common_traits": ["Cair", "Mencerna", "Tidak berpikir", "Menular"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai hama oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "rimuru-type-slime-001",
+    "name": "Rimuru-type Slime",
+    "description": "Slime berintelek yang mampu menyalin skill dan berevolusi. Sangat langka dan kuat.",
+    "average_lifespan": null,
+    "common_traits": ["Cerdas", "Menyalin skill", "Berevolusi", "Kuat"],
+    "cultural_notes": "Membangun peradaban dan kerajaan, fokus pada pengembangan diri dan perlindungan.",
+    "relations_with_other_races": ["Dihormati atau ditakuti, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "metal-slime-001",
+    "name": "Metal-Slime",
+    "description": "Slime yang terbuat dari logam, sangat keras dan sulit dihancurkan. Seringkali menjadi target berharga.",
+    "average_lifespan": null,
+    "common_traits": ["Keras", "Sulit dihancurkan", "Cepat", "Berharga"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai target berharga oleh petualang."]
+  },
+  {
+    "race_id": "healing-slime-001",
+    "name": "Healing-Slime",
+    "description": "Slime yang memiliki kemampuan penyembuhan. Seringkali menjadi pendamping atau sumber obat.",
+    "average_lifespan": null,
+    "common_traits": ["Penyembuh", "Ramah", "Lembut", "Berguna"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai pendamping atau sumber obat oleh ras lain."]
+  },
+  {
+    "race_id": "explosive-slime-001",
+    "name": "Explosive-Slime",
+    "description": "Slime yang meledak saat disentuh atau diserang. Berbahaya dan sulit ditangani.",
+    "average_lifespan": null,
+    "common_traits": ["Meledak", "Berbahaya", "Agresif", "Sulit ditangani"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "fairy-001",
+    "name": "Fairy",
+    "description": "Makhluk kecil bersayap dengan sihir alam. Beragam jenis seperti Pixie dan Dryad.",
+    "average_lifespan": 500,
+    "common_traits": ["Kecil", "Bersayap", "Sihir alam", "Jenaka"],
+    "cultural_notes": "Hidup di hutan atau tempat tersembunyi, menghargai alam dan kebebasan.",
+    "relations_with_other_races": ["Umumnya ramah, tetapi dapat menjadi pengganggu."]
+  },
+  {
+    "race_id": "pixie-001",
+    "name": "Pixie",
+    "description": "Fairy kecil dengan sayap serangga dan debu ajaib. Seringkali menjadi pembuat masalah atau pemandu.",
+    "average_lifespan": 300,
+    "common_traits": ["Kecil", "Bersayap", "Debu ajaib", "Jenaka"],
+    "cultural_notes": "Suka bermain dan menyebabkan kekacauan, seringkali membantu atau mengganggu petualang.",
+    "relations_with_other_races": ["Umumnya ramah, tetapi dapat menjadi pengganggu."]
+  },
+  {
+    "race_id": "dryad-001",
+    "name": "Dryad",
+    "description": "Roh pohon yang terikat pada pohon tertentu, mengambil wujud wanita cantik. Dikenal karena kedekatan mereka dengan alam, kemampuan sihir alam, dan sifat pelindung.",
+    "average_lifespan": null,
+    "common_traits": ["Pelindung alam", "Sihir alam", "Cantik", "Tenang"],
+    "cultural_notes": "Hidup di hutan purba, melindungi pohon dan ekosistem di sekitarnya. Sangat teritorial dan dapat menjadi ganas jika alam mereka terancam.",
+    "relations_with_other_races": ["Umumnya menghindari kontak dengan ras lain, tetapi dapat menjadi sekutu bagi mereka yang menghormati alam."]
+  },
+  {
+    "race_id": "nymph-001",
+    "name": "Nymph",
+    "description": "Roh air yang terikat pada sungai, danau, atau mata air. Mengambil wujud wanita cantik dan memiliki sihir air.",
+    "average_lifespan": null,
+    "common_traits": ["Cantik", "Sihir air", "Tenang", "Pelindung"],
+    "cultural_notes": "Hidup di dekat sumber air, melindungi ekosistem air. Sangat teritorial dan dapat menjadi ganas jika wilayah mereka diganggu.",
+    "relations_with_other_races": ["Umumnya menghindari kontak dengan ras lain, tetapi dapat menjadi sekutu bagi mereka yang menghormati alam."]
+  },
+  {
+    "race_id": "salamander-001",
+    "name": "Salamander",
+    "description": "Elemental api yang hidup di daerah panas. Dikenal karena kekuatan api dan sifat agresif mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Api", "Kuat", "Agresif", "Tahan panas"],
+    "cultural_notes": "Hidup di daerah vulkanik atau gurun, fokus pada kekerasan dan dominasi.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "undine-001",
+    "name": "Undine",
+    "description": "Elemental air yang hidup di daerah berair. Dikenal karena kekuatan air dan sifat tenang mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Air", "Tenang", "Penyembuh", "Fleksibel"],
+    "cultural_notes": "Hidup di danau, sungai, atau laut, fokus pada keseimbangan dan keindahan.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  },
+  {
+    "race_id": "sylph-001",
+    "name": "Sylph",
+    "description": "Elemental angin yang hidup di udara. Dikenal karena kecepatan dan kemampuan terbang mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Angin", "Cepat", "Terbang", "Lincah"],
+    "cultural_notes": "Hidup di udara, fokus pada kebebasan dan petualangan.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  },
+  {
+    "race_id": "lamia-001",
+    "name": "Lamia / Naga",
+    "description": "Makhluk setengah ular dan setengah manusia. Dikenal karena kecantikan, sihir, dan sifat licik mereka.",
+    "average_lifespan": 300,
+    "common_traits": ["Cantik", "Sihir", "Licik", "Misterius"],
+    "cultural_notes": "Hidup di kuil-kuil tersembunyi atau gua, menghargai pengetahuan dan kekuasaan.",
+    "relations_with_other_races": ["Dapat menjadi sekutu atau musuh, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "medusa-001",
+    "name": "Medusa",
+    "description": "Lamia dengan rambut ular dan pandangan yang dapat mengubah makhluk menjadi batu. Dikenal karena sifat mematikan mereka.",
+    "average_lifespan": 300,
+    "common_traits": ["Mematikan", "Sihir", "Licik", "Misterius"],
+    "cultural_notes": "Hidup di kuil-kuil tersembunyi atau gua, fokus pada pertahanan dan kekuasaan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "echidna-001",
+    "name": "Echidna",
+    "description": "Ibu monster, makhluk setengah wanita dan setengah ular. Dikenal karena melahirkan berbagai monster.",
+    "average_lifespan": null,
+    "common_traits": ["Melindungi", "Subur", "Kuat", "Misterius"],
+    "cultural_notes": "Hidup di gua-gua tersembunyi, fokus pada melahirkan dan melindungi keturunan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau sumber monster oleh ras lain."]
+  },
+  {
+    "race_id": "winged-naga-001",
+    "name": "Naga Bersayap (Naga Oriental)",
+    "description": "Naga oriental dengan sayap, mampu terbang dan memanipulasi elemen. Dikenal karena kebijaksanaan dan kekuatan mereka.",
+    "average_lifespan": 1000,
+    "common_traits": ["Bijaksana", "Sihir", "Terbang", "Kuat"],
+    "cultural_notes": "Hidup di langit atau kuil-kuil tersembunyi, menghargai pengetahuan dan kekuasaan.",
+    "relations_with_other_races": ["Dihormati atau ditakuti, tergantung pada sifat mereka."]
   },
   {
     "race_id": "centaur-001",
@@ -108,75 +711,291 @@
     "relations_with_other_races": ["Sering disalahpahami dan ditakuti, tetapi dapat menjadi pelindung yang setia bagi mereka yang mereka percayai."]
   },
   {
-    "race_id": "siren-001",
-    "name": "Siren",
-    "description": "Makhluk laut yang memikat dengan suara indah dan kemampuan untuk memanipulasi air. Dikenal karena kecantikan mereka yang mematikan dan sifat misterius.",
-    "average_lifespan": 500,
-    "common_traits": ["Memikat", "Suara indah", "Manipulasi air", "Misterius"],
-    "cultural_notes": "Hidup di kedalaman laut atau pulau-pulau terpencil, menghargai keindahan, musik, dan rahasia lautan.",
-    "relations_with_other_races": ["Seringkali berbahaya bagi pelaut, tetapi beberapa dapat menjalin hubungan dengan ras daratan untuk tujuan tertentu."]
-  },
-  {
-    "race_id": "harpy-001",
-    "name": "Harpy",
-    "description": "Makhluk bersayap dengan tubuh wanita dan cakar burung. Dikenal karena kemampuan terbang, suara melengking, dan sifat teritorial.",
-    "average_lifespan": 80,
-    "common_traits": ["Terbang", "Suara melengking", "Teritorial", "Agresif"],
-    "cultural_notes": "Hidup di pegunungan atau tebing tinggi, menghargai kebebasan, berburu, dan melindungi wilayah mereka dengan ganas.",
-    "relations_with_other_races": ["Umumnya bermusuhan dengan penyusup, tetapi dapat diajak bernegosiasi jika ada keuntungan yang jelas."]
-  },
-  {
-    "race_id": "satyr-001",
-    "name": "Satyr",
-    "description": "Makhluk hutan dengan tubuh bagian atas manusia dan kaki kambing, serta tanduk kecil. Dikenal karena kecintaan mereka pada musik, tarian, dan kesenangan.",
+    "race_id": "manticore-001",
+    "name": "Manticore",
+    "description": "Makhluk chimeric dengan tubuh singa, sayap kelelawar, dan ekor kalajengking. Dikenal karena sifat ganas dan mematikan mereka.",
     "average_lifespan": 100,
-    "common_traits": ["Musik", "Tarian", "Ceria", "Suka bersenang-senang"],
-    "cultural_notes": "Hidup di hutan-hutan yang rimbun, menghargai kebebasan, perayaan, dan keindahan alam. Seringkali memainkan seruling pan.",
-    "relations_with_other_races": ["Umumnya ramah dan suka bergaul, sering berteman dengan Elf dan Halfling."]
+    "common_traits": ["Ganas", "Mematikan", "Terbang", "Agresif"],
+    "cultural_notes": "Hidup di daerah terpencil, fokus pada berburu dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
   },
   {
-    "race_id": "dryad-001",
-    "name": "Dryad",
-    "description": "Roh pohon yang terikat pada pohon tertentu, mengambil wujud wanita cantik. Dikenal karena kedekatan mereka dengan alam, kemampuan sihir alam, dan sifat pelindung.",
-    "average_lifespan": null,
-    "common_traits": ["Pelindung alam", "Sihir alam", "Cantik", "Tenang"],
-    "cultural_notes": "Hidup di hutan purba, melindungi pohon dan ekosistem di sekitarnya. Sangat teritorial dan dapat menjadi ganas jika alam mereka terancam.",
-    "relations_with_other_races": ["Umumnya menghindari kontak dengan ras lain, tetapi dapat menjadi sekutu bagi mereka yang menghormati alam."]
+    "race_id": "chimera-001",
+    "name": "Chimera",
+    "description": "Makhluk chimeric dengan kepala singa, kambing, dan naga, serta tubuh singa. Dikenal karena sifat ganas dan mematikan mereka.",
+    "average_lifespan": 100,
+    "common_traits": ["Ganas", "Mematikan", "Api", "Agresif"],
+    "cultural_notes": "Hidup di daerah terpencil, fokus pada berhunting dan kekerasan.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
   },
   {
-    "race_id": "naga-001",
-    "name": "Naga",
-    "description": "Makhluk mitologi dengan tubuh bagian atas manusia dan tubuh bagian bawah ular. Dikenal karena kebijaksanaan, sihir, dan kekayaan mereka.",
-    "average_lifespan": 800,
-    "common_traits": ["Bijaksana", "Sihir", "Kaya", "Misterius"],
-    "cultural_notes": "Hidup di kuil-kuil tersembunyi atau kota-kota bawah air, menghargai pengetahuan, harta karun, dan ritual kuno.",
-    "relations_with_other_races": ["Cenderung menjaga jarak, tetapi dapat menjadi penasihat atau pedagang yang kuat."]
+    "race_id": "griffin-001",
+    "name": "Griffin",
+    "description": "Makhluk chimeric dengan tubuh singa dan kepala serta sayap elang. Dikenal karena sifat mulia dan setia mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Mulia", "Setia", "Terbang", "Kuat"],
+    "cultural_notes": "Hidup di pegunungan, fokus pada berburu dan melindungi wilayah mereka.",
+    "relations_with_other_races": ["Dapat menjadi tunggangan atau sekutu yang setia bagi mereka yang mereka percayai."]
   },
   {
-    "race_id": "kitsune-001",
-    "name": "Kitsune",
-    "description": "Rubah spiritual dengan kemampuan berubah wujud menjadi manusia. Dikenal karena kecerdasan, tipu daya, dan kemampuan sihir ilusi.",
-    "average_lifespan": 1000,
-    "common_traits": ["Cerdas", "Licik", "Ilusi", "Berubah wujud"],
-    "cultural_notes": "Seringkali hidup di antara manusia, menggunakan kecerdasan dan sihir mereka untuk tujuan baik atau jahat. Jumlah ekor menunjukkan kekuatan dan usia.",
-    "relations_with_other_races": ["Hubungan bervariasi, dari penipu hingga pelindung, tergantung pada individu Kitsune."]
-  },
-  {
-    "race_id": "tengu-001",
-    "name": "Tengu",
-    "description": "Makhluk mitologi dengan ciri-ciri manusia dan burung, seringkali memiliki hidung panjang atau paruh. Dikenal karena kemampuan terbang, keahlian bela diri, dan sifat sombong.",
-    "average_lifespan": 300,
-    "common_traits": ["Terbang", "Bela diri", "Sombong", "Disiplin"],
-    "cultural_notes": "Hidup di pegunungan terpencil, menghargai disiplin, kehormatan, dan seni bela diri. Seringkali menjadi pertapa atau guru.",
-    "relations_with_other_races": ["Cenderung meremehkan ras lain, tetapi dapat menjadi guru atau sekutu yang kuat jika dihormati."]
-  },
-  {
-    "race_id": "oni-001",
-    "name": "Oni",
-    "description": "Raksasa iblis dari mitologi Jepang, sering digambarkan dengan kulit merah atau biru, rambut acak-acakan, dan dua tanduk. Dikenal karena kekuatan fisik yang besar, kekejaman, dan sifat merusak.",
+    "race_id": "sphinx-001",
+    "name": "Sphinx",
+    "description": "Makhluk chimeric dengan tubuh singa, sayap burung, dan kepala manusia. Dikenal karena kecerdasan dan teka-teki mereka.",
     "average_lifespan": 500,
-    "common_traits": ["Kuat", "Kejam", "Merusak", "Tahan banting"],
-    "cultural_notes": "Seringkali hidup di benteng terpencil atau gua, menghargai kekuatan, kehancuran, dan dominasi. Sering menjadi penjahat atau penguasa tiran.",
-    "relations_with_other_races": ["Umumnya bermusuhan dengan semua ras lain, mencari konflik dan kehancuran."]
+    "common_traits": ["Cerdas", "Misterius", "Teka-teki", "Bijaksana"],
+    "cultural_notes": "Hidup di reruntuhan kuno, fokus pada menjaga rahasia dan menguji kebijaksanaan.",
+    "relations_with_other_races": ["Dapat menjadi penasihat atau penjaga, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "cerberus-001",
+    "name": "Cerberus",
+    "description": "Anjing berkepala tiga yang menjaga gerbang dunia bawah. Dikenal karena kekuatan dan sifat ganas mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Ganas", "Setia", "Penjaga"],
+    "cultural_notes": "Melayani penguasa dunia bawah, fokus pada menjaga gerbang.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "automaton-001",
+    "name": "Automaton / Golem / Living-Armor",
+    "description": "Makhluk buatan yang dihidupkan oleh sihir atau teknologi. Beragam jenis seperti Magic-Knight-Golem dan Clockwork-Doll.",
+    "average_lifespan": null,
+    "common_traits": ["Buatan", "Kuat", "Tidak berpikir", "Setia"],
+    "cultural_notes": "Melayani pencipta mereka, fokus pada tugas yang diberikan.",
+    "relations_with_other_races": ["Dianggap sebagai alat atau ancaman oleh ras lain."]
+  },
+  {
+    "race_id": "magic-knight-golem-001",
+    "name": "Magic-Knight-Golem",
+    "description": "Golem yang dihidupkan oleh sihir dan memiliki kemampuan bertarung. Seringkali menjadi penjaga atau prajurit.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Sihir", "Setia", "Tidak berpikir"],
+    "cultural_notes": "Melayani pencipta mereka, fokus pada tugas yang diberikan.",
+    "relations_with_other_races": ["Dianggap sebagai alat atau ancaman oleh ras lain."]
+  },
+  {
+    "race_id": "clockwork-doll-001",
+    "name": "Clockwork-Doll",
+    "description": "Boneka mekanis yang dihidupkan oleh teknologi. Seringkali menjadi pelayan atau mata-mata.",
+    "average_lifespan": null,
+    "common_traits": ["Kecil", "Cekatan", "Tidak berpikir", "Setia"],
+    "cultural_notes": "Melayani pencipta mereka, fokus pada tugas yang diberikan.",
+    "relations_with_other_races": ["Dianggap sebagai alat atau ancaman oleh ras lain."]
+  },
+  {
+    "race_id": "soul-forge-001",
+    "name": "Soul-Forge",
+    "description": "Jiwa manusia yang terperangkap di dalam armor. Memiliki kesadaran dan kekuatan.",
+    "average_lifespan": null,
+    "common_traits": ["Kuat", "Berkesadaran", "Terperangkap", "Setia"],
+    "cultural_notes": "Mencari kebebasan atau balas dendam, seringkali menjadi petualang atau penjaga.",
+    "relations_with_other_races": ["Dapat diterima atau ditakuti oleh ras lain, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "alien-001",
+    "name": "Alien / Cosmic",
+    "description": "Makhluk dari luar angkasa atau dimensi lain. Beragam jenis seperti Voidling dan Star-Spawn.",
+    "average_lifespan": null,
+    "common_traits": ["Asing", "Kuat", "Misterius", "Tidak dikenal"],
+    "cultural_notes": "Tidak memiliki budaya yang dapat dipahami manusia, fokus pada tujuan mereka sendiri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau objek penelitian oleh ras lain."]
+  },
+  {
+    "race_id": "voidling-001",
+    "name": "Voidling",
+    "description": "Makhluk dari kehampaan, tidak berwujud dan mampu memanipulasi ruang dan waktu. Dikenal karena sifat merusak mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Tidak berwujud", "Manipulasi ruang waktu", "Merusak", "Misterius"],
+    "cultural_notes": "Mencari kehancuran atau kekacauan, seringkali muncul dari celah dimensi.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman mematikan oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "star-spawn-001",
+    "name": "Star-Spawn",
+    "description": "Makhluk dengan tubuh cair bintang, mampu memanipulasi energi kosmik. Dikenal karena kekuatan dan sifat asing mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Kosmik", "Kuat", "Asing", "Misterius"],
+    "cultural_notes": "Tidak memiliki budaya yang dapat dipahami manusia, fokus pada tujuan mereka sendiri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman besar oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "eldritch-beast-001",
+    "name": "Eldritch-Beast (Cthulhu-esque)",
+    "description": "Makhluk kuno dari dimensi lain, memiliki kekuatan yang tak terbayangkan dan mampu menyebabkan kegilaan. Dikenal karena sifat mengerikan mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Kuno", "Maha Kuasa", "Mengerikan", "Menyebabkan kegilaan"],
+    "cultural_notes": "Tidak memiliki budaya yang dapat dipahami manusia, fokus pada tujuan mereka sendiri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman terbesar oleh semua ras."]
+  },
+  {
+    "race_id": "plant-race-001",
+    "name": "Plant-Race",
+    "description": "Makhluk yang berasal dari tumbuhan, memiliki kemampuan sihir alam dan kedekatan dengan alam. Beragam jenis seperti Alraune dan Treant.",
+    "average_lifespan": null,
+    "common_traits": ["Tumbuhan", "Sihir alam", "Dekat dengan alam", "Tenang"],
+    "cultural_notes": "Hidup dalam harmoni dengan alam, fokus pada pertumbuhan dan perlindungan.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  },
+  {
+    "race_id": "alraune-001",
+    "name": "Alraune",
+    "description": "Manusia bunga yang cantik dan memikat. Dikenal karena sihir alam dan kemampuan untuk memanipulasi tanaman.",
+    "average_lifespan": 200,
+    "common_traits": ["Cantik", "Sihir alam", "Memikat", "Manipulatif"],
+    "cultural_notes": "Hidup di hutan atau taman, fokus pada keindahan dan pertumbuhan.",
+    "relations_with_other_races": ["Dapat menjadi sekutu atau musuh, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "mandragora-001",
+    "name": "Mandragora",
+    "description": "Tumbuhan yang menyerupai manusia, mengeluarkan teriakan mematikan saat dicabut. Berbahaya dan sulit ditangani.",
+    "average_lifespan": 50,
+    "common_traits": ["Tumbuhan", "Teriakan mematikan", "Berbahaya", "Sulit ditangani"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "treant-001",
+    "name": "Treant",
+    "description": "Pohon berjalan yang melindungi hutan. Dikenal karena kekuatan dan sifat pelindung mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Pohon", "Kuat", "Pelindung", "Tenang"],
+    "cultural_notes": "Hidup di hutan purba, fokus pada perlindungan alam.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi ancaman jika wilayah mereka diganggu."]
+  },
+  {
+    "race_id": "insectoid-001",
+    "name": "Insectoid",
+    "description": "Makhluk yang menyerupai serangga, memiliki cangkang keras dan kemampuan unik. Beragam jenis seperti Arachne dan Mantis-Folk.",
+    "average_lifespan": 100,
+    "common_traits": ["Serangga", "Cangkang keras", "Unik", "Agresif"],
+    "cultural_notes": "Hidup dalam koloni, fokus pada kelangsungan hidup dan dominasi.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau hama oleh ras lain."]
+  },
+  {
+    "race_id": "arachne-001",
+    "name": "Arachne",
+    "description": "Makhluk setengah laba-laba dan setengah manusia. Dikenal karena kemampuan menenun jaring dan racun mereka.",
+    "average_lifespan": 150,
+    "common_traits": ["Laba-laba", "Menenun jaring", "Racun", "Licik"],
+    "cultural_notes": "Hidup di gua-gua atau hutan, fokus pada berburu dan menjebak.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "mantis-folk-001",
+    "name": "Mantis-Folk",
+    "description": "Makhluk yang menyerupai belalang sembah, memiliki cakar tajam dan kemampuan bertarung. Dikenal karena sifat agresif mereka.",
+    "average_lifespan": 80,
+    "common_traits": ["Belalang sembah", "Cakar tajam", "Agresif", "Cepat"],
+    "cultural_notes": "Hidup dalam koloni, fokus pada berburu dan bertarung.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "bee-folk-001",
+    "name": "Bee-Folk / Apis",
+    "description": "Makhluk yang menyerupai lebah, hidup dalam koloni dengan ratu. Dikenal karena sifat kolektif dan pekerja keras mereka.",
+    "average_lifespan": 50,
+    "common_traits": ["Lebah", "Kolektif", "Pekerja keras", "Setia"],
+    "cultural_notes": "Hidup dalam koloni yang terorganisir, fokus pada produksi madu dan perlindungan ratu.",
+    "relations_with_other_races": ["Umumnya damai, tetapi dapat menjadi agresif jika koloni mereka diganggu."]
+  },
+  {
+    "race_id": "aquatic-001",
+    "name": "Aquatic & Amphibian",
+    "description": "Makhluk yang hidup di air atau di darat dan air. Beragam jenis seperti Kappa dan Sahagin.",
+    "average_lifespan": 100,
+    "common_traits": ["Air", "Amfibi", "Unik", "Misterius"],
+    "cultural_notes": "Hidup di dekat sumber air, fokus pada kelangsungan hidup dan adaptasi.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga teritorial."]
+  },
+  {
+    "race_id": "kappa-001",
+    "name": "Kappa",
+    "description": "Makhluk mitologi Jepang yang hidup di air, memiliki cangkang kura-kura dan piring di kepala. Dikenal karena sifat nakal dan kekuatan mereka.",
+    "average_lifespan": 150,
+    "common_traits": ["Air", "Nakal", "Kuat", "Misterius"],
+    "cultural_notes": "Suka bermain dan menyebabkan masalah, seringkali menantang manusia untuk gulat.",
+    "relations_with_other_races": ["Dapat menjadi pengganggu atau sekutu, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "sahagin-001",
+    "name": "Sahagin",
+    "description": "Makhluk ikan bertangan yang hidup di air. Dikenal karena sifat agresif dan kemampuan bertarung mereka.",
+    "average_lifespan": 80,
+    "common_traits": ["Ikan", "Agresif", "Kuat", "Teritorial"],
+    "cultural_notes": "Hidup dalam koloni di bawah air, fokus pada berburu dan melindungi wilayah mereka.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman berbahaya oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "ningyo-001",
+    "name": "Ningyo",
+    "description": "Manusia ikan dari mitologi Jepang, memiliki tubuh ikan dan kepala manusia. Dikenal karena kecantikan dan kemampuan sihir mereka.",
+    "average_lifespan": 200,
+    "common_traits": ["Cantik", "Sihir", "Misterius", "Air"],
+    "cultural_notes": "Hidup di laut, fokus pada keindahan dan rahasia lautan.",
+    "relations_with_other_races": ["Dapat menjadi sekutu atau musuh, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "kraken-spawn-001",
+    "name": "Kraken-spawn",
+    "description": "Keturunan Kraken, memiliki tentakel dan kekuatan laut yang besar. Dikenal karena sifat merusak mereka.",
+    "average_lifespan": 300,
+    "common_traits": ["Tentakel", "Kuat", "Merusak", "Laut"],
+    "cultural_notes": "Hidup di kedalaman laut, fokus pada kehancuran dan dominasi.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman terbesar oleh sebagian besar ras."]
+  },
+  {
+    "race_id": "reptilian-001",
+    "name": "Reptilian / Lizardmen / Dragonewt",
+    "description": "Makhluk yang menyerupai reptil, memiliki sisik dan sifat dingin. Beragam jenis seperti Lizardmen dan Dragonewt.",
+    "average_lifespan": 100,
+    "common_traits": ["Reptil", "Sisik", "Dingin", "Agresif"],
+    "cultural_notes": "Hidup di daerah panas atau rawa, fokus pada kelangsungan hidup dan dominasi.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga teritorial."]
+  },
+  {
+    "race_id": "avian-001",
+    "name": "Avian / Raptor-Folk",
+    "description": "Makhluk yang menyerupai burung, memiliki sayap dan kemampuan terbang. Beragam jenis seperti Garuda dan Elang.",
+    "average_lifespan": 80,
+    "common_traits": ["Burung", "Terbang", "Lincah", "Indra tajam"],
+    "cultural_notes": "Hidup di pegunungan atau tebing tinggi, fokus pada kebebasan dan berburu.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga teritorial."]
+  },
+  {
+    "race_id": "tanuki-001",
+    "name": "Tanuki",
+    "description": "Makhluk mitologi Jepang yang menyerupai anjing rakun, mampu berubah wujud dan memiliki kantung ajaib. Dikenal karena sifat nakal dan keberuntungan mereka.",
+    "average_lifespan": 150,
+    "common_traits": ["Berubah wujud", "Nakal", "Beruntung", "Jenaka"],
+    "cultural_notes": "Suka bermain dan menyebabkan masalah, seringkali membantu atau mengganggu manusia.",
+    "relations_with_other_races": ["Dapat menjadi pengganggu atau sekutu, tergantung pada sifat mereka."]
+  },
+  {
+    "race_id": "youkai-001",
+    "name": "Youkai Jepang Lain",
+    "description": "Berbagai makhluk supernatural dari mitologi Jepang, memiliki kemampuan unik dan sifat yang beragam.",
+    "average_lifespan": null,
+    "common_traits": ["Supernatural", "Unik", "Misterius", "Beragam"],
+    "cultural_notes": "Hidup di dunia spiritual atau di antara manusia, fokus pada tujuan mereka sendiri.",
+    "relations_with_other_races": ["Bervariasi, dari ramah hingga berbahaya."]
+  },
+  {
+    "race_id": "spirit-001",
+    "name": "Spirit / Elemental Murni",
+    "description": "Entitas yang terbuat dari elemen murni seperti api, air, angin, tanah, es, petir, cahaya, dan kegelapan. Dikenal karena kekuatan elemen mereka.",
+    "average_lifespan": null,
+    "common_traits": ["Elemental", "Kuat", "Tidak berwujud", "Misterius"],
+    "cultural_notes": "Tidak memiliki budaya, hanya mengikuti naluri atau perintah.",
+    "relations_with_other_races": ["Dianggap sebagai ancaman atau alat oleh ras lain."]
+  },
+  {
+    "race_id": "deity-001",
+    "name": "Deity / True-Dragon / World-Serpent",
+    "description": "Entitas ilahi atau naga sejati yang memiliki kekuatan luar biasa dan seringkali menjadi pencipta atau penguasa dunia. Seringkali menjadi final boss atau dewa pencipta.",
+    "average_lifespan": null,
+    "common_traits": ["Maha Kuasa", "Ilahi", "Kuno", "Bijaksana"],
+    "cultural_notes": "Menciptakan atau menguasai dunia, fokus pada takdir dan keseimbangan.",
+    "relations_with_other_races": ["Dianggap sebagai dewa atau leluhur oleh ras lain."]
   }
 ]
