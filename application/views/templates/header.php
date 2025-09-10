@@ -164,7 +164,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li>
+                        <li style="display:none;">
                             <div class="item">
                                 <div class="icon-box bg-primary">
                                     <ion-icon name="moon-outline"></ion-icon>
