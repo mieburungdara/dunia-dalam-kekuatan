@@ -1,0 +1,29 @@
+{
+  "ID": "",
+  "Name": "King of Beasts",
+  "Category": "Unik",
+  "ShortDescription": "Hutan adalah kerajaanku, dan setiap taring dan cakar adalah pasukanku.",
+  "Description": "Pengguna diakui oleh semua binatang, dari serangga terkecil hingga monster paling buas, sebagai pemimpin alfa mereka. Mereka bisa berkomunikasi, memberi perintah, dan bahkan berbagi indra dengan binatang di sekitar mereka. Di alam liar, mereka adalah seorang raja.",
+  "Mechanism": {
+    "Activation": "Pasif",
+    "Cost": "Tidak ada. Membangun hubungan dengan binatang tetap membutuhkan waktu dan rasa hormat.",
+    "Range": "Area yang sangat luas, bisa mencakup seluruh hutan.",
+    "Duration": "Permanen.",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak berlaku pada manusia atau ras humanoid lainnya.",
+    "Weaknesses": "Binatang yang dikendalikan oleh sihir atau memiliki kecerdasan tinggi (seperti naga) mungkin bisa menolak perintah pengguna. Pengguna bisa merasakan sakit atau penderitaan dari binatang di sekitarnya, yang bisa sangat membebani secara emosional."
+  },
+  "Evolution": {
+    "Novice": "Binatang liar tidak akan menyerang pengguna dan menunjukkan rasa hormat.",
+    "Adept": "Mampu memberi perintah sederhana kepada binatang (mengintai, menyerang, mencari).",
+    "Master": "Mampu berbagi indra dengan binatang, melihat melalui mata elang atau mencium melalui hidung serigala. Bisa mengkoordinasikan serangan dari ratusan binatang sekaligus.",
+    "Ascendant": "*Primal Avatar*. Pengguna mampu menyerap esensi dari binatang-binatang di sekitarnya, untuk sementara mendapatkan atribut terbaik mereka—kekuatan beruang, kecepatan cheetah, penglihatan elang, dan kulit badak—menjadi avatar dari kekuatan alam itu sendiri."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Sangat kuat di lingkungan alam liar. Berguna untuk pengintaian, pelacakan, dan menciptakan pasukan dadakan.",
+    "Conflict": "Berkonflik dengan industri atau peradaban yang merusak alam, yang bisa memicu kemarahan pengguna dan pasukan binatangnya."
+  },
+  "LoreAndHistory": "Anak-anak liar yang dibesarkan di hutan atau para druid pertapa yang telah meninggalkan peradaban terkadang mengembangkan skill ini. Ada legenda tentang seorang Raja Hutan yang memimpin pasukan binatang untuk menghancurkan sebuah kerajaan yang serakah yang telah membakar hutannya. Hingga hari ini, kerajaan itu tetap menjadi reruntuhan yang ditumbuhi tanaman liar, dijaga oleh para keturunan binatang dari pasukan sang raja."
+}
