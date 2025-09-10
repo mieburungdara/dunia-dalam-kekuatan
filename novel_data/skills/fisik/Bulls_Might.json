@@ -1,0 +1,29 @@
+{
+  "ID": "",
+  "Name": "Bull's Might",
+  "Category": "Fisik",
+  "ShortDescription": "Kekuatan yang meretakkan tanah dan mengguncang tulang.",
+  "Description": "Pengguna memiliki kekuatan fisik luar biasa yang setara dengan banteng raksasa yang sedang mengamuk. Pukulan dan tendangannya memiliki daya hancur yang dahsyat, mampu meremukkan batu dan menembus pertahanan lapis baja.",
+  "Mechanism": {
+    "Activation": "Aktif",
+    "Cost": "Konsumsi stamina dalam jumlah besar.",
+    "Range": "Sentuhan / Jarak dekat.",
+    "Duration": "Beberapa menit, tergantung pada kapasitas stamina pengguna.",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Meskipun kekuatan meningkat drastis, kecepatan dan kelincahan pengguna cenderung menurun saat skill ini aktif. Penggunaan berlebihan dapat menyebabkan robekan otot dan kelelahan ekstrem.",
+    "Weaknesses": "Kurang efektif melawan musuh yang sangat lincah dan mengandalkan serangan jarak jauh."
+  },
+  "Evolution": {
+    "Novice": "Kekuatan meningkat dua kali lipat dari manusia biasa.",
+    "Adept": "Mampu mengangkat beban seberat beberapa ton dan menghancurkan dinding batu.",
+    "Master": "Kekuatannya mampu menciptakan gelombang kejut kecil saat menghantam tanah. Kontrol meningkat sehingga tidak terlalu mengorbankan kecepatan.",
+    "Ascendant": "*Earthshaker's Wrath*. Pengguna mampu menyalurkan kekuatannya ke tanah, menciptakan gempa lokal atau pilar batu yang menjulang dari bawah kaki lawan."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Sangat efektif jika digabungkan dengan *Steel Body* untuk menciptakan juggernaut yang tak terhentikan.",
+    "Conflict": "Sulit digunakan bersamaan dengan skill yang membutuhkan kelincahan seperti *Shadow Step*."
+  },
+  "LoreAndHistory": "Legenda mengatakan bahwa skill ini adalah anugerah dari arwah Banteng Titan, salah satu dari Binatang Purba yang membentuk daratan. Hanya mereka yang memiliki tekad sekeras batu dan hati yang berani yang bisa mewarisi kekuatannya."
+}
