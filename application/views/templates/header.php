@@ -97,9 +97,6 @@
 
                     <!-- profile box -->
                     <div class="profileBox">
-                        <div class="image-wrapper">
-                            <img src="<?= $app_base_url ?>/assets/mobilekit/assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded">
-                        </div>
                         <div class="in">
                             <strong>Dunia dalam Kekuatan</strong>
                             <div class="text-muted">
