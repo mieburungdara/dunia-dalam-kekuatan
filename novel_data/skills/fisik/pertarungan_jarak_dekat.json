@@ -1,0 +1,29 @@
+{
+  "ID": "S008",
+  "Name": "Pertarungan Jarak Dekat",
+  "Category": "Fisik",
+  "ShortDescription": "Dalam jarak dekat, setiap inci adalah medan perang, setiap gerakan adalah ancaman.",
+  "Description": "Kemampuan mahir dalam pertarungan tangan kosong atau menggunakan senjata jarak dekat, fokus pada kecepatan, presisi, dan kekuatan.",
+  "Mechanism": {
+    "Activation": "Aktif",
+    "Cost": "Stamina (tergantung intensitas)",
+    "Range": "Sentuhan, jarak dekat (1-2m)",
+    "Duration": "Berkelanjutan selama pertarungan",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tidak efektif terhadap musuh jarak jauh atau yang memiliki area serangan luas.",
+    "Weaknesses": "Membutuhkan ruang gerak yang cukup."
+  },
+  "Evolution": {
+    "Novice": "Pukulan dan tendangan dasar, gerakan kaku.",
+    "Adept": "Mampu melakukan kombo sederhana, menghindari serangan dasar, dan menggunakan lingkungan.",
+    "Master": "Gerakan fluid, serangan mematikan, mampu melumpuhkan lawan dengan cepat, dan menguasai berbagai teknik bela diri.",
+    "Ascendant": "Mampu mengalahkan beberapa lawan sekaligus, menciptakan gelombang kejut fisik, atau melumpuhkan lawan tanpa menyentuh."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Skill kecepatan, kekuatan, atau ketahanan.",
+    "Conflict": "Skill yang membutuhkan jarak atau fokus pada sihir."
+  },
+  "LoreAndHistory": "Pertarungan Jarak Dekat adalah bentuk seni bela diri tertua, diajarkan oleh para prajurit, petarung jalanan, dan master bela diri. Skill ini menekankan disiplin diri dan penguasaan tubuh sebagai senjata utama."
+}
