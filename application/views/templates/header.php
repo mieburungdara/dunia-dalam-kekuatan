@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#000000">
     <title>Pecahan Dunia</title>
     <meta name="description" content="Pecahan Dunia - Novel Fantasi">
-    <meta name="keywords" content="novel, fantasi, dunia, kekuatan, ardan, zodiak" />
+    <meta name="keywords" content="novel, fantasi, petualangan, isekai, pahlawan, sihir" />
     <link rel="icon" type="image/png" href="<?= $app_base_url ?>/assets/mobilekit/assets/img/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="<?= $app_base_url ?>/assets/mobilekit/assets/img/icon/192x192.png">
     <link rel="stylesheet" href="<?= $app_base_url ?>/assets/mobilekit/assets/css/style.css">
@@ -104,7 +104,7 @@
                     <!-- profile box -->
                     <div class="profileBox">
                         <div class="in">
-                            <strong>Pecahan Dunia</strong>
+                            <strong>Pilar Takdir</strong>
                             <div class="text-muted">
                                 <ion-icon name="book-outline"></ion-icon>
                                 Novel Fantasi

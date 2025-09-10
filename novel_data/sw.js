@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dunia-dalam-kekuatan-v1';
+const CACHE_NAME = 'pilar-takdir-v1';
 const URLS_TO_CACHE = [
     '/index.php',
     '/index.php/home',

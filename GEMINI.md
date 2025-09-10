@@ -1,13 +1,11 @@
 # Directory Overview
 
-This directory contains the foundational documents for a fantasy novel project titled "Pecahan Dunia" (The World in Power). The story revolves around a simple shepherd named Ardan who is chosen by fate to become the "Fates Shepherd" and unite 12 legendary zodiac guardians to fight against a rising darkness.
-
-The project is structured as a collection of Markdown files that detail the plot, characters, world-building rules, and specific skills or abilities within the story's universe.
+This directory contains the foundational documents for a fantasy novel project. The project is structured as a collection of Markdown files that detail the plot, characters, world-building rules, and specific skills or abilities within the story's universe.
 
 # Key Files
 
-*   **`README.md`**: Provides a brief, narrative introduction to the story's protagonist, Ardan, and the initial premise of his journey.
-*   **`GUIDE.md`**: This is a crucial file acting as a guide for an AI writer. It establishes the core plot points, character personalities (Ardan, Aries, Taurus), the story's timeline, and the fundamental rules of the world to ensure narrative consistency.
+*   **`README.md`**: Provides a brief, narrative introduction to the story's protagonist, and the initial premise of their journey.
+*   **`GUIDE.md`**: This is a crucial file acting as a guide for an AI writer. It establishes the core plot points, character personalities, the story's timeline, and the fundamental rules of the world to ensure narrative consistency.
 *   **`WORLDBUILDING.md`**: Details the fantasy world's mechanics. It explains the primary energy source ("Aether"), the system of magic, the concept of "Skills", powerful "Relics", and the different factions that exist within the world.
 *   **`SKILL_PATTERN.md`**: Contains a standard template for creating new skill description files to ensure consistency.
 *   **`SKILL_LIST.md`**: An empty file likely intended to list and describe the various skills and powers that characters can possess.

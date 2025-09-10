@@ -5,7 +5,7 @@
         <div class="card text-center" style="background-image: url('https://placehold.co/1500x600/png?text=Dunia+dalam+Kekuatan+Epic+Fantasy'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center; justify-content: center;">
             <div class="card-body">
                 <h1 class="display-3 fw-bold mb-3">Pecahan Dunia</h1>
-                <p class="lead mb-4">Selamat datang di dunia fantasi yang penuh dengan keajaiban dan petualangan. Jelajahi kisah Ardan, sang Gembala Takdir, dan para penjaga zodiak.</p>
+                <p class="lead mb-4">Selamat datang di dunia fantasi yang penuh dengan keajaiban dan petualangan. Jelajahi kisah lima jiwa yang terdampar di dunia baru.</p>
                 <a href="<?php echo $app_base_url; ?>/novel" class="btn btn-primary btn-lg">Mulai Membaca Novel</a>
             </div>
         </div>
@@ -57,7 +57,7 @@
         <div class="card">
             <div class="card-body">
                 <h2 class="card-title text-center mb-3">Tentang Novel</h2>
-                <p class="card-text">"Pecahan Dunia" mengisahkan perjalanan Ardan, seorang gembala sederhana yang ditakdirkan menjadi Gembala Takdir. Ia harus menyatukan 12 penjaga zodiak legendaris untuk melawan kegelapan yang mengancam dunia. Ikuti petualangan epik Ardan dalam menemukan jati diri, menghadapi musuh bebuyutan, dan mengungkap rahasia kuno yang tersembunyi.</p>
+                <p class="card-text">"Pilar Takdir" mengisahkan perjalanan lima orang asing yang terlempar ke dunia fantasi dan harus berjuang untuk bertahan hidup serta menemukan takdir mereka.</p>
                 <p class="card-text">Novel ini menggabungkan elemen fantasi klasik dengan sentuhan modern, menghadirkan karakter yang mendalam, sistem sihir yang unik, dan dunia yang kaya akan lore. Siapkah Anda bergabung dalam pertempuran antara cahaya dan kegelapan?</p>
             </div>
         </div>
@@ -71,7 +71,7 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <h5 class="card-title">Karakter</h5>
-                        <p class="card-text">Kenali para pahlawan dan penjahat yang membentuk takdir Pecahan Dunia.</p>
+                        <p class="card-text">Kenali para pahlawan dan penjahat yang membentuk takdir Pilar Takdir.</p>
                         <a href="<?php echo $app_base_url; ?>/karakter" class="btn btn-outline-primary">Lihat Karakter</a>
                     </div>
                 </div>

@@ -1,0 +1,85 @@
+[
+  {
+    "id": 4,
+    "event_name": "Kelahiran Ardan",
+    "date": "Hari ke-10 Bulan Terra, Tahun 1000 AE",
+    "description": "Ardan lahir di desa kecil Oakvale, di perbatasan Kerajaan Eldoria. Tumbuh sebagai seorang gembala sederhana.",
+    "significance": "Kelahiran sang protagonis utama, 'Gembala Takdir'.",
+    "related_novels": ["Pilar Takdir"],
+    "impact": {
+      "personal": "Memulai alur hidup karakter yang akan menjadi pusat cerita."
+    }
+  },
+  {
+    "id": 5,
+    "event_name": "Serangan Pertama Kegelapan",
+    "date": "Hari ke-5 Bulan Umbra, Tahun 1022 AE",
+    "description": "Sebuah desa terpencil di pegunungan utara diserang dan dihancurkan oleh makhluk kegelapan. Berita ini menyebar perlahan dan dianggap sebagai serangan monster biasa.",
+    "significance": "Tanda pertama kembalinya kekuatan gelap yang akan dihadapi Ardan. Awal dari kebangkitan ancaman besar.",
+    "related_novels": ["Pilar Takdir"],
+    "impact": {
+      "dunia": "Menjadi insiden pemicu yang pada awalnya diabaikan oleh penguasa.",
+      "narasi": "Memberikan pertanda (foreshadowing) akan konflik yang lebih besar."
+    }
+  },
+  {
+    "id": 6,
+    "event_name": "Ardan Menerima Panggilan Takdir",
+    "date": "Hari ke-14 Bulan Lumina, Tahun 1023 AE",
+    "description": "Saat badai Aether yang aneh, Ardan tanpa sengaja menemukan sebuah Relic kuno yang tersembunyi. Relic tersebut menunjukkan visi tentang ancaman yang akan datang dan perannya sebagai Gembala Takdir.",
+    "significance": "Momen pemicu yang memulai perjalanan Ardan.",
+    "related_novels": ["Pilar Takdir: Awal Perjalanan"],
+    "impact": {
+      "personal_ardan": "Mengubah hidupnya dari seorang gembala menjadi petualang dengan tujuan besar.",
+      "magis": "Mengaktifkan kembali sebuah Relic kuno yang telah lama tertidur."
+    }
+  },
+  {
+    "id": 7,
+    "event_name": "Pertemuan dengan Aries",
+    "date": "Hari ke-15 Bulan Lumina, Tahun 1023 AE",
+    "description": "Mengikuti petunjuk dari visinya, Ardan melakukan perjalanan ke reruntuhan kuno dan bertemu dengan Aries, sang Ksatria Zodiak pertama, yang sedang melawan monster kegelapan.",
+    "significance": "Penjaga Zodiak pertama bergabung dengan Ardan. Awal dari terbentuknya 12 Penjaga Zodiak.",
+    "related_novels": ["Pilar Takdir: Awal Perjalanan"],
+    "impact": {
+      "grup": "Terbentuknya inti dari kelompok 12 Penjaga Zodiak.",
+      "personal_ardan": "Mendapatkan sekutu, pelindung, dan mentor pertama."
+    }
+  },
+  {
+    "id": 8,
+    "event_name": "Perjalanan ke Kota Benteng, Citadel",
+    "date": "Bulan Ignis - Terra, Tahun 1023 AE",
+    "description": "Ardan dan Aries melakukan perjalanan melintasi Hutan Gelap menuju Citadel, sebuah kota benteng yang terkenal dengan para petarung dan pandai besinya. Di sini mereka berharap menemukan informasi tentang Penjaga Zodiak lainnya.",
+    "significance": "Ardan pertama kali melihat dunia di luar desanya. Bertemu dengan berbagai karakter dan belajar lebih banyak tentang dunia.",
+    "related_novels": ["Pilar Takdir: Awal Perjalanan"],
+    "impact": {
+      "personal_ardan": "Mengalami pertumbuhan karakter dan pemahaman yang lebih luas tentang dunia.",
+      "plot": "Memindahkan lokasi cerita ke pusat peradaban yang lebih besar."
+    }
+  },
+  {
+    "id": 9,
+    "event_name": "Turnamen di Citadel dan Pertemuan dengan Taurus",
+    "date": "Hari ke-20 Bulan Terra, Tahun 1023 AE",
+    "description": "Untuk membuktikan kekuatan mereka dan mendapatkan akses ke arsip kota, Ardan dan Aries mengikuti turnamen pertarungan. Di sinilah mereka bertemu dengan Taurus, seorang pejuang perkasa yang ternyata adalah Penjaga Zodiak kedua.",
+    "significance": "Taurus bergabung. Ardan mulai belajar bertarung secara strategis.",
+    "related_novels": ["Pilar Takdir: Arc Citadel"],
+    "impact": {
+      "grup": "Taurus bergabung, menambahkan kekuatan fisik dan stabilitas pada kelompok.",
+      "personal_ardan": "Belajar tentang strategi pertarungan dan nilai kerja sama tim."
+    }
+  },
+  {
+    "id": 10,
+    "event_name": "Konfrontasi dengan Kultus Bayangan",
+    "date": "Diperkirakan terjadi pada Tahun 1024 AE",
+    "description": "Ardan dan para Penjaga Zodiak yang telah berkumpul akan menghadapi konfrontasi besar pertama mereka dengan Kultus Bayangan, organisasi yang bertujuan membangkitkan entitas kegelapan.",
+    "significance": "Mengungkap skala sebenarnya dari ancaman dan musuh utama yang mereka hadapi.",
+    "related_novels": ["Pilar Takdir: Arc Selanjutnya (Judul belum ditentukan)"],
+    "impact": {
+      "plot": "Meningkatkan skala konflik dari petualangan menjadi perang melawan kejahatan terorganisir.",
+      "dunia": "Ancaman Kultus Bayangan tidak bisa lagi diabaikan oleh kerajaan-kerajaan besar."
+    }
+  }
+]
