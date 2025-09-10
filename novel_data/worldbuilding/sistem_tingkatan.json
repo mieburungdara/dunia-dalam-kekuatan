@@ -1,0 +1,97 @@
+[
+  {
+    "profession_name": "Prajurit (Warrior)",
+    "description": "Mengandalkan fisik, disiplin, dan senjata.",
+    "levels": {
+      "rata_rata": "Level 3–4",
+      "elit": "Level 5–6",
+      "legendaris": "Jarang sekali menembus 7 kecuali punya darah istimewa atau relic."
+    }
+  },
+  {
+    "profession_name": "Penyihir (Mage)",
+    "description": "Menguasai energi, sihir, dan elemen.",
+    "levels": {
+      "rata_rata": "Level 4–5",
+      "master_archmage": "Level 6–7",
+      "legendaris": "8+"
+    }
+  },
+  {
+    "profession_name": "Protagonis / Karakter Utama",
+    "description": "Melampaui batas manusia biasa. Bisa menembus Level 10 karena faktor takdir.",
+    "levels": {}
+  },
+  {
+    "profession_name": "Assassin / Bayangan",
+    "description": "Mengandalkan stealth, racun, dan teknik rahasia.",
+    "levels": {
+      "rata_rata": "Level 3–4",
+      "assassin_legendaris": "6–7",
+      "hampir_mustahil": "Hampir mustahil mencapai 8+, kecuali berubah jadi legenda urban."
+    }
+  },
+  {
+    "profession_name": "Biksu / Acolyte / Pendeta",
+    "description": "Mengandalkan spiritualitas dan energi ilahi.",
+    "levels": {
+      "rata_rata": "Level 4–5",
+      "pemimpin_agama_saint": "Level 6–7",
+      "orang_suci_miracle_worker": "bisa sampai 8–9"
+    }
+  },
+  {
+    "profession_name": "Druid / Penjaga Alam",
+    "description": "Menghubungkan diri dengan roh alam atau elemen.",
+    "levels": {
+      "rata_rata": "Level 3–5",
+      "penjaga_hutan_sakral": "Level 6–7",
+      "avatar_alam": "bisa menembus 8"
+    }
+  },
+  {
+    "profession_name": "Alkemis / Artificer",
+    "description": "Mencipta melalui ilmu dan seni rahasia.",
+    "levels": {
+      "rata_rata": "Level 2–4",
+      "master_alkemis": "Master alkemis bisa membuat relic, setara Level 6",
+      "legendaris": "Level 7–8 (mencipta senjata duniawi/mitos)"
+    }
+  },
+  {
+    "profession_name": "Ranger / Penjelajah",
+    "description": "Menguasai survival, hewan, dan medan.",
+    "levels": {
+      "rata_rata": "Level 3–4",
+      "elit": "Level 5–6",
+      "jarang": "Jarang di atas 7, kecuali jadi legenda suku."
+    }
+  },
+  {
+    "profession_name": "Raja / Penguasa Dunia",
+    "description": "Bukan hanya kekuatan pribadi, tapi pengaruh politik & takdir.",
+    "levels": {
+      "umumnya": "4–6 (karena dilindungi sistem)",
+      "penguasa_legendaris": "7–8",
+      "kaisar_abadi_mitos": "9–10"
+    }
+  },
+  {
+    "profession_name": "Warlock / Pengikat Entitas",
+    "description": "Mengandalkan kontrak dengan roh, iblis, atau dewa.",
+    "levels": {
+      "rata_rata": "Level 4–5",
+      "master_kontrak": "Level 6–7",
+      "bisa_menembus": "Bisa menembus 8–9 jika kontraknya setingkat dewa."
+    }
+  },
+  {
+    "profession_name": "Makhluk Non-Manusia (Beast, Elf, Dragon, dll)",
+    "description": "Tiap ras punya batas berbeda.",
+    "levels": {
+      "beast_kecil": "2–4",
+      "elf": "5–7",
+      "naga_tua": "8–10"
+    }
+  }
+]

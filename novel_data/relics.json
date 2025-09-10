@@ -1,0 +1,30 @@
+[
+  {
+    "id": "hand-of-midas-001",
+    "name": "Hand of Midas",
+    "description": "Relic yang mampu mengubah apapun yang disentuh menjadi emas.",
+    "effect": "Mengubah objek yang disentuh menjadi emas.",
+    "cost_or_curse": "Tidak disebutkan secara spesifik, namun Relic umumnya memiliki kutukan atau harga tertentu."
+  },
+  {
+    "id": "blade-of-echoes-001",
+    "name": "Blade of Echoes",
+    "description": "Pedang mistis yang mampu menyalin gaya bertarung musuh.",
+    "effect": "Menyalin gaya bertarung musuh yang dihadapi.",
+    "cost_or_curse": "Tidak disebutkan secara spesifik, namun Relic umumnya memiliki kutukan atau harga tertentu."
+  },
+  {
+    "id": "scroll-of-forgotten-names-001",
+    "name": "Scroll of Forgotten Names",
+    "description": "Gulungan kuno yang mampu menghapus keberadaan seseorang dari ingatan dunia.",
+    "effect": "Menghapus keberadaan target dari ingatan semua makhluk hidup.",
+    "cost_or_curse": "Tidak disebutkan secara spesifik, namun Relic umumnya memiliki kutukan atau harga tertentu."
+  },
+  {
+    "id": "hourglass-of-tenebris-001",
+    "name": "Hourglass of Tenebris",
+    "description": "Jam pasir yang memungkinkan penggunanya mundur ke masa lalu.",
+    "effect": "Memungkinkan pengguna mundur satu menit ke masa lalu.",
+    "cost_or_curse": "Setiap penggunaan mengurangi umur pengguna."
+  }
+]

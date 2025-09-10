@@ -82,6 +82,51 @@ Setelah memeriksa file timeline.json, GUIDE.md, dan WORLDBUILDING.md, saya menem
   Mana yang akan kita jadikan cerita utama?
 
 
+
+
+Baik, itu daftar yang jauh lebih baik. Sepertinya categories.md tidak ada, itu informasi yang bagus.
+
+  Dari hasil glob, berikut adalah daftar file .md yang diperbarui yang berisi data terstruktur dan akan
+  mendapat manfaat dari konversi ke JSON:
+
+  Prioritas Tinggi (Data terstruktur yang jelas):
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/9_sistem_tingkatan.md (Berisi tingkatan dan
+     deskripsi)
+   * /home/rezaiturere/pecahan-dunia/novel_data/skills/SKILL_LEGENDARIS.md (Daftar skill legendaris)
+   * /home/rezaiturere/pecahan-dunia/novel_data/item_list.md (Tabel item)
+   * /home/rezaiturere/pecahan-dunia/novel_data/skill_list.md (Tabel skill)
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/1_energi_dasar.md (Definisi Aether)
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/2_sistem_sihir.md (Ikhtisar sistem sihir)
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/4_relic.md (Contoh relik)
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/5_faksi_dan_dunia.md (Daftar faksi)
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/6_aturan_eksplorasi.md (Aturan eksplorasi)
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/7_konsep_dunia.md (Konsep dunia)
+   * /home/rezaiturere/pecahan-dunia/novel_data/sihir/elemen.md (Sistem elemen terperinci)
+
+  Prioritas Lebih Rendah (Mungkin lebih baik sebagai teks biasa atau sudah ditangani):
+   * /home/rezaiturere/pecahan-dunia/novel_data/novel_structure_guide.md (Panduan, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/8_profesi_dan_peran.md (Menunjuk ke
+     profesi.json, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/10_catatan_penulis.md (Catatan, kemungkinan
+     teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/skills/README.md (README, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/sihir/teknik/TEKNIK_PATTERN.md (Template, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/sihir/teknik/README.md (README, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/sihir/evolusi_pattern.md (Template, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/changelogs.md (Changelog, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/faq/**/*.md (FAQ, bisa JSON, tapi mungkin lebih baik tetap
+     Markdown agar mudah dibaca)
+   * /home/rezaiturere/pecahan-dunia/novel_data/revisi.md (Catatan revisi, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/premis_baru.md (Premis baru, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/karakter_pendukung.md (Seharusnya kosong/sudah dimigrasi)
+   * /home/rezaiturere/pecahan-dunia/novel_data/karakter_deskripsi.md (Seharusnya kosong/sudah dimigrasi)
+   * /home/rezaiturere/pecahan-dunia/novel_data/karakter_alternatif.md (Seharusnya kosong/sudah dimigrasi)
+   * /home/rezaiturere/pecahan-dunia/novel_data/item_pattern.md (Template, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/image_prompt_pattern.md (Pola, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/gemini.md (Ikhtisar proyek, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/character_summary.md (Ringkasan, kemungkinan teks)
+   * /home/rezaiturere/pecahan-dunia/novel_data/chapter_pattern.md (Template, kemungkinan teks)
+
   
 1. buat scene_template, arc templtae dan sebagainya.
 2. 
