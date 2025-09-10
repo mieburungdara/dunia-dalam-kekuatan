@@ -27,87 +27,6 @@
     </style>
     <?php endif; ?>
 
-    <!-- Dark Mode Logic -->
-    <script>
-        const getStoredTheme = () => localStorage.getItem('theme');
-        const setStoredTheme = theme => localStorage.setItem('theme', theme);
-
-        const getPreferredTheme = () => {
-            const storedTheme = getStoredTheme();
-            if (storedTheme) {
-                return storedTheme;
-            }
-            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        };
-
-        const setTheme = theme => {
-            if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                document.documentElement.setAttribute('data-bs-theme', 'dark');
-            } else {
-                document.documentElement.setAttribute('data-bs-theme', theme);
-            }
-        };
-
-        const showActiveTheme = (theme) => {
-            const themeToggleButton = document.querySelector('#theme-toggle');
-            const themeToggleButtonSidebar = document.querySelector('#theme-toggle-sidebar');
-
-            if (!themeToggleButton && !themeToggleButtonSidebar) {
-                return;
-            }
-            const themeIcon = document.querySelector('#theme-icon');
-            const themeIconSidebar = document.querySelector('#theme-icon-sidebar');
-
-            if (!themeIcon && !themeIconSidebar) {
-                return;
-            }
-            const activeTheme = theme || getPreferredTheme();
-
-            if (activeTheme === 'dark') {
-                if (themeIcon) { themeIcon.classList.remove('bi-brightness-high-fill'); themeIcon.classList.add('bi-moon-stars-fill'); }
-                if (themeIconSidebar) { themeIconSidebar.classList.remove('bi-brightness-high-fill'); themeIconSidebar.classList.add('bi-moon-stars-fill'); }
-            } else {
-                if (themeIcon) { themeIcon.classList.remove('bi-moon-stars-fill'); themeIcon.classList.add('bi-brightness-high-fill'); }
-                if (themeIconSidebar) { themeIconSidebar.classList.remove('bi-moon-stars-fill'); themeIconSidebar.classList.add('bi-brightness-high-fill'); }
-            }
-        };
-
-        // Set theme immediately to prevent flash
-        setTheme(getPreferredTheme());
-
-        window.addEventListener('DOMContentLoaded', () => {
-            // Set the icon on initial load
-            showActiveTheme(getPreferredTheme());
-
-            const themeToggleButton = document.querySelector('#theme-toggle');
-            const themeToggleButtonSidebar = document.querySelector('#theme-toggle-sidebar');
-
-            const toggleTheme = () => {
-                const currentTheme = document.documentElement.getAttribute('data-bs-theme');
-                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-                setStoredTheme(newTheme);
-                setTheme(newTheme);
-                showActiveTheme(newTheme);
-            };
-
-            if (themeToggleButton) {
-                themeToggleButton.addEventListener('click', toggleTheme);
-            }
-            if (themeToggleButtonSidebar) {
-                themeToggleButtonSidebar.addEventListener('click', toggleTheme);
-            }
-        });
-
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-            const storedTheme = getStoredTheme();
-            if (!storedTheme) { // Only change if no theme is explicitly set
-                const newTheme = getPreferredTheme();
-                setTheme(newTheme);
-                showActiveTheme(newTheme);
-            }
-        });
-    </script>
-    <!-- End Dark Mode Logic -->
 </head>
 
 <body>
@@ -132,8 +51,8 @@
             <a href="javascript:;" class="headerButton toggle-searchbox">
                 <ion-icon name="search-outline"></ion-icon>
             </a>
-            <button id="theme-toggle" class="headerButton" type="button" aria-label="Toggle theme">
-                <ion-icon id="theme-icon"></ion-icon>
+            <button id="theme-toggle" class="headerButton dark-mode-switch" type="button" aria-label="Toggle theme">
+                <ion-icon name="moon-outline"></ion-icon>
             </button>
         </div>
     </div>
@@ -240,9 +159,11 @@
                                 </div>
                                 <div class="in">
                                     <div>Dark Mode</div>
-                                    <button id="theme-toggle-sidebar" class="headerButton" type="button" aria-label="Toggle theme">
-                                        <ion-icon id="theme-icon-sidebar"></ion-icon>
-                                    </button>
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input dark-mode-switch"
+                                            id="darkmodesidebar">
+                                        <label class="custom-control-label" for="darkmodesidebar"></label>
+                                    </div>
                                 </div>
                             </div>
                         </li>
