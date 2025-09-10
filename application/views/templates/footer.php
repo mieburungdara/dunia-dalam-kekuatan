@@ -12,24 +12,6 @@
                 <strong>Novel</strong>
             </div>
         </a>
-        <a href="<?= $app_base_url ?>/karakter" class="item">
-            <div class="col">
-                <ion-icon name="people-outline"></ion-icon>
-                <strong>Karakter</strong>
-            </div>
-        </a>
-        <a href="<?= $app_base_url ?>/glosarium" class="item">
-            <div class="col">
-                <ion-icon name="library-outline"></ion-icon>
-                <strong>Glosarium</strong>
-            </div>
-        </a>
-        <a href="<?= $app_base_url ?>/faq" class="item">
-            <div class="col">
-                <ion-icon name="help-circle-outline"></ion-icon>
-                <strong>FAQ</strong>
-            </div>
-        </a>
     </div>
     <!-- * App Bottom Menu -->
 
