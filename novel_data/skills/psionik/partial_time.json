@@ -1,0 +1,29 @@
+{
+  "ID": "",
+  "Name": "Partial Time",
+  "Category": "Unik",
+  "ShortDescription": "Satu detik bagimu, adalah sepuluh detik bagiku.",
+  "Description": "Pengguna mampu mempercepat persepsi waktu mereka sendiri, membuat dunia di sekitar mereka tampak bergerak dalam gerakan lambat. Ini memungkinkan mereka untuk berpikir, bereaksi, dan bergerak dengan kecepatan yang jauh melampaui batas normal manusia, meskipun tubuh fisik mereka tidak benar-benar menjadi lebih cepat.",
+  "Mechanism": {
+    "Activation": "Aktif",
+    "Cost": "Sangat menguras energi mental dan Aether. Penggunaan yang lama dapat menyebabkan disorientasi parah dan sakit kepala ekstrem.",
+    "Range": "Diri sendiri.",
+    "Duration": "Biasanya hanya beberapa detik dalam waktu nyata, meskipun terasa lebih lama bagi pengguna.",
+    "Prerequisites": "Tidak ada"
+  },
+  "LimitationsAndWeaknesses": {
+    "Limitations": "Tubuh fisik pengguna tetap bergerak dengan kecepatan normal. Jika mereka mencoba bergerak terlalu cepat saat persepsi waktu dipercepat, mereka bisa merobek otot atau mematahkan tulang mereka sendiri.",
+    "Weaknesses": "Skill ini adalah tentang reaksi dan pemikiran, bukan kecepatan fisik. Pengguna bisa melihat peluru datang, tetapi mungkin tidak cukup cepat untuk menghindar jika mereka tidak memposisikan tubuh sebelumnya. Penggunaan berlebihan bisa menyebabkan pengguna kehilangan sinkronisasi dengan aliran waktu normal, merasa terasing dari dunia."
+  },
+  "Evolution": {
+    "Novice": "Mampu mempercepat persepsi hingga dua kali lipat selama 1-2 detik.",
+    "Adept": "Mampu mempercepat persepsi hingga lima kali lipat. Bisa mempertahankan kondisi ini selama hampir 5 detik.",
+    "Master": "Mampu mempercepat persepsi hingga sepuluh kali lipat. Bisa memilih untuk hanya mempercepat persepsi visual atau pendengaran untuk menghemat energi.",
+    "Ascendant": "*Temporal Stasis*. Pengguna mampu \"meminjam\" waktu dari masa depan mereka sendiri untuk menciptakan beberapa detik waktu yang berhenti total bagi semua orang kecuali diri mereka sendiri. Konsekuensinya, setiap detik yang dihabiskan dalam stasis akan mengurangi umur pengguna secara signifikan."
+  },
+  "SynergyAndConflict": {
+    "Synergy": "Sangat kuat untuk ahli strategi, pendekar pedang, atau penembak jitu yang membutuhkan waktu untuk berpikir dan membidik. Bekerja baik dengan skill yang meningkatkan refleks seperti *Beast Instinct*.",
+    "Conflict": "Tidak ada konflik langsung, tetapi biaya mentalnya diperparah oleh skill yang juga membebani pikiran seperti *Echoing Prophecy*."
+  },
+  "LoreAndHistory": "Skill ini sangat langka dan sering disalahartikan sebagai kecepatan super. Pengguna yang paling terkenal adalah seorang pendekar pedang legendaris yang konon mampu menangkis hujan panah sendirian dan seorang grandmaster catur yang bisa menyelesaikan permainan melawan sepuluh master lainnya secara bersamaan dalam hitungan menit. Mereka sering digambarkan sebagai orang yang tenang dan pendiam, karena pikiran mereka selalu berlari lebih cepat dari orang lain."
+}
