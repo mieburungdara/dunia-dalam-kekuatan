@@ -2,7 +2,7 @@
 
     <!-- Hero Section -->
     <div class="section full mt-3 mb-3">
-        <div class="card bg-dark text-white text-center" style="background-image: url('https://via.placeholder.com/1500x600?text=Dunia+dalam+Kekuatan+Epic+Fantasy'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center; justify-content: center;">
+        <div class="card text-center" style="background-image: url('https://placehold.co/1500x600/png?text=Dunia+dalam+Kekuatan+Epic+Fantasy'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center; justify-content: center;">
             <div class="card-body">
                 <h1 class="display-3 fw-bold mb-3">Dunia dalam Kekuatan</h1>
                 <p class="lead mb-4">Selamat datang di dunia fantasi yang penuh dengan keajaiban dan petualangan. Jelajahi kisah Ardan, sang Gembala Takdir, dan para penjaga zodiak.</p>
@@ -19,7 +19,7 @@
         <div class="carousel-multiple owl-carousel owl-theme">
             <div class="item">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300x400?text=Novel+Cover+1" class="card-img-top" alt="Novel Cover">
+                    <img src="https://placehold.co/300x400/png?text=Novel+Cover+1" class="card-img-top" alt="Novel Cover">
                     <div class="card-body pt-2">
                         <h4 class="mb-0">Judul Novel 1</h4>
                     </div>
@@ -27,7 +27,7 @@
             </div>
             <div class="item">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300x400?text=Novel+Cover+2" class="card-img-top" alt="Novel Cover">
+                    <img src="https://placehold.co/300x400/png?text=Novel+Cover+2" class="card-img-top" alt="Novel Cover">
                     <div class="card-body pt-2">
                         <h4 class="mb-0">Judul Novel 2</h4>
                     </div>
@@ -35,7 +35,7 @@
             </div>
             <div class="item">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300x400?text=Novel+Cover+3" class="card-img-top" alt="Novel Cover">
+                    <img src="https://placehold.co/300x400/png?text=Novel+Cover+3" class="card-img-top" alt="Novel Cover">
                     <div class="card-body pt-2">
                         <h4 class="mb-0">Judul Novel 3</h4>
                     </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="item">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300x400?text=Novel+Cover+4" class="card-img-top" alt="Novel Cover">
+                    <img src="https://placehold.co/300x400/png?text=Novel+Cover+4" class="card-img-top" alt="Novel Cover">
                     <div class="card-body pt-2">
                         <h4 class="mb-0">Judul Novel 4</h4>
                     </div>
