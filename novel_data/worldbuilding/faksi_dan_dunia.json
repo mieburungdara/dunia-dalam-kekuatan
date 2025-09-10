@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Faksi Ortodoks",
+    "description": "Menganggap sihir suci dan harus dilindungi."
+  },
+  {
+    "name": "Faksi Bebas",
+    "description": "Menganggap sihir sebagai alat, bebas digunakan tanpa batasan moral."
+  },
+  {
+    "name": "Faksi Gelap",
+    "description": "Percaya bahwa kekuatan sejati hanya datang dari pengorbanan jiwa."
+  },
+  {
+    "name": "Faksi Relic Hunter",
+    "description": "Kelompok pengembara yang memburu Relic untuk dijual atau dipakai."
+  }
+]
