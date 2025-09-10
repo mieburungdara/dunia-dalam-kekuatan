@@ -1,0 +1,95 @@
+{
+  "template_name": "Combined Chapter Template",
+  "description": "This template combines narrative guidance from chapter_pattern.md and metadata fields from chapter_template.json.",
+  "metadata_fields": {
+    "chapter_id": {
+      "type": "string",
+      "description": "ID unik bab"
+    },
+    "chapter_number": {
+      "type": "number",
+      "description": "Nomor bab"
+    },
+    "chapter_title": {
+      "type": "string",
+      "description": "Judul bab penuh"
+    },
+    "arc_id": {
+      "type": "string",
+      "description": "ID arc tempat bab ini berada"
+    },
+    "novel_id": {
+      "type": "string",
+      "description": "ID novel tempat bab ini berada"
+    },
+    "logline": {
+      "type": "string",
+      "description": "Logline singkat bab"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Ringkasan bab"
+    },
+    "pov_character": {
+      "type": "string",
+      "description": "Karakter POV utama dalam bab ini"
+    },
+    "setting": {
+      "type": "string",
+      "description": "Latar tempat utama bab ini"
+    },
+    "time_of_day": {
+      "type": "string",
+      "description": "Waktu hari dalam bab ini"
+    },
+    "date": {
+      "type": "string",
+      "description": "Tanggal dalam cerita (jika relevan)"
+    },
+    "main_goal": {
+      "type": "string",
+      "description": "Tujuan utama yang ingin dicapai dalam bab ini"
+    },
+    "obstacles": {
+      "type": "array",
+      "description": "Daftar rintangan atau tantangan dalam bab ini"
+    },
+    "key_events": {
+      "type": "array",
+      "description": "Daftar peristiwa kunci dalam bab ini"
+    },
+    "characters_present": {
+      "type": "array",
+      "description": "Daftar karakter yang hadir dalam bab ini"
+    },
+    "new_information_revealed": {
+      "type": "array",
+      "description": "Informasi baru yang terungkap dalam bab ini"
+    },
+    "character_growth_focus": {
+      "type": "array",
+      "description": "Fokus pertumbuhan karakter dalam bab ini"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Catatan tambahan untuk penulis/AI"
+    }
+  },
+  "narrative_guidance": {
+    "main_heading": "Bab [Nomor Bab]: [Judul Bab Penuh]",
+    "narrative_placeholder": "[Tulis narasi bab di sini. Pastikan untuk mengikuti gaya narasi, nada cerita, dan aturan penulisan (termasuk penjelasan istilah asing) seperti yang dijelaskan dalam CONSISTENCY.json. Setiap adegan baru dimulai di paragraf baru. Gunakan tanda kutip (“”) untuk dialog dan pisahkan tiap pembicara. Gabungkan deskripsi & aksi dengan narasi agar lebih terasa dan dapat dibayangkan.]",
+    "location_section_heading": "Latar Lokasi",
+    "location_placeholders": [
+      "[Sebutkan setiap latar lokasi utama yang muncul di bab ini. Contoh: Hutan Gelap, Desa Terpencil, Gua Kristal.]",
+      "[Lokasi 2]",
+      "[Lokasi 3]"
+    ]
+  },
+  "front_matter_guidance": {
+    "layout": "default",
+    "title_placeholder": "[Judul Bab Singkat]",
+    "chapter_title_placeholder": "[Nomor Bab] - [Judul Bab Penuh]",
+    "order_placeholder": "[Nomor Urut Bab]",
+    "categories_placeholder": "[Kategori Cerita, misal: Arc 01 - Awal Perjalanan]"
+  }
+}

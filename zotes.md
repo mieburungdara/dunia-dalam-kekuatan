@@ -95,12 +95,6 @@ Baik, itu daftar yang jauh lebih baik. Sepertinya categories.md tidak ada, itu i
    * /home/rezaiturere/pecahan-dunia/novel_data/skills/SKILL_LEGENDARIS.md (Daftar skill legendaris)
    * /home/rezaiturere/pecahan-dunia/novel_data/item_list.md (Tabel item)
    * /home/rezaiturere/pecahan-dunia/novel_data/skill_list.md (Tabel skill)
-   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/1_energi_dasar.md (Definisi Aether)
-   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/2_sistem_sihir.md (Ikhtisar sistem sihir)
-   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/4_relic.md (Contoh relik)
-   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/5_faksi_dan_dunia.md (Daftar faksi)
-   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/6_aturan_eksplorasi.md (Aturan eksplorasi)
-   * /home/rezaiturere/pecahan-dunia/novel_data/worldbuilding/7_konsep_dunia.md (Konsep dunia)
    * /home/rezaiturere/pecahan-dunia/novel_data/sihir/elemen.md (Sistem elemen terperinci)
 
   Prioritas Lebih Rendah (Mungkin lebih baik sebagai teks biasa atau sudah ditangani):

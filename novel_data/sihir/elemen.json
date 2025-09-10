@@ -1,0 +1,107 @@
+{
+  "title": "Sistem Elemen Sihir",
+  "description": "Elemen adalah fondasi dari segala sihir di dunia ini. Mereka bukan sekadar energi, tetapi juga konsep filosofis yang membentuk realitas. Ada empat elemen fisik utama dan dua elemen fundamental yang bersifat absolut.",
+  "sections": [
+    {
+      "title": "Elemen Fisik Utama",
+      "description": "Ini adalah elemen yang paling umum dikenal dan dapat dipelajari oleh para penyihir. Mereka saling berinteraksi dalam sebuah siklus kekuatan dan kelemahan.",
+      "elements": [
+        {
+          "name": "Api",
+          "emoji": "🔥",
+          "properties": {
+            "sifat": "Agresif, destruktif, pasif, dan penuh gairah. Api adalah elemen perubahan yang cepat dan tak terkendali.",
+            "kekuatan": "Sangat efektif untuk serangan langsung yang membakar dan menghancurkan. Mampu mencairkan logam dan mengubah lanskap.",
+            "kelemahan": "Lemah terhadap Air, yang bisa memadamkannya. Sulit dikendalikan dan bisa berbalik menyerang penggunanya.",
+            "hubungan": "Kuat melawan elemen alam seperti tanaman atau es.",
+            "jalur_evolusi": "evolusi/API.json"
+          }
+        },
+        {
+          "name": "Air",
+          "emoji": "💧",
+          "properties": {
+            "sifat": "Adaptif, dinamis, dan penyembuh. Air adalah elemen perubahan yang fleksibel dan persisten.",
+            "kekuatan": "Sangat serbaguna, bisa digunakan untuk bertahan (dinding air), menyerang (jet air bertekanan tinggi), atau menyembuhkan luka.",
+            "kelemahan": "Lemah terhadap Petir (elemen lanjutan dari Angin + Api) yang dapat menghantarkannya dengan mudah.",
+            "hubungan": "Kuat melawan Api.",
+            "jalur_evolusi": "evolusi/AIR.json"
+          }
+        },
+        {
+          "name": "Angin",
+          "emoji": "🌪️",
+          "properties": {
+            "sifat": "Bebas, cepat, dan tak terlihat. Angin adalah elemen kebebasan, ilusi, dan komunikasi.",
+            "kekuatan": "Memungkinkan kecepatan tinggi, serangan tebasan yang tajam, dan sihir ilusi atau suara.",
+            "kelemahan": "Lemah terhadap Tanah, yang bisa membatasi pergerakannya dan membuatnya \"membumi\".",
+            "hubungan": "Kuat melawan Petir (dapat membaurkannya), tetapi kombinasi Angin dan Api justru menciptakan Petir.",
+            "jalur_evolusi": "evolusi/ANGIN.json"
+          }
+        },
+        {
+          "name": "Tanah",
+          "emoji": "⛰️",
+          "properties": {
+            "sifat": "Stabil, kokoh, dan defensif. Tanah adalah elemen daya tahan, kekuatan, dan fondasi.",
+            "kekuatan": "Pertahanan yang luar biasa (dinding batu, kulit baja). Mampu memanipulasi medan dan menciptakan gempa.",
+            "kelemahan": "Lemah terhadap sihir yang berbasis getaran atau sonik, yang bisa meretakkan dan menghancurkannya dari dalam.",
+            "hubungan": "Kuat melawan Angin.",
+            "jalur_evolusi": "evolusi/TANAH.json"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Elemen Lanjutan",
+      "description": "Elemen Lanjutan lahir dari kombinasi dua atau lebih elemen dasar atau fundamental, menciptakan bentuk sihir yang lebih kompleks dan kuat.",
+      "elements": [
+        {
+          "name": "Sihir Darah",
+          "emoji": "🩸",
+          "properties": {
+            "kombinasi": "💧 Air + 👻 Jiwa",
+            "deskripsi": "Sihir Darah adalah disiplin ilmu sihir tingkat tinggi yang menggunakan darah sebagai medium dan kekuatan hidup sebagai sumber energi. Dengan menggabungkan kendali atas cairan (Air) dan esensi kehidupan (Jiwa), seorang penyihir dapat memanipulasi tubuh, menyembuhkan luka secara paksa, atau bahkan mengendalikan makhluk lain dari dalam.",
+            "risiko": "Dianggap berbahaya karena secara langsung mengorbankan kekuatan hidup, baik milik sendiri maupun orang lain."
+          }
+        },
+        {
+          "name": "Sihir Petir",
+          "emoji": "⚡",
+          "properties": {
+            "kombinasi": "🔥 Api + 🌪️ Angin",
+            "deskripsi": "Dengan menggabungkan panas dan energi dari Api dengan kecepatan dan medium dari Angin, penyihir dapat menciptakan petir. Ini adalah salah satu sihir ofensif paling cepat dan merusak."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Elemen Fundamental",
+      "description": "Dua elemen ini dianggap sebagai pilar dari realitas itu sendiri. Mereka jarang bisa dikuasai dan sering kali bersifat absolut, tidak mengikuti siklus kelemahan normal.",
+      "elements": [
+        {
+          "name": "Cahaya",
+          "emoji": "✨",
+          "properties": {
+            "sifat": "Murni, suci, dan teratur. Cahaya adalah elemen kebenaran, harapan, pengusiran, dan tatanan.",
+            "kekuatan": "Sihir penyembuhan terkuat, mampu mengusir entitas gelap, dan menciptakan ilusi yang menyilaukan atau senjata cahaya murni.",
+            "kelemahan": "Tidak memiliki kekuatan destruktif langsung. Sifatnya yang absolut membuatnya sulit digabungkan dengan elemen fisik lain.",
+            "hubungan": "Antitesis dari Kegelapan.",
+            "jalur_evolusi": "evolusi/CAHAYA.json"
+          }
+        },
+        {
+          "name": "Kegelapan",
+          "emoji": "🌑",
+          "properties": {
+            "sifat": "Misterius, tersembunyi, dan kacau. Kegelapan adalah elemen rahasia, ketakutan, penyerapan, dan potensi tak terbatas.",
+            "kekuatan": "Mampu menyembunyikan, menyerap energi (termasuk cahaya), menciptakan sihir bayangan, dan berhubungan dengan jiwa atau kekosongan (void).",
+            "kelemahan": "Rentan terhadap sihir Cahaya murni. Penggunaannya sering kali berbahaya dan dapat merusak jiwa pengguna.",
+            "hubungan": "Antitesis dari Kegelapan.",
+            "jalur_evolusi": "evolusi/KEGELAPAN.json"
+          }
+        }
+      ]
+    }
+  ]
+}
