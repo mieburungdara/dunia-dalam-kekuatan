@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dunia dalam Kekuatan</title>
     <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="<?= $app_base_url ?>                                  │
- │       /assets/mobilekit/assets/css/style.css">    
+<link rel="stylesheet" href="<?= $app_base_url ?>/assets/mobilekit/assets/css/style.css">    
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <?php if (isset($_GET['dev']) && $_GET['dev'] === '1'): ?>
     <style>
