@@ -13,7 +13,14 @@ class NovelController {
             $decoded_novels = json_decode($json_content, true);
 
             if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novels)) {
-                $novels = $decoded_novels;
+                // Validate each novel entry
+                foreach ($decoded_novels as $novel_entry) {
+                    if (isset($novel_entry['title']) && isset($novel_entry['slug']) && isset($novel_entry['url'])) {
+                        $novels[] = $novel_entry;
+                    } else {
+                        error_log("NovelController: Invalid novel entry found in " . $novels_json_path . ". Missing title, slug, or url.");
+                    }
+                }
             } else {
                 error_log("NovelController: JSON decode error for " . $novels_json_path . ": " . json_last_error_msg());
             }
@@ -46,7 +53,13 @@ class NovelController {
             $decoded_arcs = json_decode($json_content, true);
 
             if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_arcs)) {
-                $arc_list = $decoded_arcs;
+                foreach ($decoded_arcs as $arc_entry) {
+                    if (isset($arc_entry['title']) && isset($arc_entry['slug'])) {
+                        $arc_list[] = $arc_entry;
+                    } else {
+                        error_log("NovelController: Invalid arc entry found in " . $arcs_json_path . ". Missing title or slug.");
+                    }
+                }
             } else {
                 error_log("NovelController: JSON decode error for " . $arcs_json_path . ": " . json_last_error_msg());
             }
@@ -57,7 +70,12 @@ class NovelController {
         $novel_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/index.json';
         $novel_data = [];
         if (file_exists($novel_index_path)) {
-            $novel_data = json_decode(file_get_contents($novel_index_path), true);
+            $decoded_novel_data = json_decode(file_get_contents($novel_index_path), true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novel_data) && isset($decoded_novel_data['title']) && isset($decoded_novel_data['summary'])) {
+                $novel_data = $decoded_novel_data;
+            } else {
+                error_log("NovelController: Invalid novel index data in " . $novel_index_path . ". Missing title or description, or JSON decode error: " . json_last_error_msg());
+            }
         }
 
         $view_data = [
@@ -87,7 +105,13 @@ class NovelController {
             $decoded_chapters = json_decode($json_content, true);
 
             if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_chapters)) {
-                $chapter_list = $decoded_chapters;
+                foreach ($decoded_chapters as $chapter_entry) {
+                    if (isset($chapter_entry['title']) && isset($chapter_entry['slug'])) {
+                        $chapter_list[] = $chapter_entry;
+                    } else {
+                        error_log("NovelController: Invalid chapter entry found in " . $chapters_json_path . ". Missing title or slug.");
+                    }
+                }
             } else {
                 error_log("NovelController: JSON decode error for " . $chapters_json_path . ": " . json_last_error_msg());
             }
@@ -98,7 +122,12 @@ class NovelController {
         $arc_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/index.json';
         $arc_data = [];
         if (file_exists($arc_index_path)) {
-            $arc_data = json_decode(file_get_contents($arc_index_path), true);
+            $decoded_arc_data = json_decode(file_get_contents($arc_index_path), true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_arc_data) && isset($decoded_arc_data['title'])) {
+                $arc_data = $decoded_arc_data;
+            } else {
+                error_log("NovelController: Invalid arc index data in " . $arc_index_path . ". Missing title, or JSON decode error: " . json_last_error_msg());
+            }
         }
 
         $view_data = [
@@ -132,18 +161,23 @@ class NovelController {
 
             if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_scenes)) {
                 foreach ($decoded_scenes as &$scene) { // Gunakan reference untuk modifikasi
-                    // Tambahkan nama karakter POV jika ID ada
-                    if (isset($scene['pov_character_id'])) {
-                        $scene['pov_character_name'] = CharacterHelper::getCharacterNameById($scene['pov_character_id']);
+                    // Validate scene entry
+                    if (isset($scene['slug']) && isset($scene['title'])) {
+                        // Tambahkan nama karakter POV jika ID ada
+                        if (isset($scene['pov_character_id'])) {
+                            $scene['pov_character_name'] = CharacterHelper::getCharacterNameById($scene['pov_character_id']);
+                        } else {
+                            $scene['pov_character_name'] = 'Tidak ditentukan'; // Default value
+                        }
+                        // Pastikan summary ada
+                        if (!isset($scene['summary'])) {
+                            $scene['summary'] = 'Ringkasan belum tersedia.'; // Default value
+                        }
+                        $scene_list[] = $scene;
                     } else {
-                        $scene['pov_character_name'] = 'Tidak ditentukan'; // Default value
-                    }
-                    // Pastikan summary ada
-                    if (!isset($scene['summary'])) {
-                        $scene['summary'] = 'Ringkasan belum tersedia.'; // Default value
+                        error_log("NovelController: Invalid scene entry found in " . $scenes_json_path . ". Missing slug or title.");
                     }
                 }
-                $scene_list = $decoded_scenes;
             } else {
                 error_log("NovelController: JSON decode error for " . $scenes_json_path . ": " . json_last_error_msg());
             }
@@ -154,7 +188,12 @@ class NovelController {
         $chapter_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/index.json';
         $chapter_data = [];
         if (file_exists($chapter_index_path)) {
-            $chapter_data = json_decode(file_get_contents($chapter_index_path), true);
+            $decoded_chapter_data = json_decode(file_get_contents($chapter_index_path), true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_chapter_data) && isset($decoded_chapter_data['title']) && isset($decoded_chapter_data['summary'])) {
+                $chapter_data = $decoded_chapter_data;
+            } else {
+                error_log("NovelController: Invalid chapter index data in " . $chapter_index_path . ". Missing title or summary, or JSON decode error: " . json_last_error_msg());
+            }
         }
 
         $view_data = [
@@ -282,9 +321,9 @@ class NovelController {
         $json_content = file_get_contents($scene_json_path);
         $scene_data   = json_decode($json_content, true);
 
-        if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data)) {
-            error_log("NovelController: JSON decode error for " . $scene_json_path . ": " . json_last_error_msg() . ". Content: " . $json_content);
-            $f3->error(500, 'Error reading scene data.');
+        if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data) || !isset($scene_data['Chapters']) || !is_array($scene_data['Chapters']) || empty($scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'])) {
+            error_log("NovelController: Invalid scene data in " . $scene_json_path . ". Missing expected structure or JSON decode error: " . json_last_error_msg() . ". Content: " . $json_content);
+            $f3->error(500, 'Error reading scene data or invalid scene structure.');
             return;
         }
 
@@ -334,6 +373,82 @@ class NovelController {
 
         include $f3->get('ROOT') . '/application/views/templates/header.php';
         include $f3->get('ROOT') . '/application/views/novel/scene_view.php';
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
+    }
+
+    function show_character_relationships($f3) {
+        global $app_base_url;
+
+        $character_data_path = $f3->get('ROOT') . 'novel_data/characters/';
+        $nodes = [];
+        $edges = [];
+        $character_names = []; // To map ID to Name
+
+        // First pass: Collect all character names and create nodes
+        $files = scandir($character_data_path);
+        foreach ($files as $file) {
+            if (pathinfo($file, PATHINFO_EXTENSION) === 'json') {
+                $content = file_get_contents($character_data_path . $file);
+                $character = json_decode($content, true);
+                if ($character && isset($character['ID']) && isset($character['Name'])) {
+                    $charId_lowercase = strtolower($character['ID']);
+                    $image_path = $f3->get('ROOT') . 'assets/images/characters/' . $charId_lowercase . '.png';
+                    $image_url = '';
+
+                    if (file_exists($image_path)) {
+                        $image_url = $f3->get('BASE') . '/assets/images/characters/' . $charId_lowercase . '.png';
+                    } else {
+                        // Generate initials for placehold.co
+                        $initials = '';
+                        $words = explode(' ', $character['Name']);
+                        foreach ($words as $word) {
+                            if (!empty($word)) {
+                                $initials .= strtoupper(substr($word, 0, 1));
+                            }
+                        }
+                        $image_url = 'https://placehold.co/50x50/png?text=' . $initials;
+                    }
+                    $nodes[] = ['id' => $character['ID'], 'label' => $character['Name'], 'image' => $image_url];
+                    $character_names[$character['ID']] = $character['Name'];
+                }
+            }
+        }
+
+        // Second pass: Create edges based on relationships
+        foreach ($files as $file) {
+            if (pathinfo($file, PATHINFO_EXTENSION) === 'json') {
+                $content = file_get_contents($character_data_path . $file);
+                $character = json_decode($content, true);
+                if ($character && isset($character['ID']) && isset($character['Relationships'])) {
+                    foreach ($character['Relationships'] as $rel) {
+                        if (isset($rel['TargetID']) && isset($rel['Type'])) {
+                            // Ensure TargetID is a string for consistency with character IDs
+                            $target_id = (string)$rel['TargetID']; 
+                            // Only add edge if both characters exist as nodes
+                            if (array_key_exists($character['ID'], $character_names) && array_key_exists($target_id, $character_names)) {
+                                $edges[] = [
+                                    'from' => $character['ID'],
+                                    'to' => $target_id,
+                                    'label' => $rel['Type'],
+                                    'title' => $rel['Description'] ?? $rel['Type']
+                                ];
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        $view_data = [
+            'nodes' => json_encode($nodes),
+            'edges' => json_encode($edges),
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
+
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/character_relationships_view.php';
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 }

@@ -1,0 +1,12 @@
+{
+  "Teman": {"description": "Hubungan persahabatan yang kuat.", "inverse_type": "Teman"},
+  "Rekan": {"description": "Hubungan kerja atau kolaborasi.", "inverse_type": "Rekan"},
+  "Keluarga": {"description": "Hubungan darah atau kekerabatan.", "inverse_type": "Keluarga"},
+  "Mentor": {"description": "Seseorang yang membimbing atau mengajari orang lain.", "inverse_type": "Murid"},
+  "Murid": {"description": "Seseorang yang belajar dari seorang mentor.", "inverse_type": "Mentor"},
+  "Rival": {"description": "Seseorang yang bersaing dengan orang lain.", "inverse_type": "Rival"},
+  "Musuh": {"description": "Seseorang yang memiliki permusuhan atau konflik.", "inverse_type": "Musuh"},
+  "Kekasih": {"description": "Hubungan romantis.", "inverse_type": "Kekasih"},
+  "AdikPerempuan": {"description": "Hubungan seperti adik perempuan.", "inverse_type": "KakakLakiLaki"},
+  "KakakLakiLaki": {"description": "Hubungan seperti kakak laki-laki.", "inverse_type": "AdikPerempuan"}
+}

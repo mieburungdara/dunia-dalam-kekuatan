@@ -81,6 +81,9 @@ $f3->route('GET /faq/@category/@faq_name', 'FaqController->show_faq');
 $f3->route('GET /worldbuilding', 'WorldbuildingController->index');
 $f3->route('GET /worldbuilding/@file', 'WorldbuildingController->show');
 
+// Rute untuk Visualisasi Relasi Karakter
+$f3->route('GET /character-relationships', 'NovelController->show_character_relationships');
+
 $placeholder_pages = ['baca', 'karakter', 'glosarium'];
 foreach ($placeholder_pages as $page) {
     $f3->route('GET /' . $page, function($f3, $params) use ($page) {

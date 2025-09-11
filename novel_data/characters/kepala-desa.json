@@ -33,6 +33,8 @@
     "Obstacles": ["Ancaman dari luar", "Skeptisisme terhadap hal baru", "Keterbatasan sumber daya desa"],
     "InternalMonologue": null,
     "ExternalPerception": null,
+    "OriginNovel": "",
+    "AppearsInOtherNovels": [],
     "Health": null,
     "Mana": null,
     "Stamina": null

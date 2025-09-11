@@ -33,6 +33,8 @@
     "Obstacles": ["Larangan orang tua", "Bahaya di luar desa", "Keterbatasan fisik anak-anak"],
     "InternalMonologue": null,
     "ExternalPerception": null,
+    "OriginNovel": "",
+    "AppearsInOtherNovels": [],
     "Health": null,
     "Mana": null,
     "Stamina": null

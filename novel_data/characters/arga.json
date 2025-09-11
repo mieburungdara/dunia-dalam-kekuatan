@@ -20,7 +20,7 @@
       "Description": "Tinggi, ramping, rambut hitam pendek, mata abu-abu tajam.",
       "Style": "Sering mengenakan pakaian praktis berwarna gelap."
     },
-    "Relationships": [{"TargetID": 2, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 3, "Type": "Rekan", "Description": "Mengandalkan Raka dalam pertempuran"}],
+    "Relationships": [{"TargetID": 2, "Type": "Teman Dekat", "Description": "Sering berdebat tapi saling mendukung"}, {"TargetID": 3, "Type": "Rekan", "Description": "Mengandalkan Raka dalam pertempuran"}, {"TargetID": 4, "Type": "Adik Perempuan", "Description": "Arga menganggap Mira sebagai adik perempuan yang perlu dilindungi"}],
     "Affiliations": ["Tidak ada (sebelumnya Mahasiswa Teknik)"],
     "Voice": "Tenang, logis, kadang terdengar sedikit merendahkan atau terlalu analitis.",
     "Flaws": ["Terlalu mengandalkan logika, sulit memahami emosi orang lain", "Cenderung menyendiri", "Perfeksionis"],
@@ -37,36 +37,38 @@
       {
         "Name": "Pedang Baja Ringan",
         "Quantity": 1,
-        "Description": ""
+        "Description": "Pedang ringan dan tajam yang ditemukan Arga di reruntuhan kuno, memiliki ukiran aneh di gagangnya. Pedang ini menjadi senjata utamanya di Eryndor."
       },
       {
         "Name": "Kompas Kuno",
         "Quantity": 1,
-        "Description": ""
+        "Description": "Kompas tua dengan ukiran misterius yang selalu menunjuk ke arah yang tidak diketahui, seringkali membawa Arga dan kelompoknya ke lokasi tak terduga."
       },
       {
         "Name": "Buku Catatan",
         "Quantity": 1,
-        "Description": ""
+        "Description": "Buku catatan kecil tempat Arga mencatat observasi, teori, dan hipotesisnya tentang dunia Eryndor, serta strategi tempur yang ia kembangkan."
       }
     ],
     "Skills": [
       {
         "Name": "Pedang Satu Tangan",
         "Level": "Mahir",
-        "Description": ""
+        "Description": "Kemampuan Arga dalam menggunakan pedang dengan satu tangan, memungkinkan serangan cepat dan manuver lincah dalam pertempuran jarak dekat."
       },
       {
         "Name": "Strategi Tempur",
         "Level": "Ahli",
-        "Description": ""
+        "Description": "Keahlian Arga dalam menganalisis medan perang dan situasi, merumuskan taktik yang efektif untuk mengalahkan musuh dengan efisiensi tinggi."
       },
       {
         "Name": "Analisis Kelemahan",
         "Level": "Menengah",
-        "Description": ""
+        "Description": "Kemampuan Arga untuk dengan cepat mengidentifikasi titik lemah musuh atau situasi, memungkinkannya untuk mengeksploitasi celah tersebut dalam pertempuran atau perencanaan."
       }
     ],
+    "OriginNovel": "lima-jiwa-di-bumi-lain",
+    "AppearsInOtherNovels": [],
     "Health": {
       "Current": 100,
       "Max": 100
