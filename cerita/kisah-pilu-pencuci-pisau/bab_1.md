@@ -50,6 +50,8 @@ Rekan-rekannya menatapnya dengan bingung, lalu marah. "Kesalahan apa? Dia monste
 
 Kata-kata itu menggantung di udara, memecah kebanggaan para petualang. Mereka melihat boneka itu, lalu ke arah jalan setapak. Sebuah keheningan yang berat menyelimuti mereka, lebih dingin dari angin senja. Dalam benak Elara, sebuah adegan mengerikan terputar: seorang anak goblin kecil yang riang, melangkah pulang dengan langkah-langkah ringan, mungkin membawa sekeranjang jamur atau seekor kelinci kecil hasil tangkapannya. Ia akan berlari ke tepi sungai, memanggil ayahnya, mencari pelukan hangat, mencari boneka kesayangannya yang bersih, dan menemukan... kekosongan. Hanya tubuh kaku ayahnya, pisau berdarah, dan boneka yang kini berlumuran darah ayahnya sendiri.
 
+Elara tahu, ini bukan kali pertama. Ia pernah mencoba. Pernah datang ke desa membawa proposal: Buatkan monumen “Kesalahan Perbatasan”. Ajarkan anak-anak bahwa goblin pun punya cerita. Hukum petualang yang membunuh tanpa bukti. Warga desa tertawa: *"Monster bukan manusia, tidak perlu monumen."* Jadi monumen yang akhirnya berdiri bukan dari batu—tapi dari tubuh-tubuh yang bergelimpangan di jalan masuk desa. Goblin menyerah pada logika sederhana: **“Kalau kalian tak mau mengakui kesalahan dengan kata-kata, kami ajar dengan abu.”**
+
 ***
 
 Sementara itu, Gobo, anak Grak, berlari sekencang-kencangnya menembus semak belukar. Keranjang jamur di tangannya terlempar entah ke mana. Napasnya tersengal, air mata dan ingus bercampur di wajahnya yang kecil. Ia tidak berhenti sampai tiba di gubuk kecil mereka, tersembunyi di balik akar pohon raksasa.
@@ -72,12 +74,27 @@ Nenek Grak memimpin Gobo, yang masih terisak, menuju pusat perkampungan goblin. 
 
 Di hadapan Ketua goblin, seorang goblin bertubuh besar dengan tanduk melengkung dan mata yang tajam, nenek Grak menceritakan semuanya. Gobo, yang masih trauma, mengangguk membenarkan setiap kata.
 
+"Ini bukan yang pertama, Ketua," suara Nenek Grak bergetar, namun penuh kekuatan. "Di desa manusia, ada aturan tak tertulis: *'Goblin yang berada di luar sarang boleh dibunuh tanpa tanya.'* Aturan itu tak pernah dicetak di papan desa, tapi tertulis di tatapan setiap petualang. Grak bukan korban pertama. Sebulan sebelumnya, seekor goblin tua sedang memungut kayu bakar—ditembak dari kejauhan 'demi pencegahan'. Empat musim lalu, dua anak goblin dicekoki anggur lalu disiksa 'untuk hiburan'. Desa tak pernah mencatatnya, tapi goblin punya cara lain mencatat: **setiap darah yang tertumpah menjadi akar pohon ingatan.** Ketika Grak mati, pohon itu berbuah. Buahnya pahit: perang."
+
 Ketua goblin mendengarkan dengan tenang, namun rahangnya mengeras. Ia menatap Gobo, lalu ke nenek Grak. "Jadi, manusia-manusia itu membunuh Grak, seorang Pencuci Pisau yang damai, di wilayah kita, di depan anaknya sendiri?"
 
-"Benar, Ketua," jawab nenek Grak, suaranya penuh duka dan tuntutan. "Mereka tidak melihatnya sebagai ayah, hanya sebagai monster."
+"Benar, Ketua," jawab nenek Grak, suaranya penuh duka dan tuntutan. "Mereka tidak melihatnya sebagai ayah, hanya sebagai monster. Dan pengadilan hanya ada di satu sisi. Setelah pembunuhan Grak, kita mengirim utusan damai: seekor goblin tua buta, membawa tanduk rusak sebagai tanda tak akan menyerang. Utusan itu ditembak di perbatasan. Alasannya: *'Tanduk bisa diasah jadi senjata.'* Jadi goblin belajar: **kalau suara damai dibalas peluru, satu-satunya bahasa yang tersisa adalah dentuman perisai.**"
 
-Ketua goblin menghela napas berat. Ia tahu konsekuensi dari insiden ini. Ini bukan lagi sekadar perburuan monster. Ini adalah deklarasi perang. "Kumpulkan para prajurit," perintahnya, suaranya menggelegar di seluruh gua. "Kita akan mengirim pesan kepada manusia. Pesan yang tidak akan mereka lupakan."
+Ketua goblin menghela napas berat. "Dan rumah kita?"
+
+"Desa manusia mulai memperluas perkebunan—menebang hutan goblin pakai api," lanjut nenek Grak, suaranya kini dipenuhi kepedihan yang mendalam. "Goblin bukan petani; kita hidup dari jamur, akar, dan ikan sungai. Api itu tak hanya membakar pepohonan—**tapi membakar surat wasiat Grak yang tersimpan di dalam gubuk:** Gobo akan sekolah di tepi sungai, Nenek akan menenun kain bermata dua, Grak akan pensiunan sebagai 'pencuci pisau'. Api mengabutkannya dalam hitungan jam. Jadi ketika desa tidur nyenyak di rumah kayu, goblin bergeming di gua: **'Kalau rumah kami abu, rumah kalian akan jadi abu juga.'**"
+
+Ketua goblin bangkit. Matanya menyala. "Cukup. Ini bukan lagi sekadar perburuan monster. Ini adalah deklarasi perang. Kumpulkan para prajurit," perintahnya, suaranya menggelegar di seluruh gua. "Kita akan mengirim pesan kepada manusia. Pesan yang tidak akan mereka lupakan."
 
 ***
 
 Di tepi sungai, Elara masih memegang boneka kain bermata satu itu. Ia tidak tahu bahwa di kejauhan, di balik rimbunnya hutan, sebuah badai sedang berkumpul. Badai yang dipicu oleh kesalahpahaman mereka, oleh prasangka mereka, oleh kematian seorang ayah yang tak bersalah. Boneka di tangannya kini terasa lebih berat, bukan hanya beban rasa bersalah pribadinya, tetapi juga beban dari perang yang akan datang.
+
+Goblin menyerang desa **karena desa sudah lebih dulu menyerang cerita-cerita mereka**—cerita tentang ayah yang mencuci pisau, tentang boneka yang ingin kembali ke tangan anaknya, tentang sungai yang seharusnya mengalirkan ikan, bukan darah.
+
+Jadi ketika desa berteriak, *"Kenapa mereka tiba-tiba galak?"*
+Jawabannya sungguh sederhana:
+
+**Karena “tiba-tiba” itu sebenarnya sudah berlangsung bertahun-tahun—
+cuma desa yang memilih tutup mata,
+dan goblin yang akhirnya memilih tutup jalan dengan mayat.**
