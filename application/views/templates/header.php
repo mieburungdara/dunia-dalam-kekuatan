@@ -14,7 +14,6 @@
     <link rel="icon" type="image/png" href="<?= $app_base_url ?>/assets/mobilekit/assets/img/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="<?= $app_base_url ?>/assets/mobilekit/assets/img/icon/192x192.png">
     <link rel="stylesheet" href="<?= $app_base_url ?>/assets/mobilekit/assets/css/style.css">
-    <link rel="stylesheet" href="<?= $app_base_url ?>/assets/css/custom.css">
     <link rel="manifest" href="<?= $app_base_url ?>/assets/mobilekit/__manifest.json">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
