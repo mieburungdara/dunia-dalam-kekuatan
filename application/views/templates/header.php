@@ -51,11 +51,7 @@
 
 <body>
 
-    <!-- loader -->
-    <div id="loader">
-        <div class="spinner-border text-primary" role="status"></div>
-    </div>
-    <!-- * loader -->
+    
 
     <!-- App Header -->
     <div class="appHeader bg-primary scrolled">
