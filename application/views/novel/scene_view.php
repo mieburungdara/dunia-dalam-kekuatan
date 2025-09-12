@@ -2,18 +2,18 @@
 <div id="appCapsule">
 
     <div class="blog-post">
-        <h1 class="title"><?= $scene_name ?></h1>
+        <h1 class="title mb-2"><?= $scene_name ?></h1>
 
         <div class="post-header">
-            <div>
-                Novel: <?= $novel_title ?> | Arc: <?= $arc_title ?> | Chapter: <?= $chapter_title ?>
-            </div>
-            <div class="text-muted mt-1">
+            <small class="text-muted">
+                Novel: <?= $novel_title ?> <span class="mx-1">|</span> Arc: <?= $arc_title ?> <span class="mx-1">|</span> Chapter: <?= $chapter_title ?>
+            </small>
+            <p class="lead mt-1">
                 <?= $chapter_summary ?>
-            </div>
+            </p>
         </div>
 
-        <div class="post-body">
+        <div class="post-body mt-3">
             <?= $rendered_content ?>
         </div>
     </div>
@@ -26,6 +26,14 @@
                 <?php if ($prev_link): ?>
                     <a href="<?= $prev_link['url'] ?>" class="btn btn-secondary btn-block">&laquo; <?= $prev_link['title'] ?></a>
                 <?php endif; ?>
+            </div>
+            <div class="col text-center">
+                <?php
+                    // Assuming chapter_url is available in the view data
+                    // If not, this will need to be passed from the controller
+                    $chapter_url = $app_base_url . '/novel/' . $novel_slug . '/' . $arc_slug . '/' . $chapter_slug;
+                ?>
+                <a href="<?= $chapter_url ?>" class="btn btn-outline-primary btn-block">Kembali ke Bab</a>
             </div>
             <div class="col text-end">
                 <?php if ($next_link): ?>
