@@ -35,7 +35,7 @@
                 <?php
                     // Assuming chapter_url is available in the view data
                     // If not, this will need to be passed from the controller
-                    $chapter_url = $app_base_url . '/novel/' . $novel_slug . '/' . $arc_name . '/' . $chapter_slug;
+                    $chapter_url = $app_base_url . '/novel/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name;
                 ?>
                 <a href="<?= $chapter_url ?>" class="btn btn-outline-primary btn-block">Kembali ke Bab</a>
             </div>
