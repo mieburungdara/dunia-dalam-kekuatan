@@ -376,7 +376,7 @@ class NovelController {
         $json_content = file_get_contents($scene_json_path);
         $scene_data   = json_decode($json_content, true);
 
-        if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data) || !isset($scene_data['Chapters']) || !is_array($scene_data['Chapters']) || empty($scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'])) {
+        if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data) || !isset($scene_data['Meta']['Title'])) {
             error_log("NovelController: Invalid scene data in " . $scene_json_path . ". Missing expected structure or JSON decode error: " . json_last_error_msg() . ". Content: " . $json_content);
             $f3->error(500, 'Error reading scene data or invalid scene structure.');
             return;
@@ -414,7 +414,7 @@ class NovelController {
             'arc_title' => $arc_data['title'] ?? 'Arc Tidak Ditemukan',
             'chapter_title' => $chapter_data['title'] ?? 'Chapter Tidak Ditemukan',
             'chapter_summary' => $chapter_data['summary'] ?? 'Ringkasan Tidak Ditemukan',
-            'scene_name' => $scene_data['Chapters'][0]['Scenes'][0]['Meta']['Title'] ?? str_replace('_', ' ', $scene_name),
+            'scene_name' => $scene_data['Meta']['Title'] ?? str_replace('_', ' ', $scene_name),
             'rendered_content' => $rendered_content,
             'prev_link' => $prev_link,
             'next_link' => $next_link,
