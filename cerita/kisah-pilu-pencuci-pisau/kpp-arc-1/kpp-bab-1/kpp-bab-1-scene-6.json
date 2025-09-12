@@ -1,0 +1,47 @@
+{
+  "scene_name": "Badai yang Akan Datang",
+  "chapter": "Bab 1: Senja Berdarah",
+  "location": "Tepi sungai di hutan perbatasan",
+  "time_of_day": "Senja",
+  "date": "Tidak spesifik",
+  "pov_character": "Elara",
+  "summary": "Elara merenungkan boneka kain Grak, menyadari bahwa tindakan mereka telah memicu badai perang yang akan datang, yang disebabkan oleh kesalahpahaman dan prasangka yang telah berlangsung lama antara manusia dan goblin.",
+  "key_events_in_scene": [
+    "Elara masih memegang boneka kain bermata satu.",
+    "Elara menyadari bahwa tindakan mereka telah memicu perang.",
+    "Narasi menjelaskan akar konflik antara manusia dan goblin."
+  ],
+  "characters_in_scene": [
+    {
+      "character_id": "elara",
+      "character_name": "Elara",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Penuh penyesalan, terpukul, menyadari kesalahan besar."
+      },
+      "actions_in_scene": [
+        "Memegang boneka",
+        "Merenung",
+        "Merasa beban rasa bersalah"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Terbebani oleh konsekuensi tindakan, menyadari skala konflik yang lebih besar."
+      }
+    }
+  ],
+  "plot_points_advanced": [
+    "Menegaskan tema utama novel tentang kesalahpahaman dan konsekuensi prasangka.",
+    "Mengatur panggung untuk konflik yang lebih besar di bab-bab selanjutnya.",
+    "Menyediakan penutup yang kuat untuk bab pembuka."
+  ],
+  "world_building_revealed": [
+    "Filosofi goblin tentang 'cerita' dan 'ingatan' sebagai pemicu tindakan mereka.",
+    "Penjelasan mengapa konflik ini 'tiba-tiba' bagi manusia tetapi telah berlangsung lama bagi goblin."
+  ],
+  "notes": "Adegan ini berfungsi sebagai epilog yang kuat, merangkum tema bab dan mengisyaratkan konflik yang akan datang. Penting untuk menyoroti kontras antara persepsi manusia dan realitas goblin."
+}

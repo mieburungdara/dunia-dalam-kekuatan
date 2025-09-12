@@ -1,0 +1,73 @@
+{
+  "scene_name": "Kedatangan Petualang dan Kesalahpahaman",
+  "chapter": "Bab 1: Senja Berdarah",
+  "location": "Tepi sungai di hutan perbatasan",
+  "time_of_day": "Senja",
+  "date": "Tidak spesifik",
+  "pov_character": "Grak",
+  "summary": "Keheningan senja dipecah oleh kedatangan empat petualang manusia bersenjata. Mereka salah paham melihat Grak dengan pisau berdarah dan kain lap, menganggapnya monster, dan bersiap menyerang.",
+  "key_events_in_scene": [
+    "Suara langkah kaki memecah keheningan.",
+    "Empat petualang manusia muncul dari semak belukar.",
+    "Petualang melihat Grak dengan pisau dan kain lap berdarah.",
+    "Salah satu petualang berteriak 'Monster!'.",
+    "Grak menyadari ancaman dan bersiap melindungi diri."
+  ],
+  "characters_in_scene": [
+    {
+      "character_id": "grak",
+      "character_name": "Grak",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Damai, baru selesai mencuci pisau."
+      },
+      "actions_in_scene": [
+        "Mengangkat kepala",
+        "Menyipitkan mata",
+        "Terkejut",
+        "Menegang",
+        "Menggerakkan tangan ke saku"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Terancam, ketakutan, bersiap membela diri."
+      }
+    },
+    {
+      "character_id": "petualang-1",
+      "character_name": "Petualang (tidak bernama)",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Waspada, penuh kebencian terhadap goblin."
+      },
+      "actions_in_scene": [
+        "Muncul dari semak",
+        "Berteriak 'Monster!'",
+        "Menghunus pedang",
+        "Mengangkat busur"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Siap menyerang."
+      }
+    }
+  ],
+  "plot_points_advanced": [
+    "Memperkenalkan konflik utama antara manusia dan goblin.",
+    "Menunjukkan kesalahpahaman dan prasangka manusia terhadap goblin.",
+    "Membangun ketegangan menuju konfrontasi."
+  ],
+  "world_building_revealed": [
+    "Petualang sebagai ancaman bagi goblin di perbatasan.",
+    "Prasangka umum manusia terhadap goblin."
+  ],
+  "notes": "Adegan ini adalah titik balik yang mengubah suasana damai menjadi ancaman, menyoroti tema kesalahpahaman dan prasangka yang akan memicu konflik."
+}

@@ -14,7 +14,14 @@
         {
             "title": "Kisah Pilu Pencuci Pisau",
             "slug": "kisah-pilu-pencuci-pisau",
-            "description": "Kisah asli di balik kengerian yang menyedihkan dan mengharukan."
+            "description": "Kisah asli di balik kengerian yang menyedihkan dan mengharukan.",
+            "arcs": [
+                {
+                    "title": "Awal Mula Konflik",
+                    "slug": "kpp-arc-1",
+                    "url": "https://mymy.my.id/novel/kisah-pilu-pencuci-pisau/kpp-arc-1"
+                }
+            ]
         }
     ]
 }

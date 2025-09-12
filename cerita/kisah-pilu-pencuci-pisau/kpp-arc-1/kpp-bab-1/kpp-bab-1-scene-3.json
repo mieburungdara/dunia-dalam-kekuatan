@@ -1,0 +1,96 @@
+{
+  "scene_name": "Kematian Grak dan Kesaksian Gobo",
+  "chapter": "Bab 1: Senja Berdarah",
+  "location": "Tepi sungai di hutan perbatasan",
+  "time_of_day": "Senja",
+  "date": "Tidak spesifik",
+  "pov_character": ["Grak", "Gobo"],
+  "summary": "Grak diserang dan dibunuh oleh petualang manusia. Kematiannya disaksikan oleh anaknya, Gobo, yang bersembunyi di balik semak-semak, meninggalkan Gobo dalam trauma mendalam.",
+  "key_events_in_scene": [
+    "Panah menancap di bahu Grak.",
+    "Grak mencoba melawan dan melarikan diri.",
+    "Gobo menyaksikan kematian ayahnya dari persembunyian.",
+    "Grak tewas oleh tebasan pedang.",
+    "Boneka kain bermata satu terlepas dari saku Grak."
+  ],
+  "characters_in_scene": [
+    {
+      "character_id": "grak",
+      "character_name": "Grak",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Terancam, ketakutan."
+      },
+      "actions_in_scene": [
+        "Terhuyung",
+        "Mencoba bangkit",
+        "Mencoba lari",
+        "Mencoba berteriak",
+        "Jatuh dan tewas"
+      ],
+      "status_at_end": {
+        "health": 0,
+        "mana": 0,
+        "stamina": 0,
+        "notes": "Meninggal dunia."
+      }
+    },
+    {
+      "character_id": "gobo",
+      "character_name": "Gobo",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Baru pulang mencari jamur."
+      },
+      "actions_in_scene": [
+        "Mengintip dari semak",
+        "Melihat ayahnya diserang",
+        "Gemetar",
+        "Menahan jeritan",
+        "Bersembunyi lebih dalam",
+        "Menyaksikan kematian ayahnya"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Trauma, ketakutan mendalam."
+      }
+    },
+    {
+      "character_id": "petualang-1",
+      "character_name": "Petualang (tidak bernama)",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Siap menyerang."
+      },
+      "actions_in_scene": [
+        "Melesatkan panah",
+        "Mengayunkan pedang",
+        "Membunuh Grak"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Puas, misi selesai."
+      }
+    }
+  ],
+  "plot_points_advanced": [
+    "Kematian Grak sebagai pemicu utama konflik.",
+    "Gobo menjadi saksi mata, menanam benih dendam.",
+    "Boneka kain bermata satu menjadi simbol tragedi."
+  ],
+  "world_building_revealed": [
+    "Kekejaman petualang manusia terhadap goblin.",
+    "Dampak langsung dari prasangka."
+  ],
+  "notes": "Adegan ini adalah puncak tragedi yang akan mendorong plot utama novel. Penting untuk menyoroti trauma Gobo dan simbolisme boneka."
+}

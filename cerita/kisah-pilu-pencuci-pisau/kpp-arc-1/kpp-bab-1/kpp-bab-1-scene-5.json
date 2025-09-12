@@ -1,0 +1,104 @@
+{
+  "scene_name": "Gobo Melapor dan Deklarasi Perang",
+  "chapter": "Bab 1: Senja Berdarah",
+  "location": "Gubuk Gobo, Perkampungan Goblin",
+  "time_of_day": "Senja",
+  "date": "Tidak spesifik",
+  "pov_character": "Gobo",
+  "summary": "Gobo yang trauma melarikan diri dan melaporkan kematian ayahnya kepada neneknya. Bersama neneknya, ia menghadap Ketua goblin, yang setelah mendengar kesaksian dan sejarah kekejaman manusia, mendeklarasikan perang terhadap manusia.",
+  "key_events_in_scene": [
+    "Gobo berlari pulang ke gubuknya.",
+    "Gobo menceritakan kematian ayahnya kepada neneknya.",
+    "Nenek Grak membawa Gobo ke Ketua goblin.",
+    "Nenek Grak dan Gobo bersaksi di hadapan Ketua goblin.",
+    "Nenek Grak menceritakan sejarah kekejaman manusia terhadap goblin.",
+    "Ketua goblin mendeklarasikan perang terhadap manusia."
+  ],
+  "characters_in_scene": [
+    {
+      "character_id": "gobo",
+      "character_name": "Gobo",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Trauma, ketakutan mendalam."
+      },
+      "actions_in_scene": [
+        "Berlari",
+        "Menangis",
+        "Berteriak",
+        "Memeluk neneknya",
+        "Menceritakan apa yang dilihat",
+        "Mengangguk membenarkan"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Masih trauma, namun menjadi saksi penting."
+      }
+    },
+    {
+      "character_id": "nenek-grak",
+      "character_name": "Nenek Grak",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Tua, mata redup."
+      },
+      "actions_in_scene": [
+        "Muncul dari gubuk",
+        "Menenangkan Gobo",
+        "Mendengarkan cerita Gobo",
+        "Bangkit dengan wajah keras",
+        "Memimpin Gobo ke Ketua",
+        "Bersaksi di hadapan Ketua",
+        "Menceritakan sejarah kekejaman"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Penuh amarah dan kesedihan, memimpin tuntutan keadilan."
+      }
+    },
+    {
+      "character_id": "ketua-goblin",
+      "character_name": "Ketua Goblin",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Tenang, namun rahang mengeras."
+      },
+      "actions_in_scene": [
+        "Mendengarkan",
+        "Menatap Gobo dan nenek Grak",
+        "Menghela napas berat",
+        "Bangkit",
+        "Mendeklarasikan perang",
+        "Memerintahkan pengumpulan prajurit"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Marah, memutuskan untuk berperang."
+      }
+    }
+  ],
+  "plot_points_advanced": [
+    "Kematian Grak memicu reaksi kolektif dari komunitas goblin.",
+    "Deklarasi perang goblin terhadap manusia secara resmi dimulai.",
+    "Menetapkan Gobo sebagai karakter yang akan membawa dendam dan menjadi bagian dari konflik yang lebih besar."
+  ],
+  "world_building_revealed": [
+    "Struktur kepemimpinan goblin (Ketua).",
+    "Sistem 'pencatatan' goblin terhadap kekejaman manusia (darah menjadi akar pohon ingatan).",
+    "Sejarah konflik yang lebih dalam antara manusia dan goblin, termasuk insiden sebelumnya.",
+    "Alasan di balik permusuhan goblin terhadap manusia (pembunuhan tanpa alasan, perluasan wilayah, pembakaran rumah)."
+  ],
+  "notes": "Adegan ini adalah klimaks dari bab ini, di mana konsekuensi dari tindakan manusia terungkap dan memicu konflik skala besar. Penting untuk menyoroti alasan di balik keputusan perang goblin."
+}

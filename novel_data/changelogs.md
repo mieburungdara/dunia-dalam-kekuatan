@@ -1,6 +1,14 @@
-# Changelog
+## v0.67.0 - Restrukturisasi Data Bab dan Adegan "Kisah Pilu Pencuci Pisau"
+*Tanggal: 2025-09-12*
 
-Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
+- **Refactor**: Merestrukturisasi data bab dan adegan untuk novel "Kisah Pilu Pencuci Pisau" agar sesuai dengan konvensi antarmuka web.
+  - Memindahkan `bab_1.md` ke `cerita/kisah-pilu-pencuci-pisau/kpp-arc-1/kpp-bab-1/index.md` dengan penambahan front matter.
+  - Membuat `cerita/kisah-pilu-pencuci-pisau/kpp-arc-1/chapters.json` untuk daftar bab dalam arc.
+  - Membuat `cerita/kisah-pilu-pencuci-pisau/kpp-arc-1/kpp-bab-1/scenes.json` untuk daftar adegan dalam bab.
+  - Memindahkan file JSON adegan individual dari `novel_data/scenes/` ke `cerita/kisah-pilu-pencuci-pisau/kpp-arc-1/kpp-bab-1/`.
+  - Memperbarui `novels.json` untuk mereferensikan arc `kpp-arc-1` dan menghapus referensi bab langsung.
+  - Membuat `cerita/kisah-pilu-pencuci-pisau/kpp-arc-1/index.json` untuk metadata arc.
+  - Memperbarui `series_meta.json` untuk menyertakan arc "Awal Mula Konflik" di bawah novel "Kisah Pilu Pencuci Pisau".
 
 ---
 
@@ -252,7 +260,7 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
-## v0.33.0 - Penonaktifan Fitur Prompt Gambar
+## v0.33.0 - Penonaktifkan Fitur Prompt Gambar
 *Tanggal: 2025-09-05*
 
 - **Diperbarui**: Menonaktifkan sementara fitur pembuatan prompt gambar dengan memberi komentar pada aturan terkait di `GEMINI.md` untuk fokus pada pengembangan cerita.

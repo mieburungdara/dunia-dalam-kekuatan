@@ -1,0 +1,49 @@
+{
+  "scene_name": "Rutinitas Senja Grak",
+  "chapter": "Bab 1: Senja Berdarah",
+  "location": "Tepi sungai di hutan perbatasan",
+  "time_of_day": "Senja",
+  "date": "Tidak spesifik",
+  "pov_character": "Grak",
+  "summary": "Grak, seorang goblin pencuci pisau, menikmati senja di tepi sungai sambil membersihkan pisaunya. Ia mengenang istri dan anaknya, Gobo, dan menjalani rutinitas hariannya yang damai.",
+  "key_events_in_scene": [
+    "Grak duduk bersila di tepi sungai.",
+    "Grak mencuci pisau tembaga yang bernoda darah.",
+    "Grak mengenang istri dan anaknya, Gobo, serta boneka kain bermata satu.",
+    "Grak membersihkan kain lap berdarah."
+  ],
+  "characters_in_scene": [
+    {
+      "character_id": "grak",
+      "character_name": "Grak",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Damai, fokus pada pekerjaan rumah tangga."
+      },
+      "actions_in_scene": [
+        "Duduk bersila",
+        "Mencuci pisau",
+        "Merenung dan mengenang",
+        "Membersihkan kain lap"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Masih damai, rutinitas selesai."
+      }
+    }
+  ],
+  "plot_points_advanced": [
+    "Memperkenalkan Grak sebagai karakter utama dan menunjukkan sisi damai goblin.",
+    "Menetapkan latar belakang Grak sebagai seorang ayah dan pencuci pisau.",
+    "Memperkenalkan boneka kain bermata satu sebagai objek penting yang terkait dengan keluarga Grak."
+  ],
+  "world_building_revealed": [
+    "Kehidupan sehari-hari goblin di perbatasan.",
+    "Rutinitas 'pencuci pisau' sebagai pekerjaan biasa."
+  ],
+  "notes": "Adegan ini bertujuan untuk membangun simpati terhadap Grak dan menunjukkan kontras antara gambaran umum goblin sebagai monster dengan realitas kehidupannya yang damai."
+}

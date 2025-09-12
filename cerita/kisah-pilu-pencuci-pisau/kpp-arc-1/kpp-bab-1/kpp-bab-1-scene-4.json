@@ -1,0 +1,101 @@
+{
+  "scene_name": "Penyesalan Elara",
+  "chapter": "Bab 1: Senja Berdarah",
+  "location": "Tepi sungai di hutan perbatasan",
+  "time_of_day": "Senja",
+  "date": "Tidak spesifik",
+  "pov_character": "Elara",
+  "summary": "Setelah membunuh Grak, para petualang merasa puas kecuali Elara. Ia menemukan boneka kain Grak dan menyadari bahwa mereka telah membunuh seorang ayah yang tidak bersalah, memicu penyesalan mendalam dan pemahaman akan konsekuensi dari prasangka mereka.",
+  "key_events_in_scene": [
+    "Para petualang merasa puas setelah membunuh Grak.",
+    "Elara merasa tidak nyaman dan mendekati tubuh Grak.",
+    "Elara menemukan boneka kain bermata satu di samping Grak.",
+    "Elara menyadari kesalahpahaman dan bahwa Grak adalah seorang ayah.",
+    "Elara mengungkapkan penyesalannya kepada rekan-rekannya.",
+    "Elara merenungkan konsekuensi dari tindakan mereka dan sejarah konflik manusia-goblin."
+  ],
+  "characters_in_scene": [
+    {
+      "character_id": "elara",
+      "character_name": "Elara",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Tidak nyaman, mulai ragu."
+      },
+      "actions_in_scene": [
+        "Menatap kosong",
+        "Melangkah maju",
+        "Berlutut di samping Grak",
+        "Melihat pisau, kain lap, dan boneka",
+        "Membalik-balik boneka",
+        "Menatap wajah Grak",
+        "Menyusun kepingan puzzle",
+        "Merasa bersalah",
+        "Bangkit",
+        "Mengungkapkan penyesalan",
+        "Menangis"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Penuh penyesalan, terpukul, menyadari kesalahan besar."
+      }
+    },
+    {
+      "character_id": "petualang-1",
+      "character_name": "Petualang berjanggut lebat",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Puas, meremehkan goblin."
+      },
+      "actions_in_scene": [
+        "Menyarungkan pedang",
+        "Mendesah",
+        "Menegur Elara"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Bingung, marah, kemudian terdiam."
+      }
+    },
+    {
+      "character_id": "petualang-2",
+      "character_name": "Petualang lainnya",
+      "status_at_start": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Puas."
+      },
+      "actions_in_scene": [
+        "Memeriksa anak panah",
+        "Menimpali"
+      ],
+      "status_at_end": {
+        "health": null,
+        "mana": null,
+        "stamina": null,
+        "notes": "Bingung, marah, kemudian terdiam."
+      }
+    }
+  ],
+  "plot_points_advanced": [
+    "Memperkenalkan Elara sebagai karakter yang memiliki empati dan potensi untuk memahami sisi lain konflik.",
+    "Menyoroti tema kesalahpahaman dan prasangka dari sudut pandang manusia.",
+    "Menunjukkan bahwa tindakan kekerasan ini bukan insiden terisolasi, tetapi bagian dari pola konflik yang lebih besar.",
+    "Mengisyaratkan konsekuensi yang akan datang dari tindakan para petualang."
+  ],
+  "world_building_revealed": [
+    "Prasangka manusia terhadap goblin yang menganggap mereka 'monster'.",
+    "Sejarah konflik dan kekerasan di perbatasan.",
+    "Sistem 'pencatatan' goblin terhadap setiap kekejaman yang mereka alami."
+  ],
+  "notes": "Adegan ini sangat penting untuk membangun konflik moral dan menunjukkan bahwa tidak semua manusia adalah antagonis murni. Ini juga memperkuat tema kesalahpahaman yang menjadi inti cerita."
+}
