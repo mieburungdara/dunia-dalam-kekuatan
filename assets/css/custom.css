@@ -1,0 +1,22 @@
+@media (min-width: 768px) { /* Apply on screens larger than typical mobile devices */
+    #appCapsule {
+        max-width: 420px; /* Typical mobile width */
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow to make it look like a device */
+        border-radius: 8px; /* Optional: Rounded corners */
+        overflow: hidden; /* Hide overflow if content exceeds bounds */
+    }
+
+    body {
+        background-color: #f0f2f5; /* A neutral background for the "desktop" area */
+    }
+
+    .appHeader, .appBottomMenu {
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
