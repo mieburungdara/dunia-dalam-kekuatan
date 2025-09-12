@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.65.0 - Perbaikan Meta Tag Deprecated
+*Tanggal: 2025-09-12*
+
+- **Perbaikan**: Mengganti meta tag deprecated `<meta name="apple-mobile-web-app-capable" content="yes">` dengan `<meta name="mobile-web-app-capable" content="yes">` di `application/views/templates/header.php`.
+
+---
+
 ## v0.64.0 - Perbaikan Syntax Error di NovelController.php
 *Tanggal: 2025-09-12*
 
