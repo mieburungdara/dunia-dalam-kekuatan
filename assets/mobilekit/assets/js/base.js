@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////
 // Service Workers
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js', {scope: '/'})
+    navigator.serviceWorker.register('/service-worker.js', {scope: '/'})
         .then(reg => console.log('service worker registered'))
         .catch(err => console.log('service worker not registered - there is an error.', err));
 }
