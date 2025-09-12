@@ -35,7 +35,8 @@ $f3->set('AUTOLOAD', 'app/'); // Tambahkan folder app ke autoloader
 
 // Rute untuk Novel
 $f3->route('GET /novel', 'NovelController->list_novels');
-$f3->route('GET /novel/@novel_slug', 'NovelController->show_novel_arcs');
+$f3->route('GET /novel/@novel_slug', 'NovelController->show_novel_index');
+$f3->route('GET /novel/@novel_slug/arcs', 'NovelController->list_novel_arcs');
 $f3->route('GET /novel/@novel_slug/@arc_name', 'NovelController->show_arc_chapters');
 $f3->route('GET /novel/@novel_slug/@arc_name/@chapter_name', 'NovelController->show_chapter_scenes');
 

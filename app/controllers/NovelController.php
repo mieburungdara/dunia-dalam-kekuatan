@@ -41,7 +41,62 @@ class NovelController {
         include $f3->get('ROOT') . '/application/views/templates/footer.php';
     }
 
-    function show_novel_arcs($f3, $params) {
+    function show_novel_index($f3, $params) {
+        global $app_base_url;
+
+        $novel_slug = $params['novel_slug'];
+        $novel_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/index.json';
+        $arcs_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/arcs.json';
+
+        $novel_data = [];
+        if (file_exists($novel_index_path)) {
+            $decoded_novel_data = json_decode(file_get_contents($novel_index_path), true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novel_data) && isset($decoded_novel_data['title']) && isset($decoded_novel_data['summary'])) {
+                $novel_data = $decoded_novel_data;
+            } else {
+                error_log("NovelController: Invalid novel index data in " . $novel_index_path . ". Missing title or summary, or JSON decode error: " . json_last_error_msg());
+            }
+        } else {
+            error_log("NovelController: Novel index.json DOES NOT exist at " . $novel_index_path);
+            $f3->error(404, 'Novel not found.');
+            return;
+        }
+
+        $arc_list = [];
+        if (file_exists($arcs_json_path)) {
+            $json_content = file_get_contents($arcs_json_path);
+            $decoded_arcs = json_decode($json_content, true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_arcs)) {
+                foreach ($decoded_arcs as $arc_entry) {
+                    if (isset($arc_entry['title']) && isset($arc_entry['slug'])) {
+                        $arc_list[] = $arc_entry;
+                    } else {
+                        error_log("NovelController: Invalid arc entry found in " . $arcs_json_path . ". Missing title or slug.");
+                    }
+                }
+            } else {
+                error_log("NovelController: JSON decode error for " . $arcs_json_path . ": " . json_last_error_msg());
+            }
+        } else {
+            error_log("NovelController: arcs.json DOES NOT exist at " . $arcs_json_path);
+        }
+
+        $view_data = [
+            'novel_title' => $novel_data['title'] ?? 'Novel Tidak Ditemukan',
+            'novel_summary' => $novel_data['summary'] ?? 'Ringkasan Tidak Ditemukan',
+            'novel_slug' => $novel_slug,
+            'arcs' => $arc_list,
+            'app_base_url' => $app_base_url,
+            'BASE' => $f3->get('BASE')
+        ];
+        extract($view_data);
+
+        include $f3->get('ROOT') . '/application/views/templates/header.php';
+        include $f3->get('ROOT') . '/application/views/novel/novel_index_view.php';
+        include $f3->get('ROOT') . '/application/views/templates/footer.php';
+    }
+
+    function list_novel_arcs($f3, $params) {
         global $app_base_url;
 
         $novel_slug = $params['novel_slug'];
