@@ -13,9 +13,24 @@ class NovelController {
             $decoded_novels = json_decode($json_content, true);
 
             if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novels)) {
-                // Validate each novel entry
+                // Validate each novel entry and fetch summary from index.json
                 foreach ($decoded_novels as $novel_entry) {
                     if (isset($novel_entry['title']) && isset($novel_entry['slug']) && isset($novel_entry['url'])) {
+                        $novel_slug = $novel_entry['slug'];
+                        $novel_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/index.json';
+                        $novel_entry['summary'] = 'Ringkasan belum tersedia.'; // Default summary
+
+                        if (file_exists($novel_index_path)) {
+                            $index_content = file_get_contents($novel_index_path);
+                            $decoded_index = json_decode($index_content, true);
+                            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_index) && isset($decoded_index['summary'])) {
+                                $novel_entry['summary'] = $decoded_index['summary'];
+                            } else {
+                                error_log("NovelController: Invalid novel index data for " . $novel_slug . ". Missing summary or JSON decode error: " . json_last_error_msg());
+                            }
+                        } else {
+                            error_log("NovelController: index.json for novel " . $novel_slug . " DOES NOT exist at " . $novel_index_path);
+                        }
                         $novels[] = $novel_entry;
                     } else {
                         error_log("NovelController: Invalid novel entry found in " . $novels_json_path . ". Missing title, slug, or url.");
