@@ -10,17 +10,17 @@
 
         <div class="post-header mb-4 p-3 border rounded">
             <div class="mb-2">
-                <small class="text-muted d-block mb-1">
+                <small class="text-muted d-block mb-1 lh-base">
                     <ion-icon name="book-outline"></ion-icon> Novel: <?= $novel_title ?>
                 </small>
-                <small class="text-muted d-block mb-1">
+                <small class="text-muted d-block mb-1 lh-base">
                     <ion-icon name="layers-outline"></ion-icon> Arc: <?= $arc_title ?>
                 </small>
-                <small class="text-muted d-block">
+                <small class="text-muted d-block lh-base">
                     <ion-icon name="document-text-outline"></ion-icon> Chapter: <?= $chapter_title ?>
                 </small>
             </div>
-            <p class="lead text-start mb-0">
+            <p class="lead text-start mb-0 lh-base">
                 <?= $chapter_summary ?>
             </p>
         </div>
