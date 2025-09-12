@@ -109,9 +109,9 @@ class NovelController {
                                 error_log("NovelController: Invalid arc entry found in " . $arcs_json_path . ". Missing title or slug.");
                             }
                         }
+                    } else {
+                        error_log("NovelController: JSON decode error for " . $arcs_json_path . ": " . json_last_error_msg() . ". Content: " . substr($json_content, 0, 200));
                     }
-                } else {
-                    error_log("NovelController: JSON decode error for " . $arcs_json_path . ": " . json_last_error_msg() . ". Content: " . substr($json_content, 0, 200));
                 }
             } else {
                 error_log("NovelController: arcs.json DOES NOT exist at " . $arcs_json_path);

@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.64.0 - Perbaikan Syntax Error di NovelController.php
+*Tanggal: 2025-09-12*
+
+- **Perbaikan**: Memperbaiki syntax error `unexpected token "else"` di `app/controllers/NovelController.php` pada baris 113 dengan memindahkan blok `else` ke posisi yang benar.
+
+---
+
 ## v0.63.0 - Penambahan Dokumentasi Dunia
 *Tanggal: 2025-09-10*
 
