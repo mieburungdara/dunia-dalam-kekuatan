@@ -9,7 +9,7 @@
         <h1 class="title mb-2"><?= $scene_name ?></h1>
 
         <div class="mb-4">
-            <div class="text-center mb-3">
+            <div class="mb-3">
                 <small class="text-muted d-block">
                     <ion-icon name="book-outline"></ion-icon> Novel: <?= $novel_title ?>
                 </small>
@@ -20,7 +20,7 @@
                     <ion-icon name="document-text-outline"></ion-icon> Chapter: <?= $chapter_title ?>
                 </small>
             </div>
-            <p class="lead text-center mb-0 lh-base">
+            <p class="lead mb-0 lh-base">
                 <?= $chapter_summary ?>
             </p>
         </div>
