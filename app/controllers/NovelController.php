@@ -64,36 +64,61 @@ class NovelController {
         $arcs_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/arcs.json';
 
         $novel_data = [];
-        if (file_exists($novel_index_path)) {
-            $decoded_novel_data = json_decode(file_get_contents($novel_index_path), true);
-            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novel_data) && isset($decoded_novel_data['title']) && isset($decoded_novel_data['summary'])) {
-                $novel_data = $decoded_novel_data;
+        try {
+            if (file_exists($novel_index_path)) {
+                $json_content = file_get_contents($novel_index_path);
+                if ($json_content === false) {
+                    error_log("NovelController: Failed to read novel index.json at " . $novel_index_path);
+                    $f3->error(500, 'Failed to read novel data.');
+                    return;
+                }
+                $decoded_novel_data = json_decode($json_content, true);
+                if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novel_data) && isset($decoded_novel_data['title']) && isset($decoded_novel_data['summary'])) {
+                    $novel_data = $decoded_novel_data;
+                } else {
+                    error_log("NovelController: Invalid novel index data in " . $novel_index_path . ". Missing title or summary, or JSON decode error: " . json_last_error_msg() . ". Content: " . substr($json_content, 0, 200));
+                    $f3->error(500, 'Invalid novel data structure.');
+                    return;
+                }
             } else {
-                error_log("NovelController: Invalid novel index data in " . $novel_index_path . ". Missing title or summary, or JSON decode error: " . json_last_error_msg());
+                error_log("NovelController: Novel index.json DOES NOT exist at " . $novel_index_path);
+                $f3->error(404, 'Novel not found.');
+                return;
             }
-        } else {
-            error_log("NovelController: Novel index.json DOES NOT exist at " . $novel_index_path);
-            $f3->error(404, 'Novel not found.');
+        } catch (Exception $e) {
+            error_log("NovelController: Exception while processing novel index.json: " . $e->getMessage());
+            $f3->error(500, 'An unexpected error occurred while loading novel data.');
             return;
         }
 
+
         $arc_list = [];
-        if (file_exists($arcs_json_path)) {
-            $json_content = file_get_contents($arcs_json_path);
-            $decoded_arcs = json_decode($json_content, true);
-            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_arcs)) {
-                foreach ($decoded_arcs as $arc_entry) {
-                    if (isset($arc_entry['title']) && isset($arc_entry['slug'])) {
-                        $arc_list[] = $arc_entry;
-                    } else {
-                        error_log("NovelController: Invalid arc entry found in " . $arcs_json_path . ". Missing title or slug.");
+        try {
+            if (file_exists($arcs_json_path)) {
+                $json_content = file_get_contents($arcs_json_path);
+                if ($json_content === false) {
+                    error_log("NovelController: Failed to read arcs.json at " . $arcs_json_path);
+                    // Continue without arcs, don't fatal error
+                } else {
+                    $decoded_arcs = json_decode($json_content, true);
+                    if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_arcs)) {
+                        foreach ($decoded_arcs as $arc_entry) {
+                            if (isset($arc_entry['title']) && isset($arc_entry['slug'])) {
+                                $arc_list[] = $arc_entry;
+                            } else {
+                                error_log("NovelController: Invalid arc entry found in " . $arcs_json_path . ". Missing title or slug.");
+                            }
+                        }
                     }
+                } else {
+                    error_log("NovelController: JSON decode error for " . $arcs_json_path . ": " . json_last_error_msg() . ". Content: " . substr($json_content, 0, 200));
                 }
             } else {
-                error_log("NovelController: JSON decode error for " . $arcs_json_path . ": " . json_last_error_msg());
+                error_log("NovelController: arcs.json DOES NOT exist at " . $arcs_json_path);
             }
-        } else {
-            error_log("NovelController: arcs.json DOES NOT exist at " . $arcs_json_path);
+        } catch (Exception $e) {
+            error_log("NovelController: Exception while processing arcs.json: " . $e->getMessage());
+            // Continue without arcs, don't fatal error
         }
 
         $view_data = [
