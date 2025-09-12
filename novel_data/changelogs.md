@@ -4,6 +4,13 @@ Semua perubahan signifikan pada proyek ini akan dicatat di file ini.
 
 ---
 
+## v0.66.0 - Perbaikan Registrasi Service Worker
+*Tanggal: 2025-09-12*
+
+- **Perbaikan**: Memperbaiki registrasi service worker di `assets/mobilekit/assets/js/base.js` agar mengarah ke `service-worker.js` di root direktori dengan scope yang benar.
+
+---
+
 ## v0.65.0 - Perbaikan Meta Tag Deprecated
 *Tanggal: 2025-09-12*
 
