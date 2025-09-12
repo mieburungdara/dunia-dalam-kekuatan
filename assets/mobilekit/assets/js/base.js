@@ -8,6 +8,58 @@
 ///////////////////////////////////////////////////////////////////////////
 
 
+///////////////////////////////////////////////////////////////////////////
+// Reading Progress Bar
+$(document).ready(function() {
+    const progressBar = document.getElementById('readingProgressBar');
+    if (progressBar) {
+        window.addEventListener('scroll', () => {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (scrollTop / scrollHeight) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+    }
+});
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+// Font Size Controls
+$(document).ready(function() {
+    const postBody = $('.blog-post .post-body');
+    const increaseFontSizeBtn = $('#increaseFontSize');
+    const decreaseFontSizeBtn = $('#decreaseFontSize');
+
+    if (postBody.length && increaseFontSizeBtn.length && decreaseFontSizeBtn.length) {
+        const storageKey = 'novelReaderFontSize';
+        let currentFontSize = parseFloat(localStorage.getItem(storageKey)) || 16; // Default font size
+        const minFontSize = 12;
+        const maxFontSize = 24;
+
+        // Apply stored font size on load
+        postBody.css('font-size', currentFontSize + 'px');
+
+        increaseFontSizeBtn.on('click', function() {
+            if (currentFontSize < maxFontSize) {
+                currentFontSize += 1;
+                postBody.css('font-size', currentFontSize + 'px');
+                localStorage.setItem(storageKey, currentFontSize);
+            }
+        });
+
+        decreaseFontSizeBtn.on('click', function() {
+            if (currentFontSize > minFontSize) {
+                currentFontSize -= 1;
+                postBody.css('font-size', currentFontSize + 'px');
+                localStorage.setItem(storageKey, currentFontSize);
+            }
+        });
+    }
+});
+///////////////////////////////////////////////////////////////////////////
+
+
 
 
 
