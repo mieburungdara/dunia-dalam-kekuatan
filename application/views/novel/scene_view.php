@@ -8,19 +8,19 @@
     <div class="blog-post">
         <h1 class="title mb-2"><?= $scene_name ?></h1>
 
-        <div class="post-header mb-3">
-            <div class="d-flex justify-content-between align-items-center mb-2">
-                <small class="text-muted">
+        <div class="post-header mb-4 p-3 border rounded">
+            <div class="mb-2">
+                <small class="text-muted d-block mb-1">
                     <ion-icon name="book-outline"></ion-icon> Novel: <?= $novel_title ?>
                 </small>
-                <small class="text-muted">
+                <small class="text-muted d-block mb-1">
                     <ion-icon name="layers-outline"></ion-icon> Arc: <?= $arc_title ?>
                 </small>
-                <small class="text-muted">
+                <small class="text-muted d-block">
                     <ion-icon name="document-text-outline"></ion-icon> Chapter: <?= $chapter_title ?>
                 </small>
             </div>
-            <p class="lead text-center">
+            <p class="lead text-start mb-0">
                 <?= $chapter_summary ?>
             </p>
         </div>
