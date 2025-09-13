@@ -1,3 +1,10 @@
+## v0.70.3 - Perbaikan Spesifisitas Warna Header
+*Tanggal: 2025-09-13*
+
+- **Perbaikan**: Memperbaiki masalah warna header dengan menambahkan aturan CSS dengan spesifisitas lebih tinggi (`.appHeader.scrolled.bg-primary.is-active`) untuk menimpa gaya bawaan tema yang paling kuat sekalipun.
+
+---
+
 ## v0.70.2 - Perbaikan Warna Header
 *Tanggal: 2025-09-13*
 

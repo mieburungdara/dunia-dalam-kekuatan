@@ -32,7 +32,7 @@ body.dark-mode {
 /* --- Component Specific Overrides --- */
 
 /* Force AppHeader to use our theme color, as it seems to ignore the variable override. */
-.appHeader.scrolled, .appHeader.bg-primary {
+.appHeader.scrolled, .appHeader.bg-primary, .appHeader.scrolled.bg-primary.is-active {
     background-color: var(--bs-primary) !important;
 }
 
