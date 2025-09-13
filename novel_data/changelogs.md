@@ -1,3 +1,10 @@
+## v0.69.1 - Perbaikan Latar Belakang Mode Gelap
+*Tanggal: 2025-09-13*
+
+- **Perbaikan**: Memperbaiki bug di mana latar belakang utama tidak menjadi gelap saat mode gelap diaktifkan. Aturan CSS ditambahkan untuk memastikan `#appCapsule` memiliki latar belakang transparan dalam mode gelap.
+
+---
+
 ## v0.69.0 - Penyegaran Tampilan Pembaca Novel (Tema Perkamen)
 *Tanggal: 2025-09-13*
 

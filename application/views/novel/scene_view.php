@@ -141,6 +141,9 @@
     body.dark-mode {
         background: #1e1a14 !important;
     }
+    body.dark-mode #appCapsule {
+        background: transparent !important;
+    }
     #appCapsule {
         padding-top: 16px;
     }
