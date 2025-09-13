@@ -264,6 +264,13 @@
         border-color: var(--theme-secondary-dark);
         color: var(--theme-secondary-dark);
     }
+    .fab {
+        background-color: var(--theme-primary-light) !important;
+    }
+    body.dark-mode .fab {
+        background-color: var(--theme-primary-dark) !important;
+        color: #1e1a14 !important;
+    }
 </style>
 
 <script>

@@ -1,3 +1,10 @@
+## v0.69.3 - Penyesuaian Skema Warna (Menghilangkan Biru)
+*Tanggal: 2025-09-13*
+
+- **Perbaikan**: Menghilangkan sisa warna biru dari skema warna lama pada bilah progres dan tombol apung (FAB), diganti dengan warna dari tema perkamen untuk konsistensi visual.
+
+---
+
 ## v0.69.2 - Refactor Tampilan Pembaca (Menghilangkan Card)
 *Tanggal: 2025-09-13*
 
