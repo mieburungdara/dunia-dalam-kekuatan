@@ -1,3 +1,10 @@
+## v0.70.1 - Refactor Implementasi Tema Global
+*Tanggal: 2025-09-13*
+
+- **Refactor**: Merombak `custom.css` untuk menimpa variabel CSS inti (`--bs-primary`, dll.) milik framework, sesuai saran pengguna. Ini adalah metode yang lebih efisien dan bersih untuk menerapkan tema global dibandingkan menimpa setiap komponen secara individual.
+
+---
+
 ## v0.70.0 - Implementasi Tema Global (Parchment)
 *Tanggal: 2025-09-13*
 
