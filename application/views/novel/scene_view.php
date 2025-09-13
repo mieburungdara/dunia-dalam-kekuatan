@@ -135,40 +135,42 @@
         --theme-secondary-dark: #8a7a5f;
     }
     body {
-        background: #e6e0d4 !important; /* A slightly darker backdrop */
-        transition: background 0.3s;
+        background: var(--reader-bg-light) !important;
+        color: var(--reader-text-light);
+        transition: background 0.3s, color 0.3s;
     }
     body.dark-mode {
-        background: #1e1a14 !important;
-    }
-    body.dark-mode #appCapsule {
-        background: transparent !important;
+        background: var(--reader-bg-dark) !important;
+        color: var(--reader-text-dark);
     }
     #appCapsule {
         padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        background: transparent !important;
     }
     .blog-post {
-        background: var(--reader-bg-light);
-        color: var(--reader-text-light);
-        padding: 24px;
-        border-radius: 3px;
-        box-shadow: inset 0 0 15px rgba(0,0,0,0.1), 0 2px 5px rgba(0,0,0,0.1);
-        border: 1px solid #d1c7b3;
-        transition: background 0.3s, color 0.3s, border-color 0.3s;
+        background: transparent;
+        color: inherit;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+        border: none;
+        transition: none;
     }
     body.dark-mode .blog-post {
-        background: var(--reader-bg-dark);
-        color: var(--reader-text-dark);
-        border-color: var(--reader-border-dark);
-        box-shadow: inset 0 0 25px rgba(0,0,0,0.3);
+        background: transparent;
+        color: inherit;
+        border-color: transparent;
+        box-shadow: none;
     }
     .blog-post .title {
         font-weight: 700;
         font-family: 'Georgia', serif; /* More thematic title font */
-        color: var(--reader-text-light);
+        color: inherit;
     }
     body.dark-mode .blog-post .title {
-        color: var(--reader-text-dark);
+        color: inherit;
     }
     .story-meta {
         display: flex;

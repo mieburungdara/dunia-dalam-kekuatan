@@ -1,3 +1,10 @@
+## v0.69.2 - Refactor Tampilan Pembaca (Menghilangkan Card)
+*Tanggal: 2025-09-13*
+
+- **Refactor**: Menghilangkan `card` atau kontainer kotak pada tampilan pembaca. Teks sekarang mengalir langsung di atas latar belakang halaman untuk tampilan yang lebih luas dan menyatu, sambil mempertahankan skema warna perkamen.
+
+---
+
 ## v0.69.1 - Perbaikan Latar Belakang Mode Gelap
 *Tanggal: 2025-09-13*
 
