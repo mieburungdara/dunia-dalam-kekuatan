@@ -118,18 +118,28 @@
 <!-- ========= JS & CSS ========= -->
 <style>
     :root {
-        --reader-bg-light: #FFFFFF;
-        --reader-text-light: #212529;
-        --reader-meta-light: #6c757d;
-        --reader-border-light: #e9ecef;
+        /* Light Theme - Parchment */
+        --reader-bg-light: #f5f1e8;
+        --reader-text-light: #4a4130;
+        --reader-meta-light: #8a7a5f;
+        --reader-border-light: #d1c7b3;
+        --theme-primary-light: #8c4834; /* Rustic red/brown */
+        --theme-secondary-light: #a09278;
 
-        --reader-bg-dark: #2a2a2a;
-        --reader-text-dark: #e1e1e1;
-        --reader-meta-dark: #a0a0a0;
-        --reader-border-dark: #444444;
+        /* Dark Theme - Ancient Scroll */
+        --reader-bg-dark: #2f2a20;
+        --reader-text-dark: #dcd1b9;
+        --reader-meta-dark: #a09278;
+        --reader-border-dark: #4a4130;
+        --theme-primary-dark: #c88c78;
+        --theme-secondary-dark: #8a7a5f;
+    }
+    body {
+        background: #e6e0d4 !important; /* A slightly darker backdrop */
+        transition: background 0.3s;
     }
     body.dark-mode {
-        background: #121212 !important;
+        background: #1e1a14 !important;
     }
     #appCapsule {
         padding-top: 16px;
@@ -138,16 +148,24 @@
         background: var(--reader-bg-light);
         color: var(--reader-text-light);
         padding: 24px;
-        border-radius: 12px;
-        box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-        transition: background 0.3s, color 0.3s;
+        border-radius: 3px;
+        box-shadow: inset 0 0 15px rgba(0,0,0,0.1), 0 2px 5px rgba(0,0,0,0.1);
+        border: 1px solid #d1c7b3;
+        transition: background 0.3s, color 0.3s, border-color 0.3s;
     }
     body.dark-mode .blog-post {
         background: var(--reader-bg-dark);
         color: var(--reader-text-dark);
+        border-color: var(--reader-border-dark);
+        box-shadow: inset 0 0 25px rgba(0,0,0,0.3);
     }
     .blog-post .title {
         font-weight: 700;
+        font-family: 'Georgia', serif; /* More thematic title font */
+        color: var(--reader-text-light);
+    }
+    body.dark-mode .blog-post .title {
+        color: var(--reader-text-dark);
     }
     .story-meta {
         display: flex;
@@ -171,8 +189,37 @@
     }
     .post-body {
         line-height: 1.8;
-        font-size: 16px; /* Base font size, will be controlled by JS */
+        font-size: 16px;
         transition: font-size 0.2s, font-family 0.2s;
+    }
+    /* Thematic Buttons */
+    .navigation-buttons .btn-primary, .navigation-buttons .btn-primary:hover {
+        background-color: var(--theme-primary-light);
+        border-color: var(--theme-primary-light);
+        color: #fff;
+    }
+    body.dark-mode .navigation-buttons .btn-primary, body.dark-mode .navigation-buttons .btn-primary:hover {
+        background-color: var(--theme-primary-dark);
+        border-color: var(--theme-primary-dark);
+        color: #1e1a14;
+    }
+    .navigation-buttons .btn-secondary, .navigation-buttons .btn-secondary:hover {
+        background-color: var(--theme-secondary-light);
+        border-color: var(--theme-secondary-light);
+        color: #fff;
+    }
+     body.dark-mode .navigation-buttons .btn-secondary, body.dark-mode .navigation-buttons .btn-secondary:hover {
+        background-color: var(--theme-secondary-dark);
+        border-color: var(--theme-secondary-dark);
+        color: #1e1a14;
+    }
+    .navigation-buttons .btn-outline-primary {
+        border-color: var(--theme-primary-light);
+        color: var(--theme-primary-light);
+    }
+    body.dark-mode .navigation-buttons .btn-outline-primary {
+        border-color: var(--theme-primary-dark);
+        color: var(--theme-primary-dark);
     }
     .navigation-buttons .btn {
         font-weight: 600;
@@ -187,17 +234,30 @@
         justify-content: space-between;
         align-items: center;
     }
+    /* Thematic Progress Bar */
     #readingProgressBar {
-        /* The header in mobilekit is around 56px tall */
         top: 56px !important;
-        background-image: linear-gradient(to right, #007bff, #00c6ff);
+        background-image: linear-gradient(to right, var(--theme-primary-light), var(--theme-secondary-light));
     }
     body.dark-mode #readingProgressBar {
-        background-image: linear-gradient(to right, #0dcaf0, #0d6efd);
+        background-image: linear-gradient(to right, var(--theme-primary-dark), var(--theme-secondary-dark));
     }
+    /* Thematic Active Button in Settings */
     #settingsModal .btn-group .btn.active {
-        background-color: var(--bs-primary);
+        background-color: var(--theme-primary-light);
         color: #fff;
+    }
+    body.dark-mode #settingsModal .btn-group .btn.active {
+        background-color: var(--theme-primary-dark);
+        color: #1e1a14;
+    }
+    #settingsModal .btn-outline-secondary {
+        border-color: var(--theme-secondary-light);
+        color: var(--theme-secondary-light);
+    }
+    body.dark-mode #settingsModal .btn-outline-secondary {
+        border-color: var(--theme-secondary-dark);
+        color: var(--theme-secondary-dark);
     }
 </style>
 
