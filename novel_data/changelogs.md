@@ -1,3 +1,10 @@
+## v0.70.2 - Perbaikan Warna Header
+*Tanggal: 2025-09-13*
+
+- **Perbaikan**: Memperbaiki masalah di mana `.appHeader` tidak mengikuti skema warna tema. Aturan CSS spesifik ditambahkan ke `custom.css` untuk secara eksplisit mengatur warna latar belakang header.
+
+---
+
 ## v0.70.1 - Refactor Implementasi Tema Global
 *Tanggal: 2025-09-13*
 

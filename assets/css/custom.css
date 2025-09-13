@@ -31,6 +31,11 @@ body.dark-mode {
 
 /* --- Component Specific Overrides --- */
 
+/* Force AppHeader to use our theme color, as it seems to ignore the variable override. */
+.appHeader.scrolled, .appHeader.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
 /* Make header text contrast with new primary color */
 .appHeader .headerButton,
 .appHeader .pageTitle {
