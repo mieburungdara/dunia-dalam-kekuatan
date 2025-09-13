@@ -1,0 +1,4 @@
+feat: Restrukturisasi Data Bab dan Adegan "Kisah Pilu Pencuci Pisau"
+
+Memindahkan `bab_1.md` ke struktur direktori yang sesuai untuk antarmuka web.
+Membuat file JSON untuk bab dan adegan, serta memperbarui metadata novel dan seri.
