@@ -1,0 +1,204 @@
+:root {
+    /* Light Theme - Parchment */
+    --reader-bg-light: #f5f1e8;
+    --reader-text-light: #4a4130;
+    --reader-meta-light: #8a7a5f;
+    --reader-border-light: #d1c7b3;
+    --theme-primary-light: #8c4834; /* Rustic red/brown */
+    --theme-secondary-light: #a09278;
+
+    /* Dark Theme - Ancient Scroll */
+    --reader-bg-dark: #2f2a20;
+    --reader-text-dark: #dcd1b9;
+    --reader-meta-dark: #a09278;
+    --reader-border-dark: #4a4130;
+    --theme-primary-dark: #c88c78;
+    --theme-secondary-dark: #8a7a5f;
+}
+body {
+    background: var(--reader-bg-light) !important;
+    color: var(--reader-text-light);
+    transition: background 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background: var(--reader-bg-dark) !important;
+    color: var(--reader-text-dark);
+}
+#appCapsule {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: transparent !important;
+}
+/* Reader-specific styles */
+.blog-post {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    transition: none;
+}
+body.dark-mode .blog-post {
+    background: transparent;
+    color: inherit;
+    border-color: transparent;
+    box-shadow: none;
+}
+.blog-post .title {
+    font-weight: 700;
+    font-family: 'Georgia', serif; /* More thematic title font */
+    color: inherit;
+}
+body.dark-mode .blog-post .title {
+    color: inherit;
+}
+.story-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    font-size: 0.85rem;
+    color: var(--reader-meta-light);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--reader-border-light);
+    transition: color 0.3s, border-color 0.3s;
+}
+body.dark-mode .story-meta {
+    color: var(--reader-meta-dark);
+    border-bottom-color: var(--reader-border-dark);
+}
+.story-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.post-body {
+    line-height: 1.8;
+    font-size: 16px;
+    transition: font-size 0.2s, font-family 0.2s;
+}
+
+/* --- Global Thematic Styles --- */
+
+/* App Header */
+.appHeader.scrolled, .appHeader.bg-primary {
+    background-color: var(--theme-primary-light) !important;
+}
+body.dark-mode .appHeader.scrolled, body.dark-mode .appHeader.bg-primary {
+    background-color: var(--theme-primary-dark) !important;
+}
+.appHeader .headerButton {
+    color: #fff !important;
+}
+body.dark-mode .appHeader .headerButton {
+    color: #1e1a14 !important;
+}
+.pageTitle {
+    color: #fff !important;
+}
+body.dark-mode .pageTitle {
+    color: #1e1a14 !important;
+}
+
+
+/* Buttons */
+.btn-primary, .btn-primary:hover {
+    background-color: var(--theme-primary-light) !important;
+    border-color: var(--theme-primary-light) !important;
+    color: #fff !important;
+}
+body.dark-mode .btn-primary, body.dark-mode .btn-primary:hover {
+    background-color: var(--theme-primary-dark) !important;
+    border-color: var(--theme-primary-dark) !important;
+    color: #1e1a14 !important;
+}
+.btn-secondary, .btn-secondary:hover {
+    background-color: var(--theme-secondary-light) !important;
+    border-color: var(--theme-secondary-light) !important;
+    color: #fff !important;
+}
+ body.dark-mode .btn-secondary, body.dark-mode .btn-secondary:hover {
+    background-color: var(--theme-secondary-dark) !important;
+    border-color: var(--theme-secondary-dark) !important;
+    color: #1e1a14 !important;
+}
+.btn-outline-primary {
+    border-color: var(--theme-primary-light) !important;
+    color: var(--theme-primary-light) !important;
+}
+body.dark-mode .btn-outline-primary {
+    border-color: var(--theme-primary-dark) !important;
+    color: var(--theme-primary-dark) !important;
+}
+.navigation-buttons .btn {
+    font-weight: 600;
+    border-radius: 8px;
+}
+.navigation-buttons .btn ion-icon {
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+/* Sidebar */
+#sidebarPanel .profileBox {
+    background-color: var(--theme-primary-light) !important;
+}
+body.dark-mode #sidebarPanel .profileBox {
+    background-color: var(--theme-primary-dark) !important;
+}
+#sidebarPanel .profileBox .in strong {
+    color: #fff !important;
+}
+body.dark-mode #sidebarPanel .profileBox .in strong {
+    color: #1e1a14 !important;
+}
+#sidebarPanel .listview .icon-box {
+    background-color: var(--theme-primary-light) !important;
+}
+body.dark-mode #sidebarPanel .listview .icon-box {
+    background-color: var(--theme-primary-dark) !important;
+}
+
+
+/* Settings Modal */
+#settingsModal .listview li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#settingsModal .btn-group .btn.active {
+    background-color: var(--theme-primary-light);
+    color: #fff;
+}
+body.dark-mode #settingsModal .btn-group .btn.active {
+    background-color: var(--theme-primary-dark);
+    color: #1e1a14;
+}
+#settingsModal .btn-outline-secondary {
+    border-color: var(--theme-secondary-light);
+    color: var(--theme-secondary-light);
+}
+body.dark-mode #settingsModal .btn-outline-secondary {
+    border-color: var(--theme-secondary-dark);
+    color: var(--theme-secondary-dark);
+}
+
+/* FAB */
+.fab {
+    background-color: var(--theme-primary-light) !important;
+}
+body.dark-mode .fab {
+    background-color: var(--theme-primary-dark) !important;
+    color: #1e1a14 !important;
+}
+
+/* Progress Bar */
+#readingProgressBar {
+    top: 56px !important;
+    background-image: linear-gradient(to right, var(--theme-primary-light), var(--theme-secondary-light));
+}
+body.dark-mode #readingProgressBar {
+    background-image: linear-gradient(to right, var(--theme-primary-dark), var(--theme-secondary-dark));
+}
