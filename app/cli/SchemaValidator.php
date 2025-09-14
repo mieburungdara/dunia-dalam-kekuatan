@@ -49,9 +49,7 @@ class SchemaValidator
             echo "Validation successful: series_meta.json is valid!\n";
         } else {
             echo "Validation failed for series_meta.json:\n";
-            foreach ($result->getErrors() as $error) {
-                echo " - " . $error->message . " at /" . implode("/", $error->dataPointer) . "\n";
-            }
+            echo (string)$result . "\n"; // Use (string)$result to get error details
         }
         echo "\n-----------------------------------\n";
     }

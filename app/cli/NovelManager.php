@@ -101,7 +101,7 @@ class NovelManager
         $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
         $text = preg_replace('~[^-w_]+u~u', '', $text);
         $text = trim($text, '-');
-        $text = preg_replace('~-+~~', '-', $text);
+        $text = preg_replace('~-+~', '-', $text);
         $text = strtolower($text);
 
         if (empty($text)) {

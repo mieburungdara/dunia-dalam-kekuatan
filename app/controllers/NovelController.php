@@ -38,7 +38,6 @@ class NovelController {
                         $novels[] = $novel_entry;
                     }
                 } else {
-                    } else {
                     $error_details = (string)$result;
                     error_log("NovelController: Validation error for " . $series_meta_json_path . ": " . $error_details);
                     $view_data = [
