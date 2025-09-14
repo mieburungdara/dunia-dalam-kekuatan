@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Controllers;
+
 class FaqController {
 
     function show_faq($f3, $params) {

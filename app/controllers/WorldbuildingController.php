@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Controllers;
+
 class WorldbuildingController {
 
     public function index($f3) {

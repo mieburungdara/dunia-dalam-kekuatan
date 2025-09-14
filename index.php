@@ -33,14 +33,14 @@ $f3->set('UI', 'application/views/'); // Beri tahu F3 di mana folder view berada
 $f3->set('AUTOLOAD', 'app/'); // Tambahkan folder app ke autoloader
 
 // Rute untuk Novel
-$f3->route('GET /novel', 'NovelController->list_novels');
-$f3->route('GET /novel/@novel_slug', 'NovelController->show_novel_index');
-$f3->route('GET /novel/@novel_slug/arcs', 'NovelController->list_novel_arcs');
-$f3->route('GET /novel/@novel_slug/@arc_name', 'NovelController->show_arc_chapters');
-$f3->route('GET /novel/@novel_slug/@arc_name/@chapter_name', 'NovelController->show_chapter_scenes');
+$f3->route('GET /novel', '\App\Controllers\NovelController->list_novels');
+$f3->route('GET /novel/@novel_slug', '\App\Controllers\NovelController->show_novel_index');
+$f3->route('GET /novel/@novel_slug/arcs', '\App\Controllers\NovelController->list_novel_arcs');
+$f3->route('GET /novel/@novel_slug/@arc_name', '\App\Controllers\NovelController->show_arc_chapters');
+$f3->route('GET /novel/@novel_slug/@arc_name/@chapter_name', '\App\Controllers\NovelController->show_chapter_scenes');
 
 // Rute baru untuk membaca adegan dengan URL yang lebih bersih
-$f3->route('GET /read/@novel_slug/@arc_name/@chapter_name/@scene_name', 'NovelController->show_scene');
+$f3->route('GET /read/@novel_slug/@arc_name/@chapter_name/@scene_name', '\App\Controllers\NovelController->show_scene');
 
 // Definisikan rute untuk halaman utama
 $f3->route('GET /',
@@ -73,16 +73,16 @@ $f3->route('GET /',
 
 // Jalankan framework
 // Definisikan rute untuk halaman placeholder
-$f3->route('GET /faq', 'FaqController->list_faq_categories');
-$f3->route('GET /faq/@category', 'FaqController->list_faqs_in_category');
-$f3->route('GET /faq/@category/@faq_name', 'FaqController->show_faq');
+$f3->route('GET /faq', '\App\Controllers\FaqController->list_faq_categories');
+$f3->route('GET /faq/@category', '\App\Controllers\FaqController->list_faqs_in_category');
+$f3->route('GET /faq/@category/@faq_name', '\App\Controllers\FaqController->show_faq');
 
 // Rute untuk Worldbuilding
-$f3->route('GET /worldbuilding', 'WorldbuildingController->index');
-$f3->route('GET /worldbuilding/@file', 'WorldbuildingController->show');
+$f3->route('GET /worldbuilding', '\App\Controllers\WorldbuildingController->index');
+$f3->route('GET /worldbuilding/@file', '\App\Controllers\WorldbuildingController->show');
 
 // Rute untuk Visualisasi Relasi Karakter
-$f3->route('GET /character-relationships', 'NovelController->show_character_relationships');
+$f3->route('GET /character-relationships', '\App\Controllers\NovelController->show_character_relationships');
 
 $placeholder_pages = ['baca', 'karakter', 'glosarium'];
 foreach ($placeholder_pages as $page) {
