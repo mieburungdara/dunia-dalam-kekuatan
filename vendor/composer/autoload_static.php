@@ -21,10 +21,20 @@ class ComposerStaticInit82f45071e91d5675561dbf6ffa155319
         array (
             'PhpParser\\' => 10,
         ),
+        'O' => 
+        array (
+            'Opis\\Uri\\' => 9,
+            'Opis\\String\\' => 12,
+            'Opis\\JsonSchema\\' => 16,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -37,6 +47,18 @@ class ComposerStaticInit82f45071e91d5675561dbf6ffa155319
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'Opis\\Uri\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/opis/uri/src',
+        ),
+        'Opis\\String\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/opis/string/src',
+        ),
+        'Opis\\JsonSchema\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/opis/json-schema/src',
+        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -44,6 +66,10 @@ class ComposerStaticInit82f45071e91d5675561dbf6ffa155319
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

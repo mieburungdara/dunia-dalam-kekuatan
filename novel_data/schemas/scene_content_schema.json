@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Scene Content Schema",
+    "description": "Schema for individual scene content files.",
+    "type": "object",
+    "required": ["Meta", "Chapters"],
+    "properties": {
+        "Meta": {
+            "type": "object",
+            "required": ["Title"],
+            "properties": {
+                "Title": {
+                    "type": "string",
+                    "description": "The title of the scene."
+                },
+                "Slug": {
+                    "type": "string",
+                    "description": "The slug of the scene."
+                }
+            }
+        },
+        "Chapters": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": ["Scenes"],
+                "properties": {
+                    "Scenes": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": ["Contents"],
+                            "properties": {
+                                "Contents": {
+                                    "type": "array",
+                                    "description": "The actual narrative content of the scene, an array of paragraphs or content blocks.",
+                                    "items": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

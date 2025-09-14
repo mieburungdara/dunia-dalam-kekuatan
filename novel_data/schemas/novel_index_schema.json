@@ -1,0 +1,82 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Novel Index Schema",
+    "description": "Schema for the index.json file within a novel's root directory.",
+    "type": "object",
+    "required": ["novel_id", "title", "slug", "summary"],
+    "properties": {
+        "novel_id": {
+            "type": "string",
+            "description": "Unique identifier for the novel."
+        },
+        "title": {
+            "type": "string",
+            "description": "The title of the novel."
+        },
+        "slug": {
+            "type": "string",
+            "description": "A URL-friendly identifier for the novel."
+        },
+        "series": {
+            "type": "string",
+            "description": "The series this novel belongs to."
+        },
+        "series_order": {
+            "type": ["integer", "null"],
+            "description": "The order of the novel within its series."
+        },
+        "logline": {
+            "type": "string",
+            "description": "A one-sentence summary of the novel."
+        },
+        "synopsis": {
+            "type": "string",
+            "description": "A detailed summary of the novel's plot."
+        },
+        "summary": {
+            "type": "string",
+            "description": "A brief summary of the novel, used for display."
+        },
+        "genre": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Genres of the novel."
+        },
+        "target_audience": {
+            "type": "string",
+            "description": "The intended audience for the novel."
+        },
+        "themes": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Main themes explored in the novel."
+        },
+        "main_characters": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "List of main characters in the novel."
+        },
+        "arcs": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "List of slugs for arcs within this novel."
+        },
+        "world_setting": {
+            "type": "string",
+            "description": "Description of the world setting."
+        },
+        "key_conflicts": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Key conflicts in the novel."
+        },
+        "resolution": {
+            "type": "string",
+            "description": "The resolution of the novel."
+        },
+        "notes": {
+            "type": "string",
+            "description": "Any additional notes for the novel."
+        }
+    }
+}

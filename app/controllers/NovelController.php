@@ -1,46 +1,53 @@
 <?php
 
+use Opis\JsonSchema\Validator;
+
 class NovelController {
 
     function list_novels($f3) {
         global $app_base_url; // Access the global variable
 
-        $novels_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/novels.json';
+        $series_meta_json_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/series_meta.json';
         $novels = [];
 
-        if (file_exists($novels_json_path)) {
-            $json_content = file_get_contents($novels_json_path);
-            $decoded_novels = json_decode($json_content, true);
+        if (file_exists($series_meta_json_path)) {
+            $json_content = file_get_contents($series_meta_json_path);
+            $decoded_series_meta = json_decode($json_content, true);
 
-            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novels)) {
-                // Validate each novel entry and fetch summary from index.json
-                foreach ($decoded_novels as $novel_entry) {
-                    if (isset($novel_entry['title']) && isset($novel_entry['slug']) && isset($novel_entry['url'])) {
-                        $novel_slug = $novel_entry['slug'];
-                        $novel_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/index.json';
-                        $novel_entry['summary'] = 'Ringkasan belum tersedia.'; // Default summary
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_series_meta)) {
+                $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/series_meta_schema.json';
+                $schema_content = file_get_contents($schema_path);
+                $schema = json_decode($schema_content);
 
-                        if (file_exists($novel_index_path)) {
-                            $index_content = file_get_contents($novel_index_path);
-                            $decoded_index = json_decode($index_content, true);
-                            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_index) && isset($decoded_index['summary'])) {
-                                $novel_entry['summary'] = $decoded_index['summary'];
-                            } else {
-                                error_log("NovelController: Invalid novel index data for " . $novel_slug . ". Missing summary or JSON decode error: " . json_last_error_msg());
-                            }
-                        } else {
-                            error_log("NovelController: index.json for novel " . $novel_slug . " DOES NOT exist at " . $novel_index_path);
-                        }
+                $validator = new Validator();
+                $result = $validator->validate($decoded_series_meta, $schema);
+
+                if ($result->isValid()) {
+                    foreach ($decoded_series_meta['series'] as $novel_entry_from_meta) {
+                        // The schema ensures these keys exist and are of the correct type
+                        $novel_slug = $novel_entry_from_meta['slug'];
+                        $novel_entry = [
+                            'title' => $novel_entry_from_meta['title'],
+                            'slug' => $novel_slug,
+                            'url' => $f3->get('BASE') . '/novel/' . $novel_slug,
+                            'summary' => $novel_entry_from_meta['description'] ?? 'Ringkasan belum tersedia.'
+                        ];
                         $novels[] = $novel_entry;
-                    } else {
-                        error_log("NovelController: Invalid novel entry found in " . $novels_json_path . ". Missing title, slug, or url.");
                     }
+                } else {
+                    $error_message = "NovelController: Validation error for " . $series_meta_json_path . ": ";
+                    foreach ($result->getErrors() as $error) {
+                        $error_message .= $error->message . " at " . implode("/", $error->dataPointer) . "; ";
+                    }
+                    error_log($error_message);
+                    // Optionally, handle this more gracefully for the user, e.g., display a generic error
+                    // For now, we'll just log and proceed with an empty novel list.
                 }
             } else {
-                error_log("NovelController: JSON decode error for " . $novels_json_path . ": " . json_last_error_msg());
+                error_log("NovelController: JSON decode error for " . $series_meta_json_path . ": " . json_last_error_msg());
             }
         } else {
-            error_log("NovelController: novels.json DOES NOT exist at " . $novels_json_path);
+            error_log("NovelController: series_meta.json DOES NOT exist at " . $series_meta_json_path);
         }
 
         // Collect variables for the view
@@ -73,10 +80,22 @@ class NovelController {
                     return;
                 }
                 $decoded_novel_data = json_decode($json_content, true);
-                if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_novel_data) && isset($decoded_novel_data['title']) && isset($decoded_novel_data['summary'])) {
+                
+                $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/novel_index_schema.json';
+                $schema_content = file_get_contents($schema_path);
+                $schema = json_decode($schema_content);
+                
+                $validator = new Validator();
+                $result = $validator->validate(json_decode($json_content), $schema);
+
+                if ($result->isValid()) {
                     $novel_data = $decoded_novel_data;
                 } else {
-                    error_log("NovelController: Invalid novel index data in " . $novel_index_path . ". Missing title or summary, or JSON decode error: " . json_last_error_msg() . ". Content: " . substr($json_content, 0, 200));
+                    $error_message = "NovelController: Validation error for " . $novel_index_path . ": ";
+                    foreach ($result->getErrors() as $error) {
+                        $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
+                    }
+                    error_log($error_message);
                     $f3->error(500, 'Invalid novel data structure.');
                     return;
                 }
@@ -147,16 +166,24 @@ class NovelController {
             $json_content = file_get_contents($arcs_json_path);
             $decoded_arcs = json_decode($json_content, true);
 
-            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_arcs)) {
+            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/arcs_schema.json';
+            $schema_content = file_get_contents($schema_path);
+            $schema = json_decode($schema_content);
+
+            $validator = new Validator();
+            $result = $validator->validate(json_decode($json_content), $schema);
+
+            if ($result->isValid()) {
                 foreach ($decoded_arcs as $arc_entry) {
-                    if (isset($arc_entry['title']) && isset($arc_entry['slug'])) {
-                        $arc_list[] = $arc_entry;
-                    } else {
-                        error_log("NovelController: Invalid arc entry found in " . $arcs_json_path . ". Missing title or slug.");
-                    }
+                    $arc_list[] = $arc_entry;
                 }
             } else {
-                error_log("NovelController: JSON decode error for " . $arcs_json_path . ": " . json_last_error_msg());
+                $error_message = "NovelController: Validation error for " . $arcs_json_path . ": ";
+                foreach ($result->getErrors() as $error) {
+                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
+                }
+                error_log($error_message);
+                // Continue without arcs, don't fatal error
             }
         } else {
             error_log("NovelController: arcs.json DOES NOT exist at " . $arcs_json_path);
@@ -199,16 +226,23 @@ class NovelController {
             $json_content = file_get_contents($chapters_json_path);
             $decoded_chapters = json_decode($json_content, true);
 
-            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_chapters)) {
+            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/chapters_schema.json';
+            $schema_content = file_get_contents($schema_path);
+            $schema = json_decode($schema_content);
+
+            $validator = new Validator();
+            $result = $validator->validate(json_decode($json_content), $schema);
+
+            if ($result->isValid()) {
                 foreach ($decoded_chapters as $chapter_entry) {
-                    if (isset($chapter_entry['title']) && isset($chapter_entry['slug'])) {
-                        $chapter_list[] = $chapter_entry;
-                    } else {
-                        error_log("NovelController: Invalid chapter entry found in " . $chapters_json_path . ". Missing title or slug.");
-                    }
+                    $chapter_list[] = $chapter_entry;
                 }
             } else {
-                error_log("NovelController: JSON decode error for " . $chapters_json_path . ": " . json_last_error_msg());
+                $error_message = "NovelController: Validation error for " . $chapters_json_path . ": ";
+                foreach ($result->getErrors() as $error) {
+                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
+                }
+                error_log($error_message);
             }
         } else {
             error_log("NovelController: chapters.json DOES NOT exist at " . $chapters_json_path);
@@ -217,11 +251,24 @@ class NovelController {
         $arc_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/index.json';
         $arc_data = [];
         if (file_exists($arc_index_path)) {
-            $decoded_arc_data = json_decode(file_get_contents($arc_index_path), true);
-            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_arc_data) && isset($decoded_arc_data['title'])) {
+            $json_content = file_get_contents($arc_index_path);
+            $decoded_arc_data = json_decode($json_content, true);
+
+            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/arc_index_schema.json';
+            $schema_content = file_get_contents($schema_path);
+            $schema = json_decode($schema_content);
+
+            $validator = new Validator();
+            $result = $validator->validate(json_decode($json_content), $schema);
+
+            if ($result->isValid()) {
                 $arc_data = $decoded_arc_data;
             } else {
-                error_log("NovelController: Invalid arc index data in " . $arc_index_path . ". Missing title, or JSON decode error: " . json_last_error_msg());
+                $error_message = "NovelController: Validation error for " . $arc_index_path . ": ";
+                foreach ($result->getErrors() as $error) {
+                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
+                }
+                error_log($error_message);
             }
         }
 
@@ -254,27 +301,33 @@ class NovelController {
             $json_content = file_get_contents($scenes_json_path);
             $decoded_scenes = json_decode($json_content, true);
 
-            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_scenes)) {
+            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/scenes_schema.json';
+            $schema_content = file_get_contents($schema_path);
+            $schema = json_decode($schema_content);
+
+            $validator = new Validator();
+            $result = $validator->validate(json_decode($json_content), $schema);
+
+            if ($result->isValid()) {
                 foreach ($decoded_scenes as &$scene) { // Gunakan reference untuk modifikasi
-                    // Validate scene entry
-                    if (isset($scene['slug']) && isset($scene['title'])) {
-                        // Tambahkan nama karakter POV jika ID ada
-                        if (isset($scene['pov_character_id'])) {
-                            $scene['pov_character_name'] = CharacterHelper::getCharacterNameById($scene['pov_character_id']);
-                        } else {
-                            $scene['pov_character_name'] = 'Tidak ditentukan'; // Default value
-                        }
-                        // Pastikan summary ada
-                        if (!isset($scene['summary'])) {
-                            $scene['summary'] = 'Ringkasan belum tersedia.'; // Default value
-                        }
-                        $scene_list[] = $scene;
+                    // Tambahkan nama karakter POV jika ID ada
+                    if (isset($scene['pov_character_id'])) {
+                        $scene['pov_character_name'] = CharacterHelper::getCharacterNameById($scene['pov_character_id']);
                     } else {
-                        error_log("NovelController: Invalid scene entry found in " . $scenes_json_path . ". Missing slug or title.");
+                        $scene['pov_character_name'] = 'Tidak ditentukan'; // Default value
                     }
+                    // Pastikan summary ada
+                    if (!isset($scene['summary'])) {
+                        $scene['summary'] = 'Ringkasan belum tersedia.'; // Default value
+                    }
+                    $scene_list[] = $scene;
                 }
             } else {
-                error_log("NovelController: JSON decode error for " . $scenes_json_path . ": " . json_last_error_msg());
+                $error_message = "NovelController: Validation error for " . $scenes_json_path . ": ";
+                foreach ($result->getErrors() as $error) {
+                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
+                }
+                error_log($error_message);
             }
         } else {
             error_log("NovelController: scenes.json DOES NOT exist at " . $scenes_json_path);
@@ -283,11 +336,24 @@ class NovelController {
         $chapter_index_path = $f3->get('ROOT') . $f3->get('BASE') . '/cerita/' . $novel_slug . '/' . $arc_name . '/' . $chapter_name . '/index.json';
         $chapter_data = [];
         if (file_exists($chapter_index_path)) {
-            $decoded_chapter_data = json_decode(file_get_contents($chapter_index_path), true);
-            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_chapter_data) && isset($decoded_chapter_data['title']) && isset($decoded_chapter_data['summary'])) {
+            $json_content = file_get_contents($chapter_index_path);
+            $decoded_chapter_data = json_decode($json_content, true);
+
+            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/chapter_index_schema.json';
+            $schema_content = file_get_contents($schema_path);
+            $schema = json_decode($schema_content);
+
+            $validator = new Validator();
+            $result = $validator->validate(json_decode($json_content), $schema);
+
+            if ($result->isValid()) {
                 $chapter_data = $decoded_chapter_data;
             } else {
-                error_log("NovelController: Invalid chapter index data in " . $chapter_index_path . ". Missing title or summary, or JSON decode error: " . json_last_error_msg());
+                $error_message = "NovelController: Validation error for " . $chapter_index_path . ": ";
+                foreach ($result->getErrors() as $error) {
+                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
+                }
+                error_log($error_message);
             }
         }
 
@@ -416,8 +482,21 @@ class NovelController {
         $json_content = file_get_contents($scene_json_path);
         $scene_data   = json_decode($json_content, true);
 
-        if (json_last_error() !== JSON_ERROR_NONE || !is_array($scene_data) || !isset($scene_data['Meta']['Title'])) {
-            error_log("NovelController: Invalid scene data in " . $scene_json_path . ". Missing expected structure or JSON decode error: " . json_last_error_msg() . ". Content: " . $json_content);
+        $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/scene_content_schema.json';
+        $schema_content = file_get_contents($schema_path);
+        $schema = json_decode($schema_content);
+
+        $validator = new Validator();
+        $result = $validator->validate(json_decode($json_content), $schema);
+
+        if ($result->isValid()) {
+            // Data is valid, proceed
+        } else {
+            $error_message = "NovelController: Validation error for " . $scene_json_path . ": ";
+            foreach ($result->getErrors() as $error) {
+                $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
+            }
+            error_log($error_message);
             $f3->error(500, 'Error reading scene data or invalid scene structure.');
             return;
         }

@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Arcs List Schema",
+    "description": "Schema for the arcs.json file within a novel's root directory, listing all arcs.",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": ["title", "slug"],
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "The title of the story arc."
+            },
+            "slug": {
+                "type": "string",
+                "description": "A URL-friendly identifier for the story arc."
+            },
+            "description": {
+                "type": "string",
+                "description": "A brief description of the arc."
+            }
+        }
+    }
+}

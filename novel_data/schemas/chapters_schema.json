@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Chapters List Schema",
+    "description": "Schema for the chapters.json file within an arc's root directory, listing all chapters.",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": ["title", "slug"],
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "The title of the chapter."
+            },
+            "slug": {
+                "type": "string",
+                "description": "A URL-friendly identifier for the chapter."
+            },
+            "summary": {
+                "type": "string",
+                "description": "A brief summary of the chapter."
+            }
+        }
+    }
+}

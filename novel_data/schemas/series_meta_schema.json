@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Series Meta Schema",
+    "description": "Schema for the series_meta.json file, defining the structure of the novel universe and series.",
+    "type": "object",
+    "required": ["universe_name", "series"],
+    "properties": {
+        "universe_name": {
+            "type": "string",
+            "description": "The name of the overarching novel universe."
+        },
+        "series": {
+            "type": "array",
+            "description": "A list of novel series within the universe.",
+            "items": {
+                "type": "object",
+                "required": ["title", "slug", "description"],
+                "properties": {
+                    "title": {
+                        "type": "string",
+                        "description": "The title of the novel series."
+                    },
+                    "slug": {
+                        "type": "string",
+                        "description": "A URL-friendly identifier for the novel series."
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "A brief description or logline for the novel series."
+                    },
+                    "arcs": {
+                        "type": "array",
+                        "description": "A list of story arcs within the novel series (optional).",
+                        "items": {
+                            "type": "object",
+                            "required": ["title", "slug", "url"],
+                            "properties": {
+                                "title": {
+                                    "type": "string",
+                                    "description": "The title of the story arc."
+                                },
+                                "slug": {
+                                    "type": "string",
+                                    "description": "A URL-friendly identifier for the story arc."
+                                },
+                                "url": {
+                                    "type": "string",
+                                    "format": "uri",
+                                    "description": "The URL to the story arc."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

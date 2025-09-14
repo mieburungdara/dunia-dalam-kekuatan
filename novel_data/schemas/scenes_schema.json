@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Scenes List Schema",
+    "description": "Schema for the scenes.json file within a chapter's root directory, listing all scenes.",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": ["slug", "title"],
+        "properties": {
+            "slug": {
+                "type": "string",
+                "description": "A URL-friendly identifier for the scene."
+            },
+            "title": {
+                "type": "string",
+                "description": "The title of the scene."
+            },
+            "pov_character_id": {
+                "type": "string",
+                "description": "The ID of the Point of View character for this scene (optional)."
+            },
+            "summary": {
+                "type": "string",
+                "description": "A brief summary of the scene (optional)."
+            }
+        }
+    }
+}

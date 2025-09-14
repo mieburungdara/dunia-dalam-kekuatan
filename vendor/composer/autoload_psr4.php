@@ -8,6 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'Seld\\JsonLint\\' => array($vendorDir . '/seld/jsonlint/src/Seld/JsonLint'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
+    'Opis\\Uri\\' => array($vendorDir . '/opis/uri/src'),
+    'Opis\\String\\' => array($vendorDir . '/opis/string/src'),
+    'Opis\\JsonSchema\\' => array($vendorDir . '/opis/json-schema/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
+    'App\\' => array($baseDir . '/app'),
 );
