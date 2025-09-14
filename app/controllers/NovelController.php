@@ -1,6 +1,7 @@
 <?php
 
 use Opis\JsonSchema\Validator;
+use App\Helpers\SchemaLoader;
 
 class NovelController {
 
@@ -15,9 +16,11 @@ class NovelController {
             $decoded_series_meta = json_decode($json_content, true);
 
             if (json_last_error() === JSON_ERROR_NONE && is_array($decoded_series_meta)) {
-                $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/series_meta_schema.json';
-                $schema_content = file_get_contents($schema_path);
-                $schema = json_decode($schema_content);
+                $schema = SchemaLoader::loadSchema('series_meta_schema', $f3);
+                if ($schema === null) {
+                    $f3->error(500, 'Failed to load schema for series_meta.json.');
+                    return;
+                }
 
                 $validator = new Validator();
                 $result = $validator->validate($decoded_series_meta, $schema);
@@ -35,13 +38,19 @@ class NovelController {
                         $novels[] = $novel_entry;
                     }
                 } else {
-                    $error_message = "NovelController: Validation error for " . $series_meta_json_path . ": ";
-                    foreach ($result->getErrors() as $error) {
-                        $error_message .= $error->message . " at " . implode("/", $error->dataPointer) . "; ";
-                    }
-                    error_log($error_message);
-                    // Optionally, handle this more gracefully for the user, e.g., display a generic error
-                    // For now, we'll just log and proceed with an empty novel list.
+                    } else {
+                    $error_details = (string)$result;
+                    error_log("NovelController: Validation error for " . $series_meta_json_path . ": " . $error_details);
+                    $view_data = [
+                        'error_details' => $error_details,
+                        'app_base_url' => $app_base_url,
+                        'BASE' => $f3->get('BASE')
+                    ];
+                    extract($view_data);
+                    include $f3->get('ROOT') . '/application/views/templates/header.php';
+                    include $f3->get('ROOT') . '/application/views/validation_error_view.php';
+                    include $f3->get('ROOT') . '/application/views/templates/footer.php';
+                    return;
                 }
             } else {
                 error_log("NovelController: JSON decode error for " . $series_meta_json_path . ": " . json_last_error_msg());
@@ -81,9 +90,11 @@ class NovelController {
                 }
                 $decoded_novel_data = json_decode($json_content, true);
                 
-                $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/novel_index_schema.json';
-                $schema_content = file_get_contents($schema_path);
-                $schema = json_decode($schema_content);
+                $schema = SchemaLoader::loadSchema('novel_index_schema', $f3);
+                if ($schema === null) {
+                    $f3->error(500, 'Failed to load schema for novel_index.json.');
+                    return;
+                }
                 
                 $validator = new Validator();
                 $result = $validator->validate(json_decode($json_content), $schema);
@@ -91,12 +102,17 @@ class NovelController {
                 if ($result->isValid()) {
                     $novel_data = $decoded_novel_data;
                 } else {
-                    $error_message = "NovelController: Validation error for " . $novel_index_path . ": ";
-                    foreach ($result->getErrors() as $error) {
-                        $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
-                    }
-                    error_log($error_message);
-                    $f3->error(500, 'Invalid novel data structure.');
+                    $error_details = (string)$result;
+                    error_log("NovelController: Validation error for " . $novel_index_path . ": " . $error_details);
+                    $view_data = [
+                        'error_details' => $error_details,
+                        'app_base_url' => $app_base_url,
+                        'BASE' => $f3->get('BASE')
+                    ];
+                    extract($view_data);
+                    include $f3->get('ROOT') . '/application/views/templates/header.php';
+                    include $f3->get('ROOT') . '/application/views/validation_error_view.php';
+                    include $f3->get('ROOT') . '/application/views/templates/footer.php';
                     return;
                 }
             } else {
@@ -166,9 +182,11 @@ class NovelController {
             $json_content = file_get_contents($arcs_json_path);
             $decoded_arcs = json_decode($json_content, true);
 
-            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/arcs_schema.json';
-            $schema_content = file_get_contents($schema_path);
-            $schema = json_decode($schema_content);
+            $schema = SchemaLoader::loadSchema('arcs_schema', $f3);
+            if ($schema === null) {
+                $f3->error(500, 'Failed to load schema for arcs.json.');
+                return;
+            }
 
             $validator = new Validator();
             $result = $validator->validate(json_decode($json_content), $schema);
@@ -178,12 +196,18 @@ class NovelController {
                     $arc_list[] = $arc_entry;
                 }
             } else {
-                $error_message = "NovelController: Validation error for " . $arcs_json_path . ": ";
-                foreach ($result->getErrors() as $error) {
-                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
-                }
-                error_log($error_message);
-                // Continue without arcs, don't fatal error
+                $error_details = (string)$result;
+                error_log("NovelController: Validation error for " . $arcs_json_path . ": " . $error_details);
+                $view_data = [
+                    'error_details' => $error_details,
+                    'app_base_url' => $app_base_url,
+                    'BASE' => $f3->get('BASE')
+                ];
+                extract($view_data);
+                include $f3->get('ROOT') . '/application/views/templates/header.php';
+                include $f3->get('ROOT') . '/application/views/validation_error_view.php';
+                include $f3->get('ROOT') . '/application/views/templates/footer.php';
+                return;
             }
         } else {
             error_log("NovelController: arcs.json DOES NOT exist at " . $arcs_json_path);
@@ -226,9 +250,11 @@ class NovelController {
             $json_content = file_get_contents($chapters_json_path);
             $decoded_chapters = json_decode($json_content, true);
 
-            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/chapters_schema.json';
-            $schema_content = file_get_contents($schema_path);
-            $schema = json_decode($schema_content);
+            $schema = SchemaLoader::loadSchema('chapters_schema', $f3);
+            if ($schema === null) {
+                $f3->error(500, 'Failed to load schema for chapters.json.');
+                return;
+            }
 
             $validator = new Validator();
             $result = $validator->validate(json_decode($json_content), $schema);
@@ -238,11 +264,18 @@ class NovelController {
                     $chapter_list[] = $chapter_entry;
                 }
             } else {
-                $error_message = "NovelController: Validation error for " . $chapters_json_path . ": ";
-                foreach ($result->getErrors() as $error) {
-                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
-                }
-                error_log($error_message);
+                $error_details = (string)$result;
+                error_log("NovelController: Validation error for " . $chapters_json_path . ": " . $error_details);
+                $view_data = [
+                    'error_details' => $error_details,
+                    'app_base_url' => $app_base_url,
+                    'BASE' => $f3->get('BASE')
+                ];
+                extract($view_data);
+                include $f3->get('ROOT') . '/application/views/templates/header.php';
+                include $f3->get('ROOT') . '/application/views/validation_error_view.php';
+                include $f3->get('ROOT') . '/application/views/templates/footer.php';
+                return;
             }
         } else {
             error_log("NovelController: chapters.json DOES NOT exist at " . $chapters_json_path);
@@ -254,9 +287,11 @@ class NovelController {
             $json_content = file_get_contents($arc_index_path);
             $decoded_arc_data = json_decode($json_content, true);
 
-            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/arc_index_schema.json';
-            $schema_content = file_get_contents($schema_path);
-            $schema = json_decode($schema_content);
+            $schema = SchemaLoader::loadSchema('arc_index_schema', $f3);
+            if ($schema === null) {
+                $f3->error(500, 'Failed to load schema for arc_index.json.');
+                return;
+            }
 
             $validator = new Validator();
             $result = $validator->validate(json_decode($json_content), $schema);
@@ -264,11 +299,18 @@ class NovelController {
             if ($result->isValid()) {
                 $arc_data = $decoded_arc_data;
             } else {
-                $error_message = "NovelController: Validation error for " . $arc_index_path . ": ";
-                foreach ($result->getErrors() as $error) {
-                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
-                }
-                error_log($error_message);
+                $error_details = (string)$result;
+                error_log("NovelController: Validation error for " . $arc_index_path . ": " . $error_details);
+                $view_data = [
+                    'error_details' => $error_details,
+                    'app_base_url' => $app_base_url,
+                    'BASE' => $f3->get('BASE')
+                ];
+                extract($view_data);
+                include $f3->get('ROOT') . '/application/views/templates/header.php';
+                include $f3->get('ROOT') . '/application/views/validation_error_view.php';
+                include $f3->get('ROOT') . '/application/views/templates/footer.php';
+                return;
             }
         }
 
@@ -301,9 +343,11 @@ class NovelController {
             $json_content = file_get_contents($scenes_json_path);
             $decoded_scenes = json_decode($json_content, true);
 
-            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/scenes_schema.json';
-            $schema_content = file_get_contents($schema_path);
-            $schema = json_decode($schema_content);
+            $schema = SchemaLoader::loadSchema('scenes_schema', $f3);
+            if ($schema === null) {
+                $f3->error(500, 'Failed to load schema for scenes.json.');
+                return;
+            }
 
             $validator = new Validator();
             $result = $validator->validate(json_decode($json_content), $schema);
@@ -323,11 +367,18 @@ class NovelController {
                     $scene_list[] = $scene;
                 }
             } else {
-                $error_message = "NovelController: Validation error for " . $scenes_json_path . ": ";
-                foreach ($result->getErrors() as $error) {
-                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
-                }
-                error_log($error_message);
+                $error_details = (string)$result;
+                error_log("NovelController: Validation error for " . $scenes_json_path . ": " . $error_details);
+                $view_data = [
+                    'error_details' => $error_details,
+                    'app_base_url' => $app_base_url,
+                    'BASE' => $f3->get('BASE')
+                ];
+                extract($view_data);
+                include $f3->get('ROOT') . '/application/views/templates/header.php';
+                include $f3->get('ROOT') . '/application/views/validation_error_view.php';
+                include $f3->get('ROOT') . '/application/views/templates/footer.php';
+                return;
             }
         } else {
             error_log("NovelController: scenes.json DOES NOT exist at " . $scenes_json_path);
@@ -339,9 +390,11 @@ class NovelController {
             $json_content = file_get_contents($chapter_index_path);
             $decoded_chapter_data = json_decode($json_content, true);
 
-            $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/chapter_index_schema.json';
-            $schema_content = file_get_contents($schema_path);
-            $schema = json_decode($schema_content);
+            $schema = SchemaLoader::loadSchema('chapter_index_schema', $f3);
+            if ($schema === null) {
+                $f3->error(500, 'Failed to load schema for chapter_index.json.');
+                return;
+            }
 
             $validator = new Validator();
             $result = $validator->validate(json_decode($json_content), $schema);
@@ -349,11 +402,18 @@ class NovelController {
             if ($result->isValid()) {
                 $chapter_data = $decoded_chapter_data;
             } else {
-                $error_message = "NovelController: Validation error for " . $chapter_index_path . ": ";
-                foreach ($result->getErrors() as $error) {
-                    $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
-                }
-                error_log($error_message);
+                $error_details = (string)$result;
+                error_log("NovelController: Validation error for " . $chapter_index_path . ": " . (string)$result);
+                $view_data = [
+                    'error_details' => $error_details,
+                    'app_base_url' => $app_base_url,
+                    'BASE' => $f3->get('BASE')
+                ];
+                extract($view_data);
+                include $f3->get('ROOT') . '/application/views/templates/header.php';
+                include $f3->get('ROOT') . '/application/views/validation_error_view.php';
+                include $f3->get('ROOT') . '/application/views/templates/footer.php';
+                return;
             }
         }
 
@@ -482,9 +542,11 @@ class NovelController {
         $json_content = file_get_contents($scene_json_path);
         $scene_data   = json_decode($json_content, true);
 
-        $schema_path = $f3->get('ROOT') . $f3->get('BASE') . '/novel_data/schemas/scene_content_schema.json';
-        $schema_content = file_get_contents($schema_path);
-        $schema = json_decode($schema_content);
+        $schema = SchemaLoader::loadSchema('scene_content_schema', $f3);
+        if ($schema === null) {
+            $f3->error(500, 'Failed to load schema for scene_content.json.');
+            return;
+        }
 
         $validator = new Validator();
         $result = $validator->validate(json_decode($json_content), $schema);
@@ -492,12 +554,17 @@ class NovelController {
         if ($result->isValid()) {
             // Data is valid, proceed
         } else {
-            $error_message = "NovelController: Validation error for " . $scene_json_path . ": ";
-            foreach ($result->getErrors() as $error) {
-                $error_message .= $error->message . " at /" . implode("/", $error->dataPointer) . "; ";
-            }
-            error_log($error_message);
-            $f3->error(500, 'Error reading scene data or invalid scene structure.');
+            $error_details = (string)$result;
+            error_log("NovelController: Validation error for " . $scene_json_path . ": " . $error_details);
+            $view_data = [
+                'error_details' => $error_details,
+                'app_base_url' => $app_base_url,
+                'BASE' => $f3->get('BASE')
+            ];
+            extract($view_data);
+            include $f3->get('ROOT') . '/application/views/templates/header.php';
+            include $f3->get('ROOT') . '/application/views/validation_error_view.php';
+            include $f3->get('ROOT') . '/application/views/templates/footer.php';
             return;
         }
 
