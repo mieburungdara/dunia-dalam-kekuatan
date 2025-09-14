@@ -3,17 +3,11 @@
 // Muat autoloader Composer
 require_once 'vendor/autoload.php';
 
-// Explicitly include NovelController for debugging
-
+// Muat konfigurasi aplikasi
+require_once 'app/config.php';
 
 // Inisialisasi framework
 $f3 = \Base::instance();
-$f3->set('BASE','');
-$f3->set('SCHEME', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http'));
-$f3->set('HOST', $_SERVER['HTTP_HOST']);
-
-// Set a global application base URL
-$app_base_url = $f3->get('SCHEME').'://'.$f3->get('HOST').$f3->get('BASE');
 
 // Definisikan fungsi helper untuk kompatibilitas
 if (!function_exists('base_url')) {
@@ -22,15 +16,6 @@ if (!function_exists('base_url')) {
         return rtrim($f3->get('SCHEME').'://'.$f3->get('HOST').$f3->get('BASE'), '/') . '/' . ltrim($path, '/');
     }
 }
-
-// Konfigurasi
-$f3->set('DEBUG', 3);
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
-// Konfigurasi
-$f3->set('UI', 'application/views/'); // Beri tahu F3 di mana folder view berada
-$f3->set('AUTOLOAD', 'app/'); // Tambahkan folder app ke autoloader
 
 // Rute untuk Novel
 $f3->route('GET /novel', '\App\Controllers\NovelController->list_novels');
