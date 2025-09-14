@@ -4,8 +4,7 @@
 require_once 'vendor/autoload.php';
 
 // Explicitly include NovelController for debugging
-require_once 'app/controllers/NovelController.php';
-require_once 'app/controllers/FaqController.php';
+
 
 // Inisialisasi framework
 $f3 = \Base::instance();
